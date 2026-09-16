@@ -525,16 +525,113 @@
           w("ขอบคุณมากค่ะ", "khɔ̀ɔp-khun mâak khâ", "Thank you very much (female)", T.low)
         ]}
       ]
+    },
+    {
+      id: "classifiers", title: "Numbers & Classifiers", tagline: "Thai counts people, animals, and objects with different \"counter\" words — a whole system of its own.",
+      lessons: [
+        { id: "cls-l1", title: "Counting people & animals", words: [
+          w("คน", "khon", "Classifier for people", T.mid, { accept: ["classifier for people", "people classifier"] }),
+          w("ตัว", "tua", "Classifier for animals", T.mid, { accept: ["classifier for animals", "animal classifier"] }),
+          w("กี่คน", "kìi khon", "How many people?", T.low),
+          w("สองคน", "sɔ̌ɔng khon", "Two people", T.rising),
+          w("สามตัว", "sǎam tua", "Three animals", T.rising)
+        ]},
+        { id: "cls-l2", title: "Counting objects", words: [
+          w("อัน", "an", "Classifier for small objects", T.mid, { accept: ["classifier for small objects", "small object classifier"] }),
+          w("ใบ", "bai", "Classifier for round/flat objects", T.mid, { accept: ["classifier for round or flat objects", "round or flat object classifier"] }),
+          w("ชิ้น", "chín", "Classifier for pieces", T.high, { accept: ["classifier for pieces", "piece classifier"] }),
+          w("ขวด", "khùat", "Classifier for bottles", T.low, { accept: ["classifier for bottles", "bottle classifier"] }),
+          w("แก้ว", "kɛ̂ɛo", "Classifier for glasses/cups", T.falling, { accept: ["classifier for glasses", "classifier for cups", "glass or cup classifier"] })
+        ]}
+      ]
+    },
+    {
+      id: "routine", title: "Daily Routine", tagline: "The verbs and time words behind an ordinary day.",
+      lessons: [
+        { id: "rtn-l1", title: "Morning to night", words: [
+          w("ตื่นนอน", "tʉ̀ʉn-nɔɔn", "Wake up", T.low),
+          w("อาบน้ำ", "àap-náam", "Shower / bathe", T.low),
+          w("แปรงฟัน", "prɛɛng-fan", "Brush teeth", T.mid),
+          w("กินข้าวเช้า", "kin khâao cháao", "Eat breakfast", T.mid),
+          w("ไปทำงาน", "pai tham-ngaan", "Go to work", T.mid),
+          w("นอน", "nɔɔn", "Sleep", T.mid)
+        ]},
+        { id: "rtn-l2", title: "What time is it?", words: [
+          w("กี่โมง", "kìi-moong", "What time?", T.low),
+          w("ตอนเช้า", "tɔɔn cháao", "In the morning", T.mid),
+          w("ตอนบ่าย", "tɔɔn bàai", "In the afternoon", T.low),
+          w("ตอนเย็น", "tɔɔn yen", "In the evening", T.mid),
+          w("ตอนกลางคืน", "tɔɔn klaang-khʉʉn", "At night", T.mid)
+        ]}
+      ]
+    },
+    {
+      id: "tense", title: "Talking About Time", tagline: "The small words that turn a verb into future, ongoing, or already-done.",
+      lessons: [
+        { id: "tns-l1", title: "Future & happening now", words: [
+          w("จะ", "jà", "Will / going to", T.low),
+          w("กำลัง", "kam-lang", "Currently -ing", T.mid),
+          w("จะไป", "jà pai", "Will go", T.low),
+          w("กำลังกิน", "kam-lang kin", "Is eating", T.mid)
+        ]},
+        { id: "tns-l2", title: "Already & never", words: [
+          w("แล้ว", "lɛ́ɛo", "Already", T.high),
+          w("ยังไม่", "yang mâi", "Not yet", T.mid),
+          w("เคย", "khooei", "Have ever (done something)", T.mid),
+          w("ไม่เคย", "mâi khooei", "Have never", T.mid),
+          w("กินแล้ว", "kin lɛ́ɛo", "Already ate", T.high)
+        ]}
+      ]
+    },
+    {
+      id: "compare", title: "Comparisons", tagline: "More than, less than, and the best — in Thai word order.",
+      lessons: [
+        { id: "cmp-l1", title: "More, less, most", words: [
+          w("กว่า", "kwàa", "More than", T.low),
+          w("ที่สุด", "thîi-sùt", "The most", T.low),
+          w("น้อยกว่า", "nɔ́ɔi kwàa", "Less than", T.high),
+          w("ดีกว่า", "dii kwàa", "Better", T.mid),
+          w("ดีที่สุด", "dii thîi-sùt", "The best", T.mid),
+          w("เหมือนกัน", "mʉ̌an-kan", "The same", T.rising)
+        ]}
+      ]
+    },
+    {
+      id: "restaurant", title: "At the Restaurant", tagline: "Order, adjust the spice, and ask for the check.",
+      lessons: [
+        { id: "res-l1", title: "Ordering food", words: [
+          w("ขอเมนู", "khɔ̌ɔ mee-nuu", "Menu, please", T.rising),
+          w("เผ็ด", "phèt", "Spicy", T.low),
+          w("ไม่เผ็ด", "mâi phèt", "Not spicy", T.falling),
+          w("มังสวิรัติ", "mang-sà-wí-rát", "Vegetarian", T.mid),
+          w("เก็บเงินด้วย", "kèp ngoen dûai", "Check, please", T.low),
+          w("อร่อยมาก", "à-ròi mâak", "Very delicious", T.low)
+        ]}
+      ]
+    },
+    {
+      id: "plans", title: "Making Plans", tagline: "Arranging to meet up — the hardest, most useful conversation of all.",
+      lessons: [
+        { id: "pln-l1", title: "Are you free?", words: [
+          w("ว่าง", "wâang", "Free / available", T.falling),
+          w("ไม่ว่าง", "mâi wâang", "Busy", T.falling),
+          w("นัด", "nát", "Arrange to meet", T.high),
+          w("ไปด้วยกัน", "pai dûai kan", "Go together", T.mid),
+          w("อยาก...ไหม", "yàak...mǎi", "Do you want to...?", T.low),
+          w("พรุ่งนี้ตอนเย็น", "phrûng-níi tɔɔn yen", "Tomorrow evening", T.high)
+        ]}
+      ]
     }
   ];
 
   var TONE_LABEL = { mid: "mid tone", low: "low tone", falling: "falling tone", high: "high tone", rising: "rising tone" };
 
-  /* difficulty tiers by group index: 0=recognition only, 1=+listening/matching, 2=+typing */
+  /* difficulty tiers by group index: 1=recognition only, 2=+listening/matching, 3=+typing, 4=+listen-and-type */
   function tierFor(groupIndex) {
     if (groupIndex <= 3) return 1;
     if (groupIndex <= 7) return 2;
-    return 3;
+    if (groupIndex <= 13) return 3;
+    return 4;
   }
 
   /* =========================================================
@@ -687,6 +784,11 @@
         queue.push({ type: "type-en", word: word });
       });
     }
+    if (tier >= 4 && thaiVoice) {
+      shuffle(lesson.words).slice(0, Math.min(2, lesson.words.length)).forEach(function (word) {
+        queue.push({ type: "listen-type", word: word });
+      });
+    }
 
     queue = shuffle(queue);
     if (lesson.words.length >= 3) queue.push({ type: "match", words: lesson.words });
@@ -806,10 +908,14 @@
       html += '<div class="exercise-kicker">Type the English meaning</div>';
       html += '<div class="prompt-word thai">' + ex.word.thai + "</div>";
       html += '<div class="prompt-roman">' + escapeHtml(ex.word.roman) + "</div>";
+    } else if (ex.type === "listen-type") {
+      html += '<div class="exercise-kicker">Listen, then type what it means</div>';
+      html += '<div class="prompt-word thai" style="opacity:.15">???</div>';
+      html += '<div class="speak-row"><button type="button" class="speak-btn" id="listen-play">🔊 Play again</button></div>';
     }
     html += "</div>";
 
-    if (ex.type === "type-en") {
+    if (ex.type === "type-en" || ex.type === "listen-type") {
       html += '<div class="type-row"><input id="type-input" type="text" autocomplete="off" placeholder="Type your answer…" /></div>';
     } else {
       html += '<div class="option-grid" id="option-grid">';
@@ -832,13 +938,13 @@
     var checkBtn = document.getElementById("check-btn");
     var chosen = null;
 
-    if (ex.type === "listen") {
+    if (ex.type === "listen" || ex.type === "listen-type") {
       var playIt = function () { say(ex.word.thai, thaiVoice); };
       document.getElementById("listen-play").addEventListener("click", playIt);
       setTimeout(playIt, 250);
     }
 
-    if (ex.type === "type-en") {
+    if (ex.type === "type-en" || ex.type === "listen-type") {
       var input = document.getElementById("type-input");
       input.addEventListener("input", function () {
         checkBtn.disabled = input.value.trim().length === 0;
@@ -863,7 +969,7 @@
     checkBtn.addEventListener("click", function () {
       if (checkBtn.disabled) return;
       var isCorrect;
-      if (ex.type === "type-en") {
+      if (ex.type === "type-en" || ex.type === "listen-type") {
         var val = normalize(document.getElementById("type-input").value);
         var accepted = (ex.word.accept || []).map(normalize).concat([normalize(ex.word.en)]);
         isCorrect = accepted.indexOf(val) !== -1;
