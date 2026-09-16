@@ -1041,10 +1041,15 @@
   ========================================================= */
   var dashboardEl = document.getElementById("dashboard-view");
 
-  function renderDashboard() {
+  function updateStatPills() {
     var p = progress();
     document.getElementById("stat-streak").textContent = "🔥 " + p.streak;
     document.getElementById("stat-xp").textContent = "✦ " + p.xp + " XP";
+  }
+
+  function renderDashboard() {
+    var p = progress();
+    updateStatPills();
 
     var html = "";
     GROUPS.forEach(function (group, gi) {
@@ -1320,6 +1325,7 @@
     p.xp += s.xp;
     p = bumpStreak(p);
     saveProgress(state.profile, p);
+    updateStatPills();
 
     showView("summary");
     summaryEl.innerHTML =
