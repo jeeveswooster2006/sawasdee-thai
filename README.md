@@ -10,11 +10,12 @@ Everything works offline after the first load. The only thing that needs the int
 
 ## What's inside
 
-- **20 units, 33 lessons**, roughly beginner → elementary:
+- **26 units, 42 lessons**, roughly beginner → intermediate:
   - **Beginner**: greetings, numbers, family, colors & shapes, food & drink, everyday phrases, time & days, places & directions, shopping, travel, weather, feelings & health, and full sentences.
   - **Elementary**: classifiers (Thai's "counter word" system), daily routine & time-of-day, tense markers (จะ / กำลัง / แล้ว / เคย), comparisons, ordering at a restaurant, and making plans.
-- **Gets harder as you go**: early units are simple multiple-choice recognition; the middle units add listening challenges and a matching round; later units add typing exercises and full sentences; the elementary units add listen-and-type challenges with no text shown at all.
-- More units (intermediate → advanced) are being added in stages — check back for updates.
+  - **Intermediate**: connectors (and/but/because/if), giving directions in full sentences, describing people, work & occupations, short back-and-forth conversations, and health/emergency phrases.
+- **Gets harder as you go**: early units are simple multiple-choice recognition; the middle units add listening challenges and a matching round; later units add typing exercises and full sentences; elementary-and-up units add listen-and-type challenges with no text shown at all.
+- More units (upper-intermediate → advanced) are being added in stages — check back for updates.
 - **Hearts & XP**, like Duolingo: 5 hearts per lesson, lose one per mistake, run out and you retry; earn XP and stars (1–3) per lesson, plus a day streak.
 - **Two profiles** — Dad and Son buttons in the top bar — each with completely separate progress, saved on this PC via the browser's local storage.
 - **Audio both ways** — Thai and English text-to-speech, when your browser has a matching voice installed.
