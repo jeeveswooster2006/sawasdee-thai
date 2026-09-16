@@ -1,0 +1,1039 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sawasdee Thai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800&family=Work+Sans:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@500;600;700&display=swap" />
+<style>
+  :root {
+    --paper: #f6efe0;
+    --paper-raised: #fffaf0;
+    --paper-sunken: #ece2c9;
+    --ink: #241b12;
+    --ink-soft: #6b5a44;
+    --ink-faint: #a5926f;
+    --gold: #b3801f;
+    --gold-soft: #e4c07f;
+    --teal: #145952;
+    --teal-soft: #cfe4e0;
+    --terracotta: #b5502f;
+    --terracotta-soft: #f0d2c3;
+    --rule: #ddceac;
+    --heart: #c23b3b;
+    --shadow: 25 20% 12%;
+    --tone-mid: #6b5a44;
+    --tone-low: #145952;
+    --tone-falling: #b5502f;
+    --tone-high: #a3862e;
+    --tone-rising: #7a4fa0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1a1611; --paper-raised: #241f18; --paper-sunken: #14110d;
+      --ink: #f2e9d6; --ink-soft: #c8b795; --ink-faint: #8a7a5c;
+      --gold: #e0ab4a; --gold-soft: #6b5223; --teal: #5fc2b4; --teal-soft: #203732;
+      --terracotta: #e2895e; --terracotta-soft: #3f2a20; --rule: #3c3324; --heart: #e2645e;
+      --tone-mid: #c8b795; --tone-low: #5fc2b4; --tone-falling: #e2895e; --tone-high: #e0ab4a; --tone-rising: #b592e0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1a1611; --paper-raised: #241f18; --paper-sunken: #14110d;
+    --ink: #f2e9d6; --ink-soft: #c8b795; --ink-faint: #8a7a5c;
+    --gold: #e0ab4a; --gold-soft: #6b5223; --teal: #5fc2b4; --teal-soft: #203732;
+    --terracotta: #e2895e; --terracotta-soft: #3f2a20; --rule: #3c3324; --heart: #e2645e;
+    --tone-mid: #c8b795; --tone-low: #5fc2b4; --tone-falling: #e2895e; --tone-high: #e0ab4a; --tone-rising: #b592e0;
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Work Sans", "Leelawadee UI", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: "Fraunces", Georgia, serif; text-wrap: balance; margin: 0; }
+  .thai { font-family: "Noto Sans Thai", "Leelawadee UI", "Fraunces", serif; font-weight: 600; }
+  button { font-family: inherit; }
+  [hidden] { display: none !important; }
+  @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; } }
+
+  /* ---------- Top bar ---------- */
+  #topbar {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; gap: 14px;
+    padding: 12px 20px; background: var(--paper-raised); border-bottom: 1px solid var(--rule);
+    flex-wrap: wrap;
+  }
+  #topbar .brand { font-family: "Fraunces", serif; font-weight: 700; color: var(--teal); font-size: 1.15rem; display: flex; align-items: center; gap: 8px; }
+  #topbar .brand .thai { font-size: 1.3rem; }
+  #topbar .spacer { flex: 1; }
+  .stat-pill {
+    display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 0.88rem;
+    padding: 6px 12px; border-radius: 999px; background: var(--paper-sunken); color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-pill.streak { color: var(--terracotta); }
+  .stat-pill.xp { color: var(--gold); }
+  .stat-pill.hearts { color: var(--heart); }
+  .profiles { display: flex; gap: 6px; }
+  .profile-btn {
+    font-weight: 700; font-size: 0.85rem; padding: 7px 14px; border-radius: 999px;
+    border: 1.5px solid var(--rule); background: var(--paper-raised); color: var(--ink-soft); cursor: pointer;
+  }
+  .profile-btn[aria-pressed="true"] { border-color: var(--teal); color: var(--teal); background: var(--teal-soft); }
+  .profile-btn:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+
+  .wrap { max-width: 880px; margin: 0 auto; padding: 28px 20px 80px; }
+
+  /* ---------- Dashboard / path ---------- */
+  .group-block { margin-bottom: 40px; }
+  .group-head { text-align: center; margin-bottom: 22px; }
+  .group-head .eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--terracotta); font-weight: 700; }
+  .group-head h2 { font-size: 1.5rem; margin-top: 4px; }
+  .group-head p { color: var(--ink-soft); font-size: 0.92rem; max-width: 46ch; margin: 6px auto 0; }
+  .group-block.locked { opacity: 0.5; }
+
+  .path { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .path-row { display: flex; justify-content: center; }
+  .node-btn {
+    width: 76px; height: 76px; border-radius: 50%; border: none; cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+    background: var(--paper-sunken); color: var(--ink-faint); box-shadow: 0 4px 0 var(--rule);
+    position: relative; font-weight: 800;
+  }
+  .node-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--rule); }
+  .node-btn .num { font-size: 1.3rem; font-family: "Fraunces", serif; }
+  .node-btn .stars-mini { font-size: 0.62rem; letter-spacing: 1px; }
+  .node-btn.unlocked { background: var(--teal-soft); color: var(--teal); box-shadow: 0 4px 0 var(--teal); }
+  .node-btn.current { background: var(--gold-soft); color: var(--gold); box-shadow: 0 4px 0 var(--gold); animation: pulse 1.8s ease-in-out infinite; }
+  .node-btn.done { background: var(--teal); color: var(--paper-raised); box-shadow: 0 4px 0 var(--teal-soft); }
+  .node-btn.locked { cursor: not-allowed; }
+  .node-btn:disabled { cursor: not-allowed; }
+  @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+  .node-label { font-size: 0.72rem; color: var(--ink-soft); text-align: center; max-width: 90px; margin-bottom: 8px; }
+
+  /* ---------- Lesson runner ---------- */
+  #lesson-view { max-width: 560px; margin: 0 auto; padding: 22px 20px 60px; }
+  .lesson-topbar { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
+  .exit-btn { background: none; border: none; color: var(--ink-faint); font-size: 1.4rem; cursor: pointer; line-height: 1; padding: 4px; }
+  .progress-track { flex: 1; height: 12px; border-radius: 999px; background: var(--paper-sunken); overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--teal); border-radius: 999px; transition: width 0.35s ease; }
+  .hearts-live { display: flex; gap: 3px; font-size: 1.1rem; color: var(--heart); }
+  .hearts-live span.spent { opacity: 0.25; }
+
+  .exercise-prompt { text-align: center; margin-bottom: 22px; }
+  .exercise-kicker { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-faint); font-weight: 700; margin-bottom: 10px; }
+  .prompt-word { font-size: clamp(1.8rem, 8vw, 2.4rem); color: var(--teal); }
+  .prompt-en { font-family: "Fraunces", serif; font-size: 1.7rem; }
+  .prompt-roman { color: var(--ink-soft); font-size: 1.05rem; margin-top: 4px; }
+  .speak-row { margin-top: 12px; }
+  .speak-btn {
+    border: 1.5px solid var(--rule); background: var(--paper-raised); color: var(--ink); border-radius: 999px;
+    padding: 8px 16px; font-weight: 700; font-size: 0.85rem; cursor: pointer;
+  }
+  .speak-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .option-grid { display: grid; gap: 10px; }
+  .option-btn {
+    font: inherit; font-size: 1.02rem; text-align: left; padding: 15px 18px;
+    border-radius: 14px; border: 1.5px solid var(--rule); background: var(--paper-raised); color: var(--ink);
+    cursor: pointer;
+  }
+  .option-btn:hover:not(:disabled) { border-color: var(--teal); }
+  .option-btn.correct { border-color: var(--teal); background: var(--teal-soft); }
+  .option-btn.wrong { border-color: var(--heart); background: color-mix(in srgb, var(--heart) 14%, var(--paper)); }
+  .option-btn:disabled { cursor: default; }
+
+  .type-row { display: flex; gap: 10px; margin-top: 6px; }
+  #type-input {
+    flex: 1; font: inherit; font-size: 1.05rem; padding: 13px 16px; border-radius: 12px;
+    border: 1.5px solid var(--rule); background: var(--paper-raised); color: var(--ink);
+  }
+  #type-input.correct { border-color: var(--teal); }
+  #type-input.wrong { border-color: var(--heart); }
+
+  .check-btn {
+    display: block; width: 100%; margin-top: 22px; padding: 15px; border-radius: 14px; border: none;
+    background: var(--gold-soft); color: var(--ink); font-weight: 800; font-size: 1rem; cursor: not-allowed; opacity: 0.6;
+  }
+  .check-btn.ready { background: var(--teal); color: var(--paper-raised); cursor: pointer; opacity: 1; }
+  .feedback-banner {
+    margin-top: 18px; padding: 14px 16px; border-radius: 12px; font-weight: 700; text-align: center;
+  }
+  .feedback-banner.good { background: var(--teal-soft); color: var(--teal); }
+  .feedback-banner.bad { background: var(--terracotta-soft); color: var(--terracotta); }
+  .feedback-answer { display: block; font-weight: 500; margin-top: 4px; font-size: 0.9rem; }
+
+  /* match round */
+  .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 16px; }
+  .match-tile {
+    font: inherit; font-size: 0.98rem; padding: 13px 10px; border-radius: 12px; border: 1.5px solid var(--rule);
+    background: var(--paper-raised); color: var(--ink); cursor: pointer; text-align: center;
+  }
+  .match-tile.selected { border-color: var(--gold); background: var(--gold-soft); }
+  .match-tile.solved { border-color: var(--teal); background: var(--teal-soft); opacity: 0.6; cursor: default; }
+  .match-tile.shake { animation: shake 0.35s; border-color: var(--heart); }
+  @keyframes shake { 0%,100%{transform:translateX(0);} 25%{transform:translateX(-6px);} 75%{transform:translateX(6px);} }
+
+  /* ---------- Summary screen ---------- */
+  #summary-view { max-width: 480px; margin: 60px auto; text-align: center; padding: 0 20px; }
+  #summary-view .stars-big { font-size: 2.6rem; color: var(--gold); letter-spacing: 6px; margin: 14px 0; }
+  #summary-view .xp-line { font-size: 1.1rem; color: var(--ink-soft); margin-bottom: 26px; }
+  .summary-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .big-btn {
+    padding: 14px 26px; border-radius: 14px; border: none; font-weight: 800; font-size: 1rem; cursor: pointer;
+  }
+  .big-btn.primary { background: var(--teal); color: var(--paper-raised); }
+  .big-btn.ghost { background: var(--paper-sunken); color: var(--ink); }
+
+  .confetti-piece {
+    position: fixed; top: -12px; width: 9px; height: 14px; border-radius: 2px; z-index: 50; pointer-events: none;
+    animation: fall linear forwards;
+  }
+  @keyframes fall { to { transform: translateY(110vh) rotate(540deg); opacity: 0.9; } }
+
+  footer.page { text-align: center; color: var(--ink-faint); font-size: 0.8rem; padding: 20px 20px 40px; }
+
+  @media (max-width: 480px) {
+    .node-btn { width: 64px; height: 64px; }
+    #topbar { padding: 10px 14px; gap: 8px; }
+    .match-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header id="topbar">
+  <div class="brand"><span class="thai">สวัสดี</span> Sawasdee Thai</div>
+  <div class="profiles" role="group" aria-label="Whose turn is it">
+    <button class="profile-btn" id="profile-dad" aria-pressed="true" type="button">Dad</button>
+    <button class="profile-btn" id="profile-son" aria-pressed="false" type="button">Son</button>
+  </div>
+  <div class="spacer"></div>
+  <div class="stat-pill streak" id="stat-streak" title="Day streak">🔥 0</div>
+  <div class="stat-pill xp" id="stat-xp" title="Total XP">✦ 0 XP</div>
+</header>
+
+<div id="dashboard-view" class="wrap"></div>
+
+<div id="lesson-view" hidden></div>
+
+<div id="summary-view" hidden></div>
+
+<footer class="page">Progress is saved on this PC, separately for Dad and Son. No internet required after the first load (fonts only).</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  /* =========================================================
+     CURRICULUM
+  ========================================================= */
+  var T = { mid: "mid", low: "low", falling: "falling", high: "high", rising: "rising" };
+
+  function w(thai, roman, en, tone, extra) {
+    var o = { thai: thai, roman: roman, en: en, tone: tone };
+    if (extra) for (var k in extra) o[k] = extra[k];
+    return o;
+  }
+
+  var GROUPS = [
+    {
+      id: "basics1", title: "Greetings", tagline: "The words you'll use every single day.",
+      lessons: [
+        { id: "b1-l1", title: "Hello & thanks", words: [
+          w("สวัสดี", "sa-wàt-dii", "Hello", T.falling, { accept: ["hello", "hi", "goodbye", "bye"] }),
+          w("ขอบคุณ", "khɔ̀ɔp-khun", "Thank you", T.low, { accept: ["thank you", "thanks"] }),
+          w("ใช่", "châi", "Yes", T.falling),
+          w("ไม่ใช่", "mâi châi", "No", T.falling),
+          w("ขอโทษ", "khɔ̌ɔ-thôot", "Sorry", T.rising, { accept: ["sorry", "excuse me"] }),
+          w("ไม่เป็นไร", "mâi-pen-rai", "No worries", T.mid, { accept: ["no worries", "you're welcome", "never mind"] })
+        ]},
+        { id: "b1-l2", title: "How are you?", words: [
+          w("สบายดีไหม", "sa-baai-dii mǎi", "How are you?", T.rising),
+          w("สบายดี", "sa-baai-dii", "I'm fine", T.mid, { accept: ["i'm fine", "im fine", "fine", "good"] }),
+          w("ยินดีที่ได้รู้จัก", "yin-dii thîi dâai rúu-jàk", "Nice to meet you", T.falling),
+          w("ครับ", "khráp", "Polite word (male)", T.high, { accept: ["polite word (male)", "polite particle male", "male polite word"] }),
+          w("ค่ะ", "khâ", "Polite word (female)", T.falling, { accept: ["polite word (female)", "polite particle female", "female polite word"] }),
+          w("ราตรีสวัสดิ์", "raa-trii sa-wàt", "Good night", T.falling)
+        ]}
+      ]
+    },
+    {
+      id: "numbers1", title: "Numbers 1–10", tagline: "Count on your fingers together.",
+      lessons: [
+        { id: "n1-l1", title: "One to five", words: [
+          w("หนึ่ง", "nùeng", "One", T.falling, { accept: ["one", "1"] }),
+          w("สอง", "sɔ̌ɔng", "Two", T.rising, { accept: ["two", "2"] }),
+          w("สาม", "sǎam", "Three", T.rising, { accept: ["three", "3"] }),
+          w("สี่", "sìi", "Four", T.low, { accept: ["four", "4"] }),
+          w("ห้า", "hâa", "Five", T.falling, { accept: ["five", "5"] })
+        ]},
+        { id: "n1-l2", title: "Six to ten", words: [
+          w("หก", "hòk", "Six", T.low, { accept: ["six", "6"] }),
+          w("เจ็ด", "jèt", "Seven", T.low, { accept: ["seven", "7"] }),
+          w("แปด", "pɛ̀ɛt", "Eight", T.low, { accept: ["eight", "8"] }),
+          w("เก้า", "kâo", "Nine", T.falling, { accept: ["nine", "9"] }),
+          w("สิบ", "sìp", "Ten", T.low, { accept: ["ten", "10"] })
+        ]}
+      ]
+    },
+    {
+      id: "numbers2", title: "Bigger Numbers", tagline: "Eleven, twenty, and counting by tens.",
+      lessons: [
+        { id: "n2-l1", title: "Eleven to fifteen", words: [
+          w("สิบเอ็ด", "sìp-èt", "Eleven", T.low, { accept: ["eleven", "11"] }),
+          w("สิบสอง", "sìp-sɔ̌ɔng", "Twelve", T.low, { accept: ["twelve", "12"] }),
+          w("สิบสาม", "sìp-sǎam", "Thirteen", T.low, { accept: ["thirteen", "13"] }),
+          w("สิบสี่", "sìp-sìi", "Fourteen", T.low, { accept: ["fourteen", "14"] }),
+          w("สิบห้า", "sìp-hâa", "Fifteen", T.low, { accept: ["fifteen", "15"] })
+        ]},
+        { id: "n2-l2", title: "Counting by tens", words: [
+          w("ยี่สิบ", "yîi-sìp", "Twenty", T.falling, { accept: ["twenty", "20"] }),
+          w("สามสิบ", "sǎam-sìp", "Thirty", T.rising, { accept: ["thirty", "30"] }),
+          w("สี่สิบ", "sìi-sìp", "Forty", T.low, { accept: ["forty", "40"] }),
+          w("ห้าสิบ", "hâa-sìp", "Fifty", T.falling, { accept: ["fifty", "50"] }),
+          w("ร้อย", "rɔ́ɔi", "One hundred", T.high, { accept: ["one hundred", "hundred", "100"] })
+        ]}
+      ]
+    },
+    {
+      id: "family", title: "Family", tagline: "Thai has a different word for older vs. younger siblings.",
+      lessons: [
+        { id: "fam-l1", title: "Close family", words: [
+          w("แม่", "mâe", "Mom", T.falling),
+          w("พ่อ", "phɔ̂ɔ", "Dad", T.falling),
+          w("พี่ชาย", "phîi chaai", "Older brother", T.falling),
+          w("น้องชาย", "nɔ́ɔng chaai", "Younger brother", T.high),
+          w("พี่สาว", "phîi sǎao", "Older sister", T.falling),
+          w("น้องสาว", "nɔ́ɔng sǎao", "Younger sister", T.high)
+        ]},
+        { id: "fam-l2", title: "Grandparents", words: [
+          w("ปู่", "pùu", "Grandfather (dad's side)", T.low),
+          w("ย่า", "yâa", "Grandmother (dad's side)", T.falling),
+          w("ตา", "taa", "Grandfather (mom's side)", T.mid),
+          w("ยาย", "yaai", "Grandmother (mom's side)", T.mid),
+          w("ครอบครัว", "khrɔ̂ɔp-khrua", "Family", T.falling),
+          w("ลูก", "lûuk", "Child / kid", T.falling)
+        ]}
+      ]
+    },
+    {
+      id: "colors", title: "Colors & Shapes", tagline: "Every color word starts with สี, meaning \"color.\"",
+      lessons: [
+        { id: "col-l1", title: "Colors", words: [
+          w("สีแดง", "sǐi dɛɛng", "Red", T.rising, { swatch: "#c0392b" }),
+          w("สีน้ำเงิน", "sǐi náam-ngoen", "Blue", T.rising, { swatch: "#1f5fa8" }),
+          w("สีเขียว", "sǐi khǐao", "Green", T.rising, { swatch: "#2f7d4f" }),
+          w("สีเหลือง", "sǐi lǔeang", "Yellow", T.rising, { swatch: "#e0b022" }),
+          w("สีดำ", "sǐi dam", "Black", T.rising, { swatch: "#1a1a1a" }),
+          w("สีขาว", "sǐi khǎao", "White", T.rising, { swatch: "#f5f5f0" })
+        ]},
+        { id: "col-l2", title: "Shapes", words: [
+          w("วงกลม", "wong-klom", "Circle", T.mid),
+          w("สี่เหลี่ยม", "sìi-lìam", "Square", T.low),
+          w("สามเหลี่ยม", "sǎam-lìam", "Triangle", T.rising),
+          w("ดาว", "daao", "Star", T.mid),
+          w("หัวใจ", "hǔa-jai", "Heart", T.rising)
+        ]}
+      ]
+    },
+    {
+      id: "food", title: "Food & Drink", tagline: "The words behind every meal.",
+      lessons: [
+        { id: "food-l1", title: "Foods", words: [
+          w("ข้าว", "khâao", "Rice", T.falling),
+          w("น้ำ", "náam", "Water", T.high),
+          w("ไก่", "kài", "Chicken", T.low),
+          w("หมู", "mǔu", "Pork", T.rising),
+          w("ผัก", "phàk", "Vegetable", T.low),
+          w("ผลไม้", "phǒn-lá-máai", "Fruit", T.high)
+        ]},
+        { id: "food-l2", title: "Drinks & taste", words: [
+          w("กาแฟ", "kaa-fɛɛ", "Coffee", T.mid),
+          w("ชา", "chaa", "Tea", T.mid),
+          w("นม", "nom", "Milk", T.mid),
+          w("ขนม", "khà-nǒm", "Snack / sweet", T.rising),
+          w("อาหาร", "aa-hǎan", "Food", T.rising),
+          w("อร่อย", "à-ròi", "Delicious", T.low)
+        ]}
+      ]
+    },
+    {
+      id: "phrases", title: "Everyday Phrases", tagline: "Small words that unlock real conversations.",
+      lessons: [
+        { id: "phr-l1", title: "Asking for things", words: [
+          w("ขอหน่อย", "khɔ̌ɔ nɔ̀i", "May I have..., please", T.rising),
+          w("ได้", "dâai", "Can / okay", T.falling, { accept: ["can", "okay", "ok"] }),
+          w("ไม่ได้", "mâi dâai", "Cannot / no", T.falling, { accept: ["cannot", "can't", "no"] }),
+          w("เท่าไหร่", "thâo-rài", "How much?", T.falling),
+          w("อันนี้", "an níi", "This one", T.high),
+          w("อันนั้น", "an nán", "That one", T.high)
+        ]},
+        { id: "phr-l2", title: "Question words", words: [
+          w("ที่ไหน", "thîi-nǎi", "Where?", T.rising),
+          w("อะไร", "à-rai", "What?", T.mid),
+          w("ทำไม", "tham-mai", "Why?", T.mid),
+          w("ใคร", "khrai", "Who?", T.mid),
+          w("เมื่อไหร่", "mʉ̂ʉa-rài", "When?", T.falling),
+          w("ยังไง", "yang-ngai", "How?", T.mid)
+        ]}
+      ]
+    },
+    {
+      id: "time", title: "Time & Days", tagline: "Days of the week and talking about today.",
+      lessons: [
+        { id: "time-l1", title: "Weekdays", words: [
+          w("วันจันทร์", "wan jan", "Monday", T.mid),
+          w("วันอังคาร", "wan ang-khaan", "Tuesday", T.mid),
+          w("วันพุธ", "wan phút", "Wednesday", T.high),
+          w("วันพฤหัสบดี", "wan phá-rʉ́-hàt", "Thursday", T.high),
+          w("วันศุกร์", "wan sùk", "Friday", T.low)
+        ]},
+        { id: "time-l2", title: "Weekend & today", words: [
+          w("วันเสาร์", "wan sǎo", "Saturday", T.rising),
+          w("วันอาทิตย์", "wan aa-thít", "Sunday", T.high),
+          w("วันนี้", "wan-níi", "Today", T.high),
+          w("พรุ่งนี้", "phrûng-níi", "Tomorrow", T.high),
+          w("เมื่อวาน", "mʉ̂ʉa-waan", "Yesterday", T.falling)
+        ]}
+      ]
+    },
+    {
+      id: "places", title: "Places & Directions", tagline: "Getting around town.",
+      lessons: [
+        { id: "pl-l1", title: "Places", words: [
+          w("บ้าน", "bâan", "House", T.falling),
+          w("โรงเรียน", "roong-rian", "School", T.mid),
+          w("ตลาด", "tà-làat", "Market", T.low),
+          w("ร้านอาหาร", "ráan-aa-hǎan", "Restaurant", T.high),
+          w("โรงพยาบาล", "roong-phá-yaa-baan", "Hospital", T.mid),
+          w("สนามบิน", "sà-nǎam-bin", "Airport", T.rising)
+        ]},
+        { id: "pl-l2", title: "Directions", words: [
+          w("ซ้าย", "sáai", "Left", T.high),
+          w("ขวา", "khwǎa", "Right", T.rising),
+          w("ตรงไป", "trong-pai", "Straight ahead", T.mid),
+          w("ใกล้", "klâi", "Near", T.falling),
+          w("ไกล", "klai", "Far", T.mid),
+          w("ตรงนี้", "trong-níi", "Right here", T.high)
+        ]}
+      ]
+    },
+    {
+      id: "shopping", title: "Shopping & Money", tagline: "Bargaining and paying like a local.",
+      lessons: [
+        { id: "shop-l1", title: "At the shop", words: [
+          w("เงิน", "ngoen", "Money", T.mid),
+          w("บาท", "bàat", "Baht (currency)", T.low),
+          w("แพง", "phɛɛng", "Expensive", T.mid),
+          w("ถูก", "thùuk", "Cheap", T.low),
+          w("ลดราคา", "lót raa-khaa", "On sale / discount", T.high),
+          w("ซื้อ", "sʉ́ʉ", "Buy", T.high)
+        ]},
+        { id: "shop-l2", title: "Paying up", words: [
+          w("ขาย", "khǎai", "Sell", T.rising),
+          w("ร้านค้า", "ráan-kháa", "Shop", T.high),
+          w("ห้าง", "hâang", "Mall", T.falling),
+          w("จ่ายเงิน", "jàai-ngoen", "Pay", T.low),
+          w("ใบเสร็จ", "bai-sèt", "Receipt", T.low),
+          w("เปลี่ยน", "plìan", "Exchange / change", T.low)
+        ]}
+      ]
+    },
+    {
+      id: "travel", title: "Travel & Transport", tagline: "How you'll actually get to Thailand — and around it.",
+      lessons: [
+        { id: "trv-l1", title: "Getting around", words: [
+          w("รถ", "rót", "Car", T.high),
+          w("รถไฟ", "rót-fai", "Train", T.high),
+          w("เครื่องบิน", "khrʉ̂ang-bin", "Airplane", T.falling),
+          w("รถเมล์", "rót-mee", "Bus", T.mid),
+          w("แท็กซี่", "théek-sîi", "Taxi", T.high),
+          w("เรือ", "rʉa", "Boat", T.mid)
+        ]},
+        { id: "trv-l2", title: "At the airport", words: [
+          w("ตั๋ว", "tǔa", "Ticket", T.rising),
+          w("หนังสือเดินทาง", "nǎng-sʉ̌ʉ-dooen-thaang", "Passport", T.rising),
+          w("กระเป๋า", "krà-pǎo", "Bag / luggage", T.rising),
+          w("จอง", "jɔɔng", "Book / reserve", T.mid),
+          w("เที่ยวบิน", "thîao-bin", "Flight", T.falling),
+          w("โรงแรม", "roong-rɛɛm", "Hotel", T.mid)
+        ]}
+      ]
+    },
+    {
+      id: "weather", title: "Weather & Seasons", tagline: "Small talk that works anywhere.",
+      lessons: [
+        { id: "wx-l1", title: "What's it like out?", words: [
+          w("ร้อน", "rɔ́ɔn", "Hot", T.high),
+          w("หนาว", "nǎao", "Cold", T.rising),
+          w("ฝนตก", "fǒn-tòk", "Raining", T.low),
+          w("แดดออก", "dɛ̀ɛt-ɔ̀ɔk", "Sunny", T.low),
+          w("ลมแรง", "lom-rɛɛng", "Windy", T.mid),
+          w("เมฆ", "mêek", "Cloud", T.falling)
+        ]},
+        { id: "wx-l2", title: "Seasons", words: [
+          w("ฤดูร้อน", "rʉ́-duu-rɔ́ɔn", "Summer", T.high),
+          w("ฤดูฝน", "rʉ́-duu-fǒn", "Rainy season", T.high),
+          w("ฤดูหนาว", "rʉ́-duu-nǎao", "Cool / winter season", T.high),
+          w("อากาศ", "aa-kàat", "Weather", T.low),
+          w("ร่ม", "rôm", "Umbrella", T.falling)
+        ]}
+      ]
+    },
+    {
+      id: "feelings", title: "Feelings & Health", tagline: "Saying how you actually feel.",
+      lessons: [
+        { id: "feel-l1", title: "Feelings", words: [
+          w("ดีใจ", "dii-jai", "Happy", T.mid),
+          w("เศร้า", "sâo", "Sad", T.falling),
+          w("โกรธ", "kròot", "Angry", T.low),
+          w("กลัว", "klua", "Scared", T.mid),
+          w("เหนื่อย", "nʉ̀ai", "Tired", T.low),
+          w("หิว", "hǐw", "Hungry", T.rising)
+        ]},
+        { id: "feel-l2", title: "Feeling unwell", words: [
+          w("ปวดหัว", "pùat-hǔa", "Headache", T.low),
+          w("ปวดท้อง", "pùat-tháng", "Stomachache", T.low),
+          w("ไม่สบาย", "mâi sà-baai", "Sick / unwell", T.falling),
+          w("หมอ", "mɔ̌ɔ", "Doctor", T.rising),
+          w("ยา", "yaa", "Medicine", T.mid),
+          w("สุขภาพ", "sùk-khà-phâap", "Health", T.low)
+        ]}
+      ]
+    },
+    {
+      id: "sentences", title: "Putting It Together", tagline: "Whole sentences, built from everything so far.",
+      lessons: [
+        { id: "sen-l1", title: "Talking about yourself", words: [
+          w("ผมชื่อ...", "phǒm chʉ̂ʉ...", "My name is... (male)", T.falling, { accept: ["my name is", "my name is... (male)"] }),
+          w("ฉันชื่อ...", "chǎn chʉ̂ʉ...", "My name is... (female)", T.mid, { accept: ["my name is", "my name is... (female)"] }),
+          w("ผมอยากกิน...", "phǒm yàak kin...", "I want to eat...", T.low),
+          w("ฉันชอบ...", "chǎn chɔ̂ɔp...", "I like...", T.falling),
+          w("ผมมาจากอังกฤษ", "phǒm maa jàak ang-krìt", "I come from England", T.low),
+          w("ฉันรักครอบครัว", "chǎn rák khrɔ̂ɔp-khrua", "I love my family", T.high)
+        ]},
+        { id: "sen-l2", title: "A day in words", words: [
+          w("ผมไปโรงเรียน", "phǒm pai roong-rian", "I go to school", T.mid),
+          w("ฉันอยู่ที่บ้าน", "chǎn yùu thîi bâan", "I am at home", T.low),
+          w("วันนี้อากาศร้อน", "wan-níi aa-kàat rɔ́ɔn", "Today the weather is hot", T.high),
+          w("ผมหิวข้าว", "phǒm hǐw khâao", "I'm hungry", T.rising),
+          w("ขอบคุณมากครับ", "khɔ̀ɔp-khun mâak khráp", "Thank you very much (male)", T.low),
+          w("ขอบคุณมากค่ะ", "khɔ̀ɔp-khun mâak khâ", "Thank you very much (female)", T.low)
+        ]}
+      ]
+    }
+  ];
+
+  var TONE_LABEL = { mid: "mid tone", low: "low tone", falling: "falling tone", high: "high tone", rising: "rising tone" };
+
+  /* difficulty tiers by group index: 0=recognition only, 1=+listening/matching, 2=+typing */
+  function tierFor(groupIndex) {
+    if (groupIndex <= 3) return 1;
+    if (groupIndex <= 7) return 2;
+    return 3;
+  }
+
+  /* =========================================================
+     STATE / PERSISTENCE
+  ========================================================= */
+  var state = { profile: "dad", view: "dashboard", session: null };
+
+  function todayStr() { return new Date().toISOString().slice(0, 10); }
+  function storeKey(profile) { return "sawasdee-thai-progress-" + profile; }
+
+  function defaultProgress() { return { xp: 0, streak: 0, lastPlayed: null, stars: {} }; }
+
+  function loadProgress(profile) {
+    try {
+      var raw = localStorage.getItem(storeKey(profile));
+      if (!raw) return defaultProgress();
+      var p = JSON.parse(raw);
+      return { xp: p.xp || 0, streak: p.streak || 0, lastPlayed: p.lastPlayed || null, stars: p.stars || {} };
+    } catch (e) { return defaultProgress(); }
+  }
+  function saveProgress(profile, p) {
+    try { localStorage.setItem(storeKey(profile), JSON.stringify(p)); } catch (e) {}
+  }
+  function progress() { return loadProgress(state.profile); }
+
+  function bumpStreak(p) {
+    var today = todayStr();
+    if (p.lastPlayed === today) return p;
+    var yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    p.streak = p.lastPlayed === yesterday ? p.streak + 1 : 1;
+    p.lastPlayed = today;
+    return p;
+  }
+
+  function starsFor(p, lessonId) { return p.stars[lessonId] || 0; }
+
+  function lessonUnlocked(p, groupIndex, lessonIndex) {
+    if (groupIndex === 0 && lessonIndex === 0) return true;
+    if (lessonIndex > 0) {
+      var prevLesson = GROUPS[groupIndex].lessons[lessonIndex - 1];
+      return starsFor(p, prevLesson.id) > 0;
+    }
+    var prevGroup = GROUPS[groupIndex - 1];
+    return prevGroup.lessons.every(function (l) { return starsFor(p, l.id) > 0; });
+  }
+  function groupUnlocked(p, groupIndex) {
+    if (groupIndex === 0) return true;
+    var prevGroup = GROUPS[groupIndex - 1];
+    return prevGroup.lessons.every(function (l) { return starsFor(p, l.id) > 0; });
+  }
+
+  /* =========================================================
+     VOICES
+  ========================================================= */
+  var thaiVoice = null, englishVoice = null;
+  var speechSupported = "speechSynthesis" in window;
+  function findVoices() {
+    if (!speechSupported) return;
+    var voices = speechSynthesis.getVoices();
+    thaiVoice = null; englishVoice = null;
+    for (var i = 0; i < voices.length; i++) {
+      var lang = (voices[i].lang || "").toLowerCase();
+      if (!thaiVoice && lang.indexOf("th") === 0) thaiVoice = voices[i];
+      if (!englishVoice && lang.indexOf("en") === 0) englishVoice = voices[i];
+    }
+  }
+  if (speechSupported) { findVoices(); speechSynthesis.onvoiceschanged = findVoices; }
+
+  function say(text, voice) {
+    if (!voice) return;
+    try {
+      speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(text);
+      u.voice = voice; u.lang = voice.lang; u.rate = 0.85;
+      speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+
+  /* tiny WebAudio beep for feedback */
+  var actx = null;
+  function beep(good) {
+    try {
+      actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+      var o = actx.createOscillator(), g = actx.createGain();
+      o.type = "sine";
+      o.frequency.value = good ? 880 : 220;
+      g.gain.value = 0.06;
+      o.connect(g); g.connect(actx.destination);
+      o.start();
+      g.gain.exponentialRampToValueAtTime(0.0001, actx.currentTime + 0.28);
+      o.stop(actx.currentTime + 0.3);
+    } catch (e) {}
+  }
+
+  /* =========================================================
+     HELPERS
+  ========================================================= */
+  function shuffle(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function normalize(s) { return String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
+
+  /* pool of all words introduced up to & including a given group/lesson, for distractors */
+  function poolUpTo(groupIndex, lessonIndex) {
+    var pool = [];
+    for (var g = 0; g <= groupIndex; g++) {
+      var lessons = GROUPS[g].lessons;
+      var lastL = g === groupIndex ? lessonIndex : lessons.length - 1;
+      for (var l = 0; l <= lastL; l++) pool = pool.concat(lessons[l].words);
+    }
+    return pool;
+  }
+  function distractorsFor(pool, correct, count) {
+    var candidates = pool.filter(function (x) { return x.en !== correct.en; });
+    return shuffle(candidates).slice(0, Math.min(count, candidates.length));
+  }
+
+  /* =========================================================
+     EXERCISE QUEUE BUILDER
+  ========================================================= */
+  function buildQueue(groupIndex, lessonIndex) {
+    var lesson = GROUPS[groupIndex].lessons[lessonIndex];
+    var tier = tierFor(groupIndex);
+    var pool = poolUpTo(groupIndex, lessonIndex);
+    var optCount = tier === 1 ? 3 : 4;
+    var queue = [];
+
+    lesson.words.forEach(function (word) {
+      queue.push({ type: "mc-en", word: word, options: shuffle([word].concat(distractorsFor(pool, word, optCount - 1))) });
+      queue.push({ type: "mc-th", word: word, options: shuffle([word].concat(distractorsFor(pool, word, optCount - 1))) });
+    });
+
+    if (tier >= 2 && thaiVoice) {
+      shuffle(lesson.words).slice(0, Math.min(2, lesson.words.length)).forEach(function (word) {
+        queue.push({ type: "listen", word: word, options: shuffle([word].concat(distractorsFor(pool, word, optCount - 1))) });
+      });
+    }
+    if (tier >= 3) {
+      shuffle(lesson.words).slice(0, Math.min(2, lesson.words.length)).forEach(function (word) {
+        queue.push({ type: "type-en", word: word });
+      });
+    }
+
+    queue = shuffle(queue);
+    if (lesson.words.length >= 3) queue.push({ type: "match", words: lesson.words });
+    return queue;
+  }
+
+  /* =========================================================
+     RENDER: DASHBOARD
+  ========================================================= */
+  var dashboardEl = document.getElementById("dashboard-view");
+
+  function renderDashboard() {
+    var p = progress();
+    document.getElementById("stat-streak").textContent = "🔥 " + p.streak;
+    document.getElementById("stat-xp").textContent = "✦ " + p.xp + " XP";
+
+    var html = "";
+    GROUPS.forEach(function (group, gi) {
+      var unlocked = groupUnlocked(p, gi);
+      html += '<section class="group-block' + (unlocked ? "" : " locked") + '">';
+      html += '<div class="group-head"><div class="eyebrow">Unit ' + (gi + 1) + " · " + group.lessons.length + " lessons</div>";
+      html += "<h2>" + escapeHtml(group.title) + "</h2><p>" + escapeHtml(group.tagline) + "</p></div>";
+      html += '<div class="path">';
+      group.lessons.forEach(function (lesson, li) {
+        var lUnlocked = unlocked && lessonUnlocked(p, gi, li);
+        var stars = starsFor(p, lesson.id);
+        var isNext = lUnlocked && stars === 0 &&
+          !(li > 0 && starsFor(p, group.lessons[li - 1].id) === 0);
+        var cls = "node-btn " + (stars > 0 ? "done" : lUnlocked ? (isNext ? "current" : "unlocked") : "locked");
+        html += '<div class="path-row"><div>';
+        html += '<button type="button" class="' + cls + '" data-group="' + gi + '" data-lesson="' + li + '" ' + (lUnlocked ? "" : "disabled") + '>';
+        html += stars > 0 ? '<span class="num">✓</span>' : '<span class="num">' + (li + 1) + "</span>";
+        html += stars > 0 ? '<span class="stars-mini">' + "★".repeat(stars) + "☆".repeat(3 - stars) + "</span>" : (lUnlocked ? "" : '<span class="stars-mini">🔒</span>');
+        html += "</button>";
+        html += '<div class="node-label">' + escapeHtml(lesson.title) + "</div>";
+        html += "</div></div>";
+      });
+      html += "</div></section>";
+    });
+    dashboardEl.innerHTML = html;
+
+    dashboardEl.querySelectorAll(".node-btn:not([disabled])").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        startLesson(parseInt(btn.dataset.group, 10), parseInt(btn.dataset.lesson, 10));
+      });
+    });
+  }
+
+  /* =========================================================
+     LESSON RUNNER
+  ========================================================= */
+  var lessonEl = document.getElementById("lesson-view");
+  var summaryEl = document.getElementById("summary-view");
+
+  function startLesson(groupIndex, lessonIndex) {
+    state.session = {
+      groupIndex: groupIndex, lessonIndex: lessonIndex,
+      queue: buildQueue(groupIndex, lessonIndex),
+      pos: 0, hearts: 5, mistakes: 0, xp: 0, selected: null
+    };
+    showView("lesson");
+    renderExercise();
+  }
+
+  function showView(v) {
+    state.view = v;
+    dashboardEl.hidden = v !== "dashboard";
+    lessonEl.hidden = v !== "lesson";
+    summaryEl.hidden = v !== "summary";
+    window.scrollTo(0, 0);
+  }
+
+  function heartsHtml(session) {
+    var h = "";
+    for (var i = 0; i < 5; i++) h += '<span class="' + (i < session.hearts ? "" : "spent") + '">❤</span>';
+    return h;
+  }
+
+  function renderExercise() {
+    var s = state.session;
+    if (s.pos >= s.queue.length) { finishLesson(); return; }
+    var ex = s.queue[s.pos];
+    var pct = Math.round((s.pos / s.queue.length) * 100);
+
+    var html = '<div class="lesson-topbar">';
+    html += '<button class="exit-btn" id="exit-lesson" aria-label="Exit lesson">✕</button>';
+    html += '<div class="progress-track"><div class="progress-fill" style="width:' + pct + '%"></div></div>';
+    html += '<div class="hearts-live">' + heartsHtml(s) + "</div></div>";
+
+    if (ex.type === "match") {
+      html += renderMatchHtml();
+    } else {
+      html += renderQuestionHtml(ex);
+    }
+
+    lessonEl.innerHTML = html;
+    document.getElementById("exit-lesson").addEventListener("click", function () { showView("dashboard"); renderDashboard(); });
+
+    if (ex.type === "match") wireMatch(ex);
+    else wireQuestion(ex);
+  }
+
+  function renderQuestionHtml(ex) {
+    var html = '<div class="exercise-prompt">';
+    if (ex.type === "mc-en") {
+      html += '<div class="exercise-kicker">Choose the English meaning</div>';
+      html += '<div class="prompt-word thai">' + ex.word.thai + "</div>";
+      html += '<div class="prompt-roman">' + escapeHtml(ex.word.roman) + "</div>";
+    } else if (ex.type === "mc-th") {
+      html += '<div class="exercise-kicker">Choose the Thai word</div>';
+      html += '<div class="prompt-en">' + escapeHtml(ex.word.en) + "</div>";
+    } else if (ex.type === "listen") {
+      html += '<div class="exercise-kicker">Listen, then choose what it means</div>';
+      html += '<div class="prompt-word thai" style="opacity:.15">???</div>';
+      html += '<div class="speak-row"><button type="button" class="speak-btn" id="listen-play">🔊 Play again</button></div>';
+    } else if (ex.type === "type-en") {
+      html += '<div class="exercise-kicker">Type the English meaning</div>';
+      html += '<div class="prompt-word thai">' + ex.word.thai + "</div>";
+      html += '<div class="prompt-roman">' + escapeHtml(ex.word.roman) + "</div>";
+    }
+    html += "</div>";
+
+    if (ex.type === "type-en") {
+      html += '<div class="type-row"><input id="type-input" type="text" autocomplete="off" placeholder="Type your answer…" /></div>';
+    } else {
+      html += '<div class="option-grid" id="option-grid">';
+      ex.options.forEach(function (opt, i) {
+        var label = ex.type === "mc-th" ?
+          '<span class="thai">' + opt.thai + "</span> &nbsp; <span style=\"color:var(--ink-soft);font-size:0.9rem\">" + escapeHtml(opt.roman) + "</span>" :
+          escapeHtml(opt.en);
+        html += '<button type="button" class="option-btn" data-i="' + i + '">' + label + "</button>";
+      });
+      html += "</div>";
+    }
+
+    html += '<button type="button" class="check-btn" id="check-btn" disabled>Check</button>';
+    html += '<div id="feedback-slot"></div>';
+    return html;
+  }
+
+  function wireQuestion(ex) {
+    var s = state.session;
+    var checkBtn = document.getElementById("check-btn");
+    var chosen = null;
+
+    if (ex.type === "listen") {
+      var playIt = function () { say(ex.word.thai, thaiVoice); };
+      document.getElementById("listen-play").addEventListener("click", playIt);
+      setTimeout(playIt, 250);
+    }
+
+    if (ex.type === "type-en") {
+      var input = document.getElementById("type-input");
+      input.addEventListener("input", function () {
+        checkBtn.disabled = input.value.trim().length === 0;
+        checkBtn.classList.toggle("ready", !checkBtn.disabled);
+      });
+      input.addEventListener("keydown", function (e) { if (e.key === "Enter" && !checkBtn.disabled) checkBtn.click(); });
+      input.focus();
+    } else {
+      var buttons = Array.prototype.slice.call(document.querySelectorAll(".option-btn"));
+      buttons.forEach(function (btn, i) {
+        btn.addEventListener("click", function () {
+          buttons.forEach(function (b) { b.classList.remove("selected"); });
+          chosen = ex.options[i];
+          buttons.forEach(function (b) { b.style.borderColor = ""; });
+          btn.style.borderColor = "var(--gold)";
+          checkBtn.disabled = false;
+          checkBtn.classList.add("ready");
+        });
+      });
+    }
+
+    checkBtn.addEventListener("click", function () {
+      if (checkBtn.disabled) return;
+      var isCorrect;
+      if (ex.type === "type-en") {
+        var val = normalize(document.getElementById("type-input").value);
+        var accepted = (ex.word.accept || []).map(normalize).concat([normalize(ex.word.en)]);
+        isCorrect = accepted.indexOf(val) !== -1;
+        var inputEl = document.getElementById("type-input");
+        inputEl.classList.add(isCorrect ? "correct" : "wrong");
+        inputEl.disabled = true;
+      } else {
+        isCorrect = chosen === ex.word;
+        var opts = document.querySelectorAll(".option-btn");
+        opts.forEach(function (b, i) {
+          b.disabled = true;
+          if (ex.options[i] === ex.word) b.classList.add("correct");
+          else if (ex.options[i] === chosen) b.classList.add("wrong");
+        });
+      }
+      settleAnswer(isCorrect, ex);
+      checkBtn.disabled = true;
+      checkBtn.classList.remove("ready");
+    });
+  }
+
+  function settleAnswer(isCorrect, ex) {
+    var s = state.session;
+    beep(isCorrect);
+    var fb = document.getElementById("feedback-slot");
+    if (isCorrect) {
+      s.xp += 10;
+      fb.innerHTML = '<div class="feedback-banner good">Nice! ✅</div>';
+    } else {
+      s.hearts -= 1;
+      s.mistakes += 1;
+      var answerWord = ex.word;
+      fb.innerHTML = '<div class="feedback-banner bad">Not quite<span class="feedback-answer">' +
+        escapeHtml(answerWord.en) + " — " + '<span class="thai">' + answerWord.thai + "</span> (" + escapeHtml(answerWord.roman) + ")</span></div>";
+    }
+    setTimeout(function () {
+      if (s.hearts <= 0) { failLesson(); return; }
+      s.pos += 1;
+      renderExercise();
+    }, isCorrect ? 700 : 1500);
+  }
+
+  /* ---- match round ---- */
+  function renderMatchHtml() {
+    return '<div class="exercise-prompt"><div class="exercise-kicker">Match the pairs</div></div>' +
+      '<div class="match-grid" id="match-grid"></div>' +
+      '<div class="feedback-banner good" id="match-done" hidden>All matched! 🎉</div>';
+  }
+
+  function wireMatch(ex) {
+    var s = state.session;
+    var thaiTiles = shuffle(ex.words.map(function (word) { return { key: word.en, label: word.thai, cls: "thai", word: word }; }));
+    var enTiles = shuffle(ex.words.map(function (word) { return { key: word.en, label: word.en, cls: "", word: word }; }));
+    var tiles = [];
+    thaiTiles.forEach(function (t) { tiles.push(t); });
+    enTiles.forEach(function (t) { tiles.push(t); });
+    tiles = shuffle(tiles);
+
+    var grid = document.getElementById("match-grid");
+    var selected = null;
+    var solvedCount = 0;
+
+    tiles.forEach(function (tile, idx) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "match-tile" + (tile.cls ? " " + tile.cls : "");
+      btn.innerHTML = tile.cls === "thai" ? tile.label : escapeHtml(tile.label);
+      btn.dataset.key = tile.key;
+      btn.dataset.idx = idx;
+      btn.addEventListener("click", function () {
+        if (btn.classList.contains("solved")) return;
+        if (selected === btn) { btn.classList.remove("selected"); selected = null; return; }
+        if (!selected) { selected = btn; btn.classList.add("selected"); return; }
+        if (selected.dataset.key === btn.dataset.key && selected !== btn) {
+          selected.classList.remove("selected"); selected.classList.add("solved");
+          btn.classList.add("solved");
+          beep(true);
+          solvedCount += 2;
+          selected = null;
+          if (solvedCount === tiles.length) {
+            s.xp += 20;
+            document.getElementById("match-done").hidden = false;
+            setTimeout(function () { s.pos += 1; renderExercise(); }, 900);
+          }
+        } else {
+          beep(false);
+          [selected, btn].forEach(function (b) { b.classList.add("shake"); });
+          setTimeout(function () {
+            selected.classList.remove("selected", "shake"); btn.classList.remove("shake"); selected = null;
+          }, 350);
+        }
+      });
+      grid.appendChild(btn);
+    });
+  }
+
+  /* =========================================================
+     FINISH / FAIL
+  ========================================================= */
+  function finishLesson() {
+    var s = state.session;
+    var lesson = GROUPS[s.groupIndex].lessons[s.lessonIndex];
+    var stars = s.mistakes === 0 ? 3 : s.mistakes <= 2 ? 2 : 1;
+    var p = progress();
+    var prevStars = starsFor(p, lesson.id);
+    p.stars[lesson.id] = Math.max(prevStars, stars);
+    p.xp += s.xp;
+    p = bumpStreak(p);
+    saveProgress(state.profile, p);
+
+    showView("summary");
+    summaryEl.innerHTML =
+      "<h2>" + (stars === 3 ? "Perfect lesson!" : stars === 2 ? "Great job!" : "Lesson complete") + "</h2>" +
+      '<div class="stars-big">' + "★".repeat(stars) + "☆".repeat(3 - stars) + "</div>" +
+      '<div class="xp-line">+' + s.xp + " XP earned</div>" +
+      '<div class="summary-actions">' +
+      '<button class="big-btn ghost" id="back-dash" type="button">Lesson map</button>' +
+      '<button class="big-btn primary" id="retry-lesson" type="button">Do it again</button>' +
+      "</div>";
+    document.getElementById("back-dash").addEventListener("click", function () { showView("dashboard"); renderDashboard(); });
+    document.getElementById("retry-lesson").addEventListener("click", function () { startLesson(s.groupIndex, s.lessonIndex); });
+    launchConfetti(stars === 3 ? 60 : 30);
+  }
+
+  function failLesson() {
+    var s = state.session;
+    showView("summary");
+    summaryEl.innerHTML =
+      "<h2>Out of hearts</h2>" +
+      '<div class="xp-line">Take a breath and try this lesson again — you\'ll remember more the second time.</div>' +
+      '<div class="summary-actions">' +
+      '<button class="big-btn ghost" id="back-dash" type="button">Lesson map</button>' +
+      '<button class="big-btn primary" id="retry-lesson" type="button">Try again</button>' +
+      "</div>";
+    document.getElementById("back-dash").addEventListener("click", function () { showView("dashboard"); renderDashboard(); });
+    document.getElementById("retry-lesson").addEventListener("click", function () { startLesson(s.groupIndex, s.lessonIndex); });
+  }
+
+  function launchConfetti(count) {
+    var colors = ["#b3801f", "#145952", "#b5502f", "#e4c07f"];
+    for (var i = 0; i < count; i++) {
+      (function () {
+        var el = document.createElement("div");
+        el.className = "confetti-piece";
+        el.style.left = Math.random() * 100 + "vw";
+        el.style.background = colors[Math.floor(Math.random() * colors.length)];
+        el.style.animationDuration = 1.6 + Math.random() * 1.2 + "s";
+        el.style.animationDelay = Math.random() * 0.3 + "s";
+        document.body.appendChild(el);
+        setTimeout(function () { el.remove(); }, 3200);
+      })();
+    }
+  }
+
+  /* =========================================================
+     PROFILE SWITCH / BOOT
+  ========================================================= */
+  var profileDad = document.getElementById("profile-dad");
+  var profileSon = document.getElementById("profile-son");
+  function selectProfile(name) {
+    state.profile = name;
+    profileDad.setAttribute("aria-pressed", String(name === "dad"));
+    profileSon.setAttribute("aria-pressed", String(name === "son"));
+    renderDashboard();
+  }
+  profileDad.addEventListener("click", function () { selectProfile("dad"); });
+  profileSon.addEventListener("click", function () { selectProfile("son"); });
+
+  renderDashboard();
+})();
+</script>
+</body>
+</html>
