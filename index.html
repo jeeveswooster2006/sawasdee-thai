@@ -1067,8 +1067,9 @@
     }
     return pool;
   }
-  function distractorsFor(pool, correct, count) {
-    var candidates = pool.filter(function (x) { return x.en !== correct.en; });
+  function distractorsFor(lessonWords, widerPool, correct, count) {
+    var sameLesson = lessonWords.filter(function (x) { return x.en !== correct.en; });
+    var candidates = sameLesson.length >= count ? sameLesson : widerPool.filter(function (x) { return x.en !== correct.en; });
     return shuffle(candidates).slice(0, Math.min(count, candidates.length));
   }
 
@@ -1083,13 +1084,13 @@
     var queue = [];
 
     lesson.words.forEach(function (word) {
-      queue.push({ type: "mc-en", word: word, options: shuffle([word].concat(distractorsFor(pool, word, optCount - 1))) });
-      queue.push({ type: "mc-th", word: word, options: shuffle([word].concat(distractorsFor(pool, word, optCount - 1))) });
+      queue.push({ type: "mc-en", word: word, options: shuffle([word].concat(distractorsFor(lesson.words, pool, word, optCount - 1))) });
+      queue.push({ type: "mc-th", word: word, options: shuffle([word].concat(distractorsFor(lesson.words, pool, word, optCount - 1))) });
     });
 
     if (tier >= 2 && thaiVoice) {
       shuffle(lesson.words).slice(0, Math.min(2, lesson.words.length)).forEach(function (word) {
-        queue.push({ type: "listen", word: word, options: shuffle([word].concat(distractorsFor(pool, word, optCount - 1))) });
+        queue.push({ type: "listen", word: word, options: shuffle([word].concat(distractorsFor(lesson.words, pool, word, optCount - 1))) });
       });
     }
     if (tier >= 3) {
