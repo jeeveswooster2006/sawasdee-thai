@@ -1,0 +1,353 @@
+{
+ "mascot": {
+  "canva_media_id": "MAHXsX1vCio",
+  "note": "Reference image for every unit illustration"
+ },
+ "aspect_ratio": "3:2 landscape",
+ "units": [
+  {
+   "unit_index": 0,
+   "unit_id": "basics1",
+   "title": "Greetings",
+   "scene": "greets the viewer with a traditional Thai wai (palms pressed together at the chest, slight respectful bow), warm smile",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang greets the viewer with a traditional Thai wai (palms pressed together at the chest, slight respectful bow), warm smile. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": "MAHXsQCYaAc"
+  },
+  {
+   "unit_index": 1,
+   "unit_id": "numbers1",
+   "title": "Numbers 1–10",
+   "scene": "happily counting a neat row of ripe yellow mangoes, pointing at them one by one with the trunk",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang happily counting a neat row of ripe yellow mangoes, pointing at them one by one with the trunk. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": "MAHXsfrSZeQ"
+  },
+  {
+   "unit_index": 2,
+   "unit_id": "numbers2",
+   "title": "Bigger Numbers",
+   "scene": "proudly arranging many golden coins into tall neat stacks and rows, delighted at how many there are",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang proudly arranging many golden coins into tall neat stacks and rows, delighted at how many there are. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": "MAHXsWGka34"
+  },
+  {
+   "unit_index": 3,
+   "unit_id": "family",
+   "title": "Family",
+   "scene": "with a loving elephant family around them - mother, father, an older sibling and two gentle grandparent elephants - cuddled together",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang with a loving elephant family around them - mother, father, an older sibling and two gentle grandparent elephants - cuddled together. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": "MAHXsSpRWPM"
+  },
+  {
+   "unit_index": 4,
+   "unit_id": "colors",
+   "title": "Colors & Shapes",
+   "scene": "playing with bright wooden shape blocks - a red circle, a blue square, a green triangle, a yellow star and a pink heart",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang playing with bright wooden shape blocks - a red circle, a blue square, a green triangle, a yellow star and a pink heart. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 5,
+   "unit_id": "food",
+   "title": "Food & Drink",
+   "scene": "sitting at a small table with a bowl of jasmine rice, mango sticky rice and a fresh coconut drink",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang sitting at a small table with a bowl of jasmine rice, mango sticky rice and a fresh coconut drink. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 6,
+   "unit_id": "phrases",
+   "title": "Everyday Phrases",
+   "scene": "at a colourful fruit stall, politely pointing at a pineapple and asking for it",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang at a colourful fruit stall, politely pointing at a pineapple and asking for it. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 7,
+   "unit_id": "time",
+   "title": "Time & Days",
+   "scene": "next to a big round clock and a calendar of seven colourful blank squares, looking curious",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang next to a big round clock and a calendar of seven colourful blank squares, looking curious. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 8,
+   "unit_id": "places",
+   "title": "Places & Directions",
+   "scene": "standing at a crossroads beside a wooden signpost with blank arrows pointing towards a school, a market and a temple",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang standing at a crossroads beside a wooden signpost with blank arrows pointing towards a school, a market and a temple. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 9,
+   "unit_id": "shopping",
+   "title": "Shopping & Money",
+   "scene": "carrying a woven basket at a Thai floating market, paying a smiling vendor with coins",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang carrying a woven basket at a Thai floating market, paying a smiling vendor with coins. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 10,
+   "unit_id": "travel",
+   "title": "Travel & Transport",
+   "scene": "riding happily in a colourful Thai tuk-tuk with a small suitcase",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang riding happily in a colourful Thai tuk-tuk with a small suitcase. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 11,
+   "unit_id": "weather",
+   "title": "Weather & Seasons",
+   "scene": "holding a red umbrella in gentle rain while the sun breaks through and a rainbow appears",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang holding a red umbrella in gentle rain while the sun breaks through and a rainbow appears. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 12,
+   "unit_id": "feelings",
+   "title": "Feelings & Health",
+   "scene": "wrapped in a cosy blanket with a cup of warm tea and a thermometer, being cared for kindly",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang wrapped in a cosy blanket with a cup of warm tea and a thermometer, being cared for kindly. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 13,
+   "unit_id": "sentences",
+   "title": "Putting It Together",
+   "scene": "sitting at a desk writing in a notebook, with empty speech bubbles floating above",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang sitting at a desk writing in a notebook, with empty speech bubbles floating above. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 14,
+   "unit_id": "classifiers",
+   "title": "Numbers & Classifiers",
+   "scene": "sorting groups of objects into neat sets: three little cats, two bottles and four glasses",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang sorting groups of objects into neat sets: three little cats, two bottles and four glasses. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 15,
+   "unit_id": "routine",
+   "title": "Daily Routine",
+   "scene": "brushing teeth in the morning while sunrise glows through a window",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang brushing teeth in the morning while sunrise glows through a window. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 16,
+   "unit_id": "tense",
+   "title": "Talking About Time",
+   "scene": "holding an hourglass, standing on a path with footprints behind and ahead",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang holding an hourglass, standing on a path with footprints behind and ahead. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 17,
+   "unit_id": "compare",
+   "title": "Comparisons",
+   "scene": "standing between a tall friendly giraffe and a tiny mouse, comparing heights",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang standing between a tall friendly giraffe and a tiny mouse, comparing heights. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 18,
+   "unit_id": "restaurant",
+   "title": "At the Restaurant",
+   "scene": "at a Thai street-food restaurant holding a menu, a steaming bowl of noodles and red chillies on the table",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang at a Thai street-food restaurant holding a menu, a steaming bowl of noodles and red chillies on the table. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 19,
+   "unit_id": "plans",
+   "title": "Making Plans",
+   "scene": "holding a phone and pointing excitedly at a calendar with a heart drawn on one square",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang holding a phone and pointing excitedly at a calendar with a heart drawn on one square. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 20,
+   "unit_id": "connectors",
+   "title": "Connectors",
+   "scene": "joining colourful puzzle pieces together into a long connected chain",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang joining colourful puzzle pieces together into a long connected chain. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 21,
+   "unit_id": "directions2",
+   "title": "Giving Directions",
+   "scene": "giving directions to a lost little bird, pointing along a winding path on a map",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang giving directions to a lost little bird, pointing along a winding path on a map. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 22,
+   "unit_id": "people-desc",
+   "title": "Describing People",
+   "scene": "painting cheerful portraits of animal friends on an easel",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang painting cheerful portraits of animal friends on an easel. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 23,
+   "unit_id": "work",
+   "title": "Work & Occupations",
+   "scene": "trying on different work hats - a chef's hat, a doctor's coat, a teacher's glasses",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang trying on different work hats - a chef's hat, a doctor's coat, a teacher's glasses. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 24,
+   "unit_id": "dialogues",
+   "title": "Short Conversations",
+   "scene": "chatting with a friendly baby tiger at a cafe table with iced drinks",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang chatting with a friendly baby tiger at a cafe table with iced drinks. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 25,
+   "unit_id": "emergency",
+   "title": "Health & Emergencies",
+   "scene": "wearing a little nurse's cap and holding a first-aid kit, calm and helpful",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang wearing a little nurse's cap and holding a first-aid kit, calm and helpful. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 26,
+   "unit_id": "opinions",
+   "title": "Opinions & Agreement",
+   "scene": "in a thoughtful pose with a glowing lightbulb above their head",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang in a thoughtful pose with a glowing lightbulb above their head. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 27,
+   "unit_id": "abstract",
+   "title": "Feelings & Big Ideas",
+   "scene": "gazing at the stars through a telescope on a hill at dusk",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang gazing at the stars through a telescope on a hill at dusk. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 28,
+   "unit_id": "storytelling",
+   "title": "Telling a Story",
+   "scene": "reading a big storybook aloud to younger animals under a shady tree",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang reading a big storybook aloud to younger animals under a shady tree. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 29,
+   "unit_id": "register",
+   "title": "Formal Titles & Address",
+   "scene": "dressed neatly and bowing respectfully with a wai to a wise elder elephant",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang dressed neatly and bowing respectfully with a wai to a wise elder elephant. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 30,
+   "unit_id": "phone",
+   "title": "Phone Conversations",
+   "scene": "talking happily on an old-fashioned telephone",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang talking happily on an old-fashioned telephone. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 31,
+   "unit_id": "idioms",
+   "title": "Idioms & Everyday Expressions",
+   "scene": "laughing with a friend, surrounded by playful floating hearts and swirls",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang laughing with a friend, surrounded by playful floating hearts and swirls. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 32,
+   "unit_id": "business",
+   "title": "Business Thai",
+   "scene": "wearing a tiny tie and presenting a simple bar chart on a whiteboard (no text)",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang wearing a tiny tie and presenting a simple bar chart on a whiteboard (no text). Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 33,
+   "unit_id": "news",
+   "title": "News & Society",
+   "scene": "reading a newspaper with only pictures (no text) at the breakfast table",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang reading a newspaper with only pictures (no text) at the breakfast table. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 34,
+   "unit_id": "grammar-advanced",
+   "title": "Advanced Grammar",
+   "scene": "wearing round scholarly glasses, building a tower of colourful blocks",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang wearing round scholarly glasses, building a tower of colourful blocks. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 35,
+   "unit_id": "proverbs",
+   "title": "Proverbs & Wisdom",
+   "scene": "sitting with a wise old elephant under a bodhi tree beside a river at sunset",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang sitting with a wise old elephant under a bodhi tree beside a river at sunset. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 36,
+   "unit_id": "debate",
+   "title": "Discussion & Debate",
+   "scene": "speaking confidently at a small podium to an audience of friendly animals",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang speaking confidently at a small podium to an audience of friendly animals. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 37,
+   "unit_id": "slang",
+   "title": "Slang & Casual Speech",
+   "scene": "wearing sunglasses and a cap, relaxed and cool with headphones",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang wearing sunglasses and a cap, relaxed and cool with headphones. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 38,
+   "unit_id": "reactions",
+   "title": "Humor & Reactions",
+   "scene": "laughing out loud and holding their belly, with friends giggling nearby",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang laughing out loud and holding their belly, with friends giggling nearby. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 39,
+   "unit_id": "reading",
+   "title": "Reading a Short Paragraph",
+   "scene": "reading a book in a cosy hammock between two palm trees",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang reading a book in a cosy hammock between two palm trees. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 40,
+   "unit_id": "casual-greet",
+   "title": "Casual Greetings",
+   "scene": "bumping into a friend on the street and waving casually, a bowl of noodles in hand",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang bumping into a friend on the street and waving casually, a bowl of noodles in hand. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 41,
+   "unit_id": "professional",
+   "title": "Professional & Formal Speech",
+   "scene": "giving a speech at a ceremony, wearing a jasmine flower garland (phuang malai)",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang giving a speech at a ceremony, wearing a jasmine flower garland (phuang malai). Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  },
+  {
+   "unit_index": 42,
+   "unit_id": "literary",
+   "title": "Literary & Song Vocabulary",
+   "scene": "playing a traditional Thai khim (hammered dulcimer) under the moon, musical notes floating",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang playing a traditional Thai khim (hammered dulcimer) under the moon, musical notes floating. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
+   "canva_media_id": null
+  }
+ ]
+}
