@@ -2,3 +2,6 @@
 # local pronunciation-check output
 tools/audio/pronunciation_report.csv
 __pycache__/
+
+# full-size ComfyUI renders stay local; commit the .webp copies
+art/units/*.png
