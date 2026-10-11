@@ -21,6 +21,7 @@ Finished units are skipped on re-run; each unit has a fixed seed so results are 
 import argparse
 import hashlib
 import json
+import shutil
 import sys
 import time
 import urllib.error
@@ -52,6 +53,15 @@ STYLE = (
 
 opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
+# The single-file fp8 Flux dev from the ComfyUI team: model + fp8 T5 + CLIP-L + VAE, about 17 GB.
+# It fits a 16 GB graphics card and a 32 GB PC, where the full-size 23 GB file runs out of memory.
+SMALL_FLUX_NAME = "flux1-dev-fp8.safetensors"
+SMALL_FLUX_URL = "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
+
+
+class ComfyGone(RuntimeError):
+    """ComfyUI stopped answering in the middle of an image (usually a crash from running out of memory)."""
+
 
 class Comfy:
     def __init__(self, url):
@@ -73,6 +83,10 @@ class Comfy:
         except urllib.error.HTTPError as e:
             body = e.read().decode(errors="replace")
             raise SystemExit(f"ComfyUI rejected the request ({e.code}):\n{format_comfy_error(body)}")
+        except urllib.error.URLError as e:
+            if isinstance(e.reason, ConnectionRefusedError):
+                raise ComfyGone("ComfyUI isn't running (it may have crashed)")
+            raise
 
     def upload_image(self, path):
         boundary = uuid.uuid4().hex
@@ -126,6 +140,11 @@ def pick(choices, *needles, avoid=("redux", "fill", "canny", "depth", "kontext",
     return None
 
 
+def is_small(name):
+    n = name.lower()
+    return n.endswith(".gguf") or any(t in n for t in ("fp8", "int8", "nf4"))
+
+
 def resolve_models(info, args):
     m = {"kind": None}
     if args.checkpoint:
@@ -136,22 +155,24 @@ def resolve_models(info, args):
         unets = options(info, "UNETLoader", "unet_name")
         ggufs = options(info, "UnetLoaderGGUF", "unet_name")
         ckpts = options(info, "CheckpointLoaderSimple", "ckpt_name")
-        u = pick(unets, ("flux", "dev"), ("flux", "schnell"), ("flux",))
-        g = pick(ggufs, ("flux", "dev"), ("flux", "schnell"), ("flux",))
-        c = pick(ckpts, ("flux", "dev"), ("flux", "schnell"), ("flux",))
-        if u:
-            m.update(kind="unet", unet=u)
-        elif g:
-            m.update(kind="gguf", unet=g)
-        elif c:
-            m.update(kind="checkpoint", checkpoint=c)
+        prefs = (("flux", "dev"), ("flux", "schnell"), ("flux",))
+        u, g, c = pick(unets, *prefs), pick(ggufs, *prefs), pick(ckpts, *prefs)
+        order = [("unet", u), ("gguf", g), ("checkpoint", c)]
+        if args.low_memory == "on":
+            # Prefer files that are already small (fp8/GGUF) over a full-size model.
+            order = [("unet", pick([x for x in unets if is_small(x)], *prefs)), ("gguf", g),
+                     ("checkpoint", pick([x for x in ckpts if is_small(x)], *prefs))] + order
+        chosen = next(((kind, name) for kind, name in order if name), None)
+        if chosen:
+            m.update(kind=chosen[0], **{"checkpoint" if chosen[0] == "checkpoint" else "unet": chosen[1]})
         else:
             raise SystemExit("Couldn't find a Flux model in ComfyUI. Run with --list-models to see what's "
                              "installed, then pass --checkpoint or --unet with the exact file name.")
     if m["kind"] in ("unet", "gguf"):
         encoders = options(info, "DualCLIPLoader", "clip_name1")
         gguf_encoders = options(info, "DualCLIPLoaderGGUF", "clip_name1")
-        m["t5"] = args.t5 or pick(encoders, ("t5xxl", "fp16"), ("t5xxl", "fp8"), ("t5",)) or pick(gguf_encoders, ("t5",))
+        t5_prefs = (("t5xxl", "fp8"), ("t5xxl", "fp16")) if args.low_memory == "on" else (("t5xxl", "fp16"), ("t5xxl", "fp8"))
+        m["t5"] = args.t5 or pick(encoders, *t5_prefs, ("t5",)) or pick(gguf_encoders, ("t5",))
         m["clip_l"] = args.clip_l or pick(encoders, ("clip_l",)) or pick(gguf_encoders, ("clip_l",))
         m["vae"] = args.vae or pick(options(info, "VAELoader", "vae_name"), ("ae.",), ("flux",), ("ae",))
         missing = [k for k in ("t5", "clip_l", "vae") if not m[k]]
@@ -246,17 +267,100 @@ def cancel(comfy, prompt_id):
         if queue_state(comfy, prompt_id) == "running":
             comfy.post_json("/interrupt", {})
         comfy.post_json("/queue", {"delete": [prompt_id]})
-    except (urllib.error.URLError, OSError, ValueError, SystemExit):
+    except (urllib.error.URLError, OSError, ValueError, SystemExit, RuntimeError):
         pass
+
+
+def download_small_flux(comfy, info):
+    """Download the fp8 Flux dev checkpoint into ComfyUI's checkpoints folder, resuming if interrupted."""
+    try:
+        folder = Path(comfy.get_json("/internal/folder_paths")["checkpoints"][0])
+    except (urllib.error.URLError, OSError, ValueError, KeyError, IndexError, TypeError):
+        print(f"Couldn't ask ComfyUI where its models folder is. Download this file in your browser:\n  {SMALL_FLUX_URL}\n"
+              "and put it in ComfyUI's models\\checkpoints folder, then run this again.")
+        return False
+    target, part = folder / SMALL_FLUX_NAME, folder / (SMALL_FLUX_NAME + ".part")
+    if not target.exists():
+        free_gb = shutil.disk_usage(folder).free / 1024 ** 3
+        have = part.stat().st_size if part.exists() else 0
+        if free_gb < 18 - have / 1024 ** 3:
+            print(f"Not enough free disk space in {folder} ({free_gb:.0f} GB free, about 18 GB needed).")
+            return False
+        print(f"Downloading {SMALL_FLUX_NAME} (about 17 GB) to\n  {folder}\nThis takes a while; you can stop and "
+              "restart it, and it carries on where it left off.")
+        for attempt in range(1, 8):
+            have = part.stat().st_size if part.exists() else 0
+            req = urllib.request.Request(SMALL_FLUX_URL, headers={"Range": f"bytes={have}-"} if have else {})
+            try:
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    resumed = have and r.status == 206
+                    size = int(r.headers.get("Content-Length", 0))
+                    total = have + size if resumed else size
+                    got, last = (have if resumed else 0), 0.0
+                    with part.open("ab" if resumed else "wb") as f:
+                        while True:
+                            chunk = r.read(8 * 1024 * 1024)
+                            if not chunk:
+                                break
+                            f.write(chunk)
+                            got += len(chunk)
+                            if time.time() - last > 5:
+                                last = time.time()
+                                pct = f" ({100 * got / total:.0f}%)" if total else ""
+                                print(f"  {got / 1024 ** 3:.1f} GB{pct}", flush=True)
+                if total and part.stat().st_size < total:
+                    raise OSError("download ended early")
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 416:  # nothing left to download
+                    break
+                print(f"  download problem ({e}); retrying ({attempt}/7)...")
+                time.sleep(5 * attempt)
+            except (urllib.error.URLError, OSError) as e:
+                print(f"  download problem ({e}); retrying ({attempt}/7)...")
+                time.sleep(5 * attempt)
+        else:
+            print("The download kept failing. Check your internet connection and run this again to resume.")
+            return False
+        part.replace(target)
+        print("Download finished.")
+    for _ in range(30):  # ComfyUI notices new model files on its own; give it a moment
+        if SMALL_FLUX_NAME in options(comfy.get_json("/object_info"), "CheckpointLoaderSimple", "ckpt_name"):
+            return True
+        time.sleep(2)
+    print("The file is downloaded but ComfyUI doesn't list it yet. Restart ComfyUI and run this again.")
+    return False
+
+
+def ask_yes(question):
+    if not sys.stdin.isatty():
+        return False
+    try:
+        return input(f"{question} [Y/N] ").strip().lower().startswith("y")
+    except EOFError:
+        return False
+
+
+def wait_for_comfy(comfy):
+    input("\nComfyUI has stopped. Open ComfyUI again, wait until it has finished loading, then press Enter here... ")
+    while True:
+        try:
+            comfy.get_json("/system_stats")
+            return
+        except (urllib.error.URLError, OSError, ValueError):
+            print("  ComfyUI isn't answering yet - waiting...")
+            time.sleep(5)
 
 
 def check_gpu(comfy):
     """Return (name, vram_gb, looks_integrated) for the device ComfyUI renders on, or None if unknown."""
     try:
-        dev = comfy.get_json("/system_stats")["devices"][0]
+        stats = comfy.get_json("/system_stats")
+        dev = stats["devices"][0]
     except (urllib.error.URLError, OSError, ValueError, KeyError, IndexError, TypeError):
         return None
     name, vram = str(dev.get("name", "")), (dev.get("vram_total") or 0) / 1024 ** 3
+    check_gpu.ram_gb = ((stats.get("system") or {}).get("ram_total") or 0) / 1024 ** 3
     low = name.lower()
     integrated = dev.get("type") != "cpu" and (
         ("radeon" in low and "graphics" in low and " rx " not in f" {low} ") or "intel" in low or 0 < vram < 6)
@@ -265,11 +369,19 @@ def check_gpu(comfy):
 
 def wait_for_image(comfy, prompt_id, timeout):
     started = last_note = time.time()
+    unreachable_since = None
     while time.time() - started < timeout:
         try:
             hist = comfy.get_json(f"/history/{prompt_id}")
-        except (urllib.error.URLError, OSError, ValueError):
+            unreachable_since = None
+        except urllib.error.URLError as e:
+            if isinstance(getattr(e, "reason", None), ConnectionRefusedError) or "refused" in str(e).lower():
+                unreachable_since = unreachable_since or time.time()
+                if time.time() - unreachable_since > 20:
+                    raise ComfyGone("ComfyUI stopped (it crashed - usually from running out of memory)")
             hist = {}  # ComfyUI can be slow to answer while it loads a big model; just ask again
+        except (OSError, ValueError):
+            hist = {}
         if prompt_id in hist:
             entry = hist[prompt_id]
             status = entry.get("status", {})
@@ -326,6 +438,10 @@ def main():
     ap.add_argument("--redux-strength", type=float, default=0.35)
     ap.add_argument("--low-memory", choices=["auto", "on", "off"], default="auto",
                     help="text encoders on the CPU + tiled decoding; auto = on for cards with 16 GB or less")
+    ap.add_argument("--download-small", action="store_true",
+                    help=f"download {SMALL_FLUX_NAME} (17 GB, fits 16 GB cards / 32 GB PCs) into ComfyUI and exit")
+    ap.add_argument("--allow-full-size", action="store_true",
+                    help="use a full-size Flux file even on a 16 GB card with less than 48 GB of memory")
     ap.add_argument("--any-gpu", action="store_true", help="don't stop when ComfyUI is on a built-in graphics chip")
     ap.add_argument("--timeout", type=int, default=3600, help="seconds to wait per image (default 3600)")
     args = ap.parse_args()
@@ -376,8 +492,23 @@ def main():
     if args.low_memory == "auto":
         args.low_memory = "on" if gpu and gpu[1] <= 17 else "off"
     if args.low_memory == "on":
-        print("Low-memory mode: text encoders run on the CPU and images are decoded in tiles")
+        print("Low-memory mode: lighter settings for graphics cards with 16 GB or less")
+    if args.download_small:
+        sys.exit(0 if download_small_flux(comfy, info) else 1)
     models = resolve_models(info, args)
+    ram_gb = getattr(check_gpu, "ram_gb", 0)
+    if (args.low_memory == "on" and models["kind"] == "unet" and not is_small(models["unet"]) and 0 < ram_gb < 48
+            and not args.allow_full_size and not args.unet and not args.dry_run):
+        print(f"\nYour Flux file ({models['unet']}) is the full-size 23 GB version. With a {gpu[1]:.0f} GB graphics card "
+              f"and {ram_gb:.0f} GB of memory it runs out of memory and makes ComfyUI crash.\n"
+              f"The fix is the smaller fp8 version ({SMALL_FLUX_NAME}, about 17 GB, free). Same pictures, half the memory.")
+        if not ask_yes("Download it now?"):
+            print("OK - run this again when you're ready (or use --download-small).")
+            sys.exit(5)
+        if not download_small_flux(comfy, info):
+            sys.exit(1)
+        info = comfy.get_json("/object_info")
+        models = resolve_models(info, args)
     if args.weight_dtype == "auto":
         # A full-size Flux dev file is ~23 GB; loading it as fp8 halves that so it fits a 16 GB card.
         full_size = models["kind"] == "unet" and not any(t in models["unet"].lower() for t in ("fp8", "int8", "nf4"))
@@ -431,7 +562,7 @@ def main():
                 print(f"[{n}/{len(jobs)}] {name}: ran out of graphics memory - freeing memory and retrying in low-memory mode")
                 try:
                     comfy.post_json("/free", {"unload_models": True, "free_memory": True})
-                except (urllib.error.URLError, OSError, SystemExit):
+                except (urllib.error.URLError, OSError, SystemExit, RuntimeError):
                     pass
                 time.sleep(5)
                 args.low_memory = "on"
@@ -439,6 +570,14 @@ def main():
                                           unit_seed(u["unit_id"], v, args.seed_offset), args, info)
                 resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
                 target.write_bytes(wait_for_image(comfy, resp["prompt_id"], args.timeout))
+        except ComfyGone as e:
+            print(f"[{n}/{len(jobs)}] {name}: FAILED - {e}")
+            if not sys.stdin.isatty():
+                sys.exit(4)
+            wait_for_comfy(comfy)
+            failed += 1
+            print("  Carrying on. Run this again afterwards to retry anything that failed.")
+            continue
         except (RuntimeError, OSError) as e:
             failed += 1
             print(f"[{n}/{len(jobs)}] {name}: FAILED - {e}")
