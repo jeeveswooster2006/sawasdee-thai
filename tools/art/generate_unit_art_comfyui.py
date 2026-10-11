@@ -179,7 +179,9 @@ def resolve_redux(info, args):
     return {"clip_vision": sig, "style_model": redux, "reference": ref}, "on"
 
 
-def build_workflow(models, redux, ref_name, prompt, seed, args):
+def build_workflow(models, redux, ref_name, prompt, seed, args, info=None):
+    info = info or {}
+    low = args.low_memory == "on"
     w = {}
     if models["kind"] == "checkpoint":
         w["1"] = {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": models["checkpoint"]}}
@@ -191,6 +193,8 @@ def build_workflow(models, redux, ref_name, prompt, seed, args):
             w["1"] = {"class_type": "UNETLoader", "inputs": {"unet_name": models["unet"], "weight_dtype": args.weight_dtype}}
         w["2"] = {"class_type": models["clip_loader"],
                   "inputs": {"clip_name1": models["t5"], "clip_name2": models["clip_l"], "type": "flux"}}
+        if low and has_input(info, models["clip_loader"], "device"):
+            w["2"]["inputs"]["device"] = "cpu"  # keep the 9 GB T5 text encoder off the graphics card
         w["3"] = {"class_type": "VAELoader", "inputs": {"vae_name": models["vae"]}}
         model, clip, vae = ["1", 0], ["2", 0], ["3", 0]
     w["4"] = {"class_type": "CLIPTextEncode", "inputs": {"text": prompt, "clip": clip}}
@@ -210,7 +214,12 @@ def build_workflow(models, redux, ref_name, prompt, seed, args):
         "model": model, "seed": seed, "steps": args.steps or (4 if models["schnell"] else 28), "cfg": 1.0,
         "sampler_name": "euler", "scheduler": "simple", "positive": positive, "negative": ["6", 0],
         "latent_image": ["7", 0], "denoise": 1.0}}
-    w["9"] = {"class_type": "VAEDecode", "inputs": {"samples": ["8", 0], "vae": vae}}
+    if low and "VAEDecodeTiled" in info:
+        tiled = {"tile_size": 512, "overlap": 64, "temporal_size": 64, "temporal_overlap": 8}
+        w["9"] = {"class_type": "VAEDecodeTiled", "inputs": dict({"samples": ["8", 0], "vae": vae},
+                  **{k: v for k, v in tiled.items() if has_input(info, "VAEDecodeTiled", k)})}
+    else:
+        w["9"] = {"class_type": "VAEDecode", "inputs": {"samples": ["8", 0], "vae": vae}}
     w["10"] = {"class_type": "SaveImage", "inputs": {"images": ["9", 0], "filename_prefix": "sawasdee/unit"}}
     return w
 
@@ -315,6 +324,8 @@ def main():
     ap.add_argument("--reference", default=str(ROOT / "tools" / "art" / "mascot.png"))
     ap.add_argument("--no-redux", action="store_true")
     ap.add_argument("--redux-strength", type=float, default=0.35)
+    ap.add_argument("--low-memory", choices=["auto", "on", "off"], default="auto",
+                    help="text encoders on the CPU + tiled decoding; auto = on for cards with 16 GB or less")
     ap.add_argument("--any-gpu", action="store_true", help="don't stop when ComfyUI is on a built-in graphics chip")
     ap.add_argument("--timeout", type=int, default=3600, help="seconds to wait per image (default 3600)")
     args = ap.parse_args()
@@ -362,6 +373,10 @@ def main():
             print("\nComfyUI is using the processor's built-in graphics chip, which is far too slow for Flux.\n"
                   "Point it at your graphics card (e.g. start ComfyUI with --cuda-device 1), restart it, and run this again.")
             sys.exit(3)
+    if args.low_memory == "auto":
+        args.low_memory = "on" if gpu and gpu[1] <= 17 else "off"
+    if args.low_memory == "on":
+        print("Low-memory mode: text encoders run on the CPU and images are decoded in tiles")
     models = resolve_models(info, args)
     if args.weight_dtype == "auto":
         # A full-size Flux dev file is ~23 GB; loading it as fp8 halves that so it fits a 16 GB card.
@@ -398,7 +413,7 @@ def main():
             skipped += 1
             continue
         prompt = f"{CHARACTER}. Scene: Nong Chang {u['scene']}. {STYLE}"
-        workflow = build_workflow(models, redux, ref_name, prompt, unit_seed(u["unit_id"], v, args.seed_offset), args)
+        workflow = build_workflow(models, redux, ref_name, prompt, unit_seed(u["unit_id"], v, args.seed_offset), args, info)
         if args.dry_run:
             print(json.dumps(workflow, ensure_ascii=False, indent=1))
             return
@@ -406,11 +421,31 @@ def main():
         print(f"[{n}/{len(jobs)}] {name}: making..." + (" (the first one also loads the model, so it's slowest)"
                                                         if done == 0 else ""), flush=True)
         try:
-            resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
-            target.write_bytes(wait_for_image(comfy, resp["prompt_id"], args.timeout))
+            try:
+                resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
+                target.write_bytes(wait_for_image(comfy, resp["prompt_id"], args.timeout))
+            except RuntimeError as e:
+                if "out of memory" not in str(e).lower():
+                    raise
+                # Free everything ComfyUI is holding, switch to low-memory mode and try this image once more.
+                print(f"[{n}/{len(jobs)}] {name}: ran out of graphics memory - freeing memory and retrying in low-memory mode")
+                try:
+                    comfy.post_json("/free", {"unload_models": True, "free_memory": True})
+                except (urllib.error.URLError, OSError, SystemExit):
+                    pass
+                time.sleep(5)
+                args.low_memory = "on"
+                workflow = build_workflow(models, redux, ref_name, prompt,
+                                          unit_seed(u["unit_id"], v, args.seed_offset), args, info)
+                resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
+                target.write_bytes(wait_for_image(comfy, resp["prompt_id"], args.timeout))
         except (RuntimeError, OSError) as e:
             failed += 1
             print(f"[{n}/{len(jobs)}] {name}: FAILED - {e}")
+            if done == 0 and "out of memory" in str(e).lower():
+                raise SystemExit("\nStopping: the graphics card ran out of memory even in low-memory mode.\n"
+                                 "Close other programs that use the graphics card (games, browsers with many tabs),\n"
+                                 "restart ComfyUI and run this again. If it still happens, paste this window to Claude.")
             if isinstance(e, TimeoutError) and done == 0:
                 raise SystemExit("\nStopping: not even one image finished, so the rest would time out too.\n"
                                  "Check the ComfyUI window for errors or an out-of-memory message, then try:\n"
