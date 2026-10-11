@@ -219,10 +219,35 @@ def unit_seed(unit_id, variant, offset):
     return (int(hashlib.md5(unit_id.encode()).hexdigest()[:8], 16) + 1009 * variant + offset) % (2 ** 32)
 
 
+def queue_state(comfy, prompt_id):
+    try:
+        q = comfy.get_json("/queue")
+    except (urllib.error.URLError, OSError, ValueError):
+        return "unknown"
+    if any(item[1] == prompt_id for item in q.get("queue_running", [])):
+        return "running"
+    if any(item[1] == prompt_id for item in q.get("queue_pending", [])):
+        return "waiting in ComfyUI's queue"
+    return "unknown"
+
+
+def cancel(comfy, prompt_id):
+    """Take a timed-out job out of ComfyUI so it doesn't block every image after it."""
+    try:
+        if queue_state(comfy, prompt_id) == "running":
+            comfy.post_json("/interrupt", {})
+        comfy.post_json("/queue", {"delete": [prompt_id]})
+    except (urllib.error.URLError, OSError, ValueError, SystemExit):
+        pass
+
+
 def wait_for_image(comfy, prompt_id, timeout):
-    started = time.time()
+    started = last_note = time.time()
     while time.time() - started < timeout:
-        hist = comfy.get_json(f"/history/{prompt_id}")
+        try:
+            hist = comfy.get_json(f"/history/{prompt_id}")
+        except (urllib.error.URLError, OSError, ValueError):
+            hist = {}  # ComfyUI can be slow to answer while it loads a big model; just ask again
         if prompt_id in hist:
             entry = hist[prompt_id]
             status = entry.get("status", {})
@@ -236,8 +261,12 @@ def wait_for_image(comfy, prompt_id, timeout):
                     return comfy.get(f"/view?{q}")
             if status.get("completed"):
                 raise RuntimeError("ComfyUI finished but returned no image")
+        if time.time() - last_note >= 60:
+            last_note = time.time()
+            print(f"    ...still working ({last_note - started:.0f}s, {queue_state(comfy, prompt_id)})", flush=True)
         time.sleep(2)
-    raise RuntimeError(f"timed out after {timeout}s (raise --timeout if your GPU is slow)")
+    cancel(comfy, prompt_id)
+    raise TimeoutError(f"timed out after {timeout}s")
 
 
 def save_web_copy(png_path):
@@ -265,14 +294,15 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="print the first workflow instead of running it")
     ap.add_argument("--checkpoint"); ap.add_argument("--unet"); ap.add_argument("--t5")
     ap.add_argument("--clip-l"); ap.add_argument("--vae")
-    ap.add_argument("--weight-dtype", default="default", help="UNETLoader weight dtype, e.g. fp8_e4m3fn to save VRAM")
+    ap.add_argument("--weight-dtype", default="auto",
+                    help="UNETLoader weight dtype: auto (fp8 for full-size Flux files, to fit 16 GB cards), default, fp8_e4m3fn")
     ap.add_argument("--steps", type=int, help="default 28 for Flux dev, 4 for schnell")
     ap.add_argument("--guidance", type=float, default=3.5)
     ap.add_argument("--width", type=int, default=1216); ap.add_argument("--height", type=int, default=832)
     ap.add_argument("--reference", default=str(ROOT / "tools" / "art" / "mascot.png"))
     ap.add_argument("--no-redux", action="store_true")
     ap.add_argument("--redux-strength", type=float, default=0.35)
-    ap.add_argument("--timeout", type=int, default=900, help="seconds to wait per image")
+    ap.add_argument("--timeout", type=int, default=3600, help="seconds to wait per image (default 3600)")
     args = ap.parse_args()
 
     # ComfyUI Desktop listens on 8000, a command-line/portable install on 8188; use whichever has Flux.
@@ -311,6 +341,13 @@ def main():
         return
 
     models = resolve_models(info, args)
+    if args.weight_dtype == "auto":
+        # A full-size Flux dev file is ~23 GB; loading it as fp8 halves that so it fits a 16 GB card.
+        full_size = models["kind"] == "unet" and not any(t in models["unet"].lower() for t in ("fp8", "int8", "nf4"))
+        fp8_ok = "fp8_e4m3fn" in options(info, "UNETLoader", "weight_dtype")
+        args.weight_dtype = "fp8_e4m3fn" if full_size and fp8_ok else "default"
+        if args.weight_dtype != "default":
+            print("Loading the diffusion model as fp8 to save graphics memory (--weight-dtype default to turn off)")
     redux, redux_note = resolve_redux(info, args)
     print("Using:", ", ".join(f"{k}={v}" for k, v in models.items() if k not in ("kind",) and v not in (None, False)))
     print(f"Mascot reference (Flux Redux): {redux_note}")
@@ -344,12 +381,19 @@ def main():
             print(json.dumps(workflow, ensure_ascii=False, indent=1))
             return
         started = time.time()
+        print(f"[{n}/{len(jobs)}] {name}: making..." + (" (the first one also loads the model, so it's slowest)"
+                                                        if done == 0 else ""), flush=True)
         try:
             resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
             target.write_bytes(wait_for_image(comfy, resp["prompt_id"], args.timeout))
-        except RuntimeError as e:
+        except (RuntimeError, OSError) as e:
             failed += 1
             print(f"[{n}/{len(jobs)}] {name}: FAILED - {e}")
+            if isinstance(e, TimeoutError) and done == 0:
+                raise SystemExit("\nStopping: not even one image finished, so the rest would time out too.\n"
+                                 "Check the ComfyUI window for errors or an out-of-memory message, then try:\n"
+                                 "  py -3.12 tools\\art\\generate_unit_art_comfyui.py --units colors --steps 20\n"
+                                 "and paste what both windows say.")
             continue
         made_webp = save_web_copy(target)
         if not made_webp and not webp_warned:
