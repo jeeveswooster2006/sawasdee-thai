@@ -79,7 +79,8 @@ class Comfy:
                                      headers={"Content-Type": "application/json"})
         try:
             with opener.open(req, timeout=60) as r:
-                return json.loads(r.read())
+                body = r.read()
+                return json.loads(body) if body.strip() else {}  # /free and /interrupt reply with an empty body
         except urllib.error.HTTPError as e:
             body = e.read().decode(errors="replace")
             raise SystemExit(f"ComfyUI rejected the request ({e.code}):\n{format_comfy_error(body)}")
@@ -332,6 +333,13 @@ def download_small_flux(comfy, info):
     return False
 
 
+def free_memory(comfy, unload=False):
+    try:
+        comfy.post_json("/free", {"unload_models": unload, "free_memory": True})
+    except (urllib.error.URLError, OSError, ValueError, SystemExit, RuntimeError):
+        pass
+
+
 def ask_yes(question):
     if not sys.stdin.isatty():
         return False
@@ -537,6 +545,7 @@ def main():
     print(f"{len(jobs)} image(s) to make for {len(units)} unit(s) -> {OUT}")
     webp_warned = False
     done = skipped = failed = 0
+    oom_seen = False
     for n, (u, v) in enumerate(jobs, 1):
         name = u["unit_id"] + ("" if v == 0 else f"-v{v + 1}")
         target = OUT / f"{name}.png"
@@ -560,10 +569,8 @@ def main():
                     raise
                 # Free everything ComfyUI is holding, switch to low-memory mode and try this image once more.
                 print(f"[{n}/{len(jobs)}] {name}: ran out of graphics memory - freeing memory and retrying in low-memory mode")
-                try:
-                    comfy.post_json("/free", {"unload_models": True, "free_memory": True})
-                except (urllib.error.URLError, OSError, SystemExit, RuntimeError):
-                    pass
+                free_memory(comfy, unload=True)
+                oom_seen = True
                 time.sleep(5)
                 args.low_memory = "on"
                 workflow = build_workflow(models, redux, ref_name, prompt,
@@ -595,6 +602,8 @@ def main():
         if not made_webp and not webp_warned:
             print("  (tip: `py -3.12 -m pip install pillow` to also get small .webp copies for the app)")
             webp_warned = True
+        if oom_seen:
+            free_memory(comfy)  # after one out-of-memory, clear leftovers between images (costs a model reload)
         done += 1
         print(f"[{n}/{len(jobs)}] {name}: saved ({time.time() - started:.0f}s) - {u['title']}")
     print(f"\nDone: {done} made, {skipped} already existed, {failed} failed. Images are in {OUT}")
