@@ -28,6 +28,19 @@ PASS = 0.75
 REVIEW = 0.5
 
 
+def load_audio(path):
+    """Decode to 16 kHz mono float32 ourselves; faster-whisper's own decoder breaks on some PyAV versions."""
+    import av
+    import numpy as np
+    resampler = av.AudioResampler(format="s16", layout="mono", rate=16000)
+    chunks = []
+    with av.open(str(path)) as container:
+        for frame in container.decode(audio=0):
+            chunks.extend(f.to_ndarray().reshape(-1) for f in resampler.resample(frame))
+    chunks.extend(f.to_ndarray().reshape(-1) for f in resampler.resample(None))
+    return np.concatenate(chunks).astype(np.float32) / 32768.0
+
+
 def normalize(text):
     text = text.replace("555", "ห้าห้าห้า").replace("...", "").replace("…", "")
     return re.sub(r"[\sๆ.,!?\"'()\-]", "", text)
@@ -55,7 +68,7 @@ def main():
         if not path.exists():
             rows.append({**w, "heard": "", "similarity": 0.0, "status": "MISSING FILE"})
             continue
-        segments, _ = model.transcribe(str(path), language="th", beam_size=5,
+        segments, _ = model.transcribe(load_audio(path), language="th", beam_size=5,
                                        condition_on_previous_text=False, vad_filter=False)
         heard = "".join(s.text for s in segments).strip()
         sim = difflib.SequenceMatcher(None, normalize(w["thai"]), normalize(heard)).ratio()
