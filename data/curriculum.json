@@ -1,0 +1,3344 @@
+[
+  {
+    "level": "Beginner",
+    "units": [
+      {
+        "id": "basics1",
+        "title": "Greetings",
+        "tagline": "The words you'll use every single day.",
+        "lessons": [
+          {
+            "id": "b1-l1",
+            "title": "Hello & thanks",
+            "words": [
+              {
+                "id": "b1-l1-0",
+                "thai": "สวัสดี",
+                "roman": "sa-wàt-dii",
+                "en": "Hello",
+                "tone": "falling",
+                "accept": [
+                  "hello",
+                  "hi",
+                  "goodbye",
+                  "bye"
+                ]
+              },
+              {
+                "id": "b1-l1-1",
+                "thai": "ขอบคุณ",
+                "roman": "khɔ̀ɔp-khun",
+                "en": "Thank you",
+                "tone": "low",
+                "accept": [
+                  "thank you",
+                  "thanks"
+                ]
+              },
+              {
+                "id": "b1-l1-2",
+                "thai": "ใช่",
+                "roman": "châi",
+                "en": "Yes",
+                "tone": "falling"
+              },
+              {
+                "id": "b1-l1-3",
+                "thai": "ไม่ใช่",
+                "roman": "mâi châi",
+                "en": "No",
+                "tone": "falling"
+              },
+              {
+                "id": "b1-l1-4",
+                "thai": "ขอโทษ",
+                "roman": "khɔ̌ɔ-thôot",
+                "en": "Sorry",
+                "tone": "rising",
+                "accept": [
+                  "sorry",
+                  "excuse me"
+                ]
+              },
+              {
+                "id": "b1-l1-5",
+                "thai": "ไม่เป็นไร",
+                "roman": "mâi-pen-rai",
+                "en": "No worries",
+                "tone": "mid",
+                "accept": [
+                  "no worries",
+                  "you're welcome",
+                  "never mind"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b1-l2",
+            "title": "How are you?",
+            "words": [
+              {
+                "id": "b1-l2-0",
+                "thai": "สบายดีไหม",
+                "roman": "sa-baai-dii mǎi",
+                "en": "How are you?",
+                "tone": "rising"
+              },
+              {
+                "id": "b1-l2-1",
+                "thai": "สบายดี",
+                "roman": "sa-baai-dii",
+                "en": "I'm fine",
+                "tone": "mid",
+                "accept": [
+                  "i'm fine",
+                  "im fine",
+                  "fine",
+                  "good"
+                ]
+              },
+              {
+                "id": "b1-l2-2",
+                "thai": "ยินดีที่ได้รู้จัก",
+                "roman": "yin-dii thîi dâai rúu-jàk",
+                "en": "Nice to meet you",
+                "tone": "falling"
+              },
+              {
+                "id": "b1-l2-3",
+                "thai": "ครับ",
+                "roman": "khráp",
+                "en": "Polite word (male)",
+                "tone": "high",
+                "accept": [
+                  "polite word (male)",
+                  "polite particle male",
+                  "male polite word"
+                ]
+              },
+              {
+                "id": "b1-l2-4",
+                "thai": "ค่ะ",
+                "roman": "khâ",
+                "en": "Polite word (female)",
+                "tone": "falling",
+                "accept": [
+                  "polite word (female)",
+                  "polite particle female",
+                  "female polite word"
+                ]
+              },
+              {
+                "id": "b1-l2-5",
+                "thai": "ราตรีสวัสดิ์",
+                "roman": "raa-trii sa-wàt",
+                "en": "Good night",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "numbers1",
+        "title": "Numbers 1–10",
+        "tagline": "Count on your fingers together.",
+        "lessons": [
+          {
+            "id": "n1-l1",
+            "title": "One to five",
+            "words": [
+              {
+                "id": "n1-l1-0",
+                "thai": "หนึ่ง",
+                "roman": "nùeng",
+                "en": "One",
+                "tone": "falling",
+                "accept": [
+                  "one",
+                  "1"
+                ]
+              },
+              {
+                "id": "n1-l1-1",
+                "thai": "สอง",
+                "roman": "sɔ̌ɔng",
+                "en": "Two",
+                "tone": "rising",
+                "accept": [
+                  "two",
+                  "2"
+                ]
+              },
+              {
+                "id": "n1-l1-2",
+                "thai": "สาม",
+                "roman": "sǎam",
+                "en": "Three",
+                "tone": "rising",
+                "accept": [
+                  "three",
+                  "3"
+                ]
+              },
+              {
+                "id": "n1-l1-3",
+                "thai": "สี่",
+                "roman": "sìi",
+                "en": "Four",
+                "tone": "low",
+                "accept": [
+                  "four",
+                  "4"
+                ]
+              },
+              {
+                "id": "n1-l1-4",
+                "thai": "ห้า",
+                "roman": "hâa",
+                "en": "Five",
+                "tone": "falling",
+                "accept": [
+                  "five",
+                  "5"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "n1-l2",
+            "title": "Six to ten",
+            "words": [
+              {
+                "id": "n1-l2-0",
+                "thai": "หก",
+                "roman": "hòk",
+                "en": "Six",
+                "tone": "low",
+                "accept": [
+                  "six",
+                  "6"
+                ]
+              },
+              {
+                "id": "n1-l2-1",
+                "thai": "เจ็ด",
+                "roman": "jèt",
+                "en": "Seven",
+                "tone": "low",
+                "accept": [
+                  "seven",
+                  "7"
+                ]
+              },
+              {
+                "id": "n1-l2-2",
+                "thai": "แปด",
+                "roman": "pɛ̀ɛt",
+                "en": "Eight",
+                "tone": "low",
+                "accept": [
+                  "eight",
+                  "8"
+                ]
+              },
+              {
+                "id": "n1-l2-3",
+                "thai": "เก้า",
+                "roman": "kâo",
+                "en": "Nine",
+                "tone": "falling",
+                "accept": [
+                  "nine",
+                  "9"
+                ]
+              },
+              {
+                "id": "n1-l2-4",
+                "thai": "สิบ",
+                "roman": "sìp",
+                "en": "Ten",
+                "tone": "low",
+                "accept": [
+                  "ten",
+                  "10"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "numbers2",
+        "title": "Bigger Numbers",
+        "tagline": "Eleven, twenty, and counting by tens.",
+        "lessons": [
+          {
+            "id": "n2-l1",
+            "title": "Eleven to fifteen",
+            "words": [
+              {
+                "id": "n2-l1-0",
+                "thai": "สิบเอ็ด",
+                "roman": "sìp-èt",
+                "en": "Eleven",
+                "tone": "low",
+                "accept": [
+                  "eleven",
+                  "11"
+                ]
+              },
+              {
+                "id": "n2-l1-1",
+                "thai": "สิบสอง",
+                "roman": "sìp-sɔ̌ɔng",
+                "en": "Twelve",
+                "tone": "low",
+                "accept": [
+                  "twelve",
+                  "12"
+                ]
+              },
+              {
+                "id": "n2-l1-2",
+                "thai": "สิบสาม",
+                "roman": "sìp-sǎam",
+                "en": "Thirteen",
+                "tone": "low",
+                "accept": [
+                  "thirteen",
+                  "13"
+                ]
+              },
+              {
+                "id": "n2-l1-3",
+                "thai": "สิบสี่",
+                "roman": "sìp-sìi",
+                "en": "Fourteen",
+                "tone": "low",
+                "accept": [
+                  "fourteen",
+                  "14"
+                ]
+              },
+              {
+                "id": "n2-l1-4",
+                "thai": "สิบห้า",
+                "roman": "sìp-hâa",
+                "en": "Fifteen",
+                "tone": "low",
+                "accept": [
+                  "fifteen",
+                  "15"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "n2-l2",
+            "title": "Counting by tens",
+            "words": [
+              {
+                "id": "n2-l2-0",
+                "thai": "ยี่สิบ",
+                "roman": "yîi-sìp",
+                "en": "Twenty",
+                "tone": "falling",
+                "accept": [
+                  "twenty",
+                  "20"
+                ]
+              },
+              {
+                "id": "n2-l2-1",
+                "thai": "สามสิบ",
+                "roman": "sǎam-sìp",
+                "en": "Thirty",
+                "tone": "rising",
+                "accept": [
+                  "thirty",
+                  "30"
+                ]
+              },
+              {
+                "id": "n2-l2-2",
+                "thai": "สี่สิบ",
+                "roman": "sìi-sìp",
+                "en": "Forty",
+                "tone": "low",
+                "accept": [
+                  "forty",
+                  "40"
+                ]
+              },
+              {
+                "id": "n2-l2-3",
+                "thai": "ห้าสิบ",
+                "roman": "hâa-sìp",
+                "en": "Fifty",
+                "tone": "falling",
+                "accept": [
+                  "fifty",
+                  "50"
+                ]
+              },
+              {
+                "id": "n2-l2-4",
+                "thai": "ร้อย",
+                "roman": "rɔ́ɔi",
+                "en": "One hundred",
+                "tone": "high",
+                "accept": [
+                  "one hundred",
+                  "hundred",
+                  "100"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "family",
+        "title": "Family",
+        "tagline": "Thai has a different word for older vs. younger siblings.",
+        "lessons": [
+          {
+            "id": "fam-l1",
+            "title": "Close family",
+            "words": [
+              {
+                "id": "fam-l1-0",
+                "thai": "แม่",
+                "roman": "mâe",
+                "en": "Mom",
+                "tone": "falling"
+              },
+              {
+                "id": "fam-l1-1",
+                "thai": "พ่อ",
+                "roman": "phɔ̂ɔ",
+                "en": "Dad",
+                "tone": "falling"
+              },
+              {
+                "id": "fam-l1-2",
+                "thai": "พี่ชาย",
+                "roman": "phîi chaai",
+                "en": "Older brother",
+                "tone": "falling"
+              },
+              {
+                "id": "fam-l1-3",
+                "thai": "น้องชาย",
+                "roman": "nɔ́ɔng chaai",
+                "en": "Younger brother",
+                "tone": "high"
+              },
+              {
+                "id": "fam-l1-4",
+                "thai": "พี่สาว",
+                "roman": "phîi sǎao",
+                "en": "Older sister",
+                "tone": "falling"
+              },
+              {
+                "id": "fam-l1-5",
+                "thai": "น้องสาว",
+                "roman": "nɔ́ɔng sǎao",
+                "en": "Younger sister",
+                "tone": "high"
+              }
+            ]
+          },
+          {
+            "id": "fam-l2",
+            "title": "Grandparents",
+            "words": [
+              {
+                "id": "fam-l2-0",
+                "thai": "ปู่",
+                "roman": "pùu",
+                "en": "Grandfather (dad's side)",
+                "tone": "low"
+              },
+              {
+                "id": "fam-l2-1",
+                "thai": "ย่า",
+                "roman": "yâa",
+                "en": "Grandmother (dad's side)",
+                "tone": "falling"
+              },
+              {
+                "id": "fam-l2-2",
+                "thai": "ตา",
+                "roman": "taa",
+                "en": "Grandfather (mom's side)",
+                "tone": "mid"
+              },
+              {
+                "id": "fam-l2-3",
+                "thai": "ยาย",
+                "roman": "yaai",
+                "en": "Grandmother (mom's side)",
+                "tone": "mid"
+              },
+              {
+                "id": "fam-l2-4",
+                "thai": "ครอบครัว",
+                "roman": "khrɔ̂ɔp-khrua",
+                "en": "Family",
+                "tone": "falling"
+              },
+              {
+                "id": "fam-l2-5",
+                "thai": "ลูก",
+                "roman": "lûuk",
+                "en": "Child / kid",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "colors",
+        "title": "Colors & Shapes",
+        "tagline": "Every color word starts with สี, meaning \"color.\"",
+        "lessons": [
+          {
+            "id": "col-l1",
+            "title": "Colors",
+            "words": [
+              {
+                "id": "col-l1-0",
+                "thai": "สีแดง",
+                "roman": "sǐi dɛɛng",
+                "en": "Red",
+                "tone": "rising",
+                "swatch": "#c0392b"
+              },
+              {
+                "id": "col-l1-1",
+                "thai": "สีน้ำเงิน",
+                "roman": "sǐi náam-ngoen",
+                "en": "Blue",
+                "tone": "rising",
+                "swatch": "#1f5fa8"
+              },
+              {
+                "id": "col-l1-2",
+                "thai": "สีเขียว",
+                "roman": "sǐi khǐao",
+                "en": "Green",
+                "tone": "rising",
+                "swatch": "#2f7d4f"
+              },
+              {
+                "id": "col-l1-3",
+                "thai": "สีเหลือง",
+                "roman": "sǐi lǔeang",
+                "en": "Yellow",
+                "tone": "rising",
+                "swatch": "#e0b022"
+              },
+              {
+                "id": "col-l1-4",
+                "thai": "สีดำ",
+                "roman": "sǐi dam",
+                "en": "Black",
+                "tone": "rising",
+                "swatch": "#1a1a1a"
+              },
+              {
+                "id": "col-l1-5",
+                "thai": "สีขาว",
+                "roman": "sǐi khǎao",
+                "en": "White",
+                "tone": "rising",
+                "swatch": "#f5f5f0"
+              }
+            ]
+          },
+          {
+            "id": "col-l2",
+            "title": "Shapes",
+            "words": [
+              {
+                "id": "col-l2-0",
+                "thai": "วงกลม",
+                "roman": "wong-klom",
+                "en": "Circle",
+                "tone": "mid"
+              },
+              {
+                "id": "col-l2-1",
+                "thai": "สี่เหลี่ยม",
+                "roman": "sìi-lìam",
+                "en": "Square",
+                "tone": "low"
+              },
+              {
+                "id": "col-l2-2",
+                "thai": "สามเหลี่ยม",
+                "roman": "sǎam-lìam",
+                "en": "Triangle",
+                "tone": "rising"
+              },
+              {
+                "id": "col-l2-3",
+                "thai": "ดาว",
+                "roman": "daao",
+                "en": "Star",
+                "tone": "mid"
+              },
+              {
+                "id": "col-l2-4",
+                "thai": "หัวใจ",
+                "roman": "hǔa-jai",
+                "en": "Heart",
+                "tone": "rising"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "food",
+        "title": "Food & Drink",
+        "tagline": "The words behind every meal.",
+        "lessons": [
+          {
+            "id": "food-l1",
+            "title": "Foods",
+            "words": [
+              {
+                "id": "food-l1-0",
+                "thai": "ข้าว",
+                "roman": "khâao",
+                "en": "Rice",
+                "tone": "falling"
+              },
+              {
+                "id": "food-l1-1",
+                "thai": "น้ำ",
+                "roman": "náam",
+                "en": "Water",
+                "tone": "high"
+              },
+              {
+                "id": "food-l1-2",
+                "thai": "ไก่",
+                "roman": "kài",
+                "en": "Chicken",
+                "tone": "low"
+              },
+              {
+                "id": "food-l1-3",
+                "thai": "หมู",
+                "roman": "mǔu",
+                "en": "Pork",
+                "tone": "rising"
+              },
+              {
+                "id": "food-l1-4",
+                "thai": "ผัก",
+                "roman": "phàk",
+                "en": "Vegetable",
+                "tone": "low"
+              },
+              {
+                "id": "food-l1-5",
+                "thai": "ผลไม้",
+                "roman": "phǒn-lá-máai",
+                "en": "Fruit",
+                "tone": "high"
+              }
+            ]
+          },
+          {
+            "id": "food-l2",
+            "title": "Drinks & taste",
+            "words": [
+              {
+                "id": "food-l2-0",
+                "thai": "กาแฟ",
+                "roman": "kaa-fɛɛ",
+                "en": "Coffee",
+                "tone": "mid"
+              },
+              {
+                "id": "food-l2-1",
+                "thai": "ชา",
+                "roman": "chaa",
+                "en": "Tea",
+                "tone": "mid"
+              },
+              {
+                "id": "food-l2-2",
+                "thai": "นม",
+                "roman": "nom",
+                "en": "Milk",
+                "tone": "mid"
+              },
+              {
+                "id": "food-l2-3",
+                "thai": "ขนม",
+                "roman": "khà-nǒm",
+                "en": "Snack / sweet",
+                "tone": "rising"
+              },
+              {
+                "id": "food-l2-4",
+                "thai": "อาหาร",
+                "roman": "aa-hǎan",
+                "en": "Food",
+                "tone": "rising"
+              },
+              {
+                "id": "food-l2-5",
+                "thai": "อร่อย",
+                "roman": "à-ròi",
+                "en": "Delicious",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "phrases",
+        "title": "Everyday Phrases",
+        "tagline": "Small words that unlock real conversations.",
+        "lessons": [
+          {
+            "id": "phr-l1",
+            "title": "Asking for things",
+            "words": [
+              {
+                "id": "phr-l1-0",
+                "thai": "ขอหน่อย",
+                "roman": "khɔ̌ɔ nɔ̀i",
+                "en": "May I have..., please",
+                "tone": "rising"
+              },
+              {
+                "id": "phr-l1-1",
+                "thai": "ได้",
+                "roman": "dâai",
+                "en": "Can / okay",
+                "tone": "falling",
+                "accept": [
+                  "can",
+                  "okay",
+                  "ok"
+                ]
+              },
+              {
+                "id": "phr-l1-2",
+                "thai": "ไม่ได้",
+                "roman": "mâi dâai",
+                "en": "Cannot / no",
+                "tone": "falling",
+                "accept": [
+                  "cannot",
+                  "can't",
+                  "no"
+                ]
+              },
+              {
+                "id": "phr-l1-3",
+                "thai": "เท่าไหร่",
+                "roman": "thâo-rài",
+                "en": "How much?",
+                "tone": "falling"
+              },
+              {
+                "id": "phr-l1-4",
+                "thai": "อันนี้",
+                "roman": "an níi",
+                "en": "This one",
+                "tone": "high"
+              },
+              {
+                "id": "phr-l1-5",
+                "thai": "อันนั้น",
+                "roman": "an nán",
+                "en": "That one",
+                "tone": "high"
+              }
+            ]
+          },
+          {
+            "id": "phr-l2",
+            "title": "Question words",
+            "words": [
+              {
+                "id": "phr-l2-0",
+                "thai": "ที่ไหน",
+                "roman": "thîi-nǎi",
+                "en": "Where?",
+                "tone": "rising"
+              },
+              {
+                "id": "phr-l2-1",
+                "thai": "อะไร",
+                "roman": "à-rai",
+                "en": "What?",
+                "tone": "mid"
+              },
+              {
+                "id": "phr-l2-2",
+                "thai": "ทำไม",
+                "roman": "tham-mai",
+                "en": "Why?",
+                "tone": "mid"
+              },
+              {
+                "id": "phr-l2-3",
+                "thai": "ใคร",
+                "roman": "khrai",
+                "en": "Who?",
+                "tone": "mid"
+              },
+              {
+                "id": "phr-l2-4",
+                "thai": "เมื่อไหร่",
+                "roman": "mʉ̂ʉa-rài",
+                "en": "When?",
+                "tone": "falling"
+              },
+              {
+                "id": "phr-l2-5",
+                "thai": "ยังไง",
+                "roman": "yang-ngai",
+                "en": "How?",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "time",
+        "title": "Time & Days",
+        "tagline": "Days of the week and talking about today.",
+        "lessons": [
+          {
+            "id": "time-l1",
+            "title": "Weekdays",
+            "words": [
+              {
+                "id": "time-l1-0",
+                "thai": "วันจันทร์",
+                "roman": "wan jan",
+                "en": "Monday",
+                "tone": "mid"
+              },
+              {
+                "id": "time-l1-1",
+                "thai": "วันอังคาร",
+                "roman": "wan ang-khaan",
+                "en": "Tuesday",
+                "tone": "mid"
+              },
+              {
+                "id": "time-l1-2",
+                "thai": "วันพุธ",
+                "roman": "wan phút",
+                "en": "Wednesday",
+                "tone": "high"
+              },
+              {
+                "id": "time-l1-3",
+                "thai": "วันพฤหัสบดี",
+                "roman": "wan phá-rʉ́-hàt",
+                "en": "Thursday",
+                "tone": "high"
+              },
+              {
+                "id": "time-l1-4",
+                "thai": "วันศุกร์",
+                "roman": "wan sùk",
+                "en": "Friday",
+                "tone": "low"
+              }
+            ]
+          },
+          {
+            "id": "time-l2",
+            "title": "Weekend & today",
+            "words": [
+              {
+                "id": "time-l2-0",
+                "thai": "วันเสาร์",
+                "roman": "wan sǎo",
+                "en": "Saturday",
+                "tone": "rising"
+              },
+              {
+                "id": "time-l2-1",
+                "thai": "วันอาทิตย์",
+                "roman": "wan aa-thít",
+                "en": "Sunday",
+                "tone": "high"
+              },
+              {
+                "id": "time-l2-2",
+                "thai": "วันนี้",
+                "roman": "wan-níi",
+                "en": "Today",
+                "tone": "high"
+              },
+              {
+                "id": "time-l2-3",
+                "thai": "พรุ่งนี้",
+                "roman": "phrûng-níi",
+                "en": "Tomorrow",
+                "tone": "high"
+              },
+              {
+                "id": "time-l2-4",
+                "thai": "เมื่อวาน",
+                "roman": "mʉ̂ʉa-waan",
+                "en": "Yesterday",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "places",
+        "title": "Places & Directions",
+        "tagline": "Getting around town.",
+        "lessons": [
+          {
+            "id": "pl-l1",
+            "title": "Places",
+            "words": [
+              {
+                "id": "pl-l1-0",
+                "thai": "บ้าน",
+                "roman": "bâan",
+                "en": "House",
+                "tone": "falling"
+              },
+              {
+                "id": "pl-l1-1",
+                "thai": "โรงเรียน",
+                "roman": "roong-rian",
+                "en": "School",
+                "tone": "mid"
+              },
+              {
+                "id": "pl-l1-2",
+                "thai": "ตลาด",
+                "roman": "tà-làat",
+                "en": "Market",
+                "tone": "low"
+              },
+              {
+                "id": "pl-l1-3",
+                "thai": "ร้านอาหาร",
+                "roman": "ráan-aa-hǎan",
+                "en": "Restaurant",
+                "tone": "high"
+              },
+              {
+                "id": "pl-l1-4",
+                "thai": "โรงพยาบาล",
+                "roman": "roong-phá-yaa-baan",
+                "en": "Hospital",
+                "tone": "mid"
+              },
+              {
+                "id": "pl-l1-5",
+                "thai": "สนามบิน",
+                "roman": "sà-nǎam-bin",
+                "en": "Airport",
+                "tone": "rising"
+              }
+            ]
+          },
+          {
+            "id": "pl-l2",
+            "title": "Directions",
+            "words": [
+              {
+                "id": "pl-l2-0",
+                "thai": "ซ้าย",
+                "roman": "sáai",
+                "en": "Left",
+                "tone": "high"
+              },
+              {
+                "id": "pl-l2-1",
+                "thai": "ขวา",
+                "roman": "khwǎa",
+                "en": "Right",
+                "tone": "rising"
+              },
+              {
+                "id": "pl-l2-2",
+                "thai": "ตรงไป",
+                "roman": "trong-pai",
+                "en": "Straight ahead",
+                "tone": "mid"
+              },
+              {
+                "id": "pl-l2-3",
+                "thai": "ใกล้",
+                "roman": "klâi",
+                "en": "Near",
+                "tone": "falling"
+              },
+              {
+                "id": "pl-l2-4",
+                "thai": "ไกล",
+                "roman": "klai",
+                "en": "Far",
+                "tone": "mid"
+              },
+              {
+                "id": "pl-l2-5",
+                "thai": "ตรงนี้",
+                "roman": "trong-níi",
+                "en": "Right here",
+                "tone": "high"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shopping",
+        "title": "Shopping & Money",
+        "tagline": "Bargaining and paying like a local.",
+        "lessons": [
+          {
+            "id": "shop-l1",
+            "title": "At the shop",
+            "words": [
+              {
+                "id": "shop-l1-0",
+                "thai": "เงิน",
+                "roman": "ngoen",
+                "en": "Money",
+                "tone": "mid"
+              },
+              {
+                "id": "shop-l1-1",
+                "thai": "บาท",
+                "roman": "bàat",
+                "en": "Baht (currency)",
+                "tone": "low"
+              },
+              {
+                "id": "shop-l1-2",
+                "thai": "แพง",
+                "roman": "phɛɛng",
+                "en": "Expensive",
+                "tone": "mid"
+              },
+              {
+                "id": "shop-l1-3",
+                "thai": "ถูก",
+                "roman": "thùuk",
+                "en": "Cheap",
+                "tone": "low"
+              },
+              {
+                "id": "shop-l1-4",
+                "thai": "ลดราคา",
+                "roman": "lót raa-khaa",
+                "en": "On sale / discount",
+                "tone": "high"
+              },
+              {
+                "id": "shop-l1-5",
+                "thai": "ซื้อ",
+                "roman": "sʉ́ʉ",
+                "en": "Buy",
+                "tone": "high"
+              }
+            ]
+          },
+          {
+            "id": "shop-l2",
+            "title": "Paying up",
+            "words": [
+              {
+                "id": "shop-l2-0",
+                "thai": "ขาย",
+                "roman": "khǎai",
+                "en": "Sell",
+                "tone": "rising"
+              },
+              {
+                "id": "shop-l2-1",
+                "thai": "ร้านค้า",
+                "roman": "ráan-kháa",
+                "en": "Shop",
+                "tone": "high"
+              },
+              {
+                "id": "shop-l2-2",
+                "thai": "ห้าง",
+                "roman": "hâang",
+                "en": "Mall",
+                "tone": "falling"
+              },
+              {
+                "id": "shop-l2-3",
+                "thai": "จ่ายเงิน",
+                "roman": "jàai-ngoen",
+                "en": "Pay",
+                "tone": "low"
+              },
+              {
+                "id": "shop-l2-4",
+                "thai": "ใบเสร็จ",
+                "roman": "bai-sèt",
+                "en": "Receipt",
+                "tone": "low"
+              },
+              {
+                "id": "shop-l2-5",
+                "thai": "เปลี่ยน",
+                "roman": "plìan",
+                "en": "Exchange / change",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "travel",
+        "title": "Travel & Transport",
+        "tagline": "How you'll actually get to Thailand — and around it.",
+        "lessons": [
+          {
+            "id": "trv-l1",
+            "title": "Getting around",
+            "words": [
+              {
+                "id": "trv-l1-0",
+                "thai": "รถ",
+                "roman": "rót",
+                "en": "Car",
+                "tone": "high"
+              },
+              {
+                "id": "trv-l1-1",
+                "thai": "รถไฟ",
+                "roman": "rót-fai",
+                "en": "Train",
+                "tone": "high"
+              },
+              {
+                "id": "trv-l1-2",
+                "thai": "เครื่องบิน",
+                "roman": "khrʉ̂ang-bin",
+                "en": "Airplane",
+                "tone": "falling"
+              },
+              {
+                "id": "trv-l1-3",
+                "thai": "รถเมล์",
+                "roman": "rót-mee",
+                "en": "Bus",
+                "tone": "mid"
+              },
+              {
+                "id": "trv-l1-4",
+                "thai": "แท็กซี่",
+                "roman": "théek-sîi",
+                "en": "Taxi",
+                "tone": "high"
+              },
+              {
+                "id": "trv-l1-5",
+                "thai": "เรือ",
+                "roman": "rʉa",
+                "en": "Boat",
+                "tone": "mid"
+              }
+            ]
+          },
+          {
+            "id": "trv-l2",
+            "title": "At the airport",
+            "words": [
+              {
+                "id": "trv-l2-0",
+                "thai": "ตั๋ว",
+                "roman": "tǔa",
+                "en": "Ticket",
+                "tone": "rising"
+              },
+              {
+                "id": "trv-l2-1",
+                "thai": "หนังสือเดินทาง",
+                "roman": "nǎng-sʉ̌ʉ-dooen-thaang",
+                "en": "Passport",
+                "tone": "rising"
+              },
+              {
+                "id": "trv-l2-2",
+                "thai": "กระเป๋า",
+                "roman": "krà-pǎo",
+                "en": "Bag / luggage",
+                "tone": "rising"
+              },
+              {
+                "id": "trv-l2-3",
+                "thai": "จอง",
+                "roman": "jɔɔng",
+                "en": "Book / reserve",
+                "tone": "mid"
+              },
+              {
+                "id": "trv-l2-4",
+                "thai": "เที่ยวบิน",
+                "roman": "thîao-bin",
+                "en": "Flight",
+                "tone": "falling"
+              },
+              {
+                "id": "trv-l2-5",
+                "thai": "โรงแรม",
+                "roman": "roong-rɛɛm",
+                "en": "Hotel",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "weather",
+        "title": "Weather & Seasons",
+        "tagline": "Small talk that works anywhere.",
+        "lessons": [
+          {
+            "id": "wx-l1",
+            "title": "What's it like out?",
+            "words": [
+              {
+                "id": "wx-l1-0",
+                "thai": "ร้อน",
+                "roman": "rɔ́ɔn",
+                "en": "Hot",
+                "tone": "high"
+              },
+              {
+                "id": "wx-l1-1",
+                "thai": "หนาว",
+                "roman": "nǎao",
+                "en": "Cold",
+                "tone": "rising"
+              },
+              {
+                "id": "wx-l1-2",
+                "thai": "ฝนตก",
+                "roman": "fǒn-tòk",
+                "en": "Raining",
+                "tone": "low"
+              },
+              {
+                "id": "wx-l1-3",
+                "thai": "แดดออก",
+                "roman": "dɛ̀ɛt-ɔ̀ɔk",
+                "en": "Sunny",
+                "tone": "low"
+              },
+              {
+                "id": "wx-l1-4",
+                "thai": "ลมแรง",
+                "roman": "lom-rɛɛng",
+                "en": "Windy",
+                "tone": "mid"
+              },
+              {
+                "id": "wx-l1-5",
+                "thai": "เมฆ",
+                "roman": "mêek",
+                "en": "Cloud",
+                "tone": "falling"
+              }
+            ]
+          },
+          {
+            "id": "wx-l2",
+            "title": "Seasons",
+            "words": [
+              {
+                "id": "wx-l2-0",
+                "thai": "ฤดูร้อน",
+                "roman": "rʉ́-duu-rɔ́ɔn",
+                "en": "Summer",
+                "tone": "high"
+              },
+              {
+                "id": "wx-l2-1",
+                "thai": "ฤดูฝน",
+                "roman": "rʉ́-duu-fǒn",
+                "en": "Rainy season",
+                "tone": "high"
+              },
+              {
+                "id": "wx-l2-2",
+                "thai": "ฤดูหนาว",
+                "roman": "rʉ́-duu-nǎao",
+                "en": "Cool / winter season",
+                "tone": "high"
+              },
+              {
+                "id": "wx-l2-3",
+                "thai": "อากาศ",
+                "roman": "aa-kàat",
+                "en": "Weather",
+                "tone": "low"
+              },
+              {
+                "id": "wx-l2-4",
+                "thai": "ร่ม",
+                "roman": "rôm",
+                "en": "Umbrella",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "feelings",
+        "title": "Feelings & Health",
+        "tagline": "Saying how you actually feel.",
+        "lessons": [
+          {
+            "id": "feel-l1",
+            "title": "Feelings",
+            "words": [
+              {
+                "id": "feel-l1-0",
+                "thai": "ดีใจ",
+                "roman": "dii-jai",
+                "en": "Happy",
+                "tone": "mid"
+              },
+              {
+                "id": "feel-l1-1",
+                "thai": "เศร้า",
+                "roman": "sâo",
+                "en": "Sad",
+                "tone": "falling"
+              },
+              {
+                "id": "feel-l1-2",
+                "thai": "โกรธ",
+                "roman": "kròot",
+                "en": "Angry",
+                "tone": "low"
+              },
+              {
+                "id": "feel-l1-3",
+                "thai": "กลัว",
+                "roman": "klua",
+                "en": "Scared",
+                "tone": "mid"
+              },
+              {
+                "id": "feel-l1-4",
+                "thai": "เหนื่อย",
+                "roman": "nʉ̀ai",
+                "en": "Tired",
+                "tone": "low"
+              },
+              {
+                "id": "feel-l1-5",
+                "thai": "หิว",
+                "roman": "hǐw",
+                "en": "Hungry",
+                "tone": "rising"
+              }
+            ]
+          },
+          {
+            "id": "feel-l2",
+            "title": "Feeling unwell",
+            "words": [
+              {
+                "id": "feel-l2-0",
+                "thai": "ปวดหัว",
+                "roman": "pùat-hǔa",
+                "en": "Headache",
+                "tone": "low"
+              },
+              {
+                "id": "feel-l2-1",
+                "thai": "ปวดท้อง",
+                "roman": "pùat-tháng",
+                "en": "Stomachache",
+                "tone": "low"
+              },
+              {
+                "id": "feel-l2-2",
+                "thai": "ไม่สบาย",
+                "roman": "mâi sà-baai",
+                "en": "Sick / unwell",
+                "tone": "falling"
+              },
+              {
+                "id": "feel-l2-3",
+                "thai": "หมอ",
+                "roman": "mɔ̌ɔ",
+                "en": "Doctor",
+                "tone": "rising"
+              },
+              {
+                "id": "feel-l2-4",
+                "thai": "ยา",
+                "roman": "yaa",
+                "en": "Medicine",
+                "tone": "mid"
+              },
+              {
+                "id": "feel-l2-5",
+                "thai": "สุขภาพ",
+                "roman": "sùk-khà-phâap",
+                "en": "Health",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sentences",
+        "title": "Putting It Together",
+        "tagline": "Whole sentences, built from everything so far.",
+        "lessons": [
+          {
+            "id": "sen-l1",
+            "title": "Talking about yourself",
+            "words": [
+              {
+                "id": "sen-l1-0",
+                "thai": "ผมชื่อ...",
+                "roman": "phǒm chʉ̂ʉ...",
+                "en": "My name is... (male)",
+                "tone": "falling",
+                "accept": [
+                  "my name is",
+                  "my name is... (male)"
+                ]
+              },
+              {
+                "id": "sen-l1-1",
+                "thai": "ฉันชื่อ...",
+                "roman": "chǎn chʉ̂ʉ...",
+                "en": "My name is... (female)",
+                "tone": "mid",
+                "accept": [
+                  "my name is",
+                  "my name is... (female)"
+                ]
+              },
+              {
+                "id": "sen-l1-2",
+                "thai": "ผมอยากกิน...",
+                "roman": "phǒm yàak kin...",
+                "en": "I want to eat...",
+                "tone": "low"
+              },
+              {
+                "id": "sen-l1-3",
+                "thai": "ฉันชอบ...",
+                "roman": "chǎn chɔ̂ɔp...",
+                "en": "I like...",
+                "tone": "falling"
+              },
+              {
+                "id": "sen-l1-4",
+                "thai": "ผมมาจากอังกฤษ",
+                "roman": "phǒm maa jàak ang-krìt",
+                "en": "I come from England",
+                "tone": "low"
+              },
+              {
+                "id": "sen-l1-5",
+                "thai": "ฉันรักครอบครัว",
+                "roman": "chǎn rák khrɔ̂ɔp-khrua",
+                "en": "I love my family",
+                "tone": "high"
+              }
+            ]
+          },
+          {
+            "id": "sen-l2",
+            "title": "A day in words",
+            "words": [
+              {
+                "id": "sen-l2-0",
+                "thai": "ผมไปโรงเรียน",
+                "roman": "phǒm pai roong-rian",
+                "en": "I go to school",
+                "tone": "mid"
+              },
+              {
+                "id": "sen-l2-1",
+                "thai": "ฉันอยู่ที่บ้าน",
+                "roman": "chǎn yùu thîi bâan",
+                "en": "I am at home",
+                "tone": "low"
+              },
+              {
+                "id": "sen-l2-2",
+                "thai": "วันนี้อากาศร้อน",
+                "roman": "wan-níi aa-kàat rɔ́ɔn",
+                "en": "Today the weather is hot",
+                "tone": "high"
+              },
+              {
+                "id": "sen-l2-3",
+                "thai": "ผมหิวข้าว",
+                "roman": "phǒm hǐw khâao",
+                "en": "I'm hungry",
+                "tone": "rising"
+              },
+              {
+                "id": "sen-l2-4",
+                "thai": "ขอบคุณมากครับ",
+                "roman": "khɔ̀ɔp-khun mâak khráp",
+                "en": "Thank you very much (male)",
+                "tone": "low"
+              },
+              {
+                "id": "sen-l2-5",
+                "thai": "ขอบคุณมากค่ะ",
+                "roman": "khɔ̀ɔp-khun mâak khâ",
+                "en": "Thank you very much (female)",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": "Elementary",
+    "units": [
+      {
+        "id": "classifiers",
+        "title": "Numbers & Classifiers",
+        "tagline": "Thai counts people, animals, and objects with different \"counter\" words — a whole system of its own.",
+        "lessons": [
+          {
+            "id": "cls-l1",
+            "title": "Counting people & animals",
+            "words": [
+              {
+                "id": "cls-l1-0",
+                "thai": "คน",
+                "roman": "khon",
+                "en": "Classifier for people",
+                "tone": "mid",
+                "accept": [
+                  "classifier for people",
+                  "people classifier"
+                ]
+              },
+              {
+                "id": "cls-l1-1",
+                "thai": "ตัว",
+                "roman": "tua",
+                "en": "Classifier for animals",
+                "tone": "mid",
+                "accept": [
+                  "classifier for animals",
+                  "animal classifier"
+                ]
+              },
+              {
+                "id": "cls-l1-2",
+                "thai": "กี่คน",
+                "roman": "kìi khon",
+                "en": "How many people?",
+                "tone": "low"
+              },
+              {
+                "id": "cls-l1-3",
+                "thai": "สองคน",
+                "roman": "sɔ̌ɔng khon",
+                "en": "Two people",
+                "tone": "rising"
+              },
+              {
+                "id": "cls-l1-4",
+                "thai": "สามตัว",
+                "roman": "sǎam tua",
+                "en": "Three animals",
+                "tone": "rising"
+              }
+            ]
+          },
+          {
+            "id": "cls-l2",
+            "title": "Counting objects",
+            "words": [
+              {
+                "id": "cls-l2-0",
+                "thai": "อัน",
+                "roman": "an",
+                "en": "Classifier for small objects",
+                "tone": "mid",
+                "accept": [
+                  "classifier for small objects",
+                  "small object classifier"
+                ]
+              },
+              {
+                "id": "cls-l2-1",
+                "thai": "ใบ",
+                "roman": "bai",
+                "en": "Classifier for round/flat objects",
+                "tone": "mid",
+                "accept": [
+                  "classifier for round or flat objects",
+                  "round or flat object classifier"
+                ]
+              },
+              {
+                "id": "cls-l2-2",
+                "thai": "ชิ้น",
+                "roman": "chín",
+                "en": "Classifier for pieces",
+                "tone": "high",
+                "accept": [
+                  "classifier for pieces",
+                  "piece classifier"
+                ]
+              },
+              {
+                "id": "cls-l2-3",
+                "thai": "ขวด",
+                "roman": "khùat",
+                "en": "Classifier for bottles",
+                "tone": "low",
+                "accept": [
+                  "classifier for bottles",
+                  "bottle classifier"
+                ]
+              },
+              {
+                "id": "cls-l2-4",
+                "thai": "แก้ว",
+                "roman": "kɛ̂ɛo",
+                "en": "Classifier for glasses/cups",
+                "tone": "falling",
+                "accept": [
+                  "classifier for glasses",
+                  "classifier for cups",
+                  "glass or cup classifier"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "Daily Routine",
+        "tagline": "The verbs and time words behind an ordinary day.",
+        "lessons": [
+          {
+            "id": "rtn-l1",
+            "title": "Morning to night",
+            "words": [
+              {
+                "id": "rtn-l1-0",
+                "thai": "ตื่นนอน",
+                "roman": "tʉ̀ʉn-nɔɔn",
+                "en": "Wake up",
+                "tone": "low"
+              },
+              {
+                "id": "rtn-l1-1",
+                "thai": "อาบน้ำ",
+                "roman": "àap-náam",
+                "en": "Shower / bathe",
+                "tone": "low"
+              },
+              {
+                "id": "rtn-l1-2",
+                "thai": "แปรงฟัน",
+                "roman": "prɛɛng-fan",
+                "en": "Brush teeth",
+                "tone": "mid"
+              },
+              {
+                "id": "rtn-l1-3",
+                "thai": "กินข้าวเช้า",
+                "roman": "kin khâao cháao",
+                "en": "Eat breakfast",
+                "tone": "mid"
+              },
+              {
+                "id": "rtn-l1-4",
+                "thai": "ไปทำงาน",
+                "roman": "pai tham-ngaan",
+                "en": "Go to work",
+                "tone": "mid"
+              },
+              {
+                "id": "rtn-l1-5",
+                "thai": "นอน",
+                "roman": "nɔɔn",
+                "en": "Sleep",
+                "tone": "mid"
+              }
+            ]
+          },
+          {
+            "id": "rtn-l2",
+            "title": "What time is it?",
+            "words": [
+              {
+                "id": "rtn-l2-0",
+                "thai": "กี่โมง",
+                "roman": "kìi-moong",
+                "en": "What time?",
+                "tone": "low"
+              },
+              {
+                "id": "rtn-l2-1",
+                "thai": "ตอนเช้า",
+                "roman": "tɔɔn cháao",
+                "en": "In the morning",
+                "tone": "mid"
+              },
+              {
+                "id": "rtn-l2-2",
+                "thai": "ตอนบ่าย",
+                "roman": "tɔɔn bàai",
+                "en": "In the afternoon",
+                "tone": "low"
+              },
+              {
+                "id": "rtn-l2-3",
+                "thai": "ตอนเย็น",
+                "roman": "tɔɔn yen",
+                "en": "In the evening",
+                "tone": "mid"
+              },
+              {
+                "id": "rtn-l2-4",
+                "thai": "ตอนกลางคืน",
+                "roman": "tɔɔn klaang-khʉʉn",
+                "en": "At night",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tense",
+        "title": "Talking About Time",
+        "tagline": "The small words that turn a verb into future, ongoing, or already-done.",
+        "lessons": [
+          {
+            "id": "tns-l1",
+            "title": "Future & happening now",
+            "words": [
+              {
+                "id": "tns-l1-0",
+                "thai": "จะ",
+                "roman": "jà",
+                "en": "Will / going to",
+                "tone": "low"
+              },
+              {
+                "id": "tns-l1-1",
+                "thai": "กำลัง",
+                "roman": "kam-lang",
+                "en": "Currently -ing",
+                "tone": "mid"
+              },
+              {
+                "id": "tns-l1-2",
+                "thai": "จะไป",
+                "roman": "jà pai",
+                "en": "Will go",
+                "tone": "low"
+              },
+              {
+                "id": "tns-l1-3",
+                "thai": "กำลังกิน",
+                "roman": "kam-lang kin",
+                "en": "Is eating",
+                "tone": "mid"
+              }
+            ]
+          },
+          {
+            "id": "tns-l2",
+            "title": "Already & never",
+            "words": [
+              {
+                "id": "tns-l2-0",
+                "thai": "แล้ว",
+                "roman": "lɛ́ɛo",
+                "en": "Already",
+                "tone": "high"
+              },
+              {
+                "id": "tns-l2-1",
+                "thai": "ยังไม่",
+                "roman": "yang mâi",
+                "en": "Not yet",
+                "tone": "mid"
+              },
+              {
+                "id": "tns-l2-2",
+                "thai": "เคย",
+                "roman": "khooei",
+                "en": "Have ever (done something)",
+                "tone": "mid"
+              },
+              {
+                "id": "tns-l2-3",
+                "thai": "ไม่เคย",
+                "roman": "mâi khooei",
+                "en": "Have never",
+                "tone": "mid"
+              },
+              {
+                "id": "tns-l2-4",
+                "thai": "กินแล้ว",
+                "roman": "kin lɛ́ɛo",
+                "en": "Already ate",
+                "tone": "high"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "compare",
+        "title": "Comparisons",
+        "tagline": "More than, less than, and the best — in Thai word order.",
+        "lessons": [
+          {
+            "id": "cmp-l1",
+            "title": "More, less, most",
+            "words": [
+              {
+                "id": "cmp-l1-0",
+                "thai": "กว่า",
+                "roman": "kwàa",
+                "en": "More than",
+                "tone": "low"
+              },
+              {
+                "id": "cmp-l1-1",
+                "thai": "ที่สุด",
+                "roman": "thîi-sùt",
+                "en": "The most",
+                "tone": "low"
+              },
+              {
+                "id": "cmp-l1-2",
+                "thai": "น้อยกว่า",
+                "roman": "nɔ́ɔi kwàa",
+                "en": "Less than",
+                "tone": "high"
+              },
+              {
+                "id": "cmp-l1-3",
+                "thai": "ดีกว่า",
+                "roman": "dii kwàa",
+                "en": "Better",
+                "tone": "mid"
+              },
+              {
+                "id": "cmp-l1-4",
+                "thai": "ดีที่สุด",
+                "roman": "dii thîi-sùt",
+                "en": "The best",
+                "tone": "mid"
+              },
+              {
+                "id": "cmp-l1-5",
+                "thai": "เหมือนกัน",
+                "roman": "mʉ̌an-kan",
+                "en": "The same",
+                "tone": "rising"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "restaurant",
+        "title": "At the Restaurant",
+        "tagline": "Order, adjust the spice, and ask for the check.",
+        "lessons": [
+          {
+            "id": "res-l1",
+            "title": "Ordering food",
+            "words": [
+              {
+                "id": "res-l1-0",
+                "thai": "ขอเมนู",
+                "roman": "khɔ̌ɔ mee-nuu",
+                "en": "Menu, please",
+                "tone": "rising"
+              },
+              {
+                "id": "res-l1-1",
+                "thai": "เผ็ด",
+                "roman": "phèt",
+                "en": "Spicy",
+                "tone": "low"
+              },
+              {
+                "id": "res-l1-2",
+                "thai": "ไม่เผ็ด",
+                "roman": "mâi phèt",
+                "en": "Not spicy",
+                "tone": "falling"
+              },
+              {
+                "id": "res-l1-3",
+                "thai": "มังสวิรัติ",
+                "roman": "mang-sà-wí-rát",
+                "en": "Vegetarian",
+                "tone": "mid"
+              },
+              {
+                "id": "res-l1-4",
+                "thai": "เก็บเงินด้วย",
+                "roman": "kèp ngoen dûai",
+                "en": "Check, please",
+                "tone": "low"
+              },
+              {
+                "id": "res-l1-5",
+                "thai": "อร่อยมาก",
+                "roman": "à-ròi mâak",
+                "en": "Very delicious",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "plans",
+        "title": "Making Plans",
+        "tagline": "Arranging to meet up — the hardest, most useful conversation of all.",
+        "lessons": [
+          {
+            "id": "pln-l1",
+            "title": "Are you free?",
+            "words": [
+              {
+                "id": "pln-l1-0",
+                "thai": "ว่าง",
+                "roman": "wâang",
+                "en": "Free / available",
+                "tone": "falling"
+              },
+              {
+                "id": "pln-l1-1",
+                "thai": "ไม่ว่าง",
+                "roman": "mâi wâang",
+                "en": "Busy",
+                "tone": "falling"
+              },
+              {
+                "id": "pln-l1-2",
+                "thai": "นัด",
+                "roman": "nát",
+                "en": "Arrange to meet",
+                "tone": "high"
+              },
+              {
+                "id": "pln-l1-3",
+                "thai": "ไปด้วยกัน",
+                "roman": "pai dûai kan",
+                "en": "Go together",
+                "tone": "mid"
+              },
+              {
+                "id": "pln-l1-4",
+                "thai": "อยาก...ไหม",
+                "roman": "yàak...mǎi",
+                "en": "Do you want to...?",
+                "tone": "low"
+              },
+              {
+                "id": "pln-l1-5",
+                "thai": "พรุ่งนี้ตอนเย็น",
+                "roman": "phrûng-níi tɔɔn yen",
+                "en": "Tomorrow evening",
+                "tone": "high"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": "Intermediate",
+    "units": [
+      {
+        "id": "connectors",
+        "title": "Connectors",
+        "tagline": "And, but, because, if — the words that turn phrases into arguments.",
+        "lessons": [
+          {
+            "id": "con-l1",
+            "title": "Joining ideas",
+            "words": [
+              {
+                "id": "con-l1-0",
+                "thai": "และ",
+                "roman": "lɛ́",
+                "en": "And",
+                "tone": "high"
+              },
+              {
+                "id": "con-l1-1",
+                "thai": "แต่",
+                "roman": "tɛ̀ɛ",
+                "en": "But",
+                "tone": "low"
+              },
+              {
+                "id": "con-l1-2",
+                "thai": "หรือ",
+                "roman": "rʉ̌ʉ",
+                "en": "Or",
+                "tone": "rising"
+              },
+              {
+                "id": "con-l1-3",
+                "thai": "เพราะ",
+                "roman": "phrɔ́",
+                "en": "Because",
+                "tone": "high"
+              },
+              {
+                "id": "con-l1-4",
+                "thai": "ถ้า",
+                "roman": "thâa",
+                "en": "If",
+                "tone": "falling"
+              },
+              {
+                "id": "con-l1-5",
+                "thai": "ดังนั้น",
+                "roman": "dang-nán",
+                "en": "Therefore / so",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "directions2",
+        "title": "Giving Directions",
+        "tagline": "Full sentences for getting someone from A to B.",
+        "lessons": [
+          {
+            "id": "dir2-l1",
+            "title": "Turn here",
+            "words": [
+              {
+                "id": "dir2-l1-0",
+                "thai": "เลี้ยวซ้าย",
+                "roman": "líao sáai",
+                "en": "Turn left",
+                "tone": "falling"
+              },
+              {
+                "id": "dir2-l1-1",
+                "thai": "เลี้ยวขวา",
+                "roman": "líao khwǎa",
+                "en": "Turn right",
+                "tone": "falling"
+              },
+              {
+                "id": "dir2-l1-2",
+                "thai": "ตรงไปเรื่อยๆ",
+                "roman": "trong pai rʉ̂ai-rʉ̂ai",
+                "en": "Keep going straight",
+                "tone": "mid"
+              },
+              {
+                "id": "dir2-l1-3",
+                "thai": "ข้ามถนน",
+                "roman": "khâam thà-nǒn",
+                "en": "Cross the street",
+                "tone": "falling"
+              },
+              {
+                "id": "dir2-l1-4",
+                "thai": "อยู่ตรงข้าม",
+                "roman": "yùu trong-khâam",
+                "en": "It's across from...",
+                "tone": "low"
+              },
+              {
+                "id": "dir2-l1-5",
+                "thai": "อยู่ระหว่าง",
+                "roman": "yùu rá-wàang",
+                "en": "It's between...",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "people-desc",
+        "title": "Describing People",
+        "tagline": "Height, build, and character — how Thai talks about someone.",
+        "lessons": [
+          {
+            "id": "pd-l1",
+            "title": "Appearance",
+            "words": [
+              {
+                "id": "pd-l1-0",
+                "thai": "สูง",
+                "roman": "sǔung",
+                "en": "Tall",
+                "tone": "rising"
+              },
+              {
+                "id": "pd-l1-1",
+                "thai": "เตี้ย",
+                "roman": "tîa",
+                "en": "Short (height)",
+                "tone": "falling"
+              },
+              {
+                "id": "pd-l1-2",
+                "thai": "ผอม",
+                "roman": "phɔ̌ɔm",
+                "en": "Thin",
+                "tone": "rising"
+              },
+              {
+                "id": "pd-l1-3",
+                "thai": "อ้วน",
+                "roman": "ûan",
+                "en": "Heavy-set",
+                "tone": "falling"
+              },
+              {
+                "id": "pd-l1-4",
+                "thai": "สวย",
+                "roman": "sǔai",
+                "en": "Pretty",
+                "tone": "rising"
+              },
+              {
+                "id": "pd-l1-5",
+                "thai": "หล่อ",
+                "roman": "lɔ̀ɔ",
+                "en": "Handsome",
+                "tone": "low"
+              }
+            ]
+          },
+          {
+            "id": "pd-l2",
+            "title": "Character",
+            "words": [
+              {
+                "id": "pd-l2-0",
+                "thai": "ใจดี",
+                "roman": "jai-dii",
+                "en": "Kind",
+                "tone": "mid"
+              },
+              {
+                "id": "pd-l2-1",
+                "thai": "ขยัน",
+                "roman": "khà-yǎn",
+                "en": "Hardworking",
+                "tone": "rising"
+              },
+              {
+                "id": "pd-l2-2",
+                "thai": "ฉลาด",
+                "roman": "chà-làat",
+                "en": "Smart",
+                "tone": "low"
+              },
+              {
+                "id": "pd-l2-3",
+                "thai": "ตลก",
+                "roman": "tà-lòk",
+                "en": "Funny",
+                "tone": "low"
+              },
+              {
+                "id": "pd-l2-4",
+                "thai": "ใจร้อน",
+                "roman": "jai-rɔ́ɔn",
+                "en": "Impatient / hot-tempered",
+                "tone": "high"
+              },
+              {
+                "id": "pd-l2-5",
+                "thai": "ขี้เกียจ",
+                "roman": "khîi-kìat",
+                "en": "Lazy",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "title": "Work & Occupations",
+        "tagline": "What do you do? — occupations and talking about a job.",
+        "lessons": [
+          {
+            "id": "work-l1",
+            "title": "Occupations",
+            "words": [
+              {
+                "id": "work-l1-0",
+                "thai": "อาชีพ",
+                "roman": "aa-chîip",
+                "en": "Occupation",
+                "tone": "falling"
+              },
+              {
+                "id": "work-l1-1",
+                "thai": "ครู",
+                "roman": "khruu",
+                "en": "Teacher",
+                "tone": "mid"
+              },
+              {
+                "id": "work-l1-2",
+                "thai": "ผู้จัดการ",
+                "roman": "phûu-jàt-kaan",
+                "en": "Manager",
+                "tone": "falling"
+              },
+              {
+                "id": "work-l1-3",
+                "thai": "พนักงาน",
+                "roman": "phá-nák-ngaan",
+                "en": "Employee / staff",
+                "tone": "mid"
+              },
+              {
+                "id": "work-l1-4",
+                "thai": "นักธุรกิจ",
+                "roman": "nák-thú-rá-kìt",
+                "en": "Businessperson",
+                "tone": "high"
+              },
+              {
+                "id": "work-l1-5",
+                "thai": "ทำงานที่ไหน",
+                "roman": "tham-ngaan thîi-nǎi",
+                "en": "Where do you work?",
+                "tone": "mid"
+              }
+            ]
+          },
+          {
+            "id": "work-l2",
+            "title": "The world of work",
+            "words": [
+              {
+                "id": "work-l2-0",
+                "thai": "วิศวกร",
+                "roman": "wít-sà-wa-kɔɔn",
+                "en": "Engineer",
+                "tone": "mid"
+              },
+              {
+                "id": "work-l2-1",
+                "thai": "พยาบาล",
+                "roman": "phá-yaa-baan",
+                "en": "Nurse",
+                "tone": "mid"
+              },
+              {
+                "id": "work-l2-2",
+                "thai": "นักเรียน",
+                "roman": "nák-rian",
+                "en": "Student",
+                "tone": "mid"
+              },
+              {
+                "id": "work-l2-3",
+                "thai": "ธุรกิจ",
+                "roman": "thú-rá-kìt",
+                "en": "Business",
+                "tone": "high"
+              },
+              {
+                "id": "work-l2-4",
+                "thai": "เงินเดือน",
+                "roman": "ngoen-dʉan",
+                "en": "Salary",
+                "tone": "mid"
+              },
+              {
+                "id": "work-l2-5",
+                "thai": "ว่างงาน",
+                "roman": "wâang-ngaan",
+                "en": "Unemployed",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dialogues",
+        "title": "Short Conversations",
+        "tagline": "Real back-and-forth exchanges, not just single words.",
+        "lessons": [
+          {
+            "id": "dlg-l1",
+            "title": "At a café",
+            "words": [
+              {
+                "id": "dlg-l1-0",
+                "thai": "คุณจะดื่มอะไรดี",
+                "roman": "khun jà dʉ̀ʉm à-rai dii",
+                "en": "What would you like to drink?",
+                "tone": "low"
+              },
+              {
+                "id": "dlg-l1-1",
+                "thai": "ขอกาแฟเย็นแก้วนึงครับ",
+                "roman": "khɔ̌ɔ kaa-fɛɛ yen kɛ̂ɛo nʉng khráp",
+                "en": "One iced coffee, please",
+                "tone": "rising"
+              },
+              {
+                "id": "dlg-l1-2",
+                "thai": "รับอะไรเพิ่มไหมคะ",
+                "roman": "ráp à-rai phə̂əm mǎi khá",
+                "en": "Would you like anything else?",
+                "tone": "high"
+              },
+              {
+                "id": "dlg-l1-3",
+                "thai": "ไม่เอาแล้ว ขอบคุณครับ",
+                "roman": "mâi ao lɛ́ɛo khɔ̀ɔp-khun khráp",
+                "en": "No more, thank you",
+                "tone": "falling"
+              }
+            ]
+          },
+          {
+            "id": "dlg-l2",
+            "title": "Asking for help",
+            "words": [
+              {
+                "id": "dlg-l2-0",
+                "thai": "ขอโทษครับ ห้องน้ำอยู่ที่ไหน",
+                "roman": "khɔ̌ɔ-thôot khráp hɔ̂ng-náam yùu thîi-nǎi",
+                "en": "Excuse me, where's the bathroom?",
+                "tone": "rising"
+              },
+              {
+                "id": "dlg-l2-1",
+                "thai": "อยู่ทางขวามือค่ะ",
+                "roman": "yùu thaang khwǎa mʉʉ khâ",
+                "en": "It's on the right",
+                "tone": "low"
+              },
+              {
+                "id": "dlg-l2-2",
+                "thai": "ช่วยผมหน่อยได้ไหมครับ",
+                "roman": "chûai phǒm nɔ̀i dâai mǎi khráp",
+                "en": "Can you help me, please?",
+                "tone": "falling"
+              },
+              {
+                "id": "dlg-l2-3",
+                "thai": "ได้สิคะ มีอะไรให้ช่วยคะ",
+                "roman": "dâai sì khá mii à-rai hâi chûai khá",
+                "en": "Sure, what can I help with?",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "emergency",
+        "title": "Health & Emergencies",
+        "tagline": "The phrases you hope you'll never need — but should know anyway.",
+        "lessons": [
+          {
+            "id": "emg-l1",
+            "title": "Getting help fast",
+            "words": [
+              {
+                "id": "emg-l1-0",
+                "thai": "ช่วยด้วย",
+                "roman": "chûai dûai",
+                "en": "Help!",
+                "tone": "falling"
+              },
+              {
+                "id": "emg-l1-1",
+                "thai": "ฉุกเฉิน",
+                "roman": "chùk-chə̌ən",
+                "en": "Emergency",
+                "tone": "low"
+              },
+              {
+                "id": "emg-l1-2",
+                "thai": "โทรเรียกรถพยาบาล",
+                "roman": "thoo rîak rót phá-yaa-baan",
+                "en": "Call an ambulance",
+                "tone": "mid"
+              },
+              {
+                "id": "emg-l1-3",
+                "thai": "ตำรวจ",
+                "roman": "tam-rùat",
+                "en": "Police",
+                "tone": "low"
+              },
+              {
+                "id": "emg-l1-4",
+                "thai": "แพ้ยา",
+                "roman": "phɛ́ɛ yaa",
+                "en": "Allergic to medicine",
+                "tone": "high"
+              },
+              {
+                "id": "emg-l1-5",
+                "thai": "เจ็บตรงนี้",
+                "roman": "jèp trong-níi",
+                "en": "It hurts here",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": "Upper-Intermediate",
+    "units": [
+      {
+        "id": "opinions",
+        "title": "Opinions & Agreement",
+        "tagline": "Saying what you think, and whether you agree.",
+        "lessons": [
+          {
+            "id": "opn-l1",
+            "title": "What do you think?",
+            "words": [
+              {
+                "id": "opn-l1-0",
+                "thai": "คิดว่า",
+                "roman": "khít wâa",
+                "en": "Think that...",
+                "tone": "high"
+              },
+              {
+                "id": "opn-l1-1",
+                "thai": "เห็นด้วย",
+                "roman": "hěn dûai",
+                "en": "Agree",
+                "tone": "rising"
+              },
+              {
+                "id": "opn-l1-2",
+                "thai": "ไม่เห็นด้วย",
+                "roman": "mâi hěn dûai",
+                "en": "Disagree",
+                "tone": "rising"
+              },
+              {
+                "id": "opn-l1-3",
+                "thai": "ตามความคิดของผม",
+                "roman": "taam khwaam-khít khɔ̌ɔng phǒm",
+                "en": "In my opinion (male)",
+                "tone": "mid"
+              },
+              {
+                "id": "opn-l1-4",
+                "thai": "น่าจะ",
+                "roman": "nâa jà",
+                "en": "Probably / should",
+                "tone": "falling"
+              },
+              {
+                "id": "opn-l1-5",
+                "thai": "แน่นอน",
+                "roman": "nɛ̂ɛ-nɔɔn",
+                "en": "Certainly / of course",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "abstract",
+        "title": "Feelings & Big Ideas",
+        "tagline": "Abstract nouns — the vocabulary behind a real conversation.",
+        "lessons": [
+          {
+            "id": "abs-l1",
+            "title": "Bigger ideas",
+            "words": [
+              {
+                "id": "abs-l1-0",
+                "thai": "ความสุข",
+                "roman": "khwaam-sùk",
+                "en": "Happiness",
+                "tone": "low"
+              },
+              {
+                "id": "abs-l1-1",
+                "thai": "ความรัก",
+                "roman": "khwaam-rák",
+                "en": "Love",
+                "tone": "high"
+              },
+              {
+                "id": "abs-l1-2",
+                "thai": "ความสำเร็จ",
+                "roman": "khwaam-sǎm-rèt",
+                "en": "Success",
+                "tone": "rising"
+              },
+              {
+                "id": "abs-l1-3",
+                "thai": "ปัญหา",
+                "roman": "pan-hǎa",
+                "en": "Problem",
+                "tone": "rising"
+              },
+              {
+                "id": "abs-l1-4",
+                "thai": "โอกาส",
+                "roman": "oo-kàat",
+                "en": "Opportunity",
+                "tone": "low"
+              },
+              {
+                "id": "abs-l1-5",
+                "thai": "เป้าหมาย",
+                "roman": "pâo-mǎai",
+                "en": "Goal",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "storytelling",
+        "title": "Telling a Story",
+        "tagline": "The connective words that turn events into a narrative.",
+        "lessons": [
+          {
+            "id": "str-l1",
+            "title": "Once upon a time",
+            "words": [
+              {
+                "id": "str-l1-0",
+                "thai": "เมื่อก่อน",
+                "roman": "mʉ̂ʉa-kɔ̀ɔn",
+                "en": "In the past / used to",
+                "tone": "falling"
+              },
+              {
+                "id": "str-l1-1",
+                "thai": "ตอนแรก",
+                "roman": "tɔɔn-rɛ̂ɛk",
+                "en": "At first",
+                "tone": "mid"
+              },
+              {
+                "id": "str-l1-2",
+                "thai": "จู่ๆ",
+                "roman": "jùu-jùu",
+                "en": "Suddenly",
+                "tone": "low"
+              },
+              {
+                "id": "str-l1-3",
+                "thai": "หลังจากนั้น",
+                "roman": "lǎng-jàak-nán",
+                "en": "After that",
+                "tone": "rising"
+              },
+              {
+                "id": "str-l1-4",
+                "thai": "ในที่สุด",
+                "roman": "nai thîi-sùt",
+                "en": "Finally",
+                "tone": "mid"
+              },
+              {
+                "id": "str-l1-5",
+                "thai": "จบลง",
+                "roman": "jòp-long",
+                "en": "End (a story)",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "register",
+        "title": "Formal Titles & Address",
+        "tagline": "Talking about — and to — people politely and formally.",
+        "lessons": [
+          {
+            "id": "reg-l1",
+            "title": "Mr., Mrs., and you",
+            "words": [
+              {
+                "id": "reg-l1-0",
+                "thai": "คุณ",
+                "roman": "khun",
+                "en": "You (polite, general)",
+                "tone": "mid"
+              },
+              {
+                "id": "reg-l1-1",
+                "thai": "ท่าน",
+                "roman": "thân",
+                "en": "You / they (formal, respectful)",
+                "tone": "falling"
+              },
+              {
+                "id": "reg-l1-2",
+                "thai": "นาย",
+                "roman": "naai",
+                "en": "Mr.",
+                "tone": "mid"
+              },
+              {
+                "id": "reg-l1-3",
+                "thai": "นาง",
+                "roman": "naang",
+                "en": "Mrs.",
+                "tone": "mid"
+              },
+              {
+                "id": "reg-l1-4",
+                "thai": "นางสาว",
+                "roman": "naang-sǎao",
+                "en": "Miss",
+                "tone": "rising"
+              },
+              {
+                "id": "reg-l1-5",
+                "thai": "เรียน",
+                "roman": "rian",
+                "en": "Dear... (formal letter opening)",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "phone",
+        "title": "Phone Conversations",
+        "tagline": "Talking on the phone has its own set of stock phrases.",
+        "lessons": [
+          {
+            "id": "phn-l1",
+            "title": "On the line",
+            "words": [
+              {
+                "id": "phn-l1-0",
+                "thai": "ฮัลโหล",
+                "roman": "han-lǒo",
+                "en": "Hello (on the phone)",
+                "tone": "rising"
+              },
+              {
+                "id": "phn-l1-1",
+                "thai": "สายไม่ว่าง",
+                "roman": "sǎai mâi wâang",
+                "en": "The line is busy",
+                "tone": "rising"
+              },
+              {
+                "id": "phn-l1-2",
+                "thai": "ขอสายคุณ...",
+                "roman": "khɔ̌ɔ sǎai khun...",
+                "en": "May I speak to...?",
+                "tone": "rising"
+              },
+              {
+                "id": "phn-l1-3",
+                "thai": "ฝากข้อความ",
+                "roman": "fàak khɔ̂ɔ-khwaam",
+                "en": "Leave a message",
+                "tone": "low"
+              },
+              {
+                "id": "phn-l1-4",
+                "thai": "โทรกลับ",
+                "roman": "thoo klàp",
+                "en": "Call back",
+                "tone": "mid"
+              },
+              {
+                "id": "phn-l1-5",
+                "thai": "วางสาย",
+                "roman": "waang sǎai",
+                "en": "Hang up",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "idioms",
+        "title": "Idioms & Everyday Expressions",
+        "tagline": "Phrases that don't translate word-for-word, but every Thai speaker knows.",
+        "lessons": [
+          {
+            "id": "idm-l1",
+            "title": "How Thai really talks",
+            "words": [
+              {
+                "id": "idm-l1-0",
+                "thai": "ใจเย็นๆ",
+                "roman": "jai-yen-yen",
+                "en": "Calm down (lit. \"cool heart\")",
+                "tone": "mid"
+              },
+              {
+                "id": "idm-l1-1",
+                "thai": "เกรงใจ",
+                "roman": "kreeng-jai",
+                "en": "Reluctant to impose on someone",
+                "tone": "mid"
+              },
+              {
+                "id": "idm-l1-2",
+                "thai": "เข้าใจผิด",
+                "roman": "khâo-jai phìt",
+                "en": "Misunderstand",
+                "tone": "low"
+              },
+              {
+                "id": "idm-l1-3",
+                "thai": "ปากหวาน",
+                "roman": "pàak-wǎan",
+                "en": "Sweet-talking (lit. \"sweet mouth\")",
+                "tone": "rising"
+              },
+              {
+                "id": "idm-l1-4",
+                "thai": "น้ำใจ",
+                "roman": "náam-jai",
+                "en": "Generosity / kindness (lit. \"water of the heart\")",
+                "tone": "high"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": "Advanced",
+    "units": [
+      {
+        "id": "business",
+        "title": "Business Thai",
+        "tagline": "Vocabulary for the office and the meeting room.",
+        "lessons": [
+          {
+            "id": "biz-l1",
+            "title": "At the office",
+            "words": [
+              {
+                "id": "biz-l1-0",
+                "thai": "บริษัท",
+                "roman": "bɔɔ-rí-sàt",
+                "en": "Company",
+                "tone": "mid"
+              },
+              {
+                "id": "biz-l1-1",
+                "thai": "ประชุม",
+                "roman": "prà-chum",
+                "en": "Meeting",
+                "tone": "mid"
+              },
+              {
+                "id": "biz-l1-2",
+                "thai": "ลูกค้า",
+                "roman": "lûuk-kháa",
+                "en": "Customer / client",
+                "tone": "high"
+              },
+              {
+                "id": "biz-l1-3",
+                "thai": "สัญญา",
+                "roman": "sǎn-yaa",
+                "en": "Contract",
+                "tone": "rising"
+              },
+              {
+                "id": "biz-l1-4",
+                "thai": "งบประมาณ",
+                "roman": "ngóp-prà-maan",
+                "en": "Budget",
+                "tone": "high"
+              },
+              {
+                "id": "biz-l1-5",
+                "thai": "กำไร",
+                "roman": "kam-rai",
+                "en": "Profit",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "news",
+        "title": "News & Society",
+        "tagline": "The formal register of newspapers and the evening news.",
+        "lessons": [
+          {
+            "id": "news-l1",
+            "title": "Reading the news",
+            "words": [
+              {
+                "id": "news-l1-0",
+                "thai": "ข่าว",
+                "roman": "khàao",
+                "en": "News",
+                "tone": "low"
+              },
+              {
+                "id": "news-l1-1",
+                "thai": "รัฐบาล",
+                "roman": "rát-thà-baan",
+                "en": "Government",
+                "tone": "mid"
+              },
+              {
+                "id": "news-l1-2",
+                "thai": "เศรษฐกิจ",
+                "roman": "sèet-thà-kìt",
+                "en": "Economy",
+                "tone": "low"
+              },
+              {
+                "id": "news-l1-3",
+                "thai": "การเมือง",
+                "roman": "kaan-mʉʉang",
+                "en": "Politics",
+                "tone": "mid"
+              },
+              {
+                "id": "news-l1-4",
+                "thai": "สิ่งแวดล้อม",
+                "roman": "sìng-wɛ̂ɛt-lɔ́ɔm",
+                "en": "Environment",
+                "tone": "falling"
+              },
+              {
+                "id": "news-l1-5",
+                "thai": "ประชาชน",
+                "roman": "prà-chaa-chon",
+                "en": "Citizens / the public",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grammar-advanced",
+        "title": "Advanced Grammar",
+        "tagline": "Passive voice and relative clauses — where Thai grammar gets interesting.",
+        "lessons": [
+          {
+            "id": "gra-l1",
+            "title": "Passives & clauses",
+            "words": [
+              {
+                "id": "gra-l1-0",
+                "thai": "โดน",
+                "roman": "doon",
+                "en": "Passive marker (unfortunate events)",
+                "tone": "mid"
+              },
+              {
+                "id": "gra-l1-1",
+                "thai": "ถูก",
+                "roman": "thùuk",
+                "en": "Passive marker (neutral)",
+                "tone": "low"
+              },
+              {
+                "id": "gra-l1-2",
+                "thai": "ที่",
+                "roman": "thîi",
+                "en": "That / which / who (relative pronoun)",
+                "tone": "falling"
+              },
+              {
+                "id": "gra-l1-3",
+                "thai": "ซึ่ง",
+                "roman": "sʉ̂ng",
+                "en": "Which (formal relative pronoun)",
+                "tone": "falling"
+              },
+              {
+                "id": "gra-l1-4",
+                "thai": "ทั้งที่",
+                "roman": "tháng-thîi",
+                "en": "Even though",
+                "tone": "high"
+              },
+              {
+                "id": "gra-l1-5",
+                "thai": "แม้ว่า",
+                "roman": "mɛ́ɛ-wâa",
+                "en": "Although",
+                "tone": "high"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "proverbs",
+        "title": "Proverbs & Wisdom",
+        "tagline": "Sayings every Thai speaker grows up with.",
+        "lessons": [
+          {
+            "id": "prv-l1",
+            "title": "Common sayings",
+            "words": [
+              {
+                "id": "prv-l1-0",
+                "thai": "น้ำขึ้นให้รีบตัก",
+                "roman": "náam khʉ̂n hâi rîip tàk",
+                "en": "Strike while the iron is hot",
+                "tone": "high"
+              },
+              {
+                "id": "prv-l1-1",
+                "thai": "ช้าๆ ได้พร้าเล่มงาม",
+                "roman": "cháa cháa dâai phráa lêm ngaam",
+                "en": "Slow and steady wins the race",
+                "tone": "falling"
+              },
+              {
+                "id": "prv-l1-2",
+                "thai": "ตนเป็นที่พึ่งแห่งตน",
+                "roman": "ton pen thîi-phʉ̀ng hɛ̀ng ton",
+                "en": "Self-reliance (\"oneself is one's own refuge\")",
+                "tone": "mid"
+              },
+              {
+                "id": "prv-l1-3",
+                "thai": "รักวัวให้ผูก รักลูกให้ตี",
+                "roman": "rák wua hâi phùuk rák lûuk hâi tii",
+                "en": "Spare the rod, spoil the child",
+                "tone": "high"
+              },
+              {
+                "id": "prv-l1-4",
+                "thai": "น้ำพึ่งเรือเสือพึ่งป่า",
+                "roman": "náam phʉ̂ng rʉa sʉ̌a phʉ̂ng pàa",
+                "en": "Mutual support (\"water relies on the boat, the tiger relies on the forest\")",
+                "tone": "falling"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "debate",
+        "title": "Discussion & Debate",
+        "tagline": "Weighing up pros and cons like a native speaker.",
+        "lessons": [
+          {
+            "id": "dbt-l1",
+            "title": "Weighing it up",
+            "words": [
+              {
+                "id": "dbt-l1-0",
+                "thai": "ข้อดี",
+                "roman": "khɔ̂ɔ-dii",
+                "en": "Advantage",
+                "tone": "falling"
+              },
+              {
+                "id": "dbt-l1-1",
+                "thai": "ข้อเสีย",
+                "roman": "khɔ̂ɔ-sǐa",
+                "en": "Disadvantage",
+                "tone": "falling"
+              },
+              {
+                "id": "dbt-l1-2",
+                "thai": "ยกตัวอย่าง",
+                "roman": "yók tua-yàang",
+                "en": "For example",
+                "tone": "high"
+              },
+              {
+                "id": "dbt-l1-3",
+                "thai": "ในทางกลับกัน",
+                "roman": "nai thaang-klàp-kan",
+                "en": "On the other hand",
+                "tone": "mid"
+              },
+              {
+                "id": "dbt-l1-4",
+                "thai": "โดยรวมแล้ว",
+                "roman": "dooi ruam lɛ́ɛo",
+                "en": "Overall",
+                "tone": "mid"
+              },
+              {
+                "id": "dbt-l1-5",
+                "thai": "สรุป",
+                "roman": "sà-rùp",
+                "en": "To summarize / conclude",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": "Fluency & Mastery",
+    "units": [
+      {
+        "id": "slang",
+        "title": "Slang & Casual Speech",
+        "tagline": "The words that never show up in a textbook, but everyone under 40 uses.",
+        "lessons": [
+          {
+            "id": "slg-l1",
+            "title": "Sounding natural",
+            "words": [
+              {
+                "id": "slg-l1-0",
+                "thai": "เจ๋ง",
+                "roman": "jěng",
+                "en": "Awesome / cool",
+                "tone": "rising"
+              },
+              {
+                "id": "slg-l1-1",
+                "thai": "เท่",
+                "roman": "thêh",
+                "en": "Cool (stylish)",
+                "tone": "falling"
+              },
+              {
+                "id": "slg-l1-2",
+                "thai": "แซ่บ",
+                "roman": "sɛ̂ɛp",
+                "en": "Awesome / delicious (originally Isaan slang)",
+                "tone": "falling"
+              },
+              {
+                "id": "slg-l1-3",
+                "thai": "มันส์",
+                "roman": "mans",
+                "en": "Fun / exciting",
+                "tone": "high"
+              },
+              {
+                "id": "slg-l1-4",
+                "thai": "ชิล",
+                "roman": "chin",
+                "en": "Chill / relaxed",
+                "tone": "mid"
+              },
+              {
+                "id": "slg-l1-5",
+                "thai": "งง",
+                "roman": "ngong",
+                "en": "Confused",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reactions",
+        "title": "Humor & Reactions",
+        "tagline": "The little exclamations real conversations run on.",
+        "lessons": [
+          {
+            "id": "rxn-l1",
+            "title": "Reacting naturally",
+            "words": [
+              {
+                "id": "rxn-l1-0",
+                "thai": "555",
+                "roman": "hâa hâa hâa",
+                "en": "Haha (5 = \"hâa\", so 555 sounds like laughter)",
+                "tone": "falling"
+              },
+              {
+                "id": "rxn-l1-1",
+                "thai": "เยี่ยม",
+                "roman": "yîam",
+                "en": "Excellent!",
+                "tone": "falling"
+              },
+              {
+                "id": "rxn-l1-2",
+                "thai": "จริงเหรอ",
+                "roman": "jing rə̌ə",
+                "en": "Really?",
+                "tone": "rising"
+              },
+              {
+                "id": "rxn-l1-3",
+                "thai": "ไม่จริงน่า",
+                "roman": "mâi jing nâa",
+                "en": "No way!",
+                "tone": "falling"
+              },
+              {
+                "id": "rxn-l1-4",
+                "thai": "งั้นเหรอ",
+                "roman": "ngán rə̌ə",
+                "en": "Is that so?",
+                "tone": "rising"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reading",
+        "title": "Reading a Short Paragraph",
+        "tagline": "Four connected sentences — read them as a whole, not just as separate words.",
+        "lessons": [
+          {
+            "id": "rdg-l1",
+            "title": "A normal day",
+            "words": [
+              {
+                "id": "rdg-l1-0",
+                "thai": "ทุกเช้าฉันตื่นนอนเวลาหกโมง",
+                "roman": "thúk cháao chǎn tʉ̀ʉn-nɔɔn wee-laa hòk moong",
+                "en": "Every morning I wake up at six o'clock",
+                "tone": "mid"
+              },
+              {
+                "id": "rdg-l1-1",
+                "thai": "ฉันกินข้าวเช้าแล้วก็ไปทำงาน",
+                "roman": "chǎn kin khâao cháao lɛ́ɛo kɔ̂ pai tham-ngaan",
+                "en": "I eat breakfast and then go to work",
+                "tone": "mid"
+              },
+              {
+                "id": "rdg-l1-2",
+                "thai": "ตอนเย็นฉันชอบทำอาหารกับครอบครัว",
+                "roman": "tɔɔn yen chǎn chɔ̂ɔp tham aa-hǎan kàp khrɔ̂ɔp-khrua",
+                "en": "In the evening I like cooking with my family",
+                "tone": "mid"
+              },
+              {
+                "id": "rdg-l1-3",
+                "thai": "วันหยุดเราไปเที่ยวด้วยกัน",
+                "roman": "wan-yùt rao pai thîao dûai-kan",
+                "en": "On days off we go out together",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "casual-greet",
+        "title": "Casual Greetings",
+        "tagline": "What people actually say when they bump into a friend.",
+        "lessons": [
+          {
+            "id": "cgr-l1",
+            "title": "Hey, what's up?",
+            "words": [
+              {
+                "id": "cgr-l1-0",
+                "thai": "กินข้าวยัง",
+                "roman": "kin khâao yang",
+                "en": "Have you eaten yet? (a common friendly greeting)",
+                "tone": "mid"
+              },
+              {
+                "id": "cgr-l1-1",
+                "thai": "ไปไหนมา",
+                "roman": "pai nǎi maa",
+                "en": "Where have you been?",
+                "tone": "mid"
+              },
+              {
+                "id": "cgr-l1-2",
+                "thai": "เป็นไงบ้าง",
+                "roman": "pen ngai bâang",
+                "en": "How's it going?",
+                "tone": "falling"
+              },
+              {
+                "id": "cgr-l1-3",
+                "thai": "ว่าไง",
+                "roman": "wâa ngai",
+                "en": "What's up?",
+                "tone": "mid"
+              },
+              {
+                "id": "cgr-l1-4",
+                "thai": "เดี๋ยวมา",
+                "roman": "dǐao maa",
+                "en": "Be right back",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "professional",
+        "title": "Professional & Formal Speech",
+        "tagline": "The register for a boardroom, a ceremony, or an official letter.",
+        "lessons": [
+          {
+            "id": "prof-l1",
+            "title": "Speaking formally",
+            "words": [
+              {
+                "id": "prof-l1-0",
+                "thai": "ขออนุญาต",
+                "roman": "khɔ̌ɔ à-nú-yâat",
+                "en": "If I may / requesting permission",
+                "tone": "falling"
+              },
+              {
+                "id": "prof-l1-1",
+                "thai": "ขอเสนอ",
+                "roman": "khɔ̌ɔ sà-nə̌ə",
+                "en": "May I propose / suggest",
+                "tone": "rising"
+              },
+              {
+                "id": "prof-l1-2",
+                "thai": "ขอบพระคุณเป็นอย่างสูง",
+                "roman": "khɔ̀ɔp-phrá-khun pen yàang sǔung",
+                "en": "Thank you very much (highly formal)",
+                "tone": "rising"
+              },
+              {
+                "id": "prof-l1-3",
+                "thai": "กรุณา",
+                "roman": "kà-rú-naa",
+                "en": "Please (formal register)",
+                "tone": "mid"
+              },
+              {
+                "id": "prof-l1-4",
+                "thai": "โปรด",
+                "roman": "pròot",
+                "en": "Kindly / please (official notices)",
+                "tone": "low"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "literary",
+        "title": "Literary & Song Vocabulary",
+        "tagline": "The poetic register behind Thai songs, films, and literature.",
+        "lessons": [
+          {
+            "id": "lit-l1",
+            "title": "Words from songs and poems",
+            "words": [
+              {
+                "id": "lit-l1-0",
+                "thai": "ดวงใจ",
+                "roman": "duang-jai",
+                "en": "Beloved / darling (lit. \"heart orb\")",
+                "tone": "mid"
+              },
+              {
+                "id": "lit-l1-1",
+                "thai": "รอคอย",
+                "roman": "rɔɔ-khɔɔi",
+                "en": "To wait longingly",
+                "tone": "mid"
+              },
+              {
+                "id": "lit-l1-2",
+                "thai": "คิดถึง",
+                "roman": "khít-thʉ̌ng",
+                "en": "To miss (someone)",
+                "tone": "rising"
+              },
+              {
+                "id": "lit-l1-3",
+                "thai": "ลาก่อน",
+                "roman": "laa kɔ̀ɔn",
+                "en": "Farewell (poetic goodbye)",
+                "tone": "low"
+              },
+              {
+                "id": "lit-l1-4",
+                "thai": "ความทรงจำ",
+                "roman": "khwaam-song-jam",
+                "en": "Memory",
+                "tone": "mid"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
