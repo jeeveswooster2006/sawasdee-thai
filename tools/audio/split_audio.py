@@ -1,48 +1,90 @@
-import json, re, subprocess, sys, os
+"""Split each batch clip in audio_raw/ into one mp3 per word in audio_out/.
+
+Boundaries are chosen by dynamic programming over the detected silences: it rewards
+cutting at long gaps and penalises segments whose speech length is far from what the
+word's Thai text length predicts. That stops a long phrase with an internal pause
+(e.g. รักวัวให้ผูก รักลูกให้ตี) being split in two, and catches short gaps between words.
+Usage: python3 split_audio.py 0 1 2 ...   (batch numbers from audio_groups.json)
+"""
+import json, math, re, subprocess, sys, os
 import imageio_ffmpeg
 FF = imageio_ffmpeg.get_ffmpeg_exe()
 groups = json.load(open('audio_groups.json', encoding='utf-8'))
-os.makedirs('audio_out', exist_ok=True)
+LAMBDA = 0.6
+
 
 def silences(path, noise='-40dB', d=0.2):
     out = subprocess.run([FF, '-hide_banner', '-i', path, '-af', f'silencedetect=noise={noise}:d={d}', '-f', 'null', '-'],
                          capture_output=True, text=True).stderr
-    dur = float(re.search(r'Duration: (\d+):(\d+):([\d.]+)', out).group(3)) + 60*int(re.search(r'Duration: (\d+):(\d+)', out).group(2))
+    h, m, s = re.search(r'Duration: (\d+):(\d+):([\d.]+)', out).groups()
+    dur = int(h) * 3600 + int(m) * 60 + float(s)
     starts = [float(x) for x in re.findall(r'silence_start: ([\d.]+)', out)]
     ends = [float(x) for x in re.findall(r'silence_end: ([\d.]+)', out)]
     if len(ends) < len(starts): ends.append(dur)
-    return dur, list(zip(starts, ends))
-
-report = {}
-for gi in [int(a) for a in sys.argv[1:]]:
-    g = groups[gi]; n = len(g['ids'])
-    path = f'audio_raw/group{gi:02d}.mp3'
-    dur, sil = silences(path)
-    # interior gaps only (exclude leading/trailing silence)
     merged = []
-    for s, e in sil:
-        if merged and s - merged[-1][1] < 0.12:
-            merged[-1] = (merged[-1][0], e)
+    for a, b in zip(starts, ends):
+        if merged and a - merged[-1][1] < 0.12:   # a click inside a pause: treat as one pause
+            merged[-1] = (merged[-1][0], b)
         else:
-            merged.append((s, e))
-    sil = merged
-    interior = [(s, e) for s, e in sil if s > 0.05 and e < dur - 0.05]
-    if len(interior) < n - 1:
-        report[gi] = {'ok': False, 'why': f'only {len(interior)} gaps for {n} items'}; continue
-    ranked = sorted(interior, key=lambda x: x[1] - x[0], reverse=True)
-    chosen = sorted(ranked[:n - 1])
-    min_chosen = min(e - s for s, e in chosen)
-    max_unchosen = max([e - s for s, e in ranked[n - 1:]] or [0])
-    lead_end = sil[0][1] if sil and sil[0][0] <= 0.05 else 0.0
-    tail_start = sil[-1][0] if sil and sil[-1][1] >= dur - 0.05 else dur
-    bounds = [lead_end] + [x for s, e in chosen for x in (s, e)] + [tail_start]
-    segs = [(bounds[2*k], bounds[2*k+1]) for k in range(n)]
-    for wid, (a, b) in zip(g['ids'], segs):
-        a2, b2 = max(0, a - 0.06), min(dur, b + 0.12)
-        subprocess.run([FF, '-hide_banner', '-loglevel', 'error', '-y', '-i', path, '-ss', f'{a2:.3f}', '-to', f'{b2:.3f}',
-                        '-ac', '1', '-ar', '44100', '-b:a', '96k', '-af', 'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,afade=t=in:d=0.015,areverse,afade=t=in:d=0.03,areverse',
-                        f'audio_out/{wid}.mp3'], check=True)
-    report[gi] = {'ok': True, 'n': n, 'margin': round(min_chosen / max(max_unchosen, 0.001), 2),
-                  'min_gap': round(min_chosen, 2), 'max_other_gap': round(max_unchosen, 2),
-                  'seg_lengths': [round(b - a, 2) for a, b in segs], 'segs': [(round(a,3), round(b,3)) for a, b in segs]}
-print(json.dumps(report, ensure_ascii=False, indent=0))
+            merged.append((a, b))
+    return dur, merged
+
+
+def thai_len(t):
+    t = t.replace('555', 'ห้าห้าห้า').replace('...', '')
+    return max(1, len(re.sub(r'[\sๆ.,!?]', '', t)) + 2 * t.count('ๆ'))
+
+
+def align(path, texts):
+    dur, sil = silences(path)
+    lead = sil[0][1] if sil and sil[0][0] <= 0.05 else 0.0
+    tail = sil[-1][0] if sil and sil[-1][1] >= dur - 0.05 else dur
+    gaps = [(a, b) for a, b in sil if a > 0.05 and b < dur - 0.05]
+    n, G = len(texts), len(gaps)
+    if G < n - 1:
+        raise ValueError(f'only {G} gaps for {n} items')
+    lens = [thai_len(t) for t in texts]
+    speech_total = (tail - lead) - sum(b - a for a, b in gaps)
+    med_gap = sorted(b - a for a, b in gaps)[G // 2]
+    start = lambda j: lead if j == -1 else gaps[j][1]
+    end = lambda j: tail if j == G else gaps[j][0]
+    prev, back = {-1: 0.0}, [dict() for _ in range(n + 1)]
+    for k in range(1, n + 1):
+        cur, share = {}, lens[k - 1] / sum(lens)
+        for j in ([G] if k == n else range(G)):
+            best = None
+            for i, sc in prev.items():
+                if i >= j: continue
+                speech = end(j) - start(i) - sum(gaps[t][1] - gaps[t][0] for t in range(i + 1, j))
+                if speech <= 0.05: continue
+                v = sc + (0 if j == G else (gaps[j][1] - gaps[j][0]) / med_gap) \
+                    - LAMBDA * math.log(speech / (share * speech_total)) ** 2
+                if best is None or v > best[0]: best = (v, i)
+            if best: cur[j], back[k][j] = best
+        prev = cur
+    segs, j = [], G
+    for k in range(n, 0, -1):
+        i = back[k][j]; segs.append((start(i), end(j))); j = i
+    return dur, segs[::-1]
+
+
+if __name__ == '__main__':
+    os.makedirs('audio_out', exist_ok=True)
+    report = {}
+    for gi in [int(a) for a in sys.argv[1:]]:
+        g = groups[gi]
+        path = f'audio_raw/group{gi:02d}.mp3'
+        try:
+            dur, segs = align(path, g['texts'])
+        except ValueError as e:
+            report[gi] = {'ok': False, 'why': str(e)}; continue
+        for wid, (a, b) in zip(g['ids'], segs):
+            a2, b2 = max(0, a - 0.06), min(dur, b + 0.12)
+            subprocess.run([FF, '-hide_banner', '-loglevel', 'error', '-y', '-i', path, '-ss', f'{a2:.3f}', '-to', f'{b2:.3f}',
+                            '-ac', '1', '-ar', '44100', '-b:a', '96k', '-af',
+                            'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.04,areverse,'
+                            'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse,'
+                            'afade=t=in:d=0.015,areverse,afade=t=in:d=0.03,areverse',
+                            f'audio_out/{wid}.mp3'], check=True)
+        report[gi] = {'ok': True, 'n': len(segs), 'segs': [(round(a, 3), round(b, 3)) for a, b in segs]}
+    print(json.dumps(report, ensure_ascii=False))

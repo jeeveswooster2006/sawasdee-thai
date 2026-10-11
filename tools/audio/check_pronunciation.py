@@ -5,6 +5,7 @@ Run from the repository folder:
     python3 tools/audio/check_pronunciation.py              (Mac/Linux)
 
 Options:
+    --batch N                       only check the words from audio batch N (0-15)
     --model small|medium|large-v3   bigger = more accurate Thai, slower (default: small)
     --device cpu|cuda               use cuda only if you have an NVIDIA GPU set up for it
 
@@ -49,6 +50,7 @@ def normalize(text):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="small")
+    ap.add_argument("--batch", type=int, default=None)
     ap.add_argument("--device", default="cpu")
     args = ap.parse_args()
 
@@ -56,6 +58,14 @@ def main():
     groups = json.loads((ROOT / "tools" / "audio" / "audio_groups.json").read_text(encoding="utf-8"))
     already_verified = {wid for g in groups[:5] for wid in g["ids"]}
     words = [w for lvl in curriculum for u in lvl["units"] for ls in u["lessons"] for w in ls["words"]]
+    by_id = {w["id"]: w for w in words}
+    neighbours = {}
+    for g in groups:
+        for i, wid in enumerate(g["ids"]):
+            neighbours[wid] = [g["ids"][j] for j in (i - 1, i + 1) if 0 <= j < len(g["ids"])]
+    if args.batch is not None:
+        keep = set(groups[args.batch]["ids"])
+        words = [w for w in words if w["id"] in keep]
 
     from faster_whisper import WhisperModel
     print(f"Loading Whisper '{args.model}' on {args.device} (first run downloads it)...")
@@ -71,8 +81,13 @@ def main():
         segments, _ = model.transcribe(load_audio(path), language="th", beam_size=5,
                                        condition_on_previous_text=False, vad_filter=False)
         heard = "".join(s.text for s in segments).strip()
-        sim = difflib.SequenceMatcher(None, normalize(w["thai"]), normalize(heard)).ratio()
-        status = "pass" if sim >= PASS else ("listen" if sim >= REVIEW else "LISTEN FIRST")
+        ratio = lambda t: difflib.SequenceMatcher(None, normalize(t), normalize(heard)).ratio()
+        sim = ratio(w["thai"])
+        near = max(((ratio(by_id[n]["thai"]), n) for n in neighbours.get(w["id"], [])), default=(0.0, None))
+        if near[0] >= 0.6 and near[0] > sim + 0.25:
+            status = "SOUNDS LIKE NEIGHBOUR " + near[1]
+        else:
+            status = "pass" if sim >= PASS else ("listen" if sim >= REVIEW else "LISTEN FIRST")
         rows.append({**w, "heard": heard, "similarity": round(sim, 2), "status": status})
         if i % 25 == 0 or i == len(words):
             print(f"  {i}/{len(words)} checked ({time.time() - started:.0f}s)")
@@ -88,16 +103,24 @@ def main():
 
     def summarize(subset, label):
         n = len(subset)
+        if not n:
+            print(f"{label}: none in this run")
+            return
         p = sum(r["status"] == "pass" for r in subset)
-        print(f"{label}: {p}/{n} pass ({100 * p / max(n, 1):.0f}%)")
+        print(f"{label}: {p}/{n} pass ({100 * p / n:.0f}%)")
 
     print("\n===== SUMMARY (paste everything below back to Claude) =====")
     print(f"model={args.model}")
     summarize([r for r in rows if r["id"] in already_verified], "Known-good calibration words")
     summarize([r for r in rows if r["id"] not in already_verified], "Words being checked")
-    flagged = sorted((r for r in rows if r["id"] not in already_verified and r["status"] != "pass"),
-                     key=lambda r: r["similarity"])
-    print(f"Flagged for a listen: {len(flagged)}")
+    shifted = [r for r in rows if r["status"].startswith("SOUNDS LIKE NEIGHBOUR")]
+    print(f"Clips that sound like the NEIGHBOURING word (likely mis-cut, the reliable signal): {len(shifted)}")
+    for r in shifted:
+        print(f"  {r['id']:10s} expected={r['thai']}  heard={r['heard']}  ({r['status']})")
+    print("Low similarity on its own is weak evidence with small models; compare with the calibration score above.")
+    flagged = sorted((r for r in rows if r["id"] not in already_verified and r["status"] != "pass"
+                      and not r["status"].startswith("SOUNDS LIKE")), key=lambda r: r["similarity"])
+    print(f"Other words flagged for a listen: {len(flagged)}")
     for r in flagged:
         print(f"  {r['id']:10s} {r['similarity']:.2f}  expected={r['thai']}  heard={r['heard']}")
     print(f"\nFull report: {out}")
