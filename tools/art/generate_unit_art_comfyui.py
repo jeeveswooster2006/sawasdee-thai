@@ -255,7 +255,7 @@ def save_web_copy(png_path):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--url", default="http://127.0.0.1:8188")
+    ap.add_argument("--url", help="ComfyUI address (default: tries 127.0.0.1:8188, then Desktop's 127.0.0.1:8000)")
     ap.add_argument("--units", help="comma-separated unit ids to generate (e.g. basics1,food)")
     ap.add_argument("--all", action="store_true", help="all 43 units, including the 4 that have Canva art")
     ap.add_argument("--force", action="store_true", help="regenerate even if the image already exists")
@@ -275,21 +275,39 @@ def main():
     ap.add_argument("--timeout", type=int, default=900, help="seconds to wait per image")
     args = ap.parse_args()
 
-    comfy = Comfy(args.url)
-    try:
-        info = comfy.get_json("/object_info")
-    except (urllib.error.URLError, OSError) as e:
-        raise SystemExit(f"Can't reach ComfyUI at {args.url} ({e}). Start ComfyUI first, or pass --url.")
+    # ComfyUI Desktop listens on 8000, a command-line/portable install on 8188; use whichever has Flux.
+    urls = [args.url] if args.url else ["http://127.0.0.1:8188", "http://127.0.0.1:8000"]
+    reachable = []
+    for url in urls:
+        try:
+            reachable.append((Comfy(url), Comfy(url).get_json("/object_info")))
+        except (urllib.error.URLError, OSError, ValueError):
+            pass
+    if not reachable:
+        raise SystemExit(f"Can't reach ComfyUI at {' or '.join(urls)}. Start ComfyUI first "
+                         "(or pass --url if it uses a different address).")
+    comfy, info = reachable[0]
+    if len(reachable) > 1 and not args.list_models:
+        for c, i in reachable:
+            try:
+                resolve_models(i, args)
+                comfy, info = c, i
+                break
+            except SystemExit:
+                continue
+    print(f"ComfyUI: {comfy.url}")
 
     if args.list_models:
-        for label, node, field in [("Checkpoints", "CheckpointLoaderSimple", "ckpt_name"),
-                                   ("Diffusion models", "UNETLoader", "unet_name"),
-                                   ("GGUF models", "UnetLoaderGGUF", "unet_name"),
-                                   ("Text encoders", "DualCLIPLoader", "clip_name1"),
-                                   ("VAEs", "VAELoader", "vae_name"),
-                                   ("CLIP vision", "CLIPVisionLoader", "clip_name"),
-                                   ("Style models (Redux)", "StyleModelLoader", "style_model_name")]:
-            print(f"{label}: {', '.join(options(info, node, field)) or '(none)'}")
+        for c, i in reachable:
+            print(f"\n=== {c.url} ===")
+            for label, node, field in [("Checkpoints", "CheckpointLoaderSimple", "ckpt_name"),
+                                       ("Diffusion models", "UNETLoader", "unet_name"),
+                                       ("GGUF models", "UnetLoaderGGUF", "unet_name"),
+                                       ("Text encoders", "DualCLIPLoader", "clip_name1"),
+                                       ("VAEs", "VAELoader", "vae_name"),
+                                       ("CLIP vision", "CLIPVisionLoader", "clip_name"),
+                                       ("Style models (Redux)", "StyleModelLoader", "style_model_name")]:
+                print(f"{label}: {', '.join(options(i, node, field)) or '(none)'}")
         return
 
     models = resolve_models(info, args)
