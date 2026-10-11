@@ -241,6 +241,19 @@ def cancel(comfy, prompt_id):
         pass
 
 
+def check_gpu(comfy):
+    """Return (name, vram_gb, looks_integrated) for the device ComfyUI renders on, or None if unknown."""
+    try:
+        dev = comfy.get_json("/system_stats")["devices"][0]
+    except (urllib.error.URLError, OSError, ValueError, KeyError, IndexError, TypeError):
+        return None
+    name, vram = str(dev.get("name", "")), (dev.get("vram_total") or 0) / 1024 ** 3
+    low = name.lower()
+    integrated = dev.get("type") != "cpu" and (
+        ("radeon" in low and "graphics" in low and " rx " not in f" {low} ") or "intel" in low or 0 < vram < 6)
+    return name, vram, integrated
+
+
 def wait_for_image(comfy, prompt_id, timeout):
     started = last_note = time.time()
     while time.time() - started < timeout:
@@ -302,6 +315,7 @@ def main():
     ap.add_argument("--reference", default=str(ROOT / "tools" / "art" / "mascot.png"))
     ap.add_argument("--no-redux", action="store_true")
     ap.add_argument("--redux-strength", type=float, default=0.35)
+    ap.add_argument("--any-gpu", action="store_true", help="don't stop when ComfyUI is on a built-in graphics chip")
     ap.add_argument("--timeout", type=int, default=3600, help="seconds to wait per image (default 3600)")
     args = ap.parse_args()
 
@@ -314,8 +328,9 @@ def main():
         except (urllib.error.URLError, OSError, ValueError):
             pass
     if not reachable:
-        raise SystemExit(f"Can't reach ComfyUI at {' or '.join(urls)}. Start ComfyUI first "
-                         "(or pass --url if it uses a different address).")
+        print(f"Can't reach ComfyUI at {' or '.join(urls)}. Start ComfyUI first "
+              "(or pass --url if it uses a different address).")
+        sys.exit(2)
     comfy, info = reachable[0]
     if len(reachable) > 1 and not args.list_models:
         for c, i in reachable:
@@ -340,6 +355,13 @@ def main():
                 print(f"{label}: {', '.join(options(i, node, field)) or '(none)'}")
         return
 
+    gpu = check_gpu(comfy)
+    if gpu:
+        print(f"Graphics: {gpu[0]} ({gpu[1]:.1f} GB)")
+        if gpu[2] and not args.any_gpu and not args.dry_run:
+            print("\nComfyUI is using the processor's built-in graphics chip, which is far too slow for Flux.\n"
+                  "Point it at your graphics card (e.g. start ComfyUI with --cuda-device 1), restart it, and run this again.")
+            sys.exit(3)
     models = resolve_models(info, args)
     if args.weight_dtype == "auto":
         # A full-size Flux dev file is ~23 GB; loading it as fp8 halves that so it fits a 16 GB card.
