@@ -451,6 +451,8 @@ def main():
     ap.add_argument("--allow-full-size", action="store_true",
                     help="use a full-size Flux file even on a 16 GB card with less than 48 GB of memory")
     ap.add_argument("--any-gpu", action="store_true", help="don't stop when ComfyUI is on a built-in graphics chip")
+    ap.add_argument("--stall-after", type=int, default=600,
+                    help="retry an image fresh if it takes this long and 5x the fastest one so far (default 600 s)")
     ap.add_argument("--timeout", type=int, default=3600, help="seconds to wait per image (default 3600)")
     args = ap.parse_args()
 
@@ -545,7 +547,7 @@ def main():
     print(f"{len(jobs)} image(s) to make for {len(units)} unit(s) -> {OUT}")
     webp_warned = False
     done = skipped = failed = 0
-    oom_seen = False
+    fastest = 0.0
     for n, (u, v) in enumerate(jobs, 1):
         name = u["unit_id"] + ("" if v == 0 else f"-v{v + 1}")
         target = OUT / f"{name}.png"
@@ -560,8 +562,18 @@ def main():
         started = time.time()
         print(f"[{n}/{len(jobs)}] {name}: making..." + (" (the first one also loads the model, so it's slowest)"
                                                         if done == 0 else ""), flush=True)
+        # Once we know how fast an image can be, give up early on one that has stalled and retry it fresh.
+        limit = min(args.timeout, max(args.stall_after, 5 * fastest)) if fastest else args.timeout
         try:
             try:
+                resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
+                target.write_bytes(wait_for_image(comfy, resp["prompt_id"], limit))
+            except TimeoutError:
+                if limit >= args.timeout:
+                    raise
+                print(f"[{n}/{len(jobs)}] {name}: much slower than usual ({limit:.0f}s) - freeing memory and retrying")
+                free_memory(comfy, unload=True)
+                time.sleep(5)
                 resp = comfy.post_json("/prompt", {"prompt": workflow, "client_id": "sawasdee-art"})
                 target.write_bytes(wait_for_image(comfy, resp["prompt_id"], args.timeout))
             except RuntimeError as e:
@@ -570,7 +582,6 @@ def main():
                 # Free everything ComfyUI is holding, switch to low-memory mode and try this image once more.
                 print(f"[{n}/{len(jobs)}] {name}: ran out of graphics memory - freeing memory and retrying in low-memory mode")
                 free_memory(comfy, unload=True)
-                oom_seen = True
                 time.sleep(5)
                 args.low_memory = "on"
                 workflow = build_workflow(models, redux, ref_name, prompt,
@@ -602,9 +613,14 @@ def main():
         if not made_webp and not webp_warned:
             print("  (tip: `py -3.12 -m pip install pillow` to also get small .webp copies for the app)")
             webp_warned = True
-        if oom_seen:
-            free_memory(comfy)  # after one out-of-memory, clear leftovers between images (costs a model reload)
+        if args.low_memory == "on":
+            # On 16 GB cards leftovers from one image make the next one spill into shared memory and crawl
+            # (100 s becomes 15+ min). Unloading after every image costs a model reload but keeps each one fast.
+            free_memory(comfy, unload=True)
+            time.sleep(3)  # let ComfyUI act on it before the next image is queued
         done += 1
+        took = time.time() - started
+        fastest = min(fastest, took) if fastest else took
         print(f"[{n}/{len(jobs)}] {name}: saved ({time.time() - started:.0f}s) - {u['title']}")
     print(f"\nDone: {done} made, {skipped} already existed, {failed} failed. Images are in {OUT}")
 
