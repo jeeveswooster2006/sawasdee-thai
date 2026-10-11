@@ -937,6 +937,12 @@
     }
   ];
 
+  GROUPS.forEach(function (g) {
+    g.lessons.forEach(function (l) {
+      l.words.forEach(function (word, i) { word.audioId = l.id + "-" + i; });
+    });
+  });
+
   var TONE_LABEL = { mid: "mid tone", low: "low tone", falling: "falling tone", high: "high tone", rising: "rising tone" };
 
   /* difficulty tiers by group index: 1=recognition only, 2=+listening/matching, 3=+typing, 4=+listen-and-type */
@@ -1023,6 +1029,27 @@
     } catch (e) {}
   }
 
+  /* recorded clips live in audio/{lessonId}-{wordIndex}.mp3; fall back to the browser voice if one is missing */
+  var clip = new Audio();
+  function playThai(word, slow) {
+    try { speechSynthesis.cancel(); } catch (e) {}
+    clip.pause();
+    clip.onerror = function () { say(word.thai, thaiVoice); };
+    clip.src = "audio/" + word.audioId + ".mp3";
+    clip.playbackRate = slow ? 0.7 : 1;
+    var p = clip.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+  function speakButtonsHtml() {
+    return '<div class="speak-row"><button type="button" class="speak-btn" data-speak="normal">🔊 Play</button> ' +
+      '<button type="button" class="speak-btn" data-speak="slow" title="Play slowly">🐢 Slow</button></div>';
+  }
+  function wireSpeakButtons(root, word) {
+    root.querySelectorAll("[data-speak]").forEach(function (btn) {
+      btn.addEventListener("click", function () { playThai(word, btn.dataset.speak === "slow"); });
+    });
+  }
+
   /* tiny WebAudio beep for feedback */
   var actx = null;
   function beep(good) {
@@ -1088,7 +1115,7 @@
       queue.push({ type: "mc-th", word: word, options: shuffle([word].concat(distractorsFor(lesson.words, pool, word, optCount - 1))) });
     });
 
-    if (tier >= 2 && thaiVoice) {
+    if (tier >= 2) {
       shuffle(lesson.words).slice(0, Math.min(2, lesson.words.length)).forEach(function (word) {
         queue.push({ type: "listen", word: word, options: shuffle([word].concat(distractorsFor(lesson.words, pool, word, optCount - 1))) });
       });
@@ -1098,7 +1125,7 @@
         queue.push({ type: "type-en", word: word });
       });
     }
-    if (tier >= 4 && thaiVoice) {
+    if (tier >= 4) {
       shuffle(lesson.words).slice(0, Math.min(2, lesson.words.length)).forEach(function (word) {
         queue.push({ type: "listen-type", word: word });
       });
@@ -1216,21 +1243,23 @@
       html += '<div class="exercise-kicker">Choose the English meaning</div>';
       html += '<div class="prompt-word thai">' + ex.word.thai + "</div>";
       html += '<div class="prompt-roman">' + escapeHtml(ex.word.roman) + "</div>";
+      html += speakButtonsHtml();
     } else if (ex.type === "mc-th") {
       html += '<div class="exercise-kicker">Choose the Thai word</div>';
       html += '<div class="prompt-en">' + escapeHtml(ex.word.en) + "</div>";
     } else if (ex.type === "listen") {
       html += '<div class="exercise-kicker">Listen, then choose what it means</div>';
       html += '<div class="prompt-word thai" style="opacity:.15">???</div>';
-      html += '<div class="speak-row"><button type="button" class="speak-btn" id="listen-play">🔊 Play again</button></div>';
+      html += speakButtonsHtml();
     } else if (ex.type === "type-en") {
       html += '<div class="exercise-kicker">Type the English meaning</div>';
       html += '<div class="prompt-word thai">' + ex.word.thai + "</div>";
       html += '<div class="prompt-roman">' + escapeHtml(ex.word.roman) + "</div>";
+      html += speakButtonsHtml();
     } else if (ex.type === "listen-type") {
       html += '<div class="exercise-kicker">Listen, then type what it means</div>';
       html += '<div class="prompt-word thai" style="opacity:.15">???</div>';
-      html += '<div class="speak-row"><button type="button" class="speak-btn" id="listen-play">🔊 Play again</button></div>';
+      html += speakButtonsHtml();
     }
     html += "</div>";
 
@@ -1257,10 +1286,9 @@
     var checkBtn = document.getElementById("check-btn");
     var chosen = null;
 
-    if (ex.type === "listen" || ex.type === "listen-type") {
-      var playIt = function () { say(ex.word.thai, thaiVoice); };
-      document.getElementById("listen-play").addEventListener("click", playIt);
-      setTimeout(playIt, 250);
+    if (ex.type !== "mc-th") {
+      wireSpeakButtons(lessonEl, ex.word);
+      setTimeout(function () { playThai(ex.word); }, 250);
     }
 
     if (ex.type === "type-en" || ex.type === "listen-type") {
@@ -1324,11 +1352,13 @@
       fb.innerHTML = '<div class="feedback-banner bad">Not quite<span class="feedback-answer">' +
         escapeHtml(answerWord.en) + " — " + '<span class="thai">' + answerWord.thai + "</span> (" + escapeHtml(answerWord.roman) + ")</span></div>";
     }
+    var hearIt = !isCorrect || ex.type === "mc-th";
+    if (hearIt) playThai(ex.word);
     setTimeout(function () {
       if (s.hearts <= 0) { failLesson(); return; }
       s.pos += 1;
       renderExercise();
-    }, isCorrect ? 700 : 1500);
+    }, isCorrect ? (hearIt ? 1600 : 700) : 2800);
   }
 
   /* ---- match round ---- */
@@ -1360,6 +1390,7 @@
       btn.dataset.idx = idx;
       btn.addEventListener("click", function () {
         if (btn.classList.contains("solved")) return;
+        if (tile.cls === "thai") playThai(tile.word);
         if (selected === btn) { btn.classList.remove("selected"); selected = null; return; }
         if (!selected) { selected = btn; btn.classList.add("selected"); return; }
         if (selected.dataset.key === btn.dataset.key && selected !== btn) {

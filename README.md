@@ -4,7 +4,7 @@ A Duolingo-style Thai course for two learners, built to run entirely on your own
 
 ## How to open it
 
-Double-click **`index.html`**. It opens straight in your default browser — no install, no server, no account. Chrome or Edge give the best results (best chance of a built-in Thai voice for pronunciation).
+Double-click **`index.html`**. It opens straight in your default browser — no install, no server, no account. Keep the `audio` folder next to `index.html`: it holds the recorded pronunciation for every word.
 
 Everything works offline after the first load. The only thing that needs the internet is the Google Fonts stylesheet; if you're offline it just falls back to your system font.
 
@@ -20,10 +20,10 @@ Everything works offline after the first load. The only thing that needs the int
 - **Gets harder as you go**: early units are simple multiple-choice recognition; the middle units add listening challenges and a matching round; later units add typing exercises and full sentences; elementary-and-up units add listen-and-type challenges with no text shown at all.
 - **Hearts & XP**, like Duolingo: 5 hearts per lesson, lose one per mistake, run out and you retry; earn XP and stars (1–3) per lesson, plus a day streak.
 - **Two profiles** — Dad and Son buttons in the top bar — each with completely separate progress, saved on this PC via the browser's local storage.
-- **Audio both ways** — Thai and English text-to-speech, when your browser has a matching voice installed.
+- **Recorded Thai pronunciation for all 352 words** — a native-sounding Thai voice, with a Play and a 🐢 Slow button on every Thai prompt. Wrong answers play the correct word, and tapping a Thai tile in the matching round plays it too.
 
 ## Notes
 
 - Progress is stored per-browser, per-profile. If you switch browsers or clear site data, progress for that browser resets.
-- Thai voice availability depends on your operating system and browser. If pronunciation playback stays silent, your device likely doesn't have a Thai voice installed — the lesson still works fine without it, just without the "listen" exercises' audio.
+- If the `audio` folder is missing (for example, only `index.html` was copied), the app falls back to your browser's built-in Thai voice where one exists.
 - Want more lessons, a different difficulty curve, or new units? Just ask — the whole curriculum lives in one readable block near the top of `index.html`.
