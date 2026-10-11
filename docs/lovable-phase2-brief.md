@@ -5,7 +5,7 @@ Great work on Phase 1. This phase wires in the real content and adds the memory 
 ## 1. Load the full curriculum and recorded audio from the content CDN
 The complete curriculum (6 levels, 43 units, 63 lessons, 352 words) and a recorded native-Thai mp3 for every word are published, byte-exact, at a pinned (immutable) commit:
 
-- Content base: `https://cdn.jsdelivr.net/gh/jeeveswooster2006/sawasdee-thai@3a5473b7b76b27fd333d7f2be5fc70aec9e04aa8`
+- Content base: `https://cdn.jsdelivr.net/gh/jeeveswooster2006/sawasdee-thai@963dd43b13f8523629f4203ed41360c8eb00c4fe`
 - Curriculum: `{base}/data/curriculum.json` (same structure as the bundled sample)
 - Audio: `{base}/audio/{wordId}.mp3` — one file per word, named by the word's `id` (e.g. `b1-l1-0.mp3`)
 
