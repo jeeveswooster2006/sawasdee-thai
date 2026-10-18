@@ -40,7 +40,9 @@ OUT = ROOT / "art" / "units"
 CHARACTER = (
     "Nong Chang, an adorable baby elephant mascot with soft warm grey skin and gentle shading, "
     "large round glossy dark eyes with small white highlights, rosy pink cheeks, big rounded ears "
-    "with pink insides, a short curled trunk, a chubby round body and short legs, a small ornate "
+    "with pink insides, a short curled trunk, a chubby round body standing on exactly four short "
+    "sturdy elephant legs (two front legs and two back legs, no arms and no hands - it holds and "
+    "picks things up with its trunk), a small ornate "
     "gold Thai flame-shaped ornament on top of the head, wearing a deep teal scarf with an ornate "
     "gold Thai temple-pattern border"
 )
@@ -48,6 +50,7 @@ STYLE = (
     "Soft, polished children's picture-book illustration with gentle painterly shading, clean "
     "rounded shapes and warm friendly lighting. Simple uncluttered warm ivory background with "
     "subtle teal and gold accents. Landscape composition, Nong Chang is the clear focus. "
+    "Correct, simple elephant anatomy: one elephant with exactly four legs, one trunk, two ears and one tail. "
     "No lettering or writing anywhere."
 )
 
@@ -424,6 +427,66 @@ def save_web_copy(png_path):
     return True
 
 
+SPEC_URL = "https://raw.githubusercontent.com/jeeveswooster2006/sawasdee-thai/main/tools/art/unit_illustrations.json"
+
+
+def refresh_spec():
+    """Fetch the latest picture descriptions, so scene fixes reach this PC without a new download."""
+    try:
+        with urllib.request.urlopen(SPEC_URL, timeout=20) as r:
+            data = r.read()
+        if json.loads(data.decode("utf-8")).get("units"):
+            SPEC.write_bytes(data)
+            print("Picture list: up to date")
+    except (urllib.error.URLError, OSError, ValueError):
+        print("Picture list: couldn't check for updates - using the copy already here")
+
+
+def ask_redo(units):
+    """All pictures exist: ask which ones to make again (e.g. ones with extra legs)."""
+    ids = [u["unit_id"] for u in units]
+    print("\nAll the pictures are made (they're in art\\units).")
+    print("If any look wrong (extra legs, odd faces), you can make new versions of them.")
+    print("Picture names: " + ", ".join(ids))
+    while True:
+        answer = input("\nType the names to redo, separated by commas (e.g. emergency,weather), "
+                       "or just press Enter to finish: ").strip().lower()
+        if not answer:
+            return set()
+        picked = {a.strip().removesuffix(".png").removesuffix(".webp") for a in answer.split(",") if a.strip()}
+        unknown = picked - set(ids)
+        if not unknown:
+            print(f"OK - making 3 new versions of: {', '.join(sorted(picked))}")
+            return picked
+        print(f"I don't know: {', '.join(sorted(unknown))}. Check the spelling against the list above.")
+
+
+def choose_options(units, variants):
+    """Show where the new versions are and let the person pick one to use."""
+    letters = "abcdefghij"[:variants]
+    print(f"\nThe new versions are in {OUT / 'options'}")
+    print("Open that folder, look at each picture, then choose here.")
+    for u in units:
+        uid = u["unit_id"]
+        have = [x for x in letters if (OUT / "options" / f"{uid}-{x}.png").exists()]
+        if not have:
+            continue
+        while True:
+            answer = input(f"\n{uid}: which one do you want? Type {', '.join(have)} "
+                           f"(or press Enter to keep the old picture): ").strip().lower()
+            if not answer:
+                print(f"  Kept the old {uid} picture.")
+                break
+            if answer in have:
+                chosen = OUT / f"{uid}.png"
+                shutil.copyfile(OUT / "options" / f"{uid}-{answer}.png", chosen)
+                save_web_copy(chosen)
+                print(f"  Done - {uid}-{answer} is now the {uid} picture.")
+                break
+            print(f"  Please type one of: {', '.join(have)}")
+    print("\nFinished. Upload the .webp files from art\\units to GitHub when you're happy with them.")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--url", help="ComfyUI address (default: tries 127.0.0.1:8188, then Desktop's 127.0.0.1:8000)")
@@ -530,6 +593,7 @@ def main():
     print("Using:", ", ".join(f"{k}={v}" for k, v in models.items() if k not in ("kind",) and v not in (None, False)))
     print(f"Mascot reference (Flux Redux): {redux_note}")
 
+    refresh_spec()
     spec = json.loads(SPEC.read_text(encoding="utf-8"))
     units = spec["units"]
     if args.units:
@@ -541,6 +605,17 @@ def main():
     elif not args.all:
         units = [u for u in units if not u.get("canva_media_id")]
 
+    redo = False
+    if (not args.units and not args.force and not args.dry_run and sys.stdin.isatty()
+            and units and all((OUT / f"{u['unit_id']}.png").exists() for u in units)):
+        picked = ask_redo(units)
+        if not picked:
+            print("Nothing to redo. All done!")
+            return
+        units = [u for u in units if u["unit_id"] in picked]
+        redo = True
+        args.variants = max(args.variants, 3)
+        args.seed_offset = int(time.time()) % 100000  # fresh pictures each time
     ref_name = comfy.upload_image(redux["reference"]) if redux and not args.dry_run else (redux and redux["reference"].name)
     OUT.mkdir(parents=True, exist_ok=True)
     jobs = [(u, v) for u in units for v in range(args.variants)]
@@ -549,9 +624,14 @@ def main():
     done = skipped = failed = 0
     fastest = 0.0
     for n, (u, v) in enumerate(jobs, 1):
-        name = u["unit_id"] + ("" if v == 0 else f"-v{v + 1}")
-        target = OUT / f"{name}.png"
-        if target.exists() and not args.force:
+        if redo:
+            name = f"{u['unit_id']}-{'abcdefghij'[v]}"
+            target = OUT / "options" / f"{name}.png"
+            target.parent.mkdir(parents=True, exist_ok=True)
+        else:
+            name = u["unit_id"] + ("" if v == 0 else f"-v{v + 1}")
+            target = OUT / f"{name}.png"
+        if target.exists() and not args.force and not redo:
             skipped += 1
             continue
         prompt = f"{CHARACTER}. Scene: Nong Chang {u['scene']}. {STYLE}"
@@ -623,6 +703,8 @@ def main():
         fastest = min(fastest, took) if fastest else took
         print(f"[{n}/{len(jobs)}] {name}: saved ({time.time() - started:.0f}s) - {u['title']}")
     print(f"\nDone: {done} made, {skipped} already existed, {failed} failed. Images are in {OUT}")
+    if redo:
+        choose_options(units, args.variants)
 
 
 if __name__ == "__main__":
