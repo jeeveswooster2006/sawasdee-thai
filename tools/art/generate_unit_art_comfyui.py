@@ -558,7 +558,7 @@ def choose_options_gui(units, variants):
         else:
             print(f"  {uid}: kept the old picture")
     if any_shown:
-        print("\nFinished. Upload the .webp files from art\\units to GitHub when you're happy with them.")
+        print("\nFinished choosing.")
     return True
 
 
@@ -604,7 +604,53 @@ def choose_options(units, variants):
                 print(f"  Done - {uid}-{answer} is now the {uid} picture.")
                 break
             print(f"  Please type one of: {', '.join(have)}")
-    print("\nFinished. Upload the .webp files from art\\units to GitHub when you're happy with them.")
+    print("\nFinished choosing.")
+
+
+UPLOAD_URL = "https://github.com/jeeveswooster2006/sawasdee-thai/upload/main/art/units"
+
+
+def prepare_upload():
+    """Make small .webp copies, gather them in one folder, and open that folder and the GitHub upload page."""
+    import os
+    import subprocess
+    import webbrowser
+    try:
+        import PIL  # noqa: F401
+    except ImportError:
+        print("Installing the picture helper (Pillow)...")
+        subprocess.run([sys.executable, "-m", "pip", "install", "--quiet", "pillow"], check=False)
+        import importlib
+        importlib.invalidate_caches()
+    pngs = sorted(OUT.glob("*.png"))
+    made = 0
+    for png in pngs:
+        webp = png.with_suffix(".webp")
+        if not webp.exists() or webp.stat().st_mtime < png.stat().st_mtime:
+            try:
+                made += bool(save_web_copy(png))
+            except Exception as e:  # a damaged file shouldn't stop the rest
+                print(f"  couldn't convert {png.name}: {e}")
+    webps = sorted(OUT.glob("*.webp"))
+    if len(webps) < len(pngs):
+        # Couldn't make every small copy: upload the full pictures instead and Claude converts them.
+        webps = pngs
+    dest = OUT / "upload-to-github"
+    shutil.rmtree(dest, ignore_errors=True)
+    dest.mkdir()
+    for w in webps:
+        shutil.copyfile(w, dest / w.name)
+    print(f"\n{len(webps)} pictures are ready to upload, in: {dest}")
+    print("A folder and a GitHub page are opening. To upload:")
+    print("  1. Click inside the folder window and press Ctrl+A to select all the pictures.")
+    print("  2. Drag them onto the GitHub page (sign in to GitHub first if it asks).")
+    print("  3. When they've all appeared, click the green 'Commit changes' button.")
+    print("  4. Tell Claude 'uploaded' and Claude does the rest.")
+    try:
+        os.startfile(str(dest))  # Windows only
+    except (AttributeError, OSError):
+        pass
+    webbrowser.open(UPLOAD_URL)
 
 
 def main():
@@ -733,6 +779,7 @@ def main():
             picked = ask_redo(units)
         if not picked:
             print("Nothing to redo. All done!")
+            prepare_upload()
             return
         units = [u for u in units if u["unit_id"] in picked]
         redo = True
@@ -827,6 +874,8 @@ def main():
     print(f"\nDone: {done} made, {skipped} already existed, {failed} failed. Images are in {OUT}")
     if redo and not choose_options_gui(units, args.variants):
         choose_options(units, args.variants)
+    if redo:
+        prepare_upload()
 
 
 if __name__ == "__main__":
