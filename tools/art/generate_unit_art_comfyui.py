@@ -3,8 +3,8 @@
 Run from the repository folder while ComfyUI is running:
     py -3.12 tools\\art\\generate_unit_art_comfyui.py --list-models        (see what it found)
     py -3.12 tools\\art\\generate_unit_art_comfyui.py --units basics1,food  (quick test: 2 images)
-    py -3.12 tools\\art\\generate_unit_art_comfyui.py                       (the 39 units without art)
-    py -3.12 tools\\art\\generate_unit_art_comfyui.py --all                 (all 43, one consistent style)
+    py -3.12 tools\\art\\generate_unit_art_comfyui.py                       (the units without art yet)
+    py -3.12 tools\\art\\generate_unit_art_comfyui.py --all                 (all units, one consistent style)
 
 It asks ComfyUI which models are installed and picks Flux automatically: either a single
 Flux checkpoint, or separate diffusion model + T5/CLIP-L text encoders + VAE (ae.safetensors).
@@ -657,7 +657,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--url", help="ComfyUI address (default: tries 127.0.0.1:8188, then Desktop's 127.0.0.1:8000)")
     ap.add_argument("--units", help="comma-separated unit ids to generate (e.g. basics1,food)")
-    ap.add_argument("--all", action="store_true", help="all 43 units, including the 4 that have Canva art")
+    ap.add_argument("--all", action="store_true", help="all units, including the 4 that have Canva art")
     ap.add_argument("--force", action="store_true", help="regenerate even if the image already exists")
     ap.add_argument("--variants", type=int, default=1, help="images per unit, to pick the best (default 1)")
     ap.add_argument("--seed-offset", type=int, default=0, help="change to get different images")
@@ -872,6 +872,8 @@ def main():
         fastest = min(fastest, took) if fastest else took
         print(f"[{n}/{len(jobs)}] {name}: saved ({time.time() - started:.0f}s) - {u['title']}")
     print(f"\nDone: {done} made, {skipped} already existed, {failed} failed. Images are in {OUT}")
+    if not redo and done and not failed and sys.stdin.isatty():
+        prepare_upload()
     if redo and not choose_options_gui(units, args.variants):
         choose_options(units, args.variants)
     if redo:

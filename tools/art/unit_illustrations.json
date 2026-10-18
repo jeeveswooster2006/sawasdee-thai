@@ -348,6 +348,55 @@
    "scene": "playing a traditional Thai khim (hammered dulcimer) under the moon, musical notes floating",
    "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang playing a traditional Thai khim (hammered dulcimer) under the moon, musical notes floating. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere.",
    "canva_media_id": null
+  },
+  {
+   "unit_index": 43,
+   "unit_id": "rt-tones",
+   "title": "Hear the tones",
+   "scene": "singing happily while five little music notes float around in rising and falling curved lines like a melody",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang singing happily while five little music notes float around in rising and falling curved lines like a melody. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
+  },
+  {
+   "unit_index": 44,
+   "unit_id": "rt-mid",
+   "title": "Middle-class consonants",
+   "scene": "sitting beside a friendly little chicken and a small turtle, stacking plain wooden toy blocks with its trunk",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang sitting beside a friendly little chicken and a small turtle, stacking plain wooden toy blocks with its trunk. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
+  },
+  {
+   "unit_index": 45,
+   "unit_id": "rt-high",
+   "title": "High-class consonants",
+   "scene": "holding a small basket of eggs in its curled trunk while a cheerful bumblebee buzzes nearby",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang holding a small basket of eggs in its curled trunk while a cheerful bumblebee buzzes nearby. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
+  },
+  {
+   "unit_index": 46,
+   "unit_id": "rt-low",
+   "title": "Low-class consonants",
+   "scene": "standing with a gentle water buffalo and a small friendly green snake in a sunny rice field",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang standing with a gentle water buffalo and a small friendly green snake in a sunny rice field. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
+  },
+  {
+   "unit_index": 47,
+   "unit_id": "rt-vowels",
+   "title": "Vowels",
+   "scene": "blowing colourful soap bubbles of different sizes, some tiny and some long and stretched",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang blowing colourful soap bubbles of different sizes, some tiny and some long and stretched. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
+  },
+  {
+   "unit_index": 48,
+   "unit_id": "rt-marks",
+   "title": "Tone marks",
+   "scene": "painting small curved brush strokes on a blank paper scroll with a paintbrush held in its trunk",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang painting small curved brush strokes on a blank paper scroll with a paintbrush held in its trunk. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
+  },
+  {
+   "unit_index": 49,
+   "unit_id": "rt-reading",
+   "title": "Read real words",
+   "scene": "reading a picture book with a happy smile in a cosy reading corner with soft cushions",
+   "prompt": "Create a new illustration of exactly the same character as the reference image: Nong Chang, the baby elephant, with the same face, soft grey skin, deep teal scarf with gold Thai temple-pattern trim and small gold forehead ornament, in the same soft, polished illustration style. Scene: Nong Chang reading a picture book with a happy smile in a cosy reading corner with soft cushions. Landscape composition with the character as the clear focus, simple uncluttered warm ivory (#F6EFE0) background with soft teal and gold accents. No text, no letters, no numbers, no writing anywhere."
   }
  ]
 }
