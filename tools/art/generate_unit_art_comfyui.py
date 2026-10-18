@@ -442,6 +442,126 @@ def refresh_spec():
         print("Picture list: couldn't check for updates - using the copy already here")
 
 
+def _gallery(title, intro, tiles, multi, button_text):
+    """A scrollable picture window. tiles = [(key, caption, png_path)].
+    multi=True: click to tick several, returns the set of ticked keys.
+    multi=False: click one picture to choose it, returns that key (or None to skip).
+    Returns "nogui" if a window can't be shown."""
+    try:
+        import tkinter as tk
+    except ImportError:
+        return "nogui"
+    try:
+        root = tk.Tk()
+    except Exception:
+        return "nogui"
+    root.title(title)
+    root.configure(bg="#F6EFE0")
+    root.geometry("1100x760")
+    tk.Label(root, text=intro, bg="#F6EFE0", fg="#204040", font=("Segoe UI", 12), justify="left",
+             wraplength=1050).pack(anchor="w", padx=14, pady=(12, 6))
+    outer = tk.Frame(root, bg="#F6EFE0")
+    outer.pack(fill="both", expand=True)
+    canvas = tk.Canvas(outer, bg="#F6EFE0", highlightthickness=0)
+    bar = tk.Scrollbar(outer, orient="vertical", command=canvas.yview)
+    grid = tk.Frame(canvas, bg="#F6EFE0")
+    grid.bind("<Configure>", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+    canvas.create_window((0, 0), window=grid, anchor="nw")
+    canvas.configure(yscrollcommand=bar.set)
+    canvas.pack(side="left", fill="both", expand=True)
+    bar.pack(side="right", fill="y")
+    canvas.bind_all("<MouseWheel>", lambda e: canvas.yview_scroll(int(-e.delta / 120), "units"))
+
+    chosen = set()
+    result = {"value": None}
+    keep = []  # Tk forgets images that Python doesn't hold on to
+    frames = {}
+    cols = 4
+
+    def paint(key):
+        frames[key].configure(bg="#C0392B" if key in chosen else "#F6EFE0")
+
+    def click(key):
+        if multi:
+            chosen.symmetric_difference_update({key})
+            paint(key)
+        else:
+            result["value"] = key
+            root.destroy()
+
+    for i, (key, caption, path) in enumerate(tiles):
+        f = tk.Frame(grid, bg="#F6EFE0", padx=4, pady=4, cursor="hand2")
+        f.grid(row=i // cols, column=i % cols, padx=6, pady=6)
+        frames[key] = f
+        try:
+            img = tk.PhotoImage(file=str(path))
+            step = max(1, round(img.width() / 250))
+            img = img.subsample(step, step)
+            keep.append(img)
+            pic = tk.Label(f, image=img, bg="white")
+        except Exception:
+            pic = tk.Label(f, text="(can't show)", width=30, height=8, bg="white")
+        pic.pack()
+        cap = tk.Label(f, text=caption, bg="#F6EFE0", fg="#204040", font=("Segoe UI", 11, "bold"))
+        cap.pack()
+        for w in (f, pic, cap):
+            w.bind("<Button-1>", lambda e, k=key: click(k))
+
+    buttons = tk.Frame(root, bg="#F6EFE0")
+    buttons.pack(fill="x", padx=14, pady=10)
+
+    def finish():
+        result["value"] = set(chosen) if multi else None
+        root.destroy()
+
+    tk.Button(buttons, text=button_text, command=finish, font=("Segoe UI", 12, "bold"),
+              bg="#2E7D6B", fg="white", padx=16, pady=6).pack(side="right")
+    root.protocol("WM_DELETE_WINDOW", finish)
+    root.mainloop()
+    return result["value"]
+
+
+def pick_redo_gui(units):
+    tiles = [(u["unit_id"], u["unit_id"], OUT / f"{u['unit_id']}.png") for u in units]
+    print("\nA window has opened with all the pictures. Click the ones to redo, then press the green button.")
+    got = _gallery("Sawasdee Thai - which pictures need redoing?",
+                   "Click every picture that looks wrong (extra legs, odd faces, writing). "
+                   "Clicked pictures get a red border - click again to untick. Then press the green button.",
+                   tiles, True, "Redo the red ones")
+    if got == "nogui":
+        return None
+    if got:
+        print(f"OK - making 3 new versions of: {', '.join(sorted(got))}")
+    return got
+
+
+def choose_options_gui(units, variants):
+    letters = "abcdefghij"[:variants]
+    any_shown = False
+    for u in units:
+        uid = u["unit_id"]
+        tiles = [("old", "Keep the old one", OUT / f"{uid}.png")]
+        tiles += [(x, f"New {x.upper()}", OUT / "options" / f"{uid}-{x}.png")
+                  for x in letters if (OUT / "options" / f"{uid}-{x}.png").exists()]
+        if len(tiles) == 1:
+            continue
+        got = _gallery(f"Sawasdee Thai - choose the {uid} picture",
+                       f"{uid}: click the picture you want to use.", tiles, False, "Skip (keep the old one)")
+        if got == "nogui":
+            return False
+        any_shown = True
+        if got and got != "old":
+            chosen = OUT / f"{uid}.png"
+            shutil.copyfile(OUT / "options" / f"{uid}-{got}.png", chosen)
+            save_web_copy(chosen)
+            print(f"  {uid}: using new {got.upper()}")
+        else:
+            print(f"  {uid}: kept the old picture")
+    if any_shown:
+        print("\nFinished. Upload the .webp files from art\\units to GitHub when you're happy with them.")
+    return True
+
+
 def ask_redo(units):
     """All pictures exist: ask which ones to make again (e.g. ones with extra legs)."""
     ids = [u["unit_id"] for u in units]
@@ -608,7 +728,9 @@ def main():
     redo = False
     if (not args.units and not args.force and not args.dry_run and sys.stdin.isatty()
             and units and all((OUT / f"{u['unit_id']}.png").exists() for u in units)):
-        picked = ask_redo(units)
+        picked = pick_redo_gui(units)
+        if picked is None:
+            picked = ask_redo(units)
         if not picked:
             print("Nothing to redo. All done!")
             return
@@ -703,7 +825,7 @@ def main():
         fastest = min(fastest, took) if fastest else took
         print(f"[{n}/{len(jobs)}] {name}: saved ({time.time() - started:.0f}s) - {u['title']}")
     print(f"\nDone: {done} made, {skipped} already existed, {failed} failed. Images are in {OUT}")
-    if redo:
+    if redo and not choose_options_gui(units, args.variants):
         choose_options(units, args.variants)
 
 
