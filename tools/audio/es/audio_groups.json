@@ -803,7 +803,9 @@
    "es-prof-l1-4",
    "es-lit-l1-0",
    "es-lit-l1-1",
-   "es-lit-l1-2"
+   "es-lit-l1-2",
+   "es-lit-l1-3",
+   "es-lit-l1-4"
   ],
   "texts": [
    "¡Venga!",
@@ -827,20 +829,10 @@
    "Un cordial saludo",
    "el alma",
    "la luna",
-   "soñar"
-  ],
-  "prompt": "[slowly, clearly] ¡Venga! ... ¡Ojalá! ... ¡Qué pena! ... ¡No me digas! ... ¡Madre mía! ... Me llamo Lucía y vivo en Sevilla. ... Todas las mañanas voy al colegio en bici. ... Por la tarde juego con mi perro en el parque. ... Los domingos comemos paella con mis abuelos. ... ¿Qué pasa? ... ¿Cómo va? ... ¡Cuánto tiempo! ... Buenas ... ¡Hasta mañana! ... Estimado señor ... Le saluda atentamente ... Le agradezco su ayuda ... Quedo a su disposición ... Un cordial saludo ... el alma ... la luna ... soñar"
- },
- {
-  "group": 16,
-  "ids": [
-   "es-lit-l1-3",
-   "es-lit-l1-4"
-  ],
-  "texts": [
+   "soñar",
    "el mar",
    "para siempre"
   ],
-  "prompt": "[slowly, clearly] el mar ... para siempre"
+  "prompt": "[slowly, clearly] ¡Venga! ... ¡Ojalá! ... ¡Qué pena! ... ¡No me digas! ... ¡Madre mía! ... Me llamo Lucía y vivo en Sevilla. ... Todas las mañanas voy al colegio en bici. ... Por la tarde juego con mi perro en el parque. ... Los domingos comemos paella con mis abuelos. ... ¿Qué pasa? ... ¿Cómo va? ... ¡Cuánto tiempo! ... Buenas ... ¡Hasta mañana! ... Estimado señor ... Le saluda atentamente ... Le agradezco su ayuda ... Quedo a su disposición ... Un cordial saludo ... el alma ... la luna ... soñar ... el mar ... para siempre"
  }
 ]
