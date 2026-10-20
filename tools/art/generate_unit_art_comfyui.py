@@ -58,17 +58,18 @@ STYLE = (
 NAME = "Nong Chang"
 
 TORITO = (
-    "Torito, an adorable baby bull calf mascot with soft warm chestnut-brown fur and a cream-coloured muzzle "
-    "and tummy, large round glossy dark eyes with small white highlights, rosy pink cheeks, two small soft "
-    "rounded cream-coloured horn nubs, floppy ears, a little tuft of curly fur on top of the head, a chubby "
-    "round body standing on exactly four short sturdy legs with small dark hooves (two front legs and two back "
-    "legs, no arms and no hands - it nudges things with its nose and carries small things on its back), a short "
-    "tail with a fluffy tip, wearing a red neckerchief with a golden-yellow border tied around its neck"
+    "Torito, an adorable baby bull calf drawn like a real young calf: a four-legged farm animal with a horizontal "
+    "body, soft warm chestnut-brown fur, a cream-coloured muzzle and tummy, large round glossy dark eyes with small "
+    "white highlights, rosy pink cheeks, two small soft rounded cream-coloured horn nubs, floppy ears and a little tuft "
+    "of curly fur on top of the head. He has exactly four legs, all four with small dark hooves resting on the ground, "
+    "two front legs and two back legs, like a real calf. He never stands upright on two legs and has no arms and no "
+    "hands. He wears a red neckerchief with a golden-yellow border tied around his neck"
 )
 STYLE_ES = (
     "Soft, polished children's picture-book illustration with gentle painterly shading, clean "
     "rounded shapes and warm friendly lighting. Simple uncluttered warm ivory background with "
-    "subtle red and gold accents. Landscape composition, Torito is the clear focus. "
+    "subtle red and gold accents. Landscape composition, Torito is the clear focus, shown from a side or "
+    "three-quarter view so all four legs are easy to see. "
     "Correct, simple calf anatomy: one calf with exactly four legs, two small horns, two ears and one tail. "
     "Torito is gentle, cheerful and never fierce. No bullfighting, no capes, no arenas. "
     "No lettering or writing anywhere."
