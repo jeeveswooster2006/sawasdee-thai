@@ -1,0 +1,3786 @@
+[
+ {
+  "level": "Beginner",
+  "units": [
+   {
+    "id": "es-basics1",
+    "title": "Greetings",
+    "tagline": "The words you'll use every single day.",
+    "lessons": [
+     {
+      "id": "es-b1-l1",
+      "title": "Hello & thanks",
+      "words": [
+       {
+        "id": "es-b1-l1-0",
+        "text": "Hola",
+        "en": "Hello",
+        "accept": [
+         "hi",
+         "hiya"
+        ],
+        "emoji": "👋",
+        "note": "The h is always silent: OH-la."
+       },
+       {
+        "id": "es-b1-l1-1",
+        "text": "Gracias",
+        "en": "Thank you",
+        "accept": [
+         "thanks",
+         "thank you very much"
+        ],
+        "emoji": "🙏"
+       },
+       {
+        "id": "es-b1-l1-2",
+        "text": "Sí",
+        "en": "Yes",
+        "accept": [
+         "yeah"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "es-b1-l1-3",
+        "text": "No",
+        "en": "No",
+        "emoji": "❌"
+       },
+       {
+        "id": "es-b1-l1-4",
+        "text": "Perdón",
+        "en": "Sorry",
+        "accept": [
+         "excuse me",
+         "pardon",
+         "pardon me"
+        ],
+        "emoji": "😔"
+       },
+       {
+        "id": "es-b1-l1-5",
+        "text": "De nada",
+        "en": "You're welcome",
+        "accept": [
+         "no problem",
+         "not at all",
+         "you are welcome"
+        ],
+        "emoji": "😌"
+       }
+      ]
+     },
+     {
+      "id": "es-b1-l2",
+      "title": "How are you?",
+      "words": [
+       {
+        "id": "es-b1-l2-0",
+        "text": "¿Qué tal?",
+        "en": "How are you?",
+        "accept": [
+         "how's it going",
+         "how are things",
+         "how are you doing"
+        ],
+        "emoji": "🙂"
+       },
+       {
+        "id": "es-b1-l2-1",
+        "text": "Bien",
+        "en": "Good",
+        "accept": [
+         "well",
+         "fine",
+         "ok"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "es-b1-l2-2",
+        "text": "Muy bien",
+        "en": "Very good",
+        "accept": [
+         "very well",
+         "really good"
+        ],
+        "emoji": "😄"
+       },
+       {
+        "id": "es-b1-l2-3",
+        "text": "¿Y tú?",
+        "en": "And you?",
+        "accept": [
+         "what about you",
+         "and yourself"
+        ],
+        "emoji": "🫵"
+       },
+       {
+        "id": "es-b1-l2-4",
+        "text": "Adiós",
+        "en": "Goodbye",
+        "accept": [
+         "bye",
+         "bye bye"
+        ],
+        "emoji": "👋"
+       },
+       {
+        "id": "es-b1-l2-5",
+        "text": "Hasta luego",
+        "en": "See you later",
+        "accept": [
+         "see you",
+         "bye for now",
+         "later"
+        ],
+        "emoji": "🙋"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-numbers1",
+    "title": "Numbers 1–10",
+    "tagline": "Count on your fingers together.",
+    "lessons": [
+     {
+      "id": "es-n1-l1",
+      "title": "One to five",
+      "words": [
+       {
+        "id": "es-n1-l1-0",
+        "text": "uno",
+        "en": "One",
+        "accept": [
+         "1"
+        ],
+        "emoji": "1️⃣"
+       },
+       {
+        "id": "es-n1-l1-1",
+        "text": "dos",
+        "en": "Two",
+        "accept": [
+         "2"
+        ],
+        "emoji": "2️⃣"
+       },
+       {
+        "id": "es-n1-l1-2",
+        "text": "tres",
+        "en": "Three",
+        "accept": [
+         "3"
+        ],
+        "emoji": "3️⃣"
+       },
+       {
+        "id": "es-n1-l1-3",
+        "text": "cuatro",
+        "en": "Four",
+        "accept": [
+         "4"
+        ],
+        "emoji": "4️⃣"
+       },
+       {
+        "id": "es-n1-l1-4",
+        "text": "cinco",
+        "en": "Five",
+        "accept": [
+         "5"
+        ],
+        "emoji": "5️⃣"
+       }
+      ]
+     },
+     {
+      "id": "es-n1-l2",
+      "title": "Six to ten",
+      "words": [
+       {
+        "id": "es-n1-l2-0",
+        "text": "seis",
+        "en": "Six",
+        "accept": [
+         "6"
+        ],
+        "emoji": "6️⃣"
+       },
+       {
+        "id": "es-n1-l2-1",
+        "text": "siete",
+        "en": "Seven",
+        "accept": [
+         "7"
+        ],
+        "emoji": "7️⃣"
+       },
+       {
+        "id": "es-n1-l2-2",
+        "text": "ocho",
+        "en": "Eight",
+        "accept": [
+         "8"
+        ],
+        "emoji": "8️⃣"
+       },
+       {
+        "id": "es-n1-l2-3",
+        "text": "nueve",
+        "en": "Nine",
+        "accept": [
+         "9"
+        ],
+        "emoji": "9️⃣"
+       },
+       {
+        "id": "es-n1-l2-4",
+        "text": "diez",
+        "en": "Ten",
+        "accept": [
+         "10"
+        ],
+        "emoji": "🔟"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-numbers2",
+    "title": "Bigger Numbers",
+    "tagline": "Eleven, twenty, and counting by tens.",
+    "lessons": [
+     {
+      "id": "es-n2-l1",
+      "title": "Eleven to fifteen",
+      "words": [
+       {
+        "id": "es-n2-l1-0",
+        "text": "once",
+        "en": "Eleven",
+        "accept": [
+         "11"
+        ]
+       },
+       {
+        "id": "es-n2-l1-1",
+        "text": "doce",
+        "en": "Twelve",
+        "accept": [
+         "12"
+        ]
+       },
+       {
+        "id": "es-n2-l1-2",
+        "text": "trece",
+        "en": "Thirteen",
+        "accept": [
+         "13"
+        ]
+       },
+       {
+        "id": "es-n2-l1-3",
+        "text": "catorce",
+        "en": "Fourteen",
+        "accept": [
+         "14"
+        ]
+       },
+       {
+        "id": "es-n2-l1-4",
+        "text": "quince",
+        "en": "Fifteen",
+        "accept": [
+         "15"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "es-n2-l2",
+      "title": "Counting by tens",
+      "words": [
+       {
+        "id": "es-n2-l2-0",
+        "text": "veinte",
+        "en": "Twenty",
+        "accept": [
+         "20"
+        ]
+       },
+       {
+        "id": "es-n2-l2-1",
+        "text": "treinta",
+        "en": "Thirty",
+        "accept": [
+         "30"
+        ]
+       },
+       {
+        "id": "es-n2-l2-2",
+        "text": "cuarenta",
+        "en": "Forty",
+        "accept": [
+         "40"
+        ]
+       },
+       {
+        "id": "es-n2-l2-3",
+        "text": "cincuenta",
+        "en": "Fifty",
+        "accept": [
+         "50"
+        ]
+       },
+       {
+        "id": "es-n2-l2-4",
+        "text": "cien",
+        "en": "One hundred",
+        "accept": [
+         "100",
+         "a hundred",
+         "hundred"
+        ],
+        "emoji": "💯"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-family",
+    "title": "Family",
+    "tagline": "Mamá, papá and everyone in between. El = he, la = she.",
+    "lessons": [
+     {
+      "id": "es-fam-l1",
+      "title": "Close family",
+      "words": [
+       {
+        "id": "es-fam-l1-0",
+        "text": "la madre",
+        "en": "Mother",
+        "accept": [
+         "mum",
+         "mom",
+         "mummy",
+         "the mother"
+        ],
+        "emoji": "👩",
+        "note": "Mamá is 'mum'."
+       },
+       {
+        "id": "es-fam-l1-1",
+        "text": "el padre",
+        "en": "Father",
+        "accept": [
+         "dad",
+         "daddy",
+         "the father"
+        ],
+        "emoji": "👨",
+        "note": "Papá is 'dad'."
+       },
+       {
+        "id": "es-fam-l1-2",
+        "text": "el hermano",
+        "en": "Brother",
+        "accept": [
+         "the brother"
+        ],
+        "emoji": "👦"
+       },
+       {
+        "id": "es-fam-l1-3",
+        "text": "la hermana",
+        "en": "Sister",
+        "accept": [
+         "the sister"
+        ],
+        "emoji": "👧"
+       },
+       {
+        "id": "es-fam-l1-4",
+        "text": "el hijo",
+        "en": "Son",
+        "accept": [
+         "the son"
+        ],
+        "emoji": "🧒"
+       },
+       {
+        "id": "es-fam-l1-5",
+        "text": "la hija",
+        "en": "Daughter",
+        "accept": [
+         "the daughter"
+        ],
+        "emoji": "👶"
+       }
+      ]
+     },
+     {
+      "id": "es-fam-l2",
+      "title": "Grandparents & more",
+      "words": [
+       {
+        "id": "es-fam-l2-0",
+        "text": "el abuelo",
+        "en": "Grandfather",
+        "accept": [
+         "grandad",
+         "grandpa",
+         "granddad"
+        ],
+        "emoji": "👴"
+       },
+       {
+        "id": "es-fam-l2-1",
+        "text": "la abuela",
+        "en": "Grandmother",
+        "accept": [
+         "grandma",
+         "granny",
+         "nan",
+         "nana"
+        ],
+        "emoji": "👵"
+       },
+       {
+        "id": "es-fam-l2-2",
+        "text": "el tío",
+        "en": "Uncle",
+        "emoji": "🧔"
+       },
+       {
+        "id": "es-fam-l2-3",
+        "text": "la tía",
+        "en": "Aunt",
+        "accept": [
+         "auntie",
+         "aunty"
+        ],
+        "emoji": "👩‍🦰"
+       },
+       {
+        "id": "es-fam-l2-4",
+        "text": "el primo",
+        "en": "Cousin",
+        "accept": [
+         "cousin (boy)"
+        ],
+        "emoji": "🧑"
+       },
+       {
+        "id": "es-fam-l2-5",
+        "text": "la familia",
+        "en": "Family",
+        "accept": [
+         "the family"
+        ],
+        "emoji": "👨‍👩‍👧‍👦"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-colors",
+    "title": "Colours & Shapes",
+    "tagline": "The colour comes after the thing: un coche rojo, a red car.",
+    "lessons": [
+     {
+      "id": "es-col-l1",
+      "title": "Colours",
+      "words": [
+       {
+        "id": "es-col-l1-0",
+        "text": "rojo",
+        "en": "Red",
+        "emoji": "🔴",
+        "swatch": "#c0392b"
+       },
+       {
+        "id": "es-col-l1-1",
+        "text": "azul",
+        "en": "Blue",
+        "emoji": "🔵",
+        "swatch": "#1f5fa8"
+       },
+       {
+        "id": "es-col-l1-2",
+        "text": "verde",
+        "en": "Green",
+        "emoji": "🟢",
+        "swatch": "#2e8b57"
+       },
+       {
+        "id": "es-col-l1-3",
+        "text": "amarillo",
+        "en": "Yellow",
+        "emoji": "🟡",
+        "swatch": "#f1c40f"
+       },
+       {
+        "id": "es-col-l1-4",
+        "text": "negro",
+        "en": "Black",
+        "emoji": "⚫",
+        "swatch": "#222222"
+       },
+       {
+        "id": "es-col-l1-5",
+        "text": "blanco",
+        "en": "White",
+        "emoji": "⚪",
+        "swatch": "#f8f8f8"
+       }
+      ]
+     },
+     {
+      "id": "es-col-l2",
+      "title": "Shapes",
+      "words": [
+       {
+        "id": "es-col-l2-0",
+        "text": "el círculo",
+        "en": "Circle",
+        "accept": [
+         "a circle"
+        ],
+        "emoji": "⭕"
+       },
+       {
+        "id": "es-col-l2-1",
+        "text": "el cuadrado",
+        "en": "Square",
+        "accept": [
+         "a square"
+        ],
+        "emoji": "🟥"
+       },
+       {
+        "id": "es-col-l2-2",
+        "text": "el triángulo",
+        "en": "Triangle",
+        "accept": [
+         "a triangle"
+        ],
+        "emoji": "🔺"
+       },
+       {
+        "id": "es-col-l2-3",
+        "text": "la estrella",
+        "en": "Star",
+        "accept": [
+         "a star"
+        ],
+        "emoji": "⭐"
+       },
+       {
+        "id": "es-col-l2-4",
+        "text": "el corazón",
+        "en": "Heart",
+        "accept": [
+         "a heart"
+        ],
+        "emoji": "❤️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-food",
+    "title": "Food & Drink",
+    "tagline": "Tapas, tortilla and everything in between.",
+    "lessons": [
+     {
+      "id": "es-food-l1",
+      "title": "Foods",
+      "words": [
+       {
+        "id": "es-food-l1-0",
+        "text": "el pan",
+        "en": "Bread",
+        "emoji": "🍞"
+       },
+       {
+        "id": "es-food-l1-1",
+        "text": "el queso",
+        "en": "Cheese",
+        "emoji": "🧀"
+       },
+       {
+        "id": "es-food-l1-2",
+        "text": "el arroz",
+        "en": "Rice",
+        "emoji": "🍚"
+       },
+       {
+        "id": "es-food-l1-3",
+        "text": "la manzana",
+        "en": "Apple",
+        "accept": [
+         "an apple"
+        ],
+        "emoji": "🍎"
+       },
+       {
+        "id": "es-food-l1-4",
+        "text": "el pollo",
+        "en": "Chicken",
+        "emoji": "🍗"
+       },
+       {
+        "id": "es-food-l1-5",
+        "text": "el huevo",
+        "en": "Egg",
+        "accept": [
+         "an egg"
+        ],
+        "emoji": "🥚"
+       }
+      ]
+     },
+     {
+      "id": "es-food-l2",
+      "title": "Drinks & taste",
+      "words": [
+       {
+        "id": "es-food-l2-0",
+        "text": "el agua",
+        "en": "Water",
+        "emoji": "💧",
+        "note": "Agua is a 'she' word but uses el, to make it easier to say."
+       },
+       {
+        "id": "es-food-l2-1",
+        "text": "la leche",
+        "en": "Milk",
+        "emoji": "🥛"
+       },
+       {
+        "id": "es-food-l2-2",
+        "text": "el zumo",
+        "en": "Juice",
+        "emoji": "🧃",
+        "note": "In Spain it's zumo; in Latin America, jugo."
+       },
+       {
+        "id": "es-food-l2-3",
+        "text": "el café",
+        "en": "Coffee",
+        "emoji": "☕"
+       },
+       {
+        "id": "es-food-l2-4",
+        "text": "rico",
+        "en": "Tasty",
+        "accept": [
+         "delicious",
+         "yummy"
+        ],
+        "emoji": "😋"
+       },
+       {
+        "id": "es-food-l2-5",
+        "text": "picante",
+        "en": "Spicy",
+        "accept": [
+         "hot"
+        ],
+        "emoji": "🌶️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-phrases",
+    "title": "Everyday Phrases",
+    "tagline": "Small words that unlock real conversations.",
+    "lessons": [
+     {
+      "id": "es-phr-l1",
+      "title": "Asking for things",
+      "words": [
+       {
+        "id": "es-phr-l1-0",
+        "text": "por favor",
+        "en": "Please",
+        "emoji": "🥺"
+       },
+       {
+        "id": "es-phr-l1-1",
+        "text": "quiero",
+        "en": "I want",
+        "accept": [
+         "i would like",
+         "i'd like"
+        ],
+        "emoji": "🙋"
+       },
+       {
+        "id": "es-phr-l1-2",
+        "text": "necesito",
+        "en": "I need",
+        "emoji": "🙌"
+       },
+       {
+        "id": "es-phr-l1-3",
+        "text": "¿Dónde está el baño?",
+        "en": "Where is the toilet?",
+        "accept": [
+         "where's the toilet",
+         "where is the bathroom",
+         "where's the bathroom"
+        ],
+        "emoji": "🚻"
+       },
+       {
+        "id": "es-phr-l1-4",
+        "text": "No entiendo",
+        "en": "I don't understand",
+        "accept": [
+         "i do not understand"
+        ],
+        "emoji": "🤷"
+       },
+       {
+        "id": "es-phr-l1-5",
+        "text": "Más despacio, por favor",
+        "en": "Slower, please",
+        "accept": [
+         "more slowly please",
+         "slowly please"
+        ],
+        "emoji": "🐢"
+       }
+      ]
+     },
+     {
+      "id": "es-phr-l2",
+      "title": "Question words",
+      "words": [
+       {
+        "id": "es-phr-l2-0",
+        "text": "¿Qué?",
+        "en": "What?",
+        "emoji": "❓"
+       },
+       {
+        "id": "es-phr-l2-1",
+        "text": "¿Quién?",
+        "en": "Who?",
+        "emoji": "🧑"
+       },
+       {
+        "id": "es-phr-l2-2",
+        "text": "¿Dónde?",
+        "en": "Where?",
+        "emoji": "📍"
+       },
+       {
+        "id": "es-phr-l2-3",
+        "text": "¿Cuándo?",
+        "en": "When?",
+        "emoji": "🕐"
+       },
+       {
+        "id": "es-phr-l2-4",
+        "text": "¿Por qué?",
+        "en": "Why?",
+        "emoji": "🤔"
+       },
+       {
+        "id": "es-phr-l2-5",
+        "text": "¿Cuánto?",
+        "en": "How much?",
+        "accept": [
+         "how many"
+        ],
+        "emoji": "💰"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-time",
+    "title": "Time & Days",
+    "tagline": "Days of the week — and no capital letters in Spanish!",
+    "lessons": [
+     {
+      "id": "es-time-l1",
+      "title": "Weekdays",
+      "words": [
+       {
+        "id": "es-time-l1-0",
+        "text": "lunes",
+        "en": "Monday"
+       },
+       {
+        "id": "es-time-l1-1",
+        "text": "martes",
+        "en": "Tuesday"
+       },
+       {
+        "id": "es-time-l1-2",
+        "text": "miércoles",
+        "en": "Wednesday"
+       },
+       {
+        "id": "es-time-l1-3",
+        "text": "jueves",
+        "en": "Thursday"
+       },
+       {
+        "id": "es-time-l1-4",
+        "text": "viernes",
+        "en": "Friday"
+       }
+      ]
+     },
+     {
+      "id": "es-time-l2",
+      "title": "Weekend & today",
+      "words": [
+       {
+        "id": "es-time-l2-0",
+        "text": "sábado",
+        "en": "Saturday"
+       },
+       {
+        "id": "es-time-l2-1",
+        "text": "domingo",
+        "en": "Sunday"
+       },
+       {
+        "id": "es-time-l2-2",
+        "text": "hoy",
+        "en": "Today",
+        "emoji": "📅"
+       },
+       {
+        "id": "es-time-l2-3",
+        "text": "mañana",
+        "en": "Tomorrow",
+        "emoji": "🌅",
+        "note": "Mañana also means 'morning'."
+       },
+       {
+        "id": "es-time-l2-4",
+        "text": "ayer",
+        "en": "Yesterday",
+        "emoji": "⏪"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-places",
+    "title": "Places & Directions",
+    "tagline": "Getting around town.",
+    "lessons": [
+     {
+      "id": "es-pl-l1",
+      "title": "Places",
+      "words": [
+       {
+        "id": "es-pl-l1-0",
+        "text": "la casa",
+        "en": "House",
+        "accept": [
+         "home",
+         "the house"
+        ],
+        "emoji": "🏠"
+       },
+       {
+        "id": "es-pl-l1-1",
+        "text": "el colegio",
+        "en": "School",
+        "accept": [
+         "the school"
+        ],
+        "emoji": "🏫"
+       },
+       {
+        "id": "es-pl-l1-2",
+        "text": "la playa",
+        "en": "Beach",
+        "accept": [
+         "the beach"
+        ],
+        "emoji": "🏖️"
+       },
+       {
+        "id": "es-pl-l1-3",
+        "text": "el parque",
+        "en": "Park",
+        "accept": [
+         "the park"
+        ],
+        "emoji": "🌳"
+       },
+       {
+        "id": "es-pl-l1-4",
+        "text": "la tienda",
+        "en": "Shop",
+        "accept": [
+         "store",
+         "the shop"
+        ],
+        "emoji": "🏪"
+       },
+       {
+        "id": "es-pl-l1-5",
+        "text": "el hospital",
+        "en": "Hospital",
+        "accept": [
+         "the hospital"
+        ],
+        "emoji": "🏥",
+        "note": "The h is silent: os-pee-TAL."
+       }
+      ]
+     },
+     {
+      "id": "es-pl-l2",
+      "title": "Directions",
+      "words": [
+       {
+        "id": "es-pl-l2-0",
+        "text": "a la izquierda",
+        "en": "On the left",
+        "accept": [
+         "left",
+         "to the left"
+        ],
+        "emoji": "⬅️"
+       },
+       {
+        "id": "es-pl-l2-1",
+        "text": "a la derecha",
+        "en": "On the right",
+        "accept": [
+         "right",
+         "to the right"
+        ],
+        "emoji": "➡️"
+       },
+       {
+        "id": "es-pl-l2-2",
+        "text": "todo recto",
+        "en": "Straight on",
+        "accept": [
+         "straight ahead",
+         "straight"
+        ],
+        "emoji": "⬆️"
+       },
+       {
+        "id": "es-pl-l2-3",
+        "text": "aquí",
+        "en": "Here",
+        "emoji": "📌"
+       },
+       {
+        "id": "es-pl-l2-4",
+        "text": "allí",
+        "en": "There",
+        "accept": [
+         "over there"
+        ],
+        "emoji": "👉"
+       },
+       {
+        "id": "es-pl-l2-5",
+        "text": "cerca",
+        "en": "Near",
+        "accept": [
+         "close",
+         "nearby"
+        ],
+        "emoji": "🤏"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-shopping",
+    "title": "Shopping & Money",
+    "tagline": "Prices, paying and 'just looking'.",
+    "lessons": [
+     {
+      "id": "es-shop-l1",
+      "title": "At the shop",
+      "words": [
+       {
+        "id": "es-shop-l1-0",
+        "text": "¿Cuánto cuesta?",
+        "en": "How much is it?",
+        "accept": [
+         "how much does it cost",
+         "how much"
+        ],
+        "emoji": "🏷️"
+       },
+       {
+        "id": "es-shop-l1-1",
+        "text": "caro",
+        "en": "Expensive",
+        "accept": [
+         "dear"
+        ],
+        "emoji": "💸"
+       },
+       {
+        "id": "es-shop-l1-2",
+        "text": "barato",
+        "en": "Cheap",
+        "emoji": "🪙"
+       },
+       {
+        "id": "es-shop-l1-3",
+        "text": "Solo estoy mirando",
+        "en": "I'm just looking",
+        "accept": [
+         "just looking",
+         "i am just looking"
+        ],
+        "emoji": "👀"
+       },
+       {
+        "id": "es-shop-l1-4",
+        "text": "la talla",
+        "en": "Size",
+        "accept": [
+         "clothes size"
+        ],
+        "emoji": "👕"
+       },
+       {
+        "id": "es-shop-l1-5",
+        "text": "Me lo llevo",
+        "en": "I'll take it",
+        "accept": [
+         "i will take it"
+        ],
+        "emoji": "🛍️"
+       }
+      ]
+     },
+     {
+      "id": "es-shop-l2",
+      "title": "Paying up",
+      "words": [
+       {
+        "id": "es-shop-l2-0",
+        "text": "el dinero",
+        "en": "Money",
+        "emoji": "💶"
+       },
+       {
+        "id": "es-shop-l2-1",
+        "text": "la tarjeta",
+        "en": "Card",
+        "accept": [
+         "bank card",
+         "credit card"
+        ],
+        "emoji": "💳"
+       },
+       {
+        "id": "es-shop-l2-2",
+        "text": "en efectivo",
+        "en": "In cash",
+        "accept": [
+         "cash"
+        ],
+        "emoji": "💵"
+       },
+       {
+        "id": "es-shop-l2-3",
+        "text": "la cuenta",
+        "en": "The bill",
+        "accept": [
+         "bill",
+         "check",
+         "the check"
+        ],
+        "emoji": "🧾"
+       },
+       {
+        "id": "es-shop-l2-4",
+        "text": "el cambio",
+        "en": "Change",
+        "accept": [
+         "the change"
+        ],
+        "emoji": "🪙"
+       },
+       {
+        "id": "es-shop-l2-5",
+        "text": "la tienda de regalos",
+        "en": "Gift shop",
+        "accept": [
+         "souvenir shop",
+         "the gift shop"
+        ],
+        "emoji": "🎁"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-travel",
+    "title": "Travel & Transport",
+    "tagline": "How you'll get to Spain — and around it.",
+    "lessons": [
+     {
+      "id": "es-trv-l1",
+      "title": "Getting around",
+      "words": [
+       {
+        "id": "es-trv-l1-0",
+        "text": "el coche",
+        "en": "Car",
+        "accept": [
+         "the car"
+        ],
+        "emoji": "🚗",
+        "note": "Spain: coche. Latin America: carro or auto."
+       },
+       {
+        "id": "es-trv-l1-1",
+        "text": "el autobús",
+        "en": "Bus",
+        "accept": [
+         "the bus"
+        ],
+        "emoji": "🚌"
+       },
+       {
+        "id": "es-trv-l1-2",
+        "text": "el tren",
+        "en": "Train",
+        "accept": [
+         "the train"
+        ],
+        "emoji": "🚆"
+       },
+       {
+        "id": "es-trv-l1-3",
+        "text": "el avión",
+        "en": "Plane",
+        "accept": [
+         "aeroplane",
+         "airplane",
+         "the plane"
+        ],
+        "emoji": "✈️"
+       },
+       {
+        "id": "es-trv-l1-4",
+        "text": "la bici",
+        "en": "Bike",
+        "accept": [
+         "bicycle",
+         "the bike"
+        ],
+        "emoji": "🚲"
+       },
+       {
+        "id": "es-trv-l1-5",
+        "text": "a pie",
+        "en": "On foot",
+        "accept": [
+         "walking"
+        ],
+        "emoji": "🚶"
+       }
+      ]
+     },
+     {
+      "id": "es-trv-l2",
+      "title": "At the airport",
+      "words": [
+       {
+        "id": "es-trv-l2-0",
+        "text": "el aeropuerto",
+        "en": "Airport",
+        "accept": [
+         "the airport"
+        ],
+        "emoji": "🛫"
+       },
+       {
+        "id": "es-trv-l2-1",
+        "text": "el pasaporte",
+        "en": "Passport",
+        "accept": [
+         "the passport"
+        ],
+        "emoji": "🛂"
+       },
+       {
+        "id": "es-trv-l2-2",
+        "text": "la maleta",
+        "en": "Suitcase",
+        "accept": [
+         "the suitcase",
+         "luggage"
+        ],
+        "emoji": "🧳"
+       },
+       {
+        "id": "es-trv-l2-3",
+        "text": "el billete",
+        "en": "Ticket",
+        "accept": [
+         "the ticket"
+        ],
+        "emoji": "🎫"
+       },
+       {
+        "id": "es-trv-l2-4",
+        "text": "la puerta",
+        "en": "Gate",
+        "accept": [
+         "door",
+         "the gate"
+        ],
+        "emoji": "🚪"
+       },
+       {
+        "id": "es-trv-l2-5",
+        "text": "el vuelo",
+        "en": "Flight",
+        "accept": [
+         "the flight"
+        ],
+        "emoji": "🛬"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-weather",
+    "title": "Weather & Seasons",
+    "tagline": "Small talk that works anywhere — Spain mostly says hace sol!",
+    "lessons": [
+     {
+      "id": "es-wx-l1",
+      "title": "What's it like out?",
+      "words": [
+       {
+        "id": "es-wx-l1-0",
+        "text": "Hace calor",
+        "en": "It's hot",
+        "accept": [
+         "it is hot"
+        ],
+        "emoji": "🥵"
+       },
+       {
+        "id": "es-wx-l1-1",
+        "text": "Hace frío",
+        "en": "It's cold",
+        "accept": [
+         "it is cold"
+        ],
+        "emoji": "🥶"
+       },
+       {
+        "id": "es-wx-l1-2",
+        "text": "Hace sol",
+        "en": "It's sunny",
+        "accept": [
+         "it is sunny"
+        ],
+        "emoji": "☀️"
+       },
+       {
+        "id": "es-wx-l1-3",
+        "text": "Llueve",
+        "en": "It's raining",
+        "accept": [
+         "it is raining",
+         "it rains"
+        ],
+        "emoji": "🌧️"
+       },
+       {
+        "id": "es-wx-l1-4",
+        "text": "Hace viento",
+        "en": "It's windy",
+        "accept": [
+         "it is windy"
+        ],
+        "emoji": "💨"
+       },
+       {
+        "id": "es-wx-l1-5",
+        "text": "Está nublado",
+        "en": "It's cloudy",
+        "accept": [
+         "it is cloudy"
+        ],
+        "emoji": "☁️"
+       }
+      ]
+     },
+     {
+      "id": "es-wx-l2",
+      "title": "Seasons",
+      "words": [
+       {
+        "id": "es-wx-l2-0",
+        "text": "la primavera",
+        "en": "Spring",
+        "emoji": "🌸"
+       },
+       {
+        "id": "es-wx-l2-1",
+        "text": "el verano",
+        "en": "Summer",
+        "emoji": "🌞"
+       },
+       {
+        "id": "es-wx-l2-2",
+        "text": "el otoño",
+        "en": "Autumn",
+        "accept": [
+         "fall"
+        ],
+        "emoji": "🍂"
+       },
+       {
+        "id": "es-wx-l2-3",
+        "text": "el invierno",
+        "en": "Winter",
+        "emoji": "❄️"
+       },
+       {
+        "id": "es-wx-l2-4",
+        "text": "el tiempo",
+        "en": "The weather",
+        "accept": [
+         "weather"
+        ],
+        "emoji": "🌦️",
+        "note": "Tiempo also means 'time'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-feelings",
+    "title": "Feelings & Health",
+    "tagline": "Saying how you actually feel.",
+    "lessons": [
+     {
+      "id": "es-feel-l1",
+      "title": "Feelings",
+      "words": [
+       {
+        "id": "es-feel-l1-0",
+        "text": "contento",
+        "en": "Happy",
+        "accept": [
+         "glad",
+         "pleased"
+        ],
+        "emoji": "😊",
+        "note": "A girl says contenta."
+       },
+       {
+        "id": "es-feel-l1-1",
+        "text": "triste",
+        "en": "Sad",
+        "emoji": "😢"
+       },
+       {
+        "id": "es-feel-l1-2",
+        "text": "cansado",
+        "en": "Tired",
+        "emoji": "😴",
+        "note": "A girl says cansada."
+       },
+       {
+        "id": "es-feel-l1-3",
+        "text": "enfadado",
+        "en": "Angry",
+        "accept": [
+         "cross",
+         "annoyed"
+        ],
+        "emoji": "😠"
+       },
+       {
+        "id": "es-feel-l1-4",
+        "text": "nervioso",
+        "en": "Nervous",
+        "emoji": "😬"
+       },
+       {
+        "id": "es-feel-l1-5",
+        "text": "aburrido",
+        "en": "Bored",
+        "accept": [
+         "boring"
+        ],
+        "emoji": "🥱"
+       }
+      ]
+     },
+     {
+      "id": "es-feel-l2",
+      "title": "Feeling unwell",
+      "words": [
+       {
+        "id": "es-feel-l2-0",
+        "text": "Me duele la cabeza",
+        "en": "I have a headache",
+        "accept": [
+         "my head hurts"
+        ],
+        "emoji": "🤕"
+       },
+       {
+        "id": "es-feel-l2-1",
+        "text": "Me duele la barriga",
+        "en": "I have a tummy ache",
+        "accept": [
+         "my tummy hurts",
+         "stomach ache",
+         "my stomach hurts"
+        ],
+        "emoji": "🤢"
+       },
+       {
+        "id": "es-feel-l2-2",
+        "text": "Estoy enfermo",
+        "en": "I'm ill",
+        "accept": [
+         "i am ill",
+         "i'm sick",
+         "i am sick"
+        ],
+        "emoji": "🤒"
+       },
+       {
+        "id": "es-feel-l2-3",
+        "text": "el médico",
+        "en": "Doctor",
+        "accept": [
+         "the doctor"
+        ],
+        "emoji": "🩺"
+       },
+       {
+        "id": "es-feel-l2-4",
+        "text": "la farmacia",
+        "en": "Pharmacy",
+        "accept": [
+         "chemist",
+         "the chemist"
+        ],
+        "emoji": "💊"
+       },
+       {
+        "id": "es-feel-l2-5",
+        "text": "Tengo fiebre",
+        "en": "I have a temperature",
+        "accept": [
+         "i have a fever"
+        ],
+        "emoji": "🌡️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-sentences",
+    "title": "Putting It Together",
+    "tagline": "Whole sentences, built from everything so far.",
+    "lessons": [
+     {
+      "id": "es-sen-l1",
+      "title": "Talking about yourself",
+      "words": [
+       {
+        "id": "es-sen-l1-0",
+        "text": "Me llamo Ana",
+        "en": "My name is Ana",
+        "accept": [
+         "i'm called ana",
+         "i am called ana"
+        ],
+        "emoji": "🙋"
+       },
+       {
+        "id": "es-sen-l1-1",
+        "text": "Tengo diez años",
+        "en": "I'm ten years old",
+        "accept": [
+         "i am ten",
+         "i'm ten",
+         "i am ten years old"
+        ],
+        "emoji": "🎂",
+        "note": "In Spanish you 'have' years: tengo = I have."
+       },
+       {
+        "id": "es-sen-l1-2",
+        "text": "Soy de Inglaterra",
+        "en": "I'm from England",
+        "accept": [
+         "i am from england"
+        ],
+        "emoji": "🌍"
+       },
+       {
+        "id": "es-sen-l1-3",
+        "text": "Vivo en Londres",
+        "en": "I live in London",
+        "emoji": "🏙️"
+       },
+       {
+        "id": "es-sen-l1-4",
+        "text": "Hablo un poco de español",
+        "en": "I speak a little Spanish",
+        "accept": [
+         "i speak a bit of spanish"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "id": "es-sen-l1-5",
+        "text": "Me gusta el chocolate",
+        "en": "I like chocolate",
+        "emoji": "🍫"
+       }
+      ]
+     },
+     {
+      "id": "es-sen-l2",
+      "title": "A day in words",
+      "words": [
+       {
+        "id": "es-sen-l2-0",
+        "text": "Me levanto",
+        "en": "I get up",
+        "emoji": "⏰"
+       },
+       {
+        "id": "es-sen-l2-1",
+        "text": "Desayuno",
+        "en": "I have breakfast",
+        "accept": [
+         "i eat breakfast"
+        ],
+        "emoji": "🥣"
+       },
+       {
+        "id": "es-sen-l2-2",
+        "text": "Voy al colegio",
+        "en": "I go to school",
+        "emoji": "🎒"
+       },
+       {
+        "id": "es-sen-l2-3",
+        "text": "Como con mi familia",
+        "en": "I eat with my family",
+        "accept": [
+         "i have lunch with my family"
+        ],
+        "emoji": "🍽️"
+       },
+       {
+        "id": "es-sen-l2-4",
+        "text": "Juego en el parque",
+        "en": "I play in the park",
+        "emoji": "⚽"
+       },
+       {
+        "id": "es-sen-l2-5",
+        "text": "Me acuesto",
+        "en": "I go to bed",
+        "emoji": "🛏️"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Elementary",
+  "units": [
+   {
+    "id": "es-gender",
+    "title": "El & La",
+    "tagline": "Every Spanish noun is a 'he' or a 'she' word — learn the little word in front.",
+    "lessons": [
+     {
+      "id": "es-gen-l1",
+      "title": "The: el or la?",
+      "words": [
+       {
+        "id": "es-gen-l1-0",
+        "text": "el perro",
+        "en": "The dog",
+        "accept": [
+         "dog"
+        ],
+        "emoji": "🐶"
+       },
+       {
+        "id": "es-gen-l1-1",
+        "text": "el gato",
+        "en": "The cat",
+        "accept": [
+         "cat"
+        ],
+        "emoji": "🐱"
+       },
+       {
+        "id": "es-gen-l1-2",
+        "text": "la mesa",
+        "en": "The table",
+        "accept": [
+         "table"
+        ],
+        "emoji": "🍽️"
+       },
+       {
+        "id": "es-gen-l1-3",
+        "text": "el libro",
+        "en": "The book",
+        "accept": [
+         "book"
+        ],
+        "emoji": "📖"
+       },
+       {
+        "id": "es-gen-l1-4",
+        "text": "la ventana",
+        "en": "The window",
+        "accept": [
+         "window"
+        ],
+        "emoji": "🪟"
+       }
+      ]
+     },
+     {
+      "id": "es-gen-l2",
+      "title": "A or an: un or una?",
+      "words": [
+       {
+        "id": "es-gen-l2-0",
+        "text": "un plátano",
+        "en": "A banana",
+        "accept": [
+         "banana"
+        ],
+        "emoji": "🍌"
+       },
+       {
+        "id": "es-gen-l2-1",
+        "text": "una naranja",
+        "en": "An orange",
+        "accept": [
+         "orange"
+        ],
+        "emoji": "🍊"
+       },
+       {
+        "id": "es-gen-l2-2",
+        "text": "un lápiz",
+        "en": "A pencil",
+        "accept": [
+         "pencil"
+        ],
+        "emoji": "✏️"
+       },
+       {
+        "id": "es-gen-l2-3",
+        "text": "una silla",
+        "en": "A chair",
+        "accept": [
+         "chair"
+        ],
+        "emoji": "🪑"
+       },
+       {
+        "id": "es-gen-l2-4",
+        "text": "unos zapatos",
+        "en": "Some shoes",
+        "accept": [
+         "shoes"
+        ],
+        "emoji": "👟"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-routine",
+    "title": "Daily Routine",
+    "tagline": "The verbs and time words behind an ordinary day.",
+    "lessons": [
+     {
+      "id": "es-rtn-l1",
+      "title": "Morning to night",
+      "words": [
+       {
+        "id": "es-rtn-l1-0",
+        "text": "Me ducho",
+        "en": "I have a shower",
+        "accept": [
+         "i shower",
+         "i take a shower"
+        ],
+        "emoji": "🚿"
+       },
+       {
+        "id": "es-rtn-l1-1",
+        "text": "Me lavo los dientes",
+        "en": "I brush my teeth",
+        "emoji": "🪥"
+       },
+       {
+        "id": "es-rtn-l1-2",
+        "text": "Me visto",
+        "en": "I get dressed",
+        "emoji": "👕"
+       },
+       {
+        "id": "es-rtn-l1-3",
+        "text": "Como",
+        "en": "I eat",
+        "emoji": "🍴"
+       },
+       {
+        "id": "es-rtn-l1-4",
+        "text": "Trabajo",
+        "en": "I work",
+        "emoji": "💼"
+       },
+       {
+        "id": "es-rtn-l1-5",
+        "text": "Duermo",
+        "en": "I sleep",
+        "emoji": "😴"
+       }
+      ]
+     },
+     {
+      "id": "es-rtn-l2",
+      "title": "What time is it?",
+      "words": [
+       {
+        "id": "es-rtn-l2-0",
+        "text": "¿Qué hora es?",
+        "en": "What time is it?",
+        "accept": [
+         "what's the time"
+        ],
+        "emoji": "⏰"
+       },
+       {
+        "id": "es-rtn-l2-1",
+        "text": "Es la una",
+        "en": "It's one o'clock",
+        "accept": [
+         "it is one o'clock",
+         "it's one"
+        ],
+        "emoji": "🕐"
+       },
+       {
+        "id": "es-rtn-l2-2",
+        "text": "Son las dos",
+        "en": "It's two o'clock",
+        "accept": [
+         "it is two o'clock",
+         "it's two"
+        ],
+        "emoji": "🕑"
+       },
+       {
+        "id": "es-rtn-l2-3",
+        "text": "y media",
+        "en": "Half past",
+        "accept": [
+         "and a half"
+        ],
+        "emoji": "🕧"
+       },
+       {
+        "id": "es-rtn-l2-4",
+        "text": "por la mañana",
+        "en": "In the morning",
+        "emoji": "🌄"
+       },
+       {
+        "id": "es-rtn-l2-5",
+        "text": "por la noche",
+        "en": "At night",
+        "accept": [
+         "in the evening"
+        ],
+        "emoji": "🌙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-serestar",
+    "title": "Ser & Estar",
+    "tagline": "Two verbs for 'to be': ser for what you are, estar for how or where you are.",
+    "lessons": [
+     {
+      "id": "es-se-l1",
+      "title": "Ser: who and what",
+      "words": [
+       {
+        "id": "es-se-l1-0",
+        "text": "Soy alto",
+        "en": "I'm tall",
+        "accept": [
+         "i am tall"
+        ],
+        "emoji": "📏"
+       },
+       {
+        "id": "es-se-l1-1",
+        "text": "Soy inglés",
+        "en": "I'm English",
+        "accept": [
+         "i am english"
+        ],
+        "emoji": "🇬🇧"
+       },
+       {
+        "id": "es-se-l1-2",
+        "text": "Es mi hermana",
+        "en": "She's my sister",
+        "accept": [
+         "she is my sister",
+         "this is my sister"
+        ],
+        "emoji": "👧"
+       },
+       {
+        "id": "es-se-l1-3",
+        "text": "Es muy simpático",
+        "en": "He's very nice",
+        "accept": [
+         "he is very nice",
+         "he's very friendly"
+        ],
+        "emoji": "😊"
+       },
+       {
+        "id": "es-se-l1-4",
+        "text": "Somos una familia",
+        "en": "We are a family",
+        "accept": [
+         "we're a family"
+        ],
+        "emoji": "👨‍👩‍👧"
+       }
+      ]
+     },
+     {
+      "id": "es-se-l2",
+      "title": "Estar: how and where",
+      "words": [
+       {
+        "id": "es-se-l2-0",
+        "text": "Estoy bien",
+        "en": "I'm fine",
+        "accept": [
+         "i am fine",
+         "i'm well",
+         "i am well"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "es-se-l2-1",
+        "text": "Estoy en casa",
+        "en": "I'm at home",
+        "accept": [
+         "i am at home"
+        ],
+        "emoji": "🏡"
+       },
+       {
+        "id": "es-se-l2-2",
+        "text": "¿Dónde estás?",
+        "en": "Where are you?",
+        "emoji": "🗺️"
+       },
+       {
+        "id": "es-se-l2-3",
+        "text": "Está aquí",
+        "en": "It's here",
+        "accept": [
+         "he's here",
+         "she's here",
+         "it is here"
+        ],
+        "emoji": "📍"
+       },
+       {
+        "id": "es-se-l2-4",
+        "text": "La sopa está fría",
+        "en": "The soup is cold",
+        "emoji": "🥣"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-compare",
+    "title": "Comparisons",
+    "tagline": "More than, less than, and the best.",
+    "lessons": [
+     {
+      "id": "es-cmp-l1",
+      "title": "More, less, most",
+      "words": [
+       {
+        "id": "es-cmp-l1-0",
+        "text": "más grande",
+        "en": "Bigger",
+        "accept": [
+         "larger"
+        ],
+        "emoji": "🐘"
+       },
+       {
+        "id": "es-cmp-l1-1",
+        "text": "más pequeño",
+        "en": "Smaller",
+        "emoji": "🐭"
+       },
+       {
+        "id": "es-cmp-l1-2",
+        "text": "mejor",
+        "en": "Better",
+        "accept": [
+         "best"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "es-cmp-l1-3",
+        "text": "peor",
+        "en": "Worse",
+        "accept": [
+         "worst"
+        ],
+        "emoji": "👎"
+       },
+       {
+        "id": "es-cmp-l1-4",
+        "text": "el más rápido",
+        "en": "The fastest",
+        "accept": [
+         "fastest"
+        ],
+        "emoji": "🏃"
+       },
+       {
+        "id": "es-cmp-l1-5",
+        "text": "tan alto como",
+        "en": "As tall as",
+        "emoji": "📐"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-restaurant",
+    "title": "At the Restaurant",
+    "tagline": "Order tapas, ask for the menu and pay the bill.",
+    "lessons": [
+     {
+      "id": "es-res-l1",
+      "title": "Ordering food",
+      "words": [
+       {
+        "id": "es-res-l1-0",
+        "text": "la carta",
+        "en": "The menu",
+        "accept": [
+         "menu"
+        ],
+        "emoji": "📜"
+       },
+       {
+        "id": "es-res-l1-1",
+        "text": "Para mí, una tortilla",
+        "en": "A Spanish omelette for me",
+        "accept": [
+         "i'll have a spanish omelette",
+         "for me a spanish omelette"
+        ],
+        "emoji": "🍳"
+       },
+       {
+        "id": "es-res-l1-2",
+        "text": "¿Qué quieres beber?",
+        "en": "What would you like to drink?",
+        "accept": [
+         "what do you want to drink"
+        ],
+        "emoji": "🥤"
+       },
+       {
+        "id": "es-res-l1-3",
+        "text": "sin cebolla",
+        "en": "Without onion",
+        "accept": [
+         "no onion"
+        ],
+        "emoji": "🧅"
+       },
+       {
+        "id": "es-res-l1-4",
+        "text": "¡Está buenísimo!",
+        "en": "It's delicious!",
+        "accept": [
+         "it is delicious",
+         "it's really good"
+        ],
+        "emoji": "😋"
+       },
+       {
+        "id": "es-res-l1-5",
+        "text": "La cuenta, por favor",
+        "en": "The bill, please",
+        "accept": [
+         "the check please",
+         "bill please"
+        ],
+        "emoji": "🧾"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-plans",
+    "title": "Making Plans",
+    "tagline": "Arranging to meet up — the most useful conversation of all.",
+    "lessons": [
+     {
+      "id": "es-pln-l1",
+      "title": "Are you free?",
+      "words": [
+       {
+        "id": "es-pln-l1-0",
+        "text": "¿Estás libre el sábado?",
+        "en": "Are you free on Saturday?",
+        "accept": [
+         "are you free saturday"
+        ],
+        "emoji": "📅"
+       },
+       {
+        "id": "es-pln-l1-1",
+        "text": "¿Quedamos?",
+        "en": "Shall we meet up?",
+        "accept": [
+         "shall we meet",
+         "do you want to meet"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "es-pln-l1-2",
+        "text": "¿A qué hora?",
+        "en": "What time?",
+        "accept": [
+         "at what time"
+        ],
+        "emoji": "⏰"
+       },
+       {
+        "id": "es-pln-l1-3",
+        "text": "Vale",
+        "en": "OK",
+        "accept": [
+         "okay",
+         "alright",
+         "all right"
+        ],
+        "emoji": "👌",
+        "note": "You'll hear vale all day long in Spain."
+       },
+       {
+        "id": "es-pln-l1-4",
+        "text": "Lo siento, no puedo",
+        "en": "Sorry, I can't",
+        "accept": [
+         "sorry i cannot"
+        ],
+        "emoji": "🙅"
+       },
+       {
+        "id": "es-pln-l1-5",
+        "text": "¡Nos vemos!",
+        "en": "See you!",
+        "accept": [
+         "see you then",
+         "see you soon"
+        ],
+        "emoji": "👋"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "units": [
+   {
+    "id": "es-connectors",
+    "title": "Connectors",
+    "tagline": "And, but, because, if — the words that join ideas together.",
+    "lessons": [
+     {
+      "id": "es-con-l1",
+      "title": "Joining ideas",
+      "words": [
+       {
+        "id": "es-con-l1-0",
+        "text": "y",
+        "en": "And",
+        "emoji": "➕"
+       },
+       {
+        "id": "es-con-l1-1",
+        "text": "pero",
+        "en": "But",
+        "emoji": "↔️"
+       },
+       {
+        "id": "es-con-l1-2",
+        "text": "porque",
+        "en": "Because",
+        "emoji": "💡"
+       },
+       {
+        "id": "es-con-l1-3",
+        "text": "si",
+        "en": "If",
+        "emoji": "❔",
+        "note": "No accent: si = if. With an accent: sí = yes."
+       },
+       {
+        "id": "es-con-l1-4",
+        "text": "o",
+        "en": "Or",
+        "emoji": "🔀"
+       },
+       {
+        "id": "es-con-l1-5",
+        "text": "también",
+        "en": "Also",
+        "accept": [
+         "too",
+         "as well"
+        ],
+        "emoji": "➕"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-directions2",
+    "title": "Giving Directions",
+    "tagline": "Full sentences for getting someone from A to B.",
+    "lessons": [
+     {
+      "id": "es-dir2-l1",
+      "title": "Turn here",
+      "words": [
+       {
+        "id": "es-dir2-l1-0",
+        "text": "Gira a la izquierda",
+        "en": "Turn left",
+        "accept": [
+         "turn to the left"
+        ],
+        "emoji": "⬅️"
+       },
+       {
+        "id": "es-dir2-l1-1",
+        "text": "Sigue todo recto",
+        "en": "Go straight on",
+        "accept": [
+         "keep going straight",
+         "go straight ahead"
+        ],
+        "emoji": "⬆️"
+       },
+       {
+        "id": "es-dir2-l1-2",
+        "text": "Cruza la calle",
+        "en": "Cross the street",
+        "accept": [
+         "cross the road"
+        ],
+        "emoji": "🚸"
+       },
+       {
+        "id": "es-dir2-l1-3",
+        "text": "Está al lado del banco",
+        "en": "It's next to the bank",
+        "accept": [
+         "it is next to the bank"
+        ],
+        "emoji": "🏦"
+       },
+       {
+        "id": "es-dir2-l1-4",
+        "text": "la segunda calle",
+        "en": "The second street",
+        "accept": [
+         "the second road",
+         "second street"
+        ],
+        "emoji": "2️⃣"
+       },
+       {
+        "id": "es-dir2-l1-5",
+        "text": "Está a cinco minutos",
+        "en": "It's five minutes away",
+        "accept": [
+         "it is five minutes away"
+        ],
+        "emoji": "⏱️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-people-desc",
+    "title": "Describing People",
+    "tagline": "Height, hair and character — words change for boys and girls.",
+    "lessons": [
+     {
+      "id": "es-pd-l1",
+      "title": "Appearance",
+      "words": [
+       {
+        "id": "es-pd-l1-0",
+        "text": "alto",
+        "en": "Tall",
+        "emoji": "🦒"
+       },
+       {
+        "id": "es-pd-l1-1",
+        "text": "bajo",
+        "en": "Short",
+        "emoji": "🐁"
+       },
+       {
+        "id": "es-pd-l1-2",
+        "text": "delgado",
+        "en": "Thin",
+        "accept": [
+         "slim"
+        ],
+        "emoji": "🧍"
+       },
+       {
+        "id": "es-pd-l1-3",
+        "text": "el pelo rubio",
+        "en": "Blond hair",
+        "accept": [
+         "fair hair",
+         "blonde hair"
+        ],
+        "emoji": "👱"
+       },
+       {
+        "id": "es-pd-l1-4",
+        "text": "los ojos azules",
+        "en": "Blue eyes",
+        "emoji": "👀"
+       },
+       {
+        "id": "es-pd-l1-5",
+        "text": "la barba",
+        "en": "Beard",
+        "accept": [
+         "a beard"
+        ],
+        "emoji": "🧔"
+       }
+      ]
+     },
+     {
+      "id": "es-pd-l2",
+      "title": "Character",
+      "words": [
+       {
+        "id": "es-pd-l2-0",
+        "text": "simpático",
+        "en": "Nice",
+        "accept": [
+         "friendly",
+         "kind"
+        ],
+        "emoji": "😊"
+       },
+       {
+        "id": "es-pd-l2-1",
+        "text": "tímido",
+        "en": "Shy",
+        "emoji": "🙈"
+       },
+       {
+        "id": "es-pd-l2-2",
+        "text": "divertido",
+        "en": "Fun",
+        "accept": [
+         "funny"
+        ],
+        "emoji": "😂"
+       },
+       {
+        "id": "es-pd-l2-3",
+        "text": "trabajador",
+        "en": "Hard-working",
+        "accept": [
+         "hardworking",
+         "hard working"
+        ],
+        "emoji": "💪"
+       },
+       {
+        "id": "es-pd-l2-4",
+        "text": "perezoso",
+        "en": "Lazy",
+        "emoji": "🦥"
+       },
+       {
+        "id": "es-pd-l2-5",
+        "text": "generoso",
+        "en": "Generous",
+        "emoji": "🎁"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-work",
+    "title": "Work & Occupations",
+    "tagline": "What do you do? — jobs and talking about work.",
+    "lessons": [
+     {
+      "id": "es-work-l1",
+      "title": "Occupations",
+      "words": [
+       {
+        "id": "es-work-l1-0",
+        "text": "el profesor",
+        "en": "Teacher",
+        "accept": [
+         "the teacher"
+        ],
+        "emoji": "👨‍🏫"
+       },
+       {
+        "id": "es-work-l1-1",
+        "text": "la enfermera",
+        "en": "Nurse",
+        "accept": [
+         "the nurse"
+        ],
+        "emoji": "👩‍⚕️"
+       },
+       {
+        "id": "es-work-l1-2",
+        "text": "el policía",
+        "en": "Police officer",
+        "accept": [
+         "policeman",
+         "the police officer"
+        ],
+        "emoji": "👮"
+       },
+       {
+        "id": "es-work-l1-3",
+        "text": "el cocinero",
+        "en": "Chef",
+        "accept": [
+         "cook",
+         "the chef"
+        ],
+        "emoji": "👨‍🍳"
+       },
+       {
+        "id": "es-work-l1-4",
+        "text": "el bombero",
+        "en": "Firefighter",
+        "accept": [
+         "fireman",
+         "the firefighter"
+        ],
+        "emoji": "👨‍🚒"
+       },
+       {
+        "id": "es-work-l1-5",
+        "text": "el granjero",
+        "en": "Farmer",
+        "accept": [
+         "the farmer"
+        ],
+        "emoji": "👨‍🌾"
+       }
+      ]
+     },
+     {
+      "id": "es-work-l2",
+      "title": "The world of work",
+      "words": [
+       {
+        "id": "es-work-l2-0",
+        "text": "¿En qué trabajas?",
+        "en": "What do you do?",
+        "accept": [
+         "what is your job",
+         "what's your job"
+        ],
+        "emoji": "💼"
+       },
+       {
+        "id": "es-work-l2-1",
+        "text": "la oficina",
+        "en": "Office",
+        "accept": [
+         "the office"
+        ],
+        "emoji": "🏢"
+       },
+       {
+        "id": "es-work-l2-2",
+        "text": "el jefe",
+        "en": "Boss",
+        "accept": [
+         "the boss"
+        ],
+        "emoji": "👔"
+       },
+       {
+        "id": "es-work-l2-3",
+        "text": "la reunión",
+        "en": "Meeting",
+        "accept": [
+         "the meeting"
+        ],
+        "emoji": "🗓️"
+       },
+       {
+        "id": "es-work-l2-4",
+        "text": "el sueldo",
+        "en": "Salary",
+        "accept": [
+         "wages",
+         "pay"
+        ],
+        "emoji": "💶"
+       },
+       {
+        "id": "es-work-l2-5",
+        "text": "las vacaciones",
+        "en": "Holidays",
+        "accept": [
+         "holiday",
+         "vacation"
+        ],
+        "emoji": "🏝️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-dialogues",
+    "title": "Short Conversations",
+    "tagline": "Real back-and-forth exchanges, not just single words.",
+    "lessons": [
+     {
+      "id": "es-dlg-l1",
+      "title": "At a café",
+      "words": [
+       {
+        "id": "es-dlg-l1-0",
+        "text": "¿Qué te pongo?",
+        "en": "What can I get you?",
+        "accept": [
+         "what would you like"
+        ],
+        "emoji": "☕"
+       },
+       {
+        "id": "es-dlg-l1-1",
+        "text": "Un café con leche, por favor",
+        "en": "A white coffee, please",
+        "accept": [
+         "a coffee with milk please"
+        ],
+        "emoji": "🥛"
+       },
+       {
+        "id": "es-dlg-l1-2",
+        "text": "¿Algo más?",
+        "en": "Anything else?",
+        "emoji": "➕"
+       },
+       {
+        "id": "es-dlg-l1-3",
+        "text": "Nada más, gracias",
+        "en": "Nothing else, thanks",
+        "accept": [
+         "that's all thanks",
+         "nothing more thank you"
+        ],
+        "emoji": "🙏"
+       }
+      ]
+     },
+     {
+      "id": "es-dlg-l2",
+      "title": "Asking for help",
+      "words": [
+       {
+        "id": "es-dlg-l2-0",
+        "text": "¿Me puedes ayudar?",
+        "en": "Can you help me?",
+        "accept": [
+         "could you help me"
+        ],
+        "emoji": "🆘"
+       },
+       {
+        "id": "es-dlg-l2-1",
+        "text": "Claro",
+        "en": "Of course",
+        "accept": [
+         "sure",
+         "certainly"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "es-dlg-l2-2",
+        "text": "Estoy perdido",
+        "en": "I'm lost",
+        "accept": [
+         "i am lost"
+        ],
+        "emoji": "🗺️"
+       },
+       {
+        "id": "es-dlg-l2-3",
+        "text": "¿Hablas inglés?",
+        "en": "Do you speak English?",
+        "emoji": "🇬🇧"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-emergency",
+    "title": "Health & Emergencies",
+    "tagline": "The phrases you hope you'll never need — but should know anyway.",
+    "lessons": [
+     {
+      "id": "es-emg-l1",
+      "title": "Getting help fast",
+      "words": [
+       {
+        "id": "es-emg-l1-0",
+        "text": "¡Socorro!",
+        "en": "Help!",
+        "emoji": "🆘"
+       },
+       {
+        "id": "es-emg-l1-1",
+        "text": "Llama a una ambulancia",
+        "en": "Call an ambulance",
+        "emoji": "🚑"
+       },
+       {
+        "id": "es-emg-l1-2",
+        "text": "Es una emergencia",
+        "en": "It's an emergency",
+        "accept": [
+         "it is an emergency"
+        ],
+        "emoji": "🚨"
+       },
+       {
+        "id": "es-emg-l1-3",
+        "text": "He perdido mi pasaporte",
+        "en": "I've lost my passport",
+        "accept": [
+         "i have lost my passport",
+         "i lost my passport"
+        ],
+        "emoji": "🛂"
+       },
+       {
+        "id": "es-emg-l1-4",
+        "text": "Soy alérgico a los frutos secos",
+        "en": "I'm allergic to nuts",
+        "accept": [
+         "i am allergic to nuts"
+        ],
+        "emoji": "🥜"
+       },
+       {
+        "id": "es-emg-l1-5",
+        "text": "¿Dónde está el hospital?",
+        "en": "Where is the hospital?",
+        "accept": [
+         "where's the hospital"
+        ],
+        "emoji": "🏥"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Upper-Intermediate",
+  "units": [
+   {
+    "id": "es-opinions",
+    "title": "Opinions & Agreement",
+    "tagline": "Saying what you think, and whether you agree.",
+    "lessons": [
+     {
+      "id": "es-opn-l1",
+      "title": "What do you think?",
+      "words": [
+       {
+        "id": "es-opn-l1-0",
+        "text": "Creo que sí",
+        "en": "I think so",
+        "emoji": "👍"
+       },
+       {
+        "id": "es-opn-l1-1",
+        "text": "Creo que no",
+        "en": "I don't think so",
+        "accept": [
+         "i do not think so"
+        ],
+        "emoji": "👎"
+       },
+       {
+        "id": "es-opn-l1-2",
+        "text": "Estoy de acuerdo",
+        "en": "I agree",
+        "emoji": "🤝"
+       },
+       {
+        "id": "es-opn-l1-3",
+        "text": "No estoy de acuerdo",
+        "en": "I disagree",
+        "accept": [
+         "i don't agree",
+         "i do not agree"
+        ],
+        "emoji": "🙅"
+       },
+       {
+        "id": "es-opn-l1-4",
+        "text": "En mi opinión",
+        "en": "In my opinion",
+        "emoji": "💭"
+       },
+       {
+        "id": "es-opn-l1-5",
+        "text": "Depende",
+        "en": "It depends",
+        "accept": [
+         "that depends"
+        ],
+        "emoji": "⚖️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-past",
+    "title": "Talking About the Past",
+    "tagline": "The past tense for things that happened and finished: fui, comí, hablé.",
+    "lessons": [
+     {
+      "id": "es-pst-l1",
+      "title": "What did you do?",
+      "words": [
+       {
+        "id": "es-pst-l1-0",
+        "text": "Ayer fui a la playa",
+        "en": "Yesterday I went to the beach",
+        "accept": [
+         "i went to the beach yesterday"
+        ],
+        "emoji": "🏖️"
+       },
+       {
+        "id": "es-pst-l1-1",
+        "text": "Comí paella",
+        "en": "I ate paella",
+        "accept": [
+         "i had paella"
+        ],
+        "emoji": "🥘"
+       },
+       {
+        "id": "es-pst-l1-2",
+        "text": "Hablé con mi abuela",
+        "en": "I talked to my grandma",
+        "accept": [
+         "i spoke to my grandmother",
+         "i talked to my grandmother"
+        ],
+        "emoji": "📞"
+       },
+       {
+        "id": "es-pst-l1-3",
+        "text": "Vimos una película",
+        "en": "We watched a film",
+        "accept": [
+         "we saw a film",
+         "we watched a movie"
+        ],
+        "emoji": "🎬"
+       },
+       {
+        "id": "es-pst-l1-4",
+        "text": "¿Qué hiciste?",
+        "en": "What did you do?",
+        "emoji": "❓"
+       },
+       {
+        "id": "es-pst-l1-5",
+        "text": "Fue muy divertido",
+        "en": "It was really fun",
+        "accept": [
+         "it was a lot of fun",
+         "it was very fun"
+        ],
+        "emoji": "🎉"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-storytelling",
+    "title": "Telling a Story",
+    "tagline": "The linking words that turn events into a story.",
+    "lessons": [
+     {
+      "id": "es-str-l1",
+      "title": "Once upon a time",
+      "words": [
+       {
+        "id": "es-str-l1-0",
+        "text": "Había una vez",
+        "en": "Once upon a time",
+        "emoji": "📖"
+       },
+       {
+        "id": "es-str-l1-1",
+        "text": "Primero",
+        "en": "First",
+        "accept": [
+         "first of all",
+         "firstly"
+        ],
+        "emoji": "1️⃣"
+       },
+       {
+        "id": "es-str-l1-2",
+        "text": "Luego",
+        "en": "Then",
+        "accept": [
+         "next",
+         "later"
+        ],
+        "emoji": "➡️"
+       },
+       {
+        "id": "es-str-l1-3",
+        "text": "De repente",
+        "en": "Suddenly",
+        "accept": [
+         "all of a sudden"
+        ],
+        "emoji": "⚡"
+       },
+       {
+        "id": "es-str-l1-4",
+        "text": "Al final",
+        "en": "In the end",
+        "accept": [
+         "finally",
+         "at the end"
+        ],
+        "emoji": "🏁"
+       },
+       {
+        "id": "es-str-l1-5",
+        "text": "Y vivieron felices",
+        "en": "And they lived happily ever after",
+        "accept": [
+         "they lived happily ever after"
+        ],
+        "emoji": "🏰"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-register",
+    "title": "Tú & Usted",
+    "tagline": "Friendly tú for family and friends, polite usted for strangers and older people.",
+    "lessons": [
+     {
+      "id": "es-reg-l1",
+      "title": "Polite or friendly?",
+      "words": [
+       {
+        "id": "es-reg-l1-0",
+        "text": "señor",
+        "en": "Mr",
+        "accept": [
+         "sir",
+         "mister"
+        ],
+        "emoji": "🎩"
+       },
+       {
+        "id": "es-reg-l1-1",
+        "text": "señora",
+        "en": "Mrs",
+        "accept": [
+         "madam",
+         "ma'am"
+        ],
+        "emoji": "👒"
+       },
+       {
+        "id": "es-reg-l1-2",
+        "text": "usted",
+        "en": "You (polite)",
+        "accept": [
+         "you formal",
+         "you"
+        ],
+        "emoji": "🤵"
+       },
+       {
+        "id": "es-reg-l1-3",
+        "text": "tú",
+        "en": "You (friendly)",
+        "accept": [
+         "you informal",
+         "you"
+        ],
+        "emoji": "🙂"
+       },
+       {
+        "id": "es-reg-l1-4",
+        "text": "¿Cómo está usted?",
+        "en": "How are you? (polite)",
+        "accept": [
+         "how are you formal"
+        ],
+        "emoji": "🎩"
+       },
+       {
+        "id": "es-reg-l1-5",
+        "text": "Encantado de conocerle",
+        "en": "Pleased to meet you",
+        "accept": [
+         "nice to meet you"
+        ],
+        "emoji": "🤝"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-phone",
+    "title": "Phone Conversations",
+    "tagline": "Talking on the phone has its own set phrases.",
+    "lessons": [
+     {
+      "id": "es-phn-l1",
+      "title": "On the line",
+      "words": [
+       {
+        "id": "es-phn-l1-0",
+        "text": "¿Diga?",
+        "en": "Hello? (on the phone)",
+        "accept": [
+         "hello on the phone"
+        ],
+        "emoji": "📞",
+        "note": "Spaniards answer the phone with ¿Diga? or ¿Sí?"
+       },
+       {
+        "id": "es-phn-l1-1",
+        "text": "¿De parte de quién?",
+        "en": "Who's calling?",
+        "accept": [
+         "who is calling",
+         "who's speaking"
+        ],
+        "emoji": "☎️"
+       },
+       {
+        "id": "es-phn-l1-2",
+        "text": "Un momento, por favor",
+        "en": "One moment, please",
+        "accept": [
+         "just a moment please",
+         "hold on please"
+        ],
+        "emoji": "⏳"
+       },
+       {
+        "id": "es-phn-l1-3",
+        "text": "Te llamo luego",
+        "en": "I'll call you later",
+        "accept": [
+         "i will call you later"
+        ],
+        "emoji": "📱"
+       },
+       {
+        "id": "es-phn-l1-4",
+        "text": "Se ha cortado",
+        "en": "We got cut off",
+        "accept": [
+         "the line went dead",
+         "it cut off"
+        ],
+        "emoji": "📵"
+       },
+       {
+        "id": "es-phn-l1-5",
+        "text": "¿Me oyes?",
+        "en": "Can you hear me?",
+        "emoji": "👂"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-idioms",
+    "title": "Idioms & Expressions",
+    "tagline": "Phrases that don't translate word for word, but every Spaniard knows.",
+    "lessons": [
+     {
+      "id": "es-idm-l1",
+      "title": "How Spanish really talks",
+      "words": [
+       {
+        "id": "es-idm-l1-0",
+        "text": "estar en las nubes",
+        "en": "To daydream",
+        "accept": [
+         "to have your head in the clouds",
+         "to be in the clouds"
+        ],
+        "emoji": "☁️"
+       },
+       {
+        "id": "es-idm-l1-1",
+        "text": "ser pan comido",
+        "en": "To be a piece of cake",
+        "accept": [
+         "to be easy",
+         "easy peasy"
+        ],
+        "emoji": "🍰"
+       },
+       {
+        "id": "es-idm-l1-2",
+        "text": "tomar el pelo",
+        "en": "To pull someone's leg",
+        "accept": [
+         "to tease",
+         "to wind someone up"
+        ],
+        "emoji": "😜"
+       },
+       {
+        "id": "es-idm-l1-3",
+        "text": "costar un ojo de la cara",
+        "en": "To cost an arm and a leg",
+        "accept": [
+         "to be very expensive"
+        ],
+        "emoji": "💸"
+       },
+       {
+        "id": "es-idm-l1-4",
+        "text": "estar como una cabra",
+        "en": "To be bonkers",
+        "accept": [
+         "to be crazy",
+         "to be mad",
+         "to be nuts"
+        ],
+        "emoji": "🐐"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Advanced",
+  "units": [
+   {
+    "id": "es-business",
+    "title": "Business Spanish",
+    "tagline": "Vocabulary for the office and the meeting room.",
+    "lessons": [
+     {
+      "id": "es-biz-l1",
+      "title": "At the office",
+      "words": [
+       {
+        "id": "es-biz-l1-0",
+        "text": "la empresa",
+        "en": "Company",
+        "accept": [
+         "business",
+         "firm",
+         "the company"
+        ],
+        "emoji": "🏭"
+       },
+       {
+        "id": "es-biz-l1-1",
+        "text": "el cliente",
+        "en": "Client",
+        "accept": [
+         "customer",
+         "the client"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "es-biz-l1-2",
+        "text": "el contrato",
+        "en": "Contract",
+        "accept": [
+         "the contract"
+        ],
+        "emoji": "📝"
+       },
+       {
+        "id": "es-biz-l1-3",
+        "text": "el presupuesto",
+        "en": "Budget",
+        "accept": [
+         "quote",
+         "estimate"
+        ],
+        "emoji": "📊"
+       },
+       {
+        "id": "es-biz-l1-4",
+        "text": "la factura",
+        "en": "Invoice",
+        "accept": [
+         "bill",
+         "the invoice"
+        ],
+        "emoji": "🧾"
+       },
+       {
+        "id": "es-biz-l1-5",
+        "text": "las ventas",
+        "en": "Sales",
+        "accept": [
+         "the sales"
+        ],
+        "emoji": "📈"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-news",
+    "title": "News & Society",
+    "tagline": "The words behind newspapers and the evening news.",
+    "lessons": [
+     {
+      "id": "es-news-l1",
+      "title": "Reading the news",
+      "words": [
+       {
+        "id": "es-news-l1-0",
+        "text": "las noticias",
+        "en": "The news",
+        "accept": [
+         "news"
+        ],
+        "emoji": "📰"
+       },
+       {
+        "id": "es-news-l1-1",
+        "text": "el gobierno",
+        "en": "Government",
+        "accept": [
+         "the government"
+        ],
+        "emoji": "🏛️"
+       },
+       {
+        "id": "es-news-l1-2",
+        "text": "las elecciones",
+        "en": "Elections",
+        "accept": [
+         "the elections"
+        ],
+        "emoji": "🗳️"
+       },
+       {
+        "id": "es-news-l1-3",
+        "text": "la economía",
+        "en": "Economy",
+        "accept": [
+         "the economy"
+        ],
+        "emoji": "💹"
+       },
+       {
+        "id": "es-news-l1-4",
+        "text": "el medio ambiente",
+        "en": "Environment",
+        "accept": [
+         "the environment"
+        ],
+        "emoji": "🌍"
+       },
+       {
+        "id": "es-news-l1-5",
+        "text": "la sociedad",
+        "en": "Society",
+        "emoji": "👥"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-future",
+    "title": "Future & 'Would'",
+    "tagline": "Will, would and 'if I were…' — where Spanish verbs get interesting.",
+    "lessons": [
+     {
+      "id": "es-fut-l1",
+      "title": "What will happen?",
+      "words": [
+       {
+        "id": "es-fut-l1-0",
+        "text": "Mañana iré al cine",
+        "en": "Tomorrow I'll go to the cinema",
+        "accept": [
+         "i will go to the cinema tomorrow",
+         "tomorrow i will go to the cinema"
+        ],
+        "emoji": "🍿"
+       },
+       {
+        "id": "es-fut-l1-1",
+        "text": "Lloverá",
+        "en": "It will rain",
+        "accept": [
+         "it'll rain"
+        ],
+        "emoji": "☔"
+       },
+       {
+        "id": "es-fut-l1-2",
+        "text": "Será fácil",
+        "en": "It will be easy",
+        "accept": [
+         "it'll be easy"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "es-fut-l1-3",
+        "text": "Me gustaría viajar",
+        "en": "I would like to travel",
+        "accept": [
+         "i'd like to travel"
+        ],
+        "emoji": "🧭"
+       },
+       {
+        "id": "es-fut-l1-4",
+        "text": "¿Podrías ayudarme?",
+        "en": "Could you help me?",
+        "emoji": "🙏"
+       },
+       {
+        "id": "es-fut-l1-5",
+        "text": "Si fuera rico, compraría un barco",
+        "en": "If I were rich, I would buy a boat",
+        "accept": [
+         "if i was rich i would buy a boat",
+         "if i were rich i'd buy a boat"
+        ],
+        "emoji": "⛵"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-proverbs",
+    "title": "Proverbs & Sayings",
+    "tagline": "Refranes — sayings every Spaniard grows up with.",
+    "lessons": [
+     {
+      "id": "es-prv-l1",
+      "title": "Common sayings",
+      "words": [
+       {
+        "id": "es-prv-l1-0",
+        "text": "Más vale tarde que nunca",
+        "en": "Better late than never",
+        "emoji": "⏰"
+       },
+       {
+        "id": "es-prv-l1-1",
+        "text": "A quien madruga, Dios le ayuda",
+        "en": "The early bird catches the worm",
+        "accept": [
+         "early bird gets the worm"
+        ],
+        "emoji": "🐦"
+       },
+       {
+        "id": "es-prv-l1-2",
+        "text": "En boca cerrada no entran moscas",
+        "en": "Silence is golden",
+        "accept": [
+         "keep your mouth shut"
+        ],
+        "emoji": "🤐"
+       },
+       {
+        "id": "es-prv-l1-3",
+        "text": "Poco a poco se va lejos",
+        "en": "Slowly but surely",
+        "accept": [
+         "little by little you go far",
+         "slow and steady"
+        ],
+        "emoji": "🐢"
+       },
+       {
+        "id": "es-prv-l1-4",
+        "text": "Dime con quién andas y te diré quién eres",
+        "en": "You are the company you keep",
+        "accept": [
+         "a man is known by the company he keeps"
+        ],
+        "emoji": "👫"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-debate",
+    "title": "Discussion & Debate",
+    "tagline": "Weighing up pros and cons like a native speaker.",
+    "lessons": [
+     {
+      "id": "es-dbt-l1",
+      "title": "Weighing it up",
+      "words": [
+       {
+        "id": "es-dbt-l1-0",
+        "text": "Por un lado",
+        "en": "On the one hand",
+        "emoji": "☝️"
+       },
+       {
+        "id": "es-dbt-l1-1",
+        "text": "Por otro lado",
+        "en": "On the other hand",
+        "emoji": "✋"
+       },
+       {
+        "id": "es-dbt-l1-2",
+        "text": "Sin embargo",
+        "en": "However",
+        "accept": [
+         "nevertheless"
+        ],
+        "emoji": "🔄"
+       },
+       {
+        "id": "es-dbt-l1-3",
+        "text": "Además",
+        "en": "Moreover",
+        "accept": [
+         "furthermore",
+         "what's more",
+         "besides"
+        ],
+        "emoji": "➕"
+       },
+       {
+        "id": "es-dbt-l1-4",
+        "text": "las ventajas",
+        "en": "The advantages",
+        "accept": [
+         "advantages",
+         "pros"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "es-dbt-l1-5",
+        "text": "las desventajas",
+        "en": "The disadvantages",
+        "accept": [
+         "disadvantages",
+         "cons"
+        ],
+        "emoji": "❌"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Fluency & Mastery",
+  "units": [
+   {
+    "id": "es-slang",
+    "title": "Slang & Casual Speech",
+    "tagline": "The words you won't find in a textbook, but hear everywhere in Spain.",
+    "lessons": [
+     {
+      "id": "es-slg-l1",
+      "title": "Sounding natural",
+      "words": [
+       {
+        "id": "es-slg-l1-0",
+        "text": "¡Qué guay!",
+        "en": "How cool!",
+        "accept": [
+         "cool",
+         "that's cool"
+        ],
+        "emoji": "😎"
+       },
+       {
+        "id": "es-slg-l1-1",
+        "text": "¡Tío!",
+        "en": "Mate!",
+        "accept": [
+         "dude",
+         "buddy",
+         "mate"
+        ],
+        "emoji": "🤙",
+        "note": "Friends call each other tío or tía — not just uncles and aunts!"
+       },
+       {
+        "id": "es-slg-l1-2",
+        "text": "Mola mucho",
+        "en": "It's really cool",
+        "accept": [
+         "it rocks",
+         "it's great"
+        ],
+        "emoji": "🤘"
+       },
+       {
+        "id": "es-slg-l1-3",
+        "text": "¡Qué rollo!",
+        "en": "What a drag!",
+        "accept": [
+         "how boring",
+         "what a pain"
+        ],
+        "emoji": "🙄"
+       },
+       {
+        "id": "es-slg-l1-4",
+        "text": "Estoy flipando",
+        "en": "I can't believe it",
+        "accept": [
+         "i'm amazed",
+         "i am amazed",
+         "i'm shocked"
+        ],
+        "emoji": "🤯"
+       },
+       {
+        "id": "es-slg-l1-5",
+        "text": "Me da igual",
+        "en": "I don't mind",
+        "accept": [
+         "i don't care",
+         "whatever"
+        ],
+        "emoji": "🤷"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-reactions",
+    "title": "Humour & Reactions",
+    "tagline": "The little exclamations real conversations run on.",
+    "lessons": [
+     {
+      "id": "es-rxn-l1",
+      "title": "Reacting naturally",
+      "words": [
+       {
+        "id": "es-rxn-l1-0",
+        "text": "¡Venga!",
+        "en": "Come on!",
+        "accept": [
+         "come on"
+        ],
+        "emoji": "💪"
+       },
+       {
+        "id": "es-rxn-l1-1",
+        "text": "¡Ojalá!",
+        "en": "I hope so!",
+        "accept": [
+         "hopefully",
+         "if only"
+        ],
+        "emoji": "🤞"
+       },
+       {
+        "id": "es-rxn-l1-2",
+        "text": "¡Qué pena!",
+        "en": "What a shame!",
+        "accept": [
+         "what a pity"
+        ],
+        "emoji": "😞"
+       },
+       {
+        "id": "es-rxn-l1-3",
+        "text": "¡No me digas!",
+        "en": "No way!",
+        "accept": [
+         "you don't say",
+         "really"
+        ],
+        "emoji": "😮"
+       },
+       {
+        "id": "es-rxn-l1-4",
+        "text": "¡Madre mía!",
+        "en": "Oh my goodness!",
+        "accept": [
+         "oh my god",
+         "wow",
+         "goodness me"
+        ],
+        "emoji": "😱"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-reading",
+    "title": "Reading a Short Paragraph",
+    "tagline": "Four connected sentences — read them as a whole story.",
+    "lessons": [
+     {
+      "id": "es-rdg-l1",
+      "title": "Lucía's week",
+      "words": [
+       {
+        "id": "es-rdg-l1-0",
+        "text": "Me llamo Lucía y vivo en Sevilla.",
+        "en": "My name is Lucía and I live in Seville.",
+        "accept": [
+         "my name is lucia and i live in seville"
+        ],
+        "emoji": "🙋‍♀️"
+       },
+       {
+        "id": "es-rdg-l1-1",
+        "text": "Todas las mañanas voy al colegio en bici.",
+        "en": "Every morning I go to school by bike.",
+        "accept": [
+         "every morning i cycle to school"
+        ],
+        "emoji": "🚲"
+       },
+       {
+        "id": "es-rdg-l1-2",
+        "text": "Por la tarde juego con mi perro en el parque.",
+        "en": "In the afternoon I play with my dog in the park.",
+        "emoji": "🐕"
+       },
+       {
+        "id": "es-rdg-l1-3",
+        "text": "Los domingos comemos paella con mis abuelos.",
+        "en": "On Sundays we eat paella with my grandparents.",
+        "accept": [
+         "on sundays we have paella with my grandparents"
+        ],
+        "emoji": "🥘"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-casual-greet",
+    "title": "Casual Greetings",
+    "tagline": "What people actually say when they bump into a friend.",
+    "lessons": [
+     {
+      "id": "es-cgr-l1",
+      "title": "Hey, what's up?",
+      "words": [
+       {
+        "id": "es-cgr-l1-0",
+        "text": "¿Qué pasa?",
+        "en": "What's up?",
+        "accept": [
+         "what's happening",
+         "what is up"
+        ],
+        "emoji": "🤙"
+       },
+       {
+        "id": "es-cgr-l1-1",
+        "text": "¿Cómo va?",
+        "en": "How's it going?",
+        "accept": [
+         "how is it going"
+        ],
+        "emoji": "🙂"
+       },
+       {
+        "id": "es-cgr-l1-2",
+        "text": "¡Cuánto tiempo!",
+        "en": "Long time no see!",
+        "accept": [
+         "it's been ages",
+         "long time no see"
+        ],
+        "emoji": "🤗"
+       },
+       {
+        "id": "es-cgr-l1-3",
+        "text": "Buenas",
+        "en": "Hi there",
+        "accept": [
+         "hiya",
+         "hey"
+        ],
+        "emoji": "👋"
+       },
+       {
+        "id": "es-cgr-l1-4",
+        "text": "¡Hasta mañana!",
+        "en": "See you tomorrow!",
+        "accept": [
+         "see you tomorrow"
+        ],
+        "emoji": "🌙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-professional",
+    "title": "Formal Spanish",
+    "tagline": "The language of letters, emails and official occasions.",
+    "lessons": [
+     {
+      "id": "es-prof-l1",
+      "title": "Writing formally",
+      "words": [
+       {
+        "id": "es-prof-l1-0",
+        "text": "Estimado señor",
+        "en": "Dear Sir",
+        "emoji": "✉️"
+       },
+       {
+        "id": "es-prof-l1-1",
+        "text": "Le saluda atentamente",
+        "en": "Yours sincerely",
+        "accept": [
+         "yours faithfully"
+        ],
+        "emoji": "🖋️"
+       },
+       {
+        "id": "es-prof-l1-2",
+        "text": "Le agradezco su ayuda",
+        "en": "Thank you for your help (formal)",
+        "accept": [
+         "i appreciate your help",
+         "thank you for your help"
+        ],
+        "emoji": "🙏"
+       },
+       {
+        "id": "es-prof-l1-3",
+        "text": "Quedo a su disposición",
+        "en": "I remain at your disposal",
+        "accept": [
+         "i am at your service"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "es-prof-l1-4",
+        "text": "Un cordial saludo",
+        "en": "Kind regards",
+        "accept": [
+         "best regards",
+         "warm regards"
+        ],
+        "emoji": "📧"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-literary",
+    "title": "Songs & Poetry",
+    "tagline": "The poetic words behind Spanish songs, films and poems.",
+    "lessons": [
+     {
+      "id": "es-lit-l1",
+      "title": "Words from songs and poems",
+      "words": [
+       {
+        "id": "es-lit-l1-0",
+        "text": "el alma",
+        "en": "Soul",
+        "accept": [
+         "the soul"
+        ],
+        "emoji": "🕊️"
+       },
+       {
+        "id": "es-lit-l1-1",
+        "text": "la luna",
+        "en": "Moon",
+        "accept": [
+         "the moon"
+        ],
+        "emoji": "🌙"
+       },
+       {
+        "id": "es-lit-l1-2",
+        "text": "soñar",
+        "en": "To dream",
+        "accept": [
+         "dream"
+        ],
+        "emoji": "💭"
+       },
+       {
+        "id": "es-lit-l1-3",
+        "text": "el mar",
+        "en": "Sea",
+        "accept": [
+         "the sea"
+        ],
+        "emoji": "🌊"
+       },
+       {
+        "id": "es-lit-l1-4",
+        "text": "para siempre",
+        "en": "Forever",
+        "accept": [
+         "for ever",
+         "always"
+        ],
+        "emoji": "♾️"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

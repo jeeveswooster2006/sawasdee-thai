@@ -25,7 +25,7 @@ Nong Chang's friend **Torito** (the little bull) teaches Spanish. Each family me
 2. **Me page → "My languages"** section: see your languages, add or remove one, and set your starting level for each.
 3. **New learners**: "What would you like to learn?" (Thai / Spanish) is the first step, before the level choice and placement test.
 
-Each profile (Dad, son, daughter, wife) chooses independently and can learn both.
+Each profile chooses independently and can learn both.
 
 ## 4. How it fits the app (technical)
 
@@ -41,29 +41,24 @@ Database (one small migration):
 
 Content repo layout (new files only):
 ```
-courses.json                       ← list of languages
+courses.json                       ← list of languages (done)
 courses/es/curriculum.json         ← Spanish course (same shape as Thai)
 courses/es/audio/{wordId}.mp3
 courses/es/art/units/{unitId}.webp
 courses/es/art/mascot.png
 ```
-`courses.json`:
-```json
-[
-  {"id":"th","name":"Thai","native":"ภาษาไทย","flag":"🇹🇭","mascot":"Nong Chang","speechLang":"th-TH","base":"","extraTrack":"read-thai"},
-  {"id":"es","name":"Spanish","native":"Español","flag":"🇪🇸","mascot":"Torito","speechLang":"es-ES","base":"courses/es/","extraTrack":"sounds-es"}
-]
-```
+`courses.json` (in the repo root) lists each language with its flag, mascot, speech language and the paths to its curriculum, audio, pictures and mascot image.
 
 Word format for Spanish (same as Thai, minus Thai-only fields):
 ```json
 {"id":"es-b1-l1-0","text":"Hola","en":"Hello","accept":["hello","hi"],"emoji":"👋","gender":null,"note":"The h is silent"}
 ```
-The app reads `text` (falling back to `thai` for the Thai course). `roman` and `tone` are optional and simply hidden when missing.
+When loading, the app maps `text` to its internal `thai` field (one line in `buildCourse`: `thai: w.thai ?? w.text`), so the lesson engine needs no other changes. `roman` and `tone` are optional and simply hidden when missing.
 
 Spanish-specific app details:
 - Speech practice and the fallback voice use `es-ES`.
-- Typing answers: accept missing accents (`cafe` for `café`) but show the correct spelling; add a row of buttons for **á é í ó ú ñ ü ¿ ¡** above the keyboard.
+- Typing exercises ask for the **English** meaning, so Spanish accents never need typing.
+- Speech practice: compare lower-case, without accents or ¿¡ marks (the Thai check is case-sensitive and keeps accents).
 - The second track "Read Thai" becomes **"Sounds of Spanish"** for Spanish (vowels, ñ, rr, ll/y, j/g, c/z, silent h, accent marks). Phase 2.
 - Mascot component, unit pictures and loading screen use the current course's mascot.
 - Kids' mode, feedback flags, placement test, daily goals all work per course unchanged.
@@ -102,7 +97,7 @@ Estimated **8–12 credits** in total (the feedback feature cost 6.3, so this is
 1. Migration + RPCs (section 4).
 2. `courses.json` loader; per-course curriculum, audio and art URLs; per-course cache keys.
 3. Language chip in the top bar, "My languages" on Me, language step for new learners.
-4. Per-course mascot, speech language, accent-tolerant typing + accent buttons.
+4. Per-course mascot and speech language (Spanish speech check ignores case and accents).
 5. Tests: course switching, progress kept separate, Thai unchanged.
 
 **Phase 2 (~2–4 credits): polish**
@@ -117,19 +112,19 @@ Estimated **8–12 credits** in total (the feedback feature cost 6.3, so this is
 > Add multi-language support with Spanish as the second course. Thai must keep working exactly as now (same content URLs, same progress).
 >
 > 1. **Database:** add `learner_profiles.active_course text not null default 'th'` with a check for 'th' or 'es'; new table `learner_courses (profile_id uuid references learner_profiles on delete cascade, course text check in ('th','es'), start_level text, added_at timestamptz default now(), primary key (profile_id, course))` with RLS matching learner_profiles (use can_write_profile for writes, household read). Backfill a 'th' row per profile from its current start_level. Add SECURITY DEFINER RPCs `set_active_course(p_profile uuid, p_course text)` and extend `set_start_level` with an optional `p_course text default 'th'`, both checking can_write_profile.
-> 2. **Content:** load `courses.json` from CONTENT_BASE_URL. For each course, curriculum is `{base}curriculum.json` (Thai keeps `data/curriculum.json`), audio `{base}audio/{id}.mp3`, art `{base}art/units/{unit}.webp`. Cache keys include the course id. Words use `text` (fall back to `thai`); `roman`/`tone` optional.
+> 2. **Content:** load `courses.json` from CONTENT_BASE_URL. Each entry gives the `curriculum` file, the `audio` folder (`{audio}{wordId}.mp3`), the `art` folder (`{art}{unitId}.webp`) and `mascotImage`. Cache keys include the course id.
 > 3. **Choosing a language:** a flag chip in the AppHeader (current course flag + ▾) opening a menu to switch or "Add a language"; a "My languages" card on /me (add, remove, starting level per language); and a "What would you like to learn?" step before the starting-level / placement step for new learners. Per profile.
-> 4. **Per course:** mascot (Nong Chang for th, Torito for es, image from `{base}art/mascot.png`), speech recognition and fallback TTS language from `speechLang`, the second track only for Thai for now. For Spanish typing answers, accept answers without accents and show the accented spelling; show buttons for á é í ó ú ñ ü ¿ ¡ above typing inputs.
+> 4. **Per course:** mascot (Nong Chang for th, Torito for es, image from `{base}art/mascot.png`), speech recognition and fallback TTS language from `speechLang`, the second track only for Thai for now. In buildCourse map `text` to `thai` when `thai` is missing and treat `roman`/`tone` as optional (hide them when absent). For speech matching on Spanish, compare lower-case with accents and ¿¡ removed.
 > 5. Streaks, XP, badges and leaderboard stay shared. Review and Practice only show the active course's words.
-> 6. Tests for: switching course, separate progress per course, Thai unchanged, accent-tolerant matching. Then bump CONTENT_BASE_URL to commit `<NEW COMMIT>`.
+> 6. Tests for: switching course, separate progress per course, Thai unchanged, Spanish speech matching. Then bump CONTENT_BASE_URL to commit `<NEW COMMIT>`.
 
 ## 10. What can be done now (free)
 
 | Step | Who | Cost |
 |---|---|---|
-| Write the Spanish curriculum (`courses/es/curriculum.json`) | Claude | free |
-| Write Torito's character + 43 scene descriptions; adapt the ComfyUI script | Claude | free |
+| Write the Spanish curriculum (`courses/es/curriculum.json`) — 6 levels, 43 units, 63 lessons, 354 words | Claude | **done** |
+| Write Torito's character + 43 scene descriptions; adapt the ComfyUI script (`--course es`) | Claude | **done** |
 | Generate Torito pictures in ComfyUI, pick, upload | Paul's PC | free |
 | Generate Spanish audio | Claude via ElevenLabs | ~5–7k of your 10k credits (ask first) |
-| `courses.json` | Claude | free |
+| `courses.json` | Claude | **done** |
 | Lovable Phase 1 + 2 | after 17 Nov | ~8–12 Lovable credits |

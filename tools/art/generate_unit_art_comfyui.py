@@ -5,6 +5,7 @@ Run from the repository folder while ComfyUI is running:
     py -3.12 tools\\art\\generate_unit_art_comfyui.py --units basics1,food  (quick test: 2 images)
     py -3.12 tools\\art\\generate_unit_art_comfyui.py                       (the units without art yet)
     py -3.12 tools\\art\\generate_unit_art_comfyui.py --all                 (all units, one consistent style)
+    py -3.12 tools\\art\\generate_unit_art_comfyui.py --course es            (Spanish course pictures with Torito)
 
 It asks ComfyUI which models are installed and picks Flux automatically: either a single
 Flux checkpoint, or separate diffusion model + T5/CLIP-L text encoders + VAE (ae.safetensors).
@@ -53,6 +54,48 @@ STYLE = (
     "Correct, simple elephant anatomy: one elephant with exactly four legs, one trunk, two ears and one tail. "
     "No lettering or writing anywhere."
 )
+
+NAME = "Nong Chang"
+
+TORITO = (
+    "Torito, an adorable baby bull calf mascot with soft warm chestnut-brown fur and a cream-coloured muzzle "
+    "and tummy, large round glossy dark eyes with small white highlights, rosy pink cheeks, two small soft "
+    "rounded cream-coloured horn nubs, floppy ears, a little tuft of curly fur on top of the head, a chubby "
+    "round body standing on exactly four short sturdy legs with small dark hooves (two front legs and two back "
+    "legs, no arms and no hands - it nudges things with its nose and carries small things on its back), a short "
+    "tail with a fluffy tip, wearing a red neckerchief with a golden-yellow border tied around its neck"
+)
+STYLE_ES = (
+    "Soft, polished children's picture-book illustration with gentle painterly shading, clean "
+    "rounded shapes and warm friendly lighting. Simple uncluttered warm ivory background with "
+    "subtle red and gold accents. Landscape composition, Torito is the clear focus. "
+    "Correct, simple calf anatomy: one calf with exactly four legs, two small horns, two ears and one tail. "
+    "Torito is gentle, cheerful and never fierce. No bullfighting, no capes, no arenas. "
+    "No lettering or writing anywhere."
+)
+
+REPO_RAW = "https://raw.githubusercontent.com/jeeveswooster2006/sawasdee-thai/main/"
+REPO_UPLOAD = "https://github.com/jeeveswooster2006/sawasdee-thai/upload/main/"
+COURSES = {
+    "th": {"name": "Nong Chang", "character": CHARACTER, "style": STYLE,
+           "spec": ROOT / "tools" / "art" / "unit_illustrations.json", "out": ROOT / "art" / "units",
+           "reference": ROOT / "tools" / "art" / "mascot.png",
+           "spec_url": REPO_RAW + "tools/art/unit_illustrations.json", "upload_url": REPO_UPLOAD + "art/units"},
+    "es": {"name": "Torito", "character": TORITO, "style": STYLE_ES,
+           "spec": ROOT / "courses" / "es" / "art" / "unit_illustrations.json", "out": ROOT / "courses" / "es" / "art" / "units",
+           "reference": ROOT / "courses" / "es" / "art" / "mascot.png",
+           "spec_url": REPO_RAW + "courses/es/art/unit_illustrations.json", "upload_url": REPO_UPLOAD + "courses/es/art/units"},
+}
+
+
+def use_course(code):
+    """Point every path, name and description at one course (th = Nong Chang, es = Torito)."""
+    global NAME, CHARACTER, STYLE, SPEC, OUT, SPEC_URL, UPLOAD_URL
+    c = COURSES[code]
+    NAME, CHARACTER, STYLE, SPEC, OUT = c["name"], c["character"], c["style"], c["spec"], c["out"]
+    SPEC_URL, UPLOAD_URL = c["spec_url"], c["upload_url"]
+    return c
+
 
 opener = urllib.request.build_opener(urllib.request.ProxyHandler({}))
 
@@ -670,7 +713,9 @@ def main():
     ap.add_argument("--steps", type=int, help="default 28 for Flux dev, 4 for schnell")
     ap.add_argument("--guidance", type=float, default=3.5)
     ap.add_argument("--width", type=int, default=1216); ap.add_argument("--height", type=int, default=832)
-    ap.add_argument("--reference", default=str(ROOT / "tools" / "art" / "mascot.png"))
+    ap.add_argument("--course", choices=sorted(COURSES), default="th",
+                    help="th = Thai pictures with Nong Chang (default), es = Spanish pictures with Torito")
+    ap.add_argument("--reference", help="mascot picture used as a guide (default: the course's mascot.png)")
     ap.add_argument("--no-redux", action="store_true")
     ap.add_argument("--redux-strength", type=float, default=0.35)
     ap.add_argument("--low-memory", choices=["auto", "on", "off"], default="auto",
@@ -684,6 +729,15 @@ def main():
                     help="retry an image fresh if it takes this long and 5x the fastest one so far (default 600 s)")
     ap.add_argument("--timeout", type=int, default=3600, help="seconds to wait per image (default 3600)")
     args = ap.parse_args()
+    course = use_course(args.course)
+    if not args.reference:
+        args.reference = str(course["reference"])
+    if args.course != "th":
+        print(f"Course: {args.course} ({NAME})")
+        if not Path(args.reference).exists() and not args.list_models:
+            print(f"No {NAME} picture yet at {args.reference}.\n"
+                  f"Tip: make him first with  --course {args.course} --units {args.course}-mascot --variants 4\n"
+                  f"then tell Claude which one is best, and every other picture will copy his look.")
 
     # ComfyUI Desktop listens on 8000, a command-line/portable install on 8188; use whichever has Flux.
     urls = [args.url] if args.url else ["http://127.0.0.1:8188", "http://127.0.0.1:8000"]
@@ -803,7 +857,7 @@ def main():
         if target.exists() and not args.force and not redo:
             skipped += 1
             continue
-        prompt = f"{CHARACTER}. Scene: Nong Chang {u['scene']}. {STYLE}"
+        prompt = f"{CHARACTER}. Scene: {NAME} {u['scene']}. {STYLE}"
         workflow = build_workflow(models, redux, ref_name, prompt, unit_seed(u["unit_id"], v, args.seed_offset), args, info)
         if args.dry_run:
             print(json.dumps(workflow, ensure_ascii=False, indent=1))

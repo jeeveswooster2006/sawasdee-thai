@@ -1,0 +1,273 @@
+{
+ "mascot": {
+  "file": "courses/es/art/mascot.png",
+  "note": "Make es-mascot first, pick the best, save it as mascot.png; it then guides every other picture."
+ },
+ "aspect_ratio": "3:2 landscape",
+ "units": [
+  {
+   "unit_index": -1,
+   "unit_id": "es-mascot",
+   "title": "Torito (mascot)",
+   "scene": "stands facing the viewer in a friendly pose, full body clearly visible, head slightly tilted with a big warm smile, on a plain warm ivory background"
+  },
+  {
+   "unit_index": 0,
+   "unit_id": "es-basics1",
+   "title": "Greetings",
+   "scene": "waves hello by lifting one front hoof, with a big friendly smile, in a sunny Spanish village street with white walls and red geraniums in pots"
+  },
+  {
+   "unit_index": 1,
+   "unit_id": "es-numbers1",
+   "title": "Numbers 1–10",
+   "scene": "counts five bright oranges lined up in a row on the ground in front of him, nudging the last one with his nose, an orange tree behind"
+  },
+  {
+   "unit_index": 2,
+   "unit_id": "es-numbers2",
+   "title": "Bigger Numbers",
+   "scene": "stands proudly next to a tall neat tower of colourful wooden blocks, looking up at it with wonder"
+  },
+  {
+   "unit_index": 3,
+   "unit_id": "es-family",
+   "title": "Family",
+   "scene": "snuggles happily with his mother cow and father bull and a tiny baby sister calf in a sunny green meadow with olive trees"
+  },
+  {
+   "unit_index": 4,
+   "unit_id": "es-colors",
+   "title": "Colours & Shapes",
+   "scene": "stands among a playful scatter of colourful painted ceramic tiles in red, blue, yellow and green, each a simple shape like a circle, square, triangle and star"
+  },
+  {
+   "unit_index": 5,
+   "unit_id": "es-food",
+   "title": "Food & Drink",
+   "scene": "sits happily in front of a small table with a big pan of paella, a loaf of bread and a glass of orange juice, licking his lips"
+  },
+  {
+   "unit_index": 6,
+   "unit_id": "es-phrases",
+   "title": "Everyday Phrases",
+   "scene": "chats cheerfully with a friendly little bird perched on a fence post, both looking at each other and smiling"
+  },
+  {
+   "unit_index": 7,
+   "unit_id": "es-time",
+   "title": "Time & Days",
+   "scene": "stands beside a big round clock tower in a Spanish town square, looking up at the clock face"
+  },
+  {
+   "unit_index": 8,
+   "unit_id": "es-places",
+   "title": "Places & Directions",
+   "scene": "stands beside a wooden signpost with arrows pointing in different directions, a white village and the sea in the distance"
+  },
+  {
+   "unit_index": 9,
+   "unit_id": "es-shopping",
+   "title": "Shopping & Money",
+   "scene": "carries a small woven basket of fruit on his back at a colourful Spanish market stall with lemons, peppers and tomatoes"
+  },
+  {
+   "unit_index": 10,
+   "unit_id": "es-travel",
+   "title": "Travel & Transport",
+   "scene": "looks out happily from the window of a small red train crossing sunny Spanish countryside with windmills on a hill"
+  },
+  {
+   "unit_index": 11,
+   "unit_id": "es-weather",
+   "title": "Weather & Seasons",
+   "scene": "splashes happily in a puddle under a small red umbrella balanced on his back, with sunshine and a rainbow breaking through the clouds"
+  },
+  {
+   "unit_index": 12,
+   "unit_id": "es-feelings",
+   "title": "Feelings & Health",
+   "scene": "sits looking thoughtful and calm, with a gentle smile and a warm blanket over his back, a cup of hot cocoa beside him"
+  },
+  {
+   "unit_index": 13,
+   "unit_id": "es-sentences",
+   "title": "Putting It Together",
+   "scene": "sits happily on a big open storybook, surrounded by little floating speech bubbles"
+  },
+  {
+   "unit_index": 14,
+   "unit_id": "es-gender",
+   "title": "El & La",
+   "scene": "stands between a cute puppy and a cute kitten, all three smiling at each other"
+  },
+  {
+   "unit_index": 15,
+   "unit_id": "es-routine",
+   "title": "Daily Routine",
+   "scene": "yawns and stretches in a cosy bed by a sunny window in the morning, with an alarm clock on the bedside table"
+  },
+  {
+   "unit_index": 16,
+   "unit_id": "es-serestar",
+   "title": "Ser & Estar",
+   "scene": "looks at his own reflection in a round mirror, smiling, with a little thought bubble showing a heart"
+  },
+  {
+   "unit_index": 17,
+   "unit_id": "es-compare",
+   "title": "Comparisons",
+   "scene": "stands next to a much bigger friendly cow and a much smaller mouse, comparing heights with a curious smile"
+  },
+  {
+   "unit_index": 18,
+   "unit_id": "es-restaurant",
+   "title": "At the Restaurant",
+   "scene": "sits at a little café table on a sunny terrace with small tapas plates, olives and a jug of lemonade"
+  },
+  {
+   "unit_index": 19,
+   "unit_id": "es-plans",
+   "title": "Making Plans",
+   "scene": "stands beside a big wall calendar with one day circled in red, looking excited"
+  },
+  {
+   "unit_index": 20,
+   "unit_id": "es-connectors",
+   "title": "Connectors",
+   "scene": "nudges two jigsaw puzzle pieces together with his nose so they fit perfectly"
+  },
+  {
+   "unit_index": 21,
+   "unit_id": "es-directions2",
+   "title": "Giving Directions",
+   "scene": "follows a winding path drawn on a big paper map spread on the ground, nose close to the map"
+  },
+  {
+   "unit_index": 22,
+   "unit_id": "es-people-desc",
+   "title": "Describing People",
+   "scene": "admires a framed painting of a family of different-sized animals hanging in a little art gallery"
+  },
+  {
+   "unit_index": 23,
+   "unit_id": "es-work",
+   "title": "Work & Occupations",
+   "scene": "wears a little chef's hat while standing proudly next to a kitchen counter with a fresh tortilla on a plate"
+  },
+  {
+   "unit_index": 24,
+   "unit_id": "es-dialogues",
+   "title": "Short Conversations",
+   "scene": "chats with a friendly little donkey across a café table, both smiling, two cups of hot chocolate with churros between them"
+  },
+  {
+   "unit_index": 25,
+   "unit_id": "es-emergency",
+   "title": "Health & Emergencies",
+   "scene": "stands next to a small first-aid kit with a red cross, looking calm and helpful"
+  },
+  {
+   "unit_index": 26,
+   "unit_id": "es-opinions",
+   "title": "Opinions & Agreement",
+   "scene": "looks thoughtful with a glowing lightbulb floating above his head"
+  },
+  {
+   "unit_index": 27,
+   "unit_id": "es-past",
+   "title": "Talking About the Past",
+   "scene": "looks at an open photo album full of holiday pictures of the beach, smiling fondly"
+  },
+  {
+   "unit_index": 28,
+   "unit_id": "es-storytelling",
+   "title": "Telling a Story",
+   "scene": "sits under an olive tree reading a big storybook to a group of small woodland animals"
+  },
+  {
+   "unit_index": 29,
+   "unit_id": "es-register",
+   "title": "Tú & Usted",
+   "scene": "bows politely to a dignified old grandfather sheep wearing a flat cap, in a sunny plaza"
+  },
+  {
+   "unit_index": 30,
+   "unit_id": "es-phone",
+   "title": "Phone Conversations",
+   "scene": "talks into an old-fashioned telephone resting on a little table, with a happy surprised face"
+  },
+  {
+   "unit_index": 31,
+   "unit_id": "es-idioms",
+   "title": "Idioms & Expressions",
+   "scene": "daydreams lying on a soft fluffy cloud floating in a blue sky"
+  },
+  {
+   "unit_index": 32,
+   "unit_id": "es-business",
+   "title": "Business Spanish",
+   "scene": "stands proudly beside an easel with a simple rising bar chart, wearing a tiny bow tie"
+  },
+  {
+   "unit_index": 33,
+   "unit_id": "es-news",
+   "title": "News & Society",
+   "scene": "reads a big folded newspaper spread on the ground in front of him, a cup of coffee beside it"
+  },
+  {
+   "unit_index": 34,
+   "unit_id": "es-future",
+   "title": "Future & 'Would'",
+   "scene": "looks through a brass telescope on a hill at a starry evening sky"
+  },
+  {
+   "unit_index": 35,
+   "unit_id": "es-proverbs",
+   "title": "Proverbs & Sayings",
+   "scene": "sits peacefully under an old gnarled olive tree beside a wise old owl"
+  },
+  {
+   "unit_index": 36,
+   "unit_id": "es-debate",
+   "title": "Discussion & Debate",
+   "scene": "stands between two simple balance-scale pans, one with an apple and one with an orange, weighing them up"
+  },
+  {
+   "unit_index": 37,
+   "unit_id": "es-slang",
+   "title": "Slang & Casual Speech",
+   "scene": "wears cool little sunglasses and a big grin, with a skateboard beside him"
+  },
+  {
+   "unit_index": 38,
+   "unit_id": "es-reactions",
+   "title": "Humour & Reactions",
+   "scene": "laughs with his eyes squeezed shut and tears of joy, surrounded by little musical notes and sparkles"
+  },
+  {
+   "unit_index": 39,
+   "unit_id": "es-reading",
+   "title": "Reading a Short Paragraph",
+   "scene": "reads a book resting on a cushion in a sunny Andalusian courtyard with a small fountain and orange trees"
+  },
+  {
+   "unit_index": 40,
+   "unit_id": "es-casual-greet",
+   "title": "Casual Greetings",
+   "scene": "bumps noses with a friendly young calf friend in greeting, both smiling, in a village street"
+  },
+  {
+   "unit_index": 41,
+   "unit_id": "es-professional",
+   "title": "Formal Spanish",
+   "scene": "sits at a little wooden desk with a sealed letter and a quill pen, looking smart in a tiny bow tie"
+  },
+  {
+   "unit_index": 42,
+   "unit_id": "es-literary",
+   "title": "Songs & Poetry",
+   "scene": "sits beside a Spanish guitar under a crescent moon by the sea at night"
+  }
+ ]
+}
