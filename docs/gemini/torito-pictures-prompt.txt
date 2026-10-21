@@ -1,0 +1,68 @@
+You are the illustrator for "Nong Chang & Family", a family app that teaches languages to children and adults. The attached image shows three existing pictures of our Thai mascot, Nong Chang the baby elephant. Copy that exact art style for everything you make: soft, polished children's picture-book illustration, gentle painterly shading, clean rounded shapes, warm friendly lighting, simple warm ivory background with only a few props.
+
+Your job: illustrations for the new Spanish course, starring a new character, Torito.
+
+TORITO (keep him identical in every picture):
+An adorable baby bull calf drawn like a real young calf: a four-legged farm animal with a horizontal body, soft warm chestnut-brown fur, a cream-coloured muzzle and tummy, large round glossy dark eyes with small white highlights, rosy pink cheeks, two small soft rounded cream-coloured horn nubs, floppy ears and a little tuft of curly fur on top of his head. He wears a red neckerchief with a golden-yellow border.
+
+RULES FOR EVERY PICTURE:
+- Exactly four legs with small dark hooves, all on the ground (or folded under him when lying down). He never stands on two legs, and has no arms or hands. He moves things with his nose, or they rest on his back or beside him.
+- Show him from the side or a three-quarter view so all four legs are clearly visible.
+- Landscape 3:2 picture. Torito is the clear focus, not too small.
+- Gentle and cheerful, never fierce. No bullfighting, capes, arenas or matadors.
+- No words, letters, numbers or writing anywhere in the picture.
+- Any other animals also have the correct number of legs.
+
+HOW WE'LL WORK:
+- Make ONE picture per reply, in the order below.
+- Under each picture, write its file name in bold, e.g. **es-mascot.png**, so I can save it with that name.
+- Start with number 1 (Torito on his own). After that, use that picture of Torito as your reference so he looks the same every time.
+- Then wait. When I say "next", make the next one. If I say "again", redo the same one. If I say "fix: ...", redo it with that change.
+
+THE PICTURES:
+1. es-mascot — Torito standing on all four hooves like a real calf, seen from a three-quarter side view, full body clearly visible, head turned towards the viewer with a big warm smile, on a plain warm ivory background
+2. es-basics1 — Torito standing on all four hooves like a real calf in a sunny Spanish village street with white walls and red geraniums in pots, head tilted towards the viewer with a big friendly smile, as if saying hello
+3. es-numbers1 — Torito standing on all four hooves like a real calf behind five bright oranges lined up in a row on the ground, nose touching the last orange, an orange tree behind
+4. es-numbers2 — Torito standing on all four hooves like a real calf next to a tall neat tower of colourful wooden blocks, looking up at it with wonder
+5. es-family — Torito stands touching noses with his mother cow, his father bull and his tiny baby sister calf in a sunny green meadow with olive trees, all four animals standing on four hooves like real cattle
+6. es-colors — Torito standing on all four hooves like a real calf among a playful scatter of colourful painted ceramic tiles in red, blue, yellow and green, each a simple shape like a circle, square, triangle and star
+7. es-food — Torito lying down like a real calf with all four legs folded underneath him on the grass beside a low picnic blanket with a big pan of paella, a loaf of bread and a glass of orange juice, licking his lips
+8. es-phrases — Torito standing on all four hooves like a real calf beside a wooden fence post with a friendly little bird perched on it, both looking at each other and smiling
+9. es-time — Torito standing on all four hooves like a real calf beside a big round clock tower in a Spanish town square, looking up at the clock face
+10. es-places — Torito standing on all four hooves like a real calf beside a wooden signpost with arrows pointing in different directions, a white village and the sea in the distance
+11. es-shopping — Torito standing on all four hooves like a real calf beside a colourful Spanish market stall with lemons, peppers and tomatoes, a small woven basket of fruit resting on his back
+12. es-travel — Torito peeks his head out of the open window of a small red train crossing sunny Spanish countryside with windmills on a hill, only his head and neckerchief visible at the window
+13. es-weather — Torito standing on all four hooves like a real calf in a puddle, splashing, with a small red umbrella resting on his back, sunshine and a rainbow breaking through the clouds
+14. es-feelings — Torito lying down like a real calf with all four legs folded underneath him with a calm gentle smile and a warm blanket draped over his back, a cup of hot cocoa on the ground beside him
+15. es-sentences — Torito lying down like a real calf with all four legs folded underneath him on the grass beside a big open storybook, surrounded by little floating speech bubbles
+16. es-gender — Torito standing on all four hooves like a real calf between a cute puppy and a cute kitten, all three smiling at each other
+17. es-routine — Torito lying down like a real calf with all four legs folded underneath him in a big cosy straw bed by a sunny window in the morning, yawning, an alarm clock on the floor beside him
+18. es-serestar — Torito standing on all four hooves like a real calf looking at his own reflection in a big round mirror leaning against a wall, smiling, a little heart floating above
+19. es-compare — Torito standing on all four hooves like a real calf next to a much bigger friendly cow and a much smaller mouse, comparing heights with a curious smile
+20. es-restaurant — Torito standing on all four hooves like a real calf beside a low café table on a sunny terrace with small tapas plates, olives and a jug of lemonade, looking at the food hungrily
+21. es-plans — Torito standing on all four hooves like a real calf beside a big wall calendar with one day circled in red, looking excited
+22. es-connectors — Torito standing on all four hooves like a real calf, nudging two big jigsaw puzzle pieces together on the ground with his nose
+23. es-directions2 — Torito standing on all four hooves like a real calf over a big paper map spread on the ground, nose close to a winding path drawn on it
+24. es-people-desc — Torito standing on all four hooves like a real calf in a little art gallery, admiring a framed painting of a family of different-sized animals
+25. es-work — Torito standing on all four hooves like a real calf wearing a little white chef's hat, beside a low kitchen table with a fresh tortilla on a plate
+26. es-dialogues — Torito stands on all four hooves facing a friendly little donkey, also on four hooves, both smiling beside a low café table with two cups of hot chocolate and churros
+27. es-emergency — Torito standing on all four hooves like a real calf next to a small first-aid kit with a red cross on the ground, looking calm and helpful
+28. es-opinions — Torito standing on all four hooves like a real calf, looking thoughtful, with a glowing lightbulb floating above his head
+29. es-past — Torito lying down like a real calf with all four legs folded underneath him beside an open photo album on the ground full of holiday pictures of the beach, smiling fondly
+30. es-storytelling — Torito lying down like a real calf with all four legs folded underneath him under an olive tree beside a big open storybook on the ground, a group of small woodland animals sitting around listening
+31. es-register — Torito standing on all four hooves like a real calf, lowering his head politely towards a dignified old grandfather sheep wearing a flat cap, in a sunny plaza
+32. es-phone — Torito standing on all four hooves like a real calf beside a little table with an old-fashioned telephone on it, the receiver lying next to his ear, a happy surprised face
+33. es-idioms — Torito lying down like a real calf with all four legs folded underneath him on a soft fluffy cloud floating in a blue sky, eyes half closed, daydreaming
+34. es-business — Torito standing on all four hooves like a real calf wearing a tiny bow tie beside an easel with a simple rising bar chart
+35. es-news — Torito lying down like a real calf with all four legs folded underneath him with a big folded newspaper spread on the ground in front of him and a cup of coffee beside it, reading
+36. es-future — Torito standing on all four hooves like a real calf on a hill beside a brass telescope on a tripod, eye to the eyepiece, a starry evening sky
+37. es-proverbs — Torito lying down like a real calf with all four legs folded underneath him under an old gnarled olive tree beside a wise old owl perched on a low branch
+38. es-debate — Torito standing on all four hooves like a real calf between two simple balance-scale pans on the ground, one with an apple and one with an orange, looking from one to the other
+39. es-slang — Torito standing on all four hooves like a real calf wearing cool little sunglasses and a big grin, a skateboard on the ground beside him
+40. es-reactions — Torito standing on all four hooves like a real calf laughing with his eyes squeezed shut and tears of joy, surrounded by little musical notes and sparkles
+41. es-reading — Torito lying down like a real calf with all four legs folded underneath him on a cushion in a sunny Andalusian courtyard with a small fountain and orange trees, an open book on the ground in front of him
+42. es-casual-greet — Torito stands on all four hooves bumping noses in greeting with a friendly young calf friend, also on four hooves, in a village street
+43. es-professional — Torito standing on all four hooves like a real calf wearing a tiny bow tie beside a low wooden desk with a sealed letter and a quill pen on it
+44. es-literary — Torito lying down like a real calf with all four legs folded underneath him on the sand beside a Spanish guitar under a crescent moon by the sea at night
+
+Start now with number 1.
