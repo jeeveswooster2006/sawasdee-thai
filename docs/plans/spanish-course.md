@@ -124,7 +124,7 @@ Estimated **8–12 credits** in total (the feedback feature cost 6.3, so this is
 |---|---|---|
 | Write the Spanish curriculum (`courses/es/curriculum.json`) — 6 levels, 43 units, 63 lessons, 354 words | Claude | **done** |
 | Write Torito's character + 43 scene descriptions; adapt the ComfyUI script (`--course es`) | Claude | **done** |
-| Generate Torito pictures in ComfyUI, pick, upload | Paul's PC | free |
+| Generate Torito pictures (Gemini), check, convert, upload — 43 scenes + mascot | Paul + Claude | **done** (commit b646b16) |
 | Generate Spanish audio (all 354 words, voice "Marina") | Claude via ElevenLabs | **done** — about 5,900 credits |
 | `courses.json` | Claude | **done** |
 | Lovable Phase 1 + 2 | after 17 Nov | ~8–12 Lovable credits |
