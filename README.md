@@ -1,6 +1,6 @@
 # Nong Chang & Family — learn Thai together
 
-**Try the app: [sawasdee-family.lovable.app](https://sawasdee-family.lovable.app)** · [How it works](https://sawasdee-family.lovable.app/learn-thai)
+**Try the app: [nongchang.co.uk](https://nongchang.co.uk)** · [How it works](https://nongchang.co.uk/learn-thai)
 
 Nong Chang & Family (formerly Sawasdee Thai) is a free, family-friendly Thai course for grown-ups and kids: short lessons, Thai audio for every word, a kids' mode, a Read Thai track for the alphabet and tones, and Nong Chang the baby elephant cheering you on.
 
