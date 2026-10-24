@@ -128,3 +128,13 @@ Estimated **8–12 credits** in total (the feedback feature cost 6.3, so this is
 | Generate Spanish audio (all 354 words, voice "Marina") | Claude via ElevenLabs | **done** — about 5,900 credits |
 | `courses.json` | Claude | **done** |
 | Lovable Phase 1 + 2 | after 17 Nov | ~8–12 Lovable credits |
+
+## 11. Build order in Lovable (one part per day of free credits)
+
+Each part stays under 5 credits so it never stops halfway, and Thai keeps working after every part.
+
+| Day | Part | What | Learners see |
+|---|---|---|---|
+| 1 | **1a: groundwork** | Database (active course, learner_courses, RPCs), courses.json loader, per-course content URLs and cache keys, `text` → `thai` mapping, content pin bumped to the commit with the Torito pictures | Nothing changes yet |
+| 2 | **1b: choosing a language** | Flag chip in the top bar, "My languages" on the Me page, "What would you like to learn?" step for new learners | Spanish appears |
+| 3 | **1c: Torito and speech** | Torito as mascot for Spanish, es-ES speech and fallback voice, accent-free speech matching, Review/Practice use the active course | Spanish fully works |
