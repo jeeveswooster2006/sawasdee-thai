@@ -204,7 +204,7 @@ def make_stills(comfy, info, clips, gpu, course, seed_offset):
         target = OUT / "stills" / f"{c['id']}.png"
         if target.exists():
             continue
-        prompt = f"{art.CHARACTER}. Scene: {art.NAME} {c['scene']}. {STILL_STYLE}"
+        prompt = f"{art.CHARACTER}. Scene: {art.NAME} {c['scene']}. {art.ANATOMY} {STILL_STYLE}"
         wf = art.build_workflow(models, redux, ref_name, prompt, art.unit_seed(c["id"], 0, seed_offset), fa, info)
         print(f"[picture {n}/{len(clips)}] {c['id']}: making...", flush=True)
         started = time.time()
@@ -231,7 +231,7 @@ def make_clips(comfy, info, clips, args):
         if target.exists() or not still.exists():
             continue
         image_name = comfy.upload_image(still)
-        prompt = f"{c['motion']}. {MOTION_STYLE}"
+        prompt = f"{c['motion']}. {art.ANATOMY} {MOTION_STYLE}"
         wf = wan_workflow(info, wan, image_name, prompt, art.unit_seed(c["id"], 1, args.seed_offset), args)
         print(f"[clip {n}/{len(clips)}] {c['id']}: animating... (expect 10-20+ minutes on an RX 7800 XT)", flush=True)
         started = time.time()

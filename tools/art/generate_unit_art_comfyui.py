@@ -47,6 +47,8 @@ CHARACTER = (
     "gold Thai flame-shaped ornament on top of the head, wearing a deep teal scarf with an ornate "
     "gold Thai temple-pattern border"
 )
+ANATOMY = 'Every animal has the correct number of limbs for its species: elephants, bulls, dogs, cats and other four-legged animals have exactly four legs and no hands or arms; birds have exactly two legs and two wings; people have two arms and two legs; no extra, missing, merged or duplicated limbs.'  # always added to picture prompts
+
 STYLE = (
     "Soft, polished children's picture-book illustration with gentle painterly shading, clean "
     "rounded shapes and warm friendly lighting. Simple uncluttered warm ivory background with "
@@ -863,7 +865,7 @@ def main():
         if target.exists() and not args.force and not redo:
             skipped += 1
             continue
-        prompt = f"{CHARACTER}. Scene: {NAME} {u['scene']}. {STYLE}"
+        prompt = f"{CHARACTER}. Scene: {NAME} {u['scene']}. {ANATOMY} {STYLE}"
         workflow = build_workflow(models, redux, ref_name, prompt, unit_seed(u["unit_id"], v, args.seed_offset), args, info)
         if args.dry_run:
             print(json.dumps(workflow, ensure_ascii=False, indent=1))
