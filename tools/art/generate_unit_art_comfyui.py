@@ -373,7 +373,12 @@ def download_small_flux(comfy, info):
         part.replace(target)
         print("Download finished.")
     for _ in range(30):  # ComfyUI notices new model files on its own; give it a moment
-        if SMALL_FLUX_NAME in options(comfy.get_json("/object_info"), "CheckpointLoaderSimple", "ckpt_name"):
+        try:
+            listed = options(comfy.get_json("/object_info"), "CheckpointLoaderSimple", "ckpt_name")
+        except OSError:  # ComfyUI was closed during the download
+            print("The file is downloaded. Open ComfyUI again, then run your next command.")
+            return True
+        if SMALL_FLUX_NAME in listed:
             return True
         time.sleep(2)
     print("The file is downloaded but ComfyUI doesn't list it yet. Restart ComfyUI and run this again.")
