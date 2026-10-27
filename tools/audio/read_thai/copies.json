@@ -1,0 +1,20 @@
+{
+ "rt-vowel-ไอ": [
+  "rt-vowel-ใอ"
+ ],
+ "rt-tone-mid": [
+  "rt-mark-gaa"
+ ],
+ "rt-tone-low": [
+  "rt-mark-ek"
+ ],
+ "rt-tone-falling": [
+  "rt-mark-tho"
+ ],
+ "rt-tone-high": [
+  "rt-mark-tri"
+ ],
+ "rt-tone-rising": [
+  "rt-mark-chattawa"
+ ]
+}

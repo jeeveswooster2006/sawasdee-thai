@@ -7,13 +7,20 @@ word's Thai text length predicts. That stops a long phrase with an internal paus
 Usage: python3 split_audio.py 0 1 2 ...   (batch numbers from audio_groups.json)
 """
 import json, math, re, subprocess, sys, os
-import imageio_ffmpeg
-FF = imageio_ffmpeg.get_ffmpeg_exe()
+try:
+    import imageio_ffmpeg
+    FF = imageio_ffmpeg.get_ffmpeg_exe()
+except ImportError:
+    FF = 'ffmpeg'
 groups = json.load(open('audio_groups.json', encoding='utf-8'))
 LAMBDA = 0.6
 
 
-def silences(path, noise='-40dB', d=0.2):
+NOISE, MIN_GAP = os.environ.get('NOISE', '-40dB'), float(os.environ.get('MIN_GAP', '0.2'))
+
+
+def silences(path, noise=None, d=None):
+    noise, d = noise or NOISE, d or MIN_GAP
     out = subprocess.run([FF, '-hide_banner', '-i', path, '-af', f'silencedetect=noise={noise}:d={d}', '-f', 'null', '-'],
                          capture_output=True, text=True).stderr
     h, m, s = re.search(r'Duration: (\d+):(\d+):([\d.]+)', out).groups()
