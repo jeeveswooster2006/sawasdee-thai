@@ -10,6 +10,7 @@ Run from the repository folder while ComfyUI is running:
     py -3.12 tools\\video\\generate_clips_comfyui.py                  (all clips that aren't made yet)
     py -3.12 tools\\video\\generate_clips_comfyui.py --clips hello-temple,hot-beach
     py -3.12 tools\\video\\generate_clips_comfyui.py --stills-only    (just the pictures, to check them first)
+    py -3.12 tools\\video\\generate_clips_comfyui.py --set intro      (the 4-clip family intro video for TikTok)
 
 Set up for an AMD RX 7800 XT (16 GB): the Wan 2.2 5B model in normal .safetensors files (GGUF versions run very
 slowly on that card), a tiled video decoder to save memory, and models unloaded between the picture and video steps.
@@ -314,6 +315,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--url", help="ComfyUI address (default: tries 127.0.0.1:8188, then 127.0.0.1:8000)")
     ap.add_argument("--course", choices=sorted(art.COURSES), default="th", help="th = Nong Chang (default), es = Torito")
+    ap.add_argument("--set", help="which clip list to use: intro = the 4-clip family intro video (default: the course list)")
     ap.add_argument("--clips", help="comma-separated clip ids (default: all in the list)")
     ap.add_argument("--test", action="store_true", help="one short, small clip (2 s, 480x832) to check everything works")
     ap.add_argument("--stills-only", action="store_true", help="only make the still pictures")
@@ -328,7 +330,7 @@ def main():
     args.frames = (args.frames - 1) // 4 * 4 + 1
 
     course = art.use_course(args.course)
-    spec = json.loads((HERE / f"clips_{args.course}.json").read_text(encoding="utf-8"))
+    spec = json.loads((HERE / f"clips_{args.set or args.course}.json").read_text(encoding="utf-8"))
     clips = spec["clips"]
     if args.clips:
         wanted = {x.strip() for x in args.clips.split(",")}
