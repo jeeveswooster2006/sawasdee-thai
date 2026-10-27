@@ -56,7 +56,7 @@ STILL_STYLE = (
 )
 MOTION_STYLE = ("Smooth, gentle children's cartoon animation, keep the character exactly the same as in the picture, "
                 "same face, scarf and gold ornament, natural movement, steady camera.")
-NEGATIVE = ("extra legs, extra limbs, six legs, arms, hands, fingers, deformed, distorted face, blurry, flicker, "
+NEGATIVE = ("extra legs, extra limbs, six legs, arms, hands, fingers, standing on two legs, upright like a person, waving a foot, tusks, two tails, deformed, distorted face, blurry, flicker, "
             "text, subtitles, watermark, logo, still image, frozen, ugly, low quality, jpeg artifacts")
 
 
