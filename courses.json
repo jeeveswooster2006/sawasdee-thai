@@ -2,5 +2,5 @@
  {"id": "th", "name": "Thai", "native": "ภาษาไทย", "flag": "🇹🇭", "mascot": "Nong Chang", "speechLang": "th-TH",
   "curriculum": "data/curriculum.json", "audio": "audio/", "art": "art/units/", "mascotImage": "tools/art/mascot.png", "extraTrack": "read-thai"},
  {"id": "es", "name": "Spanish", "native": "Español", "flag": "🇪🇸", "mascot": "Torito", "speechLang": "es-ES",
-  "curriculum": "courses/es/curriculum.json", "audio": "courses/es/audio/", "art": "courses/es/art/units/", "mascotImage": "courses/es/art/mascot.png", "extraTrack": null}
+  "curriculum": "courses/es/curriculum.json", "audio": "courses/es/audio/", "art": "courses/es/art/units/", "mascotImage": "courses/es/art/mascot.png", "extraTrack": "sounds-of-spanish", "extraTrackFile": "courses/es/sounds-of-spanish.json"}
 ]
