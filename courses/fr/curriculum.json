@@ -1,0 +1,3880 @@
+[
+ {
+  "level": "Beginner",
+  "units": [
+   {
+    "id": "fr-basics1",
+    "title": "Greetings",
+    "tagline": "The words you'll use every single day.",
+    "lessons": [
+     {
+      "id": "fr-b1-l1",
+      "title": "Hello & thanks",
+      "words": [
+       {
+        "id": "fr-b1-l1-0",
+        "text": "Bonjour",
+        "en": "Hello",
+        "accept": [
+         "hi",
+         "hiya",
+         "good morning",
+         "good day"
+        ],
+        "emoji": "👋",
+        "note": "Use bonjour all day. In the evening it becomes bonsoir."
+       },
+       {
+        "id": "fr-b1-l1-1",
+        "text": "Merci",
+        "en": "Thank you",
+        "accept": [
+         "thanks",
+         "thank you very much"
+        ],
+        "emoji": "🙏"
+       },
+       {
+        "id": "fr-b1-l1-2",
+        "text": "Oui",
+        "en": "Yes",
+        "accept": [
+         "yeah"
+        ],
+        "emoji": "✅",
+        "note": "Sounds like 'wee'."
+       },
+       {
+        "id": "fr-b1-l1-3",
+        "text": "Non",
+        "en": "No",
+        "emoji": "❌",
+        "note": "Almost the same as English! Say it through your nose and don't finish the n: noh(n)."
+       },
+       {
+        "id": "fr-b1-l1-4",
+        "text": "Pardon",
+        "en": "Sorry",
+        "accept": [
+         "excuse me",
+         "pardon",
+         "pardon me"
+        ],
+        "emoji": "😔",
+        "note": "Same spelling as English, said par-DOHN."
+       },
+       {
+        "id": "fr-b1-l1-5",
+        "text": "De rien",
+        "en": "You're welcome",
+        "accept": [
+         "no problem",
+         "not at all",
+         "you are welcome"
+        ],
+        "emoji": "😌"
+       }
+      ]
+     },
+     {
+      "id": "fr-b1-l2",
+      "title": "How are you?",
+      "words": [
+       {
+        "id": "fr-b1-l2-0",
+        "text": "Ça va ?",
+        "en": "How are you?",
+        "accept": [
+         "how's it going",
+         "how are things",
+         "how are you doing"
+        ],
+        "emoji": "🙂",
+        "note": "Ask it with ça va? and answer it with ça va! (I'm fine)."
+       },
+       {
+        "id": "fr-b1-l2-1",
+        "text": "Bien",
+        "en": "Good",
+        "accept": [
+         "well",
+         "fine",
+         "ok"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "fr-b1-l2-2",
+        "text": "Très bien",
+        "en": "Very good",
+        "accept": [
+         "very well",
+         "really good"
+        ],
+        "emoji": "😄"
+       },
+       {
+        "id": "fr-b1-l2-3",
+        "text": "Et toi ?",
+        "en": "And you?",
+        "accept": [
+         "what about you",
+         "and yourself"
+        ],
+        "emoji": "🫵"
+       },
+       {
+        "id": "fr-b1-l2-4",
+        "text": "Au revoir",
+        "en": "Goodbye",
+        "accept": [
+         "bye",
+         "bye bye"
+        ],
+        "emoji": "👋"
+       },
+       {
+        "id": "fr-b1-l2-5",
+        "text": "À plus tard",
+        "en": "See you later",
+        "accept": [
+         "see you",
+         "bye for now",
+         "later"
+        ],
+        "emoji": "🙋"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-numbers1",
+    "title": "Numbers 1–10",
+    "tagline": "Count on your fingers together.",
+    "lessons": [
+     {
+      "id": "fr-n1-l1",
+      "title": "One to five",
+      "words": [
+       {
+        "id": "fr-n1-l1-0",
+        "text": "un",
+        "en": "One",
+        "accept": [
+         "1"
+        ],
+        "emoji": "1️⃣"
+       },
+       {
+        "id": "fr-n1-l1-1",
+        "text": "deux",
+        "en": "Two",
+        "accept": [
+         "2"
+        ],
+        "emoji": "2️⃣"
+       },
+       {
+        "id": "fr-n1-l1-2",
+        "text": "trois",
+        "en": "Three",
+        "accept": [
+         "3"
+        ],
+        "emoji": "3️⃣"
+       },
+       {
+        "id": "fr-n1-l1-3",
+        "text": "quatre",
+        "en": "Four",
+        "accept": [
+         "4"
+        ],
+        "emoji": "4️⃣"
+       },
+       {
+        "id": "fr-n1-l1-4",
+        "text": "cinq",
+        "en": "Five",
+        "accept": [
+         "5"
+        ],
+        "emoji": "5️⃣"
+       }
+      ]
+     },
+     {
+      "id": "fr-n1-l2",
+      "title": "Six to ten",
+      "words": [
+       {
+        "id": "fr-n1-l2-0",
+        "text": "six",
+        "en": "Six",
+        "accept": [
+         "6"
+        ],
+        "emoji": "6️⃣",
+        "note": "Said 'seess'."
+       },
+       {
+        "id": "fr-n1-l2-1",
+        "text": "sept",
+        "en": "Seven",
+        "accept": [
+         "7"
+        ],
+        "emoji": "7️⃣",
+        "note": "The p is silent: set."
+       },
+       {
+        "id": "fr-n1-l2-2",
+        "text": "huit",
+        "en": "Eight",
+        "accept": [
+         "8"
+        ],
+        "emoji": "8️⃣",
+        "note": "Said 'weet'."
+       },
+       {
+        "id": "fr-n1-l2-3",
+        "text": "neuf",
+        "en": "Nine",
+        "accept": [
+         "9"
+        ],
+        "emoji": "9️⃣"
+       },
+       {
+        "id": "fr-n1-l2-4",
+        "text": "dix",
+        "en": "Ten",
+        "accept": [
+         "10"
+        ],
+        "emoji": "🔟",
+        "note": "Said 'deess'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-numbers2",
+    "title": "Bigger Numbers",
+    "tagline": "Eleven, twenty, and counting by tens.",
+    "lessons": [
+     {
+      "id": "fr-n2-l1",
+      "title": "Eleven to fifteen",
+      "words": [
+       {
+        "id": "fr-n2-l1-0",
+        "text": "onze",
+        "en": "Eleven",
+        "accept": [
+         "11"
+        ]
+       },
+       {
+        "id": "fr-n2-l1-1",
+        "text": "douze",
+        "en": "Twelve",
+        "accept": [
+         "12"
+        ]
+       },
+       {
+        "id": "fr-n2-l1-2",
+        "text": "treize",
+        "en": "Thirteen",
+        "accept": [
+         "13"
+        ]
+       },
+       {
+        "id": "fr-n2-l1-3",
+        "text": "quatorze",
+        "en": "Fourteen",
+        "accept": [
+         "14"
+        ]
+       },
+       {
+        "id": "fr-n2-l1-4",
+        "text": "quinze",
+        "en": "Fifteen",
+        "accept": [
+         "15"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "fr-n2-l2",
+      "title": "Counting by tens",
+      "words": [
+       {
+        "id": "fr-n2-l2-0",
+        "text": "vingt",
+        "en": "Twenty",
+        "accept": [
+         "20"
+        ],
+        "note": "The g and t are silent: van."
+       },
+       {
+        "id": "fr-n2-l2-1",
+        "text": "trente",
+        "en": "Thirty",
+        "accept": [
+         "30"
+        ]
+       },
+       {
+        "id": "fr-n2-l2-2",
+        "text": "quarante",
+        "en": "Forty",
+        "accept": [
+         "40"
+        ]
+       },
+       {
+        "id": "fr-n2-l2-3",
+        "text": "cinquante",
+        "en": "Fifty",
+        "accept": [
+         "50"
+        ]
+       },
+       {
+        "id": "fr-n2-l2-4",
+        "text": "cent",
+        "en": "One hundred",
+        "accept": [
+         "100",
+         "a hundred",
+         "hundred"
+        ],
+        "emoji": "💯",
+        "note": "The t is silent: son."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-family",
+    "title": "Family",
+    "tagline": "Maman, papa and everyone in between. Le = he, la = she.",
+    "lessons": [
+     {
+      "id": "fr-fam-l1",
+      "title": "Close family",
+      "words": [
+       {
+        "id": "fr-fam-l1-0",
+        "text": "la mère",
+        "en": "Mother",
+        "accept": [
+         "mum",
+         "mom",
+         "mummy",
+         "the mother"
+        ],
+        "emoji": "👩",
+        "note": "Maman is 'mum'."
+       },
+       {
+        "id": "fr-fam-l1-1",
+        "text": "le père",
+        "en": "Father",
+        "accept": [
+         "dad",
+         "daddy",
+         "the father"
+        ],
+        "emoji": "👨",
+        "note": "Papa is 'dad'."
+       },
+       {
+        "id": "fr-fam-l1-2",
+        "text": "le frère",
+        "en": "Brother",
+        "accept": [
+         "the brother"
+        ],
+        "emoji": "👦"
+       },
+       {
+        "id": "fr-fam-l1-3",
+        "text": "la sœur",
+        "en": "Sister",
+        "accept": [
+         "the sister"
+        ],
+        "emoji": "👧"
+       },
+       {
+        "id": "fr-fam-l1-4",
+        "text": "le fils",
+        "en": "Son",
+        "accept": [
+         "the son"
+        ],
+        "emoji": "🧒",
+        "note": "The l is silent: feess."
+       },
+       {
+        "id": "fr-fam-l1-5",
+        "text": "la fille",
+        "en": "Daughter",
+        "accept": [
+         "the daughter",
+         "girl"
+        ],
+        "emoji": "👶",
+        "note": "Fille also means 'girl'."
+       }
+      ]
+     },
+     {
+      "id": "fr-fam-l2",
+      "title": "Grandparents & more",
+      "words": [
+       {
+        "id": "fr-fam-l2-0",
+        "text": "le grand-père",
+        "en": "Grandfather",
+        "accept": [
+         "grandad",
+         "grandpa",
+         "granddad"
+        ],
+        "emoji": "👴"
+       },
+       {
+        "id": "fr-fam-l2-1",
+        "text": "la grand-mère",
+        "en": "Grandmother",
+        "accept": [
+         "grandma",
+         "granny",
+         "nan",
+         "nana"
+        ],
+        "emoji": "👵"
+       },
+       {
+        "id": "fr-fam-l2-2",
+        "text": "l'oncle",
+        "en": "Uncle",
+        "accept": [
+         "the uncle"
+        ],
+        "emoji": "🧔"
+       },
+       {
+        "id": "fr-fam-l2-3",
+        "text": "la tante",
+        "en": "Aunt",
+        "accept": [
+         "auntie",
+         "aunty"
+        ],
+        "emoji": "👩‍🦰"
+       },
+       {
+        "id": "fr-fam-l2-4",
+        "text": "le cousin",
+        "en": "Cousin",
+        "accept": [
+         "cousin (boy)"
+        ],
+        "emoji": "🧑",
+        "note": "A girl cousin is la cousine."
+       },
+       {
+        "id": "fr-fam-l2-5",
+        "text": "la famille",
+        "en": "Family",
+        "accept": [
+         "the family"
+        ],
+        "emoji": "👨‍👩‍👧‍👦"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-colors",
+    "title": "Colours & Shapes",
+    "tagline": "The colour usually comes after the thing: une voiture rouge, a red car.",
+    "lessons": [
+     {
+      "id": "fr-col-l1",
+      "title": "Colours",
+      "words": [
+       {
+        "id": "fr-col-l1-0",
+        "text": "rouge",
+        "en": "Red",
+        "emoji": "🔴",
+        "swatch": "#c0392b"
+       },
+       {
+        "id": "fr-col-l1-1",
+        "text": "bleu",
+        "en": "Blue",
+        "emoji": "🔵",
+        "swatch": "#1f5fa8"
+       },
+       {
+        "id": "fr-col-l1-2",
+        "text": "vert",
+        "en": "Green",
+        "emoji": "🟢",
+        "swatch": "#2e8b57"
+       },
+       {
+        "id": "fr-col-l1-3",
+        "text": "jaune",
+        "en": "Yellow",
+        "emoji": "🟡",
+        "swatch": "#f1c40f"
+       },
+       {
+        "id": "fr-col-l1-4",
+        "text": "noir",
+        "en": "Black",
+        "emoji": "⚫",
+        "swatch": "#222222"
+       },
+       {
+        "id": "fr-col-l1-5",
+        "text": "blanc",
+        "en": "White",
+        "emoji": "⚪",
+        "swatch": "#f8f8f8"
+       }
+      ]
+     },
+     {
+      "id": "fr-col-l2",
+      "title": "Shapes",
+      "words": [
+       {
+        "id": "fr-col-l2-0",
+        "text": "le cercle",
+        "en": "Circle",
+        "accept": [
+         "a circle"
+        ],
+        "emoji": "⭕"
+       },
+       {
+        "id": "fr-col-l2-1",
+        "text": "le carré",
+        "en": "Square",
+        "accept": [
+         "a square"
+        ],
+        "emoji": "🟥"
+       },
+       {
+        "id": "fr-col-l2-2",
+        "text": "le triangle",
+        "en": "Triangle",
+        "accept": [
+         "a triangle"
+        ],
+        "emoji": "🔺"
+       },
+       {
+        "id": "fr-col-l2-3",
+        "text": "l'étoile",
+        "en": "Star",
+        "accept": [
+         "a star"
+        ],
+        "emoji": "⭐"
+       },
+       {
+        "id": "fr-col-l2-4",
+        "text": "le cœur",
+        "en": "Heart",
+        "accept": [
+         "a heart"
+        ],
+        "emoji": "❤️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-food",
+    "title": "Food & Drink",
+    "tagline": "Croissants, cheese and everything in between.",
+    "lessons": [
+     {
+      "id": "fr-food-l1",
+      "title": "Foods",
+      "words": [
+       {
+        "id": "fr-food-l1-0",
+        "text": "le pain",
+        "en": "Bread",
+        "emoji": "🍞"
+       },
+       {
+        "id": "fr-food-l1-1",
+        "text": "le fromage",
+        "en": "Cheese",
+        "emoji": "🧀"
+       },
+       {
+        "id": "fr-food-l1-2",
+        "text": "le riz",
+        "en": "Rice",
+        "emoji": "🍚"
+       },
+       {
+        "id": "fr-food-l1-3",
+        "text": "la pomme",
+        "en": "Apple",
+        "accept": [
+         "an apple"
+        ],
+        "emoji": "🍎"
+       },
+       {
+        "id": "fr-food-l1-4",
+        "text": "le poulet",
+        "en": "Chicken",
+        "emoji": "🍗"
+       },
+       {
+        "id": "fr-food-l1-5",
+        "text": "l'œuf",
+        "en": "Egg",
+        "accept": [
+         "an egg"
+        ],
+        "emoji": "🥚"
+       }
+      ]
+     },
+     {
+      "id": "fr-food-l2",
+      "title": "Drinks & taste",
+      "words": [
+       {
+        "id": "fr-food-l2-0",
+        "text": "l'eau",
+        "en": "Water",
+        "emoji": "💧",
+        "note": "Eau sounds just like 'oh'."
+       },
+       {
+        "id": "fr-food-l2-1",
+        "text": "le lait",
+        "en": "Milk",
+        "emoji": "🥛"
+       },
+       {
+        "id": "fr-food-l2-2",
+        "text": "le jus",
+        "en": "Juice",
+        "emoji": "🧃"
+       },
+       {
+        "id": "fr-food-l2-3",
+        "text": "le café",
+        "en": "Coffee",
+        "emoji": "☕"
+       },
+       {
+        "id": "fr-food-l2-4",
+        "text": "délicieux",
+        "en": "Tasty",
+        "accept": [
+         "delicious",
+         "yummy"
+        ],
+        "emoji": "😋"
+       },
+       {
+        "id": "fr-food-l2-5",
+        "text": "épicé",
+        "en": "Spicy",
+        "accept": [
+         "hot"
+        ],
+        "emoji": "🌶️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-phrases",
+    "title": "Everyday Phrases",
+    "tagline": "Small words that unlock real conversations.",
+    "lessons": [
+     {
+      "id": "fr-phr-l1",
+      "title": "Asking for things",
+      "words": [
+       {
+        "id": "fr-phr-l1-0",
+        "text": "s'il vous plaît",
+        "en": "Please",
+        "emoji": "🥺",
+        "note": "To friends and family, say s'il te plaît."
+       },
+       {
+        "id": "fr-phr-l1-1",
+        "text": "je voudrais",
+        "en": "I would like",
+        "accept": [
+         "i'd like",
+         "i want"
+        ],
+        "emoji": "🙋"
+       },
+       {
+        "id": "fr-phr-l1-2",
+        "text": "j'ai besoin de",
+        "en": "I need",
+        "emoji": "🙌"
+       },
+       {
+        "id": "fr-phr-l1-3",
+        "text": "Où sont les toilettes ?",
+        "en": "Where is the toilet?",
+        "accept": [
+         "where's the toilet",
+         "where is the bathroom",
+         "where's the bathroom",
+         "where are the toilets"
+        ],
+        "emoji": "🚻"
+       },
+       {
+        "id": "fr-phr-l1-4",
+        "text": "Je ne comprends pas",
+        "en": "I don't understand",
+        "accept": [
+         "i do not understand"
+        ],
+        "emoji": "🤷"
+       },
+       {
+        "id": "fr-phr-l1-5",
+        "text": "Plus lentement, s'il vous plaît",
+        "en": "Slower, please",
+        "accept": [
+         "more slowly please",
+         "slowly please"
+        ],
+        "emoji": "🐢"
+       }
+      ]
+     },
+     {
+      "id": "fr-phr-l2",
+      "title": "Question words",
+      "words": [
+       {
+        "id": "fr-phr-l2-0",
+        "text": "Quoi ?",
+        "en": "What?",
+        "emoji": "❓"
+       },
+       {
+        "id": "fr-phr-l2-1",
+        "text": "Qui ?",
+        "en": "Who?",
+        "emoji": "🧑"
+       },
+       {
+        "id": "fr-phr-l2-2",
+        "text": "Où ?",
+        "en": "Where?",
+        "emoji": "📍"
+       },
+       {
+        "id": "fr-phr-l2-3",
+        "text": "Quand ?",
+        "en": "When?",
+        "emoji": "🕐"
+       },
+       {
+        "id": "fr-phr-l2-4",
+        "text": "Pourquoi ?",
+        "en": "Why?",
+        "emoji": "🤔"
+       },
+       {
+        "id": "fr-phr-l2-5",
+        "text": "Combien ?",
+        "en": "How much?",
+        "accept": [
+         "how many"
+        ],
+        "emoji": "💰"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-time",
+    "title": "Time & Days",
+    "tagline": "Days of the week — and no capital letters in French!",
+    "lessons": [
+     {
+      "id": "fr-time-l1",
+      "title": "Weekdays",
+      "words": [
+       {
+        "id": "fr-time-l1-0",
+        "text": "lundi",
+        "en": "Monday"
+       },
+       {
+        "id": "fr-time-l1-1",
+        "text": "mardi",
+        "en": "Tuesday"
+       },
+       {
+        "id": "fr-time-l1-2",
+        "text": "mercredi",
+        "en": "Wednesday"
+       },
+       {
+        "id": "fr-time-l1-3",
+        "text": "jeudi",
+        "en": "Thursday"
+       },
+       {
+        "id": "fr-time-l1-4",
+        "text": "vendredi",
+        "en": "Friday"
+       }
+      ]
+     },
+     {
+      "id": "fr-time-l2",
+      "title": "Weekend & today",
+      "words": [
+       {
+        "id": "fr-time-l2-0",
+        "text": "samedi",
+        "en": "Saturday"
+       },
+       {
+        "id": "fr-time-l2-1",
+        "text": "dimanche",
+        "en": "Sunday"
+       },
+       {
+        "id": "fr-time-l2-2",
+        "text": "aujourd'hui",
+        "en": "Today",
+        "emoji": "📅"
+       },
+       {
+        "id": "fr-time-l2-3",
+        "text": "demain",
+        "en": "Tomorrow",
+        "emoji": "🌅"
+       },
+       {
+        "id": "fr-time-l2-4",
+        "text": "hier",
+        "en": "Yesterday",
+        "emoji": "⏪"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-places",
+    "title": "Places & Directions",
+    "tagline": "Getting around town.",
+    "lessons": [
+     {
+      "id": "fr-pl-l1",
+      "title": "Places",
+      "words": [
+       {
+        "id": "fr-pl-l1-0",
+        "text": "la maison",
+        "en": "House",
+        "accept": [
+         "home",
+         "the house"
+        ],
+        "emoji": "🏠"
+       },
+       {
+        "id": "fr-pl-l1-1",
+        "text": "l'école",
+        "en": "School",
+        "accept": [
+         "the school"
+        ],
+        "emoji": "🏫"
+       },
+       {
+        "id": "fr-pl-l1-2",
+        "text": "la plage",
+        "en": "Beach",
+        "accept": [
+         "the beach"
+        ],
+        "emoji": "🏖️"
+       },
+       {
+        "id": "fr-pl-l1-3",
+        "text": "le parc",
+        "en": "Park",
+        "accept": [
+         "the park"
+        ],
+        "emoji": "🌳"
+       },
+       {
+        "id": "fr-pl-l1-4",
+        "text": "le magasin",
+        "en": "Shop",
+        "accept": [
+         "store",
+         "the shop"
+        ],
+        "emoji": "🏪"
+       },
+       {
+        "id": "fr-pl-l1-5",
+        "text": "l'hôpital",
+        "en": "Hospital",
+        "accept": [
+         "the hospital"
+        ],
+        "emoji": "🏥",
+        "note": "The h is silent: oh-pee-TAL."
+       }
+      ]
+     },
+     {
+      "id": "fr-pl-l2",
+      "title": "Directions",
+      "words": [
+       {
+        "id": "fr-pl-l2-0",
+        "text": "à gauche",
+        "en": "On the left",
+        "accept": [
+         "left",
+         "to the left"
+        ],
+        "emoji": "⬅️"
+       },
+       {
+        "id": "fr-pl-l2-1",
+        "text": "à droite",
+        "en": "On the right",
+        "accept": [
+         "right",
+         "to the right"
+        ],
+        "emoji": "➡️"
+       },
+       {
+        "id": "fr-pl-l2-2",
+        "text": "tout droit",
+        "en": "Straight on",
+        "accept": [
+         "straight ahead",
+         "straight"
+        ],
+        "emoji": "⬆️"
+       },
+       {
+        "id": "fr-pl-l2-3",
+        "text": "ici",
+        "en": "Here",
+        "emoji": "📌"
+       },
+       {
+        "id": "fr-pl-l2-4",
+        "text": "là-bas",
+        "en": "There",
+        "accept": [
+         "over there"
+        ],
+        "emoji": "👉"
+       },
+       {
+        "id": "fr-pl-l2-5",
+        "text": "près",
+        "en": "Near",
+        "accept": [
+         "close",
+         "nearby"
+        ],
+        "emoji": "🤏"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-shopping",
+    "title": "Shopping & Money",
+    "tagline": "Prices, paying and 'just looking'.",
+    "lessons": [
+     {
+      "id": "fr-shop-l1",
+      "title": "At the shop",
+      "words": [
+       {
+        "id": "fr-shop-l1-0",
+        "text": "C'est combien ?",
+        "en": "How much is it?",
+        "accept": [
+         "how much does it cost",
+         "how much"
+        ],
+        "emoji": "🏷️"
+       },
+       {
+        "id": "fr-shop-l1-1",
+        "text": "cher",
+        "en": "Expensive",
+        "accept": [
+         "dear"
+        ],
+        "emoji": "💸"
+       },
+       {
+        "id": "fr-shop-l1-2",
+        "text": "pas cher",
+        "en": "Cheap",
+        "accept": [
+         "inexpensive",
+         "not expensive"
+        ],
+        "emoji": "🪙"
+       },
+       {
+        "id": "fr-shop-l1-3",
+        "text": "Je regarde seulement",
+        "en": "I'm just looking",
+        "accept": [
+         "just looking",
+         "i am just looking"
+        ],
+        "emoji": "👀"
+       },
+       {
+        "id": "fr-shop-l1-4",
+        "text": "la taille",
+        "en": "Size",
+        "accept": [
+         "clothes size"
+        ],
+        "emoji": "👕"
+       },
+       {
+        "id": "fr-shop-l1-5",
+        "text": "Je le prends",
+        "en": "I'll take it",
+        "accept": [
+         "i will take it"
+        ],
+        "emoji": "🛍️"
+       }
+      ]
+     },
+     {
+      "id": "fr-shop-l2",
+      "title": "Paying up",
+      "words": [
+       {
+        "id": "fr-shop-l2-0",
+        "text": "l'argent",
+        "en": "Money",
+        "emoji": "💶",
+        "note": "Argent also means 'silver'."
+       },
+       {
+        "id": "fr-shop-l2-1",
+        "text": "la carte bancaire",
+        "en": "Card",
+        "accept": [
+         "bank card",
+         "credit card",
+         "debit card"
+        ],
+        "emoji": "💳"
+       },
+       {
+        "id": "fr-shop-l2-2",
+        "text": "en espèces",
+        "en": "In cash",
+        "accept": [
+         "cash"
+        ],
+        "emoji": "💵"
+       },
+       {
+        "id": "fr-shop-l2-3",
+        "text": "l'addition",
+        "en": "The bill",
+        "accept": [
+         "bill",
+         "check",
+         "the check"
+        ],
+        "emoji": "🧾"
+       },
+       {
+        "id": "fr-shop-l2-4",
+        "text": "la monnaie",
+        "en": "Change",
+        "accept": [
+         "the change"
+        ],
+        "emoji": "🪙"
+       },
+       {
+        "id": "fr-shop-l2-5",
+        "text": "la boutique de souvenirs",
+        "en": "Gift shop",
+        "accept": [
+         "souvenir shop",
+         "the gift shop"
+        ],
+        "emoji": "🎁"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-travel",
+    "title": "Travel & Transport",
+    "tagline": "How you'll get to France — and around it.",
+    "lessons": [
+     {
+      "id": "fr-trv-l1",
+      "title": "Getting around",
+      "words": [
+       {
+        "id": "fr-trv-l1-0",
+        "text": "la voiture",
+        "en": "Car",
+        "accept": [
+         "the car"
+        ],
+        "emoji": "🚗"
+       },
+       {
+        "id": "fr-trv-l1-1",
+        "text": "le bus",
+        "en": "Bus",
+        "accept": [
+         "the bus"
+        ],
+        "emoji": "🚌"
+       },
+       {
+        "id": "fr-trv-l1-2",
+        "text": "le train",
+        "en": "Train",
+        "accept": [
+         "the train"
+        ],
+        "emoji": "🚆"
+       },
+       {
+        "id": "fr-trv-l1-3",
+        "text": "l'avion",
+        "en": "Plane",
+        "accept": [
+         "aeroplane",
+         "airplane",
+         "the plane"
+        ],
+        "emoji": "✈️"
+       },
+       {
+        "id": "fr-trv-l1-4",
+        "text": "le vélo",
+        "en": "Bike",
+        "accept": [
+         "bicycle",
+         "the bike"
+        ],
+        "emoji": "🚲"
+       },
+       {
+        "id": "fr-trv-l1-5",
+        "text": "à pied",
+        "en": "On foot",
+        "accept": [
+         "walking"
+        ],
+        "emoji": "🚶"
+       }
+      ]
+     },
+     {
+      "id": "fr-trv-l2",
+      "title": "At the airport",
+      "words": [
+       {
+        "id": "fr-trv-l2-0",
+        "text": "l'aéroport",
+        "en": "Airport",
+        "accept": [
+         "the airport"
+        ],
+        "emoji": "🛫"
+       },
+       {
+        "id": "fr-trv-l2-1",
+        "text": "le passeport",
+        "en": "Passport",
+        "accept": [
+         "the passport"
+        ],
+        "emoji": "🛂"
+       },
+       {
+        "id": "fr-trv-l2-2",
+        "text": "la valise",
+        "en": "Suitcase",
+        "accept": [
+         "the suitcase",
+         "luggage"
+        ],
+        "emoji": "🧳"
+       },
+       {
+        "id": "fr-trv-l2-3",
+        "text": "le billet",
+        "en": "Ticket",
+        "accept": [
+         "the ticket"
+        ],
+        "emoji": "🎫"
+       },
+       {
+        "id": "fr-trv-l2-4",
+        "text": "la porte",
+        "en": "Gate",
+        "accept": [
+         "door",
+         "the gate"
+        ],
+        "emoji": "🚪"
+       },
+       {
+        "id": "fr-trv-l2-5",
+        "text": "le vol",
+        "en": "Flight",
+        "accept": [
+         "the flight"
+        ],
+        "emoji": "🛬"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-weather",
+    "title": "Weather & Seasons",
+    "tagline": "Small talk that works anywhere — the French love to talk about the weather too!",
+    "lessons": [
+     {
+      "id": "fr-wx-l1",
+      "title": "What's it like out?",
+      "words": [
+       {
+        "id": "fr-wx-l1-0",
+        "text": "Il fait chaud",
+        "en": "It's hot",
+        "accept": [
+         "it is hot"
+        ],
+        "emoji": "🥵"
+       },
+       {
+        "id": "fr-wx-l1-1",
+        "text": "Il fait froid",
+        "en": "It's cold",
+        "accept": [
+         "it is cold"
+        ],
+        "emoji": "🥶"
+       },
+       {
+        "id": "fr-wx-l1-2",
+        "text": "Il y a du soleil",
+        "en": "It's sunny",
+        "accept": [
+         "it is sunny"
+        ],
+        "emoji": "☀️"
+       },
+       {
+        "id": "fr-wx-l1-3",
+        "text": "Il pleut",
+        "en": "It's raining",
+        "accept": [
+         "it is raining",
+         "it rains"
+        ],
+        "emoji": "🌧️"
+       },
+       {
+        "id": "fr-wx-l1-4",
+        "text": "Il y a du vent",
+        "en": "It's windy",
+        "accept": [
+         "it is windy"
+        ],
+        "emoji": "💨"
+       },
+       {
+        "id": "fr-wx-l1-5",
+        "text": "C'est nuageux",
+        "en": "It's cloudy",
+        "accept": [
+         "it is cloudy"
+        ],
+        "emoji": "☁️"
+       }
+      ]
+     },
+     {
+      "id": "fr-wx-l2",
+      "title": "Seasons",
+      "words": [
+       {
+        "id": "fr-wx-l2-0",
+        "text": "le printemps",
+        "en": "Spring",
+        "emoji": "🌸"
+       },
+       {
+        "id": "fr-wx-l2-1",
+        "text": "l'été",
+        "en": "Summer",
+        "emoji": "🌞"
+       },
+       {
+        "id": "fr-wx-l2-2",
+        "text": "l'automne",
+        "en": "Autumn",
+        "accept": [
+         "fall"
+        ],
+        "emoji": "🍂",
+        "note": "The m is silent: oh-TON."
+       },
+       {
+        "id": "fr-wx-l2-3",
+        "text": "l'hiver",
+        "en": "Winter",
+        "emoji": "❄️"
+       },
+       {
+        "id": "fr-wx-l2-4",
+        "text": "le temps",
+        "en": "The weather",
+        "accept": [
+         "weather"
+        ],
+        "emoji": "🌦️",
+        "note": "Temps also means 'time'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-feelings",
+    "title": "Feelings & Health",
+    "tagline": "Saying how you actually feel.",
+    "lessons": [
+     {
+      "id": "fr-feel-l1",
+      "title": "Feelings",
+      "words": [
+       {
+        "id": "fr-feel-l1-0",
+        "text": "content",
+        "en": "Happy",
+        "accept": [
+         "glad",
+         "pleased"
+        ],
+        "emoji": "😊",
+        "note": "A girl says contente."
+       },
+       {
+        "id": "fr-feel-l1-1",
+        "text": "triste",
+        "en": "Sad",
+        "emoji": "😢"
+       },
+       {
+        "id": "fr-feel-l1-2",
+        "text": "fatigué",
+        "en": "Tired",
+        "emoji": "😴",
+        "note": "A girl writes fatiguée. It sounds the same!"
+       },
+       {
+        "id": "fr-feel-l1-3",
+        "text": "fâché",
+        "en": "Angry",
+        "accept": [
+         "cross",
+         "annoyed"
+        ],
+        "emoji": "😠",
+        "note": "A girl writes fâchée."
+       },
+       {
+        "id": "fr-feel-l1-4",
+        "text": "nerveux",
+        "en": "Nervous",
+        "emoji": "😬",
+        "note": "A girl says nerveuse."
+       },
+       {
+        "id": "fr-feel-l1-5",
+        "text": "Je m'ennuie",
+        "en": "I'm bored",
+        "accept": [
+         "i am bored",
+         "bored"
+        ],
+        "emoji": "🥱"
+       }
+      ]
+     },
+     {
+      "id": "fr-feel-l2",
+      "title": "Feeling unwell",
+      "words": [
+       {
+        "id": "fr-feel-l2-0",
+        "text": "J'ai mal à la tête",
+        "en": "I have a headache",
+        "accept": [
+         "my head hurts"
+        ],
+        "emoji": "🤕"
+       },
+       {
+        "id": "fr-feel-l2-1",
+        "text": "J'ai mal au ventre",
+        "en": "I have a tummy ache",
+        "accept": [
+         "my tummy hurts",
+         "stomach ache",
+         "my stomach hurts"
+        ],
+        "emoji": "🤢"
+       },
+       {
+        "id": "fr-feel-l2-2",
+        "text": "Je suis malade",
+        "en": "I'm ill",
+        "accept": [
+         "i am ill",
+         "i'm sick",
+         "i am sick"
+        ],
+        "emoji": "🤒"
+       },
+       {
+        "id": "fr-feel-l2-3",
+        "text": "le médecin",
+        "en": "Doctor",
+        "accept": [
+         "the doctor"
+        ],
+        "emoji": "🩺"
+       },
+       {
+        "id": "fr-feel-l2-4",
+        "text": "la pharmacie",
+        "en": "Pharmacy",
+        "accept": [
+         "chemist",
+         "the chemist"
+        ],
+        "emoji": "💊"
+       },
+       {
+        "id": "fr-feel-l2-5",
+        "text": "J'ai de la fièvre",
+        "en": "I have a temperature",
+        "accept": [
+         "i have a fever"
+        ],
+        "emoji": "🌡️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-sentences",
+    "title": "Putting It Together",
+    "tagline": "Whole sentences, built from everything so far.",
+    "lessons": [
+     {
+      "id": "fr-sen-l1",
+      "title": "Talking about yourself",
+      "words": [
+       {
+        "id": "fr-sen-l1-0",
+        "text": "Je m'appelle Anne",
+        "en": "My name is Anne",
+        "accept": [
+         "i'm called anne",
+         "i am called anne"
+        ],
+        "emoji": "🙋"
+       },
+       {
+        "id": "fr-sen-l1-1",
+        "text": "J'ai dix ans",
+        "en": "I'm ten years old",
+        "accept": [
+         "i am ten",
+         "i'm ten",
+         "i am ten years old"
+        ],
+        "emoji": "🎂",
+        "note": "In French you 'have' years: j'ai = I have."
+       },
+       {
+        "id": "fr-sen-l1-2",
+        "text": "Je viens d'Angleterre",
+        "en": "I'm from England",
+        "accept": [
+         "i am from england",
+         "i come from england"
+        ],
+        "emoji": "🌍"
+       },
+       {
+        "id": "fr-sen-l1-3",
+        "text": "J'habite à Londres",
+        "en": "I live in London",
+        "emoji": "🏙️"
+       },
+       {
+        "id": "fr-sen-l1-4",
+        "text": "Je parle un peu français",
+        "en": "I speak a little French",
+        "accept": [
+         "i speak a bit of french"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "id": "fr-sen-l1-5",
+        "text": "J'aime le chocolat",
+        "en": "I like chocolate",
+        "accept": [
+         "i love chocolate"
+        ],
+        "emoji": "🍫"
+       }
+      ]
+     },
+     {
+      "id": "fr-sen-l2",
+      "title": "A day in words",
+      "words": [
+       {
+        "id": "fr-sen-l2-0",
+        "text": "Je me lève",
+        "en": "I get up",
+        "emoji": "⏰"
+       },
+       {
+        "id": "fr-sen-l2-1",
+        "text": "Je prends mon petit-déjeuner",
+        "en": "I have breakfast",
+        "accept": [
+         "i eat breakfast",
+         "i have my breakfast"
+        ],
+        "emoji": "🥣"
+       },
+       {
+        "id": "fr-sen-l2-2",
+        "text": "Je vais à l'école",
+        "en": "I go to school",
+        "emoji": "🎒"
+       },
+       {
+        "id": "fr-sen-l2-3",
+        "text": "Je mange avec ma famille",
+        "en": "I eat with my family",
+        "accept": [
+         "i have lunch with my family"
+        ],
+        "emoji": "🍽️"
+       },
+       {
+        "id": "fr-sen-l2-4",
+        "text": "Je joue au parc",
+        "en": "I play in the park",
+        "emoji": "⚽"
+       },
+       {
+        "id": "fr-sen-l2-5",
+        "text": "Je me couche",
+        "en": "I go to bed",
+        "emoji": "🛏️"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Elementary",
+  "units": [
+   {
+    "id": "fr-gender",
+    "title": "Le & La",
+    "tagline": "Every French noun is a 'he' or a 'she' word — learn the little word in front.",
+    "lessons": [
+     {
+      "id": "fr-gen-l1",
+      "title": "The: le or la?",
+      "words": [
+       {
+        "id": "fr-gen-l1-0",
+        "text": "le chien",
+        "en": "The dog",
+        "accept": [
+         "dog"
+        ],
+        "emoji": "🐶"
+       },
+       {
+        "id": "fr-gen-l1-1",
+        "text": "le chat",
+        "en": "The cat",
+        "accept": [
+         "cat"
+        ],
+        "emoji": "🐱",
+        "note": "The t is silent: sha."
+       },
+       {
+        "id": "fr-gen-l1-2",
+        "text": "la table",
+        "en": "The table",
+        "accept": [
+         "table"
+        ],
+        "emoji": "🍽️"
+       },
+       {
+        "id": "fr-gen-l1-3",
+        "text": "le livre",
+        "en": "The book",
+        "accept": [
+         "book"
+        ],
+        "emoji": "📖"
+       },
+       {
+        "id": "fr-gen-l1-4",
+        "text": "la fenêtre",
+        "en": "The window",
+        "accept": [
+         "window"
+        ],
+        "emoji": "🪟"
+       }
+      ]
+     },
+     {
+      "id": "fr-gen-l2",
+      "title": "A or an: un or une?",
+      "words": [
+       {
+        "id": "fr-gen-l2-0",
+        "text": "une banane",
+        "en": "A banana",
+        "accept": [
+         "banana"
+        ],
+        "emoji": "🍌"
+       },
+       {
+        "id": "fr-gen-l2-1",
+        "text": "une orange",
+        "en": "An orange",
+        "accept": [
+         "orange"
+        ],
+        "emoji": "🍊"
+       },
+       {
+        "id": "fr-gen-l2-2",
+        "text": "un crayon",
+        "en": "A pencil",
+        "accept": [
+         "pencil"
+        ],
+        "emoji": "✏️"
+       },
+       {
+        "id": "fr-gen-l2-3",
+        "text": "une chaise",
+        "en": "A chair",
+        "accept": [
+         "chair"
+        ],
+        "emoji": "🪑"
+       },
+       {
+        "id": "fr-gen-l2-4",
+        "text": "des chaussures",
+        "en": "Some shoes",
+        "accept": [
+         "shoes"
+        ],
+        "emoji": "👟",
+        "note": "Des means 'some' for more than one thing."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-routine",
+    "title": "Daily Routine",
+    "tagline": "The verbs and time words behind an ordinary day.",
+    "lessons": [
+     {
+      "id": "fr-rtn-l1",
+      "title": "Morning to night",
+      "words": [
+       {
+        "id": "fr-rtn-l1-0",
+        "text": "Je me douche",
+        "en": "I have a shower",
+        "accept": [
+         "i shower",
+         "i take a shower"
+        ],
+        "emoji": "🚿"
+       },
+       {
+        "id": "fr-rtn-l1-1",
+        "text": "Je me brosse les dents",
+        "en": "I brush my teeth",
+        "emoji": "🪥"
+       },
+       {
+        "id": "fr-rtn-l1-2",
+        "text": "Je m'habille",
+        "en": "I get dressed",
+        "emoji": "👕"
+       },
+       {
+        "id": "fr-rtn-l1-3",
+        "text": "Je mange",
+        "en": "I eat",
+        "emoji": "🍴"
+       },
+       {
+        "id": "fr-rtn-l1-4",
+        "text": "Je travaille",
+        "en": "I work",
+        "emoji": "💼"
+       },
+       {
+        "id": "fr-rtn-l1-5",
+        "text": "Je dors",
+        "en": "I sleep",
+        "emoji": "😴"
+       }
+      ]
+     },
+     {
+      "id": "fr-rtn-l2",
+      "title": "What time is it?",
+      "words": [
+       {
+        "id": "fr-rtn-l2-0",
+        "text": "Quelle heure est-il ?",
+        "en": "What time is it?",
+        "accept": [
+         "what's the time"
+        ],
+        "emoji": "⏰"
+       },
+       {
+        "id": "fr-rtn-l2-1",
+        "text": "Il est une heure",
+        "en": "It's one o'clock",
+        "accept": [
+         "it is one o'clock",
+         "it's one"
+        ],
+        "emoji": "🕐"
+       },
+       {
+        "id": "fr-rtn-l2-2",
+        "text": "Il est deux heures",
+        "en": "It's two o'clock",
+        "accept": [
+         "it is two o'clock",
+         "it's two"
+        ],
+        "emoji": "🕑"
+       },
+       {
+        "id": "fr-rtn-l2-3",
+        "text": "et demie",
+        "en": "Half past",
+        "accept": [
+         "and a half"
+        ],
+        "emoji": "🕧",
+        "note": "Il est deux heures et demie: it's half past two."
+       },
+       {
+        "id": "fr-rtn-l2-4",
+        "text": "le matin",
+        "en": "In the morning",
+        "accept": [
+         "the morning",
+         "morning"
+        ],
+        "emoji": "🌄"
+       },
+       {
+        "id": "fr-rtn-l2-5",
+        "text": "le soir",
+        "en": "In the evening",
+        "accept": [
+         "the evening",
+         "evening",
+         "at night"
+        ],
+        "emoji": "🌙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-etreavoir",
+    "title": "Être & Avoir",
+    "tagline": "The two most important verbs: être (to be) and avoir (to have).",
+    "lessons": [
+     {
+      "id": "fr-ea-l1",
+      "title": "Être: to be",
+      "words": [
+       {
+        "id": "fr-ea-l1-0",
+        "text": "Je suis grand",
+        "en": "I'm tall",
+        "accept": [
+         "i am tall"
+        ],
+        "emoji": "📏",
+        "note": "A girl says grande."
+       },
+       {
+        "id": "fr-ea-l1-1",
+        "text": "Je suis anglais",
+        "en": "I'm English",
+        "accept": [
+         "i am english"
+        ],
+        "emoji": "🇬🇧",
+        "note": "A girl says anglaise."
+       },
+       {
+        "id": "fr-ea-l1-2",
+        "text": "C'est ma sœur",
+        "en": "She's my sister",
+        "accept": [
+         "she is my sister",
+         "this is my sister",
+         "it's my sister"
+        ],
+        "emoji": "👧"
+       },
+       {
+        "id": "fr-ea-l1-3",
+        "text": "Il est très gentil",
+        "en": "He's very nice",
+        "accept": [
+         "he is very nice",
+         "he's very kind"
+        ],
+        "emoji": "😊"
+       },
+       {
+        "id": "fr-ea-l1-4",
+        "text": "Nous sommes une famille",
+        "en": "We are a family",
+        "accept": [
+         "we're a family"
+        ],
+        "emoji": "👨‍👩‍👧"
+       }
+      ]
+     },
+     {
+      "id": "fr-ea-l2",
+      "title": "Avoir: to have",
+      "words": [
+       {
+        "id": "fr-ea-l2-0",
+        "text": "J'ai un chien",
+        "en": "I have a dog",
+        "accept": [
+         "i've got a dog"
+        ],
+        "emoji": "🐕"
+       },
+       {
+        "id": "fr-ea-l2-1",
+        "text": "Tu as faim ?",
+        "en": "Are you hungry?",
+        "emoji": "🍽️",
+        "note": "In French you 'have hunger': avoir faim."
+       },
+       {
+        "id": "fr-ea-l2-2",
+        "text": "J'ai soif",
+        "en": "I'm thirsty",
+        "accept": [
+         "i am thirsty"
+        ],
+        "emoji": "🥤",
+        "note": "You 'have thirst': avoir soif."
+       },
+       {
+        "id": "fr-ea-l2-3",
+        "text": "Il a froid",
+        "en": "He's cold",
+        "accept": [
+         "he is cold"
+        ],
+        "emoji": "🥶",
+        "note": "You 'have cold': avoir froid."
+       },
+       {
+        "id": "fr-ea-l2-4",
+        "text": "Nous avons une voiture",
+        "en": "We have a car",
+        "accept": [
+         "we've got a car"
+        ],
+        "emoji": "🚙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-compare",
+    "title": "Comparisons",
+    "tagline": "More than, less than, and the best.",
+    "lessons": [
+     {
+      "id": "fr-cmp-l1",
+      "title": "More, less, most",
+      "words": [
+       {
+        "id": "fr-cmp-l1-0",
+        "text": "plus grand",
+        "en": "Bigger",
+        "accept": [
+         "larger",
+         "taller"
+        ],
+        "emoji": "🐘"
+       },
+       {
+        "id": "fr-cmp-l1-1",
+        "text": "plus petit",
+        "en": "Smaller",
+        "emoji": "🐭"
+       },
+       {
+        "id": "fr-cmp-l1-2",
+        "text": "meilleur",
+        "en": "Better",
+        "accept": [
+         "best"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "fr-cmp-l1-3",
+        "text": "pire",
+        "en": "Worse",
+        "accept": [
+         "worst"
+        ],
+        "emoji": "👎"
+       },
+       {
+        "id": "fr-cmp-l1-4",
+        "text": "le plus rapide",
+        "en": "The fastest",
+        "accept": [
+         "fastest"
+        ],
+        "emoji": "🏃"
+       },
+       {
+        "id": "fr-cmp-l1-5",
+        "text": "aussi grand que",
+        "en": "As tall as",
+        "accept": [
+         "as big as"
+        ],
+        "emoji": "📐"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-restaurant",
+    "title": "At the Restaurant",
+    "tagline": "Order a crêpe, ask for the menu and pay the bill.",
+    "lessons": [
+     {
+      "id": "fr-res-l1",
+      "title": "Ordering food",
+      "words": [
+       {
+        "id": "fr-res-l1-0",
+        "text": "la carte",
+        "en": "The menu",
+        "accept": [
+         "menu"
+        ],
+        "emoji": "📜",
+        "note": "Le menu in France means a set meal at a fixed price."
+       },
+       {
+        "id": "fr-res-l1-1",
+        "text": "Pour moi, une crêpe",
+        "en": "A pancake for me",
+        "accept": [
+         "a crepe for me",
+         "i'll have a pancake",
+         "i'll have a crepe",
+         "for me a pancake"
+        ],
+        "emoji": "🥞"
+       },
+       {
+        "id": "fr-res-l1-2",
+        "text": "Qu'est-ce que tu veux boire ?",
+        "en": "What would you like to drink?",
+        "accept": [
+         "what do you want to drink"
+        ],
+        "emoji": "🥤"
+       },
+       {
+        "id": "fr-res-l1-3",
+        "text": "sans oignon",
+        "en": "Without onion",
+        "accept": [
+         "no onion"
+        ],
+        "emoji": "🧅"
+       },
+       {
+        "id": "fr-res-l1-4",
+        "text": "C'est délicieux !",
+        "en": "It's delicious!",
+        "accept": [
+         "it is delicious",
+         "it's really good"
+        ],
+        "emoji": "😋"
+       },
+       {
+        "id": "fr-res-l1-5",
+        "text": "L'addition, s'il vous plaît",
+        "en": "The bill, please",
+        "accept": [
+         "the check please",
+         "bill please"
+        ],
+        "emoji": "🧾"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-plans",
+    "title": "Making Plans",
+    "tagline": "Arranging to meet up — the most useful conversation of all.",
+    "lessons": [
+     {
+      "id": "fr-pln-l1",
+      "title": "Are you free?",
+      "words": [
+       {
+        "id": "fr-pln-l1-0",
+        "text": "Tu es libre samedi ?",
+        "en": "Are you free on Saturday?",
+        "accept": [
+         "are you free saturday"
+        ],
+        "emoji": "📅"
+       },
+       {
+        "id": "fr-pln-l1-1",
+        "text": "On se voit ?",
+        "en": "Shall we meet up?",
+        "accept": [
+         "shall we meet",
+         "do you want to meet"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "fr-pln-l1-2",
+        "text": "À quelle heure ?",
+        "en": "What time?",
+        "accept": [
+         "at what time"
+        ],
+        "emoji": "⏰"
+       },
+       {
+        "id": "fr-pln-l1-3",
+        "text": "D'accord",
+        "en": "OK",
+        "accept": [
+         "okay",
+         "alright",
+         "all right",
+         "agreed"
+        ],
+        "emoji": "👌",
+        "note": "You'll hear d'accord all day long in France."
+       },
+       {
+        "id": "fr-pln-l1-4",
+        "text": "Désolé, je ne peux pas",
+        "en": "Sorry, I can't",
+        "accept": [
+         "sorry i cannot"
+        ],
+        "emoji": "🙅"
+       },
+       {
+        "id": "fr-pln-l1-5",
+        "text": "À bientôt !",
+        "en": "See you soon!",
+        "accept": [
+         "see you",
+         "see you then"
+        ],
+        "emoji": "👋"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "units": [
+   {
+    "id": "fr-connectors",
+    "title": "Connectors",
+    "tagline": "And, but, because, if — the words that join ideas together.",
+    "lessons": [
+     {
+      "id": "fr-con-l1",
+      "title": "Joining ideas",
+      "words": [
+       {
+        "id": "fr-con-l1-0",
+        "text": "et",
+        "en": "And",
+        "emoji": "➕",
+        "note": "The t is silent: ay."
+       },
+       {
+        "id": "fr-con-l1-1",
+        "text": "mais",
+        "en": "But",
+        "emoji": "↔️"
+       },
+       {
+        "id": "fr-con-l1-2",
+        "text": "parce que",
+        "en": "Because",
+        "emoji": "💡"
+       },
+       {
+        "id": "fr-con-l1-3",
+        "text": "si",
+        "en": "If",
+        "emoji": "❔"
+       },
+       {
+        "id": "fr-con-l1-4",
+        "text": "ou",
+        "en": "Or",
+        "emoji": "🔀",
+        "note": "No accent: ou = or. With an accent: où = where."
+       },
+       {
+        "id": "fr-con-l1-5",
+        "text": "aussi",
+        "en": "Also",
+        "accept": [
+         "too",
+         "as well"
+        ],
+        "emoji": "🔁"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-directions2",
+    "title": "Giving Directions",
+    "tagline": "Full sentences for getting someone from A to B.",
+    "lessons": [
+     {
+      "id": "fr-dir2-l1",
+      "title": "Turn here",
+      "words": [
+       {
+        "id": "fr-dir2-l1-0",
+        "text": "Tournez à gauche",
+        "en": "Turn left",
+        "accept": [
+         "turn to the left"
+        ],
+        "emoji": "⬅️"
+       },
+       {
+        "id": "fr-dir2-l1-1",
+        "text": "Continuez tout droit",
+        "en": "Go straight on",
+        "accept": [
+         "keep going straight",
+         "go straight ahead"
+        ],
+        "emoji": "⬆️"
+       },
+       {
+        "id": "fr-dir2-l1-2",
+        "text": "Traversez la rue",
+        "en": "Cross the street",
+        "accept": [
+         "cross the road"
+        ],
+        "emoji": "🚸"
+       },
+       {
+        "id": "fr-dir2-l1-3",
+        "text": "C'est à côté de la banque",
+        "en": "It's next to the bank",
+        "accept": [
+         "it is next to the bank"
+        ],
+        "emoji": "🏦"
+       },
+       {
+        "id": "fr-dir2-l1-4",
+        "text": "la deuxième rue",
+        "en": "The second street",
+        "accept": [
+         "the second road",
+         "second street"
+        ],
+        "emoji": "2️⃣"
+       },
+       {
+        "id": "fr-dir2-l1-5",
+        "text": "C'est à cinq minutes",
+        "en": "It's five minutes away",
+        "accept": [
+         "it is five minutes away"
+        ],
+        "emoji": "⏱️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-people-desc",
+    "title": "Describing People",
+    "tagline": "Height, hair and character — words change for boys and girls.",
+    "lessons": [
+     {
+      "id": "fr-pd-l1",
+      "title": "Appearance",
+      "words": [
+       {
+        "id": "fr-pd-l1-0",
+        "text": "grand",
+        "en": "Tall",
+        "accept": [
+         "big"
+        ],
+        "emoji": "🦒"
+       },
+       {
+        "id": "fr-pd-l1-1",
+        "text": "petit",
+        "en": "Short",
+        "accept": [
+         "small",
+         "little"
+        ],
+        "emoji": "🐁"
+       },
+       {
+        "id": "fr-pd-l1-2",
+        "text": "mince",
+        "en": "Thin",
+        "accept": [
+         "slim"
+        ],
+        "emoji": "🧍"
+       },
+       {
+        "id": "fr-pd-l1-3",
+        "text": "les cheveux blonds",
+        "en": "Blond hair",
+        "accept": [
+         "fair hair",
+         "blonde hair"
+        ],
+        "emoji": "👱"
+       },
+       {
+        "id": "fr-pd-l1-4",
+        "text": "les yeux bleus",
+        "en": "Blue eyes",
+        "emoji": "👀",
+        "note": "Les yeux sounds like 'lay-zyuh'."
+       },
+       {
+        "id": "fr-pd-l1-5",
+        "text": "la barbe",
+        "en": "Beard",
+        "accept": [
+         "a beard"
+        ],
+        "emoji": "🧔"
+       }
+      ]
+     },
+     {
+      "id": "fr-pd-l2",
+      "title": "Character",
+      "words": [
+       {
+        "id": "fr-pd-l2-0",
+        "text": "sympa",
+        "en": "Nice",
+        "accept": [
+         "friendly",
+         "kind"
+        ],
+        "emoji": "😊"
+       },
+       {
+        "id": "fr-pd-l2-1",
+        "text": "timide",
+        "en": "Shy",
+        "emoji": "🙈"
+       },
+       {
+        "id": "fr-pd-l2-2",
+        "text": "drôle",
+        "en": "Funny",
+        "accept": [
+         "fun"
+        ],
+        "emoji": "😂"
+       },
+       {
+        "id": "fr-pd-l2-3",
+        "text": "travailleur",
+        "en": "Hard-working",
+        "accept": [
+         "hardworking",
+         "hard working"
+        ],
+        "emoji": "💪"
+       },
+       {
+        "id": "fr-pd-l2-4",
+        "text": "paresseux",
+        "en": "Lazy",
+        "emoji": "🦥"
+       },
+       {
+        "id": "fr-pd-l2-5",
+        "text": "généreux",
+        "en": "Generous",
+        "emoji": "🎁"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-work",
+    "title": "Work & Occupations",
+    "tagline": "What do you do? — jobs and talking about work.",
+    "lessons": [
+     {
+      "id": "fr-work-l1",
+      "title": "Occupations",
+      "words": [
+       {
+        "id": "fr-work-l1-0",
+        "text": "le professeur",
+        "en": "Teacher",
+        "accept": [
+         "the teacher"
+        ],
+        "emoji": "👨‍🏫"
+       },
+       {
+        "id": "fr-work-l1-1",
+        "text": "l'infirmière",
+        "en": "Nurse",
+        "accept": [
+         "the nurse"
+        ],
+        "emoji": "👩‍⚕️"
+       },
+       {
+        "id": "fr-work-l1-2",
+        "text": "le policier",
+        "en": "Police officer",
+        "accept": [
+         "policeman",
+         "the police officer"
+        ],
+        "emoji": "👮"
+       },
+       {
+        "id": "fr-work-l1-3",
+        "text": "le cuisinier",
+        "en": "Chef",
+        "accept": [
+         "cook",
+         "the chef"
+        ],
+        "emoji": "👨‍🍳"
+       },
+       {
+        "id": "fr-work-l1-4",
+        "text": "le pompier",
+        "en": "Firefighter",
+        "accept": [
+         "fireman",
+         "the firefighter"
+        ],
+        "emoji": "👨‍🚒"
+       },
+       {
+        "id": "fr-work-l1-5",
+        "text": "l'agriculteur",
+        "en": "Farmer",
+        "accept": [
+         "the farmer"
+        ],
+        "emoji": "👨‍🌾"
+       }
+      ]
+     },
+     {
+      "id": "fr-work-l2",
+      "title": "The world of work",
+      "words": [
+       {
+        "id": "fr-work-l2-0",
+        "text": "Qu'est-ce que tu fais dans la vie ?",
+        "en": "What do you do?",
+        "accept": [
+         "what is your job",
+         "what's your job"
+        ],
+        "emoji": "💼"
+       },
+       {
+        "id": "fr-work-l2-1",
+        "text": "le bureau",
+        "en": "Office",
+        "accept": [
+         "the office",
+         "desk"
+        ],
+        "emoji": "🏢",
+        "note": "Bureau also means 'desk'."
+       },
+       {
+        "id": "fr-work-l2-2",
+        "text": "le patron",
+        "en": "Boss",
+        "accept": [
+         "the boss"
+        ],
+        "emoji": "👔"
+       },
+       {
+        "id": "fr-work-l2-3",
+        "text": "la réunion",
+        "en": "Meeting",
+        "accept": [
+         "the meeting"
+        ],
+        "emoji": "🗓️"
+       },
+       {
+        "id": "fr-work-l2-4",
+        "text": "le salaire",
+        "en": "Salary",
+        "accept": [
+         "wages",
+         "pay"
+        ],
+        "emoji": "💶"
+       },
+       {
+        "id": "fr-work-l2-5",
+        "text": "les vacances",
+        "en": "Holidays",
+        "accept": [
+         "holiday",
+         "vacation"
+        ],
+        "emoji": "🏝️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-dialogues",
+    "title": "Short Conversations",
+    "tagline": "Real back-and-forth exchanges, not just single words.",
+    "lessons": [
+     {
+      "id": "fr-dlg-l1",
+      "title": "At a café",
+      "words": [
+       {
+        "id": "fr-dlg-l1-0",
+        "text": "Qu'est-ce que je vous sers ?",
+        "en": "What can I get you?",
+        "accept": [
+         "what would you like"
+        ],
+        "emoji": "☕"
+       },
+       {
+        "id": "fr-dlg-l1-1",
+        "text": "Un café au lait, s'il vous plaît",
+        "en": "A white coffee, please",
+        "accept": [
+         "a coffee with milk please"
+        ],
+        "emoji": "🥛"
+       },
+       {
+        "id": "fr-dlg-l1-2",
+        "text": "Autre chose ?",
+        "en": "Anything else?",
+        "emoji": "➕"
+       },
+       {
+        "id": "fr-dlg-l1-3",
+        "text": "C'est tout, merci",
+        "en": "That's all, thanks",
+        "accept": [
+         "nothing else thanks",
+         "that's all thank you"
+        ],
+        "emoji": "🙏"
+       }
+      ]
+     },
+     {
+      "id": "fr-dlg-l2",
+      "title": "Asking for help",
+      "words": [
+       {
+        "id": "fr-dlg-l2-0",
+        "text": "Vous pouvez m'aider ?",
+        "en": "Can you help me?",
+        "accept": [
+         "could you help me"
+        ],
+        "emoji": "🆘"
+       },
+       {
+        "id": "fr-dlg-l2-1",
+        "text": "Bien sûr",
+        "en": "Of course",
+        "accept": [
+         "sure",
+         "certainly"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "fr-dlg-l2-2",
+        "text": "Je suis perdu",
+        "en": "I'm lost",
+        "accept": [
+         "i am lost"
+        ],
+        "emoji": "🗺️",
+        "note": "A girl writes perdue."
+       },
+       {
+        "id": "fr-dlg-l2-3",
+        "text": "Vous parlez anglais ?",
+        "en": "Do you speak English?",
+        "emoji": "🇬🇧"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-emergency",
+    "title": "Health & Emergencies",
+    "tagline": "The phrases you hope you'll never need — but should know anyway.",
+    "lessons": [
+     {
+      "id": "fr-emg-l1",
+      "title": "Getting help fast",
+      "words": [
+       {
+        "id": "fr-emg-l1-0",
+        "text": "Au secours !",
+        "en": "Help!",
+        "emoji": "🆘"
+       },
+       {
+        "id": "fr-emg-l1-1",
+        "text": "Appelez une ambulance",
+        "en": "Call an ambulance",
+        "emoji": "🚑"
+       },
+       {
+        "id": "fr-emg-l1-2",
+        "text": "C'est une urgence",
+        "en": "It's an emergency",
+        "accept": [
+         "it is an emergency"
+        ],
+        "emoji": "🚨"
+       },
+       {
+        "id": "fr-emg-l1-3",
+        "text": "J'ai perdu mon passeport",
+        "en": "I've lost my passport",
+        "accept": [
+         "i have lost my passport",
+         "i lost my passport"
+        ],
+        "emoji": "🛂"
+       },
+       {
+        "id": "fr-emg-l1-4",
+        "text": "Je suis allergique aux fruits à coque",
+        "en": "I'm allergic to nuts",
+        "accept": [
+         "i am allergic to nuts"
+        ],
+        "emoji": "🥜",
+        "note": "Fruits à coque means all kinds of nuts."
+       },
+       {
+        "id": "fr-emg-l1-5",
+        "text": "Où est l'hôpital ?",
+        "en": "Where is the hospital?",
+        "accept": [
+         "where's the hospital"
+        ],
+        "emoji": "🏥"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Upper-Intermediate",
+  "units": [
+   {
+    "id": "fr-opinions",
+    "title": "Opinions & Agreement",
+    "tagline": "Saying what you think, and whether you agree.",
+    "lessons": [
+     {
+      "id": "fr-opn-l1",
+      "title": "What do you think?",
+      "words": [
+       {
+        "id": "fr-opn-l1-0",
+        "text": "Je pense que oui",
+        "en": "I think so",
+        "emoji": "👍"
+       },
+       {
+        "id": "fr-opn-l1-1",
+        "text": "Je ne pense pas",
+        "en": "I don't think so",
+        "accept": [
+         "i do not think so"
+        ],
+        "emoji": "👎"
+       },
+       {
+        "id": "fr-opn-l1-2",
+        "text": "Je suis d'accord",
+        "en": "I agree",
+        "emoji": "🤝"
+       },
+       {
+        "id": "fr-opn-l1-3",
+        "text": "Je ne suis pas d'accord",
+        "en": "I disagree",
+        "accept": [
+         "i don't agree",
+         "i do not agree"
+        ],
+        "emoji": "🙅"
+       },
+       {
+        "id": "fr-opn-l1-4",
+        "text": "À mon avis",
+        "en": "In my opinion",
+        "emoji": "💭"
+       },
+       {
+        "id": "fr-opn-l1-5",
+        "text": "Ça dépend",
+        "en": "It depends",
+        "accept": [
+         "that depends"
+        ],
+        "emoji": "⚖️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-past",
+    "title": "Talking About the Past",
+    "tagline": "The past tense for things that happened and finished: je suis allé, j'ai mangé, j'ai parlé.",
+    "lessons": [
+     {
+      "id": "fr-pst-l1",
+      "title": "What did you do?",
+      "words": [
+       {
+        "id": "fr-pst-l1-0",
+        "text": "Hier, je suis allé à la plage",
+        "en": "Yesterday I went to the beach",
+        "accept": [
+         "i went to the beach yesterday"
+        ],
+        "emoji": "🏖️",
+        "note": "A girl writes allée. It sounds the same."
+       },
+       {
+        "id": "fr-pst-l1-1",
+        "text": "J'ai mangé des crêpes",
+        "en": "I ate pancakes",
+        "accept": [
+         "i had pancakes",
+         "i ate crepes",
+         "i had crepes"
+        ],
+        "emoji": "🥞"
+       },
+       {
+        "id": "fr-pst-l1-2",
+        "text": "J'ai parlé avec ma grand-mère",
+        "en": "I talked to my grandma",
+        "accept": [
+         "i spoke to my grandmother",
+         "i talked to my grandmother"
+        ],
+        "emoji": "📞"
+       },
+       {
+        "id": "fr-pst-l1-3",
+        "text": "Nous avons regardé un film",
+        "en": "We watched a film",
+        "accept": [
+         "we saw a film",
+         "we watched a movie"
+        ],
+        "emoji": "🎬"
+       },
+       {
+        "id": "fr-pst-l1-4",
+        "text": "Qu'est-ce que tu as fait ?",
+        "en": "What did you do?",
+        "emoji": "❓"
+       },
+       {
+        "id": "fr-pst-l1-5",
+        "text": "C'était très amusant",
+        "en": "It was really fun",
+        "accept": [
+         "it was a lot of fun",
+         "it was very fun"
+        ],
+        "emoji": "🎉"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-storytelling",
+    "title": "Telling a Story",
+    "tagline": "The linking words that turn events into a story.",
+    "lessons": [
+     {
+      "id": "fr-str-l1",
+      "title": "Once upon a time",
+      "words": [
+       {
+        "id": "fr-str-l1-0",
+        "text": "Il était une fois",
+        "en": "Once upon a time",
+        "emoji": "📖"
+       },
+       {
+        "id": "fr-str-l1-1",
+        "text": "D'abord",
+        "en": "First",
+        "accept": [
+         "first of all",
+         "firstly"
+        ],
+        "emoji": "1️⃣"
+       },
+       {
+        "id": "fr-str-l1-2",
+        "text": "Ensuite",
+        "en": "Then",
+        "accept": [
+         "next",
+         "after that"
+        ],
+        "emoji": "➡️"
+       },
+       {
+        "id": "fr-str-l1-3",
+        "text": "Tout à coup",
+        "en": "Suddenly",
+        "accept": [
+         "all of a sudden"
+        ],
+        "emoji": "⚡"
+       },
+       {
+        "id": "fr-str-l1-4",
+        "text": "À la fin",
+        "en": "In the end",
+        "accept": [
+         "finally",
+         "at the end"
+        ],
+        "emoji": "🏁"
+       },
+       {
+        "id": "fr-str-l1-5",
+        "text": "Ils vécurent heureux",
+        "en": "And they lived happily ever after",
+        "accept": [
+         "they lived happily ever after"
+        ],
+        "emoji": "🏰"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-register",
+    "title": "Tu & Vous",
+    "tagline": "Friendly tu for family and friends, polite vous for strangers and older people.",
+    "lessons": [
+     {
+      "id": "fr-reg-l1",
+      "title": "Polite or friendly?",
+      "words": [
+       {
+        "id": "fr-reg-l1-0",
+        "text": "monsieur",
+        "en": "Mr",
+        "accept": [
+         "sir",
+         "mister"
+        ],
+        "emoji": "🎩"
+       },
+       {
+        "id": "fr-reg-l1-1",
+        "text": "madame",
+        "en": "Mrs",
+        "accept": [
+         "madam",
+         "ma'am"
+        ],
+        "emoji": "👒"
+       },
+       {
+        "id": "fr-reg-l1-2",
+        "text": "vous",
+        "en": "You (polite)",
+        "accept": [
+         "you formal",
+         "you"
+        ],
+        "emoji": "🤵",
+        "note": "Vous is also 'you' for more than one person."
+       },
+       {
+        "id": "fr-reg-l1-3",
+        "text": "tu",
+        "en": "You (friendly)",
+        "accept": [
+         "you informal",
+         "you"
+        ],
+        "emoji": "🙂"
+       },
+       {
+        "id": "fr-reg-l1-4",
+        "text": "Comment allez-vous ?",
+        "en": "How are you? (polite)",
+        "accept": [
+         "how are you formal",
+         "how are you"
+        ],
+        "emoji": "🧑‍💼"
+       },
+       {
+        "id": "fr-reg-l1-5",
+        "text": "Enchanté",
+        "en": "Pleased to meet you",
+        "accept": [
+         "nice to meet you"
+        ],
+        "emoji": "🤝",
+        "note": "A woman writes enchantée. It sounds the same."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-phone",
+    "title": "Phone Conversations",
+    "tagline": "Talking on the phone has its own set phrases.",
+    "lessons": [
+     {
+      "id": "fr-phn-l1",
+      "title": "On the line",
+      "words": [
+       {
+        "id": "fr-phn-l1-0",
+        "text": "Allô ?",
+        "en": "Hello? (on the phone)",
+        "accept": [
+         "hello on the phone",
+         "hello"
+        ],
+        "emoji": "📞",
+        "note": "The French only say allô on the phone."
+       },
+       {
+        "id": "fr-phn-l1-1",
+        "text": "C'est de la part de qui ?",
+        "en": "Who's calling?",
+        "accept": [
+         "who is calling",
+         "who's speaking"
+        ],
+        "emoji": "☎️"
+       },
+       {
+        "id": "fr-phn-l1-2",
+        "text": "Un instant, s'il vous plaît",
+        "en": "One moment, please",
+        "accept": [
+         "just a moment please",
+         "hold on please"
+        ],
+        "emoji": "⏳"
+       },
+       {
+        "id": "fr-phn-l1-3",
+        "text": "Je te rappelle plus tard",
+        "en": "I'll call you later",
+        "accept": [
+         "i will call you later",
+         "i'll call you back later"
+        ],
+        "emoji": "📱"
+       },
+       {
+        "id": "fr-phn-l1-4",
+        "text": "Ça a coupé",
+        "en": "We got cut off",
+        "accept": [
+         "the line went dead",
+         "it cut off"
+        ],
+        "emoji": "📵"
+       },
+       {
+        "id": "fr-phn-l1-5",
+        "text": "Tu m'entends ?",
+        "en": "Can you hear me?",
+        "emoji": "👂"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-idioms",
+    "title": "Idioms & Expressions",
+    "tagline": "Phrases that don't translate word for word, but everyone in France knows.",
+    "lessons": [
+     {
+      "id": "fr-idm-l1",
+      "title": "How French really talks",
+      "words": [
+       {
+        "id": "fr-idm-l1-0",
+        "text": "avoir la tête dans les nuages",
+        "en": "To daydream",
+        "accept": [
+         "to have your head in the clouds"
+        ],
+        "emoji": "☁️"
+       },
+       {
+        "id": "fr-idm-l1-1",
+        "text": "c'est du gâteau",
+        "en": "It's a piece of cake",
+        "accept": [
+         "it's easy",
+         "easy peasy"
+        ],
+        "emoji": "🍰",
+        "note": "Word for word: it's some cake!"
+       },
+       {
+        "id": "fr-idm-l1-2",
+        "text": "poser un lapin",
+        "en": "To stand someone up",
+        "accept": [
+         "to not turn up"
+        ],
+        "emoji": "🐰",
+        "note": "Word for word: to put down a rabbit!"
+       },
+       {
+        "id": "fr-idm-l1-3",
+        "text": "coûter les yeux de la tête",
+        "en": "To cost an arm and a leg",
+        "accept": [
+         "to be very expensive"
+        ],
+        "emoji": "💸",
+        "note": "Word for word: to cost the eyes from your head."
+       },
+       {
+        "id": "fr-idm-l1-4",
+        "text": "avoir un chat dans la gorge",
+        "en": "To have a frog in your throat",
+        "accept": [
+         "to have a croaky voice"
+        ],
+        "emoji": "🐱",
+        "note": "In French it's a cat, not a frog!"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Advanced",
+  "units": [
+   {
+    "id": "fr-business",
+    "title": "Business French",
+    "tagline": "Vocabulary for the office and the meeting room.",
+    "lessons": [
+     {
+      "id": "fr-biz-l1",
+      "title": "At the office",
+      "words": [
+       {
+        "id": "fr-biz-l1-0",
+        "text": "l'entreprise",
+        "en": "Company",
+        "accept": [
+         "business",
+         "firm",
+         "the company"
+        ],
+        "emoji": "🏭"
+       },
+       {
+        "id": "fr-biz-l1-1",
+        "text": "le client",
+        "en": "Client",
+        "accept": [
+         "customer",
+         "the client"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "fr-biz-l1-2",
+        "text": "le contrat",
+        "en": "Contract",
+        "accept": [
+         "the contract"
+        ],
+        "emoji": "📝"
+       },
+       {
+        "id": "fr-biz-l1-3",
+        "text": "le budget",
+        "en": "Budget",
+        "accept": [
+         "the budget"
+        ],
+        "emoji": "📊"
+       },
+       {
+        "id": "fr-biz-l1-4",
+        "text": "la facture",
+        "en": "Invoice",
+        "accept": [
+         "bill",
+         "the invoice"
+        ],
+        "emoji": "🧾"
+       },
+       {
+        "id": "fr-biz-l1-5",
+        "text": "les ventes",
+        "en": "Sales",
+        "accept": [
+         "the sales"
+        ],
+        "emoji": "📈"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-news",
+    "title": "News & Society",
+    "tagline": "The words behind newspapers and the evening news.",
+    "lessons": [
+     {
+      "id": "fr-news-l1",
+      "title": "Reading the news",
+      "words": [
+       {
+        "id": "fr-news-l1-0",
+        "text": "les infos",
+        "en": "The news",
+        "accept": [
+         "news"
+        ],
+        "emoji": "📰",
+        "note": "Short for les informations."
+       },
+       {
+        "id": "fr-news-l1-1",
+        "text": "le gouvernement",
+        "en": "Government",
+        "accept": [
+         "the government"
+        ],
+        "emoji": "🏛️"
+       },
+       {
+        "id": "fr-news-l1-2",
+        "text": "les élections",
+        "en": "Elections",
+        "accept": [
+         "the elections"
+        ],
+        "emoji": "🗳️"
+       },
+       {
+        "id": "fr-news-l1-3",
+        "text": "l'économie",
+        "en": "Economy",
+        "accept": [
+         "the economy"
+        ],
+        "emoji": "💹"
+       },
+       {
+        "id": "fr-news-l1-4",
+        "text": "l'environnement",
+        "en": "Environment",
+        "accept": [
+         "the environment"
+        ],
+        "emoji": "🌍"
+       },
+       {
+        "id": "fr-news-l1-5",
+        "text": "la société",
+        "en": "Society",
+        "emoji": "👥"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-future",
+    "title": "Future & 'Would'",
+    "tagline": "Will, would and 'if I were…' — where French verbs get interesting.",
+    "lessons": [
+     {
+      "id": "fr-fut-l1",
+      "title": "What will happen?",
+      "words": [
+       {
+        "id": "fr-fut-l1-0",
+        "text": "Demain, j'irai au cinéma",
+        "en": "Tomorrow I'll go to the cinema",
+        "accept": [
+         "i will go to the cinema tomorrow",
+         "tomorrow i will go to the cinema"
+        ],
+        "emoji": "🍿"
+       },
+       {
+        "id": "fr-fut-l1-1",
+        "text": "Il pleuvra",
+        "en": "It will rain",
+        "accept": [
+         "it'll rain"
+        ],
+        "emoji": "☔"
+       },
+       {
+        "id": "fr-fut-l1-2",
+        "text": "Ce sera facile",
+        "en": "It will be easy",
+        "accept": [
+         "it'll be easy"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "fr-fut-l1-3",
+        "text": "J'aimerais voyager",
+        "en": "I would like to travel",
+        "accept": [
+         "i'd like to travel"
+        ],
+        "emoji": "🧭"
+       },
+       {
+        "id": "fr-fut-l1-4",
+        "text": "Pourriez-vous m'aider ?",
+        "en": "Could you help me?",
+        "emoji": "🙏"
+       },
+       {
+        "id": "fr-fut-l1-5",
+        "text": "Si j'étais riche, j'achèterais un bateau",
+        "en": "If I were rich, I would buy a boat",
+        "accept": [
+         "if i was rich i would buy a boat",
+         "if i were rich i'd buy a boat"
+        ],
+        "emoji": "⛵"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-proverbs",
+    "title": "Proverbs & Sayings",
+    "tagline": "Proverbes — sayings every French child grows up with.",
+    "lessons": [
+     {
+      "id": "fr-prv-l1",
+      "title": "Common sayings",
+      "words": [
+       {
+        "id": "fr-prv-l1-0",
+        "text": "Mieux vaut tard que jamais",
+        "en": "Better late than never",
+        "emoji": "⏰"
+       },
+       {
+        "id": "fr-prv-l1-1",
+        "text": "L'avenir appartient à ceux qui se lèvent tôt",
+        "en": "The early bird catches the worm",
+        "accept": [
+         "early bird gets the worm"
+        ],
+        "emoji": "🌅",
+        "note": "Word for word: the future belongs to those who get up early."
+       },
+       {
+        "id": "fr-prv-l1-2",
+        "text": "Petit à petit, l'oiseau fait son nid",
+        "en": "Slowly but surely",
+        "accept": [
+         "little by little",
+         "slow and steady"
+        ],
+        "emoji": "🐦",
+        "note": "Word for word: little by little, the bird builds its nest."
+       },
+       {
+        "id": "fr-prv-l1-3",
+        "text": "Qui se ressemble s'assemble",
+        "en": "Birds of a feather flock together",
+        "emoji": "👫"
+       },
+       {
+        "id": "fr-prv-l1-4",
+        "text": "Quand le chat n'est pas là, les souris dansent",
+        "en": "When the cat's away, the mice will play",
+        "accept": [
+         "when the cat is away the mice will play"
+        ],
+        "emoji": "🐭",
+        "note": "Word for word: the mice dance!"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-debate",
+    "title": "Discussion & Debate",
+    "tagline": "Weighing up pros and cons like a native speaker.",
+    "lessons": [
+     {
+      "id": "fr-dbt-l1",
+      "title": "Weighing it up",
+      "words": [
+       {
+        "id": "fr-dbt-l1-0",
+        "text": "D'un côté",
+        "en": "On the one hand",
+        "emoji": "☝️"
+       },
+       {
+        "id": "fr-dbt-l1-1",
+        "text": "D'un autre côté",
+        "en": "On the other hand",
+        "emoji": "✋"
+       },
+       {
+        "id": "fr-dbt-l1-2",
+        "text": "Cependant",
+        "en": "However",
+        "accept": [
+         "nevertheless"
+        ],
+        "emoji": "🔄"
+       },
+       {
+        "id": "fr-dbt-l1-3",
+        "text": "De plus",
+        "en": "Moreover",
+        "accept": [
+         "furthermore",
+         "what's more",
+         "besides"
+        ],
+        "emoji": "➕"
+       },
+       {
+        "id": "fr-dbt-l1-4",
+        "text": "les avantages",
+        "en": "The advantages",
+        "accept": [
+         "advantages",
+         "pros"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "fr-dbt-l1-5",
+        "text": "les inconvénients",
+        "en": "The disadvantages",
+        "accept": [
+         "disadvantages",
+         "cons",
+         "drawbacks"
+        ],
+        "emoji": "❌"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Fluency & Mastery",
+  "units": [
+   {
+    "id": "fr-slang",
+    "title": "Slang & Casual Speech",
+    "tagline": "The words you won't find in a textbook, but hear everywhere in France.",
+    "lessons": [
+     {
+      "id": "fr-slg-l1",
+      "title": "Sounding natural",
+      "words": [
+       {
+        "id": "fr-slg-l1-0",
+        "text": "C'est trop cool !",
+        "en": "That's so cool!",
+        "accept": [
+         "how cool",
+         "cool",
+         "that's cool"
+        ],
+        "emoji": "😎"
+       },
+       {
+        "id": "fr-slg-l1-1",
+        "text": "Mec",
+        "en": "Mate",
+        "accept": [
+         "dude",
+         "buddy",
+         "guy"
+        ],
+        "emoji": "🤙",
+        "note": "Friends call each other mec, a bit like 'mate'."
+       },
+       {
+        "id": "fr-slg-l1-2",
+        "text": "Ça déchire !",
+        "en": "It's brilliant!",
+        "accept": [
+         "it rocks",
+         "it's great",
+         "it's amazing"
+        ],
+        "emoji": "🤘"
+       },
+       {
+        "id": "fr-slg-l1-3",
+        "text": "C'est relou !",
+        "en": "What a pain!",
+        "accept": [
+         "what a drag",
+         "how annoying"
+        ],
+        "emoji": "🙄",
+        "note": "Relou is lourd (heavy) said backwards. That's verlan, French backslang!"
+       },
+       {
+        "id": "fr-slg-l1-4",
+        "text": "J'hallucine !",
+        "en": "I can't believe it!",
+        "accept": [
+         "i'm amazed",
+         "i am amazed",
+         "i'm shocked"
+        ],
+        "emoji": "🤯"
+       },
+       {
+        "id": "fr-slg-l1-5",
+        "text": "Je m'en fiche",
+        "en": "I don't care",
+        "accept": [
+         "i don't mind",
+         "whatever"
+        ],
+        "emoji": "🤷"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-reactions",
+    "title": "Humour & Reactions",
+    "tagline": "The little exclamations real conversations run on.",
+    "lessons": [
+     {
+      "id": "fr-rxn-l1",
+      "title": "Reacting naturally",
+      "words": [
+       {
+        "id": "fr-rxn-l1-0",
+        "text": "Allez !",
+        "en": "Come on!",
+        "accept": [
+         "come on",
+         "go on"
+        ],
+        "emoji": "💪"
+       },
+       {
+        "id": "fr-rxn-l1-1",
+        "text": "J'espère bien !",
+        "en": "I hope so!",
+        "accept": [
+         "hopefully",
+         "i hope so"
+        ],
+        "emoji": "🤞"
+       },
+       {
+        "id": "fr-rxn-l1-2",
+        "text": "Dommage !",
+        "en": "What a shame!",
+        "accept": [
+         "what a pity",
+         "too bad"
+        ],
+        "emoji": "😞"
+       },
+       {
+        "id": "fr-rxn-l1-3",
+        "text": "C'est pas vrai !",
+        "en": "No way!",
+        "accept": [
+         "you're joking",
+         "really"
+        ],
+        "emoji": "😮"
+       },
+       {
+        "id": "fr-rxn-l1-4",
+        "text": "Oh là là !",
+        "en": "Oh my goodness!",
+        "accept": [
+         "oh my god",
+         "wow",
+         "goodness me",
+         "oh dear"
+        ],
+        "emoji": "😱",
+        "note": "Yes, the French really say it, and they say it a lot!"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-reading",
+    "title": "Reading a Short Paragraph",
+    "tagline": "Four connected sentences — read them as a whole story.",
+    "lessons": [
+     {
+      "id": "fr-rdg-l1",
+      "title": "Lucie's week",
+      "words": [
+       {
+        "id": "fr-rdg-l1-0",
+        "text": "Je m'appelle Lucie et j'habite à Lyon.",
+        "en": "My name is Lucie and I live in Lyon.",
+        "accept": [
+         "my name is lucie and i live in lyon"
+        ],
+        "emoji": "🙋‍♀️"
+       },
+       {
+        "id": "fr-rdg-l1-1",
+        "text": "Tous les matins, je vais à l'école à vélo.",
+        "en": "Every morning I go to school by bike.",
+        "accept": [
+         "every morning i cycle to school"
+        ],
+        "emoji": "🚲"
+       },
+       {
+        "id": "fr-rdg-l1-2",
+        "text": "L'après-midi, je joue avec mon chien au parc.",
+        "en": "In the afternoon I play with my dog in the park.",
+        "emoji": "🐕"
+       },
+       {
+        "id": "fr-rdg-l1-3",
+        "text": "Le dimanche, nous mangeons des crêpes avec mes grands-parents.",
+        "en": "On Sundays we eat pancakes with my grandparents.",
+        "accept": [
+         "on sundays we have pancakes with my grandparents",
+         "on sundays we eat crepes with my grandparents"
+        ],
+        "emoji": "🥞"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-casual-greet",
+    "title": "Casual Greetings",
+    "tagline": "What people actually say when they bump into a friend.",
+    "lessons": [
+     {
+      "id": "fr-cgr-l1",
+      "title": "Hey, what's up?",
+      "words": [
+       {
+        "id": "fr-cgr-l1-0",
+        "text": "Quoi de neuf ?",
+        "en": "What's up?",
+        "accept": [
+         "what's new",
+         "what is up"
+        ],
+        "emoji": "🤙"
+       },
+       {
+        "id": "fr-cgr-l1-1",
+        "text": "Ça roule ?",
+        "en": "How's it going?",
+        "accept": [
+         "how is it going"
+        ],
+        "emoji": "🙂",
+        "note": "Word for word: is it rolling?"
+       },
+       {
+        "id": "fr-cgr-l1-2",
+        "text": "Ça fait longtemps !",
+        "en": "Long time no see!",
+        "accept": [
+         "it's been ages",
+         "long time no see"
+        ],
+        "emoji": "🤗"
+       },
+       {
+        "id": "fr-cgr-l1-3",
+        "text": "Salut !",
+        "en": "Hi there!",
+        "accept": [
+         "hiya",
+         "hey",
+         "hi"
+        ],
+        "emoji": "👋",
+        "note": "Salut also means 'bye' between friends."
+       },
+       {
+        "id": "fr-cgr-l1-4",
+        "text": "À demain !",
+        "en": "See you tomorrow!",
+        "accept": [
+         "see you tomorrow"
+        ],
+        "emoji": "🌙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-professional",
+    "title": "Formal French",
+    "tagline": "The language of letters, emails and official occasions.",
+    "lessons": [
+     {
+      "id": "fr-prof-l1",
+      "title": "Writing formally",
+      "words": [
+       {
+        "id": "fr-prof-l1-0",
+        "text": "Madame, Monsieur",
+        "en": "Dear Sir or Madam",
+        "accept": [
+         "dear sir",
+         "dear madam"
+        ],
+        "emoji": "✉️"
+       },
+       {
+        "id": "fr-prof-l1-1",
+        "text": "Veuillez agréer mes salutations distinguées",
+        "en": "Yours faithfully",
+        "accept": [
+         "yours sincerely"
+        ],
+        "emoji": "🖋️",
+        "note": "The classic French letter ending. It's long, but everyone uses it."
+       },
+       {
+        "id": "fr-prof-l1-2",
+        "text": "Je vous remercie de votre aide",
+        "en": "Thank you for your help (formal)",
+        "accept": [
+         "i appreciate your help",
+         "thank you for your help"
+        ],
+        "emoji": "🙏"
+       },
+       {
+        "id": "fr-prof-l1-3",
+        "text": "Je reste à votre disposition",
+        "en": "I remain at your disposal",
+        "accept": [
+         "i am at your service"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "fr-prof-l1-4",
+        "text": "Bien cordialement",
+        "en": "Kind regards",
+        "accept": [
+         "best regards",
+         "warm regards"
+        ],
+        "emoji": "📧"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-literary",
+    "title": "Songs & Poetry",
+    "tagline": "The poetic words behind French songs, films and poems.",
+    "lessons": [
+     {
+      "id": "fr-lit-l1",
+      "title": "Words from songs and poems",
+      "words": [
+       {
+        "id": "fr-lit-l1-0",
+        "text": "l'âme",
+        "en": "Soul",
+        "accept": [
+         "the soul"
+        ],
+        "emoji": "🕊️"
+       },
+       {
+        "id": "fr-lit-l1-1",
+        "text": "la lune",
+        "en": "Moon",
+        "accept": [
+         "the moon"
+        ],
+        "emoji": "🌙",
+        "note": "As in the old song Au clair de la lune."
+       },
+       {
+        "id": "fr-lit-l1-2",
+        "text": "rêver",
+        "en": "To dream",
+        "accept": [
+         "dream"
+        ],
+        "emoji": "💭"
+       },
+       {
+        "id": "fr-lit-l1-3",
+        "text": "la mer",
+        "en": "Sea",
+        "accept": [
+         "the sea"
+        ],
+        "emoji": "🌊"
+       },
+       {
+        "id": "fr-lit-l1-4",
+        "text": "pour toujours",
+        "en": "Forever",
+        "accept": [
+         "for ever",
+         "always"
+        ],
+        "emoji": "♾️"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

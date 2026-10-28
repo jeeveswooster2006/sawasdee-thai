@@ -1,6 +1,5 @@
 [
- {"id": "th", "name": "Thai", "native": "ภาษาไทย", "flag": "🇹🇭", "mascot": "Nong Chang", "speechLang": "th-TH",
-  "curriculum": "data/curriculum.json", "audio": "audio/", "art": "art/units/", "mascotImage": "tools/art/mascot.png", "extraTrack": "read-thai"},
- {"id": "es", "name": "Spanish", "native": "Español", "flag": "🇪🇸", "mascot": "Torito", "speechLang": "es-ES",
-  "curriculum": "courses/es/curriculum.json", "audio": "courses/es/audio/", "art": "courses/es/art/units/", "mascotImage": "courses/es/art/mascot.png", "extraTrack": "sounds-of-spanish", "extraTrackFile": "courses/es/sounds-of-spanish.json"}
+ {"id": "th", "name": "Thai", "native": "ภาษาไทย", "flag": "🇹🇭", "mascot": "Nong Chang", "speechLang": "th-TH", "curriculum": "data/curriculum.json", "audio": "audio/", "art": "art/units/", "mascotImage": "tools/art/mascot.png", "extraTrack": "read-thai", "idPrefix": "", "lang": "th", "script": "thai", "pickLabel": "Pick the Thai", "praise": "เก่งมาก! Great!", "cheer": "เก่งมาก! Great job!"},
+ {"id": "es", "name": "Spanish", "native": "Español", "flag": "🇪🇸", "mascot": "Torito", "speechLang": "es-ES", "curriculum": "courses/es/curriculum.json", "audio": "courses/es/audio/", "art": "courses/es/art/units/", "mascotImage": "courses/es/art/mascot.png", "extraTrack": "sounds-of-spanish", "extraTrackFile": "courses/es/sounds-of-spanish.json", "idPrefix": "es-", "lang": "es", "script": "latin", "pickLabel": "Pick the Spanish", "praise": "¡Muy bien! Great!", "cheer": "¡Muy bien! Great job!"},
+ {"id": "fr", "name": "French", "native": "Français", "flag": "🇫🇷", "mascot": "Coco", "speechLang": "fr-FR", "curriculum": "courses/fr/curriculum.json", "audio": "courses/fr/audio/", "art": "courses/fr/art/units/", "mascotImage": "courses/fr/art/mascot.png", "idPrefix": "fr-", "lang": "fr", "script": "latin", "pickLabel": "Pick the French", "praise": "Très bien ! Great!", "cheer": "Très bien ! Great job!", "hidden": true}
 ]
