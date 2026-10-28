@@ -28,3 +28,6 @@ Audio: `courses/es/audio/{id}.mp3` for every item without `audioId`.
 
 ## Also planned
 An "Alphabet & Numbers" shortcut card near the top of the Learn page, linking to the second track (Read Thai / Sounds of Spanish) and the number units for the active course (Thai: numbers1, numbers2, classifiers; Spanish: es-numbers1, es-numbers2).
+
+## Thai tone labels (content commit after 411c512)
+Multi-syllable Thai words had one tone label (often the first syllable's), e.g. ห้าสิบ hâa-sìp showed "FALLING TONE". Now every multi-syllable word has `tones` (one per syllable, read from the tone marks in `roman`: à low, â falling, á high, ǎ rising, unmarked mid), and `tone` is kept only when all syllables share it, otherwise `""` (the app then shows no badge, as for Spanish). Also fixed: หนึ่ง tone falling → low; มันส์ roman "mans" → "mán". Optional app follow-up: show small per-syllable tone badges from `tones` (e.g. "falling · low"). Note: unstressed syllables such as "sa" in sa-wàt-dii are written unmarked (mid) in `roman`.

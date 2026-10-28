@@ -16,7 +16,12 @@
                 "thai": "สวัสดี",
                 "roman": "sa-wàt-dii",
                 "en": "Hello",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low",
+                  "mid"
+                ],
                 "accept": [
                   "hello",
                   "hi",
@@ -30,7 +35,11 @@
                 "thai": "ขอบคุณ",
                 "roman": "khɔ̀ɔp-khun",
                 "en": "Thank you",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "accept": [
                   "thank you",
                   "thanks"
@@ -51,6 +60,10 @@
                 "roman": "mâi châi",
                 "en": "No",
                 "tone": "falling",
+                "tones": [
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "❌"
               },
               {
@@ -58,7 +71,11 @@
                 "thai": "ขอโทษ",
                 "roman": "khɔ̌ɔ-thôot",
                 "en": "Sorry",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
                 "accept": [
                   "sorry",
                   "excuse me"
@@ -70,7 +87,12 @@
                 "thai": "ไม่เป็นไร",
                 "roman": "mâi-pen-rai",
                 "en": "No worries",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid",
+                  "mid"
+                ],
                 "accept": [
                   "no worries",
                   "you're welcome",
@@ -89,7 +111,13 @@
                 "thai": "สบายดีไหม",
                 "roman": "sa-baai-dii mǎi",
                 "en": "How are you?",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "🙂"
               },
               {
@@ -98,6 +126,11 @@
                 "roman": "sa-baai-dii",
                 "en": "I'm fine",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "accept": [
                   "i'm fine",
                   "im fine",
@@ -111,7 +144,15 @@
                 "thai": "ยินดีที่ได้รู้จัก",
                 "roman": "yin-dii thîi dâai rúu-jàk",
                 "en": "Nice to meet you",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "falling",
+                  "falling",
+                  "high",
+                  "low"
+                ],
                 "emoji": "🤝"
               },
               {
@@ -145,7 +186,13 @@
                 "thai": "ราตรีสวัสดิ์",
                 "roman": "raa-trii sa-wàt",
                 "en": "Good night",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🌙"
               }
             ]
@@ -166,7 +213,7 @@
                 "thai": "หนึ่ง",
                 "roman": "nùeng",
                 "en": "One",
-                "tone": "falling",
+                "tone": "low",
                 "accept": [
                   "one",
                   "1"
@@ -306,6 +353,10 @@
                 "roman": "sìp-èt",
                 "en": "Eleven",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "accept": [
                   "eleven",
                   "11"
@@ -317,7 +368,11 @@
                 "thai": "สิบสอง",
                 "roman": "sìp-sɔ̌ɔng",
                 "en": "Twelve",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "accept": [
                   "twelve",
                   "12"
@@ -329,7 +384,11 @@
                 "thai": "สิบสาม",
                 "roman": "sìp-sǎam",
                 "en": "Thirteen",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "accept": [
                   "thirteen",
                   "13"
@@ -342,6 +401,10 @@
                 "roman": "sìp-sìi",
                 "en": "Fourteen",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "accept": [
                   "fourteen",
                   "14"
@@ -353,7 +416,11 @@
                 "thai": "สิบห้า",
                 "roman": "sìp-hâa",
                 "en": "Fifteen",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "falling"
+                ],
                 "accept": [
                   "fifteen",
                   "15"
@@ -371,7 +438,11 @@
                 "thai": "ยี่สิบ",
                 "roman": "yîi-sìp",
                 "en": "Twenty",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "accept": [
                   "twenty",
                   "20"
@@ -383,7 +454,11 @@
                 "thai": "สามสิบ",
                 "roman": "sǎam-sìp",
                 "en": "Thirty",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low"
+                ],
                 "accept": [
                   "thirty",
                   "30"
@@ -396,6 +471,10 @@
                 "roman": "sìi-sìp",
                 "en": "Forty",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "accept": [
                   "forty",
                   "40"
@@ -407,7 +486,11 @@
                 "thai": "ห้าสิบ",
                 "roman": "hâa-sìp",
                 "en": "Fifty",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "accept": [
                   "fifty",
                   "50"
@@ -461,7 +544,11 @@
                 "thai": "พี่ชาย",
                 "roman": "phîi chaai",
                 "en": "Older brother",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🧑"
               },
               {
@@ -469,7 +556,11 @@
                 "thai": "น้องชาย",
                 "roman": "nɔ́ɔng chaai",
                 "en": "Younger brother",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
                 "emoji": "👦"
               },
               {
@@ -477,7 +568,11 @@
                 "thai": "พี่สาว",
                 "roman": "phîi sǎao",
                 "en": "Older sister",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "rising"
+                ],
                 "emoji": "👱‍♀️"
               },
               {
@@ -485,7 +580,11 @@
                 "thai": "น้องสาว",
                 "roman": "nɔ́ɔng sǎao",
                 "en": "Younger sister",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "rising"
+                ],
                 "emoji": "👧"
               }
             ]
@@ -531,7 +630,11 @@
                 "thai": "ครอบครัว",
                 "roman": "khrɔ̂ɔp-khrua",
                 "en": "Family",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "👨‍👩‍👧‍👦"
               },
               {
@@ -560,7 +663,11 @@
                 "thai": "สีแดง",
                 "roman": "sǐi dɛɛng",
                 "en": "Red",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "swatch": "#c0392b"
               },
               {
@@ -568,7 +675,12 @@
                 "thai": "สีน้ำเงิน",
                 "roman": "sǐi náam-ngoen",
                 "en": "Blue",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "high",
+                  "mid"
+                ],
                 "swatch": "#1f5fa8"
               },
               {
@@ -577,6 +689,10 @@
                 "roman": "sǐi khǐao",
                 "en": "Green",
                 "tone": "rising",
+                "tones": [
+                  "rising",
+                  "rising"
+                ],
                 "swatch": "#2f7d4f"
               },
               {
@@ -585,6 +701,10 @@
                 "roman": "sǐi lǔeang",
                 "en": "Yellow",
                 "tone": "rising",
+                "tones": [
+                  "rising",
+                  "rising"
+                ],
                 "swatch": "#e0b022"
               },
               {
@@ -592,7 +712,11 @@
                 "thai": "สีดำ",
                 "roman": "sǐi dam",
                 "en": "Black",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "swatch": "#1a1a1a"
               },
               {
@@ -601,6 +725,10 @@
                 "roman": "sǐi khǎao",
                 "en": "White",
                 "tone": "rising",
+                "tones": [
+                  "rising",
+                  "rising"
+                ],
                 "swatch": "#f5f5f0"
               }
             ]
@@ -615,6 +743,10 @@
                 "roman": "wong-klom",
                 "en": "Circle",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "⚪"
               },
               {
@@ -623,6 +755,10 @@
                 "roman": "sìi-lìam",
                 "en": "Square",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "⬜"
               },
               {
@@ -630,7 +766,11 @@
                 "thai": "สามเหลี่ยม",
                 "roman": "sǎam-lìam",
                 "en": "Triangle",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low"
+                ],
                 "emoji": "🔺"
               },
               {
@@ -646,7 +786,11 @@
                 "thai": "หัวใจ",
                 "roman": "hǔa-jai",
                 "en": "Heart",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "❤️"
               }
             ]
@@ -707,7 +851,12 @@
                 "thai": "ผลไม้",
                 "roman": "phǒn-lá-máai",
                 "en": "Fruit",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "high",
+                  "high"
+                ],
                 "emoji": "🍎"
               }
             ]
@@ -722,6 +871,10 @@
                 "roman": "kaa-fɛɛ",
                 "en": "Coffee",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "☕"
               },
               {
@@ -745,7 +898,11 @@
                 "thai": "ขนม",
                 "roman": "khà-nǒm",
                 "en": "Snack / sweet",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🍬"
               },
               {
@@ -753,7 +910,11 @@
                 "thai": "อาหาร",
                 "roman": "aa-hǎan",
                 "en": "Food",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "🍽️"
               },
               {
@@ -762,6 +923,10 @@
                 "roman": "à-ròi",
                 "en": "Delicious",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "😋"
               }
             ]
@@ -782,7 +947,11 @@
                 "thai": "ขอหน่อย",
                 "roman": "khɔ̌ɔ nɔ̀i",
                 "en": "May I have..., please",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low"
+                ],
                 "emoji": "🙏"
               },
               {
@@ -804,6 +973,10 @@
                 "roman": "mâi dâai",
                 "en": "Cannot / no",
                 "tone": "falling",
+                "tones": [
+                  "falling",
+                  "falling"
+                ],
                 "accept": [
                   "cannot",
                   "can't",
@@ -816,7 +989,11 @@
                 "thai": "เท่าไหร่",
                 "roman": "thâo-rài",
                 "en": "How much?",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "💰"
               },
               {
@@ -824,7 +1001,11 @@
                 "thai": "อันนี้",
                 "roman": "an níi",
                 "en": "This one",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "👇"
               },
               {
@@ -832,7 +1013,11 @@
                 "thai": "อันนั้น",
                 "roman": "an nán",
                 "en": "That one",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "👉"
               }
             ]
@@ -846,7 +1031,11 @@
                 "thai": "ที่ไหน",
                 "roman": "thîi-nǎi",
                 "en": "Where?",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "rising"
+                ],
                 "emoji": "📍"
               },
               {
@@ -854,7 +1043,11 @@
                 "thai": "อะไร",
                 "roman": "à-rai",
                 "en": "What?",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "❓"
               },
               {
@@ -863,6 +1056,10 @@
                 "roman": "tham-mai",
                 "en": "Why?",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🤔"
               },
               {
@@ -878,7 +1075,11 @@
                 "thai": "เมื่อไหร่",
                 "roman": "mʉ̂ʉa-rài",
                 "en": "When?",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🕐"
               },
               {
@@ -887,6 +1088,10 @@
                 "roman": "yang-ngai",
                 "en": "How?",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🛠️"
               }
             ]
@@ -907,35 +1112,58 @@
                 "thai": "วันจันทร์",
                 "roman": "wan jan",
                 "en": "Monday",
-                "tone": "mid"
+                "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ]
               },
               {
                 "id": "time-l1-1",
                 "thai": "วันอังคาร",
                 "roman": "wan ang-khaan",
                 "en": "Tuesday",
-                "tone": "mid"
+                "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ]
               },
               {
                 "id": "time-l1-2",
                 "thai": "วันพุธ",
                 "roman": "wan phút",
                 "en": "Wednesday",
-                "tone": "high"
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ]
               },
               {
                 "id": "time-l1-3",
                 "thai": "วันพฤหัสบดี",
                 "roman": "wan phá-rʉ́-hàt",
                 "en": "Thursday",
-                "tone": "high"
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high",
+                  "high",
+                  "low"
+                ]
               },
               {
                 "id": "time-l1-4",
                 "thai": "วันศุกร์",
                 "roman": "wan sùk",
                 "en": "Friday",
-                "tone": "low"
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ]
               }
             ]
           },
@@ -948,21 +1176,34 @@
                 "thai": "วันเสาร์",
                 "roman": "wan sǎo",
                 "en": "Saturday",
-                "tone": "rising"
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ]
               },
               {
                 "id": "time-l2-1",
                 "thai": "วันอาทิตย์",
                 "roman": "wan aa-thít",
                 "en": "Sunday",
-                "tone": "high"
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "high"
+                ]
               },
               {
                 "id": "time-l2-2",
                 "thai": "วันนี้",
                 "roman": "wan-níi",
                 "en": "Today",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "📅"
               },
               {
@@ -970,7 +1211,11 @@
                 "thai": "พรุ่งนี้",
                 "roman": "phrûng-níi",
                 "en": "Tomorrow",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "high"
+                ],
                 "emoji": "➡️"
               },
               {
@@ -978,7 +1223,11 @@
                 "thai": "เมื่อวาน",
                 "roman": "mʉ̂ʉa-waan",
                 "en": "Yesterday",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "⬅️"
               }
             ]
@@ -1008,6 +1257,10 @@
                 "roman": "roong-rian",
                 "en": "School",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🏫"
               },
               {
@@ -1016,6 +1269,10 @@
                 "roman": "tà-làat",
                 "en": "Market",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "🛒"
               },
               {
@@ -1023,7 +1280,12 @@
                 "thai": "ร้านอาหาร",
                 "roman": "ráan-aa-hǎan",
                 "en": "Restaurant",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "🍜"
               },
               {
@@ -1031,7 +1293,13 @@
                 "thai": "โรงพยาบาล",
                 "roman": "roong-phá-yaa-baan",
                 "en": "Hospital",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🏥"
               },
               {
@@ -1039,7 +1307,12 @@
                 "thai": "สนามบิน",
                 "roman": "sà-nǎam-bin",
                 "en": "Airport",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "🛫"
               }
             ]
@@ -1070,6 +1343,10 @@
                 "roman": "trong-pai",
                 "en": "Straight ahead",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "⬆️"
               },
               {
@@ -1093,7 +1370,11 @@
                 "thai": "ตรงนี้",
                 "roman": "trong-níi",
                 "en": "Right here",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "📍"
               }
             ]
@@ -1146,7 +1427,12 @@
                 "thai": "ลดราคา",
                 "roman": "lót raa-khaa",
                 "en": "On sale / discount",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🏷️"
               },
               {
@@ -1177,6 +1463,10 @@
                 "roman": "ráan-kháa",
                 "en": "Shop",
                 "tone": "high",
+                "tones": [
+                  "high",
+                  "high"
+                ],
                 "emoji": "🏪"
               },
               {
@@ -1192,7 +1482,11 @@
                 "thai": "จ่ายเงิน",
                 "roman": "jàai-ngoen",
                 "en": "Pay",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "💳"
               },
               {
@@ -1200,7 +1494,11 @@
                 "thai": "ใบเสร็จ",
                 "roman": "bai-sèt",
                 "en": "Receipt",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🧾"
               },
               {
@@ -1237,7 +1535,11 @@
                 "thai": "รถไฟ",
                 "roman": "rót-fai",
                 "en": "Train",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
                 "emoji": "🚆"
               },
               {
@@ -1245,7 +1547,11 @@
                 "thai": "เครื่องบิน",
                 "roman": "khrʉ̂ang-bin",
                 "en": "Airplane",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "✈️"
               },
               {
@@ -1253,7 +1559,11 @@
                 "thai": "รถเมล์",
                 "roman": "rót-mee",
                 "en": "Bus",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
                 "emoji": "🚌"
               },
               {
@@ -1261,7 +1571,11 @@
                 "thai": "แท็กซี่",
                 "roman": "théek-sîi",
                 "en": "Taxi",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "falling"
+                ],
                 "emoji": "🚕"
               },
               {
@@ -1291,7 +1605,13 @@
                 "thai": "หนังสือเดินทาง",
                 "roman": "nǎng-sʉ̌ʉ-dooen-thaang",
                 "en": "Passport",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "rising",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🛂"
               },
               {
@@ -1299,7 +1619,11 @@
                 "thai": "กระเป๋า",
                 "roman": "krà-pǎo",
                 "en": "Bag / luggage",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🧳"
               },
               {
@@ -1315,7 +1639,11 @@
                 "thai": "เที่ยวบิน",
                 "roman": "thîao-bin",
                 "en": "Flight",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🛫"
               },
               {
@@ -1324,6 +1652,10 @@
                 "roman": "roong-rɛɛm",
                 "en": "Hotel",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🏨"
               }
             ]
@@ -1360,7 +1692,11 @@
                 "thai": "ฝนตก",
                 "roman": "fǒn-tòk",
                 "en": "Raining",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low"
+                ],
                 "emoji": "🌧️"
               },
               {
@@ -1369,6 +1705,10 @@
                 "roman": "dɛ̀ɛt-ɔ̀ɔk",
                 "en": "Sunny",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "☀️"
               },
               {
@@ -1377,6 +1717,10 @@
                 "roman": "lom-rɛɛng",
                 "en": "Windy",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "💨"
               },
               {
@@ -1398,7 +1742,12 @@
                 "thai": "ฤดูร้อน",
                 "roman": "rʉ́-duu-rɔ́ɔn",
                 "en": "Summer",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "high"
+                ],
                 "emoji": "🏖️"
               },
               {
@@ -1406,7 +1755,12 @@
                 "thai": "ฤดูฝน",
                 "roman": "rʉ́-duu-fǒn",
                 "en": "Rainy season",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "🌦️"
               },
               {
@@ -1414,7 +1768,12 @@
                 "thai": "ฤดูหนาว",
                 "roman": "rʉ́-duu-nǎao",
                 "en": "Cool / winter season",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "🧣"
               },
               {
@@ -1422,7 +1781,11 @@
                 "thai": "อากาศ",
                 "roman": "aa-kàat",
                 "en": "Weather",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🌤️"
               },
               {
@@ -1452,6 +1815,10 @@
                 "roman": "dii-jai",
                 "en": "Happy",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "😄"
               },
               {
@@ -1505,7 +1872,11 @@
                 "thai": "ปวดหัว",
                 "roman": "pùat-hǔa",
                 "en": "Headache",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🤕"
               },
               {
@@ -1513,7 +1884,11 @@
                 "thai": "ปวดท้อง",
                 "roman": "pùat-tháng",
                 "en": "Stomachache",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "high"
+                ],
                 "emoji": "🤢"
               },
               {
@@ -1521,7 +1896,12 @@
                 "thai": "ไม่สบาย",
                 "roman": "mâi sà-baai",
                 "en": "Sick / unwell",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🤒"
               },
               {
@@ -1545,7 +1925,12 @@
                 "thai": "สุขภาพ",
                 "roman": "sùk-khà-phâap",
                 "en": "Health",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "low",
+                  "falling"
+                ],
                 "emoji": "💪"
               }
             ]
@@ -1566,7 +1951,11 @@
                 "thai": "ผมชื่อ...",
                 "roman": "phǒm chʉ̂ʉ...",
                 "en": "My name is... (male)",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
                 "accept": [
                   "my name is",
                   "my name is... (male)"
@@ -1578,7 +1967,11 @@
                 "thai": "ฉันชื่อ...",
                 "roman": "chǎn chʉ̂ʉ...",
                 "en": "My name is... (female)",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
                 "accept": [
                   "my name is",
                   "my name is... (female)"
@@ -1590,7 +1983,12 @@
                 "thai": "ผมอยากกิน...",
                 "roman": "phǒm yàak kin...",
                 "en": "I want to eat...",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🍽️"
               },
               {
@@ -1598,7 +1996,11 @@
                 "thai": "ฉันชอบ...",
                 "roman": "chǎn chɔ̂ɔp...",
                 "en": "I like...",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
                 "emoji": "👍"
               },
               {
@@ -1606,7 +2008,14 @@
                 "thai": "ผมมาจากอังกฤษ",
                 "roman": "phǒm maa jàak ang-krìt",
                 "en": "I come from England",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid",
+                  "low",
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🇬🇧"
               },
               {
@@ -1614,7 +2023,13 @@
                 "thai": "ฉันรักครอบครัว",
                 "roman": "chǎn rák khrɔ̂ɔp-khrua",
                 "en": "I love my family",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "high",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "❤️"
               }
             ]
@@ -1628,7 +2043,13 @@
                 "thai": "ผมไปโรงเรียน",
                 "roman": "phǒm pai roong-rian",
                 "en": "I go to school",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🏫"
               },
               {
@@ -1636,7 +2057,13 @@
                 "thai": "ฉันอยู่ที่บ้าน",
                 "roman": "chǎn yùu thîi bâan",
                 "en": "I am at home",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low",
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "🏠"
               },
               {
@@ -1644,7 +2071,14 @@
                 "thai": "วันนี้อากาศร้อน",
                 "roman": "wan-níi aa-kàat rɔ́ɔn",
                 "en": "Today the weather is hot",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high",
+                  "mid",
+                  "low",
+                  "high"
+                ],
                 "emoji": "🥵"
               },
               {
@@ -1652,7 +2086,12 @@
                 "thai": "ผมหิวข้าว",
                 "roman": "phǒm hǐw khâao",
                 "en": "I'm hungry",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "rising",
+                  "falling"
+                ],
                 "emoji": "🤤"
               },
               {
@@ -1660,7 +2099,13 @@
                 "thai": "ขอบคุณมากครับ",
                 "roman": "khɔ̀ɔp-khun mâak khráp",
                 "en": "Thank you very much (male)",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "falling",
+                  "high"
+                ],
                 "emoji": "🙇‍♂️"
               },
               {
@@ -1668,7 +2113,13 @@
                 "thai": "ขอบคุณมากค่ะ",
                 "roman": "khɔ̀ɔp-khun mâak khâ",
                 "en": "Thank you very much (female)",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "🙇‍♀️"
               }
             ]
@@ -1718,7 +2169,11 @@
                 "thai": "กี่คน",
                 "roman": "kìi khon",
                 "en": "How many people?",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "👥"
               },
               {
@@ -1726,7 +2181,11 @@
                 "thai": "สองคน",
                 "roman": "sɔ̌ɔng khon",
                 "en": "Two people",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "👫"
               },
               {
@@ -1734,7 +2193,11 @@
                 "thai": "สามตัว",
                 "roman": "sǎam tua",
                 "en": "Three animals",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "🐱"
               }
             ]
@@ -1822,7 +2285,11 @@
                 "thai": "ตื่นนอน",
                 "roman": "tʉ̀ʉn-nɔɔn",
                 "en": "Wake up",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "⏰"
               },
               {
@@ -1830,7 +2297,11 @@
                 "thai": "อาบน้ำ",
                 "roman": "àap-náam",
                 "en": "Shower / bathe",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "high"
+                ],
                 "emoji": "🚿"
               },
               {
@@ -1839,6 +2310,10 @@
                 "roman": "prɛɛng-fan",
                 "en": "Brush teeth",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🪥"
               },
               {
@@ -1846,7 +2321,12 @@
                 "thai": "กินข้าวเช้า",
                 "roman": "kin khâao cháao",
                 "en": "Eat breakfast",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling",
+                  "high"
+                ],
                 "emoji": "🍳"
               },
               {
@@ -1855,6 +2335,11 @@
                 "roman": "pai tham-ngaan",
                 "en": "Go to work",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "💼"
               },
               {
@@ -1876,7 +2361,11 @@
                 "thai": "กี่โมง",
                 "roman": "kìi-moong",
                 "en": "What time?",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🕐"
               },
               {
@@ -1884,7 +2373,11 @@
                 "thai": "ตอนเช้า",
                 "roman": "tɔɔn cháao",
                 "en": "In the morning",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "🌅"
               },
               {
@@ -1892,7 +2385,11 @@
                 "thai": "ตอนบ่าย",
                 "roman": "tɔɔn bàai",
                 "en": "In the afternoon",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🌞"
               },
               {
@@ -1901,6 +2398,10 @@
                 "roman": "tɔɔn yen",
                 "en": "In the evening",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🌇"
               },
               {
@@ -1909,6 +2410,11 @@
                 "roman": "tɔɔn klaang-khʉʉn",
                 "en": "At night",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🌙"
               }
             ]
@@ -1938,6 +2444,10 @@
                 "roman": "kam-lang",
                 "en": "Currently -ing",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "⏳"
               },
               {
@@ -1945,7 +2455,11 @@
                 "thai": "จะไป",
                 "roman": "jà pai",
                 "en": "Will go",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🚶"
               },
               {
@@ -1954,6 +2468,11 @@
                 "roman": "kam-lang kin",
                 "en": "Is eating",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🍜"
               }
             ]
@@ -1975,7 +2494,11 @@
                 "thai": "ยังไม่",
                 "roman": "yang mâi",
                 "en": "Not yet",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "⌛"
               },
               {
@@ -1991,7 +2514,11 @@
                 "thai": "ไม่เคย",
                 "roman": "mâi khooei",
                 "en": "Have never",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🚫"
               },
               {
@@ -1999,7 +2526,11 @@
                 "thai": "กินแล้ว",
                 "roman": "kin lɛ́ɛo",
                 "en": "Already ate",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "😋"
               }
             ]
@@ -2028,7 +2559,11 @@
                 "thai": "ที่สุด",
                 "roman": "thîi-sùt",
                 "en": "The most",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🏆"
               },
               {
@@ -2036,7 +2571,11 @@
                 "thai": "น้อยกว่า",
                 "roman": "nɔ́ɔi kwàa",
                 "en": "Less than",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "low"
+                ],
                 "emoji": "⬇️"
               },
               {
@@ -2044,7 +2583,11 @@
                 "thai": "ดีกว่า",
                 "roman": "dii kwàa",
                 "en": "Better",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "👍"
               },
               {
@@ -2052,7 +2595,12 @@
                 "thai": "ดีที่สุด",
                 "roman": "dii thîi-sùt",
                 "en": "The best",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🥇"
               },
               {
@@ -2060,7 +2608,11 @@
                 "thai": "เหมือนกัน",
                 "roman": "mʉ̌an-kan",
                 "en": "The same",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "🟰"
               }
             ]
@@ -2081,7 +2633,12 @@
                 "thai": "ขอเมนู",
                 "roman": "khɔ̌ɔ mee-nuu",
                 "en": "Menu, please",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "📋"
               },
               {
@@ -2097,7 +2654,11 @@
                 "thai": "ไม่เผ็ด",
                 "roman": "mâi phèt",
                 "en": "Not spicy",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🚫"
               },
               {
@@ -2105,7 +2666,13 @@
                 "thai": "มังสวิรัติ",
                 "roman": "mang-sà-wí-rát",
                 "en": "Vegetarian",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low",
+                  "high",
+                  "high"
+                ],
                 "emoji": "🥗"
               },
               {
@@ -2113,7 +2680,12 @@
                 "thai": "เก็บเงินด้วย",
                 "roman": "kèp ngoen dûai",
                 "en": "Check, please",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "🧾"
               },
               {
@@ -2121,7 +2693,12 @@
                 "thai": "อร่อยมาก",
                 "roman": "à-ròi mâak",
                 "en": "Very delicious",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "low",
+                  "falling"
+                ],
                 "emoji": "😋"
               }
             ]
@@ -2151,6 +2728,10 @@
                 "roman": "mâi wâang",
                 "en": "Busy",
                 "tone": "falling",
+                "tones": [
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "📆"
               },
               {
@@ -2166,7 +2747,12 @@
                 "thai": "ไปด้วยกัน",
                 "roman": "pai dûai kan",
                 "en": "Go together",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "👫"
               },
               {
@@ -2182,7 +2768,13 @@
                 "thai": "พรุ่งนี้ตอนเย็น",
                 "roman": "phrûng-níi tɔɔn yen",
                 "en": "Tomorrow evening",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "high",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🌆"
               }
             ]
@@ -2243,7 +2835,11 @@
                 "thai": "ดังนั้น",
                 "roman": "dang-nán",
                 "en": "Therefore / so",
-                "tone": "mid"
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ]
               }
             ]
           }
@@ -2263,7 +2859,11 @@
                 "thai": "เลี้ยวซ้าย",
                 "roman": "líao sáai",
                 "en": "Turn left",
-                "tone": "falling",
+                "tone": "high",
+                "tones": [
+                  "high",
+                  "high"
+                ],
                 "emoji": "↩️"
               },
               {
@@ -2271,7 +2871,11 @@
                 "thai": "เลี้ยวขวา",
                 "roman": "líao khwǎa",
                 "en": "Turn right",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "rising"
+                ],
                 "emoji": "↪️"
               },
               {
@@ -2279,7 +2883,13 @@
                 "thai": "ตรงไปเรื่อยๆ",
                 "roman": "trong pai rʉ̂ai-rʉ̂ai",
                 "en": "Keep going straight",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "⬆️"
               },
               {
@@ -2287,7 +2897,12 @@
                 "thai": "ข้ามถนน",
                 "roman": "khâam thà-nǒn",
                 "en": "Cross the street",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🚸"
               },
               {
@@ -2295,7 +2910,12 @@
                 "thai": "อยู่ตรงข้าม",
                 "roman": "yùu trong-khâam",
                 "en": "It's across from...",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "↔️"
               },
               {
@@ -2303,7 +2923,12 @@
                 "thai": "อยู่ระหว่าง",
                 "roman": "yùu rá-wàang",
                 "en": "It's between...",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "high",
+                  "low"
+                ],
                 "emoji": "🎯"
               }
             ]
@@ -2379,6 +3004,10 @@
                 "roman": "jai-dii",
                 "en": "Kind",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🤗"
               },
               {
@@ -2386,7 +3015,11 @@
                 "thai": "ขยัน",
                 "roman": "khà-yǎn",
                 "en": "Hardworking",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🐝"
               },
               {
@@ -2395,6 +3028,10 @@
                 "roman": "chà-làat",
                 "en": "Smart",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "🧠"
               },
               {
@@ -2403,6 +3040,10 @@
                 "roman": "tà-lòk",
                 "en": "Funny",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "🤡"
               },
               {
@@ -2410,7 +3051,11 @@
                 "thai": "ใจร้อน",
                 "roman": "jai-rɔ́ɔn",
                 "en": "Impatient / hot-tempered",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "😤"
               },
               {
@@ -2418,7 +3063,11 @@
                 "thai": "ขี้เกียจ",
                 "roman": "khîi-kìat",
                 "en": "Lazy",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🦥"
               }
             ]
@@ -2439,7 +3088,11 @@
                 "thai": "อาชีพ",
                 "roman": "aa-chîip",
                 "en": "Occupation",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "💼"
               },
               {
@@ -2455,7 +3108,12 @@
                 "thai": "ผู้จัดการ",
                 "roman": "phûu-jàt-kaan",
                 "en": "Manager",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "👔"
               },
               {
@@ -2463,7 +3121,12 @@
                 "thai": "พนักงาน",
                 "roman": "phá-nák-ngaan",
                 "en": "Employee / staff",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "high",
+                  "mid"
+                ],
                 "emoji": "🧑‍💼"
               },
               {
@@ -2471,7 +3134,13 @@
                 "thai": "นักธุรกิจ",
                 "roman": "nák-thú-rá-kìt",
                 "en": "Businessperson",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "high",
+                  "high",
+                  "low"
+                ],
                 "emoji": "📈"
               },
               {
@@ -2479,7 +3148,13 @@
                 "thai": "ทำงานที่ไหน",
                 "roman": "tham-ngaan thîi-nǎi",
                 "en": "Where do you work?",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "falling",
+                  "rising"
+                ],
                 "emoji": "🏢"
               }
             ]
@@ -2493,7 +3168,13 @@
                 "thai": "วิศวกร",
                 "roman": "wít-sà-wa-kɔɔn",
                 "en": "Engineer",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "low",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🧑‍🔧"
               },
               {
@@ -2501,7 +3182,12 @@
                 "thai": "พยาบาล",
                 "roman": "phá-yaa-baan",
                 "en": "Nurse",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🧑‍⚕️"
               },
               {
@@ -2509,7 +3195,11 @@
                 "thai": "นักเรียน",
                 "roman": "nák-rian",
                 "en": "Student",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
                 "emoji": "🧑‍🎓"
               },
               {
@@ -2517,7 +3207,12 @@
                 "thai": "ธุรกิจ",
                 "roman": "thú-rá-kìt",
                 "en": "Business",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "high",
+                  "low"
+                ],
                 "emoji": "📊"
               },
               {
@@ -2526,6 +3221,10 @@
                 "roman": "ngoen-dʉan",
                 "en": "Salary",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "💰"
               },
               {
@@ -2533,7 +3232,11 @@
                 "thai": "ว่างงาน",
                 "roman": "wâang-ngaan",
                 "en": "Unemployed",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🛋️"
               }
             ]
@@ -2554,7 +3257,15 @@
                 "thai": "คุณจะดื่มอะไรดี",
                 "roman": "khun jà dʉ̀ʉm à-rai dii",
                 "en": "What would you like to drink?",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low",
+                  "low",
+                  "low",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🥤"
               },
               {
@@ -2562,7 +3273,16 @@
                 "thai": "ขอกาแฟเย็นแก้วนึงครับ",
                 "roman": "khɔ̌ɔ kaa-fɛɛ yen kɛ̂ɛo nʉng khráp",
                 "en": "One iced coffee, please",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid",
+                  "mid",
+                  "mid",
+                  "falling",
+                  "mid",
+                  "high"
+                ],
                 "emoji": "🧊"
               },
               {
@@ -2570,7 +3290,15 @@
                 "thai": "รับอะไรเพิ่มไหมคะ",
                 "roman": "ráp à-rai phə̂əm mǎi khá",
                 "en": "Would you like anything else?",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "low",
+                  "mid",
+                  "falling",
+                  "rising",
+                  "high"
+                ],
                 "emoji": "➕"
               },
               {
@@ -2578,7 +3306,15 @@
                 "thai": "ไม่เอาแล้ว ขอบคุณครับ",
                 "roman": "mâi ao lɛ́ɛo khɔ̀ɔp-khun khráp",
                 "en": "No more, thank you",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid",
+                  "high",
+                  "low",
+                  "mid",
+                  "high"
+                ],
                 "emoji": "🙅"
               }
             ]
@@ -2592,7 +3328,17 @@
                 "thai": "ขอโทษครับ ห้องน้ำอยู่ที่ไหน",
                 "roman": "khɔ̌ɔ-thôot khráp hɔ̂ng-náam yùu thîi-nǎi",
                 "en": "Excuse me, where's the bathroom?",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling",
+                  "high",
+                  "falling",
+                  "high",
+                  "low",
+                  "falling",
+                  "rising"
+                ],
                 "emoji": "🚻"
               },
               {
@@ -2600,7 +3346,14 @@
                 "thai": "อยู่ทางขวามือค่ะ",
                 "roman": "yùu thaang khwǎa mʉʉ khâ",
                 "en": "It's on the right",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "rising",
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "➡️"
               },
               {
@@ -2608,7 +3361,15 @@
                 "thai": "ช่วยผมหน่อยได้ไหมครับ",
                 "roman": "chûai phǒm nɔ̀i dâai mǎi khráp",
                 "en": "Can you help me, please?",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "rising",
+                  "low",
+                  "falling",
+                  "rising",
+                  "high"
+                ],
                 "emoji": "🆘"
               },
               {
@@ -2616,7 +3377,18 @@
                 "thai": "ได้สิคะ มีอะไรให้ช่วยคะ",
                 "roman": "dâai sì khá mii à-rai hâi chûai khá",
                 "en": "Sure, what can I help with?",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low",
+                  "high",
+                  "mid",
+                  "low",
+                  "mid",
+                  "falling",
+                  "falling",
+                  "high"
+                ],
                 "emoji": "🙋"
               }
             ]
@@ -2638,6 +3410,10 @@
                 "roman": "chûai dûai",
                 "en": "Help!",
                 "tone": "falling",
+                "tones": [
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "🆘"
               },
               {
@@ -2645,7 +3421,11 @@
                 "thai": "ฉุกเฉิน",
                 "roman": "chùk-chə̌ən",
                 "en": "Emergency",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🚨"
               },
               {
@@ -2653,7 +3433,15 @@
                 "thai": "โทรเรียกรถพยาบาล",
                 "roman": "thoo rîak rót phá-yaa-baan",
                 "en": "Call an ambulance",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling",
+                  "high",
+                  "high",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🚑"
               },
               {
@@ -2661,7 +3449,11 @@
                 "thai": "ตำรวจ",
                 "roman": "tam-rùat",
                 "en": "Police",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "👮"
               },
               {
@@ -2669,7 +3461,11 @@
                 "thai": "แพ้ยา",
                 "roman": "phɛ́ɛ yaa",
                 "en": "Allergic to medicine",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
                 "emoji": "💊"
               },
               {
@@ -2677,7 +3473,12 @@
                 "thai": "เจ็บตรงนี้",
                 "roman": "jèp trong-níi",
                 "en": "It hurts here",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "high"
+                ],
                 "emoji": "🤕"
               }
             ]
@@ -2703,7 +3504,11 @@
                 "thai": "คิดว่า",
                 "roman": "khít wâa",
                 "en": "Think that...",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "falling"
+                ],
                 "emoji": "💭"
               },
               {
@@ -2711,7 +3516,11 @@
                 "thai": "เห็นด้วย",
                 "roman": "hěn dûai",
                 "en": "Agree",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
                 "emoji": "👍"
               },
               {
@@ -2719,7 +3528,12 @@
                 "thai": "ไม่เห็นด้วย",
                 "roman": "mâi hěn dûai",
                 "en": "Disagree",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "rising",
+                  "falling"
+                ],
                 "emoji": "👎"
               },
               {
@@ -2727,7 +3541,14 @@
                 "thai": "ตามความคิดของผม",
                 "roman": "taam khwaam-khít khɔ̌ɔng phǒm",
                 "en": "In my opinion (male)",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "high",
+                  "rising",
+                  "rising"
+                ],
                 "emoji": "🗣️"
               },
               {
@@ -2735,7 +3556,11 @@
                 "thai": "น่าจะ",
                 "roman": "nâa jà",
                 "en": "Probably / should",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🤷"
               },
               {
@@ -2743,7 +3568,11 @@
                 "thai": "แน่นอน",
                 "roman": "nɛ̂ɛ-nɔɔn",
                 "en": "Certainly / of course",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "💯"
               }
             ]
@@ -2764,7 +3593,11 @@
                 "thai": "ความสุข",
                 "roman": "khwaam-sùk",
                 "en": "Happiness",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "😊"
               },
               {
@@ -2772,7 +3605,11 @@
                 "thai": "ความรัก",
                 "roman": "khwaam-rák",
                 "en": "Love",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
                 "emoji": "❤️"
               },
               {
@@ -2780,7 +3617,12 @@
                 "thai": "ความสำเร็จ",
                 "roman": "khwaam-sǎm-rèt",
                 "en": "Success",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising",
+                  "low"
+                ],
                 "emoji": "🏆"
               },
               {
@@ -2788,7 +3630,11 @@
                 "thai": "ปัญหา",
                 "roman": "pan-hǎa",
                 "en": "Problem",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "⚠️"
               },
               {
@@ -2796,7 +3642,11 @@
                 "thai": "โอกาส",
                 "roman": "oo-kàat",
                 "en": "Opportunity",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🚪"
               },
               {
@@ -2804,7 +3654,11 @@
                 "thai": "เป้าหมาย",
                 "roman": "pâo-mǎai",
                 "en": "Goal",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "rising"
+                ],
                 "emoji": "🎯"
               }
             ]
@@ -2825,7 +3679,11 @@
                 "thai": "เมื่อก่อน",
                 "roman": "mʉ̂ʉa-kɔ̀ɔn",
                 "en": "In the past / used to",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "low"
+                ],
                 "emoji": "📜"
               },
               {
@@ -2833,7 +3691,11 @@
                 "thai": "ตอนแรก",
                 "roman": "tɔɔn-rɛ̂ɛk",
                 "en": "At first",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "1️⃣"
               },
               {
@@ -2842,6 +3704,10 @@
                 "roman": "jùu-jùu",
                 "en": "Suddenly",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "⚡"
               },
               {
@@ -2849,7 +3715,12 @@
                 "thai": "หลังจากนั้น",
                 "roman": "lǎng-jàak-nán",
                 "en": "After that",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low",
+                  "high"
+                ],
                 "emoji": "⏭️"
               },
               {
@@ -2857,7 +3728,12 @@
                 "thai": "ในที่สุด",
                 "roman": "nai thîi-sùt",
                 "en": "Finally",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🏁"
               },
               {
@@ -2865,7 +3741,11 @@
                 "thai": "จบลง",
                 "roman": "jòp-long",
                 "en": "End (a story)",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "📕"
               }
             ]
@@ -2918,7 +3798,11 @@
                 "thai": "นางสาว",
                 "roman": "naang-sǎao",
                 "en": "Miss",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "👩"
               },
               {
@@ -2947,7 +3831,11 @@
                 "thai": "ฮัลโหล",
                 "roman": "han-lǒo",
                 "en": "Hello (on the phone)",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "📞"
               },
               {
@@ -2955,7 +3843,12 @@
                 "thai": "สายไม่ว่าง",
                 "roman": "sǎai mâi wâang",
                 "en": "The line is busy",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "📵"
               },
               {
@@ -2963,7 +3856,12 @@
                 "thai": "ขอสายคุณ...",
                 "roman": "khɔ̌ɔ sǎai khun...",
                 "en": "May I speak to...?",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "🗣️"
               },
               {
@@ -2971,7 +3869,12 @@
                 "thai": "ฝากข้อความ",
                 "roman": "fàak khɔ̂ɔ-khwaam",
                 "en": "Leave a message",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "📝"
               },
               {
@@ -2979,7 +3882,11 @@
                 "thai": "โทรกลับ",
                 "roman": "thoo klàp",
                 "en": "Call back",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🔁"
               },
               {
@@ -2987,7 +3894,11 @@
                 "thai": "วางสาย",
                 "roman": "waang sǎai",
                 "en": "Hang up",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "📴"
               }
             ]
@@ -3009,6 +3920,11 @@
                 "roman": "jai-yen-yen",
                 "en": "Calm down (lit. \"cool heart\")",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🧊"
               },
               {
@@ -3017,6 +3933,10 @@
                 "roman": "kreeng-jai",
                 "en": "Reluctant to impose on someone",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🙇"
               },
               {
@@ -3024,7 +3944,12 @@
                 "thai": "เข้าใจผิด",
                 "roman": "khâo-jai phìt",
                 "en": "Misunderstand",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid",
+                  "low"
+                ],
                 "emoji": "😕"
               },
               {
@@ -3032,7 +3957,11 @@
                 "thai": "ปากหวาน",
                 "roman": "pàak-wǎan",
                 "en": "Sweet-talking (lit. \"sweet mouth\")",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🍯"
               },
               {
@@ -3040,7 +3969,11 @@
                 "thai": "น้ำใจ",
                 "roman": "náam-jai",
                 "en": "Generosity / kindness (lit. \"water of the heart\")",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
                 "emoji": "💧"
               }
             ]
@@ -3066,7 +3999,12 @@
                 "thai": "บริษัท",
                 "roman": "bɔɔ-rí-sàt",
                 "en": "Company",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high",
+                  "low"
+                ],
                 "emoji": "🏢"
               },
               {
@@ -3074,7 +4012,11 @@
                 "thai": "ประชุม",
                 "roman": "prà-chum",
                 "en": "Meeting",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid"
+                ],
                 "emoji": "👥"
               },
               {
@@ -3082,7 +4024,11 @@
                 "thai": "ลูกค้า",
                 "roman": "lûuk-kháa",
                 "en": "Customer / client",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "high"
+                ],
                 "emoji": "🤝"
               },
               {
@@ -3090,7 +4036,11 @@
                 "thai": "สัญญา",
                 "roman": "sǎn-yaa",
                 "en": "Contract",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "📄"
               },
               {
@@ -3098,7 +4048,12 @@
                 "thai": "งบประมาณ",
                 "roman": "ngóp-prà-maan",
                 "en": "Budget",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "📊"
               },
               {
@@ -3107,6 +4062,10 @@
                 "roman": "kam-rai",
                 "en": "Profit",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "💹"
               }
             ]
@@ -3135,7 +4094,12 @@
                 "thai": "รัฐบาล",
                 "roman": "rát-thà-baan",
                 "en": "Government",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🏛️"
               },
               {
@@ -3144,6 +4108,11 @@
                 "roman": "sèet-thà-kìt",
                 "en": "Economy",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low",
+                  "low"
+                ],
                 "emoji": "💹"
               },
               {
@@ -3152,6 +4121,10 @@
                 "roman": "kaan-mʉʉang",
                 "en": "Politics",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🗳️"
               },
               {
@@ -3159,7 +4132,12 @@
                 "thai": "สิ่งแวดล้อม",
                 "roman": "sìng-wɛ̂ɛt-lɔ́ɔm",
                 "en": "Environment",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "falling",
+                  "high"
+                ],
                 "emoji": "🌳"
               },
               {
@@ -3167,7 +4145,12 @@
                 "thai": "ประชาชน",
                 "roman": "prà-chaa-chon",
                 "en": "Citizens / the public",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "👥"
               }
             ]
@@ -3216,14 +4199,22 @@
                 "thai": "ทั้งที่",
                 "roman": "tháng-thîi",
                 "en": "Even though",
-                "tone": "high"
+                "tone": "",
+                "tones": [
+                  "high",
+                  "falling"
+                ]
               },
               {
                 "id": "gra-l1-5",
                 "thai": "แม้ว่า",
                 "roman": "mɛ́ɛ-wâa",
                 "en": "Although",
-                "tone": "high"
+                "tone": "",
+                "tones": [
+                  "high",
+                  "falling"
+                ]
               }
             ]
           }
@@ -3243,7 +4234,14 @@
                 "thai": "น้ำขึ้นให้รีบตัก",
                 "roman": "náam khʉ̂n hâi rîip tàk",
                 "en": "Strike while the iron is hot",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "falling",
+                  "falling",
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🔥"
               },
               {
@@ -3251,7 +4249,15 @@
                 "thai": "ช้าๆ ได้พร้าเล่มงาม",
                 "roman": "cháa cháa dâai phráa lêm ngaam",
                 "en": "Slow and steady wins the race",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "high",
+                  "falling",
+                  "high",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🐢"
               },
               {
@@ -3259,7 +4265,15 @@
                 "thai": "ตนเป็นที่พึ่งแห่งตน",
                 "roman": "ton pen thîi-phʉ̀ng hɛ̀ng ton",
                 "en": "Self-reliance (\"oneself is one's own refuge\")",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "falling",
+                  "low",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🧘"
               },
               {
@@ -3267,7 +4281,17 @@
                 "thai": "รักวัวให้ผูก รักลูกให้ตี",
                 "roman": "rák wua hâi phùuk rák lûuk hâi tii",
                 "en": "Spare the rod, spoil the child",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "falling",
+                  "low",
+                  "high",
+                  "falling",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🌱"
               },
               {
@@ -3275,7 +4299,15 @@
                 "thai": "น้ำพึ่งเรือเสือพึ่งป่า",
                 "roman": "náam phʉ̂ng rʉa sʉ̌a phʉ̂ng pàa",
                 "en": "Mutual support (\"water relies on the boat, the tiger relies on the forest\")",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "falling",
+                  "mid",
+                  "rising",
+                  "falling",
+                  "low"
+                ],
                 "emoji": "🐅"
               }
             ]
@@ -3296,7 +4328,11 @@
                 "thai": "ข้อดี",
                 "roman": "khɔ̂ɔ-dii",
                 "en": "Advantage",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "➕"
               },
               {
@@ -3304,7 +4340,11 @@
                 "thai": "ข้อเสีย",
                 "roman": "khɔ̂ɔ-sǐa",
                 "en": "Disadvantage",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "rising"
+                ],
                 "emoji": "➖"
               },
               {
@@ -3312,7 +4352,12 @@
                 "thai": "ยกตัวอย่าง",
                 "roman": "yók tua-yàang",
                 "en": "For example",
-                "tone": "high",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "low"
+                ],
                 "emoji": "💡"
               },
               {
@@ -3320,7 +4365,13 @@
                 "thai": "ในทางกลับกัน",
                 "roman": "nai thaang-klàp-kan",
                 "en": "On the other hand",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "🔄"
               },
               {
@@ -3328,7 +4379,12 @@
                 "thai": "โดยรวมแล้ว",
                 "roman": "dooi ruam lɛ́ɛo",
                 "en": "Overall",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "high"
+                ],
                 "emoji": "🌐"
               },
               {
@@ -3337,6 +4393,10 @@
                 "roman": "sà-rùp",
                 "en": "To summarize / conclude",
                 "tone": "low",
+                "tones": [
+                  "low",
+                  "low"
+                ],
                 "emoji": "📌"
               }
             ]
@@ -3384,7 +4444,7 @@
               {
                 "id": "slg-l1-3",
                 "thai": "มันส์",
-                "roman": "mans",
+                "roman": "mán",
                 "en": "Fun / exciting",
                 "tone": "high",
                 "emoji": "🎉"
@@ -3424,6 +4484,11 @@
                 "roman": "hâa hâa hâa",
                 "en": "Haha (5 = \"hâa\", so 555 sounds like laughter)",
                 "tone": "falling",
+                "tones": [
+                  "falling",
+                  "falling",
+                  "falling"
+                ],
                 "emoji": "😂"
               },
               {
@@ -3439,7 +4504,11 @@
                 "thai": "จริงเหรอ",
                 "roman": "jing rə̌ə",
                 "en": "Really?",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising"
+                ],
                 "emoji": "😮"
               },
               {
@@ -3447,7 +4516,12 @@
                 "thai": "ไม่จริงน่า",
                 "roman": "mâi jing nâa",
                 "en": "No way!",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "🙀"
               },
               {
@@ -3455,7 +4529,11 @@
                 "thai": "งั้นเหรอ",
                 "roman": "ngán rə̌ə",
                 "en": "Is that so?",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "rising"
+                ],
                 "emoji": "🤨"
               }
             ]
@@ -3476,7 +4554,18 @@
                 "thai": "ทุกเช้าฉันตื่นนอนเวลาหกโมง",
                 "roman": "thúk cháao chǎn tʉ̀ʉn-nɔɔn wee-laa hòk moong",
                 "en": "Every morning I wake up at six o'clock",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "high",
+                  "rising",
+                  "low",
+                  "mid",
+                  "mid",
+                  "mid",
+                  "low",
+                  "mid"
+                ],
                 "emoji": "⏰"
               },
               {
@@ -3484,7 +4573,18 @@
                 "thai": "ฉันกินข้าวเช้าแล้วก็ไปทำงาน",
                 "roman": "chǎn kin khâao cháao lɛ́ɛo kɔ̂ pai tham-ngaan",
                 "en": "I eat breakfast and then go to work",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid",
+                  "falling",
+                  "high",
+                  "high",
+                  "falling",
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🍳"
               },
               {
@@ -3492,7 +4592,19 @@
                 "thai": "ตอนเย็นฉันชอบทำอาหารกับครอบครัว",
                 "roman": "tɔɔn yen chǎn chɔ̂ɔp tham aa-hǎan kàp khrɔ̂ɔp-khrua",
                 "en": "In the evening I like cooking with my family",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "rising",
+                  "falling",
+                  "mid",
+                  "mid",
+                  "rising",
+                  "low",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "👨‍🍳"
               },
               {
@@ -3500,7 +4612,16 @@
                 "thai": "วันหยุดเราไปเที่ยวด้วยกัน",
                 "roman": "wan-yùt rao pai thîao dûai-kan",
                 "en": "On days off we go out together",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low",
+                  "mid",
+                  "mid",
+                  "falling",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🚗"
               }
             ]
@@ -3521,7 +4642,12 @@
                 "thai": "กินข้าวยัง",
                 "roman": "kin khâao yang",
                 "en": "Have you eaten yet? (a common friendly greeting)",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🍚"
               },
               {
@@ -3529,7 +4655,12 @@
                 "thai": "ไปไหนมา",
                 "roman": "pai nǎi maa",
                 "en": "Where have you been?",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "🧭"
               },
               {
@@ -3537,7 +4668,12 @@
                 "thai": "เป็นไงบ้าง",
                 "roman": "pen ngai bâang",
                 "en": "How's it going?",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "falling"
+                ],
                 "emoji": "👋"
               },
               {
@@ -3545,7 +4681,11 @@
                 "thai": "ว่าไง",
                 "roman": "wâa ngai",
                 "en": "What's up?",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid"
+                ],
                 "emoji": "🤙"
               },
               {
@@ -3553,7 +4693,11 @@
                 "thai": "เดี๋ยวมา",
                 "roman": "dǐao maa",
                 "en": "Be right back",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
                 "emoji": "⏱️"
               }
             ]
@@ -3574,7 +4718,13 @@
                 "thai": "ขออนุญาต",
                 "roman": "khɔ̌ɔ à-nú-yâat",
                 "en": "If I may / requesting permission",
-                "tone": "falling",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low",
+                  "high",
+                  "falling"
+                ],
                 "emoji": "🙇"
               },
               {
@@ -3582,7 +4732,12 @@
                 "thai": "ขอเสนอ",
                 "roman": "khɔ̌ɔ sà-nə̌ə",
                 "en": "May I propose / suggest",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low",
+                  "rising"
+                ],
                 "emoji": "💡"
               },
               {
@@ -3590,7 +4745,15 @@
                 "thai": "ขอบพระคุณเป็นอย่างสูง",
                 "roman": "khɔ̀ɔp-phrá-khun pen yàang sǔung",
                 "en": "Thank you very much (highly formal)",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "high",
+                  "mid",
+                  "mid",
+                  "low",
+                  "rising"
+                ],
                 "emoji": "🙏"
               },
               {
@@ -3598,7 +4761,12 @@
                 "thai": "กรุณา",
                 "roman": "kà-rú-naa",
                 "en": "Please (formal register)",
-                "tone": "mid",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "high",
+                  "mid"
+                ],
                 "emoji": "🎩"
               },
               {
@@ -3628,6 +4796,10 @@
                 "roman": "duang-jai",
                 "en": "Beloved / darling (lit. \"heart orb\")",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "💖"
               },
               {
@@ -3636,6 +4808,10 @@
                 "roman": "rɔɔ-khɔɔi",
                 "en": "To wait longingly",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "⏳"
               },
               {
@@ -3643,7 +4819,11 @@
                 "thai": "คิดถึง",
                 "roman": "khít-thʉ̌ng",
                 "en": "To miss (someone)",
-                "tone": "rising",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "rising"
+                ],
                 "emoji": "💭"
               },
               {
@@ -3651,7 +4831,11 @@
                 "thai": "ลาก่อน",
                 "roman": "laa kɔ̀ɔn",
                 "en": "Farewell (poetic goodbye)",
-                "tone": "low",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low"
+                ],
                 "emoji": "🍂"
               },
               {
@@ -3660,6 +4844,11 @@
                 "roman": "khwaam-song-jam",
                 "en": "Memory",
                 "tone": "mid",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid"
+                ],
                 "emoji": "🧠"
               }
             ]
