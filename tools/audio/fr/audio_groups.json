@@ -299,7 +299,7 @@
    "le passeport",
    "la valise",
    "le billet",
-   "la porte",
+   "la porte d'embarquement",
    "le vol",
    "Il fait chaud",
    "Il fait froid",
@@ -309,7 +309,7 @@
    "C'est nuageux",
    "le printemps"
   ],
-  "prompt": "[slowly, clearly] l'addition ... la monnaie ... la boutique de souvenirs ... la voiture ... le bus ... le train ... l'avion ... le vélo ... à pied ... l'aéroport ... le passeport ... la valise ... le billet ... la porte ... le vol ... Il fait chaud ... Il fait froid ... Il y a du soleil ... Il pleut ... Il y a du vent ... C'est nuageux ... le printemps"
+  "prompt": "[slowly, clearly] l'addition ... la monnaie ... la boutique de souvenirs ... la voiture ... le bus ... le train ... l'avion ... le vélo ... à pied ... l'aéroport ... le passeport ... la valise ... le billet ... la porte d'embarquement ... le vol ... Il fait chaud ... Il fait froid ... Il y a du soleil ... Il pleut ... Il y a du vent ... C'est nuageux ... le printemps"
  },
  {
   "group": 6,
@@ -682,12 +682,10 @@
    "fr-phn-l1-4",
    "fr-phn-l1-5",
    "fr-idm-l1-0",
-   "fr-idm-l1-1",
-   "fr-idm-l1-2",
-   "fr-idm-l1-3"
+   "fr-idm-l1-1"
   ],
   "texts": [
-   "Ils vécurent heureux",
+   "Ils vécurent heureux et eurent beaucoup d'enfants",
    "monsieur",
    "madame",
    "vous",
@@ -701,15 +699,15 @@
    "Ça a coupé",
    "Tu m'entends ?",
    "avoir la tête dans les nuages",
-   "c'est du gâteau",
-   "poser un lapin",
-   "coûter les yeux de la tête"
+   "c'est du gâteau"
   ],
-  "prompt": "[slowly, clearly] Ils vécurent heureux ... monsieur ... madame ... vous ... tu ... Comment allez-vous ? ... Enchanté ... Allô ? ... C'est de la part de qui ? ... Un instant, s'il vous plaît ... Je te rappelle plus tard ... Ça a coupé ... Tu m'entends ? ... avoir la tête dans les nuages ... c'est du gâteau ... poser un lapin ... coûter les yeux de la tête"
+  "prompt": "[slowly, clearly] Ils vécurent heureux et eurent beaucoup d'enfants ... monsieur ... madame ... vous ... tu ... Comment allez-vous ? ... Enchanté ... Allô ? ... C'est de la part de qui ? ... Un instant, s'il vous plaît ... Je te rappelle plus tard ... Ça a coupé ... Tu m'entends ? ... avoir la tête dans les nuages ... c'est du gâteau"
  },
  {
   "group": 15,
   "ids": [
+   "fr-idm-l1-2",
+   "fr-idm-l1-3",
    "fr-idm-l1-4",
    "fr-biz-l1-0",
    "fr-biz-l1-1",
@@ -725,11 +723,11 @@
    "fr-news-l1-5",
    "fr-fut-l1-0",
    "fr-fut-l1-1",
-   "fr-fut-l1-2",
-   "fr-fut-l1-3",
-   "fr-fut-l1-4"
+   "fr-fut-l1-2"
   ],
   "texts": [
+   "poser un lapin",
+   "coûter les yeux de la tête",
    "avoir un chat dans la gorge",
    "l'entreprise",
    "le client",
@@ -745,43 +743,41 @@
    "la société",
    "Demain, j'irai au cinéma",
    "Il pleuvra",
-   "Ce sera facile",
-   "J'aimerais voyager",
-   "Pourriez-vous m'aider ?"
+   "Ce sera facile"
   ],
-  "prompt": "[slowly, clearly] avoir un chat dans la gorge ... l'entreprise ... le client ... le contrat ... le budget ... la facture ... les ventes ... les infos ... le gouvernement ... les élections ... l'économie ... l'environnement ... la société ... Demain, j'irai au cinéma ... Il pleuvra ... Ce sera facile ... J'aimerais voyager ... Pourriez-vous m'aider ?"
+  "prompt": "[slowly, clearly] poser un lapin ... coûter les yeux de la tête ... avoir un chat dans la gorge ... l'entreprise ... le client ... le contrat ... le budget ... la facture ... les ventes ... les infos ... le gouvernement ... les élections ... l'économie ... l'environnement ... la société ... Demain, j'irai au cinéma ... Il pleuvra ... Ce sera facile"
  },
  {
   "group": 16,
   "ids": [
+   "fr-fut-l1-3",
+   "fr-fut-l1-4",
    "fr-fut-l1-5",
    "fr-prv-l1-0",
    "fr-prv-l1-1",
    "fr-prv-l1-2",
    "fr-prv-l1-3",
-   "fr-prv-l1-4",
-   "fr-dbt-l1-0",
-   "fr-dbt-l1-1",
-   "fr-dbt-l1-2",
-   "fr-dbt-l1-3"
+   "fr-prv-l1-4"
   ],
   "texts": [
+   "J'aimerais voyager",
+   "Pourriez-vous m'aider ?",
    "Si j'étais riche, j'achèterais un bateau",
    "Mieux vaut tard que jamais",
    "L'avenir appartient à ceux qui se lèvent tôt",
    "Petit à petit, l'oiseau fait son nid",
    "Qui se ressemble s'assemble",
-   "Quand le chat n'est pas là, les souris dansent",
-   "D'un côté",
-   "D'un autre côté",
-   "Cependant",
-   "De plus"
+   "Quand le chat n'est pas là, les souris dansent"
   ],
-  "prompt": "[slowly, clearly] Si j'étais riche, j'achèterais un bateau ... Mieux vaut tard que jamais ... L'avenir appartient à ceux qui se lèvent tôt ... Petit à petit, l'oiseau fait son nid ... Qui se ressemble s'assemble ... Quand le chat n'est pas là, les souris dansent ... D'un côté ... D'un autre côté ... Cependant ... De plus"
+  "prompt": "[slowly, clearly] J'aimerais voyager ... Pourriez-vous m'aider ? ... Si j'étais riche, j'achèterais un bateau ... Mieux vaut tard que jamais ... L'avenir appartient à ceux qui se lèvent tôt ... Petit à petit, l'oiseau fait son nid ... Qui se ressemble s'assemble ... Quand le chat n'est pas là, les souris dansent"
  },
  {
   "group": 17,
   "ids": [
+   "fr-dbt-l1-0",
+   "fr-dbt-l1-1",
+   "fr-dbt-l1-2",
+   "fr-dbt-l1-3",
    "fr-dbt-l1-4",
    "fr-dbt-l1-5",
    "fr-slg-l1-0",
@@ -795,10 +791,13 @@
    "fr-rxn-l1-2",
    "fr-rxn-l1-3",
    "fr-rxn-l1-4",
-   "fr-rdg-l1-0",
-   "fr-rdg-l1-1"
+   "fr-rdg-l1-0"
   ],
   "texts": [
+   "D'un côté",
+   "D'un autre côté",
+   "Cependant",
+   "De plus",
    "les avantages",
    "les inconvénients",
    "C'est trop cool !",
@@ -812,14 +811,14 @@
    "Dommage !",
    "C'est pas vrai !",
    "Oh là là !",
-   "Je m'appelle Lucie et j'habite à Lyon.",
-   "Tous les matins, je vais à l'école à vélo."
+   "Je m'appelle Lucie et j'habite à Lyon."
   ],
-  "prompt": "[slowly, clearly] les avantages ... les inconvénients ... C'est trop cool ! ... Mec ... Ça déchire ! ... C'est relou ! ... J'hallucine ! ... Je m'en fiche ... Allez ! ... J'espère bien ! ... Dommage ! ... C'est pas vrai ! ... Oh là là ! ... Je m'appelle Lucie et j'habite à Lyon. ... Tous les matins, je vais à l'école à vélo."
+  "prompt": "[slowly, clearly] D'un côté ... D'un autre côté ... Cependant ... De plus ... les avantages ... les inconvénients ... C'est trop cool ! ... Mec ... Ça déchire ! ... C'est relou ! ... J'hallucine ! ... Je m'en fiche ... Allez ! ... J'espère bien ! ... Dommage ! ... C'est pas vrai ! ... Oh là là ! ... Je m'appelle Lucie et j'habite à Lyon."
  },
  {
   "group": 18,
   "ids": [
+   "fr-rdg-l1-1",
    "fr-rdg-l1-2",
    "fr-rdg-l1-3",
    "fr-cgr-l1-0",
@@ -827,11 +826,10 @@
    "fr-cgr-l1-2",
    "fr-cgr-l1-3",
    "fr-cgr-l1-4",
-   "fr-prof-l1-0",
-   "fr-prof-l1-1",
-   "fr-prof-l1-2"
+   "fr-prof-l1-0"
   ],
   "texts": [
+   "Tous les matins, je vais à l'école à vélo.",
    "L'après-midi, je joue avec mon chien au parc.",
    "Le dimanche, nous mangeons des crêpes avec mes grands-parents.",
    "Quoi de neuf ?",
@@ -839,15 +837,15 @@
    "Ça fait longtemps !",
    "Salut !",
    "À demain !",
-   "Madame, Monsieur",
-   "Veuillez agréer mes salutations distinguées",
-   "Je vous remercie de votre aide"
+   "Madame, Monsieur"
   ],
-  "prompt": "[slowly, clearly] L'après-midi, je joue avec mon chien au parc. ... Le dimanche, nous mangeons des crêpes avec mes grands-parents. ... Quoi de neuf ? ... Ça roule ? ... Ça fait longtemps ! ... Salut ! ... À demain ! ... Madame, Monsieur ... Veuillez agréer mes salutations distinguées ... Je vous remercie de votre aide"
+  "prompt": "[slowly, clearly] Tous les matins, je vais à l'école à vélo. ... L'après-midi, je joue avec mon chien au parc. ... Le dimanche, nous mangeons des crêpes avec mes grands-parents. ... Quoi de neuf ? ... Ça roule ? ... Ça fait longtemps ! ... Salut ! ... À demain ! ... Madame, Monsieur"
  },
  {
   "group": 19,
   "ids": [
+   "fr-prof-l1-1",
+   "fr-prof-l1-2",
    "fr-prof-l1-3",
    "fr-prof-l1-4",
    "fr-lit-l1-0",
@@ -857,6 +855,8 @@
    "fr-lit-l1-4"
   ],
   "texts": [
+   "Veuillez agréer mes salutations distinguées",
+   "Je vous remercie de votre aide",
    "Je reste à votre disposition",
    "Bien cordialement",
    "l'âme",
@@ -865,6 +865,6 @@
    "la mer",
    "pour toujours"
   ],
-  "prompt": "[slowly, clearly] Je reste à votre disposition ... Bien cordialement ... l'âme ... la lune ... rêver ... la mer ... pour toujours"
+  "prompt": "[slowly, clearly] Veuillez agréer mes salutations distinguées ... Je vous remercie de votre aide ... Je reste à votre disposition ... Bien cordialement ... l'âme ... la lune ... rêver ... la mer ... pour toujours"
  }
 ]

@@ -435,7 +435,7 @@
          "the daughter",
          "girl"
         ],
-        "emoji": "👶",
+        "emoji": "👩‍👧",
         "note": "Fille also means 'girl'."
        }
       ]
@@ -491,7 +491,7 @@
         "text": "le cousin",
         "en": "Cousin",
         "accept": [
-         "cousin (boy)"
+         "the cousin"
         ],
         "emoji": "🧑",
         "note": "A girl cousin is la cousine."
@@ -741,8 +741,7 @@
         "text": "je voudrais",
         "en": "I would like",
         "accept": [
-         "i'd like",
-         "i want"
+         "i'd like"
         ],
         "emoji": "🙋"
        },
@@ -755,12 +754,12 @@
        {
         "id": "fr-phr-l1-3",
         "text": "Où sont les toilettes ?",
-        "en": "Where is the toilet?",
+        "en": "Where are the toilets?",
         "accept": [
+         "where is the toilet",
          "where's the toilet",
          "where is the bathroom",
-         "where's the bathroom",
-         "where are the toilets"
+         "where's the bathroom"
         ],
         "emoji": "🚻"
        },
@@ -1263,8 +1262,7 @@
         "text": "la valise",
         "en": "Suitcase",
         "accept": [
-         "the suitcase",
-         "luggage"
+         "the suitcase"
         ],
         "emoji": "🧳"
        },
@@ -1279,13 +1277,14 @@
        },
        {
         "id": "fr-trv-l2-4",
-        "text": "la porte",
-        "en": "Gate",
+        "text": "la porte d'embarquement",
+        "en": "Boarding gate",
         "accept": [
-         "door",
+         "gate",
          "the gate"
         ],
-        "emoji": "🚪"
+        "emoji": "🚪",
+        "note": "La porte on its own means 'the door'."
        },
        {
         "id": "fr-trv-l2-5",
@@ -1640,7 +1639,7 @@
         "text": "Je mange avec ma famille",
         "en": "I eat with my family",
         "accept": [
-         "i have lunch with my family"
+         "i have a meal with my family"
         ],
         "emoji": "🍽️"
        },
@@ -1886,8 +1885,7 @@
         "en": "In the evening",
         "accept": [
          "the evening",
-         "evening",
-         "at night"
+         "evening"
         ],
         "emoji": "🌙"
        }
@@ -2038,18 +2036,12 @@
         "id": "fr-cmp-l1-2",
         "text": "meilleur",
         "en": "Better",
-        "accept": [
-         "best"
-        ],
         "emoji": "👍"
        },
        {
         "id": "fr-cmp-l1-3",
         "text": "pire",
         "en": "Worse",
-        "accept": [
-         "worst"
-        ],
         "emoji": "👎"
        },
        {
@@ -2509,10 +2501,10 @@
        {
         "id": "fr-work-l1-3",
         "text": "le cuisinier",
-        "en": "Chef",
+        "en": "Cook",
         "accept": [
-         "cook",
-         "the chef"
+         "chef",
+         "the cook"
         ],
         "emoji": "👨‍🍳"
        },
@@ -2739,8 +2731,8 @@
         "accept": [
          "i am allergic to nuts"
         ],
-        "emoji": "🥜",
-        "note": "Fruits à coque means all kinds of nuts."
+        "emoji": "🌰",
+        "note": "Fruits à coque means tree nuts, like almonds and walnuts. Peanuts are cacahuètes."
        },
        {
         "id": "fr-emg-l1-5",
@@ -2945,7 +2937,7 @@
        },
        {
         "id": "fr-str-l1-5",
-        "text": "Ils vécurent heureux",
+        "text": "Ils vécurent heureux et eurent beaucoup d'enfants",
         "en": "And they lived happily ever after",
         "accept": [
          "they lived happily ever after"
@@ -3567,7 +3559,7 @@
         "text": "Je m'en fiche",
         "en": "I don't care",
         "accept": [
-         "i don't mind",
+         "i couldn't care less",
          "whatever"
         ],
         "emoji": "🤷"
@@ -3621,7 +3613,7 @@
         "en": "No way!",
         "accept": [
          "you're joking",
-         "really"
+         "that's not true"
         ],
         "emoji": "😮"
        },
@@ -3867,7 +3859,7 @@
         "en": "Forever",
         "accept": [
          "for ever",
-         "always"
+         "for good"
         ],
         "emoji": "♾️"
        }
