@@ -6,6 +6,7 @@ Run from the repository folder while ComfyUI is running:
     py -3.12 tools\\art\\generate_unit_art_comfyui.py                       (the units without art yet)
     py -3.12 tools\\art\\generate_unit_art_comfyui.py --all                 (all units, one consistent style)
     py -3.12 tools\\art\\generate_unit_art_comfyui.py --course es            (Spanish course pictures with Torito)
+    py -3.12 tools\\art\\generate_unit_art_comfyui.py --course fr            (French course pictures with Coco)
 
 It asks ComfyUI which models are installed and picks Flux automatically: either a single
 Flux checkpoint, or separate diffusion model + T5/CLIP-L text encoders + VAE (ae.safetensors).
@@ -77,6 +78,24 @@ STYLE_ES = (
     "No lettering or writing anywhere."
 )
 
+COCO = (
+    "Coco, an adorable young rooster drawn like a real young bird: a small round-bodied cockerel with soft "
+    "golden-brown and cream feathers, a small bright red comb and wattle, a short yellow beak, large round glossy "
+    "dark eyes with small white highlights and rosy cheeks, and a short perky tail with a few blue, white and red "
+    "feathers. He has exactly two legs with small yellow feet and exactly two wings folded neatly at his sides, like "
+    "a real bird. He stands on his two feet like a real bird, never like a person; his wings are wings, not arms, "
+    "and he has no hands and wears no clothes"
+)
+STYLE_FR = (
+    "Soft, polished children's picture-book illustration with gentle painterly shading, clean "
+    "rounded shapes and warm friendly lighting. Simple uncluttered warm ivory background with "
+    "subtle blue and gold accents. Landscape composition, Coco is the clear focus, shown from a side or "
+    "three-quarter view so both legs and both wings are easy to see. "
+    "Correct, simple bird anatomy: one young rooster with exactly two legs, two wings, one beak and one tail. "
+    "Coco is gentle and cheerful. No wine or alcohol anywhere. "
+    "No lettering or writing anywhere."
+)
+
 REPO_RAW = "https://raw.githubusercontent.com/jeeveswooster2006/sawasdee-thai/main/"
 REPO_UPLOAD = "https://github.com/jeeveswooster2006/sawasdee-thai/upload/main/"
 COURSES = {
@@ -88,11 +107,15 @@ COURSES = {
            "spec": ROOT / "courses" / "es" / "art" / "unit_illustrations.json", "out": ROOT / "courses" / "es" / "art" / "units",
            "reference": ROOT / "courses" / "es" / "art" / "mascot.png",
            "spec_url": REPO_RAW + "courses/es/art/unit_illustrations.json", "upload_url": REPO_UPLOAD + "courses/es/art/units"},
+    "fr": {"name": "Coco", "character": COCO, "style": STYLE_FR,
+           "spec": ROOT / "courses" / "fr" / "art" / "unit_illustrations.json", "out": ROOT / "courses" / "fr" / "art" / "units",
+           "reference": ROOT / "courses" / "fr" / "art" / "mascot.png",
+           "spec_url": REPO_RAW + "courses/fr/art/unit_illustrations.json", "upload_url": REPO_UPLOAD + "courses/fr/art/units"},
 }
 
 
 def use_course(code):
-    """Point every path, name and description at one course (th = Nong Chang, es = Torito)."""
+    """Point every path, name and description at one course (th = Nong Chang, es = Torito, fr = Coco)."""
     global NAME, CHARACTER, STYLE, SPEC, OUT, SPEC_URL, UPLOAD_URL
     c = COURSES[code]
     NAME, CHARACTER, STYLE, SPEC, OUT = c["name"], c["character"], c["style"], c["spec"], c["out"]
@@ -722,7 +745,7 @@ def main():
     ap.add_argument("--guidance", type=float, default=3.5)
     ap.add_argument("--width", type=int, default=1216); ap.add_argument("--height", type=int, default=832)
     ap.add_argument("--course", choices=sorted(COURSES), default="th",
-                    help="th = Thai pictures with Nong Chang (default), es = Spanish pictures with Torito")
+                    help="th = Thai pictures with Nong Chang (default), es = Spanish pictures with Torito, fr = French pictures with Coco")
     ap.add_argument("--reference", help="mascot picture used as a guide (default: the course's mascot.png)")
     ap.add_argument("--no-redux", action="store_true")
     ap.add_argument("--redux-strength", type=float, default=0.35)

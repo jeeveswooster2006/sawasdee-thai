@@ -1,0 +1,273 @@
+{
+ "mascot": {
+  "file": "courses/fr/art/mascot.png",
+  "note": "Make fr-mascot first, pick the best, save it as mascot.png; it then guides every other picture."
+ },
+ "aspect_ratio": "3:2 landscape",
+ "units": [
+  {
+   "unit_index": -1,
+   "unit_id": "fr-mascot",
+   "title": "Coco (mascot)",
+   "scene": "standing on his two legs on two feet like a real rooster, wings folded, seen from a three-quarter side view, full body clearly visible, head turned towards the viewer with a big warm smile, on a plain warm ivory background"
+  },
+  {
+   "unit_index": 0,
+   "unit_id": "fr-basics1",
+   "title": "Greetings",
+   "scene": "standing on his two legs, wings folded, in a sunny French village street with cream stone walls, blue shutters and flower boxes full of red geraniums, head tilted towards the viewer with a big friendly smile, as if saying hello"
+  },
+  {
+   "unit_index": 1,
+   "unit_id": "fr-numbers1",
+   "title": "Numbers 1–10",
+   "scene": "standing on his two legs, wings folded, behind five ripe red apples lined up in a row on the ground, beak touching the last apple, an apple tree in blossom behind"
+  },
+  {
+   "unit_index": 2,
+   "unit_id": "fr-numbers2",
+   "title": "Bigger Numbers",
+   "scene": "standing on his two legs, wings folded, next to a tall neat tower of colourful wooden blocks, looking up at it with wonder"
+  },
+  {
+   "unit_index": 3,
+   "unit_id": "fr-family",
+   "title": "Family",
+   "scene": "standing on his two legs, wings folded, side by side with his mother hen, his father rooster and his tiny baby sister chick in a sunny green farmyard with a stone barn, all four birds standing on two legs with two wings each, like real chickens"
+  },
+  {
+   "unit_index": 4,
+   "unit_id": "fr-colors",
+   "title": "Colours & Shapes",
+   "scene": "standing on his two legs, wings folded, among a playful scatter of colourful painted ceramic tiles in red, blue, yellow and green, each a simple shape like a circle, square, triangle and star, beside a little pot of lavender"
+  },
+  {
+   "unit_index": 5,
+   "unit_id": "fr-food",
+   "title": "Food & Drink",
+   "scene": "standing on his two legs, wings folded, beside a low picnic blanket on the grass with a fresh baguette, a croissant, a wedge of cheese and a glass of apple juice, tilting his head hungrily at the food"
+  },
+  {
+   "unit_index": 6,
+   "unit_id": "fr-phrases",
+   "title": "Everyday Phrases",
+   "scene": "standing on his two legs, wings folded, beside a wooden fence post in a country lane with a friendly little sparrow perched on it on its two legs, both looking at each other and smiling"
+  },
+  {
+   "unit_index": 7,
+   "unit_id": "fr-time",
+   "title": "Time & Days",
+   "scene": "standing on his two legs, wings folded, beside a tall stone clock tower in a French town square, looking up at the round clock face, which has simple tick marks and no numbers"
+  },
+  {
+   "unit_index": 8,
+   "unit_id": "fr-places",
+   "title": "Places & Directions",
+   "scene": "standing on his two legs, wings folded, beside a wooden signpost with blank arrows pointing in different directions, a village with blue shutters and the sea in the distance"
+  },
+  {
+   "unit_index": 9,
+   "unit_id": "fr-shopping",
+   "title": "Shopping & Money",
+   "scene": "standing on his two legs, wings folded, beside a colourful French market stall with strawberries, tomatoes and bunches of flowers under a striped awning, a small woven basket of fruit on the ground beside his feet"
+  },
+  {
+   "unit_index": 10,
+   "unit_id": "fr-travel",
+   "title": "Travel & Transport",
+   "scene": "standing on his two legs, wings folded, on the platform of a small village railway station, beside a little red train, looking down the track as if waiting for it to leave, countryside and a hill behind"
+  },
+  {
+   "unit_index": 11,
+   "unit_id": "fr-weather",
+   "title": "Weather & Seasons",
+   "scene": "standing on his two legs, wings folded, in a puddle on a village lane, splashing happily, a small red umbrella open on the ground beside him, sunshine and a rainbow breaking through the clouds"
+  },
+  {
+   "unit_index": 12,
+   "unit_id": "fr-feelings",
+   "title": "Feelings & Health",
+   "scene": "standing on his two legs, wings folded, on a soft round cushion with a calm gentle smile, a warm knitted blanket and a cup of hot cocoa on a little table beside him"
+  },
+  {
+   "unit_index": 13,
+   "unit_id": "fr-sentences",
+   "title": "Putting It Together",
+   "scene": "standing on his two legs, wings folded, on the grass beside a big open picture storybook, surrounded by little empty floating speech bubbles"
+  },
+  {
+   "unit_index": 14,
+   "unit_id": "fr-gender",
+   "title": "Le & La",
+   "scene": "standing on his two legs, wings folded, between a cute puppy and a cute kitten, each standing on four legs, all three smiling at each other on a sunny cobbled street"
+  },
+  {
+   "unit_index": 15,
+   "unit_id": "fr-routine",
+   "title": "Daily Routine",
+   "scene": "standing on his two legs, wings folded, beside a big cosy straw nest by a sunny window in the morning, beak open in a yawn, a plain alarm clock on the floor beside him"
+  },
+  {
+   "unit_index": 16,
+   "unit_id": "fr-etreavoir",
+   "title": "Être & Avoir",
+   "scene": "standing on his two legs, wings folded, looking at his own reflection in a big round mirror leaning against a stone wall, smiling, a little heart floating above"
+  },
+  {
+   "unit_index": 17,
+   "unit_id": "fr-compare",
+   "title": "Comparisons",
+   "scene": "standing on his two legs, wings folded, next to a much bigger friendly goose and a much smaller baby chick, each on two legs, comparing heights with a curious smile"
+  },
+  {
+   "unit_index": 18,
+   "unit_id": "fr-restaurant",
+   "title": "At the Restaurant",
+   "scene": "standing on his two legs, wings folded, beside a little round café table on a sunny Paris terrace with a plate of croissants, a jug of lemonade and a bowl of strawberries, looking at the food hungrily"
+  },
+  {
+   "unit_index": 19,
+   "unit_id": "fr-plans",
+   "title": "Making Plans",
+   "scene": "standing on his two legs, wings folded, beside a big wall calendar with a plain grid and one square circled in red, no numbers or letters, looking excited"
+  },
+  {
+   "unit_index": 20,
+   "unit_id": "fr-connectors",
+   "title": "Connectors",
+   "scene": "standing on his two legs, wings folded, nudging two big jigsaw puzzle pieces together on the ground with his beak"
+  },
+  {
+   "unit_index": 21,
+   "unit_id": "fr-directions2",
+   "title": "Giving Directions",
+   "scene": "standing on his two legs, wings folded, over a big paper map spread on the ground with only drawn pictures, beak close to a winding path drawn on it, a tiny Eiffel Tower in the distance"
+  },
+  {
+   "unit_index": 22,
+   "unit_id": "fr-people-desc",
+   "title": "Describing People",
+   "scene": "standing on his two legs, wings folded, in a little art gallery, admiring a framed painting of a family of different-sized birds hanging on the wall"
+  },
+  {
+   "unit_index": 23,
+   "unit_id": "fr-work",
+   "title": "Work & Occupations",
+   "scene": "standing on his two legs, wings folded, beside a low kitchen table with a fresh golden baguette and a tall white chef's hat resting on the table, in a warm bakery"
+  },
+  {
+   "unit_index": 24,
+   "unit_id": "fr-dialogues",
+   "title": "Short Conversations",
+   "scene": "standing on his two legs, wings folded, facing a friendly little duck, also on two legs with two wings, both smiling beside a small café table with two cups of hot chocolate and a plate of croissants"
+  },
+  {
+   "unit_index": 25,
+   "unit_id": "fr-emergency",
+   "title": "Health & Emergencies",
+   "scene": "standing on his two legs, wings folded, next to a small green first-aid box on the ground with a plain bandage roll beside it, looking calm and helpful"
+  },
+  {
+   "unit_index": 26,
+   "unit_id": "fr-opinions",
+   "title": "Opinions & Agreement",
+   "scene": "standing on his two legs, wings folded, looking thoughtful with his head tilted, a glowing lightbulb floating above his head, in a quiet sunny village square"
+  },
+  {
+   "unit_index": 27,
+   "unit_id": "fr-past",
+   "title": "Talking About the Past",
+   "scene": "standing on his two legs, wings folded, on the grass beside an open photo album full of seaside holiday pictures, smiling fondly"
+  },
+  {
+   "unit_index": 28,
+   "unit_id": "fr-storytelling",
+   "title": "Telling a Story",
+   "scene": "standing on his two legs, wings folded, on a hay bale under an old apple tree beside a big open picture storybook, a little rabbit and a hedgehog sitting on the grass listening, each with four legs"
+  },
+  {
+   "unit_index": 29,
+   "unit_id": "fr-register",
+   "title": "Tu & Vous",
+   "scene": "standing on his two legs, wings folded, lowering his head politely towards a dignified old grandmother hen with round spectacles, also on two legs with two wings, in a sunny village square"
+  },
+  {
+   "unit_index": 30,
+   "unit_id": "fr-phone",
+   "title": "Phone Conversations",
+   "scene": "standing on his two legs, wings folded, beside a little table with a retro rotary telephone on it, the handset resting in its cradle, a happy surprised face"
+  },
+  {
+   "unit_index": 31,
+   "unit_id": "fr-idioms",
+   "title": "Idioms & Expressions",
+   "scene": "standing on his two legs, wings folded, on a soft fluffy cloud floating in a blue sky, eyes half closed, daydreaming"
+  },
+  {
+   "unit_index": 32,
+   "unit_id": "fr-business",
+   "title": "Business French",
+   "scene": "standing on his two legs, wings folded, beside an easel with a simple rising bar chart made only of coloured bars, no numbers or letters, in a bright airy room"
+  },
+  {
+   "unit_index": 33,
+   "unit_id": "fr-news",
+   "title": "News & Society",
+   "scene": "standing on his two legs, wings folded, beside a big newspaper spread out on the ground showing only pictures, reading it with interest"
+  },
+  {
+   "unit_index": 34,
+   "unit_id": "fr-future",
+   "title": "Future & 'Would'",
+   "scene": "standing on his two legs, wings folded, on a green hill beside a brass telescope on a tripod, his eye to the eyepiece, a starry evening sky"
+  },
+  {
+   "unit_index": 35,
+   "unit_id": "fr-proverbs",
+   "title": "Proverbs & Sayings",
+   "scene": "perched on a low branch of an old gnarled oak tree, gripping it with his two feet on his two legs, wings folded, beside a wise old owl perched on the same branch on its two legs"
+  },
+  {
+   "unit_index": 36,
+   "unit_id": "fr-debate",
+   "title": "Discussion & Debate",
+   "scene": "standing on his two legs, wings folded, between two simple balance-scale pans on the ground, one with an apple and one with a pear, looking from one to the other"
+  },
+  {
+   "unit_index": 37,
+   "unit_id": "fr-slang",
+   "title": "Slang & Casual Speech",
+   "scene": "standing on his two legs, wings folded, with a big cheeky grin beside a skateboard lying on the ground, on a sunny Paris pavement with the Eiffel Tower small in the distance"
+  },
+  {
+   "unit_index": 38,
+   "unit_id": "fr-reactions",
+   "title": "Humour & Reactions",
+   "scene": "standing on his two legs, wings folded, laughing with his eyes squeezed shut and tears of joy, surrounded by little musical notes and sparkles"
+  },
+  {
+   "unit_index": 39,
+   "unit_id": "fr-reading",
+   "title": "Reading a Short Paragraph",
+   "scene": "standing on his two legs, wings folded, in a sunny courtyard with a small fountain and pots of lavender, an open picture book on the ground in front of him"
+  },
+  {
+   "unit_index": 40,
+   "unit_id": "fr-casual-greet",
+   "title": "Casual Greetings",
+   "scene": "standing on his two legs, wings folded, bumping beaks in greeting with a friendly young rooster friend, also on two legs with two wings, in a village street with blue shutters"
+  },
+  {
+   "unit_index": 41,
+   "unit_id": "fr-professional",
+   "title": "Formal French",
+   "scene": "standing on his two legs, wings folded, beside a low wooden desk with a sealed envelope and a feather quill pen on it, his head bowed politely"
+  },
+  {
+   "unit_index": 42,
+   "unit_id": "fr-literary",
+   "title": "Songs & Poetry",
+   "scene": "standing on his two legs, wings folded, on the sand beside a guitar lying on the ground under a crescent moon, a seaside promenade at night with the calm sea behind"
+  }
+ ]
+}
