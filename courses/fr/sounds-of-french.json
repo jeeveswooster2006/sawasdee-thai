@@ -1,0 +1,837 @@
+[
+ {
+  "level": "Sounds of French",
+  "units": [
+   {
+    "id": "fr-sp-vowels",
+    "title": "The vowels",
+    "tagline": "Six vowel letters and three accented e's.",
+    "lessons": [
+     {
+      "id": "fr-sp-vowels-1",
+      "title": "A, E, I, O, U, Y",
+      "words": [
+       {
+        "id": "fr-sp-vowel-a",
+        "kind": "letter",
+        "text": "A a",
+        "roman": "ah",
+        "en": "ah, as in ananas (pineapple)",
+        "emoji": "🍍",
+        "say": "a, ananas",
+        "note": "French vowels are short and pure: keep your mouth still so they never slide into another sound."
+       },
+       {
+        "id": "fr-sp-vowel-e",
+        "kind": "letter",
+        "text": "E e",
+        "roman": "uh",
+        "en": "uh, as in menu (menu)",
+        "emoji": "📋",
+        "say": "euh, menu",
+        "note": "The letter e is called “euh” (like the uh in about, with rounded lips). French vowels are short and pure: keep your mouth still so they never slide into another sound."
+       },
+       {
+        "id": "fr-sp-vowel-i",
+        "kind": "letter",
+        "text": "I i",
+        "roman": "ee",
+        "en": "ee, as in île (island)",
+        "emoji": "🏝️",
+        "say": "i, île",
+        "note": "French vowels are short and pure: keep your mouth still so they never slide into another sound."
+       },
+       {
+        "id": "fr-sp-vowel-o",
+        "kind": "letter",
+        "text": "O o",
+        "roman": "oh",
+        "en": "oh, as in orange (orange)",
+        "emoji": "🍊",
+        "say": "o, orange",
+        "note": "French vowels are short and pure: keep your mouth still so they never slide into another sound."
+       },
+       {
+        "id": "fr-sp-vowel-u",
+        "kind": "letter",
+        "text": "U u",
+        "roman": "ew",
+        "en": "ew, as in usine (factory)",
+        "emoji": "🏭",
+        "say": "u, usine",
+        "note": "For u, say ee but round your lips as if blowing a candle. It is a sound English does not have."
+       },
+       {
+        "id": "fr-sp-vowel-y",
+        "kind": "letter",
+        "text": "Y y",
+        "roman": "ee-GREK",
+        "en": "ee-GREK, as in yoyo (yo-yo)",
+        "emoji": "🪀",
+        "say": "i grec, yoyo",
+        "note": "Y is called “i grec” (ee-GREK), which means Greek i. Yoyo starts with a y like in yes."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-vowels-2",
+      "title": "É, È, Ê",
+      "words": [
+       {
+        "id": "fr-sp-vowel-e-acute",
+        "kind": "letter",
+        "text": "É é",
+        "roman": "ay",
+        "en": "ay, as in été (summer)",
+        "emoji": "☀️",
+        "say": "é, été",
+        "note": "É has an accent going up. It sounds like ay in day, without the slide."
+       },
+       {
+        "id": "fr-sp-vowel-e-grave",
+        "kind": "letter",
+        "text": "È è",
+        "roman": "eh",
+        "en": "eh, as in zèbre (zebra)",
+        "emoji": "🦓",
+        "say": "è, zèbre",
+        "note": "È has an accent going down. It sounds like the e in bed."
+       },
+       {
+        "id": "fr-sp-vowel-e-circ",
+        "kind": "letter",
+        "text": "Ê ê",
+        "roman": "eh",
+        "en": "eh, as in forêt (forest)",
+        "emoji": "🌲",
+        "say": "ê, forêt",
+        "note": "Ê has a little hat. It sounds just like è, the e in bed."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-sp-abc",
+    "title": "The alphabet",
+    "tagline": "The other 20 letters and their French names.",
+    "lessons": [
+     {
+      "id": "fr-sp-abc-1",
+      "title": "B, C, D, F, G",
+      "words": [
+       {
+        "id": "fr-sp-abc-b",
+        "kind": "letter",
+        "text": "B b",
+        "name": "bé",
+        "roman": "bay",
+        "en": "“bé”, as in bateau (boat)",
+        "emoji": "⛵",
+        "say": "bé, bateau",
+        "note": "The letter is called “bé” (bay). Bateau means boat."
+       },
+       {
+        "id": "fr-sp-abc-c",
+        "kind": "letter",
+        "text": "C c",
+        "name": "cé",
+        "roman": "say",
+        "en": "“cé”, as in cerise (cherry)",
+        "emoji": "🍒",
+        "say": "cé, cerise",
+        "note": "The letter is called “cé” (say). Before e or i, c sounds like s, as in cerise. Before a, o or u it sounds like k."
+       },
+       {
+        "id": "fr-sp-abc-d",
+        "kind": "letter",
+        "text": "D d",
+        "name": "dé",
+        "roman": "day",
+        "en": "“dé”, as in dauphin (dolphin)",
+        "emoji": "🐬",
+        "say": "dé, dauphin",
+        "note": "The letter is called “dé” (day). Dauphin means dolphin."
+       },
+       {
+        "id": "fr-sp-abc-f",
+        "kind": "letter",
+        "text": "F f",
+        "name": "effe",
+        "roman": "EF",
+        "en": "“effe”, as in fleur (flower)",
+        "emoji": "🌸",
+        "say": "effe, fleur",
+        "note": "The letter is called “effe” (EF). Fleur means flower."
+       },
+       {
+        "id": "fr-sp-abc-g",
+        "kind": "letter",
+        "text": "G g",
+        "name": "gé",
+        "roman": "zhay",
+        "en": "“gé”, as in gâteau (cake)",
+        "emoji": "🍰",
+        "say": "gé, gâteau",
+        "note": "The letter is called “gé” (zhay, like the s in measure). Before a, o or u, g is hard like go, as in gâteau."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-abc-2",
+      "title": "H, J, K, L, M",
+      "words": [
+       {
+        "id": "fr-sp-abc-h",
+        "kind": "letter",
+        "text": "H h",
+        "name": "hache",
+        "roman": "ASH",
+        "en": "“hache”, as in hibou (owl)",
+        "emoji": "🦉",
+        "say": "hache, hibou",
+        "note": "The letter is called “hache” (ash), but h is silent in French: hibou sounds like ee-BOO."
+       },
+       {
+        "id": "fr-sp-abc-j",
+        "kind": "letter",
+        "text": "J j",
+        "name": "ji",
+        "roman": "zhee",
+        "en": "“ji”, as in jupe (skirt)",
+        "emoji": "👗",
+        "say": "ji, jupe",
+        "note": "The letter is called “ji” (zhee). J sounds like the s in measure: ZHOOP."
+       },
+       {
+        "id": "fr-sp-abc-k",
+        "kind": "letter",
+        "text": "K k",
+        "name": "ka",
+        "roman": "kah",
+        "en": "“ka”, as in koala (koala)",
+        "emoji": "🐨",
+        "say": "ka, koala",
+        "note": "K is rare in French. It only shows up in borrowed words like koala."
+       },
+       {
+        "id": "fr-sp-abc-l",
+        "kind": "letter",
+        "text": "L l",
+        "name": "elle",
+        "roman": "EL",
+        "en": "“elle”, as in lune (moon)",
+        "emoji": "🌙",
+        "say": "elle, lune",
+        "note": "The letter is called “elle” (EL). Lune means moon."
+       },
+       {
+        "id": "fr-sp-abc-m",
+        "kind": "letter",
+        "text": "M m",
+        "name": "emme",
+        "roman": "EM",
+        "en": "“emme”, as in maison (house)",
+        "emoji": "🏠",
+        "say": "emme, maison",
+        "note": "The letter is called “emme” (EM). Maison means house."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-abc-3",
+      "title": "N, P, Q, R, S",
+      "words": [
+       {
+        "id": "fr-sp-abc-n",
+        "kind": "letter",
+        "text": "N n",
+        "name": "enne",
+        "roman": "EN",
+        "en": "“enne”, as in nuage (cloud)",
+        "emoji": "☁️",
+        "say": "enne, nuage",
+        "note": "The letter is called “enne” (EN). Nuage means cloud."
+       },
+       {
+        "id": "fr-sp-abc-p",
+        "kind": "letter",
+        "text": "P p",
+        "name": "pé",
+        "roman": "pay",
+        "en": "“pé”, as in pomme (apple)",
+        "emoji": "🍎",
+        "say": "pé, pomme",
+        "note": "The letter is called “pé” (pay). Pomme means apple."
+       },
+       {
+        "id": "fr-sp-abc-q",
+        "kind": "letter",
+        "text": "Q q",
+        "name": "ku",
+        "roman": "kew",
+        "en": "“ku”, as in coq (rooster)",
+        "emoji": "🐓",
+        "say": "ku, coq",
+        "note": "The letter is called “ku” (kew, with the French u sound). At the end of a word, as in coq, q sounds like k."
+       },
+       {
+        "id": "fr-sp-abc-r",
+        "kind": "letter",
+        "text": "R r",
+        "name": "erre",
+        "roman": "AIR",
+        "en": "“erre”, as in robot (robot)",
+        "emoji": "🤖",
+        "say": "erre, robot",
+        "note": "The letter is called “erre” (air). The French r comes from the back of your throat."
+       },
+       {
+        "id": "fr-sp-abc-s",
+        "kind": "letter",
+        "text": "S s",
+        "name": "esse",
+        "roman": "ESS",
+        "en": "“esse”, as in salade (salad)",
+        "emoji": "🥗",
+        "say": "esse, salade",
+        "note": "The letter is called “esse” (ESS). Salade means salad."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-abc-4",
+      "title": "T, V, W, X, Z",
+      "words": [
+       {
+        "id": "fr-sp-abc-t",
+        "kind": "letter",
+        "text": "T t",
+        "name": "té",
+        "roman": "tay",
+        "en": "“té”, as in tortue (tortoise)",
+        "emoji": "🐢",
+        "say": "té, tortue",
+        "note": "The letter is called “té” (tay). Tortue means tortoise."
+       },
+       {
+        "id": "fr-sp-abc-v",
+        "kind": "letter",
+        "text": "V v",
+        "name": "vé",
+        "roman": "vay",
+        "en": "“vé”, as in vache (cow)",
+        "emoji": "🐄",
+        "say": "vé, vache",
+        "note": "The letter is called “vé” (vay). Vache means cow."
+       },
+       {
+        "id": "fr-sp-abc-w",
+        "kind": "letter",
+        "text": "W w",
+        "name": "double vé",
+        "roman": "DOO-bluh-VAY",
+        "en": "“double vé”, as in wagon (train carriage)",
+        "emoji": "🚃",
+        "say": "double vé, wagon",
+        "note": "“Double vé” means double v. W only appears in borrowed words like wagon, which French says with a v: vah-GON."
+       },
+       {
+        "id": "fr-sp-abc-x",
+        "kind": "letter",
+        "text": "X x",
+        "name": "iks",
+        "roman": "eeks",
+        "en": "“iks”, as in taxi (taxi)",
+        "emoji": "🚕",
+        "say": "iks, taxi",
+        "note": "The letter is called “iks” (eeks). In taxi, x sounds like ks."
+       },
+       {
+        "id": "fr-sp-abc-z",
+        "kind": "letter",
+        "text": "Z z",
+        "name": "zède",
+        "roman": "ZED",
+        "en": "“zède”, as in zoo (zoo)",
+        "emoji": "🦁",
+        "say": "zède, zoo",
+        "note": "The letter is called “zède” (zed). Zoo is said ZOH, with a long oh."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-sp-tricky",
+    "title": "Tricky sounds",
+    "tagline": "The sounds English speakers mix up.",
+    "lessons": [
+     {
+      "id": "fr-sp-tricky-1",
+      "title": "U, OU, EU and OI",
+      "words": [
+       {
+        "id": "fr-sp-sound-u",
+        "kind": "sound",
+        "text": "u",
+        "roman": "ew",
+        "en": "ew (lips round), as in tu (you)",
+        "emoji": "🫵",
+        "say": "tu",
+        "note": "Say ee, then round your lips: tew. It is not the same as ou!"
+       },
+       {
+        "id": "fr-sp-sound-ou",
+        "kind": "sound",
+        "text": "ou",
+        "roman": "oo",
+        "en": "oo, as in tout (everything)",
+        "emoji": "💯",
+        "say": "tout",
+        "note": "Like oo in food: TOO. Tu (you) and tout (everything) only differ by the lips."
+       },
+       {
+        "id": "fr-sp-sound-eu",
+        "kind": "sound",
+        "text": "eu",
+        "roman": "uh",
+        "en": "uh (lips round), as in bleu (blue)",
+        "emoji": "🔵",
+        "say": "bleu",
+        "note": "Say ay as in day, but with your lips rounded as if for oo: BLUH."
+       },
+       {
+        "id": "fr-sp-sound-oi",
+        "kind": "sound",
+        "text": "oi",
+        "roman": "wah",
+        "en": "wah, as in roi (king)",
+        "emoji": "👑",
+        "say": "roi",
+        "note": "Oi always sounds like wah: RWAH."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-tricky-2",
+      "title": "The R and nasal sounds",
+      "words": [
+       {
+        "id": "fr-sp-sound-r",
+        "kind": "sound",
+        "text": "r",
+        "roman": "throaty r",
+        "en": "a throaty r, as in radio (radio)",
+        "emoji": "📻",
+        "say": "radio",
+        "note": "Make a soft gargle at the back of your throat, like gently clearing it. Do not roll your tongue: rah-dyoh."
+       },
+       {
+        "id": "fr-sp-sound-an",
+        "kind": "sound",
+        "text": "an · en",
+        "roman": "ahn (nasal)",
+        "en": "ahn, as in enfant (child)",
+        "emoji": "🧒",
+        "say": "enfant",
+        "note": "Nasal means some air goes through your nose. Say ah, then let it hum: ahn-FAHN, without a hard n."
+       },
+       {
+        "id": "fr-sp-sound-on",
+        "kind": "sound",
+        "text": "on",
+        "roman": "ohn (nasal)",
+        "en": "ohn, as in ballon (balloon)",
+        "emoji": "🎈",
+        "say": "ballon",
+        "note": "Say oh with rounded lips and let it hum in your nose: bah-LOHN, with no hard n."
+       },
+       {
+        "id": "fr-sp-sound-in",
+        "kind": "sound",
+        "text": "in · un",
+        "roman": "an (nasal)",
+        "en": "an, as in lapin (rabbit)",
+        "emoji": "🐰",
+        "say": "lapin",
+        "note": "Like the a in cat, but through your nose: lah-PAN. Un (one) sounds almost the same."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-tricky-3",
+      "title": "CH, GN, QU and silent letters",
+      "words": [
+       {
+        "id": "fr-sp-sound-ch",
+        "kind": "sound",
+        "text": "ch",
+        "roman": "sh",
+        "en": "sh, as in chat (cat)",
+        "emoji": "🐱",
+        "say": "chat",
+        "note": "Not like English church! French ch sounds like sh: SHAH."
+       },
+       {
+        "id": "fr-sp-sound-gn",
+        "kind": "sound",
+        "text": "gn",
+        "roman": "ny",
+        "en": "ny, as in agneau (lamb)",
+        "emoji": "🐑",
+        "say": "agneau",
+        "note": "Like the ny in canyon: ah-NYOH."
+       },
+       {
+        "id": "fr-sp-sound-qu",
+        "kind": "sound",
+        "text": "qu",
+        "roman": "k",
+        "en": "k, as in raquette (racket)",
+        "emoji": "🎾",
+        "say": "raquette",
+        "note": "The u after q is silent: qu sounds like k, rah-KET."
+       },
+       {
+        "id": "fr-sp-sound-h",
+        "kind": "sound",
+        "text": "h",
+        "roman": "silent",
+        "en": "silent, as in hôtel (hotel)",
+        "emoji": "🏨",
+        "say": "hôtel",
+        "note": "H is never pronounced: oh-TEL."
+       },
+       {
+        "id": "fr-sp-sound-final-t",
+        "kind": "sound",
+        "text": "-t",
+        "roman": "silent t",
+        "en": "silent t, as in petit (small)",
+        "emoji": "🤏",
+        "say": "petit",
+        "note": "Final letters are often silent. The t in petit is not said: puh-TEE."
+       },
+       {
+        "id": "fr-sp-sound-final-d",
+        "kind": "sound",
+        "text": "-d",
+        "roman": "silent d",
+        "en": "silent d, as in grand (big)",
+        "emoji": "🐘",
+        "say": "grand",
+        "note": "The d in grand is silent, and an makes a nasal sound: GRAHN, with no hard n."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-sp-accents",
+    "title": "Accents and marks",
+    "tagline": "Little marks that change the sound or meaning.",
+    "lessons": [
+     {
+      "id": "fr-sp-accents-1",
+      "title": "Accents on E",
+      "words": [
+       {
+        "id": "fr-sp-word-bebe",
+        "kind": "word",
+        "text": "bébé",
+        "roman": "bay-BAY",
+        "en": "baby (é sounds like ay)",
+        "emoji": "👶",
+        "say": "bébé",
+        "note": "The accent changes the sound of e, not the stress. É is ay, as in day: bay-BAY."
+       },
+       {
+        "id": "fr-sp-word-creme",
+        "kind": "word",
+        "text": "crème",
+        "roman": "KREM",
+        "en": "cream (è sounds like eh)",
+        "emoji": "🍦",
+        "say": "crème",
+        "note": "The accent changes the sound of e, not the stress. È is eh, as in bed: KREM."
+       },
+       {
+        "id": "fr-sp-word-fete",
+        "kind": "word",
+        "text": "fête",
+        "roman": "FET",
+        "en": "party (ê sounds like eh)",
+        "emoji": "🎉",
+        "say": "fête",
+        "note": "The accent changes the sound of e, not the stress. Ê sounds like è; the hat often shows a lost s from old French."
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-accents-2",
+      "title": "Other marks",
+      "words": [
+       {
+        "id": "fr-sp-mark-a-grave",
+        "kind": "mark",
+        "text": "voilà",
+        "roman": "vwah-LAH",
+        "en": "there you go (à)",
+        "emoji": "👉",
+        "say": "voilà",
+        "note": "The accent on à does not change the sound. It mostly tells apart a (has) and à (to or at)."
+       },
+       {
+        "id": "fr-sp-mark-cedilla",
+        "kind": "mark",
+        "text": "garçon",
+        "roman": "gar-SOHN",
+        "en": "boy (ç sounds like s)",
+        "emoji": "👦",
+        "say": "garçon",
+        "note": "The little tail on ç makes it sound like s, even before a, o or u. Without it, c would sound like k."
+       },
+       {
+        "id": "fr-sp-mark-noel",
+        "kind": "mark",
+        "text": "Noël",
+        "roman": "no-EL",
+        "en": "Christmas (ë: say both vowels)",
+        "emoji": "🎄",
+        "say": "Noël",
+        "note": "The two dots (tréma) tell you to say the vowel separately: no-EL, not nowl."
+       },
+       {
+        "id": "fr-sp-mark-mais",
+        "kind": "mark",
+        "text": "maïs",
+        "roman": "mah-EESS",
+        "en": "sweetcorn (ï: say both vowels)",
+        "emoji": "🌽",
+        "say": "maïs",
+        "note": "The two dots (tréma) on ï keep the a and i apart: mah-EESS."
+       },
+       {
+        "id": "fr-sp-mark-les-amis",
+        "kind": "mark",
+        "text": "les amis",
+        "roman": "lay-zah-MEE",
+        "en": "the friends (liaison)",
+        "emoji": "🧑‍🤝‍🧑",
+        "say": "les amis",
+        "note": "Liaison: the silent s of les joins the next vowel and sounds like z. Say lay-zah-MEE."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-sp-reading",
+    "title": "Read real words",
+    "tagline": "Use your new sounds on words you know.",
+    "lessons": [
+     {
+      "id": "fr-sp-reading-1",
+      "title": "Read greetings",
+      "words": [
+       {
+        "id": "fr-sp-read-fr-b1-l1-0",
+        "kind": "reading",
+        "audioId": "fr-b1-l1-0",
+        "text": "Bonjour",
+        "en": "Hello",
+        "emoji": "👋",
+        "accept": [
+         "hi",
+         "hiya",
+         "good morning",
+         "good day"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-b1-l1-1",
+        "kind": "reading",
+        "audioId": "fr-b1-l1-1",
+        "text": "Merci",
+        "en": "Thank you",
+        "emoji": "🙏",
+        "accept": [
+         "thanks",
+         "thank you very much"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-b1-l1-4",
+        "kind": "reading",
+        "audioId": "fr-b1-l1-4",
+        "text": "Pardon",
+        "en": "Sorry",
+        "emoji": "😔",
+        "accept": [
+         "excuse me",
+         "pardon",
+         "pardon me"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-b1-l2-0",
+        "kind": "reading",
+        "audioId": "fr-b1-l2-0",
+        "text": "Ça va ?",
+        "en": "How are you?",
+        "emoji": "🙂",
+        "accept": [
+         "how's it going",
+         "how are things",
+         "how are you doing"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-b1-l2-4",
+        "kind": "reading",
+        "audioId": "fr-b1-l2-4",
+        "text": "Au revoir",
+        "en": "Goodbye",
+        "emoji": "👋",
+        "accept": [
+         "bye",
+         "bye bye"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-reading-2",
+      "title": "Read numbers",
+      "words": [
+       {
+        "id": "fr-sp-read-fr-n1-l1-0",
+        "kind": "reading",
+        "audioId": "fr-n1-l1-0",
+        "text": "un",
+        "en": "One",
+        "emoji": "1️⃣",
+        "accept": [
+         "1"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-n1-l1-1",
+        "kind": "reading",
+        "audioId": "fr-n1-l1-1",
+        "text": "deux",
+        "en": "Two",
+        "emoji": "2️⃣",
+        "accept": [
+         "2"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-n1-l1-2",
+        "kind": "reading",
+        "audioId": "fr-n1-l1-2",
+        "text": "trois",
+        "en": "Three",
+        "emoji": "3️⃣",
+        "accept": [
+         "3"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-n1-l1-3",
+        "kind": "reading",
+        "audioId": "fr-n1-l1-3",
+        "text": "quatre",
+        "en": "Four",
+        "emoji": "4️⃣",
+        "accept": [
+         "4"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-n1-l1-4",
+        "kind": "reading",
+        "audioId": "fr-n1-l1-4",
+        "text": "cinq",
+        "en": "Five",
+        "emoji": "5️⃣",
+        "accept": [
+         "5"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "fr-sp-reading-3",
+      "title": "Read family words",
+      "words": [
+       {
+        "id": "fr-sp-read-fr-fam-l1-0",
+        "kind": "reading",
+        "audioId": "fr-fam-l1-0",
+        "text": "la mère",
+        "en": "Mother",
+        "emoji": "👩",
+        "accept": [
+         "mum",
+         "mom",
+         "mummy",
+         "the mother"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-fam-l1-1",
+        "kind": "reading",
+        "audioId": "fr-fam-l1-1",
+        "text": "le père",
+        "en": "Father",
+        "emoji": "👨",
+        "accept": [
+         "dad",
+         "daddy",
+         "the father"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-fam-l1-2",
+        "kind": "reading",
+        "audioId": "fr-fam-l1-2",
+        "text": "le frère",
+        "en": "Brother",
+        "emoji": "👦",
+        "accept": [
+         "the brother"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-fam-l1-3",
+        "kind": "reading",
+        "audioId": "fr-fam-l1-3",
+        "text": "la sœur",
+        "en": "Sister",
+        "emoji": "👧",
+        "accept": [
+         "the sister"
+        ]
+       },
+       {
+        "id": "fr-sp-read-fr-fam-l2-0",
+        "kind": "reading",
+        "audioId": "fr-fam-l2-0",
+        "text": "le grand-père",
+        "en": "Grandfather",
+        "emoji": "👴",
+        "accept": [
+         "grandad",
+         "grandpa",
+         "granddad"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
