@@ -105,7 +105,7 @@
    "unit_index": 15,
    "unit_id": "fr-routine",
    "title": "Daily Routine",
-   "scene": "standing on his two legs, wings folded, beside a big cosy straw nest by a sunny window in the morning, beak open in a yawn, a plain alarm clock on the floor beside him"
+   "scene": "standing on his two legs, wings folded, beside a big cosy straw nest by a sunny window in the morning, beak open in a sleepy yawn, a plain round alarm clock with no numbers on the floor nearby"
   },
   {
    "unit_index": 16,
@@ -129,19 +129,19 @@
    "unit_index": 19,
    "unit_id": "fr-plans",
    "title": "Making Plans",
-   "scene": "standing on his two legs, wings folded, beside a big wall calendar with a plain grid and one square circled in red, no numbers or letters, looking excited"
+   "scene": "standing on his two legs, wings folded, looking up excitedly at a big wall calendar with a plain grid and one square circled in red, no numbers or letters"
   },
   {
    "unit_index": 20,
    "unit_id": "fr-connectors",
    "title": "Connectors",
-   "scene": "standing on his two legs, wings folded, nudging two big jigsaw puzzle pieces together on the ground with his beak"
+   "scene": "seen from the side in profile, standing on his two legs with both wings folded flat against his sides, walking past two big jigsaw puzzle pieces that fit together on the ground ahead of him, looking at them"
   },
   {
    "unit_index": 21,
    "unit_id": "fr-directions2",
    "title": "Giving Directions",
-   "scene": "standing on his two legs, wings folded, over a big paper map spread on the ground with only drawn pictures, beak close to a winding path drawn on it, a tiny Eiffel Tower in the distance"
+   "scene": "standing on his two legs, wings folded, beside a big paper map spread flat on the ground with only drawn pictures and a winding path, looking down at it, a tiny Eiffel Tower drawn on the map"
   },
   {
    "unit_index": 22,
@@ -171,7 +171,7 @@
    "unit_index": 26,
    "unit_id": "fr-opinions",
    "title": "Opinions & Agreement",
-   "scene": "standing on his two legs, wings folded, looking thoughtful with his head tilted, a glowing lightbulb floating above his head, in a quiet sunny village square"
+   "scene": "seen from the side in profile, standing on his two legs with both wings folded flat against his sides, head tipped up towards a glowing lightbulb floating above him, in a quiet sunny village square"
   },
   {
    "unit_index": 27,
@@ -183,19 +183,19 @@
    "unit_index": 28,
    "unit_id": "fr-storytelling",
    "title": "Telling a Story",
-   "scene": "standing on his two legs, wings folded, on a hay bale under an old apple tree beside a big open picture storybook, a little rabbit and a hedgehog sitting on the grass listening, each with four legs"
+   "scene": "standing on his two legs, wings folded, on the grass under an old apple tree beside a big open picture storybook lying on the ground, a little rabbit and a hedgehog sitting on the grass nearby listening, each with four legs"
   },
   {
    "unit_index": 29,
    "unit_id": "fr-register",
    "title": "Tu & Vous",
-   "scene": "standing on his two legs, wings folded, lowering his head politely towards a dignified old grandmother hen with round spectacles, also on two legs with two wings, in a sunny village square"
+   "scene": "standing on his two legs, wings folded, lowering his head politely towards a dignified old grandmother hen with round spectacles, who also has two legs and two folded wings, in a sunny village square"
   },
   {
    "unit_index": 30,
    "unit_id": "fr-phone",
    "title": "Phone Conversations",
-   "scene": "standing on his two legs, wings folded, beside a little table with a retro rotary telephone on it, the handset resting in its cradle, a happy surprised face"
+   "scene": "standing on his two legs, wings folded, on the floor a little way from a small table with a retro rotary telephone on it, looking at the phone with a happy surprised face"
   },
   {
    "unit_index": 31,
@@ -213,13 +213,13 @@
    "unit_index": 33,
    "unit_id": "fr-news",
    "title": "News & Society",
-   "scene": "standing on his two legs, wings folded, beside a big newspaper spread out on the ground showing only pictures, reading it with interest"
+   "scene": "standing on his two legs, wings folded, beside a big newspaper spread out flat on the floor showing only pictures, looking down at it with interest"
   },
   {
    "unit_index": 34,
    "unit_id": "fr-future",
    "title": "Future & 'Would'",
-   "scene": "standing on his two legs, wings folded, on a green hill beside a brass telescope on a tripod, his eye to the eyepiece, a starry evening sky"
+   "scene": "seen from the side in profile, standing on his two legs with both wings folded flat against his sides, on a green hill next to a brass telescope on a tripod, gazing up at a starry evening sky"
   },
   {
    "unit_index": 35,
@@ -255,7 +255,7 @@
    "unit_index": 40,
    "unit_id": "fr-casual-greet",
    "title": "Casual Greetings",
-   "scene": "standing on his two legs, wings folded, bumping beaks in greeting with a friendly young rooster friend, also on two legs with two wings, in a village street with blue shutters"
+   "scene": "seen from the side in profile, standing on his two legs with both wings folded flat against his sides, beak to beak with a friendly young rooster friend who is also seen in profile with two legs and folded wings, in a village street with blue shutters"
   },
   {
    "unit_index": 41,
