@@ -7,6 +7,28 @@
 - **Job 2b, about 2–3 credits:** section 3 (pick label, praise, cheer, language and font, spoken fallback, the Say-it language) plus section 5's tests for it.
 - Before sending Job 2a, re-check src/lib/content.ts in Lovable (it now pins content commit 7542ff8).
 
+## Job 0 (do FIRST, security): stop showing and storing family members' passwords
+
+Found 29 Oct. The app keeps every member login's real password, encrypted but reversible, in `public.member_secrets` (3 rows on 29 Oct). The owner can reveal it with "Show" on the profile's Login panel. It even re-saves an adult's own self-chosen password each time they sign in. Paul wants the Password line gone and nothing else changed. Expected cost: about 2–3 credits.
+
+> Security fix: account owners must never be able to see family members' passwords. Remove that ability completely and stop storing members' passwords. Keep everything else working as now. Don't publish.
+>
+> 1. **src/components/MemberLoginPanel.tsx:** remove the "Password: •••••• Show/Hide" row, the `shown` state, `toggleShow` and the `revealMemberPassword` import. Keep everything else:
+>    - Username and Type lines;
+>    - Change login, Send new temporary password and Remove login;
+>    - the one-time "Login created" box with the temporary password.
+> 2. **src/lib/members.functions.ts:**
+>    - Delete `revealMemberPassword`.
+>    - Remove every `storeSecret` call (createMemberLogin, updateMemberLogin, syncMyPassword).
+>    - Remove the "keep the owner's view of a member's password current" block in `signInWithLogin`.
+>    - In `syncMyPassword`, remove the comparison with the old stored password, and keep the rest (prove the password, clear must_change_password).
+>    - Make `markMyPasswordChanging` stop touching member_secrets, or remove it and its caller.
+>    - Remove `storeSecret`/`decryptPassword` from src/lib/member-auth.server.ts if nothing else uses them.
+> 3. **Migration:** delete all rows from `public.member_secrets`, then drop the table. If an environment secret holds the encryption key, don't delete it, but tell me its name.
+> 4. **Tests:** update or remove tests for reveal and secret storage. Add a test that the Login panel shows no password row.
+>
+> Run the typecheck and all tests. Don't publish.
+
 ## Job 1: message that was sent (done)
 
 > Lesson fixes. Keep it small: only these changes, and only update or add tests where these files need it.
