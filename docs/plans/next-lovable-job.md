@@ -1,15 +1,13 @@
-# Next Lovable jobs (prepared 28 Oct 2026)
+# Next Lovable jobs (updated 29 Oct 2026)
 
-Exact code locations were checked in the Lovable project (commit c997890). Send Job 1 first, review its diff, then Job 2.
+**Job 1 (lesson fixes): DONE and published 29 Oct** (Lovable commit f168bc6, cost 2.5 credits against an estimate of 1). Lovable jobs cost about 2–3× my first guess, so plan for that.
 
-- **Job 1, lesson fixes:** about 1 credit.
-- **Job 2, languages come from the content:** about 3–4 credits.
-  - After it, a new language (French next) needs **no app change**: only content plus moving `live.json`.
-  - It also absorbs the old "Spanish lessons say Pick the Thai" fix, done once for every language.
+**Job 2 (languages come from the content) is split in two**, one per day:
+- **Job 2a, about 3–4 credits:** sections 1, 2 and 4 of the message below (live.json pointer, courses.json language list, database check). Add to the message: "Do sections 1, 2 and 4 only; section 3 comes in a later job. Keep the current Thai/Spanish wording code working."
+- **Job 2b, about 2–3 credits:** section 3 (pick label, praise, cheer, language and font, spoken fallback, the Say-it language) plus section 5's tests for it.
+- Before sending Job 2a, re-check src/lib/content.ts in Lovable (it now pins content commit 7542ff8).
 
-Neither job publishes. Paul says "publish" after checking the preview.
-
-## Job 1: message to send
+## Job 1: message that was sent (done)
 
 > Lesson fixes. Keep it small: only these changes, and only update or add tests where these files need it.
 >
