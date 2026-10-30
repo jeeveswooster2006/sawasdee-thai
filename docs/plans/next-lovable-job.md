@@ -7,7 +7,11 @@
 - **Job 2b, about 2–3 credits:** section 3 (pick label, praise, cheer, language and font, spoken fallback, the Say-it language) plus section 5's tests for it.
 - Before sending Job 2a, re-check src/lib/content.ts in Lovable (it now pins content commit 7542ff8).
 
-## Job 0 (do FIRST, security): stop showing and storing family members' passwords
+## Job 0: DONE and published 30 Oct (Lovable commit 953a39a, 3.1 credits)
+
+The member_secrets table is emptied and locked but not dropped (Lovable's 'backward-incompatible migrations' setting blocks DROP TABLE). Drop it later.
+
+### Original brief
 
 Found 29 Oct. The app keeps every member login's real password, encrypted but reversible, in `public.member_secrets` (3 rows on 29 Oct). The owner can reveal it with "Show" on the profile's Login panel. It even re-saves an adult's own self-chosen password each time they sign in. Paul wants the Password line gone and nothing else changed. Expected cost: about 2–3 credits.
 
