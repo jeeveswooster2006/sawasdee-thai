@@ -25,3 +25,10 @@ Hand work to a Sonnet or Haiku subagent (Agent tool with `model: "sonnet"` or `"
   - talking to Paul.
 
 Don't delegate tiny tasks: a subagent costs a fresh start, so it only pays off for jobs of a few minutes or more.
+
+## App code lives on GitHub now (since 30 Oct 2026)
+The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (branch `main`).
+- Make code changes there directly. Pushing to `main` updates Lovable's editor and preview within about a minute and costs no Lovable credits. Run `npx tsc --noEmit` and `npx vitest run` first.
+  - The lockfile points at Lovable's private registry, so install with `npm install --no-package-lock --legacy-peer-deps --ignore-scripts --registry=https://registry.npmjs.org`, then `npm install --no-save @testing-library/dom`.
+- Live only changes when Paul says "publish": then deploy with the Lovable tool (free).
+- Database migrations or Lovable-only features (email, auth providers, secrets) may still need a Lovable message. Check first.
