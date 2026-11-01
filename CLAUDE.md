@@ -43,3 +43,10 @@ The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (br
 - Pictures: only extra/missing limbs or limbs merging into objects count as failures (see the top of this file).
 - The live database is Lovable Cloud project `e31b84f7-44c3-4a30-92e8-dc156d90824d`; check and change it with the Lovable `query_database` tool.
 - Start new Claude Code sessions from `jeeveswooster2006/sawasdee-family` (app) and add this repo; the old `which-pet-shines` repo is unrelated and may be deleted.
+
+## Parked ideas (Paul, 1 Nov 2026)
+Not started. Only pick these up when Paul asks.
+- Maybe move the domain (nongchang.co.uk) and email to Cloudflare or Proton. Left for now.
+- Maybe upgrade ElevenLabs to the Creator plan when a fourth language is built.
+- A "Sounds of French" / "Sounds of Spanish" track in the app, like Read Thai.
+- Facebook posts that Paul publishes himself.
