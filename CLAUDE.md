@@ -33,3 +33,13 @@ The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (br
   - The lockfile points at Lovable's private registry, so install with `npm install --no-package-lock --legacy-peer-deps --ignore-scripts --registry=https://registry.npmjs.org`, then `npm install --no-save @testing-library/dom`.
 - Live only changes when Paul says "publish": then deploy with the Lovable tool (free).
 - Database migrations or Lovable-only features (email, auth providers, secrets) may still need a Lovable message. Check first.
+
+## Working with Paul (standing rules)
+- Never publish anything (app deploy, moving `live.json`, or a live database change that isn't fixing something broken) until Paul says "publish".
+- Never ask for or accept passwords, API keys or other credentials. Paul types secrets into the service himself.
+- Paul uses a phone and prefers short, simple messages with explicit tap-by-tap steps. Lead with the outcome.
+- Before spending Lovable credits, say the realistic cost first: actual cost runs 2–3× the gut estimate. Paul gets 5 credits a day. Prefer free GitHub changes.
+- Lovable also edits the app (security scans etc.). Before publishing, review any new Lovable commits and migrations on `sawasdee-family` main: on 1 Nov a Lovable security fix revoked direct writes while the app still used them, and rejected Thai word ids.
+- Pictures: only extra/missing limbs or limbs merging into objects count as failures (see the top of this file).
+- The live database is Lovable Cloud project `e31b84f7-44c3-4a30-92e8-dc156d90824d`; check and change it with the Lovable `query_database` tool.
+- Start new Claude Code sessions from `jeeveswooster2006/sawasdee-family` (app) and add this repo; the old `which-pet-shines` repo is unrelated and may be deleted.
