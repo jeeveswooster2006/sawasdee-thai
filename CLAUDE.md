@@ -50,3 +50,10 @@ Not started. Only pick these up when Paul asks.
 - Maybe upgrade ElevenLabs to the Creator plan when a fourth language is built.
 - A "Sounds of French" / "Sounds of Spanish" track in the app, like Read Thai.
 - Facebook posts that Paul publishes himself.
+
+## Email (set up 2 Nov 2026)
+- News emails go through **Resend** (Claude connector) from `Nong Chang & Family <hello@news.nongchang.co.uk>`, replies to `info@nongchang.co.uk` (Fasthosts mailbox). Domain `news.nongchang.co.uk` is verified (EU region, no open/click tracking).
+- DNS is at **Cloudflare**; the Cloudflare connector can edit records. Root mail (MX/SPF) stays with Fasthosts; don't touch it.
+- App opt-in: "News emails" tick box at sign-up and switch in Me & settings (`news_emails` in user metadata). Before each send, copy only opted-in accounts to Resend; Resend handles unsubscribes.
+- Sent so far: 2 Nov "sorry you couldn't get in" (one-off account help, 7 unconfirmed sign-ups) and "While you were away" broadcast to 26 existing users (segment "App users (Nov 2026)"). Future news emails go to opted-in users only.
+- Paul approves every email ("send") before it goes out; send a test to info@ first. Hotmail/Outlook currently files our mail in Junk (new sender); Gmail delivers to Important. Keep subjects plain, no emoji.
