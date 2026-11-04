@@ -59,7 +59,7 @@ Not started. Only pick these up when Paul asks.
 - Paul approves every email ("send") before it goes out; send a test to info@ first. Hotmail/Outlook currently files our mail in Junk (new sender); Gmail delivers to Important. Keep subjects plain, no emoji.
 
 ## Facebook page (set up 4 Nov 2026)
-- Page "Nong Chang" (Education). Posts are scheduled through the **Metricool** connector (brand id 7865277, free plan: 20 posts/month, Facebook only).
+- Page "Nong Chang" (Education) and Instagram **@nong_chang26** (Professional, linked to the page). Posts are scheduled through the **Metricool** connector (brand id 7865277, free plan: 20 posts/month). Instagram is connected with an Instagram login (connecting via Facebook didn't pick up the account).
 - Paul approves every batch with "post" before anything is scheduled. Keep personal details out: "a dad in the UK" is the only personal line.
 - Pictures and post texts live in `social/facebook/` (cards are made with the brand fonts Mitr/Sarabun; `nov-2026-posts.json` holds the November plan). Images are served from jsDelivr at the commit they were added in.
-- November 2026: 16 posts scheduled, weekdays 7pm UK, 5–26 Nov (4 spare). Weekly pattern: Mon Thai word, Tue French/Spanish word, Wed Read Thai letter, Thu family tip/question, Fri fun fact. Language content is proofread by a Sonnet subagent before scheduling.
+- November 2026: 16 posts scheduled to both Facebook and Instagram, weekdays 7pm UK, 5–26 Nov (4 spare). Metricool accepted all 16 on both networks, so one post to both seems to count once; check after the first ones publish. Instagram captions can't hold links, so the profile link matters. Weekly pattern: Mon Thai word, Tue French/Spanish word, Wed Read Thai letter, Thu family tip/question, Fri fun fact. Language content is proofread by a Sonnet subagent before scheduling.
