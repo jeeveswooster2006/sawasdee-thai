@@ -82,3 +82,8 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - Full-size source pictures (`courses/*/art/originals/`) and social video clips (`social/clips/`) were moved off `main` to the **`originals`** branch. Keep big source files there, not on main.
 - If main nears 50 MB again (about the 4th–5th language, ~10–15 MB each), move content to Cloudflare R2 (free to 10 GB, no download fees, e.g. content.nongchang.co.uk) or one repo per language; tell Paul first.
 - After moving `live.json`, request every content file at the new commit and purge any non-200 (`https://purge.jsdelivr.net/gh/jeeveswooster2006/sawasdee-thai@<commit>/<path>`).
+
+## Marketing tracking (built 5 Nov 2026)
+- **Cloudflare Web Analytics** (free, no cookies) runs on nongchang.co.uk through a script in the app. The domain isn't proxied through Cloudflare (Lovable hosts it), so don't turn on the orange cloud. See visits in Cloudflare → Analytics & Logs → Web Analytics.
+- **Short links:** nongchang.co.uk/fb, /ig, /rd (Reddit) and /em (email) remember the source. New accounts get `signup_source` in user metadata. Count them with `select raw_user_meta_data->>'signup_source', count(*) from auth.users group by 1`.
+- Use /fb in Facebook posts, /ig in the Instagram bio, /rd on Reddit and /em in emails.
