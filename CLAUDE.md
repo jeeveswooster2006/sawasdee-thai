@@ -47,9 +47,12 @@ The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (br
 ## Parked ideas (Paul, 1 Nov 2026)
 Not started. Only pick these up when Paul asks.
 - Maybe move the domain (nongchang.co.uk) and email to Cloudflare or Proton. Left for now.
-- Maybe upgrade ElevenLabs to the Creator plan when a fourth language is built.
 - A "Sounds of French" / "Sounds of Spanish" track in the app, like Read Thai.
 - Facebook posts that Paul publishes himself.
+
+## ElevenLabs
+- Paul upgraded to the **Creator** plan (5 Nov 2026): about 121,000 credits a month. Voices: Thai `brM9iIbwDREZaWL8luun` (Anna), Spanish `GB7fZx4ubHWxbBE05abF` (Marina), French `ICk609TItINMseDpChFt` (Léa). A word costs about 5 credits and a sentence about 10–20.
+- Record one word or sentence per generation (no batch splitting); see `tools/audio/README.md`.
 
 ## Email (set up 2 Nov 2026)
 - News emails go through **Resend** (Claude connector) from `Nong Chang & Family <hello@news.nongchang.co.uk>`, replies to `info@nongchang.co.uk` (Fasthosts mailbox). Domain `news.nongchang.co.uk` is verified (EU region, no open/click tracking).
@@ -72,7 +75,7 @@ Not started. Only pick these up when Paul asks.
 ## App roadmap (Paul, 5 Nov 2026)
 Build in this order. Each one is free on GitHub, shown in the preview, and only published when Paul says "publish".
 - **Done (top three, live 5 Nov):** 1 Family goal (shared weekly points jar, reward on Sunday, in the weekly email) · 10 Share cards ("Mia learned 50 Thai words!" picture to share, with app link) · 5 Picture stories (short illustrated stories with native voices using learned words; limb rule applies to art).
-- **Then one a week, released on Fridays so the app visibly improves each week (scheduled tasks build it that day; Paul still says "publish"):** 14 Nov evening: 2 Play together (pass-the-phone quiz) · 21 Nov afternoon: 4 Kids teach the grown-ups · 28 Nov evening: 6 Look after Nong Chang (feed/outfits), **kids' mode only** · 5 Dec afternoon: 7 Install as an app + daily reminder · 12 Dec evening: 9 Printables (flashcards, fridge words, colouring sheets). Build each one only on its Friday, so a publish never ships next week's feature early.
+- **Then one a week, released on Fridays so the app visibly improves each week (scheduled tasks build it that day; Paul still says "publish"):** 14 Nov evening: 2 Play together (pass-the-phone quiz) + Memory match game · 21 Nov afternoon: 4 Kids teach the grown-ups + Loy Krathong special (festival Tue 24 Nov; story, words, social post) · 28 Nov evening: 6 Look after Nong Chang (feed/outfits), **kids' mode only** · 5 Dec afternoon: 7 Install as an app + daily reminder · 12 Dec evening: 9 Printables (flashcards, fridge words, colouring sheets) + Christmas in France and Spain stories. Songkran special: reminder 15 Mar 2027. Build each one only on its Friday, so a publish never ships next week's feature early.
 - **Back burner, reminder 5 Jan 2027:** 8 Holiday packs · 11 Invite a family · 12 Schools and clubs.
 - **No:** grandparent link.
 - Mark items done here as they ship.
