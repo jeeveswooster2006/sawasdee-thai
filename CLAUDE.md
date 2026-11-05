@@ -63,3 +63,8 @@ Not started. Only pick these up when Paul asks.
 - Paul approves every batch with "post" before anything is scheduled. Keep personal details out: "a dad in the UK" is the only personal line.
 - Pictures and post texts live in `social/facebook/` (cards are made with the brand fonts Mitr/Sarabun; `nov-2026-posts.json` holds the November plan). Images are served from jsDelivr at the commit they were added in.
 - November 2026: 16 posts scheduled to both Facebook and Instagram, weekdays 7pm UK, 5–26 Nov (4 spare). Metricool accepted all 16 on both networks, so one post to both seems to count once; check after the first ones publish. Instagram captions can't hold links, so the profile link matters. Weekly pattern: Mon Thai word, Tue French/Spanish word, Wed Read Thai letter, Thu family tip/question, Fri fun fact. Language content is proofread by a Sonnet subagent before scheduling.
+
+## Weekly family email (live 5 Nov 2026)
+- Goes out Sundays 18:00 London to opted-in adult account owners only (code: `src/lib/weekly-email*.ts` in sawasdee-family). Database timer: pg_cron jobs `weekly-family-email-utc17` and `-utc18` POST to /api/weekly-email; the route ignores calls outside the window, and a family gets at most one per week.
+- Needs the `RESEND_API_KEY` secret in Lovable (Paul adds it himself).
+- When something important ships (e.g. a new language), add a line to `src/lib/whats-new.ts` so it appears in that week's email.
