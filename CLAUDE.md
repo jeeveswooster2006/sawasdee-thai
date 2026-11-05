@@ -1,5 +1,8 @@
 # Rules for this project (Nong Chang & Family)
 
+## Mix the languages (Paul, 5 Nov 2026)
+- The app started Thai-only, but French and Spanish likely bring more interest. Give French and Spanish an equal share in marketing (social posts, emails, Reddit), and in new features and content (stories, festival specials, games). Don't default to Thai-only.
+
 ## Pictures and videos
 - **Every animal must have the correct number of limbs for its species.** Elephants, bulls and other four-legged animals have exactly four legs and no hands or arms; birds have two legs and two wings; people have two arms and two legs. No extra, missing, merged or duplicated limbs.
 - **What counts as a failure (Paul, 31 Oct 2026):** extra or missing limbs, or limbs merging into other objects. An animal using its legs or wings like arms (holding a book, waving, standing upright) is fine as long as it still has the right number of limbs — don't flag or redo pictures for that.
