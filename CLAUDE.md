@@ -71,7 +71,7 @@ Not started. Only pick these up when Paul asks.
 
 ## App roadmap (Paul, 5 Nov 2026)
 Build in this order. Each one is free on GitHub, shown in the preview, and only published when Paul says "publish".
-- **Now (top three):** 1 Family goal (shared weekly points jar, reward on Sunday, in the weekly email) · 10 Share cards ("Mia learned 50 Thai words!" picture to share, with app link) · 5 Picture stories (short illustrated stories with native voices using learned words; limb rule applies to art).
+- **Now (top three, built 5 Nov, in preview):** 1 Family goal (shared weekly points jar, reward on Sunday, in the weekly email) · 10 Share cards ("Mia learned 50 Thai words!" picture to share, with app link) · 5 Picture stories (short illustrated stories with native voices using learned words; limb rule applies to art).
 - **Then one a week (Monday scheduled task):** 2 Play together (pass-the-phone quiz) → 4 Kids teach the grown-ups → 6 Look after Nong Chang (feed/outfits) for **kids' mode only** → 7 Install as an app + daily reminder → 9 Printables (flashcards, fridge words, colouring sheets).
 - **Back burner, reminder 5 Jan 2027:** 8 Holiday packs · 11 Invite a family · 12 Schools and clubs.
 - **No:** grandparent link.
