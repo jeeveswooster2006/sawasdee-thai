@@ -68,3 +68,11 @@ Not started. Only pick these up when Paul asks.
 - Goes out Sundays 18:00 London to opted-in adult account owners only (code: `src/lib/weekly-email*.ts` in sawasdee-family). Database timer: Lovable-managed pg_cron jobs `weekly-family-email-utc17` and `-utc18` POST to /api/public/weekly-email with the cron secret (set up by Lovable 5 Nov); the route ignores calls outside the window, and a family gets at most one per week.
 - Needs the `RESEND_API_KEY` secret in Lovable (Paul adds it himself).
 - When something important ships (e.g. a new language), add a line to `src/lib/whats-new.ts` so it appears in that week's email.
+
+## App roadmap (Paul, 5 Nov 2026)
+Build in this order. Each one is free on GitHub, shown in the preview, and only published when Paul says "publish".
+- **Now (top three):** 1 Family goal (shared weekly points jar, reward on Sunday, in the weekly email) · 10 Share cards ("Mia learned 50 Thai words!" picture to share, with app link) · 5 Picture stories (short illustrated stories with native voices using learned words; limb rule applies to art).
+- **Then one a week (Monday scheduled task):** 2 Play together (pass-the-phone quiz) → 4 Kids teach the grown-ups → 6 Look after Nong Chang (feed/outfits) for **kids' mode only** → 7 Install as an app + daily reminder → 9 Printables (flashcards, fridge words, colouring sheets).
+- **Back burner, reminder 5 Jan 2027:** 8 Holiday packs · 11 Invite a family · 12 Schools and clubs.
+- **No:** grandparent link.
+- Mark items done here as they ship.
