@@ -35,7 +35,7 @@ sys.path.insert(0, str(ROOT / "tools" / "art"))
 import generate_unit_art_comfyui as art  # noqa: E402  (shared ComfyUI helpers: Comfy, models, Flux workflow)
 
 OUT = HERE / "out"
-UPLOAD_URL = "https://github.com/jeeveswooster2006/sawasdee-thai/upload/main/social/clips"
+UPLOAD_URL = "https://github.com/jeeveswooster2006/sawasdee-thai/upload/originals/social/clips"
 
 WAN_FILES = {
     # kind: (ComfyUI folder keys to try, file name, download URL, size in GB)
