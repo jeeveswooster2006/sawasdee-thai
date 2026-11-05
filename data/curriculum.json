@@ -1073,7 +1073,7 @@
               {
                 "id": "phr-l2-4",
                 "thai": "เมื่อไหร่",
-                "roman": "mʉ̂ʉa-rài",
+                "roman": "mûea-rài",
                 "en": "When?",
                 "tone": "",
                 "tones": [
@@ -1144,7 +1144,7 @@
               {
                 "id": "time-l1-3",
                 "thai": "วันพฤหัสบดี",
-                "roman": "wan phá-rʉ́-hàt",
+                "roman": "wan phá-rúe-hàt",
                 "en": "Thursday",
                 "tone": "",
                 "tones": [
@@ -1221,7 +1221,7 @@
               {
                 "id": "time-l2-4",
                 "thai": "เมื่อวาน",
-                "roman": "mʉ̂ʉa-waan",
+                "roman": "mûea-waan",
                 "en": "Yesterday",
                 "tone": "",
                 "tones": [
@@ -1438,7 +1438,7 @@
               {
                 "id": "shop-l1-5",
                 "thai": "ซื้อ",
-                "roman": "sʉ́ʉ",
+                "roman": "súe",
                 "en": "Buy",
                 "tone": "high",
                 "emoji": "🛍️"
@@ -1545,7 +1545,7 @@
               {
                 "id": "trv-l1-2",
                 "thai": "เครื่องบิน",
-                "roman": "khrʉ̂ang-bin",
+                "roman": "khrûeang-bin",
                 "en": "Airplane",
                 "tone": "",
                 "tones": [
@@ -1581,7 +1581,7 @@
               {
                 "id": "trv-l1-5",
                 "thai": "เรือ",
-                "roman": "rʉa",
+                "roman": "ruea",
                 "en": "Boat",
                 "tone": "mid",
                 "emoji": "⛵"
@@ -1603,7 +1603,7 @@
               {
                 "id": "trv-l2-1",
                 "thai": "หนังสือเดินทาง",
-                "roman": "nǎng-sʉ̌ʉ-dooen-thaang",
+                "roman": "nǎng-sǔe-dooen-thaang",
                 "en": "Passport",
                 "tone": "",
                 "tones": [
@@ -1740,7 +1740,7 @@
               {
                 "id": "wx-l2-0",
                 "thai": "ฤดูร้อน",
-                "roman": "rʉ́-duu-rɔ́ɔn",
+                "roman": "rúe-duu-rɔ́ɔn",
                 "en": "Summer",
                 "tone": "",
                 "tones": [
@@ -1753,7 +1753,7 @@
               {
                 "id": "wx-l2-1",
                 "thai": "ฤดูฝน",
-                "roman": "rʉ́-duu-fǒn",
+                "roman": "rúe-duu-fǒn",
                 "en": "Rainy season",
                 "tone": "",
                 "tones": [
@@ -1766,7 +1766,7 @@
               {
                 "id": "wx-l2-2",
                 "thai": "ฤดูหนาว",
-                "roman": "rʉ́-duu-nǎao",
+                "roman": "rúe-duu-nǎao",
                 "en": "Cool / winter season",
                 "tone": "",
                 "tones": [
@@ -1848,7 +1848,7 @@
               {
                 "id": "feel-l1-4",
                 "thai": "เหนื่อย",
-                "roman": "nʉ̀ai",
+                "roman": "nùeai",
                 "en": "Tired",
                 "tone": "low",
                 "emoji": "😴"
@@ -1949,7 +1949,7 @@
               {
                 "id": "sen-l1-0",
                 "thai": "ผมชื่อ...",
-                "roman": "phǒm chʉ̂ʉ...",
+                "roman": "phǒm chûe...",
                 "en": "My name is... (male)",
                 "tone": "",
                 "tones": [
@@ -1965,7 +1965,7 @@
               {
                 "id": "sen-l1-1",
                 "thai": "ฉันชื่อ...",
-                "roman": "chǎn chʉ̂ʉ...",
+                "roman": "chǎn chûe...",
                 "en": "My name is... (female)",
                 "tone": "",
                 "tones": [
@@ -2283,7 +2283,7 @@
               {
                 "id": "rtn-l1-0",
                 "thai": "ตื่นนอน",
-                "roman": "tʉ̀ʉn-nɔɔn",
+                "roman": "tùen-nɔɔn",
                 "en": "Wake up",
                 "tone": "",
                 "tones": [
@@ -2407,7 +2407,7 @@
               {
                 "id": "rtn-l2-4",
                 "thai": "ตอนกลางคืน",
-                "roman": "tɔɔn klaang-khʉʉn",
+                "roman": "tɔɔn klaang-khuen",
                 "en": "At night",
                 "tone": "mid",
                 "tones": [
@@ -2606,7 +2606,7 @@
               {
                 "id": "cmp-l1-5",
                 "thai": "เหมือนกัน",
-                "roman": "mʉ̌an-kan",
+                "roman": "mǔean-kan",
                 "en": "The same",
                 "tone": "",
                 "tones": [
@@ -2812,7 +2812,7 @@
               {
                 "id": "con-l1-2",
                 "thai": "หรือ",
-                "roman": "rʉ̌ʉ",
+                "roman": "rǔe",
                 "en": "Or",
                 "tone": "rising"
               },
@@ -2881,7 +2881,7 @@
               {
                 "id": "dir2-l1-2",
                 "thai": "ตรงไปเรื่อยๆ",
-                "roman": "trong pai rʉ̂ai-rʉ̂ai",
+                "roman": "trong pai rûeai-rûeai",
                 "en": "Keep going straight",
                 "tone": "",
                 "tones": [
@@ -3218,7 +3218,7 @@
               {
                 "id": "work-l2-4",
                 "thai": "เงินเดือน",
-                "roman": "ngoen-dʉan",
+                "roman": "ngoen-duean",
                 "en": "Salary",
                 "tone": "mid",
                 "tones": [
@@ -3255,7 +3255,7 @@
               {
                 "id": "dlg-l1-0",
                 "thai": "คุณจะดื่มอะไรดี",
-                "roman": "khun jà dʉ̀ʉm à-rai dii",
+                "roman": "khun jà dùem à-rai dii",
                 "en": "What would you like to drink?",
                 "tone": "",
                 "tones": [
@@ -3271,7 +3271,7 @@
               {
                 "id": "dlg-l1-1",
                 "thai": "ขอกาแฟเย็นแก้วนึงครับ",
-                "roman": "khɔ̌ɔ kaa-fɛɛ yen kɛ̂ɛo nʉng khráp",
+                "roman": "khɔ̌ɔ kaa-fɛɛ yen kɛ̂ɛo nueng khráp",
                 "en": "One iced coffee, please",
                 "tone": "",
                 "tones": [
@@ -3344,7 +3344,7 @@
               {
                 "id": "dlg-l2-1",
                 "thai": "อยู่ทางขวามือค่ะ",
-                "roman": "yùu thaang khwǎa mʉʉ khâ",
+                "roman": "yùu thaang khwǎa mue khâ",
                 "en": "It's on the right",
                 "tone": "",
                 "tones": [
@@ -3677,7 +3677,7 @@
               {
                 "id": "str-l1-0",
                 "thai": "เมื่อก่อน",
-                "roman": "mʉ̂ʉa-kɔ̀ɔn",
+                "roman": "mûea-kɔ̀ɔn",
                 "en": "In the past / used to",
                 "tone": "",
                 "tones": [
@@ -4118,7 +4118,7 @@
               {
                 "id": "news-l1-3",
                 "thai": "การเมือง",
-                "roman": "kaan-mʉʉang",
+                "roman": "kaan-mueang",
                 "en": "Politics",
                 "tone": "mid",
                 "tones": [
@@ -4190,7 +4190,7 @@
               {
                 "id": "gra-l1-3",
                 "thai": "ซึ่ง",
-                "roman": "sʉ̂ng",
+                "roman": "sûeng",
                 "en": "Which (formal relative pronoun)",
                 "tone": "falling"
               },
@@ -4232,7 +4232,7 @@
               {
                 "id": "prv-l1-0",
                 "thai": "น้ำขึ้นให้รีบตัก",
-                "roman": "náam khʉ̂n hâi rîip tàk",
+                "roman": "náam khûen hâi rîip tàk",
                 "en": "Strike while the iron is hot",
                 "tone": "",
                 "tones": [
@@ -4263,7 +4263,7 @@
               {
                 "id": "prv-l1-2",
                 "thai": "ตนเป็นที่พึ่งแห่งตน",
-                "roman": "ton pen thîi-phʉ̀ng hɛ̀ng ton",
+                "roman": "ton pen thîi-phùeng hɛ̀ng ton",
                 "en": "Self-reliance (\"oneself is one's own refuge\")",
                 "tone": "",
                 "tones": [
@@ -4297,7 +4297,7 @@
               {
                 "id": "prv-l1-4",
                 "thai": "น้ำพึ่งเรือเสือพึ่งป่า",
-                "roman": "náam phʉ̂ng rʉa sʉ̌a phʉ̂ng pàa",
+                "roman": "náam phûeng ruea sǔea phûeng pàa",
                 "en": "Mutual support (\"water relies on the boat, the tiger relies on the forest\")",
                 "tone": "",
                 "tones": [
@@ -4552,7 +4552,7 @@
               {
                 "id": "rdg-l1-0",
                 "thai": "ทุกเช้าฉันตื่นนอนเวลาหกโมง",
-                "roman": "thúk cháao chǎn tʉ̀ʉn-nɔɔn wee-laa hòk moong",
+                "roman": "thúk cháao chǎn tùen-nɔɔn wee-laa hòk moong",
                 "en": "Every morning I wake up at six o'clock",
                 "tone": "",
                 "tones": [
@@ -4817,7 +4817,7 @@
               {
                 "id": "lit-l1-2",
                 "thai": "คิดถึง",
-                "roman": "khít-thʉ̌ng",
+                "roman": "khít-thǔeng",
                 "en": "To miss (someone)",
                 "tone": "",
                 "tones": [
