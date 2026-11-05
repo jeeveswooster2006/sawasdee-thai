@@ -80,4 +80,5 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 ## Repo size (5 Nov 2026)
 - jsDelivr serves content only reliably while the repo is under 50 MB per commit. Over that, files randomly return 403 until purged, so pictures and sounds go missing.
 - Full-size source pictures (`courses/*/art/originals/`) and social video clips (`social/clips/`) were moved off `main` to the **`originals`** branch. Keep big source files there, not on main.
+- If main nears 50 MB again (about the 4th–5th language, ~10–15 MB each), move content to Cloudflare R2 (free to 10 GB, no download fees, e.g. content.nongchang.co.uk) or one repo per language; tell Paul first.
 - After moving `live.json`, request every content file at the new commit and purge any non-200 (`https://purge.jsdelivr.net/gh/jeeveswooster2006/sawasdee-thai@<commit>/<path>`).
