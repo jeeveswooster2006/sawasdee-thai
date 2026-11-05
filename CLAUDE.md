@@ -76,3 +76,8 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **Back burner, reminder 5 Jan 2027:** 8 Holiday packs · 11 Invite a family · 12 Schools and clubs.
 - **No:** grandparent link.
 - Mark items done here as they ship.
+
+## Repo size (5 Nov 2026)
+- jsDelivr serves content only reliably while the repo is under 50 MB per commit. Over that, files randomly return 403 until purged, so pictures and sounds go missing.
+- Full-size source pictures (`courses/*/art/originals/`) and social video clips (`social/clips/`) were moved off `main` to the **`originals`** branch. Keep big source files there, not on main.
+- After moving `live.json`, request every content file at the new commit and purge any non-200 (`https://purge.jsdelivr.net/gh/jeeveswooster2006/sawasdee-thai@<commit>/<path>`).
