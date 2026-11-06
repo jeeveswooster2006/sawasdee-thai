@@ -55,6 +55,7 @@ Not started. Only pick these up when Paul asks.
 
 ## ElevenLabs
 - Paul upgraded to the **Creator** plan (5 Nov 2026): about 121,000 credits a month. Voices: Thai `brM9iIbwDREZaWL8luun` (Anna), Spanish `GB7fZx4ubHWxbBE05abF` (Marina), French `ICk609TItINMseDpChFt` (Léa). A word costs about 5 credits and a sentence about 10–20.
+- **Nong Chang's own voice:** `C98kHdjEdJfyY7tmFiT5` ("Nong Chang (baby elephant)", designed 6 Nov 2026, Paul picked it). Use it for the mascot speaking: Reels, greetings, "Talk to Nong Chang". Lesson words keep the native course voices.
 - Record one word or sentence per generation (no batch splitting); see `tools/audio/README.md`.
 
 ## Email (set up 2 Nov 2026)
