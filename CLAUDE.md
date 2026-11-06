@@ -90,6 +90,7 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **No:** grandparent link; "Talk to Nong Chang" (dropped 6 Nov: too costly to run, and Paul may lower his ElevenLabs tier after November).
 - **Italian stories** (it-hello, it-hungry, it-colours with Lupo, read by Alina): live 6 Nov.
 - **Travel video** (all four mascots meet; Kling 3 Pro, about 43,000 ElevenLabs credits): `social/reels/reel-travel-friends.mp4` on the `originals` branch; Paul uploads it himself (6 Nov).
+- **Classroom video** (owl teacher; each mascot says "I'm ..., nice to be your friend" in their own language; Kling 3 Pro, about 28,000 ElevenLabs credits): `social/reels/reel-classroom-friends.mp4` on the `originals` branch; owl voice `BBfN7Spa3cqLPH1xAS22`. Paul uploads it himself (6 Nov).
 - Mark items done here as they ship.
 
 ## Repo size (5 Nov 2026)
