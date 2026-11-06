@@ -1,0 +1,3983 @@
+[
+ {
+  "level": "Beginner",
+  "units": [
+   {
+    "id": "it-basics1",
+    "title": "Greetings",
+    "tagline": "The words you'll use every single day.",
+    "lessons": [
+     {
+      "id": "it-b1-l1",
+      "title": "Hello & thanks",
+      "words": [
+       {
+        "id": "it-b1-l1-0",
+        "text": "Buongiorno",
+        "en": "Hello",
+        "accept": [
+         "hi",
+         "hiya",
+         "good morning",
+         "good day"
+        ],
+        "emoji": "👋",
+        "note": "Use buongiorno until the afternoon, then buonasera. With friends and family, ciao is hello and goodbye in one word!"
+       },
+       {
+        "id": "it-b1-l1-1",
+        "text": "Grazie",
+        "en": "Thank you",
+        "accept": [
+         "thanks",
+         "thank you very much"
+        ],
+        "emoji": "🙏",
+        "note": "Said 'GRAH-tsyeh'. The z sounds like 'ts'."
+       },
+       {
+        "id": "it-b1-l1-2",
+        "text": "Sì",
+        "en": "Yes",
+        "accept": [
+         "yeah"
+        ],
+        "emoji": "✅",
+        "note": "The accent on sì means yes. Without it, si means 'if' or 'himself'."
+       },
+       {
+        "id": "it-b1-l1-3",
+        "text": "No",
+        "en": "No",
+        "emoji": "❌",
+        "note": "The same as English! Italian o is short and clean: noh."
+       },
+       {
+        "id": "it-b1-l1-4",
+        "text": "Scusa",
+        "en": "Sorry",
+        "accept": [
+         "excuse me",
+         "pardon",
+         "pardon me"
+        ],
+        "emoji": "😔",
+        "note": "To friends and family say scusa. To someone you don't know say mi scusi."
+       },
+       {
+        "id": "it-b1-l1-5",
+        "text": "Prego",
+        "en": "You're welcome",
+        "accept": [
+         "no problem",
+         "not at all",
+         "you are welcome",
+         "please"
+        ],
+        "emoji": "😌",
+        "note": "Prego does lots of jobs: you're welcome, please go ahead, after you."
+       }
+      ]
+     },
+     {
+      "id": "it-b1-l2",
+      "title": "How are you?",
+      "words": [
+       {
+        "id": "it-b1-l2-0",
+        "text": "Come stai?",
+        "en": "How are you?",
+        "accept": [
+         "how's it going",
+         "how are things",
+         "how are you doing"
+        ],
+        "emoji": "🙂",
+        "note": "Ask it with come stai? and answer it with sto bene (I'm well). To a grown-up you don't know, say come sta?"
+       },
+       {
+        "id": "it-b1-l2-1",
+        "text": "Bene",
+        "en": "Good",
+        "accept": [
+         "well",
+         "fine",
+         "ok"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "it-b1-l2-2",
+        "text": "Molto bene",
+        "en": "Very good",
+        "accept": [
+         "very well",
+         "really good"
+        ],
+        "emoji": "😄"
+       },
+       {
+        "id": "it-b1-l2-3",
+        "text": "E tu?",
+        "en": "And you?",
+        "accept": [
+         "what about you",
+         "and yourself"
+        ],
+        "emoji": "🫵"
+       },
+       {
+        "id": "it-b1-l2-4",
+        "text": "Arrivederci",
+        "en": "Goodbye",
+        "accept": [
+         "bye",
+         "bye bye"
+        ],
+        "emoji": "👋",
+        "note": "With friends, just say ciao again. Arrivederci is the polite goodbye."
+       },
+       {
+        "id": "it-b1-l2-5",
+        "text": "A dopo",
+        "en": "See you later",
+        "accept": [
+         "see you",
+         "bye for now",
+         "later"
+        ],
+        "emoji": "🙋"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-numbers1",
+    "title": "Numbers 1–10",
+    "tagline": "Count on your fingers together.",
+    "lessons": [
+     {
+      "id": "it-n1-l1",
+      "title": "One to five",
+      "words": [
+       {
+        "id": "it-n1-l1-0",
+        "text": "uno",
+        "en": "One",
+        "accept": [
+         "1"
+        ],
+        "emoji": "1️⃣"
+       },
+       {
+        "id": "it-n1-l1-1",
+        "text": "due",
+        "en": "Two",
+        "accept": [
+         "2"
+        ],
+        "emoji": "2️⃣"
+       },
+       {
+        "id": "it-n1-l1-2",
+        "text": "tre",
+        "en": "Three",
+        "accept": [
+         "3"
+        ],
+        "emoji": "3️⃣",
+        "note": "Roll the r a tiny bit: treh."
+       },
+       {
+        "id": "it-n1-l1-3",
+        "text": "quattro",
+        "en": "Four",
+        "accept": [
+         "4"
+        ],
+        "emoji": "4️⃣",
+        "note": "The double t is held a little longer: KWAT-tro."
+       },
+       {
+        "id": "it-n1-l1-4",
+        "text": "cinque",
+        "en": "Five",
+        "accept": [
+         "5"
+        ],
+        "emoji": "5️⃣",
+        "note": "Said 'CHEEN-kweh'."
+       }
+      ]
+     },
+     {
+      "id": "it-n1-l2",
+      "title": "Six to ten",
+      "words": [
+       {
+        "id": "it-n1-l2-0",
+        "text": "sei",
+        "en": "Six",
+        "accept": [
+         "6"
+        ],
+        "emoji": "6️⃣",
+        "note": "Said 'say'."
+       },
+       {
+        "id": "it-n1-l2-1",
+        "text": "sette",
+        "en": "Seven",
+        "accept": [
+         "7"
+        ],
+        "emoji": "7️⃣",
+        "note": "Hold the double t: SET-teh."
+       },
+       {
+        "id": "it-n1-l2-2",
+        "text": "otto",
+        "en": "Eight",
+        "accept": [
+         "8"
+        ],
+        "emoji": "8️⃣",
+        "note": "Hold the double t: OT-toh."
+       },
+       {
+        "id": "it-n1-l2-3",
+        "text": "nove",
+        "en": "Nine",
+        "accept": [
+         "9"
+        ],
+        "emoji": "9️⃣"
+       },
+       {
+        "id": "it-n1-l2-4",
+        "text": "dieci",
+        "en": "Ten",
+        "accept": [
+         "10"
+        ],
+        "emoji": "🔟",
+        "note": "Said 'dee-AY-chee'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-numbers2",
+    "title": "Bigger Numbers",
+    "tagline": "Eleven, twenty, and counting by tens.",
+    "lessons": [
+     {
+      "id": "it-n2-l1",
+      "title": "Eleven to fifteen",
+      "words": [
+       {
+        "id": "it-n2-l1-0",
+        "text": "undici",
+        "en": "Eleven",
+        "accept": [
+         "11"
+        ]
+       },
+       {
+        "id": "it-n2-l1-1",
+        "text": "dodici",
+        "en": "Twelve",
+        "accept": [
+         "12"
+        ]
+       },
+       {
+        "id": "it-n2-l1-2",
+        "text": "tredici",
+        "en": "Thirteen",
+        "accept": [
+         "13"
+        ]
+       },
+       {
+        "id": "it-n2-l1-3",
+        "text": "quattordici",
+        "en": "Fourteen",
+        "accept": [
+         "14"
+        ]
+       },
+       {
+        "id": "it-n2-l1-4",
+        "text": "quindici",
+        "en": "Fifteen",
+        "accept": [
+         "15"
+        ],
+        "note": "Said 'kwin-DEE-chee'."
+       }
+      ]
+     },
+     {
+      "id": "it-n2-l2",
+      "title": "Counting by tens",
+      "words": [
+       {
+        "id": "it-n2-l2-0",
+        "text": "venti",
+        "en": "Twenty",
+        "accept": [
+         "20"
+        ]
+       },
+       {
+        "id": "it-n2-l2-1",
+        "text": "trenta",
+        "en": "Thirty",
+        "accept": [
+         "30"
+        ]
+       },
+       {
+        "id": "it-n2-l2-2",
+        "text": "quaranta",
+        "en": "Forty",
+        "accept": [
+         "40"
+        ]
+       },
+       {
+        "id": "it-n2-l2-3",
+        "text": "cinquanta",
+        "en": "Fifty",
+        "accept": [
+         "50"
+        ]
+       },
+       {
+        "id": "it-n2-l2-4",
+        "text": "cento",
+        "en": "One hundred",
+        "accept": [
+         "100",
+         "a hundred",
+         "hundred"
+        ],
+        "emoji": "💯",
+        "note": "Said 'CHEN-toh': c before e sounds like ch."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-family",
+    "title": "Family",
+    "tagline": "Mamma, papà and everyone in between. Il = he word, la = she word.",
+    "lessons": [
+     {
+      "id": "it-fam-l1",
+      "title": "Close family",
+      "words": [
+       {
+        "id": "it-fam-l1-0",
+        "text": "la madre",
+        "en": "Mother",
+        "accept": [
+         "mum",
+         "mom",
+         "mummy",
+         "the mother"
+        ],
+        "emoji": "👩",
+        "note": "Mamma is 'mum'."
+       },
+       {
+        "id": "it-fam-l1-1",
+        "text": "il padre",
+        "en": "Father",
+        "accept": [
+         "dad",
+         "daddy",
+         "the father"
+        ],
+        "emoji": "👨",
+        "note": "Papà is 'dad'. The accent shows you stress the last a."
+       },
+       {
+        "id": "it-fam-l1-2",
+        "text": "il fratello",
+        "en": "Brother",
+        "accept": [
+         "the brother"
+        ],
+        "emoji": "👦"
+       },
+       {
+        "id": "it-fam-l1-3",
+        "text": "la sorella",
+        "en": "Sister",
+        "accept": [
+         "the sister"
+        ],
+        "emoji": "👧"
+       },
+       {
+        "id": "it-fam-l1-4",
+        "text": "il figlio",
+        "en": "Son",
+        "accept": [
+         "the son"
+        ],
+        "emoji": "🧒",
+        "note": "The gli sounds like the 'lli' in million: FEE-lyo."
+       },
+       {
+        "id": "it-fam-l1-5",
+        "text": "la figlia",
+        "en": "Daughter",
+        "accept": [
+         "the daughter"
+        ],
+        "emoji": "👩‍👧",
+        "note": "Same gli sound as in son: FEE-lya."
+       }
+      ]
+     },
+     {
+      "id": "it-fam-l2",
+      "title": "Grandparents & more",
+      "words": [
+       {
+        "id": "it-fam-l2-0",
+        "text": "il nonno",
+        "en": "Grandfather",
+        "accept": [
+         "grandad",
+         "grandpa",
+         "granddad"
+        ],
+        "emoji": "👴",
+        "note": "Hold the double n: NON-no."
+       },
+       {
+        "id": "it-fam-l2-1",
+        "text": "la nonna",
+        "en": "Grandmother",
+        "accept": [
+         "grandma",
+         "granny",
+         "nan",
+         "nana"
+        ],
+        "emoji": "👵"
+       },
+       {
+        "id": "it-fam-l2-2",
+        "text": "lo zio",
+        "en": "Uncle",
+        "accept": [
+         "the uncle"
+        ],
+        "emoji": "🧔",
+        "note": "It's lo, not il, because zio starts with z."
+       },
+       {
+        "id": "it-fam-l2-3",
+        "text": "la zia",
+        "en": "Aunt",
+        "accept": [
+         "auntie",
+         "aunty"
+        ],
+        "emoji": "👩‍🦰"
+       },
+       {
+        "id": "it-fam-l2-4",
+        "text": "il cugino",
+        "en": "Cousin",
+        "accept": [
+         "the cousin"
+        ],
+        "emoji": "🧑",
+        "note": "A girl cousin is la cugina."
+       },
+       {
+        "id": "it-fam-l2-5",
+        "text": "la famiglia",
+        "en": "Family",
+        "accept": [
+         "the family"
+        ],
+        "emoji": "👨‍👩‍👧‍👦",
+        "note": "The gli sound again: fa-MEE-lya."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-colors",
+    "title": "Colours & Shapes",
+    "tagline": "The colour usually comes after the thing: una macchina rossa, a red car.",
+    "lessons": [
+     {
+      "id": "it-col-l1",
+      "title": "Colours",
+      "words": [
+       {
+        "id": "it-col-l1-0",
+        "text": "rosso",
+        "en": "Red",
+        "emoji": "🔴",
+        "swatch": "#c0392b",
+        "note": "Hold the double s: ROS-so."
+       },
+       {
+        "id": "it-col-l1-1",
+        "text": "blu",
+        "en": "Blue",
+        "emoji": "🔵",
+        "swatch": "#1f5fa8",
+        "note": "Blu never changes, whatever it describes."
+       },
+       {
+        "id": "it-col-l1-2",
+        "text": "verde",
+        "en": "Green",
+        "emoji": "🟢",
+        "swatch": "#2e8b57"
+       },
+       {
+        "id": "it-col-l1-3",
+        "text": "giallo",
+        "en": "Yellow",
+        "emoji": "🟡",
+        "swatch": "#f1c40f",
+        "note": "Said 'JAL-lo': gi sounds like j."
+       },
+       {
+        "id": "it-col-l1-4",
+        "text": "nero",
+        "en": "Black",
+        "emoji": "⚫",
+        "swatch": "#222222"
+       },
+       {
+        "id": "it-col-l1-5",
+        "text": "bianco",
+        "en": "White",
+        "emoji": "⚪",
+        "swatch": "#f8f8f8"
+       }
+      ]
+     },
+     {
+      "id": "it-col-l2",
+      "title": "Shapes",
+      "words": [
+       {
+        "id": "it-col-l2-0",
+        "text": "il cerchio",
+        "en": "Circle",
+        "accept": [
+         "a circle"
+        ],
+        "emoji": "⭕",
+        "note": "Said 'CHER-kyo': the first c is 'ch', the ch is a hard 'k'."
+       },
+       {
+        "id": "it-col-l2-1",
+        "text": "il quadrato",
+        "en": "Square",
+        "accept": [
+         "a square"
+        ],
+        "emoji": "🟥"
+       },
+       {
+        "id": "it-col-l2-2",
+        "text": "il triangolo",
+        "en": "Triangle",
+        "accept": [
+         "a triangle"
+        ],
+        "emoji": "🔺"
+       },
+       {
+        "id": "it-col-l2-3",
+        "text": "la stella",
+        "en": "Star",
+        "accept": [
+         "a star"
+        ],
+        "emoji": "⭐",
+        "note": "Hold the double l: STEL-la."
+       },
+       {
+        "id": "it-col-l2-4",
+        "text": "il cuore",
+        "en": "Heart",
+        "accept": [
+         "a heart"
+        ],
+        "emoji": "❤️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-food",
+    "title": "Food & Drink",
+    "tagline": "Pizza, pasta and everything in between.",
+    "lessons": [
+     {
+      "id": "it-food-l1",
+      "title": "Foods",
+      "words": [
+       {
+        "id": "it-food-l1-0",
+        "text": "il pane",
+        "en": "Bread",
+        "emoji": "🍞"
+       },
+       {
+        "id": "it-food-l1-1",
+        "text": "il formaggio",
+        "en": "Cheese",
+        "emoji": "🧀",
+        "note": "The gg sounds like j: for-MAJ-jo."
+       },
+       {
+        "id": "it-food-l1-2",
+        "text": "il riso",
+        "en": "Rice",
+        "emoji": "🍚"
+       },
+       {
+        "id": "it-food-l1-3",
+        "text": "la mela",
+        "en": "Apple",
+        "accept": [
+         "an apple"
+        ],
+        "emoji": "🍎"
+       },
+       {
+        "id": "it-food-l1-4",
+        "text": "il pollo",
+        "en": "Chicken",
+        "emoji": "🍗"
+       },
+       {
+        "id": "it-food-l1-5",
+        "text": "l'uovo",
+        "en": "Egg",
+        "accept": [
+         "an egg"
+        ],
+        "emoji": "🥚",
+        "note": "One egg is l'uovo, but two eggs are le uova."
+       }
+      ]
+     },
+     {
+      "id": "it-food-l2",
+      "title": "Drinks & taste",
+      "words": [
+       {
+        "id": "it-food-l2-0",
+        "text": "l'acqua",
+        "en": "Water",
+        "emoji": "💧",
+        "note": "Said 'AK-kwa'."
+       },
+       {
+        "id": "it-food-l2-1",
+        "text": "il latte",
+        "en": "Milk",
+        "emoji": "🥛",
+        "note": "In Italy, latte means plain milk, not coffee!"
+       },
+       {
+        "id": "it-food-l2-2",
+        "text": "il succo",
+        "en": "Juice",
+        "emoji": "🧃"
+       },
+       {
+        "id": "it-food-l2-3",
+        "text": "il caffè",
+        "en": "Coffee",
+        "emoji": "☕",
+        "note": "Ask for un caffè and you get a tiny, strong espresso."
+       },
+       {
+        "id": "it-food-l2-4",
+        "text": "buono",
+        "en": "Tasty",
+        "accept": [
+         "delicious",
+         "yummy",
+         "good"
+        ],
+        "emoji": "😋",
+        "note": "Buono is 'good' and 'tasty'. With a she word it becomes buona: una pizza buona."
+       },
+       {
+        "id": "it-food-l2-5",
+        "text": "piccante",
+        "en": "Spicy",
+        "accept": [
+         "hot"
+        ],
+        "emoji": "🌶️",
+        "note": "Said 'pik-KAN-teh'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-phrases",
+    "title": "Everyday Phrases",
+    "tagline": "Small words that unlock real conversations.",
+    "lessons": [
+     {
+      "id": "it-phr-l1",
+      "title": "Asking for things",
+      "words": [
+       {
+        "id": "it-phr-l1-0",
+        "text": "per favore",
+        "en": "Please",
+        "emoji": "🥺",
+        "note": "You can also say per piacere. Both are polite."
+       },
+       {
+        "id": "it-phr-l1-1",
+        "text": "vorrei",
+        "en": "I would like",
+        "accept": [
+         "i'd like"
+        ],
+        "emoji": "🙋",
+        "note": "Vorrei is the polite way to ask: vorrei un gelato!"
+       },
+       {
+        "id": "it-phr-l1-2",
+        "text": "ho bisogno di",
+        "en": "I need",
+        "emoji": "🙌",
+        "note": "The h is silent: ho sounds like 'oh'."
+       },
+       {
+        "id": "it-phr-l1-3",
+        "text": "Dov'è il bagno?",
+        "en": "Where is the toilet?",
+        "accept": [
+         "where are the toilets",
+         "where's the toilet",
+         "where is the bathroom",
+         "where's the bathroom"
+        ],
+        "emoji": "🚻"
+       },
+       {
+        "id": "it-phr-l1-4",
+        "text": "Non capisco",
+        "en": "I don't understand",
+        "accept": [
+         "i do not understand"
+        ],
+        "emoji": "🤷"
+       },
+       {
+        "id": "it-phr-l1-5",
+        "text": "Più lentamente, per favore",
+        "en": "Slower, please",
+        "accept": [
+         "more slowly please",
+         "slowly please"
+        ],
+        "emoji": "🐢"
+       }
+      ]
+     },
+     {
+      "id": "it-phr-l2",
+      "title": "Question words",
+      "words": [
+       {
+        "id": "it-phr-l2-0",
+        "text": "Cosa?",
+        "en": "What?",
+        "emoji": "❓",
+        "note": "You'll also hear che cosa? or just che?"
+       },
+       {
+        "id": "it-phr-l2-1",
+        "text": "Chi?",
+        "en": "Who?",
+        "emoji": "🧑",
+        "note": "Chi is said 'kee', with a hard k sound."
+       },
+       {
+        "id": "it-phr-l2-2",
+        "text": "Dove?",
+        "en": "Where?",
+        "emoji": "📍"
+       },
+       {
+        "id": "it-phr-l2-3",
+        "text": "Quando?",
+        "en": "When?",
+        "emoji": "🕐"
+       },
+       {
+        "id": "it-phr-l2-4",
+        "text": "Perché?",
+        "en": "Why?",
+        "emoji": "🤔",
+        "note": "Perché means both 'why?' and 'because'. The accent goes on the last é."
+       },
+       {
+        "id": "it-phr-l2-5",
+        "text": "Quanto?",
+        "en": "How much?",
+        "accept": [
+         "how many"
+        ],
+        "emoji": "💰"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-time",
+    "title": "Time & Days",
+    "tagline": "Days of the week — and no capital letters in Italian!",
+    "lessons": [
+     {
+      "id": "it-time-l1",
+      "title": "Weekdays",
+      "words": [
+       {
+        "id": "it-time-l1-0",
+        "text": "lunedì",
+        "en": "Monday",
+        "note": "The accent shows you stress the last syllable: loo-neh-DEE."
+       },
+       {
+        "id": "it-time-l1-1",
+        "text": "martedì",
+        "en": "Tuesday"
+       },
+       {
+        "id": "it-time-l1-2",
+        "text": "mercoledì",
+        "en": "Wednesday"
+       },
+       {
+        "id": "it-time-l1-3",
+        "text": "giovedì",
+        "en": "Thursday"
+       },
+       {
+        "id": "it-time-l1-4",
+        "text": "venerdì",
+        "en": "Friday"
+       }
+      ]
+     },
+     {
+      "id": "it-time-l2",
+      "title": "Weekend & today",
+      "words": [
+       {
+        "id": "it-time-l2-0",
+        "text": "sabato",
+        "en": "Saturday"
+       },
+       {
+        "id": "it-time-l2-1",
+        "text": "domenica",
+        "en": "Sunday"
+       },
+       {
+        "id": "it-time-l2-2",
+        "text": "oggi",
+        "en": "Today",
+        "emoji": "📅",
+        "note": "The gg sounds like j: OJ-jee."
+       },
+       {
+        "id": "it-time-l2-3",
+        "text": "domani",
+        "en": "Tomorrow",
+        "emoji": "🌅"
+       },
+       {
+        "id": "it-time-l2-4",
+        "text": "ieri",
+        "en": "Yesterday",
+        "emoji": "⏪"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-places",
+    "title": "Places & Directions",
+    "tagline": "Getting around town.",
+    "lessons": [
+     {
+      "id": "it-pl-l1",
+      "title": "Places",
+      "words": [
+       {
+        "id": "it-pl-l1-0",
+        "text": "la casa",
+        "en": "House",
+        "accept": [
+         "home",
+         "the house"
+        ],
+        "emoji": "🏠"
+       },
+       {
+        "id": "it-pl-l1-1",
+        "text": "la scuola",
+        "en": "School",
+        "accept": [
+         "the school"
+        ],
+        "emoji": "🏫",
+        "note": "Sc before u sounds like 'sk': SKWO-la."
+       },
+       {
+        "id": "it-pl-l1-2",
+        "text": "la spiaggia",
+        "en": "Beach",
+        "accept": [
+         "the beach"
+        ],
+        "emoji": "🏖️",
+        "note": "Said 'SPYAJ-ja'."
+       },
+       {
+        "id": "it-pl-l1-3",
+        "text": "il parco",
+        "en": "Park",
+        "accept": [
+         "the park"
+        ],
+        "emoji": "🌳"
+       },
+       {
+        "id": "it-pl-l1-4",
+        "text": "il negozio",
+        "en": "Shop",
+        "accept": [
+         "store",
+         "the shop"
+        ],
+        "emoji": "🏪"
+       },
+       {
+        "id": "it-pl-l1-5",
+        "text": "l'ospedale",
+        "en": "Hospital",
+        "accept": [
+         "the hospital"
+        ],
+        "emoji": "🏥",
+        "note": "Said 'os-peh-DAH-leh'. English has an h at the start, but Italian has none."
+       }
+      ]
+     },
+     {
+      "id": "it-pl-l2",
+      "title": "Directions",
+      "words": [
+       {
+        "id": "it-pl-l2-0",
+        "text": "a sinistra",
+        "en": "On the left",
+        "accept": [
+         "left",
+         "to the left"
+        ],
+        "emoji": "⬅️"
+       },
+       {
+        "id": "it-pl-l2-1",
+        "text": "a destra",
+        "en": "On the right",
+        "accept": [
+         "right",
+         "to the right"
+        ],
+        "emoji": "➡️"
+       },
+       {
+        "id": "it-pl-l2-2",
+        "text": "sempre dritto",
+        "en": "Straight on",
+        "accept": [
+         "straight ahead",
+         "straight"
+        ],
+        "emoji": "⬆️"
+       },
+       {
+        "id": "it-pl-l2-3",
+        "text": "qui",
+        "en": "Here",
+        "emoji": "📌",
+        "note": "Qui is said 'kwee'. You'll also hear qua."
+       },
+       {
+        "id": "it-pl-l2-4",
+        "text": "lì",
+        "en": "There",
+        "accept": [
+         "over there"
+        ],
+        "emoji": "👉",
+        "note": "With the accent, lì means 'there'. Without it, li is 'them'."
+       },
+       {
+        "id": "it-pl-l2-5",
+        "text": "vicino",
+        "en": "Near",
+        "accept": [
+         "close",
+         "nearby"
+        ],
+        "emoji": "🤏"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-shopping",
+    "title": "Shopping & Money",
+    "tagline": "Prices, paying and 'just looking'.",
+    "lessons": [
+     {
+      "id": "it-shop-l1",
+      "title": "At the shop",
+      "words": [
+       {
+        "id": "it-shop-l1-0",
+        "text": "Quanto costa?",
+        "en": "How much is it?",
+        "accept": [
+         "how much does it cost",
+         "how much"
+        ],
+        "emoji": "🏷️"
+       },
+       {
+        "id": "it-shop-l1-1",
+        "text": "caro",
+        "en": "Expensive",
+        "accept": [
+         "dear"
+        ],
+        "emoji": "💸",
+        "note": "Caro also means 'dear', as in a friend: caro amico."
+       },
+       {
+        "id": "it-shop-l1-2",
+        "text": "economico",
+        "en": "Cheap",
+        "accept": [
+         "inexpensive",
+         "not expensive"
+        ],
+        "emoji": "🪙"
+       },
+       {
+        "id": "it-shop-l1-3",
+        "text": "Sto solo guardando",
+        "en": "I'm just looking",
+        "accept": [
+         "just looking",
+         "i am just looking"
+        ],
+        "emoji": "👀"
+       },
+       {
+        "id": "it-shop-l1-4",
+        "text": "la taglia",
+        "en": "Size",
+        "accept": [
+         "clothes size"
+        ],
+        "emoji": "👕",
+        "note": "Taglia is for clothes. A shoe size is il numero."
+       },
+       {
+        "id": "it-shop-l1-5",
+        "text": "Lo prendo",
+        "en": "I'll take it",
+        "accept": [
+         "i will take it"
+        ],
+        "emoji": "🛍️"
+       }
+      ]
+     },
+     {
+      "id": "it-shop-l2",
+      "title": "Paying up",
+      "words": [
+       {
+        "id": "it-shop-l2-0",
+        "text": "i soldi",
+        "en": "Money",
+        "emoji": "💶",
+        "note": "Soldi is always plural: i soldi."
+       },
+       {
+        "id": "it-shop-l2-1",
+        "text": "la carta",
+        "en": "Card",
+        "accept": [
+         "bank card",
+         "credit card",
+         "debit card"
+        ],
+        "emoji": "💳",
+        "note": "Carta also means 'paper'."
+       },
+       {
+        "id": "it-shop-l2-2",
+        "text": "in contanti",
+        "en": "In cash",
+        "accept": [
+         "cash"
+        ],
+        "emoji": "💵"
+       },
+       {
+        "id": "it-shop-l2-3",
+        "text": "il conto",
+        "en": "The bill",
+        "accept": [
+         "bill",
+         "check",
+         "the check"
+        ],
+        "emoji": "🧾"
+       },
+       {
+        "id": "it-shop-l2-4",
+        "text": "il resto",
+        "en": "Change",
+        "accept": [
+         "the change"
+        ],
+        "emoji": "🪙"
+       },
+       {
+        "id": "it-shop-l2-5",
+        "text": "il negozio di souvenir",
+        "en": "Gift shop",
+        "accept": [
+         "souvenir shop",
+         "the gift shop"
+        ],
+        "emoji": "🎁",
+        "note": "Souvenir stays the same in the plural."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-travel",
+    "title": "Travel & Transport",
+    "tagline": "How you'll get to Italy — and around it.",
+    "lessons": [
+     {
+      "id": "it-trv-l1",
+      "title": "Getting around",
+      "words": [
+       {
+        "id": "it-trv-l1-0",
+        "text": "la macchina",
+        "en": "Car",
+        "accept": [
+         "the car"
+        ],
+        "emoji": "🚗",
+        "note": "Said 'MAK-ki-na'. You might also hear l'auto."
+       },
+       {
+        "id": "it-trv-l1-1",
+        "text": "l'autobus",
+        "en": "Bus",
+        "accept": [
+         "the bus"
+        ],
+        "emoji": "🚌"
+       },
+       {
+        "id": "it-trv-l1-2",
+        "text": "il treno",
+        "en": "Train",
+        "accept": [
+         "the train"
+        ],
+        "emoji": "🚆"
+       },
+       {
+        "id": "it-trv-l1-3",
+        "text": "l'aereo",
+        "en": "Plane",
+        "accept": [
+         "aeroplane",
+         "airplane",
+         "the plane"
+        ],
+        "emoji": "✈️"
+       },
+       {
+        "id": "it-trv-l1-4",
+        "text": "la bici",
+        "en": "Bike",
+        "accept": [
+         "bicycle",
+         "the bike"
+        ],
+        "emoji": "🚲",
+        "note": "Short for la bicicletta."
+       },
+       {
+        "id": "it-trv-l1-5",
+        "text": "a piedi",
+        "en": "On foot",
+        "accept": [
+         "walking"
+        ],
+        "emoji": "🚶"
+       }
+      ]
+     },
+     {
+      "id": "it-trv-l2",
+      "title": "At the airport",
+      "words": [
+       {
+        "id": "it-trv-l2-0",
+        "text": "l'aeroporto",
+        "en": "Airport",
+        "accept": [
+         "the airport"
+        ],
+        "emoji": "🛫"
+       },
+       {
+        "id": "it-trv-l2-1",
+        "text": "il passaporto",
+        "en": "Passport",
+        "accept": [
+         "the passport"
+        ],
+        "emoji": "🛂"
+       },
+       {
+        "id": "it-trv-l2-2",
+        "text": "la valigia",
+        "en": "Suitcase",
+        "accept": [
+         "the suitcase"
+        ],
+        "emoji": "🧳",
+        "note": "Said 'va-LEE-ja'."
+       },
+       {
+        "id": "it-trv-l2-3",
+        "text": "il biglietto",
+        "en": "Ticket",
+        "accept": [
+         "the ticket"
+        ],
+        "emoji": "🎫",
+        "note": "The gli sounds like 'lli' in million: beel-YET-to."
+       },
+       {
+        "id": "it-trv-l2-4",
+        "text": "l'uscita d'imbarco",
+        "en": "Boarding gate",
+        "accept": [
+         "gate",
+         "the gate"
+        ],
+        "emoji": "🚪",
+        "note": "L'uscita on its own means 'the exit'. At airports you'll often see the English word gate."
+       },
+       {
+        "id": "it-trv-l2-5",
+        "text": "il volo",
+        "en": "Flight",
+        "accept": [
+         "the flight"
+        ],
+        "emoji": "🛬"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-weather",
+    "title": "Weather & Seasons",
+    "tagline": "Small talk that works anywhere — Italians love to talk about the weather too!",
+    "lessons": [
+     {
+      "id": "it-wx-l1",
+      "title": "What's it like out?",
+      "words": [
+       {
+        "id": "it-wx-l1-0",
+        "text": "Fa caldo",
+        "en": "It's hot",
+        "accept": [
+         "it is hot"
+        ],
+        "emoji": "🥵",
+        "note": "Word for word: it makes hot."
+       },
+       {
+        "id": "it-wx-l1-1",
+        "text": "Fa freddo",
+        "en": "It's cold",
+        "accept": [
+         "it is cold"
+        ],
+        "emoji": "🥶"
+       },
+       {
+        "id": "it-wx-l1-2",
+        "text": "C'è il sole",
+        "en": "It's sunny",
+        "accept": [
+         "it is sunny"
+        ],
+        "emoji": "☀️",
+        "note": "Word for word: there is the sun."
+       },
+       {
+        "id": "it-wx-l1-3",
+        "text": "Piove",
+        "en": "It's raining",
+        "accept": [
+         "it is raining",
+         "it rains"
+        ],
+        "emoji": "🌧️"
+       },
+       {
+        "id": "it-wx-l1-4",
+        "text": "Tira vento",
+        "en": "It's windy",
+        "accept": [
+         "it is windy"
+        ],
+        "emoji": "💨",
+        "note": "Word for word: it pulls wind."
+       },
+       {
+        "id": "it-wx-l1-5",
+        "text": "È nuvoloso",
+        "en": "It's cloudy",
+        "accept": [
+         "it is cloudy"
+        ],
+        "emoji": "☁️"
+       }
+      ]
+     },
+     {
+      "id": "it-wx-l2",
+      "title": "Seasons",
+      "words": [
+       {
+        "id": "it-wx-l2-0",
+        "text": "la primavera",
+        "en": "Spring",
+        "emoji": "🌸"
+       },
+       {
+        "id": "it-wx-l2-1",
+        "text": "l'estate",
+        "en": "Summer",
+        "emoji": "🌞",
+        "note": "L'estate is a she word: la bella estate."
+       },
+       {
+        "id": "it-wx-l2-2",
+        "text": "l'autunno",
+        "en": "Autumn",
+        "accept": [
+         "fall"
+        ],
+        "emoji": "🍂",
+        "note": "Hold the double n: ow-TOON-no."
+       },
+       {
+        "id": "it-wx-l2-3",
+        "text": "l'inverno",
+        "en": "Winter",
+        "emoji": "❄️"
+       },
+       {
+        "id": "it-wx-l2-4",
+        "text": "il tempo",
+        "en": "The weather",
+        "accept": [
+         "weather"
+        ],
+        "emoji": "🌦️",
+        "note": "Tempo also means 'time'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-feelings",
+    "title": "Feelings & Health",
+    "tagline": "Saying how you actually feel.",
+    "lessons": [
+     {
+      "id": "it-feel-l1",
+      "title": "Feelings",
+      "words": [
+       {
+        "id": "it-feel-l1-0",
+        "text": "contento",
+        "en": "Happy",
+        "accept": [
+         "glad",
+         "pleased"
+        ],
+        "emoji": "😊",
+        "note": "A girl says contenta."
+       },
+       {
+        "id": "it-feel-l1-1",
+        "text": "triste",
+        "en": "Sad",
+        "emoji": "😢"
+       },
+       {
+        "id": "it-feel-l1-2",
+        "text": "stanco",
+        "en": "Tired",
+        "emoji": "😴",
+        "note": "A girl says stanca."
+       },
+       {
+        "id": "it-feel-l1-3",
+        "text": "arrabbiato",
+        "en": "Angry",
+        "accept": [
+         "cross",
+         "annoyed"
+        ],
+        "emoji": "😠",
+        "note": "A girl says arrabbiata. Hold the double r and b."
+       },
+       {
+        "id": "it-feel-l1-4",
+        "text": "nervoso",
+        "en": "Nervous",
+        "emoji": "😬",
+        "note": "A girl says nervosa."
+       },
+       {
+        "id": "it-feel-l1-5",
+        "text": "Mi annoio",
+        "en": "I'm bored",
+        "accept": [
+         "i am bored",
+         "bored"
+        ],
+        "emoji": "🥱"
+       }
+      ]
+     },
+     {
+      "id": "it-feel-l2",
+      "title": "Feeling unwell",
+      "words": [
+       {
+        "id": "it-feel-l2-0",
+        "text": "Ho mal di testa",
+        "en": "I have a headache",
+        "accept": [
+         "my head hurts"
+        ],
+        "emoji": "🤕",
+        "note": "Word for word: I have pain of head."
+       },
+       {
+        "id": "it-feel-l2-1",
+        "text": "Ho mal di pancia",
+        "en": "I have a tummy ache",
+        "accept": [
+         "my tummy hurts",
+         "stomach ache",
+         "my stomach hurts"
+        ],
+        "emoji": "🤢"
+       },
+       {
+        "id": "it-feel-l2-2",
+        "text": "Sono malato",
+        "en": "I'm ill",
+        "accept": [
+         "i am ill",
+         "i'm sick",
+         "i am sick"
+        ],
+        "emoji": "🤒",
+        "note": "A girl says sono malata."
+       },
+       {
+        "id": "it-feel-l2-3",
+        "text": "il medico",
+        "en": "Doctor",
+        "accept": [
+         "the doctor"
+        ],
+        "emoji": "🩺"
+       },
+       {
+        "id": "it-feel-l2-4",
+        "text": "la farmacia",
+        "en": "Pharmacy",
+        "accept": [
+         "chemist",
+         "the chemist"
+        ],
+        "emoji": "💊"
+       },
+       {
+        "id": "it-feel-l2-5",
+        "text": "Ho la febbre",
+        "en": "I have a temperature",
+        "accept": [
+         "i have a fever"
+        ],
+        "emoji": "🌡️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-sentences",
+    "title": "Putting It Together",
+    "tagline": "Whole sentences, built from everything so far.",
+    "lessons": [
+     {
+      "id": "it-sen-l1",
+      "title": "Talking about yourself",
+      "words": [
+       {
+        "id": "it-sen-l1-0",
+        "text": "Mi chiamo Anna",
+        "en": "My name is Anna",
+        "accept": [
+         "i'm called anna",
+         "i am called anna"
+        ],
+        "emoji": "🙋",
+        "note": "Ch is a hard k sound: mee KYAH-mo."
+       },
+       {
+        "id": "it-sen-l1-1",
+        "text": "Ho dieci anni",
+        "en": "I'm ten years old",
+        "accept": [
+         "i am ten",
+         "i'm ten",
+         "i am ten years old"
+        ],
+        "emoji": "🎂",
+        "note": "In Italian you 'have' years: ho = I have."
+       },
+       {
+        "id": "it-sen-l1-2",
+        "text": "Vengo dall'Inghilterra",
+        "en": "I'm from England",
+        "accept": [
+         "i am from england",
+         "i come from england"
+        ],
+        "emoji": "🌍"
+       },
+       {
+        "id": "it-sen-l1-3",
+        "text": "Abito a Londra",
+        "en": "I live in London",
+        "emoji": "🏙️"
+       },
+       {
+        "id": "it-sen-l1-4",
+        "text": "Parlo un po' di italiano",
+        "en": "I speak a little Italian",
+        "accept": [
+         "i speak a bit of italian"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "id": "it-sen-l1-5",
+        "text": "Mi piace il cioccolato",
+        "en": "I like chocolate",
+        "emoji": "🍫",
+        "note": "Word for word: chocolate pleases me."
+       }
+      ]
+     },
+     {
+      "id": "it-sen-l2",
+      "title": "A day in words",
+      "words": [
+       {
+        "id": "it-sen-l2-0",
+        "text": "Mi alzo",
+        "en": "I get up",
+        "emoji": "⏰"
+       },
+       {
+        "id": "it-sen-l2-1",
+        "text": "Faccio colazione",
+        "en": "I have breakfast",
+        "accept": [
+         "i eat breakfast",
+         "i have my breakfast"
+        ],
+        "emoji": "🥣",
+        "note": "Word for word: I make breakfast."
+       },
+       {
+        "id": "it-sen-l2-2",
+        "text": "Vado a scuola",
+        "en": "I go to school",
+        "emoji": "🎒"
+       },
+       {
+        "id": "it-sen-l2-3",
+        "text": "Mangio con la mia famiglia",
+        "en": "I eat with my family",
+        "accept": [
+         "i have a meal with my family"
+        ],
+        "emoji": "🍽️"
+       },
+       {
+        "id": "it-sen-l2-4",
+        "text": "Gioco al parco",
+        "en": "I play in the park",
+        "emoji": "⚽",
+        "note": "Said 'JO-ko'."
+       },
+       {
+        "id": "it-sen-l2-5",
+        "text": "Vado a letto",
+        "en": "I go to bed",
+        "emoji": "🛏️"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Elementary",
+  "units": [
+   {
+    "id": "it-gender",
+    "title": "Il & La",
+    "tagline": "Every Italian noun is a 'he' or a 'she' word — learn the little word in front.",
+    "lessons": [
+     {
+      "id": "it-gen-l1",
+      "title": "The: il or la?",
+      "words": [
+       {
+        "id": "it-gen-l1-0",
+        "text": "il cane",
+        "en": "The dog",
+        "accept": [
+         "dog"
+        ],
+        "emoji": "🐶",
+        "note": "Before a vowel il and la become l': l'amico. Before z or s+consonant, il becomes lo: lo zaino."
+       },
+       {
+        "id": "it-gen-l1-1",
+        "text": "il gatto",
+        "en": "The cat",
+        "accept": [
+         "cat"
+        ],
+        "emoji": "🐱",
+        "note": "Hold the double t: GAT-to."
+       },
+       {
+        "id": "it-gen-l1-2",
+        "text": "la tavola",
+        "en": "The table",
+        "accept": [
+         "table"
+        ],
+        "emoji": "🍽️",
+        "note": "La tavola is the table you eat at. A work table is il tavolo."
+       },
+       {
+        "id": "it-gen-l1-3",
+        "text": "il libro",
+        "en": "The book",
+        "accept": [
+         "book"
+        ],
+        "emoji": "📖"
+       },
+       {
+        "id": "it-gen-l1-4",
+        "text": "la finestra",
+        "en": "The window",
+        "accept": [
+         "window"
+        ],
+        "emoji": "🪟"
+       }
+      ]
+     },
+     {
+      "id": "it-gen-l2",
+      "title": "A or an: un or una?",
+      "words": [
+       {
+        "id": "it-gen-l2-0",
+        "text": "una banana",
+        "en": "A banana",
+        "accept": [
+         "banana"
+        ],
+        "emoji": "🍌"
+       },
+       {
+        "id": "it-gen-l2-1",
+        "text": "un'arancia",
+        "en": "An orange",
+        "accept": [
+         "orange"
+        ],
+        "emoji": "🍊",
+        "note": "Before a she word that starts with a vowel, una becomes un' (with an apostrophe). For a he word it's just un: un amico."
+       },
+       {
+        "id": "it-gen-l2-2",
+        "text": "un pallone",
+        "en": "A ball",
+        "accept": [
+         "ball",
+         "a football"
+        ],
+        "emoji": "⚽",
+        "note": "Un has no apostrophe with a he word."
+       },
+       {
+        "id": "it-gen-l2-3",
+        "text": "una sedia",
+        "en": "A chair",
+        "accept": [
+         "chair"
+        ],
+        "emoji": "🪑"
+       },
+       {
+        "id": "it-gen-l2-4",
+        "text": "delle scarpe",
+        "en": "Some shoes",
+        "accept": [
+         "shoes"
+        ],
+        "emoji": "👟",
+        "note": "Delle means 'some' for more than one she word."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-routine",
+    "title": "Daily Routine",
+    "tagline": "The verbs and time words behind an ordinary day.",
+    "lessons": [
+     {
+      "id": "it-rtn-l1",
+      "title": "Morning to night",
+      "words": [
+       {
+        "id": "it-rtn-l1-0",
+        "text": "Mi faccio la doccia",
+        "en": "I have a shower",
+        "accept": [
+         "i shower",
+         "i take a shower"
+        ],
+        "emoji": "🚿"
+       },
+       {
+        "id": "it-rtn-l1-1",
+        "text": "Mi lavo i denti",
+        "en": "I brush my teeth",
+        "emoji": "🪥",
+        "note": "Word for word: I wash my teeth."
+       },
+       {
+        "id": "it-rtn-l1-2",
+        "text": "Mi vesto",
+        "en": "I get dressed",
+        "emoji": "👕"
+       },
+       {
+        "id": "it-rtn-l1-3",
+        "text": "Mangio",
+        "en": "I eat",
+        "emoji": "🍴"
+       },
+       {
+        "id": "it-rtn-l1-4",
+        "text": "Lavoro",
+        "en": "I work",
+        "emoji": "💼"
+       },
+       {
+        "id": "it-rtn-l1-5",
+        "text": "Dormo",
+        "en": "I sleep",
+        "emoji": "😴"
+       }
+      ]
+     },
+     {
+      "id": "it-rtn-l2",
+      "title": "What time is it?",
+      "words": [
+       {
+        "id": "it-rtn-l2-0",
+        "text": "Che ore sono?",
+        "en": "What time is it?",
+        "accept": [
+         "what's the time"
+        ],
+        "emoji": "⏰",
+        "note": "You'll also hear che ora è? Both are fine."
+       },
+       {
+        "id": "it-rtn-l2-1",
+        "text": "È l'una",
+        "en": "It's one o'clock",
+        "accept": [
+         "it is one o'clock",
+         "it's one"
+        ],
+        "emoji": "🕐",
+        "note": "One o'clock is singular (è l'una). Every other hour is plural (sono le due)."
+       },
+       {
+        "id": "it-rtn-l2-2",
+        "text": "Sono le due",
+        "en": "It's two o'clock",
+        "accept": [
+         "it is two o'clock",
+         "it's two"
+        ],
+        "emoji": "🕑"
+       },
+       {
+        "id": "it-rtn-l2-3",
+        "text": "e mezza",
+        "en": "Half past",
+        "accept": [
+         "and a half"
+        ],
+        "emoji": "🕧",
+        "note": "Sono le due e mezza: it's half past two."
+       },
+       {
+        "id": "it-rtn-l2-4",
+        "text": "la mattina",
+        "en": "In the morning",
+        "accept": [
+         "the morning",
+         "morning"
+        ],
+        "emoji": "🌄"
+       },
+       {
+        "id": "it-rtn-l2-5",
+        "text": "la sera",
+        "en": "In the evening",
+        "accept": [
+         "the evening",
+         "evening"
+        ],
+        "emoji": "🌙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-essereavere",
+    "title": "Essere & Avere",
+    "tagline": "The two most important verbs: essere (to be) and avere (to have).",
+    "lessons": [
+     {
+      "id": "it-ea-l1",
+      "title": "Essere: to be",
+      "words": [
+       {
+        "id": "it-ea-l1-0",
+        "text": "Sono alto",
+        "en": "I'm tall",
+        "accept": [
+         "i am tall"
+        ],
+        "emoji": "📏",
+        "note": "A girl says alta."
+       },
+       {
+        "id": "it-ea-l1-1",
+        "text": "Sono inglese",
+        "en": "I'm English",
+        "accept": [
+         "i am english"
+        ],
+        "emoji": "🇬🇧",
+        "note": "Inglese ends in -e, so it's the same for boys and girls."
+       },
+       {
+        "id": "it-ea-l1-2",
+        "text": "È mia sorella",
+        "en": "She's my sister",
+        "accept": [
+         "she is my sister",
+         "this is my sister",
+         "it's my sister"
+        ],
+        "emoji": "👧",
+        "note": "With one family member you drop the little word: mia sorella, not la mia sorella."
+       },
+       {
+        "id": "it-ea-l1-3",
+        "text": "È molto gentile",
+        "en": "He's very nice",
+        "accept": [
+         "he is very nice",
+         "he's very kind",
+         "she's very nice",
+         "she is very nice",
+         "she's very kind"
+        ],
+        "emoji": "😊",
+        "note": "È means 'he is', 'she is' and 'it is'. Context tells you which."
+       },
+       {
+        "id": "it-ea-l1-4",
+        "text": "Siamo una famiglia",
+        "en": "We are a family",
+        "accept": [
+         "we're a family"
+        ],
+        "emoji": "👨‍👩‍👧"
+       }
+      ]
+     },
+     {
+      "id": "it-ea-l2",
+      "title": "Avere: to have",
+      "words": [
+       {
+        "id": "it-ea-l2-0",
+        "text": "Ho un cane",
+        "en": "I have a dog",
+        "accept": [
+         "i've got a dog"
+        ],
+        "emoji": "🐕",
+        "note": "The h is silent: ho sounds like 'oh'."
+       },
+       {
+        "id": "it-ea-l2-1",
+        "text": "Hai fame?",
+        "en": "Are you hungry?",
+        "emoji": "🍽️",
+        "note": "In Italian you 'have hunger': avere fame."
+       },
+       {
+        "id": "it-ea-l2-2",
+        "text": "Ho sete",
+        "en": "I'm thirsty",
+        "accept": [
+         "i am thirsty"
+        ],
+        "emoji": "🥤",
+        "note": "You 'have thirst': avere sete."
+       },
+       {
+        "id": "it-ea-l2-3",
+        "text": "Ha freddo",
+        "en": "He's cold",
+        "accept": [
+         "he is cold",
+         "she's cold",
+         "she is cold"
+        ],
+        "emoji": "🥶",
+        "note": "You 'have cold': avere freddo."
+       },
+       {
+        "id": "it-ea-l2-4",
+        "text": "Abbiamo una macchina",
+        "en": "We have a car",
+        "accept": [
+         "we've got a car"
+        ],
+        "emoji": "🚙",
+        "note": "Hold the double b and double m."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-compare",
+    "title": "Comparisons",
+    "tagline": "More than, less than, and the best.",
+    "lessons": [
+     {
+      "id": "it-cmp-l1",
+      "title": "More, less, most",
+      "words": [
+       {
+        "id": "it-cmp-l1-0",
+        "text": "più grande",
+        "en": "Bigger",
+        "accept": [
+         "larger",
+         "bigger than"
+        ],
+        "emoji": "🐘",
+        "note": "Più means 'more'. Add it before nearly any describing word."
+       },
+       {
+        "id": "it-cmp-l1-1",
+        "text": "più piccolo",
+        "en": "Smaller",
+        "emoji": "🐭"
+       },
+       {
+        "id": "it-cmp-l1-2",
+        "text": "migliore",
+        "en": "Better",
+        "emoji": "👍",
+        "note": "Said 'meel-YO-reh'. Migliore describes things; meglio is used with verbs."
+       },
+       {
+        "id": "it-cmp-l1-3",
+        "text": "peggiore",
+        "en": "Worse",
+        "emoji": "👎",
+        "note": "Said 'ped-JO-reh'."
+       },
+       {
+        "id": "it-cmp-l1-4",
+        "text": "il più veloce",
+        "en": "The fastest",
+        "accept": [
+         "fastest"
+        ],
+        "emoji": "🏃"
+       },
+       {
+        "id": "it-cmp-l1-5",
+        "text": "alto come",
+        "en": "As tall as",
+        "emoji": "📐"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-restaurant",
+    "title": "At the Restaurant",
+    "tagline": "Order a pizza, ask for the menu and pay the bill.",
+    "lessons": [
+     {
+      "id": "it-res-l1",
+      "title": "Ordering food",
+      "words": [
+       {
+        "id": "it-res-l1-0",
+        "text": "il menù",
+        "en": "The menu",
+        "accept": [
+         "menu"
+        ],
+        "emoji": "📜",
+        "note": "Il menù fisso in Italy is a set meal at a fixed price."
+       },
+       {
+        "id": "it-res-l1-1",
+        "text": "Per me, una pizza",
+        "en": "A pizza for me",
+        "accept": [
+         "i'll have a pizza",
+         "for me a pizza",
+         "a pizza for me please"
+        ],
+        "emoji": "🍕",
+        "note": "Pizza is said 'PEET-tsa': the double z is a strong 'ts' sound."
+       },
+       {
+        "id": "it-res-l1-2",
+        "text": "Cosa vuoi da bere?",
+        "en": "What would you like to drink?",
+        "accept": [
+         "what do you want to drink"
+        ],
+        "emoji": "🥤"
+       },
+       {
+        "id": "it-res-l1-3",
+        "text": "senza cipolla",
+        "en": "Without onion",
+        "accept": [
+         "no onion"
+        ],
+        "emoji": "🧅",
+        "note": "Said 'cheep-OL-la'."
+       },
+       {
+        "id": "it-res-l1-4",
+        "text": "È buonissimo!",
+        "en": "It's delicious!",
+        "accept": [
+         "it is delicious",
+         "it's really good"
+        ],
+        "emoji": "😋",
+        "note": "Add -issimo to make 'very very': buono, buonissimo."
+       },
+       {
+        "id": "it-res-l1-5",
+        "text": "Il conto, per favore",
+        "en": "The bill, please",
+        "accept": [
+         "the check please",
+         "bill please"
+        ],
+        "emoji": "🧾"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-plans",
+    "title": "Making Plans",
+    "tagline": "Arranging to meet up — the most useful conversation of all.",
+    "lessons": [
+     {
+      "id": "it-pln-l1",
+      "title": "Are you free?",
+      "words": [
+       {
+        "id": "it-pln-l1-0",
+        "text": "Sei libero sabato?",
+        "en": "Are you free on Saturday?",
+        "accept": [
+         "are you free saturday"
+        ],
+        "emoji": "📅",
+        "note": "To a girl say sei libera."
+       },
+       {
+        "id": "it-pln-l1-1",
+        "text": "Ci vediamo?",
+        "en": "Shall we meet up?",
+        "accept": [
+         "shall we meet",
+         "do you want to meet"
+        ],
+        "emoji": "🤝",
+        "note": "Word for word: do we see each other?"
+       },
+       {
+        "id": "it-pln-l1-2",
+        "text": "A che ora?",
+        "en": "What time?",
+        "accept": [
+         "at what time"
+        ],
+        "emoji": "⏰"
+       },
+       {
+        "id": "it-pln-l1-3",
+        "text": "Va bene",
+        "en": "OK",
+        "accept": [
+         "okay",
+         "alright",
+         "all right",
+         "agreed"
+        ],
+        "emoji": "👌",
+        "note": "You'll hear va bene all day long in Italy."
+       },
+       {
+        "id": "it-pln-l1-4",
+        "text": "Mi dispiace, non posso",
+        "en": "Sorry, I can't",
+        "accept": [
+         "sorry i cannot"
+        ],
+        "emoji": "🙅"
+       },
+       {
+        "id": "it-pln-l1-5",
+        "text": "A presto!",
+        "en": "See you soon!",
+        "accept": [
+         "see you",
+         "see you then"
+        ],
+        "emoji": "👋"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Intermediate",
+  "units": [
+   {
+    "id": "it-connectors",
+    "title": "Connectors",
+    "tagline": "And, but, because, if — the words that join ideas together.",
+    "lessons": [
+     {
+      "id": "it-con-l1",
+      "title": "Joining ideas",
+      "words": [
+       {
+        "id": "it-con-l1-0",
+        "text": "e",
+        "en": "And",
+        "emoji": "➕",
+        "note": "No accent: e = and. With an accent: è = is."
+       },
+       {
+        "id": "it-con-l1-1",
+        "text": "ma",
+        "en": "But",
+        "emoji": "↔️"
+       },
+       {
+        "id": "it-con-l1-2",
+        "text": "perché",
+        "en": "Because",
+        "emoji": "💡",
+        "note": "Perché is both 'why?' and 'because'. Ask it, then answer it with the same word!"
+       },
+       {
+        "id": "it-con-l1-3",
+        "text": "se",
+        "en": "If",
+        "emoji": "❔"
+       },
+       {
+        "id": "it-con-l1-4",
+        "text": "o",
+        "en": "Or",
+        "emoji": "🔀",
+        "note": "Short and clean: oh. Don't mix it up with ho (I have), which sounds exactly the same!"
+       },
+       {
+        "id": "it-con-l1-5",
+        "text": "anche",
+        "en": "Also",
+        "accept": [
+         "too",
+         "as well"
+        ],
+        "emoji": "🔁",
+        "note": "Said 'AN-keh'."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-directions2",
+    "title": "Giving Directions",
+    "tagline": "Full sentences for getting someone from A to B.",
+    "lessons": [
+     {
+      "id": "it-dir2-l1",
+      "title": "Turn here",
+      "words": [
+       {
+        "id": "it-dir2-l1-0",
+        "text": "Gira a sinistra",
+        "en": "Turn left",
+        "accept": [
+         "turn to the left"
+        ],
+        "emoji": "⬅️"
+       },
+       {
+        "id": "it-dir2-l1-1",
+        "text": "Vai sempre dritto",
+        "en": "Go straight on",
+        "accept": [
+         "keep going straight",
+         "go straight ahead"
+        ],
+        "emoji": "⬆️"
+       },
+       {
+        "id": "it-dir2-l1-2",
+        "text": "Attraversa la strada",
+        "en": "Cross the street",
+        "accept": [
+         "cross the road"
+        ],
+        "emoji": "🚸"
+       },
+       {
+        "id": "it-dir2-l1-3",
+        "text": "È accanto alla banca",
+        "en": "It's next to the bank",
+        "accept": [
+         "it is next to the bank"
+        ],
+        "emoji": "🏦"
+       },
+       {
+        "id": "it-dir2-l1-4",
+        "text": "la seconda strada",
+        "en": "The second street",
+        "accept": [
+         "the second road",
+         "second street"
+        ],
+        "emoji": "2️⃣"
+       },
+       {
+        "id": "it-dir2-l1-5",
+        "text": "È a cinque minuti",
+        "en": "It's five minutes away",
+        "accept": [
+         "it is five minutes away"
+        ],
+        "emoji": "⏱️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-people-desc",
+    "title": "Describing People",
+    "tagline": "Height, hair and character — words change for boys and girls.",
+    "lessons": [
+     {
+      "id": "it-pd-l1",
+      "title": "Appearance",
+      "words": [
+       {
+        "id": "it-pd-l1-0",
+        "text": "alto",
+        "en": "Tall",
+        "emoji": "🦒",
+        "note": "A girl is alta."
+       },
+       {
+        "id": "it-pd-l1-1",
+        "text": "basso",
+        "en": "Short",
+        "emoji": "🐁",
+        "note": "A girl is bassa."
+       },
+       {
+        "id": "it-pd-l1-2",
+        "text": "magro",
+        "en": "Thin",
+        "accept": [
+         "slim"
+        ],
+        "emoji": "🧍"
+       },
+       {
+        "id": "it-pd-l1-3",
+        "text": "i capelli biondi",
+        "en": "Blond hair",
+        "accept": [
+         "fair hair",
+         "blonde hair"
+        ],
+        "emoji": "👱",
+        "note": "Capelli is normally plural, like 'trousers' in English."
+       },
+       {
+        "id": "it-pd-l1-4",
+        "text": "gli occhi azzurri",
+        "en": "Blue eyes",
+        "emoji": "👀",
+        "note": "Gli is said like the 'lli' in million: lyee."
+       },
+       {
+        "id": "it-pd-l1-5",
+        "text": "la barba",
+        "en": "Beard",
+        "accept": [
+         "a beard"
+        ],
+        "emoji": "🧔"
+       }
+      ]
+     },
+     {
+      "id": "it-pd-l2",
+      "title": "Character",
+      "words": [
+       {
+        "id": "it-pd-l2-0",
+        "text": "simpatico",
+        "en": "Nice",
+        "accept": [
+         "friendly",
+         "kind"
+        ],
+        "emoji": "😊",
+        "note": "Simpatico means nice or friendly, not 'sympathetic'. A girl is simpatica."
+       },
+       {
+        "id": "it-pd-l2-1",
+        "text": "timido",
+        "en": "Shy",
+        "emoji": "🙈",
+        "note": "A girl is timida."
+       },
+       {
+        "id": "it-pd-l2-2",
+        "text": "divertente",
+        "en": "Funny",
+        "accept": [
+         "fun"
+        ],
+        "emoji": "😂",
+        "note": "Divertente is the same for boys and girls."
+       },
+       {
+        "id": "it-pd-l2-3",
+        "text": "laborioso",
+        "en": "Hard-working",
+        "accept": [
+         "hardworking",
+         "hard working"
+        ],
+        "emoji": "💪",
+        "note": "A girl is laboriosa."
+       },
+       {
+        "id": "it-pd-l2-4",
+        "text": "pigro",
+        "en": "Lazy",
+        "emoji": "🦥",
+        "note": "A girl is pigra."
+       },
+       {
+        "id": "it-pd-l2-5",
+        "text": "generoso",
+        "en": "Generous",
+        "emoji": "🎁",
+        "note": "A girl is generosa."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-work",
+    "title": "Work & Occupations",
+    "tagline": "What do you do? — jobs and talking about work.",
+    "lessons": [
+     {
+      "id": "it-work-l1",
+      "title": "Occupations",
+      "words": [
+       {
+        "id": "it-work-l1-0",
+        "text": "l'insegnante",
+        "en": "Teacher",
+        "accept": [
+         "the teacher"
+        ],
+        "emoji": "👨‍🏫",
+        "note": "Insegnante is the same for a man or a woman."
+       },
+       {
+        "id": "it-work-l1-1",
+        "text": "l'infermiera",
+        "en": "Nurse",
+        "accept": [
+         "the nurse"
+        ],
+        "emoji": "👩‍⚕️",
+        "note": "A male nurse is l'infermiere."
+       },
+       {
+        "id": "it-work-l1-2",
+        "text": "il poliziotto",
+        "en": "Police officer",
+        "accept": [
+         "policeman",
+         "the police officer"
+        ],
+        "emoji": "👮",
+        "note": "A woman is la poliziotta."
+       },
+       {
+        "id": "it-work-l1-3",
+        "text": "il cuoco",
+        "en": "Cook",
+        "accept": [
+         "chef",
+         "the cook"
+        ],
+        "emoji": "👨‍🍳",
+        "note": "A woman is la cuoca."
+       },
+       {
+        "id": "it-work-l1-4",
+        "text": "il pompiere",
+        "en": "Firefighter",
+        "accept": [
+         "fireman",
+         "the firefighter"
+        ],
+        "emoji": "👨‍🚒"
+       },
+       {
+        "id": "it-work-l1-5",
+        "text": "l'agricoltore",
+        "en": "Farmer",
+        "accept": [
+         "the farmer"
+        ],
+        "emoji": "👨‍🌾"
+       }
+      ]
+     },
+     {
+      "id": "it-work-l2",
+      "title": "The world of work",
+      "words": [
+       {
+        "id": "it-work-l2-0",
+        "text": "Che lavoro fai?",
+        "en": "What do you do?",
+        "accept": [
+         "what is your job",
+         "what's your job"
+        ],
+        "emoji": "💼",
+        "note": "Word for word: what work do you do?"
+       },
+       {
+        "id": "it-work-l2-1",
+        "text": "l'ufficio",
+        "en": "Office",
+        "accept": [
+         "the office"
+        ],
+        "emoji": "🏢"
+       },
+       {
+        "id": "it-work-l2-2",
+        "text": "il capo",
+        "en": "Boss",
+        "accept": [
+         "the boss"
+        ],
+        "emoji": "👔",
+        "note": "Capo also means 'head'."
+       },
+       {
+        "id": "it-work-l2-3",
+        "text": "la riunione",
+        "en": "Meeting",
+        "accept": [
+         "the meeting"
+        ],
+        "emoji": "🗓️"
+       },
+       {
+        "id": "it-work-l2-4",
+        "text": "lo stipendio",
+        "en": "Salary",
+        "accept": [
+         "wages",
+         "pay"
+        ],
+        "emoji": "💶",
+        "note": "It's lo, not il, because stipendio starts with s+consonant."
+       },
+       {
+        "id": "it-work-l2-5",
+        "text": "le vacanze",
+        "en": "Holidays",
+        "accept": [
+         "holiday",
+         "vacation"
+        ],
+        "emoji": "🏝️",
+        "note": "Vacanze is always plural."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-dialogues",
+    "title": "Short Conversations",
+    "tagline": "Real back-and-forth exchanges, not just single words.",
+    "lessons": [
+     {
+      "id": "it-dlg-l1",
+      "title": "At a café",
+      "words": [
+       {
+        "id": "it-dlg-l1-0",
+        "text": "Cosa prende?",
+        "en": "What can I get you?",
+        "accept": [
+         "what would you like",
+         "what will you have"
+        ],
+        "emoji": "☕",
+        "note": "The waiter is polite, so he says prende (you take)."
+       },
+       {
+        "id": "it-dlg-l1-1",
+        "text": "Un cappuccino, per favore",
+        "en": "A cappuccino, please",
+        "accept": [
+         "a coffee with milk please"
+        ],
+        "emoji": "🥛",
+        "note": "Italians drink cappuccino only at breakfast, never after a meal!"
+       },
+       {
+        "id": "it-dlg-l1-2",
+        "text": "Altro?",
+        "en": "Anything else?",
+        "emoji": "➕"
+       },
+       {
+        "id": "it-dlg-l1-3",
+        "text": "Basta così, grazie",
+        "en": "That's all, thanks",
+        "accept": [
+         "nothing else thanks",
+         "that's all thank you"
+        ],
+        "emoji": "🙏",
+        "note": "Word for word: it's enough like this."
+       }
+      ]
+     },
+     {
+      "id": "it-dlg-l2",
+      "title": "Asking for help",
+      "words": [
+       {
+        "id": "it-dlg-l2-0",
+        "text": "Può aiutarmi?",
+        "en": "Can you help me?",
+        "accept": [
+         "could you help me"
+        ],
+        "emoji": "🆘",
+        "note": "Può is the polite 'you can'. See Tu & Lei."
+       },
+       {
+        "id": "it-dlg-l2-1",
+        "text": "Certo",
+        "en": "Of course",
+        "accept": [
+         "sure",
+         "certainly"
+        ],
+        "emoji": "👍"
+       },
+       {
+        "id": "it-dlg-l2-2",
+        "text": "Mi sono perso",
+        "en": "I'm lost",
+        "accept": [
+         "i am lost"
+        ],
+        "emoji": "🗺️",
+        "note": "A girl says mi sono persa."
+       },
+       {
+        "id": "it-dlg-l2-3",
+        "text": "Parla inglese?",
+        "en": "Do you speak English?",
+        "emoji": "🇬🇧"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-emergency",
+    "title": "Health & Emergencies",
+    "tagline": "The phrases you hope you'll never need — but should know anyway.",
+    "lessons": [
+     {
+      "id": "it-emg-l1",
+      "title": "Getting help fast",
+      "words": [
+       {
+        "id": "it-emg-l1-0",
+        "text": "Aiuto!",
+        "en": "Help!",
+        "emoji": "🆘",
+        "note": "Said 'eye-OO-toh'."
+       },
+       {
+        "id": "it-emg-l1-1",
+        "text": "Chiami un'ambulanza",
+        "en": "Call an ambulance",
+        "emoji": "🚑",
+        "note": "That's the polite way. To a friend say chiama un'ambulanza."
+       },
+       {
+        "id": "it-emg-l1-2",
+        "text": "È un'emergenza",
+        "en": "It's an emergency",
+        "accept": [
+         "it is an emergency"
+        ],
+        "emoji": "🚨"
+       },
+       {
+        "id": "it-emg-l1-3",
+        "text": "Ho perso il passaporto",
+        "en": "I've lost my passport",
+        "accept": [
+         "i have lost my passport",
+         "i lost my passport"
+        ],
+        "emoji": "🛂"
+       },
+       {
+        "id": "it-emg-l1-4",
+        "text": "Sono allergico alla frutta a guscio",
+        "en": "I'm allergic to nuts",
+        "accept": [
+         "i am allergic to nuts"
+        ],
+        "emoji": "🌰",
+        "note": "Frutta a guscio means tree nuts, like almonds and walnuts. Peanuts are arachidi. A girl says allergica."
+       },
+       {
+        "id": "it-emg-l1-5",
+        "text": "Dov'è l'ospedale?",
+        "en": "Where is the hospital?",
+        "accept": [
+         "where's the hospital"
+        ],
+        "emoji": "🏥"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Upper-Intermediate",
+  "units": [
+   {
+    "id": "it-opinions",
+    "title": "Opinions & Agreement",
+    "tagline": "Saying what you think, and whether you agree.",
+    "lessons": [
+     {
+      "id": "it-opn-l1",
+      "title": "What do you think?",
+      "words": [
+       {
+        "id": "it-opn-l1-0",
+        "text": "Penso di sì",
+        "en": "I think so",
+        "emoji": "👍"
+       },
+       {
+        "id": "it-opn-l1-1",
+        "text": "Penso di no",
+        "en": "I don't think so",
+        "accept": [
+         "i do not think so"
+        ],
+        "emoji": "👎"
+       },
+       {
+        "id": "it-opn-l1-2",
+        "text": "Sono d'accordo",
+        "en": "I agree",
+        "emoji": "🤝"
+       },
+       {
+        "id": "it-opn-l1-3",
+        "text": "Non sono d'accordo",
+        "en": "I disagree",
+        "accept": [
+         "i don't agree",
+         "i do not agree"
+        ],
+        "emoji": "🙅"
+       },
+       {
+        "id": "it-opn-l1-4",
+        "text": "Secondo me",
+        "en": "In my opinion",
+        "emoji": "💭",
+        "note": "Word for word: according to me."
+       },
+       {
+        "id": "it-opn-l1-5",
+        "text": "Dipende",
+        "en": "It depends",
+        "accept": [
+         "that depends"
+        ],
+        "emoji": "⚖️"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-past",
+    "title": "Talking About the Past",
+    "tagline": "The past tense for things that happened and finished: sono andato, ho mangiato, ho parlato.",
+    "lessons": [
+     {
+      "id": "it-pst-l1",
+      "title": "What did you do?",
+      "words": [
+       {
+        "id": "it-pst-l1-0",
+        "text": "Ieri sono andato in spiaggia",
+        "en": "Yesterday I went to the beach",
+        "accept": [
+         "i went to the beach yesterday"
+        ],
+        "emoji": "🏖️",
+        "note": "A girl says andata. Verbs of going use sono, most others use ho."
+       },
+       {
+        "id": "it-pst-l1-1",
+        "text": "Ho mangiato la pasta",
+        "en": "I ate pasta",
+        "accept": [
+         "i had pasta",
+         "i have eaten pasta"
+        ],
+        "emoji": "🍝"
+       },
+       {
+        "id": "it-pst-l1-2",
+        "text": "Ho parlato con mia nonna",
+        "en": "I talked to my grandma",
+        "accept": [
+         "i spoke to my grandmother",
+         "i talked to my grandmother"
+        ],
+        "emoji": "📞"
+       },
+       {
+        "id": "it-pst-l1-3",
+        "text": "Abbiamo guardato un film",
+        "en": "We watched a film",
+        "accept": [
+         "we saw a film",
+         "we watched a movie"
+        ],
+        "emoji": "🎬"
+       },
+       {
+        "id": "it-pst-l1-4",
+        "text": "Che cosa hai fatto?",
+        "en": "What did you do?",
+        "emoji": "❓"
+       },
+       {
+        "id": "it-pst-l1-5",
+        "text": "Era molto divertente",
+        "en": "It was really fun",
+        "accept": [
+         "it was a lot of fun",
+         "it was very fun"
+        ],
+        "emoji": "🎉",
+        "note": "Era is a second past tense, for saying how things were."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-storytelling",
+    "title": "Telling a Story",
+    "tagline": "The linking words that turn events into a story.",
+    "lessons": [
+     {
+      "id": "it-str-l1",
+      "title": "Once upon a time",
+      "words": [
+       {
+        "id": "it-str-l1-0",
+        "text": "C'era una volta",
+        "en": "Once upon a time",
+        "emoji": "📖",
+        "note": "Every Italian fairy tale (fiaba) starts like this."
+       },
+       {
+        "id": "it-str-l1-1",
+        "text": "Prima",
+        "en": "First",
+        "accept": [
+         "first of all",
+         "firstly"
+        ],
+        "emoji": "1️⃣"
+       },
+       {
+        "id": "it-str-l1-2",
+        "text": "Poi",
+        "en": "Then",
+        "accept": [
+         "next",
+         "after that"
+        ],
+        "emoji": "➡️"
+       },
+       {
+        "id": "it-str-l1-3",
+        "text": "All'improvviso",
+        "en": "Suddenly",
+        "accept": [
+         "all of a sudden"
+        ],
+        "emoji": "⚡"
+       },
+       {
+        "id": "it-str-l1-4",
+        "text": "Alla fine",
+        "en": "In the end",
+        "accept": [
+         "finally",
+         "at the end"
+        ],
+        "emoji": "🏁"
+       },
+       {
+        "id": "it-str-l1-5",
+        "text": "E vissero felici e contenti",
+        "en": "And they lived happily ever after",
+        "accept": [
+         "they lived happily ever after"
+        ],
+        "emoji": "🏰"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-register",
+    "title": "Tu & Lei",
+    "tagline": "Friendly tu for family and friends, polite Lei for strangers and older people.",
+    "lessons": [
+     {
+      "id": "it-reg-l1",
+      "title": "Polite or friendly?",
+      "words": [
+       {
+        "id": "it-reg-l1-0",
+        "text": "signore",
+        "en": "Mr",
+        "accept": [
+         "sir",
+         "mister"
+        ],
+        "emoji": "🎩",
+        "note": "Before a name it loses the e: signor Rossi."
+       },
+       {
+        "id": "it-reg-l1-1",
+        "text": "signora",
+        "en": "Mrs",
+        "accept": [
+         "madam",
+         "ma'am"
+        ],
+        "emoji": "👒"
+       },
+       {
+        "id": "it-reg-l1-2",
+        "text": "Lei",
+        "en": "You (polite)",
+        "accept": [
+         "you formal",
+         "you"
+        ],
+        "emoji": "🤵",
+        "note": "Lei is often written with a capital L when it means a polite 'you'. For more than one person, say voi."
+       },
+       {
+        "id": "it-reg-l1-3",
+        "text": "tu",
+        "en": "You (friendly)",
+        "accept": [
+         "you informal",
+         "you"
+        ],
+        "emoji": "🙂"
+       },
+       {
+        "id": "it-reg-l1-4",
+        "text": "Come sta?",
+        "en": "How are you? (polite)",
+        "accept": [
+         "how are you formal",
+         "how are you"
+        ],
+        "emoji": "🧑‍💼"
+       },
+       {
+        "id": "it-reg-l1-5",
+        "text": "Piacere",
+        "en": "Pleased to meet you",
+        "accept": [
+         "nice to meet you"
+        ],
+        "emoji": "🤝",
+        "note": "Piacere literally means 'pleasure'. It's the quick, everyday way to say it."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-phone",
+    "title": "Phone Conversations",
+    "tagline": "Talking on the phone has its own set phrases.",
+    "lessons": [
+     {
+      "id": "it-phn-l1",
+      "title": "On the line",
+      "words": [
+       {
+        "id": "it-phn-l1-0",
+        "text": "Pronto?",
+        "en": "Hello? (on the phone)",
+        "accept": [
+         "hello on the phone",
+         "hello"
+        ],
+        "emoji": "📞",
+        "note": "Pronto means 'ready'. Italians only say it when they pick up the phone."
+       },
+       {
+        "id": "it-phn-l1-1",
+        "text": "Chi parla?",
+        "en": "Who's calling?",
+        "accept": [
+         "who is calling",
+         "who's speaking"
+        ],
+        "emoji": "☎️"
+       },
+       {
+        "id": "it-phn-l1-2",
+        "text": "Un attimo, per favore",
+        "en": "One moment, please",
+        "accept": [
+         "just a moment please",
+         "hold on please"
+        ],
+        "emoji": "⏳"
+       },
+       {
+        "id": "it-phn-l1-3",
+        "text": "Ti richiamo più tardi",
+        "en": "I'll call you later",
+        "accept": [
+         "i will call you later",
+         "i'll call you back later"
+        ],
+        "emoji": "📱"
+       },
+       {
+        "id": "it-phn-l1-4",
+        "text": "È caduta la linea",
+        "en": "We got cut off",
+        "accept": [
+         "the line went dead",
+         "it cut off"
+        ],
+        "emoji": "📵",
+        "note": "Word for word: the line has fallen."
+       },
+       {
+        "id": "it-phn-l1-5",
+        "text": "Mi senti?",
+        "en": "Can you hear me?",
+        "emoji": "👂"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-idioms",
+    "title": "Idioms & Expressions",
+    "tagline": "Phrases that don't translate word for word, but everyone in Italy knows.",
+    "lessons": [
+     {
+      "id": "it-idm-l1",
+      "title": "How Italians really talk",
+      "words": [
+       {
+        "id": "it-idm-l1-0",
+        "text": "In bocca al lupo!",
+        "en": "Good luck!",
+        "accept": [
+         "break a leg"
+        ],
+        "emoji": "🐺",
+        "note": "Word for word: into the wolf's mouth! You answer: crepi! (may it die)."
+       },
+       {
+        "id": "it-idm-l1-1",
+        "text": "Costare un occhio della testa",
+        "en": "To cost an arm and a leg",
+        "accept": [
+         "to be very expensive"
+        ],
+        "emoji": "💸",
+        "note": "Word for word: to cost an eye of the head."
+       },
+       {
+        "id": "it-idm-l1-2",
+        "text": "Essere al settimo cielo",
+        "en": "To be over the moon",
+        "accept": [
+         "to be very happy"
+        ],
+        "emoji": "🌤️",
+        "note": "Word for word: to be in seventh heaven."
+       },
+       {
+        "id": "it-idm-l1-3",
+        "text": "È facile come bere un bicchier d'acqua",
+        "en": "It's a piece of cake",
+        "accept": [
+         "it's easy",
+         "easy peasy"
+        ],
+        "emoji": "🥛",
+        "note": "Word for word: it's as easy as drinking a glass of water."
+       },
+       {
+        "id": "it-idm-l1-4",
+        "text": "Prendere due piccioni con una fava",
+        "en": "To kill two birds with one stone",
+        "accept": [
+         "two birds with one stone"
+        ],
+        "emoji": "🐦",
+        "note": "Word for word: to catch two pigeons with one bean."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Advanced",
+  "units": [
+   {
+    "id": "it-business",
+    "title": "Business Italian",
+    "tagline": "Vocabulary for the office and the meeting room.",
+    "lessons": [
+     {
+      "id": "it-biz-l1",
+      "title": "At the office",
+      "words": [
+       {
+        "id": "it-biz-l1-0",
+        "text": "l'azienda",
+        "en": "Company",
+        "accept": [
+         "business",
+         "firm",
+         "the company"
+        ],
+        "emoji": "🏭"
+       },
+       {
+        "id": "it-biz-l1-1",
+        "text": "il cliente",
+        "en": "Client",
+        "accept": [
+         "customer",
+         "the client"
+        ],
+        "emoji": "🤝"
+       },
+       {
+        "id": "it-biz-l1-2",
+        "text": "il contratto",
+        "en": "Contract",
+        "accept": [
+         "the contract"
+        ],
+        "emoji": "📝"
+       },
+       {
+        "id": "it-biz-l1-3",
+        "text": "il budget",
+        "en": "Budget",
+        "accept": [
+         "the budget"
+        ],
+        "emoji": "📊",
+        "note": "Italians use the English word budget."
+       },
+       {
+        "id": "it-biz-l1-4",
+        "text": "la fattura",
+        "en": "Invoice",
+        "accept": [
+         "bill",
+         "the invoice"
+        ],
+        "emoji": "🧾"
+       },
+       {
+        "id": "it-biz-l1-5",
+        "text": "le vendite",
+        "en": "Sales",
+        "accept": [
+         "the sales"
+        ],
+        "emoji": "📈"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-news",
+    "title": "News & Society",
+    "tagline": "The words behind newspapers and the evening news.",
+    "lessons": [
+     {
+      "id": "it-news-l1",
+      "title": "Reading the news",
+      "words": [
+       {
+        "id": "it-news-l1-0",
+        "text": "le notizie",
+        "en": "The news",
+        "accept": [
+         "news"
+        ],
+        "emoji": "📰",
+        "note": "One piece of news is una notizia. The TV news is il telegiornale."
+       },
+       {
+        "id": "it-news-l1-1",
+        "text": "il governo",
+        "en": "Government",
+        "accept": [
+         "the government"
+        ],
+        "emoji": "🏛️"
+       },
+       {
+        "id": "it-news-l1-2",
+        "text": "le elezioni",
+        "en": "Elections",
+        "accept": [
+         "the elections"
+        ],
+        "emoji": "🗳️"
+       },
+       {
+        "id": "it-news-l1-3",
+        "text": "l'economia",
+        "en": "Economy",
+        "accept": [
+         "the economy"
+        ],
+        "emoji": "💹"
+       },
+       {
+        "id": "it-news-l1-4",
+        "text": "l'ambiente",
+        "en": "Environment",
+        "accept": [
+         "the environment"
+        ],
+        "emoji": "🌍"
+       },
+       {
+        "id": "it-news-l1-5",
+        "text": "la società",
+        "en": "Society",
+        "emoji": "👥"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-future",
+    "title": "Future & 'Would'",
+    "tagline": "Will, would and 'if I were…' — where Italian verbs get interesting.",
+    "lessons": [
+     {
+      "id": "it-fut-l1",
+      "title": "What will happen?",
+      "words": [
+       {
+        "id": "it-fut-l1-0",
+        "text": "Domani andrò al cinema",
+        "en": "Tomorrow I'll go to the cinema",
+        "accept": [
+         "i will go to the cinema tomorrow",
+         "tomorrow i will go to the cinema"
+        ],
+        "emoji": "🍿",
+        "note": "Italians often use the present for the future too: domani vado al cinema."
+       },
+       {
+        "id": "it-fut-l1-1",
+        "text": "Pioverà",
+        "en": "It will rain",
+        "accept": [
+         "it'll rain"
+        ],
+        "emoji": "☔"
+       },
+       {
+        "id": "it-fut-l1-2",
+        "text": "Sarà facile",
+        "en": "It will be easy",
+        "accept": [
+         "it'll be easy"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "it-fut-l1-3",
+        "text": "Mi piacerebbe viaggiare",
+        "en": "I would like to travel",
+        "accept": [
+         "i'd like to travel"
+        ],
+        "emoji": "🧭"
+       },
+       {
+        "id": "it-fut-l1-4",
+        "text": "Potrebbe aiutarmi?",
+        "en": "Could you help me?",
+        "emoji": "🙏"
+       },
+       {
+        "id": "it-fut-l1-5",
+        "text": "Se fossi ricco, comprerei una barca",
+        "en": "If I were rich, I would buy a boat",
+        "accept": [
+         "if i was rich i would buy a boat",
+         "if i were rich i'd buy a boat"
+        ],
+        "emoji": "⛵"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-proverbs",
+    "title": "Proverbs & Sayings",
+    "tagline": "Proverbi — sayings every Italian child grows up with.",
+    "lessons": [
+     {
+      "id": "it-prv-l1",
+      "title": "Common sayings",
+      "words": [
+       {
+        "id": "it-prv-l1-0",
+        "text": "Meglio tardi che mai",
+        "en": "Better late than never",
+        "emoji": "⏰"
+       },
+       {
+        "id": "it-prv-l1-1",
+        "text": "Chi dorme non piglia pesci",
+        "en": "You snooze, you lose",
+        "accept": [
+         "you snooze you lose",
+         "the early bird catches the worm",
+         "early bird gets the worm"
+        ],
+        "emoji": "🌅",
+        "note": "Word for word: who sleeps catches no fish."
+       },
+       {
+        "id": "it-prv-l1-2",
+        "text": "Chi va piano va sano e va lontano",
+        "en": "Slow and steady wins the race",
+        "accept": [
+         "slowly but surely",
+         "slow and steady"
+        ],
+        "emoji": "🐢",
+        "note": "Word for word: who goes slowly goes safely and goes far."
+       },
+       {
+        "id": "it-prv-l1-3",
+        "text": "Tra il dire e il fare c'è di mezzo il mare",
+        "en": "Easier said than done",
+        "accept": [
+         "it is easier said than done"
+        ],
+        "emoji": "🌊",
+        "note": "Word for word: between saying and doing there is the sea."
+       },
+       {
+        "id": "it-prv-l1-4",
+        "text": "L'unione fa la forza",
+        "en": "Strength in unity",
+        "accept": [
+         "there is strength in numbers",
+         "united we stand"
+        ],
+        "emoji": "🤝",
+        "note": "Word for word: union makes strength."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-debate",
+    "title": "Discussion & Debate",
+    "tagline": "Weighing up pros and cons like a native speaker.",
+    "lessons": [
+     {
+      "id": "it-dbt-l1",
+      "title": "Weighing it up",
+      "words": [
+       {
+        "id": "it-dbt-l1-0",
+        "text": "Da un lato",
+        "en": "On the one hand",
+        "emoji": "☝️"
+       },
+       {
+        "id": "it-dbt-l1-1",
+        "text": "Dall'altro lato",
+        "en": "On the other hand",
+        "emoji": "✋"
+       },
+       {
+        "id": "it-dbt-l1-2",
+        "text": "Tuttavia",
+        "en": "However",
+        "accept": [
+         "nevertheless"
+        ],
+        "emoji": "🔄"
+       },
+       {
+        "id": "it-dbt-l1-3",
+        "text": "Inoltre",
+        "en": "Moreover",
+        "accept": [
+         "furthermore",
+         "what's more",
+         "besides"
+        ],
+        "emoji": "➕"
+       },
+       {
+        "id": "it-dbt-l1-4",
+        "text": "i vantaggi",
+        "en": "The advantages",
+        "accept": [
+         "advantages",
+         "pros"
+        ],
+        "emoji": "✅"
+       },
+       {
+        "id": "it-dbt-l1-5",
+        "text": "gli svantaggi",
+        "en": "The disadvantages",
+        "accept": [
+         "disadvantages",
+         "cons",
+         "drawbacks"
+        ],
+        "emoji": "❌",
+        "note": "Gli is used before s+consonant: gli svantaggi."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "level": "Fluency & Mastery",
+  "units": [
+   {
+    "id": "it-slang",
+    "title": "Slang & Casual Speech",
+    "tagline": "The words you won't find in a textbook, but hear everywhere in Italy.",
+    "lessons": [
+     {
+      "id": "it-slg-l1",
+      "title": "Sounding natural",
+      "words": [
+       {
+        "id": "it-slg-l1-0",
+        "text": "Che forte!",
+        "en": "That's so cool!",
+        "accept": [
+         "how cool",
+         "cool",
+         "that's cool"
+        ],
+        "emoji": "😎",
+        "note": "Word for word: how strong! Everyone says it."
+       },
+       {
+        "id": "it-slg-l1-1",
+        "text": "Raga",
+        "en": "Guys",
+        "accept": [
+         "mates",
+         "everyone",
+         "you lot"
+        ],
+        "emoji": "🤙",
+        "note": "Short for ragazzi (boys, kids). Friends say 'Ciao, raga!'"
+       },
+       {
+        "id": "it-slg-l1-2",
+        "text": "Spacca!",
+        "en": "It's brilliant!",
+        "accept": [
+         "it rocks",
+         "it's great",
+         "it's amazing"
+        ],
+        "emoji": "🤘",
+        "note": "Word for word: it smashes!"
+       },
+       {
+        "id": "it-slg-l1-3",
+        "text": "Uffa!",
+        "en": "What a pain!",
+        "accept": [
+         "what a drag",
+         "how annoying",
+         "ugh"
+        ],
+        "emoji": "🙄",
+        "note": "Kids say uffa! when they are bored or annoyed."
+       },
+       {
+        "id": "it-slg-l1-4",
+        "text": "Non ci credo!",
+        "en": "I can't believe it!",
+        "accept": [
+         "i'm amazed",
+         "i am amazed",
+         "i'm shocked"
+        ],
+        "emoji": "🤯"
+       },
+       {
+        "id": "it-slg-l1-5",
+        "text": "Non mi importa",
+        "en": "I don't care",
+        "accept": [
+         "i couldn't care less",
+         "whatever"
+        ],
+        "emoji": "🤷"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-reactions",
+    "title": "Humour & Reactions",
+    "tagline": "The little exclamations real conversations run on.",
+    "lessons": [
+     {
+      "id": "it-rxn-l1",
+      "title": "Reacting naturally",
+      "words": [
+       {
+        "id": "it-rxn-l1-0",
+        "text": "Dai!",
+        "en": "Come on!",
+        "accept": [
+         "come on",
+         "go on"
+        ],
+        "emoji": "💪",
+        "note": "Dai is used all the time: come on, go on, please!"
+       },
+       {
+        "id": "it-rxn-l1-1",
+        "text": "Speriamo!",
+        "en": "I hope so!",
+        "accept": [
+         "hopefully",
+         "i hope so",
+         "fingers crossed"
+        ],
+        "emoji": "🤞"
+       },
+       {
+        "id": "it-rxn-l1-2",
+        "text": "Peccato!",
+        "en": "What a shame!",
+        "accept": [
+         "what a pity",
+         "too bad"
+        ],
+        "emoji": "😞"
+       },
+       {
+        "id": "it-rxn-l1-3",
+        "text": "Ma dai!",
+        "en": "No way!",
+        "accept": [
+         "you're joking",
+         "that's not true"
+        ],
+        "emoji": "😮",
+        "note": "Said with a rising voice, it means 'you're kidding!'"
+       },
+       {
+        "id": "it-rxn-l1-4",
+        "text": "Mamma mia!",
+        "en": "Oh my goodness!",
+        "accept": [
+         "oh my god",
+         "wow",
+         "goodness me",
+         "oh dear"
+        ],
+        "emoji": "😱",
+        "note": "Yes, Italians really say it, and they say it a lot!"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-reading",
+    "title": "Reading a Short Paragraph",
+    "tagline": "Four connected sentences — read them as a whole story.",
+    "lessons": [
+     {
+      "id": "it-rdg-l1",
+      "title": "Lucia's week",
+      "words": [
+       {
+        "id": "it-rdg-l1-0",
+        "text": "Mi chiamo Lucia e abito a Roma.",
+        "en": "My name is Lucia and I live in Rome.",
+        "accept": [
+         "my name is lucia and i live in rome"
+        ],
+        "emoji": "🙋‍♀️"
+       },
+       {
+        "id": "it-rdg-l1-1",
+        "text": "Ogni mattina vado a scuola in bicicletta.",
+        "en": "Every morning I go to school by bike.",
+        "accept": [
+         "every morning i cycle to school"
+        ],
+        "emoji": "🚲"
+       },
+       {
+        "id": "it-rdg-l1-2",
+        "text": "Il pomeriggio gioco con il mio cane al parco.",
+        "en": "In the afternoon I play with my dog in the park.",
+        "emoji": "🐕"
+       },
+       {
+        "id": "it-rdg-l1-3",
+        "text": "La domenica mangiamo la pasta con i miei nonni.",
+        "en": "On Sundays we eat pasta with my grandparents.",
+        "accept": [
+         "on sundays we have pasta with my grandparents"
+        ],
+        "emoji": "🍝"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-casual-greet",
+    "title": "Casual Greetings",
+    "tagline": "What people actually say when they bump into a friend.",
+    "lessons": [
+     {
+      "id": "it-cgr-l1",
+      "title": "Hey, what's up?",
+      "words": [
+       {
+        "id": "it-cgr-l1-0",
+        "text": "Che c'è di nuovo?",
+        "en": "What's up?",
+        "accept": [
+         "what's new",
+         "what is up"
+        ],
+        "emoji": "🤙",
+        "note": "Word for word: what is there of new?"
+       },
+       {
+        "id": "it-cgr-l1-1",
+        "text": "Come va?",
+        "en": "How's it going?",
+        "accept": [
+         "how is it going"
+        ],
+        "emoji": "🙂",
+        "note": "Word for word: how goes it?"
+       },
+       {
+        "id": "it-cgr-l1-2",
+        "text": "Quanto tempo!",
+        "en": "Long time no see!",
+        "accept": [
+         "it's been ages",
+         "long time no see"
+        ],
+        "emoji": "🤗",
+        "note": "Word for word: how much time!"
+       },
+       {
+        "id": "it-cgr-l1-3",
+        "text": "Ciao!",
+        "en": "Hi there!",
+        "accept": [
+         "hiya",
+         "hey",
+         "hi",
+         "bye"
+        ],
+        "emoji": "👋",
+        "note": "Ciao means both hello and goodbye between friends and family."
+       },
+       {
+        "id": "it-cgr-l1-4",
+        "text": "A domani!",
+        "en": "See you tomorrow!",
+        "accept": [
+         "see you tomorrow"
+        ],
+        "emoji": "🌙"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-professional",
+    "title": "Formal Italian",
+    "tagline": "The language of letters, emails and official occasions.",
+    "lessons": [
+     {
+      "id": "it-prof-l1",
+      "title": "Writing formally",
+      "words": [
+       {
+        "id": "it-prof-l1-0",
+        "text": "Gentili Signori",
+        "en": "Dear Sir or Madam",
+        "accept": [
+         "dear sir",
+         "dear madam",
+         "dear sirs"
+        ],
+        "emoji": "✉️"
+       },
+       {
+        "id": "it-prof-l1-1",
+        "text": "Distinti saluti",
+        "en": "Yours faithfully",
+        "accept": [
+         "yours sincerely"
+        ],
+        "emoji": "🖋️",
+        "note": "The classic way to end a formal letter."
+       },
+       {
+        "id": "it-prof-l1-2",
+        "text": "La ringrazio per l'aiuto",
+        "en": "Thank you for your help (formal)",
+        "accept": [
+         "i appreciate your help",
+         "thank you for your help"
+        ],
+        "emoji": "🙏"
+       },
+       {
+        "id": "it-prof-l1-3",
+        "text": "Resto a Sua disposizione",
+        "en": "I remain at your disposal",
+        "accept": [
+         "i am at your service"
+        ],
+        "emoji": "🤝",
+        "note": "In formal letters Sua is traditionally written with a capital S."
+       },
+       {
+        "id": "it-prof-l1-4",
+        "text": "Cordiali saluti",
+        "en": "Kind regards",
+        "accept": [
+         "best regards",
+         "warm regards"
+        ],
+        "emoji": "📧"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-literary",
+    "title": "Songs & Poetry",
+    "tagline": "The poetic words behind Italian songs, films and poems.",
+    "lessons": [
+     {
+      "id": "it-lit-l1",
+      "title": "Words from songs and poems",
+      "words": [
+       {
+        "id": "it-lit-l1-0",
+        "text": "l'anima",
+        "en": "Soul",
+        "accept": [
+         "the soul"
+        ],
+        "emoji": "🕊️",
+        "note": "Anima mia ('my soul') is a loving way to say 'my dear'."
+       },
+       {
+        "id": "it-lit-l1-1",
+        "text": "la luna",
+        "en": "Moon",
+        "accept": [
+         "the moon"
+        ],
+        "emoji": "🌙"
+       },
+       {
+        "id": "it-lit-l1-2",
+        "text": "sognare",
+        "en": "To dream",
+        "accept": [
+         "dream"
+        ],
+        "emoji": "💭",
+        "note": "As in the famous song Volare: 'nel blu dipinto di blu'."
+       },
+       {
+        "id": "it-lit-l1-3",
+        "text": "il mare",
+        "en": "Sea",
+        "accept": [
+         "the sea"
+        ],
+        "emoji": "🌊"
+       },
+       {
+        "id": "it-lit-l1-4",
+        "text": "per sempre",
+        "en": "Forever",
+        "accept": [
+         "for ever",
+         "for good"
+        ],
+        "emoji": "♾️"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

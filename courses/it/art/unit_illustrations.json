@@ -1,0 +1,273 @@
+{
+ "mascot": {
+  "file": "courses/it/art/mascot.png",
+  "note": "Lupo, chosen by Paul (6 Nov 2026); guides every other picture."
+ },
+ "aspect_ratio": "3:2 landscape",
+ "units": [
+  {
+   "unit_index": -1,
+   "unit_id": "it-mascot",
+   "title": "Lupo (mascot)",
+   "scene": "standing on his four legs, seen from a three-quarter side view, full body clearly visible, head turned towards the viewer with a big warm smile, on a plain warm ivory background"
+  },
+  {
+   "unit_index": 0,
+   "unit_id": "it-basics1",
+   "title": "Greetings",
+   "scene": "standing on his four legs in a sunny Italian village lane with warm ochre and terracotta walls, green shutters and pots of red geraniums, head tilted towards the viewer with a big friendly smile, as if saying hello"
+  },
+  {
+   "unit_index": 1,
+   "unit_id": "it-numbers1",
+   "title": "Numbers 1–10",
+   "scene": "standing on his four legs on the grass beside five ripe lemons lined up in a neat row on the ground in front of him, looking at them happily, a lemon tree behind"
+  },
+  {
+   "unit_index": 2,
+   "unit_id": "it-numbers2",
+   "title": "Bigger Numbers",
+   "scene": "standing on his four legs next to a tall neat tower of colourful wooden blocks, looking up at it with wonder"
+  },
+  {
+   "unit_index": 3,
+   "unit_id": "it-family",
+   "title": "Family",
+   "scene": "standing on his four legs, side by side with his mother wolf, his father wolf and his tiny baby sister wolf cub in a sunny meadow with olive trees, all four wolves standing on four legs each, like real wolves"
+  },
+  {
+   "unit_index": 4,
+   "unit_id": "it-colors",
+   "title": "Colours & Shapes",
+   "scene": "standing on his four legs among a playful scatter of colourful painted ceramic tiles in red, blue, yellow and green, each a simple shape like a circle, square, triangle and star, beside a pot of basil"
+  },
+  {
+   "unit_index": 5,
+   "unit_id": "it-food",
+   "title": "Food & Drink",
+   "scene": "standing on his four legs beside a low picnic blanket on the grass with a round margherita pizza, a bowl of pasta, a few red tomatoes and a glass of orange juice, tilting his head hungrily at the food"
+  },
+  {
+   "unit_index": 6,
+   "unit_id": "it-phrases",
+   "title": "Everyday Phrases",
+   "scene": "standing on his four legs beside a wooden fence post in a country lane with a friendly little sparrow perched on it on its two legs, both looking at each other and smiling"
+  },
+  {
+   "unit_index": 7,
+   "unit_id": "it-time",
+   "title": "Time & Days",
+   "scene": "standing on his four legs beside a tall stone bell tower in an Italian town square, looking up at the round clock face, which has simple tick marks and no numbers"
+  },
+  {
+   "unit_index": 8,
+   "unit_id": "it-places",
+   "title": "Places & Directions",
+   "scene": "standing on his four legs beside a wooden signpost with blank arrows pointing in different directions, a hill town with terracotta roofs and cypress trees in the distance"
+  },
+  {
+   "unit_index": 9,
+   "unit_id": "it-shopping",
+   "title": "Shopping & Money",
+   "scene": "standing on his four legs beside a colourful Italian market stall with lemons, tomatoes, oranges and bunches of flowers under a striped awning, a small woven basket of fruit on the ground beside his paws"
+  },
+  {
+   "unit_index": 10,
+   "unit_id": "it-travel",
+   "title": "Travel & Transport",
+   "scene": "standing on his four legs on the platform of a small village railway station beside a little green train, looking down the track, rolling Tuscan hills behind"
+  },
+  {
+   "unit_index": 11,
+   "unit_id": "it-weather",
+   "title": "Weather & Seasons",
+   "scene": "standing on his four legs in a puddle on a village lane, splashing happily, a small red umbrella open on the ground beside him, sunshine and a rainbow breaking through the clouds"
+  },
+  {
+   "unit_index": 12,
+   "unit_id": "it-feelings",
+   "title": "Feelings & Health",
+   "scene": "lying curled up on a soft round cushion with a calm gentle smile, all four legs visible, a warm knitted blanket and a cup of hot cocoa on a little table beside him"
+  },
+  {
+   "unit_index": 13,
+   "unit_id": "it-sentences",
+   "title": "Putting It Together",
+   "scene": "standing on his four legs on the grass beside a big open picture storybook, surrounded by little empty floating speech bubbles"
+  },
+  {
+   "unit_index": 14,
+   "unit_id": "it-gender",
+   "title": "Il & La",
+   "scene": "standing on his four legs between a cute puppy and a cute kitten, each standing on four legs, all three smiling at each other on a sunny cobbled street"
+  },
+  {
+   "unit_index": 15,
+   "unit_id": "it-routine",
+   "title": "Daily Routine",
+   "scene": "sitting on a cosy blanket by a sunny window in the morning, mouth open in a big sleepy yawn, all four legs visible, a plain round alarm clock with no numbers on the floor nearby"
+  },
+  {
+   "unit_index": 16,
+   "unit_id": "it-essereavere",
+   "title": "Essere & Avere",
+   "scene": "standing on his four legs looking at his own reflection in a big round mirror leaning against a stone wall, smiling, a little heart floating above"
+  },
+  {
+   "unit_index": 17,
+   "unit_id": "it-compare",
+   "title": "Comparisons",
+   "scene": "standing on his four legs next to a much bigger friendly sheepdog and a much smaller baby rabbit, each on four legs, comparing heights with a curious smile"
+  },
+  {
+   "unit_index": 18,
+   "unit_id": "it-restaurant",
+   "title": "At the Restaurant",
+   "scene": "standing on his four legs beside a little round table on a sunny trattoria terrace with a red checked tablecloth, a plate of spaghetti, a jug of lemonade and a bowl of strawberries, looking at the food hungrily"
+  },
+  {
+   "unit_index": 19,
+   "unit_id": "it-plans",
+   "title": "Making Plans",
+   "scene": "standing on his four legs looking up excitedly at a big wall calendar with a plain grid and one square circled in red, no numbers or letters"
+  },
+  {
+   "unit_index": 20,
+   "unit_id": "it-connectors",
+   "title": "Connectors",
+   "scene": "seen from the side in profile, walking on his four legs past two big jigsaw puzzle pieces that fit together on the ground ahead of him, looking at them"
+  },
+  {
+   "unit_index": 21,
+   "unit_id": "it-directions2",
+   "title": "Giving Directions",
+   "scene": "standing on his four legs beside a big paper map spread flat on the ground with only drawn pictures and a winding path, looking down at it, a tiny leaning tower drawn on the map"
+  },
+  {
+   "unit_index": 22,
+   "unit_id": "it-people-desc",
+   "title": "Describing People",
+   "scene": "standing on his four legs in a little art gallery, admiring a framed painting of a family of different-sized wolves hanging on the wall"
+  },
+  {
+   "unit_index": 23,
+   "unit_id": "it-work",
+   "title": "Work & Occupations",
+   "scene": "standing on his four legs beside a low table in a warm pizzeria kitchen with a fresh pizza on a wooden peel and a tall white chef's hat resting on the table, a brick pizza oven glowing behind"
+  },
+  {
+   "unit_index": 24,
+   "unit_id": "it-dialogues",
+   "title": "Short Conversations",
+   "scene": "standing on his four legs facing a friendly little fox, also on four legs, both smiling beside a small café table with two cups of hot chocolate and a plate of biscuits"
+  },
+  {
+   "unit_index": 25,
+   "unit_id": "it-emergency",
+   "title": "Health & Emergencies",
+   "scene": "standing on his four legs next to a small green first-aid box on the ground with a plain bandage roll beside it, looking calm and helpful"
+  },
+  {
+   "unit_index": 26,
+   "unit_id": "it-opinions",
+   "title": "Opinions & Agreement",
+   "scene": "seen from the side in profile, standing on his four legs, head tipped up towards a glowing lightbulb floating above him, in a quiet sunny piazza"
+  },
+  {
+   "unit_index": 27,
+   "unit_id": "it-past",
+   "title": "Talking About the Past",
+   "scene": "lying on his tummy on the grass with all four legs visible, beside an open photo album full of seaside holiday pictures, smiling fondly"
+  },
+  {
+   "unit_index": 28,
+   "unit_id": "it-storytelling",
+   "title": "Telling a Story",
+   "scene": "standing on his four legs on the grass under an old olive tree beside a big open picture storybook lying on the ground, a little rabbit and a hedgehog sitting on the grass nearby listening, each with four legs"
+  },
+  {
+   "unit_index": 29,
+   "unit_id": "it-register",
+   "title": "Tu & Lei",
+   "scene": "standing on his four legs, lowering his head politely towards a dignified old grandmother wolf with round spectacles, who also stands on four legs, in a sunny piazza"
+  },
+  {
+   "unit_index": 30,
+   "unit_id": "it-phone",
+   "title": "Phone Conversations",
+   "scene": "standing on his four legs on the floor a little way from a small table with a retro rotary telephone on it, looking at the phone with a happy surprised face"
+  },
+  {
+   "unit_index": 31,
+   "unit_id": "it-idioms",
+   "title": "Idioms & Expressions",
+   "scene": "lying on a soft fluffy cloud floating in a blue sky, all four legs tucked under him, eyes half closed, daydreaming"
+  },
+  {
+   "unit_index": 32,
+   "unit_id": "it-business",
+   "title": "Business Italian",
+   "scene": "standing on his four legs beside an easel with a simple rising bar chart made only of coloured bars, no numbers or letters, in a bright airy room"
+  },
+  {
+   "unit_index": 33,
+   "unit_id": "it-news",
+   "title": "News & Society",
+   "scene": "standing on his four legs beside a big newspaper spread out flat on the floor showing only pictures, looking down at it with interest"
+  },
+  {
+   "unit_index": 34,
+   "unit_id": "it-future",
+   "title": "Future & 'Would'",
+   "scene": "seen from the side in profile, sitting on a green hill next to a brass telescope on a tripod, gazing up at a starry evening sky"
+  },
+  {
+   "unit_index": 35,
+   "unit_id": "it-proverbs",
+   "title": "Proverbs & Sayings",
+   "scene": "sitting on the grass under an old gnarled olive tree, looking up at a wise old owl perched on a low branch on its two legs"
+  },
+  {
+   "unit_index": 36,
+   "unit_id": "it-debate",
+   "title": "Discussion & Debate",
+   "scene": "standing on his four legs between two simple balance-scale pans on the ground, one with an apple and one with a pear, looking from one to the other"
+  },
+  {
+   "unit_index": 37,
+   "unit_id": "it-slang",
+   "title": "Slang & Casual Speech",
+   "scene": "standing on his four legs with a big cheeky grin beside a red scooter parked on a sunny Rome street, an old stone arch small in the distance"
+  },
+  {
+   "unit_index": 38,
+   "unit_id": "it-reactions",
+   "title": "Humour & Reactions",
+   "scene": "standing on his four legs, laughing with his eyes squeezed shut and tears of joy, surrounded by little musical notes and sparkles"
+  },
+  {
+   "unit_index": 39,
+   "unit_id": "it-reading",
+   "title": "Reading a Short Paragraph",
+   "scene": "standing on his four legs in a sunny courtyard with a small stone fountain and pots of lemon trees, an open picture book on the ground in front of him"
+  },
+  {
+   "unit_index": 40,
+   "unit_id": "it-casual-greet",
+   "title": "Casual Greetings",
+   "scene": "seen from the side in profile, standing on his four legs nose to nose with a friendly young wolf cub friend who is also seen in profile on four legs, in a village street"
+  },
+  {
+   "unit_index": 41,
+   "unit_id": "it-professional",
+   "title": "Formal Italian",
+   "scene": "standing on his four legs beside a low wooden desk with a sealed envelope and a feather quill pen on it, his head bowed politely"
+  },
+  {
+   "unit_index": 42,
+   "unit_id": "it-literary",
+   "title": "Songs & Poetry",
+   "scene": "sitting on the sand beside a mandolin lying on the ground under a crescent moon, a seaside promenade at night with the calm sea behind"
+  }
+ ]
+}
