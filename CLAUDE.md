@@ -58,7 +58,8 @@ Not started. Only pick these up when Paul asks.
 - **Nong Chang's own voice:** `C98kHdjEdJfyY7tmFiT5` ("Nong Chang (baby elephant)", designed 6 Nov 2026, Paul picked it). Use it for the mascot speaking: Reels, greetings, "Talk to Nong Chang". Lesson words keep the native course voices.
 - **Coco's voice (French mascot):** `cnC556Nwu8ld2zYCI7Tj` (designed). **Torito's voice (Spanish mascot):** `CPv3Zr3CQCqE4ZzuCgBP` (library voice "Lulu"; voice design kept blocking "cute, high" requests). French stories star Coco, Spanish stories star Torito, never Nong Chang.
 - **Italian (live 6 Nov 2026):** lesson voice Alina `wOXFTxgu7FQDBb1dsL7I`; mascot **Lupo** the grey wolf cub (four legs, green-white-red neckerchief), `courses/it/art/mascot.png`. Italian stories (if made) star Lupo. Lesson pictures were made with ElevenLabs `gemini-3.1-flash-lite-image` and the Lupo reference (about 310 credits each); Whisper check uses `verify2.py` (knows `it-`).
-- Reels are on the `originals` branch in `social/reels/` (the Thai one uses Nong Chang, French uses Coco, Spanish uses Torito).
+- **Lupo's voice (Italian mascot):** `Z9LM7NBnQ8aOZKIXkd5S` (library voice "Carlotta - Fairy Princess", Paul picked it 6 Nov; designed voices didn't sound Italian).
+- Reels are on the `originals` branch in `social/reels/` (the Thai one uses Nong Chang, French uses Coco, Spanish uses Torito, Italian uses Lupo).
 - Record one word or sentence per generation (no batch splitting); see `tools/audio/README.md`.
 
 ## Email (set up 2 Nov 2026)
