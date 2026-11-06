@@ -88,7 +88,8 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **Then one a week, released on Fridays so the app visibly improves each week (scheduled tasks build it that day; Paul still says "publish"):** 14 Nov evening: 2 Play together (pass-the-phone quiz) + Memory match game · 21 Nov afternoon: 4 Kids teach the grown-ups + Loy Krathong special (festival Tue 24 Nov; story, words, social post) · 28 Nov evening: 6 Look after Nong Chang (feed/outfits), **kids' mode only** · 5 Dec afternoon: 7 Install as an app + daily reminder · 12 Dec evening: 9 Printables (flashcards, fridge words, colouring sheets) + Christmas stories for France, Spain and Italy (texts, pictures and recordings already made 6 Nov: `tools/content/christmas-stories.json`; only the app entries are left). Songkran special: reminder 15 Mar 2027. Build each one only on its Friday, so a publish never ships next week's feature early.
 - **Back burner, reminder 5 Jan 2027:** 8 Holiday packs · 11 Invite a family · 12 Schools and clubs.
 - **No:** grandparent link; "Talk to Nong Chang" (dropped 6 Nov: too costly to run, and Paul may lower his ElevenLabs tier after November).
-- **Italian stories** (it-hello, it-hungry, it-colours with Lupo, read by Alina): built 6 Nov, in the preview until Paul says "publish".
+- **Italian stories** (it-hello, it-hungry, it-colours with Lupo, read by Alina): live 6 Nov.
+- **Travel video** (all four mascots meet; Kling 3 Pro, about 43,000 ElevenLabs credits): `social/reels/reel-travel-friends.mp4` on the `originals` branch; Paul uploads it himself (6 Nov).
 - Mark items done here as they ship.
 
 ## Repo size (5 Nov 2026)
