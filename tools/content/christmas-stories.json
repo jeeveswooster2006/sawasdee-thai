@@ -1,0 +1,23 @@
+{
+ "note": "Christmas stories for 12 Dec 2026 (roadmap item 9). Recordings and pictures were made in November; on 12 Dec, add these three entries to STORIES in sawasdee-family src/data/stories.ts. Art keys point at courses/<lang>/art/units/<lang>-christmas.webp.",
+ "stories": [
+  {"id":"fr-christmas","course":"fr","title":"Coco's Christmas","titleNative":"Le Noël de Coco","art":"fr-christmas","pages":[
+   {"tokens":[{"t":"C'est Noël !","clip":"fr-story-w-cestnoel"}],"roman":"seh no-EL","en":"It's Christmas!","read":"C'est Noël !"},
+   {"tokens":[{"t":"Le sapin","clip":"fr-story-w-lesapin"},{"t":"vert","id":"fr-col-l1-2"}],"roman":"luh sah-PAN VAIR","en":"The green Christmas tree.","read":"Le sapin vert."},
+   {"tokens":[{"t":"L'étoile","id":"fr-col-l2-3"},{"t":"jaune","id":"fr-col-l1-3"}],"roman":"lay-TWAHL ZHOHN","en":"The yellow star.","read":"L'étoile jaune."},
+   {"tokens":[{"t":"Un cadeau pour toi !","clip":"fr-story-w-uncadeaupourtoi"}],"roman":"uhn kah-DOH poor TWAH","en":"A present for you!","read":"Un cadeau pour toi !"},
+   {"tokens":[{"t":"Joyeux Noël !","clip":"fr-story-w-joyeuxnoel"}],"roman":"zhwah-YUH no-EL","en":"Merry Christmas!","read":"Joyeux Noël !"}]},
+  {"id":"es-christmas","course":"es","title":"Torito's Christmas","titleNative":"La Navidad de Torito","art":"es-christmas","pages":[
+   {"tokens":[{"t":"¡Es Navidad!","clip":"es-story-w-esnavidad"}],"roman":"es nah-vee-DAHD","en":"It's Christmas!","read":"¡Es Navidad!"},
+   {"tokens":[{"t":"El árbol","clip":"es-story-w-elarbol"},{"t":"verde","id":"es-col-l1-2"}],"roman":"el AR-bol VER-deh","en":"The green Christmas tree.","read":"El árbol verde."},
+   {"tokens":[{"t":"La estrella","id":"es-col-l2-3"},{"t":"amarilla","clip":"es-story-w-amarilla"}],"roman":"lah es-TREH-yah ah-mah-REE-yah","en":"The yellow star.","read":"La estrella amarilla."},
+   {"tokens":[{"t":"¡Un regalo para ti!","clip":"es-story-w-unregaloparati"}],"roman":"oon reh-GAH-loh PAH-rah tee","en":"A present for you!","read":"¡Un regalo para ti!"},
+   {"tokens":[{"t":"¡Feliz Navidad!","clip":"es-story-w-feliznavidad"}],"roman":"feh-LEES nah-vee-DAHD","en":"Merry Christmas!","read":"¡Feliz Navidad!"}]},
+  {"id":"it-christmas","course":"it","title":"Lupo's Christmas","titleNative":"Il Natale di Lupo","art":"it-christmas","pages":[
+   {"tokens":[{"t":"È Natale!","clip":"it-story-w-enatale"}],"roman":"eh nah-TAH-leh","en":"It's Christmas!","read":"È Natale!"},
+   {"tokens":[{"t":"L'albero","clip":"it-story-w-lalbero"},{"t":"verde","id":"it-col-l1-2"}],"roman":"LAHL-beh-roh VEHR-deh","en":"The green Christmas tree.","read":"L'albero verde."},
+   {"tokens":[{"t":"La stella","id":"it-col-l2-3"},{"t":"gialla","clip":"it-story-w-gialla"}],"roman":"lah STEHL-lah JAHL-lah","en":"The yellow star.","read":"La stella gialla."},
+   {"tokens":[{"t":"Un regalo per te!","clip":"it-story-w-unregalo-perte"}],"roman":"oon reh-GAH-loh pehr TEH","en":"A present for you!","read":"Un regalo per te!"},
+   {"tokens":[{"t":"Buon Natale!","clip":"it-story-w-buonnatale"}],"roman":"bwon nah-TAH-leh","en":"Merry Christmas!","read":"Buon Natale!"}]}
+ ]
+}
