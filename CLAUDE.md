@@ -1,7 +1,7 @@
 # Rules for this project (Nong Chang & Family)
 
 ## Mix the languages (Paul, 5 Nov 2026)
-- The app started Thai-only, but French and Spanish likely bring more interest. Give French and Spanish an equal share in marketing (social posts, emails, Reddit), and in new features and content (stories, festival specials, games). Don't default to Thai-only.
+- The app started Thai-only, but French and Spanish likely bring more interest. Give French, Spanish and (since 6 Nov) Italian an equal share in marketing (social posts, emails, Reddit), and in new features and content (stories, festival specials, games). Don't default to Thai-only.
 
 ## Pictures and videos
 - **Every animal must have the correct number of limbs for its species.** Elephants, bulls and other four-legged animals have exactly four legs and no hands or arms; birds have two legs and two wings; people have two arms and two legs. No extra, missing, merged or duplicated limbs.
@@ -57,6 +57,7 @@ Not started. Only pick these up when Paul asks.
 - Paul upgraded to the **Creator** plan (5 Nov 2026): about 121,000 credits a month. Voices: Thai `brM9iIbwDREZaWL8luun` (Anna), Spanish `GB7fZx4ubHWxbBE05abF` (Marina), French `ICk609TItINMseDpChFt` (Léa). A word costs about 5 credits and a sentence about 10–20.
 - **Nong Chang's own voice:** `C98kHdjEdJfyY7tmFiT5` ("Nong Chang (baby elephant)", designed 6 Nov 2026, Paul picked it). Use it for the mascot speaking: Reels, greetings, "Talk to Nong Chang". Lesson words keep the native course voices.
 - **Coco's voice (French mascot):** `cnC556Nwu8ld2zYCI7Tj` (designed). **Torito's voice (Spanish mascot):** `CPv3Zr3CQCqE4ZzuCgBP` (library voice "Lulu"; voice design kept blocking "cute, high" requests). French stories star Coco, Spanish stories star Torito, never Nong Chang.
+- **Italian (live 6 Nov 2026):** lesson voice Alina `wOXFTxgu7FQDBb1dsL7I`; mascot **Lupo** the grey wolf cub (four legs, green-white-red neckerchief), `courses/it/art/mascot.png`. Italian stories (if made) star Lupo. Lesson pictures were made with ElevenLabs `gemini-3.1-flash-lite-image` and the Lupo reference (about 310 credits each); Whisper check uses `verify2.py` (knows `it-`).
 - Reels are on the `originals` branch in `social/reels/` (the Thai one uses Nong Chang, French uses Coco, Spanish uses Torito).
 - Record one word or sentence per generation (no batch splitting); see `tools/audio/README.md`.
 
