@@ -68,6 +68,7 @@ Not started. Only pick these up when Paul asks.
 - App opt-in: "News emails" tick box at sign-up and switch in Me & settings (`news_emails` in user metadata). Before each send, copy only opted-in accounts to Resend; Resend handles unsubscribes.
 - Sent so far: 2 Nov "sorry you couldn't get in" (one-off account help, 7 unconfirmed sign-ups) and "While you were away" broadcast to 26 existing users (segment "App users (Nov 2026)"). Future news emails go to opted-in users only.
 - 7 Nov: asked the GoGo España Spanish Facebook group (info@gogoespana.com) for permission to post about the app; replies go to info@. If they agree, write a Spanish-focused post with Torito.
+- 7 Nov: one-off welcome (service) email to a new Spanish sign-up. UK rule (PECR/ICO): "what's new" emails are marketing, so they go only to opted-in accounts; service emails (account help, one-off welcome, security, terms changes) are fine. Use the in-app news and social posts for everyone else.
 - Paul approves every email ("send") before it goes out; send a test to info@ first. Hotmail/Outlook currently files our mail in Junk (new sender); Gmail delivers to Important. Keep subjects plain, no emoji.
 
 ## Facebook page (set up 4 Nov 2026)
