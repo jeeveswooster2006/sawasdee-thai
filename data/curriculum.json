@@ -2005,18 +2005,23 @@
               },
               {
                 "id": "sen-l1-4",
-                "thai": "ผมมาจากอังกฤษ",
-                "roman": "phǒm maa jàak ang-krìt",
-                "en": "I come from England",
+                "thai": "ผมรักแม่",
+                "roman": "phǒm rák mâe",
+                "en": "I love my mom",
                 "tone": "",
                 "tones": [
                   "rising",
-                  "mid",
-                  "low",
-                  "mid",
-                  "low"
+                  "high",
+                  "falling"
                 ],
-                "emoji": "🇬🇧"
+                "emoji": "🤗",
+                "accept": [
+                  "i love my mom",
+                  "i love my mum",
+                  "i love mum",
+                  "i love mom",
+                  "i love my mother"
+                ]
               },
               {
                 "id": "sen-l1-5",
@@ -2068,18 +2073,23 @@
               },
               {
                 "id": "sen-l2-2",
-                "thai": "วันนี้อากาศร้อน",
-                "roman": "wan-níi aa-kàat rɔ́ɔn",
-                "en": "Today the weather is hot",
+                "thai": "วันนี้ร้อน",
+                "roman": "wan-níi rɔ́ɔn",
+                "en": "It's hot today",
                 "tone": "",
                 "tones": [
                   "mid",
                   "high",
-                  "mid",
-                  "low",
                   "high"
                 ],
-                "emoji": "🥵"
+                "emoji": "☀️",
+                "accept": [
+                  "it's hot today",
+                  "it is hot today",
+                  "today it's hot",
+                  "today is hot",
+                  "hot today"
+                ]
               },
               {
                 "id": "sen-l2-3",
@@ -2615,6 +2625,21 @@
                   "mid"
                 ],
                 "emoji": "🍜"
+              },
+              {
+                "id": "tns-l1-4",
+                "thai": "วันนี้อากาศร้อน",
+                "roman": "wan-níi aa-kàat rɔ́ɔn",
+                "en": "Today the weather is hot",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high",
+                  "mid",
+                  "low",
+                  "high"
+                ],
+                "emoji": "🥵"
               }
             ]
           },
@@ -3664,6 +3689,21 @@
                   "high"
                 ],
                 "emoji": "🙋"
+              },
+              {
+                "id": "dlg-l2-4",
+                "thai": "ผมมาจากอังกฤษ",
+                "roman": "phǒm maa jàak ang-krìt",
+                "en": "I come from England",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid",
+                  "low",
+                  "mid",
+                  "low"
+                ],
+                "emoji": "🇬🇧"
               }
             ]
           }
