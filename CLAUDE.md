@@ -99,7 +99,7 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **Classroom video** (owl teacher; each mascot says "I'm ..., nice to be your friend" in their own language; Kling 3 Pro, about 28,000 ElevenLabs credits): `social/reels/reel-classroom-friends.mp4` on the `originals` branch; owl voice `BBfN7Spa3cqLPH1xAS22`. Paul uploads it himself (6 Nov).
 - Mark items done here as they ship.
 
-## English course (started 8 Nov 2026, hidden until Paul says "publish")
+## English course (live 8 Nov 2026, content 178723172f26637d7b3e5e254e55e9845e4733f3)
 - Mascot **Leo** the lion cub (St George neckerchief), voice Alice (British). Content lives on the `english` branch; courses.json `base` points at its commit.
 - Leo unit pictures: all 46 units done 8 Nov (ElevenLabs gemini-3.1-flash-lite-image with the Leo reference, ~309 credits each, ~14,200 in total, limb-checked; scenes in `courses/en/art/unit_illustrations.json`). Paul chose these over Perchance (no reference picture, no API). ElevenLabs credits are nearly used up until the monthly reset.
 - Preview and live share one database: switching a learner to English in the preview makes the live app show "We couldn't load your lessons" for that learner until English is published (happened to Paul's "Dad" on 8 Nov). Test English on a spare learner.
