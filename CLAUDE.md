@@ -99,6 +99,10 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **Classroom video** (owl teacher; each mascot says "I'm ..., nice to be your friend" in their own language; Kling 3 Pro, about 28,000 ElevenLabs credits): `social/reels/reel-classroom-friends.mp4` on the `originals` branch; owl voice `BBfN7Spa3cqLPH1xAS22`. Paul uploads it himself (6 Nov).
 - Mark items done here as they ship.
 
+## English course (started 8 Nov 2026, hidden until Paul says "publish")
+- Mascot **Leo** the lion cub (St George neckerchief), voice Alice (British). Content lives on the `english` branch; courses.json `base` points at its commit.
+- Leo unit pictures: first 8 units done 8 Nov (ElevenLabs gemini-3.1-flash-lite-image with the Leo reference, ~309 credits each, limb-checked). Paul chose these over Perchance (no reference picture, no API). Other units show the plain header; do more when credits allow (`courses/en/art/unit_illustrations.json`).
+
 ## Repo size (5 Nov 2026)
 - jsDelivr serves content only reliably while the repo is under 50 MB per commit. Over that, files randomly return 403 until purged, so pictures and sounds go missing.
 - Full-size source pictures (`courses/*/art/originals/`) and social video clips (`social/clips/`) were moved off `main` to the **`originals`** branch. Keep big source files there, not on main.
