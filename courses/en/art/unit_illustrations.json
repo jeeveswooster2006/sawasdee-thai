@@ -36,7 +36,159 @@
   {
    "unit_id": "en-time",
    "scene": "standing on his four legs in a London street in front of a tall clock tower like Big Ben, looking up at the big clock face with curiosity"
+  },
+  {
+   "unit_id": "en-places",
+   "scene": "standing on his four legs on a hill path above a little English town with houses, a school, a park and the seaside in the distance, beside a wooden signpost with blank arrows pointing left and right"
+  },
+  {
+   "unit_id": "en-shopping",
+   "scene": "standing on his four legs in a bright little clothes shop, looking at a colourful striped scarf on a low rail, a small purse of coins on a low counter beside him"
+  },
+  {
+   "unit_id": "en-travel",
+   "scene": "standing on his four legs on a station platform with a small suitcase beside him, a red double-decker bus on the road behind, a green train at the platform and a plane in the sky"
+  },
+  {
+   "unit_id": "en-weather",
+   "scene": "standing on his four legs on a hilltop where the landscape changes through the four seasons from left to right: spring blossom, summer sunshine, autumn leaves and winter snow"
+  },
+  {
+   "unit_id": "en-feelings",
+   "scene": "sitting on a soft rug among five round cushions, each cushion drawn with a different simple face: happy, sad, sleepy, cross and surprised"
+  },
+  {
+   "unit_id": "en-sentences",
+   "scene": "standing on his four legs on the doorstep of a little red-brick English house with a blue front door, smiling as if introducing himself, a bar of chocolate on the step"
+  },
+  {
+   "unit_id": "en-fun1",
+   "scene": "standing on his four legs beside a big slice of layered cake on a plate on the grass, laughing, with a smiling crescent moon and twinkling stars in the evening sky above"
+  },
+  {
+   "unit_id": "en-articles",
+   "scene": "standing on his four legs in a cosy living room with a friendly dog and a cat, a low table with a book, a banana and an orange on it, and a window behind"
+  },
+  {
+   "unit_id": "en-routine",
+   "scene": "standing on his four legs in a bright bathroom beside a bath full of bubbles, a cup with a toothbrush on the low shelf, morning sun through the window"
+  },
+  {
+   "unit_id": "en-bhave",
+   "scene": "standing proudly on his four legs in a sunny garden next to his playful puppy friend"
+  },
+  {
+   "unit_id": "en-compare",
+   "scene": "standing on his four legs on the savanna between a very big friendly elephant and a tiny mouse, looking from one to the other"
+  },
+  {
+   "unit_id": "en-restaurant",
+   "scene": "sitting on the floor of a cosy English café next to a low table with a stack of pancakes with syrup and a glass of orange juice"
+  },
+  {
+   "unit_id": "en-plans",
+   "scene": "standing on his four legs at a garden gate with a small backpack on his back, looking excited for a day out, a sunny path leading off into the countryside"
+  },
+  {
+   "unit_id": "en-fun2",
+   "scene": "standing on his four legs under a big striped umbrella stuck in the grass while cartoon rain pours down, a big blue moon in the sky, a teacup on a stone beside him with a tiny storm cloud above it"
+  },
+  {
+   "unit_id": "en-connectors",
+   "scene": "standing on his four legs on a little wooden bridge that joins two green hills over a sparkling stream"
+  },
+  {
+   "unit_id": "en-directions2",
+   "scene": "standing on his four legs at a crossroads in an English town beside a zebra crossing, a signpost with blank arrows and a big folded map on the pavement"
+  },
+  {
+   "unit_id": "en-people-desc",
+   "scene": "standing on his four legs in a park between a very tall giraffe and a short round penguin, all three smiling"
+  },
+  {
+   "unit_id": "en-work",
+   "scene": "standing on his four legs in a kitchen wearing a tall white chef's hat, with a firefighter's helmet, a nurse's cap and a farmer's straw hat on a low shelf behind him"
+  },
+  {
+   "unit_id": "en-dialogues",
+   "scene": "standing on his four legs at the low counter of a cosy café with a cup of white coffee with a heart in the foam, a friendly owl behind the counter"
+  },
+  {
+   "unit_id": "en-emergency",
+   "scene": "standing on his four legs next to a British ambulance with a green and yellow chequered pattern, a small first-aid kit on the ground beside him, looking brave"
+  },
+  {
+   "unit_id": "en-fun3",
+   "scene": "standing on his four legs in a sunny farmyard next to a basket of eggs, watching fluffy yellow chicks hatching, a mother hen nearby"
+  },
+  {
+   "unit_id": "en-opinions",
+   "scene": "standing on his four legs in a meadow, looking up at two little birds sitting on a wooden fence chatting together"
+  },
+  {
+   "unit_id": "en-past",
+   "scene": "sitting on the sand of an English beach next to a sandcastle, a bucket and spade and an ice cream cone, in warm late-afternoon light, smiling happily"
+  },
+  {
+   "unit_id": "en-storytelling",
+   "scene": "lying on a rug in front of a glowing fireplace beside a big open storybook showing a picture of a castle, on a cosy evening"
+  },
+  {
+   "unit_id": "en-polite",
+   "scene": "standing on his four legs in an elegant tea room beside a low table with a glass of water and a china teacup, bowing his head politely"
+  },
+  {
+   "unit_id": "en-phone",
+   "scene": "standing on his four legs beside a classic red British telephone box in a village street"
+  },
+  {
+   "unit_id": "en-idioms",
+   "scene": "standing on his four legs on a hilltop with his head among soft fluffy clouds, a little rowing boat on a calm lake far below"
+  },
+  {
+   "unit_id": "en-business",
+   "scene": "standing on his four legs beside a low tidy office desk with a laptop, papers and a coffee cup, in a bright office with a view of the London skyline"
+  },
+  {
+   "unit_id": "en-news",
+   "scene": "standing on his four legs next to an old-fashioned newspaper stand with folded newspapers, a green park and wind turbines on the hills behind"
+  },
+  {
+   "unit_id": "en-future",
+   "scene": "standing on his four legs at the end of a wooden pier, looking out to sea at a small sailing boat on the horizon at sunrise, dreaming"
+  },
+  {
+   "unit_id": "en-proverbs",
+   "scene": "standing on his four legs in a dewy garden at dawn, watching a robin pulling a worm from the grass"
+  },
+  {
+   "unit_id": "en-debate",
+   "scene": "standing on his four legs next to a big old-fashioned balance scale with a red apple on one side and a green pear on the other, looking thoughtful"
+  },
+  {
+   "unit_id": "en-slang",
+   "scene": "standing on his four legs on a skateboard in a sunny skate park, wearing small cool sunglasses and grinning"
+  },
+  {
+   "unit_id": "en-reactions",
+   "scene": "standing on his four legs with a huge surprised and delighted face as a jack-in-the-box pops up in front of him"
+  },
+  {
+   "unit_id": "en-reading",
+   "scene": "lying on a big cushion in a cosy library corner looking at an open picture book, a lamp and shelves of books around him"
+  },
+  {
+   "unit_id": "en-casual-greet",
+   "scene": "standing on his four legs on a sunny street corner, meeting his friend, a young fox cub, both smiling"
+  },
+  {
+   "unit_id": "en-professional",
+   "scene": "standing on his four legs beside a low wooden desk with an envelope sealed with red wax, a fountain pen and neat paper, in a calm study"
+  },
+  {
+   "unit_id": "en-phrasal",
+   "scene": "standing on his four legs on his bed at sunrise, stretching as he gets up, a blanket pushed back and a lamp switched off beside the bed"
   }
  ],
- "todo": "Units after en-time have no picture yet (the app shows the plain header)."
+ "note": "All 46 units done 8 Nov 2026; every picture limb-checked. en-business had a laptop logo painted out."
 }
