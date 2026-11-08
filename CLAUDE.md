@@ -101,7 +101,8 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 
 ## English course (started 8 Nov 2026, hidden until Paul says "publish")
 - Mascot **Leo** the lion cub (St George neckerchief), voice Alice (British). Content lives on the `english` branch; courses.json `base` points at its commit.
-- Leo unit pictures: first 8 units done 8 Nov (ElevenLabs gemini-3.1-flash-lite-image with the Leo reference, ~309 credits each, limb-checked). Paul chose these over Perchance (no reference picture, no API). Other units show the plain header; do more when credits allow (`courses/en/art/unit_illustrations.json`).
+- Leo unit pictures: all 46 units done 8 Nov (ElevenLabs gemini-3.1-flash-lite-image with the Leo reference, ~309 credits each, ~14,200 in total, limb-checked; scenes in `courses/en/art/unit_illustrations.json`). Paul chose these over Perchance (no reference picture, no API). ElevenLabs credits are nearly used up until the monthly reset.
+- Preview and live share one database: switching a learner to English in the preview makes the live app show "We couldn't load your lessons" for that learner until English is published (happened to Paul's "Dad" on 8 Nov). Test English on a spare learner.
 
 ## Repo size (5 Nov 2026)
 - jsDelivr serves content only reliably while the repo is under 50 MB per commit. Over that, files randomly return 403 until purged, so pictures and sounds go missing.
