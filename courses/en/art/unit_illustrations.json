@@ -1,0 +1,42 @@
+{
+ "mascot": {
+  "file": "courses/en/art/mascot.png",
+  "note": "Leo, chosen by Paul (Nov 2026); reference for every picture."
+ },
+ "model": "ElevenLabs gemini-3.1-flash-lite-image with the Leo reference (~309 credits each), cropped to 960x640 webp",
+ "units": [
+  {
+   "unit_id": "en-basics1",
+   "scene": "standing on his four legs on a sunny English village street with red-brick cottages, a red post box and window boxes of flowers, head tilted towards the viewer with a big friendly smile, as if saying hello"
+  },
+  {
+   "unit_id": "en-numbers1",
+   "scene": "standing on his four legs on a green lawn beside five red apples lined up in a neat row on the grass in front of him, looking at them happily, an apple tree behind"
+  },
+  {
+   "unit_id": "en-numbers2",
+   "scene": "standing on his four legs next to a tall neat tower of colourful wooden blocks, looking up at it with wonder"
+  },
+  {
+   "unit_id": "en-family",
+   "scene": "standing on his four legs side by side with his mother lioness, his father lion with a big mane and his tiny baby sister lion cub in a sunny English meadow with an oak tree; every lion stands on exactly four legs"
+  },
+  {
+   "unit_id": "en-colors",
+   "scene": "standing on his four legs in front of a big rainbow over a green English park, with a red ball, a blue square block and a yellow triangle block on the grass beside him"
+  },
+  {
+   "unit_id": "en-food",
+   "scene": "sitting on his four legs next to a low picnic blanket on the grass with a teapot, a plate of sandwiches, a scone with jam and a bowl of strawberries, looking delighted"
+  },
+  {
+   "unit_id": "en-phrases",
+   "scene": "standing on his four legs outside a cosy corner shop with a striped awning, smiling politely at the viewer as if saying please and thank you"
+  },
+  {
+   "unit_id": "en-time",
+   "scene": "standing on his four legs in a London street in front of a tall clock tower like Big Ben, looking up at the big clock face with curiosity"
+  }
+ ],
+ "todo": "Units after en-time have no picture yet (the app shows the plain header)."
+}
