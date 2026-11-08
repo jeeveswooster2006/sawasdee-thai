@@ -2125,6 +2125,147 @@
             ]
           }
         ]
+      },
+      {
+        "id": "fun1",
+        "title": "Fun sayings 1",
+        "tagline": "Nong Chang's favourite funny Thai sayings.",
+        "bonus": true,
+        "lessons": [
+          {
+            "id": "fun1-l1",
+            "title": "Fun sayings 1",
+            "words": [
+              {
+                "id": "fun1-l1-0",
+                "thai": "เรื่องกล้วยๆ",
+                "roman": "rûeang-glûai-glûai",
+                "en": "It's a piece of cake",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "falling",
+                  "falling"
+                ],
+                "accept": [
+                  "it's easy",
+                  "easy peasy"
+                ],
+                "emoji": "🍌",
+                "note": "Word for word: a banana matter!"
+              },
+              {
+                "id": "fun1-l1-1",
+                "thai": "หิวไส้กิ่ว",
+                "roman": "hǐu-sâi-gìu",
+                "en": "So hungry I'm starving",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling",
+                  "low"
+                ],
+                "accept": [
+                  "very hungry",
+                  "starving"
+                ],
+                "emoji": "🍽️",
+                "note": "Word for word: hungry until the tummy shrivels!"
+              },
+              {
+                "id": "fun1-l1-2",
+                "thai": "ดีใจลิงโลด",
+                "roman": "dii-jai-ling-lôot",
+                "en": "Jumping for joy",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid",
+                  "mid",
+                  "falling"
+                ],
+                "accept": [
+                  "so happy",
+                  "over the moon"
+                ],
+                "emoji": "🐒",
+                "note": "Word for word: happy like a leaping monkey!"
+              },
+              {
+                "id": "fun1-l1-3",
+                "thai": "ร้อนตับแตก",
+                "roman": "ráwn-dtàp-dtàek",
+                "en": "Boiling hot",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "low",
+                  "low"
+                ],
+                "accept": [
+                  "very hot",
+                  "scorching"
+                ],
+                "emoji": "☀️",
+                "note": "Word for word: so hot the liver bursts!"
+              },
+              {
+                "id": "fun1-l1-4",
+                "thai": "ขำกลิ้ง",
+                "roman": "khǎm-glîng",
+                "en": "So funny you roll about laughing",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
+                "accept": [
+                  "hilarious",
+                  "very funny",
+                  "rolling with laughter"
+                ],
+                "emoji": "🤸",
+                "note": "Word for word: funny and rolling!"
+              },
+              {
+                "id": "fun1-l1-5",
+                "thai": "ช้าเป็นเต่า",
+                "roman": "cháa-pen-tào",
+                "en": "Very slow",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "low"
+                ],
+                "accept": [
+                  "slow as a snail",
+                  "slowcoach"
+                ],
+                "emoji": "🐢",
+                "note": "Word for word: slow like a turtle!"
+              },
+              {
+                "id": "fun1-l1-6",
+                "thai": "อิ่มแปล้",
+                "roman": "ìm-bplâe",
+                "en": "Stuffed full",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "falling"
+                ],
+                "accept": [
+                  "full up",
+                  "very full",
+                  "I'm stuffed"
+                ],
+                "emoji": "🍜",
+                "note": "Word for word: full to bulging!"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2776,6 +2917,139 @@
                   "mid"
                 ],
                 "emoji": "🌆"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fun2",
+        "title": "Fun sayings 2",
+        "tagline": "Everyday Thai sayings Nong Chang loves.",
+        "bonus": true,
+        "lessons": [
+          {
+            "id": "fun2-l1",
+            "title": "Fun sayings 2",
+            "words": [
+              {
+                "id": "fun2-l1-0",
+                "thai": "ใจร้อน",
+                "roman": "jai-ráwn",
+                "en": "Impatient",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high"
+                ],
+                "accept": [
+                  "hot-tempered",
+                  "short-tempered"
+                ],
+                "emoji": "🌶️",
+                "note": "Word for word: hot heart!"
+              },
+              {
+                "id": "fun2-l1-1",
+                "thai": "หูเบา",
+                "roman": "hǔu-bao",
+                "en": "Gullible",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "mid"
+                ],
+                "accept": [
+                  "easily led",
+                  "believes everything"
+                ],
+                "emoji": "👂",
+                "note": "Word for word: light ears!"
+              },
+              {
+                "id": "fun2-l1-2",
+                "thai": "ใจลอย",
+                "roman": "jai-lawy",
+                "en": "Daydreaming",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
+                "accept": [
+                  "absent-minded",
+                  "miles away"
+                ],
+                "emoji": "☁️",
+                "note": "Word for word: floating heart!"
+              },
+              {
+                "id": "fun2-l1-3",
+                "thai": "ปากแข็ง",
+                "roman": "bpàak-khǎeng",
+                "en": "Too stubborn to admit it",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
+                "accept": [
+                  "won't admit it",
+                  "stubborn"
+                ],
+                "emoji": "🥜",
+                "note": "Word for word: hard mouth!"
+              },
+              {
+                "id": "fun2-l1-4",
+                "thai": "หูผึ่ง",
+                "roman": "hǔu-pùeng",
+                "en": "All ears",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "low"
+                ],
+                "accept": [
+                  "listening keenly",
+                  "ears pricked up"
+                ],
+                "emoji": "🐰",
+                "note": "Word for word: ears sticking up!"
+              },
+              {
+                "id": "fun2-l1-5",
+                "thai": "ขายหน้า",
+                "roman": "khǎai-nâa",
+                "en": "To be embarrassed",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "falling"
+                ],
+                "accept": [
+                  "to lose face",
+                  "embarrassing"
+                ],
+                "emoji": "🏷️",
+                "note": "Word for word: sell face!"
+              },
+              {
+                "id": "fun2-l1-6",
+                "thai": "หัวใส",
+                "roman": "hǔa-sǎi",
+                "en": "Clever",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "rising"
+                ],
+                "accept": [
+                  "smart",
+                  "quick-witted"
+                ],
+                "emoji": "🦊",
+                "note": "Word for word: clear head!"
               }
             ]
           }
@@ -3480,6 +3754,160 @@
                   "high"
                 ],
                 "emoji": "🤕"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fun3",
+        "title": "Fun sayings 3",
+        "tagline": "Nong Chang's wise old Thai sayings.",
+        "bonus": true,
+        "lessons": [
+          {
+            "id": "fun3-l1",
+            "title": "Fun sayings 3",
+            "words": [
+              {
+                "id": "fun3-l1-0",
+                "thai": "หนีเสือปะจระเข้",
+                "roman": "nǐi-sǔea-bpà-jaw-rá-kâe",
+                "en": "Out of the frying pan, into the fire",
+                "tone": "",
+                "tones": [
+                  "rising",
+                  "rising",
+                  "low",
+                  "mid",
+                  "high",
+                  "falling"
+                ],
+                "accept": [
+                  "escape one danger and meet another",
+                  "from bad to worse"
+                ],
+                "emoji": "🏃",
+                "note": "Word for word: run from the tiger, bump into the crocodile!"
+              },
+              {
+                "id": "fun3-l1-1",
+                "thai": "ขี่ช้างจับตั๊กแตน",
+                "roman": "khìi-cháang-jàp-dták-gà-dtaen",
+                "en": "Using a sledgehammer to crack a nut",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "high",
+                  "low",
+                  "high",
+                  "low",
+                  "mid"
+                ],
+                "accept": [
+                  "a lot of effort for a tiny thing",
+                  "overkill"
+                ],
+                "emoji": "🐘",
+                "note": "Word for word: ride an elephant to catch a grasshopper!"
+              },
+              {
+                "id": "fun3-l1-2",
+                "thai": "ผักชีโรยหน้า",
+                "roman": "pàk-chii-rooi-nâa",
+                "en": "Looks good only on the surface",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "mid",
+                  "falling"
+                ],
+                "accept": [
+                  "just for show",
+                  "only skin deep"
+                ],
+                "emoji": "🌿",
+                "note": "Word for word: coriander sprinkled on top!"
+              },
+              {
+                "id": "fun3-l1-3",
+                "thai": "ปลาหมอตายเพราะปาก",
+                "roman": "bplaa-mǎw-dtaai-práw-bpàak",
+                "en": "Talking too much gets you in trouble",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising",
+                  "mid",
+                  "high",
+                  "low"
+                ],
+                "accept": [
+                  "loose lips sink ships",
+                  "your mouth gets you into trouble"
+                ],
+                "emoji": "🐟",
+                "note": "Word for word: the climbing perch dies because of its mouth!"
+              },
+              {
+                "id": "fun3-l1-4",
+                "thai": "ไก่ได้พลอย",
+                "roman": "gài-dâai-plawy",
+                "en": "Pearls before swine",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "falling",
+                  "mid"
+                ],
+                "accept": [
+                  "a gift wasted on someone who can't appreciate it",
+                  "wasted on them"
+                ],
+                "emoji": "💎",
+                "note": "Word for word: a chicken that gets a jewel!"
+              },
+              {
+                "id": "fun3-l1-5",
+                "thai": "ใกล้เกลือกินด่าง",
+                "roman": "glâi-gluea-gin-dàang",
+                "en": "Ignoring the good thing right beside you",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "mid",
+                  "mid",
+                  "low"
+                ],
+                "accept": [
+                  "overlooking what is nearby",
+                  "not seeing what you have"
+                ],
+                "emoji": "🧂",
+                "note": "Word for word: near the salt, but eating lye!"
+              },
+              {
+                "id": "fun3-l1-6",
+                "thai": "งมเข็มในมหาสมุทร",
+                "roman": "ngom-khěm-nai-má-hǎa-sà-mùt",
+                "en": "A needle in a haystack",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "rising",
+                  "mid",
+                  "high",
+                  "rising",
+                  "low",
+                  "low"
+                ],
+                "accept": [
+                  "looking for a needle in a haystack",
+                  "an almost impossible search"
+                ],
+                "emoji": "🔍",
+                "note": "Word for word: diving for a needle in the ocean!"
               }
             ]
           }

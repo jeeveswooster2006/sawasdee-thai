@@ -1705,6 +1705,97 @@
       ]
      }
     ]
+   },
+   {
+    "id": "it-fun1",
+    "title": "Fun sayings 1",
+    "tagline": "Lupo's favourite funny Italian sayings.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "it-fun1-l1",
+      "title": "Fun sayings 1",
+      "words": [
+       {
+        "id": "it-fun1-l1-0",
+        "text": "avere una fame da lupi",
+        "en": "To be ravenous",
+        "accept": [
+         "to be starving",
+         "to be very hungry"
+        ],
+        "emoji": "🐺",
+        "note": "Word for word: to have a hunger like wolves!"
+       },
+       {
+        "id": "it-fun1-l1-1",
+        "text": "piove a catinelle",
+        "en": "It's pouring with rain",
+        "accept": [
+         "it's raining cats and dogs",
+         "it's raining heavily"
+        ],
+        "emoji": "🪣",
+        "note": "Word for word: it rains in basins!"
+       },
+       {
+        "id": "it-fun1-l1-2",
+        "text": "avere la pelle d'oca",
+        "en": "To have goosebumps",
+        "accept": [
+         "to get goosebumps"
+        ],
+        "emoji": "🥶",
+        "note": "Word for word: to have goose skin!"
+       },
+       {
+        "id": "it-fun1-l1-3",
+        "text": "avere sale in zucca",
+        "en": "To have common sense",
+        "accept": [
+         "to be sensible",
+         "to be wise",
+         "to have brains"
+        ],
+        "emoji": "🎃",
+        "note": "Word for word: to have salt in the pumpkin!"
+       },
+       {
+        "id": "it-fun1-l1-4",
+        "text": "essere come il prezzemolo",
+        "en": "To be everywhere",
+        "accept": [
+         "to turn up everywhere",
+         "to be in everything"
+        ],
+        "emoji": "🌿",
+        "note": "Word for word: to be like parsley!"
+       },
+       {
+        "id": "it-fun1-l1-5",
+        "text": "avere i grilli per la testa",
+        "en": "To have silly ideas",
+        "accept": [
+         "to have your head full of crazy ideas",
+         "to have whimsical ideas"
+        ],
+        "emoji": "🦗",
+        "note": "Word for word: to have crickets in the head!"
+       },
+       {
+        "id": "it-fun1-l1-6",
+        "text": "avere le mani di burro",
+        "en": "To be butterfingers",
+        "accept": [
+         "to be clumsy",
+         "to drop everything"
+        ],
+        "emoji": "🧈",
+        "note": "Word for word: to have hands of butter!"
+       }
+      ]
+     }
+    ]
    }
   ]
  },
@@ -2279,6 +2370,97 @@
       ]
      }
     ]
+   },
+   {
+    "id": "it-fun2",
+    "title": "Fun sayings 2",
+    "tagline": "Everyday Italian sayings Lupo loves.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "it-fun2-l1",
+      "title": "Fun sayings 2",
+      "words": [
+       {
+        "id": "it-fun2-l1-0",
+        "text": "piangere lacrime di coccodrillo",
+        "en": "To shed crocodile tears",
+        "accept": [
+         "to fake crying",
+         "to cry fake tears"
+        ],
+        "emoji": "🐊",
+        "note": "Word for word: to cry crocodile tears!"
+       },
+       {
+        "id": "it-fun2-l1-1",
+        "text": "mangiare la foglia",
+        "en": "To catch on",
+        "accept": [
+         "to smell a rat",
+         "to figure it out",
+         "to understand the trick"
+        ],
+        "emoji": "🍃",
+        "note": "Word for word: to eat the leaf!"
+       },
+       {
+        "id": "it-fun2-l1-2",
+        "text": "avere le mani bucate",
+        "en": "To spend money like water",
+        "accept": [
+         "to be a big spender",
+         "to waste money"
+        ],
+        "emoji": "🕳️",
+        "note": "Word for word: to have holes in the hands!"
+       },
+       {
+        "id": "it-fun2-l1-3",
+        "text": "essere nato con la camicia",
+        "en": "To be born lucky",
+        "accept": [
+         "to be very lucky",
+         "born with a silver spoon"
+        ],
+        "emoji": "👕",
+        "note": "Word for word: to be born with the shirt on!"
+       },
+       {
+        "id": "it-fun2-l1-4",
+        "text": "sudare sette camicie",
+        "en": "To work really hard",
+        "accept": [
+         "to sweat blood",
+         "to struggle hard"
+        ],
+        "emoji": "💦",
+        "note": "Word for word: to sweat seven shirts!"
+       },
+       {
+        "id": "it-fun2-l1-5",
+        "text": "rompere il ghiaccio",
+        "en": "To break the ice",
+        "accept": [
+         "to start a conversation"
+        ],
+        "emoji": "👋",
+        "note": "Word for word: to break the ice!"
+       },
+       {
+        "id": "it-fun2-l1-6",
+        "text": "avere il cuore in gola",
+        "en": "To have your heart in your mouth",
+        "accept": [
+         "to be nervous",
+         "to be very anxious"
+        ],
+        "emoji": "😰",
+        "note": "Word for word: to have the heart in the throat!"
+       }
+      ]
+     }
+    ]
    }
   ]
  },
@@ -2827,6 +3009,93 @@
          "where's the hospital"
         ],
         "emoji": "🏥"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "it-fun3",
+    "title": "Fun sayings 3",
+    "tagline": "Wise old Italian sayings from Lupo.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "it-fun3-l1",
+      "title": "Fun sayings 3",
+      "words": [
+       {
+        "id": "it-fun3-l1-0",
+        "text": "mettere il carro davanti ai buoi",
+        "en": "To put the cart before the horse",
+        "accept": [
+         "to do things in the wrong order"
+        ],
+        "emoji": "🐂",
+        "note": "Word for word: to put the cart in front of the oxen!"
+       },
+       {
+        "id": "it-fun3-l1-1",
+        "text": "Non dire gatto finché non ce l'hai nel sacco",
+        "en": "Don't count your chickens before they hatch",
+        "accept": [
+         "don't celebrate too soon",
+         "don't count your chickens"
+        ],
+        "emoji": "🐈",
+        "note": "Word for word: don't say cat until you have it in the bag!"
+       },
+       {
+        "id": "it-fun3-l1-2",
+        "text": "Una mela al giorno toglie il medico di torno",
+        "en": "An apple a day keeps the doctor away",
+        "accept": [
+         "an apple a day"
+        ],
+        "emoji": "💪",
+        "note": "Word for word: an apple a day takes the doctor away!"
+       },
+       {
+        "id": "it-fun3-l1-3",
+        "text": "Rosso di sera, bel tempo si spera",
+        "en": "Red sky at night, shepherd's delight",
+        "accept": [
+         "red sky at night"
+        ],
+        "emoji": "🌅",
+        "note": "Word for word: red in the evening, we hope for good weather!"
+       },
+       {
+        "id": "it-fun3-l1-4",
+        "text": "Can che abbaia non morde",
+        "en": "His bark is worse than his bite",
+        "accept": [
+         "barking dogs don't bite",
+         "all bark and no bite"
+        ],
+        "emoji": "🐕",
+        "note": "Word for word: a dog that barks doesn't bite!"
+       },
+       {
+        "id": "it-fun3-l1-5",
+        "text": "A caval donato non si guarda in bocca",
+        "en": "Don't look a gift horse in the mouth",
+        "accept": [
+         "never question a gift"
+        ],
+        "emoji": "🎁",
+        "note": "Word for word: you don't look in the mouth of a gifted horse!"
+       },
+       {
+        "id": "it-fun3-l1-6",
+        "text": "fare orecchie da mercante",
+        "en": "To turn a deaf ear",
+        "accept": [
+         "to pretend not to hear",
+         "to ignore someone"
+        ],
+        "emoji": "🙉",
+        "note": "Word for word: to make merchant's ears!"
        }
       ]
      }

@@ -1627,6 +1627,102 @@
       ]
      }
     ]
+   },
+   {
+    "id": "es-fun1",
+    "title": "Fun sayings 1",
+    "tagline": "Torito's favourite funny Spanish sayings.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "es-fun1-l1",
+      "title": "Fun sayings 1",
+      "words": [
+       {
+        "id": "es-fun1-l1-0",
+        "text": "tener memoria de pez",
+        "en": "To have a terrible memory",
+        "accept": [
+         "to forget everything",
+         "goldfish memory"
+        ],
+        "emoji": "🐠",
+        "note": "Word for word: to have the memory of a fish!"
+       },
+       {
+        "id": "es-fun1-l1-1",
+        "text": "ser un gallina",
+        "en": "To be a scaredy-cat",
+        "accept": [
+         "to be a chicken",
+         "to be a coward",
+         "to be scared"
+        ],
+        "emoji": "🐣",
+        "note": "Word for word: to be a hen!"
+       },
+       {
+        "id": "es-fun1-l1-2",
+        "text": "meter la pata",
+        "en": "To put your foot in it",
+        "accept": [
+         "to make a blunder",
+         "to mess up",
+         "to say the wrong thing"
+        ],
+        "emoji": "🐾",
+        "note": "Word for word: to put in the paw!"
+       },
+       {
+        "id": "es-fun1-l1-3",
+        "text": "dar gato por liebre",
+        "en": "To pass off something cheap as the real thing",
+        "accept": [
+         "to trick someone",
+         "to con someone",
+         "to rip someone off"
+        ],
+        "emoji": "🐈",
+        "note": "Word for word: to give a cat instead of a hare!"
+       },
+       {
+        "id": "es-fun1-l1-4",
+        "text": "ponerse como un tomate",
+        "en": "To go bright red",
+        "accept": [
+         "to blush",
+         "to turn red",
+         "to go red in the face"
+        ],
+        "emoji": "🍅",
+        "note": "Word for word: to turn like a tomato!"
+       },
+       {
+        "id": "es-fun1-l1-5",
+        "text": "hablar por los codos",
+        "en": "To talk non-stop",
+        "accept": [
+         "to talk a lot",
+         "to chatter",
+         "to be a chatterbox"
+        ],
+        "emoji": "💪",
+        "note": "Word for word: to talk through the elbows!"
+       },
+       {
+        "id": "es-fun1-l1-6",
+        "text": "ser un ratón de biblioteca",
+        "en": "To be a bookworm",
+        "accept": [
+         "to love books",
+         "to read all the time"
+        ],
+        "emoji": "🐭",
+        "note": "Word for word: to be a library mouse!"
+       }
+      ]
+     }
+    ]
    }
   ]
  },
@@ -2165,6 +2261,99 @@
       ]
      }
     ]
+   },
+   {
+    "id": "es-fun2",
+    "title": "Fun sayings 2",
+    "tagline": "Everyday Spanish sayings Torito loves.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "es-fun2-l1",
+      "title": "Fun sayings 2",
+      "words": [
+       {
+        "id": "es-fun2-l1-0",
+        "text": "estar como pez en el agua",
+        "en": "To be in your element",
+        "accept": [
+         "to feel at home",
+         "like a fish in water"
+        ],
+        "emoji": "🏊",
+        "note": "Word for word: to be like a fish in the water!"
+       },
+       {
+        "id": "es-fun2-l1-1",
+        "text": "echar una mano",
+        "en": "To lend a hand",
+        "accept": [
+         "to help",
+         "to give a hand"
+        ],
+        "emoji": "🤝",
+        "note": "Word for word: to throw a hand!"
+       },
+       {
+        "id": "es-fun2-l1-2",
+        "text": "dar en el clavo",
+        "en": "To hit the nail on the head",
+        "accept": [
+         "to get it exactly right",
+         "to be spot on"
+        ],
+        "emoji": "🔨",
+        "note": "Word for word: to hit the nail!"
+       },
+       {
+        "id": "es-fun2-l1-3",
+        "text": "ponerse las pilas",
+        "en": "To get your act together",
+        "accept": [
+         "to get going",
+         "to get moving",
+         "to buck up"
+        ],
+        "emoji": "🔋",
+        "note": "Word for word: to put in the batteries!"
+       },
+       {
+        "id": "es-fun2-l1-4",
+        "text": "tirar la casa por la ventana",
+        "en": "To splurge",
+        "accept": [
+         "to spend lavishly",
+         "to spend a fortune",
+         "to go all out"
+        ],
+        "emoji": "🏠",
+        "note": "Word for word: to throw the house out of the window!"
+       },
+       {
+        "id": "es-fun2-l1-5",
+        "text": "estar hasta las narices",
+        "en": "To be fed up",
+        "accept": [
+         "to be sick of it",
+         "to have had enough"
+        ],
+        "emoji": "👃",
+        "note": "Word for word: to be up to the nose!"
+       },
+       {
+        "id": "es-fun2-l1-6",
+        "text": "ser uña y carne",
+        "en": "To be inseparable",
+        "accept": [
+         "to be best friends",
+         "to be very close"
+        ],
+        "emoji": "🫶",
+        "note": "Word for word: to be nail and flesh!"
+       }
+      ]
+     }
+    ]
    }
   ]
  },
@@ -2683,6 +2872,97 @@
          "where's the hospital"
         ],
         "emoji": "🏥"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "es-fun3",
+    "title": "Fun sayings 3",
+    "tagline": "Wise old Spanish sayings from Torito.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "es-fun3-l1",
+      "title": "Fun sayings 3",
+      "words": [
+       {
+        "id": "es-fun3-l1-0",
+        "text": "No hay mal que por bien no venga",
+        "en": "Every cloud has a silver lining",
+        "accept": [
+         "something good comes from every bad thing",
+         "it's a blessing in disguise"
+        ],
+        "emoji": "🍀",
+        "note": "Word for word: there is no bad that doesn't bring good!"
+       },
+       {
+        "id": "es-fun3-l1-1",
+        "text": "Ojos que no ven, corazón que no siente",
+        "en": "What you don't see can't hurt you",
+        "accept": [
+         "out of sight, out of mind",
+         "what you don't know can't hurt you"
+        ],
+        "emoji": "🙈",
+        "note": "Word for word: eyes that don't see, a heart that doesn't feel!"
+       },
+       {
+        "id": "es-fun3-l1-2",
+        "text": "Perro ladrador, poco mordedor",
+        "en": "His bark is worse than his bite",
+        "accept": [
+         "barking dogs don't bite",
+         "all bark and no bite"
+        ],
+        "emoji": "🐕",
+        "note": "Word for word: a barking dog bites little!"
+       },
+       {
+        "id": "es-fun3-l1-3",
+        "text": "Más vale pájaro en mano que ciento volando",
+        "en": "A bird in the hand is worth two in the bush",
+        "accept": [
+         "a bird in the hand"
+        ],
+        "emoji": "✋",
+        "note": "Word for word: a bird in the hand is worth a hundred flying!"
+       },
+       {
+        "id": "es-fun3-l1-4",
+        "text": "A caballo regalado no le mires el diente",
+        "en": "Don't look a gift horse in the mouth",
+        "accept": [
+         "never question a gift",
+         "don't be ungrateful for a gift"
+        ],
+        "emoji": "🎁",
+        "note": "Word for word: don't look at the tooth of a gifted horse!"
+       },
+       {
+        "id": "es-fun3-l1-5",
+        "text": "A otro perro con ese hueso",
+        "en": "Tell that to someone else!",
+        "accept": [
+         "I don't believe you",
+         "pull the other one",
+         "go tell it to the marines"
+        ],
+        "emoji": "🦴",
+        "note": "Word for word: to another dog with that bone!"
+       },
+       {
+        "id": "es-fun3-l1-6",
+        "text": "Al mal tiempo, buena cara",
+        "en": "Keep smiling through hard times",
+        "accept": [
+         "put on a brave face",
+         "smile when times are tough"
+        ],
+        "emoji": "🌧️",
+        "note": "Word for word: to bad weather, a good face!"
        }
       ]
      }

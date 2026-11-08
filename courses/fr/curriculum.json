@@ -1658,6 +1658,98 @@
       ]
      }
     ]
+   },
+   {
+    "id": "fr-fun1",
+    "title": "Fun sayings 1",
+    "tagline": "Coco's favourite funny French sayings.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "fr-fun1-l1",
+      "title": "Fun sayings 1",
+      "words": [
+       {
+        "id": "fr-fun1-l1-0",
+        "text": "avoir le cafard",
+        "en": "To feel down",
+        "accept": [
+         "to be sad",
+         "to feel blue"
+        ],
+        "emoji": "🪳",
+        "note": "Word for word: to have the cockroach!"
+       },
+       {
+        "id": "fr-fun1-l1-1",
+        "text": "donner sa langue au chat",
+        "en": "To give up guessing",
+        "accept": [
+         "to give up",
+         "I give up"
+        ],
+        "emoji": "🐈",
+        "note": "Word for word: to give your tongue to the cat!"
+       },
+       {
+        "id": "fr-fun1-l1-2",
+        "text": "avoir la chair de poule",
+        "en": "To have goosebumps",
+        "accept": [
+         "to get goosebumps",
+         "to be spooked"
+        ],
+        "emoji": "🐔",
+        "note": "Word for word: to have chicken skin!"
+       },
+       {
+        "id": "fr-fun1-l1-3",
+        "text": "raconter des salades",
+        "en": "To tell fibs",
+        "accept": [
+         "to tell tall tales",
+         "to tell lies",
+         "to make things up"
+        ],
+        "emoji": "🥗",
+        "note": "Word for word: to tell salads!"
+       },
+       {
+        "id": "fr-fun1-l1-4",
+        "text": "tomber dans les pommes",
+        "en": "To faint",
+        "accept": [
+         "to pass out",
+         "to black out"
+        ],
+        "emoji": "🍎",
+        "note": "Word for word: to fall in the apples!"
+       },
+       {
+        "id": "fr-fun1-l1-5",
+        "text": "avoir la pêche",
+        "en": "To be full of energy",
+        "accept": [
+         "to be on top form",
+         "to feel great"
+        ],
+        "emoji": "🍑",
+        "note": "Word for word: to have the peach!"
+       },
+       {
+        "id": "fr-fun1-l1-6",
+        "text": "avoir une faim de loup",
+        "en": "To be ravenous",
+        "accept": [
+         "to be starving",
+         "to be very hungry"
+        ],
+        "emoji": "🐺",
+        "note": "Word for word: to have a wolf's hunger!"
+       }
+      ]
+     }
+    ]
    }
   ]
  },
@@ -2211,6 +2303,97 @@
       ]
      }
     ]
+   },
+   {
+    "id": "fr-fun2",
+    "title": "Fun sayings 2",
+    "tagline": "Everyday French sayings Coco loves.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "fr-fun2-l1",
+      "title": "Fun sayings 2",
+      "words": [
+       {
+        "id": "fr-fun2-l1-0",
+        "text": "il pleut des cordes",
+        "en": "It's raining cats and dogs",
+        "accept": [
+         "it's pouring",
+         "it's raining hard"
+        ],
+        "emoji": "🌧️",
+        "note": "Word for word: it's raining ropes!"
+       },
+       {
+        "id": "fr-fun2-l1-1",
+        "text": "mettre son grain de sel",
+        "en": "To butt in",
+        "accept": [
+         "to interfere",
+         "to give your opinion when nobody asked"
+        ],
+        "emoji": "🧂",
+        "note": "Word for word: to put in your grain of salt!"
+       },
+       {
+        "id": "fr-fun2-l1-2",
+        "text": "avoir un cœur d'artichaut",
+        "en": "To fall in love easily",
+        "accept": [
+         "to have a fickle heart",
+         "to fall for everyone"
+        ],
+        "emoji": "🌱",
+        "note": "Word for word: to have an artichoke heart!"
+       },
+       {
+        "id": "fr-fun2-l1-3",
+        "text": "avoir le cœur sur la main",
+        "en": "To be very generous",
+        "accept": [
+         "to be kind-hearted",
+         "to have a big heart"
+        ],
+        "emoji": "🤲",
+        "note": "Word for word: to have the heart on the hand!"
+       },
+       {
+        "id": "fr-fun2-l1-4",
+        "text": "mettre les pieds dans le plat",
+        "en": "To put your foot in it",
+        "accept": [
+         "to say something awkward",
+         "to blunder"
+        ],
+        "emoji": "🍽️",
+        "note": "Word for word: to put your feet in the dish!"
+       },
+       {
+        "id": "fr-fun2-l1-5",
+        "text": "en faire tout un fromage",
+        "en": "To make a big fuss",
+        "accept": [
+         "to make a mountain out of a molehill",
+         "to make a fuss about nothing"
+        ],
+        "emoji": "🧀",
+        "note": "Word for word: to make a whole cheese out of it!"
+       },
+       {
+        "id": "fr-fun2-l1-6",
+        "text": "ce n'est pas la mer à boire",
+        "en": "It's not that hard",
+        "accept": [
+         "it's no big deal",
+         "it's not so difficult"
+        ],
+        "emoji": "🌊",
+        "note": "Word for word: it's not the sea to drink!"
+       }
+      ]
+     }
+    ]
    }
   ]
  },
@@ -2742,6 +2925,96 @@
          "where's the hospital"
         ],
         "emoji": "🏥"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fr-fun3",
+    "title": "Fun sayings 3",
+    "tagline": "Wise old French sayings from Coco.",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "fr-fun3-l1",
+      "title": "Fun sayings 3",
+      "words": [
+       {
+        "id": "fr-fun3-l1-0",
+        "text": "revenons à nos moutons",
+        "en": "Let's get back to the point",
+        "accept": [
+         "back to the subject",
+         "let's get back on topic"
+        ],
+        "emoji": "🐑",
+        "note": "Word for word: let's get back to our sheep!"
+       },
+       {
+        "id": "fr-fun3-l1-1",
+        "text": "chercher midi à quatorze heures",
+        "en": "To make things harder than they are",
+        "accept": [
+         "to complicate things",
+         "to overcomplicate"
+        ],
+        "emoji": "🕑",
+        "note": "Word for word: to look for noon at two o'clock!"
+       },
+       {
+        "id": "fr-fun3-l1-2",
+        "text": "quand les poules auront des dents",
+        "en": "When pigs fly",
+        "accept": [
+         "never",
+         "not in a million years"
+        ],
+        "emoji": "🦷",
+        "note": "Word for word: when hens have teeth!"
+       },
+       {
+        "id": "fr-fun3-l1-3",
+        "text": "les carottes sont cuites",
+        "en": "It's all over",
+        "accept": [
+         "the game is up",
+         "there is no hope left"
+        ],
+        "emoji": "🥕",
+        "note": "Word for word: the carrots are cooked!"
+       },
+       {
+        "id": "fr-fun3-l1-4",
+        "text": "chat échaudé craint l'eau froide",
+        "en": "Once bitten, twice shy",
+        "accept": [
+         "a burnt child dreads the fire"
+        ],
+        "emoji": "🐱",
+        "note": "Word for word: a scalded cat fears cold water!"
+       },
+       {
+        "id": "fr-fun3-l1-5",
+        "text": "après la pluie, le beau temps",
+        "en": "After the storm comes the calm",
+        "accept": [
+         "every cloud has a silver lining",
+         "things will get better"
+        ],
+        "emoji": "🌈",
+        "note": "Word for word: after the rain, the fine weather!"
+       },
+       {
+        "id": "fr-fun3-l1-6",
+        "text": "ne pas mettre tous ses œufs dans le même panier",
+        "en": "Don't put all your eggs in one basket",
+        "accept": [
+         "don't risk everything on one thing",
+         "spread your risks"
+        ],
+        "emoji": "🎲",
+        "note": "Word for word: don't put all your eggs in the same basket!"
        }
       ]
      }

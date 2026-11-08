@@ -1,0 +1,1260 @@
+{
+ "th": [
+  {
+   "id": "fun1",
+   "title": "Fun sayings 1",
+   "tagline": "Nong Chang's favourite funny Thai sayings.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "fun1-l1",
+     "title": "Fun sayings 1",
+     "words": [
+      {
+       "id": "fun1-l1-0",
+       "thai": "เรื่องกล้วยๆ",
+       "roman": "rûeang-glûai-glûai",
+       "en": "It's a piece of cake",
+       "tone": "",
+       "tones": [
+        "falling",
+        "falling",
+        "falling"
+       ],
+       "accept": [
+        "it's easy",
+        "easy peasy"
+       ],
+       "emoji": "🍌",
+       "note": "Word for word: a banana matter!"
+      },
+      {
+       "id": "fun1-l1-1",
+       "thai": "หิวไส้กิ่ว",
+       "roman": "hǐu-sâi-gìu",
+       "en": "So hungry I'm starving",
+       "tone": "",
+       "tones": [
+        "rising",
+        "falling",
+        "low"
+       ],
+       "accept": [
+        "very hungry",
+        "starving"
+       ],
+       "emoji": "🍽️",
+       "note": "Word for word: hungry until the tummy shrivels!"
+      },
+      {
+       "id": "fun1-l1-2",
+       "thai": "ดีใจลิงโลด",
+       "roman": "dii-jai-ling-lôot",
+       "en": "Jumping for joy",
+       "tone": "",
+       "tones": [
+        "mid",
+        "mid",
+        "mid",
+        "falling"
+       ],
+       "accept": [
+        "so happy",
+        "over the moon"
+       ],
+       "emoji": "🐒",
+       "note": "Word for word: happy like a leaping monkey!"
+      },
+      {
+       "id": "fun1-l1-3",
+       "thai": "ร้อนตับแตก",
+       "roman": "ráwn-dtàp-dtàek",
+       "en": "Boiling hot",
+       "tone": "",
+       "tones": [
+        "high",
+        "low",
+        "low"
+       ],
+       "accept": [
+        "very hot",
+        "scorching"
+       ],
+       "emoji": "☀️",
+       "note": "Word for word: so hot the liver bursts!"
+      },
+      {
+       "id": "fun1-l1-4",
+       "thai": "ขำกลิ้ง",
+       "roman": "khǎm-glîng",
+       "en": "So funny you roll about laughing",
+       "tone": "",
+       "tones": [
+        "rising",
+        "falling"
+       ],
+       "accept": [
+        "hilarious",
+        "very funny",
+        "rolling with laughter"
+       ],
+       "emoji": "🤸",
+       "note": "Word for word: funny and rolling!"
+      },
+      {
+       "id": "fun1-l1-5",
+       "thai": "ช้าเป็นเต่า",
+       "roman": "cháa-pen-tào",
+       "en": "Very slow",
+       "tone": "",
+       "tones": [
+        "high",
+        "mid",
+        "low"
+       ],
+       "accept": [
+        "slow as a snail",
+        "slowcoach"
+       ],
+       "emoji": "🐢",
+       "note": "Word for word: slow like a turtle!"
+      },
+      {
+       "id": "fun1-l1-6",
+       "thai": "อิ่มแปล้",
+       "roman": "ìm-bplâe",
+       "en": "Stuffed full",
+       "tone": "",
+       "tones": [
+        "low",
+        "falling"
+       ],
+       "accept": [
+        "full up",
+        "very full",
+        "I'm stuffed"
+       ],
+       "emoji": "🍜",
+       "note": "Word for word: full to bulging!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fun2",
+   "title": "Fun sayings 2",
+   "tagline": "Everyday Thai sayings Nong Chang loves.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "fun2-l1",
+     "title": "Fun sayings 2",
+     "words": [
+      {
+       "id": "fun2-l1-0",
+       "thai": "ใจร้อน",
+       "roman": "jai-ráwn",
+       "en": "Impatient",
+       "tone": "",
+       "tones": [
+        "mid",
+        "high"
+       ],
+       "accept": [
+        "hot-tempered",
+        "short-tempered"
+       ],
+       "emoji": "🌶️",
+       "note": "Word for word: hot heart!"
+      },
+      {
+       "id": "fun2-l1-1",
+       "thai": "หูเบา",
+       "roman": "hǔu-bao",
+       "en": "Gullible",
+       "tone": "",
+       "tones": [
+        "rising",
+        "mid"
+       ],
+       "accept": [
+        "easily led",
+        "believes everything"
+       ],
+       "emoji": "👂",
+       "note": "Word for word: light ears!"
+      },
+      {
+       "id": "fun2-l1-2",
+       "thai": "ใจลอย",
+       "roman": "jai-lawy",
+       "en": "Daydreaming",
+       "tone": "",
+       "tones": [
+        "mid",
+        "mid"
+       ],
+       "accept": [
+        "absent-minded",
+        "miles away"
+       ],
+       "emoji": "☁️",
+       "note": "Word for word: floating heart!"
+      },
+      {
+       "id": "fun2-l1-3",
+       "thai": "ปากแข็ง",
+       "roman": "bpàak-khǎeng",
+       "en": "Too stubborn to admit it",
+       "tone": "",
+       "tones": [
+        "low",
+        "rising"
+       ],
+       "accept": [
+        "won't admit it",
+        "stubborn"
+       ],
+       "emoji": "🥜",
+       "note": "Word for word: hard mouth!"
+      },
+      {
+       "id": "fun2-l1-4",
+       "thai": "หูผึ่ง",
+       "roman": "hǔu-pùeng",
+       "en": "All ears",
+       "tone": "",
+       "tones": [
+        "rising",
+        "low"
+       ],
+       "accept": [
+        "listening keenly",
+        "ears pricked up"
+       ],
+       "emoji": "🐰",
+       "note": "Word for word: ears sticking up!"
+      },
+      {
+       "id": "fun2-l1-5",
+       "thai": "ขายหน้า",
+       "roman": "khǎai-nâa",
+       "en": "To be embarrassed",
+       "tone": "",
+       "tones": [
+        "rising",
+        "falling"
+       ],
+       "accept": [
+        "to lose face",
+        "embarrassing"
+       ],
+       "emoji": "🏷️",
+       "note": "Word for word: sell face!"
+      },
+      {
+       "id": "fun2-l1-6",
+       "thai": "หัวใส",
+       "roman": "hǔa-sǎi",
+       "en": "Clever",
+       "tone": "",
+       "tones": [
+        "rising",
+        "rising"
+       ],
+       "accept": [
+        "smart",
+        "quick-witted"
+       ],
+       "emoji": "🦊",
+       "note": "Word for word: clear head!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fun3",
+   "title": "Fun sayings 3",
+   "tagline": "Nong Chang's wise old Thai sayings.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "fun3-l1",
+     "title": "Fun sayings 3",
+     "words": [
+      {
+       "id": "fun3-l1-0",
+       "thai": "หนีเสือปะจระเข้",
+       "roman": "nǐi-sǔea-bpà-jaw-rá-kâe",
+       "en": "Out of the frying pan, into the fire",
+       "tone": "",
+       "tones": [
+        "rising",
+        "rising",
+        "low",
+        "mid",
+        "high",
+        "falling"
+       ],
+       "accept": [
+        "escape one danger and meet another",
+        "from bad to worse"
+       ],
+       "emoji": "🏃",
+       "note": "Word for word: run from the tiger, bump into the crocodile!"
+      },
+      {
+       "id": "fun3-l1-1",
+       "thai": "ขี่ช้างจับตั๊กแตน",
+       "roman": "khìi-cháang-jàp-dták-gà-dtaen",
+       "en": "Using a sledgehammer to crack a nut",
+       "tone": "",
+       "tones": [
+        "low",
+        "high",
+        "low",
+        "high",
+        "low",
+        "mid"
+       ],
+       "accept": [
+        "a lot of effort for a tiny thing",
+        "overkill"
+       ],
+       "emoji": "🐘",
+       "note": "Word for word: ride an elephant to catch a grasshopper!"
+      },
+      {
+       "id": "fun3-l1-2",
+       "thai": "ผักชีโรยหน้า",
+       "roman": "pàk-chii-rooi-nâa",
+       "en": "Looks good only on the surface",
+       "tone": "",
+       "tones": [
+        "low",
+        "mid",
+        "mid",
+        "falling"
+       ],
+       "accept": [
+        "just for show",
+        "only skin deep"
+       ],
+       "emoji": "🌿",
+       "note": "Word for word: coriander sprinkled on top!"
+      },
+      {
+       "id": "fun3-l1-3",
+       "thai": "ปลาหมอตายเพราะปาก",
+       "roman": "bplaa-mǎw-dtaai-práw-bpàak",
+       "en": "Talking too much gets you in trouble",
+       "tone": "",
+       "tones": [
+        "mid",
+        "rising",
+        "mid",
+        "high",
+        "low"
+       ],
+       "accept": [
+        "loose lips sink ships",
+        "your mouth gets you into trouble"
+       ],
+       "emoji": "🐟",
+       "note": "Word for word: the climbing perch dies because of its mouth!"
+      },
+      {
+       "id": "fun3-l1-4",
+       "thai": "ไก่ได้พลอย",
+       "roman": "gài-dâai-plawy",
+       "en": "Pearls before swine",
+       "tone": "",
+       "tones": [
+        "low",
+        "falling",
+        "mid"
+       ],
+       "accept": [
+        "a gift wasted on someone who can't appreciate it",
+        "wasted on them"
+       ],
+       "emoji": "💎",
+       "note": "Word for word: a chicken that gets a jewel!"
+      },
+      {
+       "id": "fun3-l1-5",
+       "thai": "ใกล้เกลือกินด่าง",
+       "roman": "glâi-gluea-gin-dàang",
+       "en": "Ignoring the good thing right beside you",
+       "tone": "",
+       "tones": [
+        "falling",
+        "mid",
+        "mid",
+        "low"
+       ],
+       "accept": [
+        "overlooking what is nearby",
+        "not seeing what you have"
+       ],
+       "emoji": "🧂",
+       "note": "Word for word: near the salt, but eating lye!"
+      },
+      {
+       "id": "fun3-l1-6",
+       "thai": "งมเข็มในมหาสมุทร",
+       "roman": "ngom-khěm-nai-má-hǎa-sà-mùt",
+       "en": "A needle in a haystack",
+       "tone": "",
+       "tones": [
+        "mid",
+        "rising",
+        "mid",
+        "high",
+        "rising",
+        "low",
+        "low"
+       ],
+       "accept": [
+        "looking for a needle in a haystack",
+        "an almost impossible search"
+       ],
+       "emoji": "🔍",
+       "note": "Word for word: diving for a needle in the ocean!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "es": [
+  {
+   "id": "es-fun1",
+   "title": "Fun sayings 1",
+   "tagline": "Torito's favourite funny Spanish sayings.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "es-fun1-l1",
+     "title": "Fun sayings 1",
+     "words": [
+      {
+       "id": "es-fun1-l1-0",
+       "text": "tener memoria de pez",
+       "en": "To have a terrible memory",
+       "accept": [
+        "to forget everything",
+        "goldfish memory"
+       ],
+       "emoji": "🐠",
+       "note": "Word for word: to have the memory of a fish!"
+      },
+      {
+       "id": "es-fun1-l1-1",
+       "text": "ser un gallina",
+       "en": "To be a scaredy-cat",
+       "accept": [
+        "to be a chicken",
+        "to be a coward",
+        "to be scared"
+       ],
+       "emoji": "🐣",
+       "note": "Word for word: to be a hen!"
+      },
+      {
+       "id": "es-fun1-l1-2",
+       "text": "meter la pata",
+       "en": "To put your foot in it",
+       "accept": [
+        "to make a blunder",
+        "to mess up",
+        "to say the wrong thing"
+       ],
+       "emoji": "🐾",
+       "note": "Word for word: to put in the paw!"
+      },
+      {
+       "id": "es-fun1-l1-3",
+       "text": "dar gato por liebre",
+       "en": "To pass off something cheap as the real thing",
+       "accept": [
+        "to trick someone",
+        "to con someone",
+        "to rip someone off"
+       ],
+       "emoji": "🐈",
+       "note": "Word for word: to give a cat instead of a hare!"
+      },
+      {
+       "id": "es-fun1-l1-4",
+       "text": "ponerse como un tomate",
+       "en": "To go bright red",
+       "accept": [
+        "to blush",
+        "to turn red",
+        "to go red in the face"
+       ],
+       "emoji": "🍅",
+       "note": "Word for word: to turn like a tomato!"
+      },
+      {
+       "id": "es-fun1-l1-5",
+       "text": "hablar por los codos",
+       "en": "To talk non-stop",
+       "accept": [
+        "to talk a lot",
+        "to chatter",
+        "to be a chatterbox"
+       ],
+       "emoji": "💪",
+       "note": "Word for word: to talk through the elbows!"
+      },
+      {
+       "id": "es-fun1-l1-6",
+       "text": "ser un ratón de biblioteca",
+       "en": "To be a bookworm",
+       "accept": [
+        "to love books",
+        "to read all the time"
+       ],
+       "emoji": "🐭",
+       "note": "Word for word: to be a library mouse!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "es-fun2",
+   "title": "Fun sayings 2",
+   "tagline": "Everyday Spanish sayings Torito loves.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "es-fun2-l1",
+     "title": "Fun sayings 2",
+     "words": [
+      {
+       "id": "es-fun2-l1-0",
+       "text": "estar como pez en el agua",
+       "en": "To be in your element",
+       "accept": [
+        "to feel at home",
+        "like a fish in water"
+       ],
+       "emoji": "🏊",
+       "note": "Word for word: to be like a fish in the water!"
+      },
+      {
+       "id": "es-fun2-l1-1",
+       "text": "echar una mano",
+       "en": "To lend a hand",
+       "accept": [
+        "to help",
+        "to give a hand"
+       ],
+       "emoji": "🤝",
+       "note": "Word for word: to throw a hand!"
+      },
+      {
+       "id": "es-fun2-l1-2",
+       "text": "dar en el clavo",
+       "en": "To hit the nail on the head",
+       "accept": [
+        "to get it exactly right",
+        "to be spot on"
+       ],
+       "emoji": "🔨",
+       "note": "Word for word: to hit the nail!"
+      },
+      {
+       "id": "es-fun2-l1-3",
+       "text": "ponerse las pilas",
+       "en": "To get your act together",
+       "accept": [
+        "to get going",
+        "to get moving",
+        "to buck up"
+       ],
+       "emoji": "🔋",
+       "note": "Word for word: to put in the batteries!"
+      },
+      {
+       "id": "es-fun2-l1-4",
+       "text": "tirar la casa por la ventana",
+       "en": "To splurge",
+       "accept": [
+        "to spend lavishly",
+        "to spend a fortune",
+        "to go all out"
+       ],
+       "emoji": "🏠",
+       "note": "Word for word: to throw the house out of the window!"
+      },
+      {
+       "id": "es-fun2-l1-5",
+       "text": "estar hasta las narices",
+       "en": "To be fed up",
+       "accept": [
+        "to be sick of it",
+        "to have had enough"
+       ],
+       "emoji": "👃",
+       "note": "Word for word: to be up to the nose!"
+      },
+      {
+       "id": "es-fun2-l1-6",
+       "text": "ser uña y carne",
+       "en": "To be inseparable",
+       "accept": [
+        "to be best friends",
+        "to be very close"
+       ],
+       "emoji": "🫶",
+       "note": "Word for word: to be nail and flesh!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "es-fun3",
+   "title": "Fun sayings 3",
+   "tagline": "Wise old Spanish sayings from Torito.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "es-fun3-l1",
+     "title": "Fun sayings 3",
+     "words": [
+      {
+       "id": "es-fun3-l1-0",
+       "text": "No hay mal que por bien no venga",
+       "en": "Every cloud has a silver lining",
+       "accept": [
+        "something good comes from every bad thing",
+        "it's a blessing in disguise"
+       ],
+       "emoji": "🍀",
+       "note": "Word for word: there is no bad that doesn't bring good!"
+      },
+      {
+       "id": "es-fun3-l1-1",
+       "text": "Ojos que no ven, corazón que no siente",
+       "en": "What you don't see can't hurt you",
+       "accept": [
+        "out of sight, out of mind",
+        "what you don't know can't hurt you"
+       ],
+       "emoji": "🙈",
+       "note": "Word for word: eyes that don't see, a heart that doesn't feel!"
+      },
+      {
+       "id": "es-fun3-l1-2",
+       "text": "Perro ladrador, poco mordedor",
+       "en": "His bark is worse than his bite",
+       "accept": [
+        "barking dogs don't bite",
+        "all bark and no bite"
+       ],
+       "emoji": "🐕",
+       "note": "Word for word: a barking dog bites little!"
+      },
+      {
+       "id": "es-fun3-l1-3",
+       "text": "Más vale pájaro en mano que ciento volando",
+       "en": "A bird in the hand is worth two in the bush",
+       "accept": [
+        "a bird in the hand"
+       ],
+       "emoji": "✋",
+       "note": "Word for word: a bird in the hand is worth a hundred flying!"
+      },
+      {
+       "id": "es-fun3-l1-4",
+       "text": "A caballo regalado no le mires el diente",
+       "en": "Don't look a gift horse in the mouth",
+       "accept": [
+        "never question a gift",
+        "don't be ungrateful for a gift"
+       ],
+       "emoji": "🎁",
+       "note": "Word for word: don't look at the tooth of a gifted horse!"
+      },
+      {
+       "id": "es-fun3-l1-5",
+       "text": "A otro perro con ese hueso",
+       "en": "Tell that to someone else!",
+       "accept": [
+        "I don't believe you",
+        "pull the other one",
+        "go tell it to the marines"
+       ],
+       "emoji": "🦴",
+       "note": "Word for word: to another dog with that bone!"
+      },
+      {
+       "id": "es-fun3-l1-6",
+       "text": "Al mal tiempo, buena cara",
+       "en": "Keep smiling through hard times",
+       "accept": [
+        "put on a brave face",
+        "smile when times are tough"
+       ],
+       "emoji": "🌧️",
+       "note": "Word for word: to bad weather, a good face!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "fr": [
+  {
+   "id": "fr-fun1",
+   "title": "Fun sayings 1",
+   "tagline": "Coco's favourite funny French sayings.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "fr-fun1-l1",
+     "title": "Fun sayings 1",
+     "words": [
+      {
+       "id": "fr-fun1-l1-0",
+       "text": "avoir le cafard",
+       "en": "To feel down",
+       "accept": [
+        "to be sad",
+        "to feel blue"
+       ],
+       "emoji": "🪳",
+       "note": "Word for word: to have the cockroach!"
+      },
+      {
+       "id": "fr-fun1-l1-1",
+       "text": "donner sa langue au chat",
+       "en": "To give up guessing",
+       "accept": [
+        "to give up",
+        "I give up"
+       ],
+       "emoji": "🐈",
+       "note": "Word for word: to give your tongue to the cat!"
+      },
+      {
+       "id": "fr-fun1-l1-2",
+       "text": "avoir la chair de poule",
+       "en": "To have goosebumps",
+       "accept": [
+        "to get goosebumps",
+        "to be spooked"
+       ],
+       "emoji": "🐔",
+       "note": "Word for word: to have chicken skin!"
+      },
+      {
+       "id": "fr-fun1-l1-3",
+       "text": "raconter des salades",
+       "en": "To tell fibs",
+       "accept": [
+        "to tell tall tales",
+        "to tell lies",
+        "to make things up"
+       ],
+       "emoji": "🥗",
+       "note": "Word for word: to tell salads!"
+      },
+      {
+       "id": "fr-fun1-l1-4",
+       "text": "tomber dans les pommes",
+       "en": "To faint",
+       "accept": [
+        "to pass out",
+        "to black out"
+       ],
+       "emoji": "🍎",
+       "note": "Word for word: to fall in the apples!"
+      },
+      {
+       "id": "fr-fun1-l1-5",
+       "text": "avoir la pêche",
+       "en": "To be full of energy",
+       "accept": [
+        "to be on top form",
+        "to feel great"
+       ],
+       "emoji": "🍑",
+       "note": "Word for word: to have the peach!"
+      },
+      {
+       "id": "fr-fun1-l1-6",
+       "text": "avoir une faim de loup",
+       "en": "To be ravenous",
+       "accept": [
+        "to be starving",
+        "to be very hungry"
+       ],
+       "emoji": "🐺",
+       "note": "Word for word: to have a wolf's hunger!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr-fun2",
+   "title": "Fun sayings 2",
+   "tagline": "Everyday French sayings Coco loves.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "fr-fun2-l1",
+     "title": "Fun sayings 2",
+     "words": [
+      {
+       "id": "fr-fun2-l1-0",
+       "text": "il pleut des cordes",
+       "en": "It's raining cats and dogs",
+       "accept": [
+        "it's pouring",
+        "it's raining hard"
+       ],
+       "emoji": "🌧️",
+       "note": "Word for word: it's raining ropes!"
+      },
+      {
+       "id": "fr-fun2-l1-1",
+       "text": "mettre son grain de sel",
+       "en": "To butt in",
+       "accept": [
+        "to interfere",
+        "to give your opinion when nobody asked"
+       ],
+       "emoji": "🧂",
+       "note": "Word for word: to put in your grain of salt!"
+      },
+      {
+       "id": "fr-fun2-l1-2",
+       "text": "avoir un cœur d'artichaut",
+       "en": "To fall in love easily",
+       "accept": [
+        "to have a fickle heart",
+        "to fall for everyone"
+       ],
+       "emoji": "🌱",
+       "note": "Word for word: to have an artichoke heart!"
+      },
+      {
+       "id": "fr-fun2-l1-3",
+       "text": "avoir le cœur sur la main",
+       "en": "To be very generous",
+       "accept": [
+        "to be kind-hearted",
+        "to have a big heart"
+       ],
+       "emoji": "🤲",
+       "note": "Word for word: to have the heart on the hand!"
+      },
+      {
+       "id": "fr-fun2-l1-4",
+       "text": "mettre les pieds dans le plat",
+       "en": "To put your foot in it",
+       "accept": [
+        "to say something awkward",
+        "to blunder"
+       ],
+       "emoji": "🍽️",
+       "note": "Word for word: to put your feet in the dish!"
+      },
+      {
+       "id": "fr-fun2-l1-5",
+       "text": "en faire tout un fromage",
+       "en": "To make a big fuss",
+       "accept": [
+        "to make a mountain out of a molehill",
+        "to make a fuss about nothing"
+       ],
+       "emoji": "🧀",
+       "note": "Word for word: to make a whole cheese out of it!"
+      },
+      {
+       "id": "fr-fun2-l1-6",
+       "text": "ce n'est pas la mer à boire",
+       "en": "It's not that hard",
+       "accept": [
+        "it's no big deal",
+        "it's not so difficult"
+       ],
+       "emoji": "🌊",
+       "note": "Word for word: it's not the sea to drink!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fr-fun3",
+   "title": "Fun sayings 3",
+   "tagline": "Wise old French sayings from Coco.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "fr-fun3-l1",
+     "title": "Fun sayings 3",
+     "words": [
+      {
+       "id": "fr-fun3-l1-0",
+       "text": "revenons à nos moutons",
+       "en": "Let's get back to the point",
+       "accept": [
+        "back to the subject",
+        "let's get back on topic"
+       ],
+       "emoji": "🐑",
+       "note": "Word for word: let's get back to our sheep!"
+      },
+      {
+       "id": "fr-fun3-l1-1",
+       "text": "chercher midi à quatorze heures",
+       "en": "To make things harder than they are",
+       "accept": [
+        "to complicate things",
+        "to overcomplicate"
+       ],
+       "emoji": "🕑",
+       "note": "Word for word: to look for noon at two o'clock!"
+      },
+      {
+       "id": "fr-fun3-l1-2",
+       "text": "quand les poules auront des dents",
+       "en": "When pigs fly",
+       "accept": [
+        "never",
+        "not in a million years"
+       ],
+       "emoji": "🦷",
+       "note": "Word for word: when hens have teeth!"
+      },
+      {
+       "id": "fr-fun3-l1-3",
+       "text": "les carottes sont cuites",
+       "en": "It's all over",
+       "accept": [
+        "the game is up",
+        "there is no hope left"
+       ],
+       "emoji": "🥕",
+       "note": "Word for word: the carrots are cooked!"
+      },
+      {
+       "id": "fr-fun3-l1-4",
+       "text": "chat échaudé craint l'eau froide",
+       "en": "Once bitten, twice shy",
+       "accept": [
+        "a burnt child dreads the fire"
+       ],
+       "emoji": "🐱",
+       "note": "Word for word: a scalded cat fears cold water!"
+      },
+      {
+       "id": "fr-fun3-l1-5",
+       "text": "après la pluie, le beau temps",
+       "en": "After the storm comes the calm",
+       "accept": [
+        "every cloud has a silver lining",
+        "things will get better"
+       ],
+       "emoji": "🌈",
+       "note": "Word for word: after the rain, the fine weather!"
+      },
+      {
+       "id": "fr-fun3-l1-6",
+       "text": "ne pas mettre tous ses œufs dans le même panier",
+       "en": "Don't put all your eggs in one basket",
+       "accept": [
+        "don't risk everything on one thing",
+        "spread your risks"
+       ],
+       "emoji": "🎲",
+       "note": "Word for word: don't put all your eggs in the same basket!"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "it": [
+  {
+   "id": "it-fun1",
+   "title": "Fun sayings 1",
+   "tagline": "Lupo's favourite funny Italian sayings.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "it-fun1-l1",
+     "title": "Fun sayings 1",
+     "words": [
+      {
+       "id": "it-fun1-l1-0",
+       "text": "avere una fame da lupi",
+       "en": "To be ravenous",
+       "accept": [
+        "to be starving",
+        "to be very hungry"
+       ],
+       "emoji": "🐺",
+       "note": "Word for word: to have a hunger like wolves!"
+      },
+      {
+       "id": "it-fun1-l1-1",
+       "text": "piove a catinelle",
+       "en": "It's pouring with rain",
+       "accept": [
+        "it's raining cats and dogs",
+        "it's raining heavily"
+       ],
+       "emoji": "🪣",
+       "note": "Word for word: it rains in basins!"
+      },
+      {
+       "id": "it-fun1-l1-2",
+       "text": "avere la pelle d'oca",
+       "en": "To have goosebumps",
+       "accept": [
+        "to get goosebumps"
+       ],
+       "emoji": "🥶",
+       "note": "Word for word: to have goose skin!"
+      },
+      {
+       "id": "it-fun1-l1-3",
+       "text": "avere sale in zucca",
+       "en": "To have common sense",
+       "accept": [
+        "to be sensible",
+        "to be wise",
+        "to have brains"
+       ],
+       "emoji": "🎃",
+       "note": "Word for word: to have salt in the pumpkin!"
+      },
+      {
+       "id": "it-fun1-l1-4",
+       "text": "essere come il prezzemolo",
+       "en": "To be everywhere",
+       "accept": [
+        "to turn up everywhere",
+        "to be in everything"
+       ],
+       "emoji": "🌿",
+       "note": "Word for word: to be like parsley!"
+      },
+      {
+       "id": "it-fun1-l1-5",
+       "text": "avere i grilli per la testa",
+       "en": "To have silly ideas",
+       "accept": [
+        "to have your head full of crazy ideas",
+        "to have whimsical ideas"
+       ],
+       "emoji": "🦗",
+       "note": "Word for word: to have crickets in the head!"
+      },
+      {
+       "id": "it-fun1-l1-6",
+       "text": "avere le mani di burro",
+       "en": "To be butterfingers",
+       "accept": [
+        "to be clumsy",
+        "to drop everything"
+       ],
+       "emoji": "🧈",
+       "note": "Word for word: to have hands of butter!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "it-fun2",
+   "title": "Fun sayings 2",
+   "tagline": "Everyday Italian sayings Lupo loves.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "it-fun2-l1",
+     "title": "Fun sayings 2",
+     "words": [
+      {
+       "id": "it-fun2-l1-0",
+       "text": "piangere lacrime di coccodrillo",
+       "en": "To shed crocodile tears",
+       "accept": [
+        "to fake crying",
+        "to cry fake tears"
+       ],
+       "emoji": "🐊",
+       "note": "Word for word: to cry crocodile tears!"
+      },
+      {
+       "id": "it-fun2-l1-1",
+       "text": "mangiare la foglia",
+       "en": "To catch on",
+       "accept": [
+        "to smell a rat",
+        "to figure it out",
+        "to understand the trick"
+       ],
+       "emoji": "🍃",
+       "note": "Word for word: to eat the leaf!"
+      },
+      {
+       "id": "it-fun2-l1-2",
+       "text": "avere le mani bucate",
+       "en": "To spend money like water",
+       "accept": [
+        "to be a big spender",
+        "to waste money"
+       ],
+       "emoji": "🕳️",
+       "note": "Word for word: to have holes in the hands!"
+      },
+      {
+       "id": "it-fun2-l1-3",
+       "text": "essere nato con la camicia",
+       "en": "To be born lucky",
+       "accept": [
+        "to be very lucky",
+        "born with a silver spoon"
+       ],
+       "emoji": "👕",
+       "note": "Word for word: to be born with the shirt on!"
+      },
+      {
+       "id": "it-fun2-l1-4",
+       "text": "sudare sette camicie",
+       "en": "To work really hard",
+       "accept": [
+        "to sweat blood",
+        "to struggle hard"
+       ],
+       "emoji": "💦",
+       "note": "Word for word: to sweat seven shirts!"
+      },
+      {
+       "id": "it-fun2-l1-5",
+       "text": "rompere il ghiaccio",
+       "en": "To break the ice",
+       "accept": [
+        "to start a conversation"
+       ],
+       "emoji": "👋",
+       "note": "Word for word: to break the ice!"
+      },
+      {
+       "id": "it-fun2-l1-6",
+       "text": "avere il cuore in gola",
+       "en": "To have your heart in your mouth",
+       "accept": [
+        "to be nervous",
+        "to be very anxious"
+       ],
+       "emoji": "😰",
+       "note": "Word for word: to have the heart in the throat!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "it-fun3",
+   "title": "Fun sayings 3",
+   "tagline": "Wise old Italian sayings from Lupo.",
+   "bonus": true,
+   "lessons": [
+    {
+     "id": "it-fun3-l1",
+     "title": "Fun sayings 3",
+     "words": [
+      {
+       "id": "it-fun3-l1-0",
+       "text": "mettere il carro davanti ai buoi",
+       "en": "To put the cart before the horse",
+       "accept": [
+        "to do things in the wrong order"
+       ],
+       "emoji": "🐂",
+       "note": "Word for word: to put the cart in front of the oxen!"
+      },
+      {
+       "id": "it-fun3-l1-1",
+       "text": "Non dire gatto finché non ce l'hai nel sacco",
+       "en": "Don't count your chickens before they hatch",
+       "accept": [
+        "don't celebrate too soon",
+        "don't count your chickens"
+       ],
+       "emoji": "🐈",
+       "note": "Word for word: don't say cat until you have it in the bag!"
+      },
+      {
+       "id": "it-fun3-l1-2",
+       "text": "Una mela al giorno toglie il medico di torno",
+       "en": "An apple a day keeps the doctor away",
+       "accept": [
+        "an apple a day"
+       ],
+       "emoji": "💪",
+       "note": "Word for word: an apple a day takes the doctor away!"
+      },
+      {
+       "id": "it-fun3-l1-3",
+       "text": "Rosso di sera, bel tempo si spera",
+       "en": "Red sky at night, shepherd's delight",
+       "accept": [
+        "red sky at night"
+       ],
+       "emoji": "🌅",
+       "note": "Word for word: red in the evening, we hope for good weather!"
+      },
+      {
+       "id": "it-fun3-l1-4",
+       "text": "Can che abbaia non morde",
+       "en": "His bark is worse than his bite",
+       "accept": [
+        "barking dogs don't bite",
+        "all bark and no bite"
+       ],
+       "emoji": "🐕",
+       "note": "Word for word: a dog that barks doesn't bite!"
+      },
+      {
+       "id": "it-fun3-l1-5",
+       "text": "A caval donato non si guarda in bocca",
+       "en": "Don't look a gift horse in the mouth",
+       "accept": [
+        "never question a gift"
+       ],
+       "emoji": "🎁",
+       "note": "Word for word: you don't look in the mouth of a gifted horse!"
+      },
+      {
+       "id": "it-fun3-l1-6",
+       "text": "fare orecchie da mercante",
+       "en": "To turn a deaf ear",
+       "accept": [
+        "to pretend not to hear",
+        "to ignore someone"
+       ],
+       "emoji": "🙉",
+       "note": "Word for word: to make merchant's ears!"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
