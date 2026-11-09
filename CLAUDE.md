@@ -58,6 +58,10 @@ Not started. Only pick these up when Paul asks.
 - Built in the app, switched off (`INACTIVE_CLEANUP = "report"` in sawasdee-family `src/lib/features.ts`). Rules: unconfirmed sign-ups deleted after 30 days (no email); no learning ever: 6 months unused; some learning: 12 months. Warning emails 2 months, 1 month and 2 days before, then an "account deleted" email; signing in or opening the app resets the clock. Details in AGENTS.md of sawasdee-family.
 - To switch on (only when Paul says so): set it to "on", and ask Lovable for a daily timer calling POST /api/public/inactive-accounts with the cron secret (like the weekly email). First warnings would be around Feb 2027; the 6 unconfirmed sign-ups would be deleted straight away.
 
+## Privacy and the ICO (9 Nov 2026)
+- Privacy page at nongchang.co.uk/privacy (text in sawasdee-family `src/data/privacy.ts`, five languages). Update it whenever the app starts keeping something new, uses a new service, or the inactive-account timings change.
+- ICO data protection fee: Paul did the ICO self-assessment on 9 Nov. No fee is needed while the app isn't trading (no income). If it ever earns money (ads, subscriptions, donations, sponsorship), remind Paul to retake the assessment at ico.org.uk.
+
 ## ElevenLabs
 - Paul upgraded to the **Creator** plan (5 Nov 2026): about 121,000 credits a month. Voices: Thai `brM9iIbwDREZaWL8luun` (Anna), Spanish `GB7fZx4ubHWxbBE05abF` (Marina), French `ICk609TItINMseDpChFt` (Léa). A word costs about 5 credits and a sentence about 10–20.
 - **Nong Chang's own voice:** `C98kHdjEdJfyY7tmFiT5` ("Nong Chang (baby elephant)", designed 6 Nov 2026, Paul picked it). Use it for the mascot speaking: Reels, greetings, "Talk to Nong Chang". Lesson words keep the native course voices.
