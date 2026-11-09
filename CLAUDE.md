@@ -52,7 +52,7 @@ Not started. Only pick these up when Paul asks.
 - Maybe move the domain (nongchang.co.uk) and email to Cloudflare or Proton. Left for now.
 - A "Sounds of French" / "Sounds of Spanish" track in the app, like Read Thai.
 - Facebook posts that Paul publishes himself.
-- **Alphabet & Numbers sections (Paul, 9 Nov; parked until ElevenLabs credits reset ~5 Dec, reminder set):** home-page tabs Lessons · Alphabet · Numbers for every language, never gating main lessons. Numbers: reuse the 20 recorded per language + ~10 more each (0, 16–19, 60–90, 1000) ≈ 300 credits. Alphabet: Thai = Read Thai; record ~26 letters each for fr/es/it/en ≈ 550 credits.
+- **Alphabet & Numbers sections (Paul, 9 Nov; parked until ElevenLabs credits reset ~5 Dec, reminder set):** home-page tabs Lessons · Alphabet · Numbers for every language, never gating main lessons. Numbers: reuse the 20 recorded per language + ~10 more each (0, 16–19, 60–90, 1000) ≈ 300 credits. Alphabet: Thai = Read Thai; record ~26 letters each for fr/es/it/en ≈ 550 credits. **Code built 9 Nov (preview only; `extraTracksEnabled()` keeps it off the live site even when other things are published — Paul's instruction). Still to do after the reset: record the clips (ids in AGENTS.md of sawasdee-family), then switch it on.**
 
 ## ElevenLabs
 - Paul upgraded to the **Creator** plan (5 Nov 2026): about 121,000 credits a month. Voices: Thai `brM9iIbwDREZaWL8luun` (Anna), Spanish `GB7fZx4ubHWxbBE05abF` (Marina), French `ICk609TItINMseDpChFt` (Léa). A word costs about 5 credits and a sentence about 10–20.
