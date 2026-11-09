@@ -54,6 +54,10 @@ Not started. Only pick these up when Paul asks.
 - Facebook posts that Paul publishes himself.
 - **Alphabet & Numbers sections (Paul, 9 Nov; parked until ElevenLabs credits reset ~5 Dec, reminder set):** home-page tabs Lessons · Alphabet · Numbers for every language, never gating main lessons. Numbers: reuse the 20 recorded per language + ~10 more each (0, 16–19, 60–90, 1000) ≈ 300 credits. Alphabet: Thai = Read Thai; record ~26 letters each for fr/es/it/en ≈ 550 credits. **Code built 9 Nov (preview only; `extraTracksEnabled()` keeps it off the live site even when other things are published — Paul's instruction). Still to do after the reset: record the clips (ids in AGENTS.md of sawasdee-family), then switch it on.**
 
+## Inactive accounts (Paul, 9 Nov 2026)
+- Built in the app, switched off (`INACTIVE_CLEANUP = "report"` in sawasdee-family `src/lib/features.ts`). Rules: unconfirmed sign-ups deleted after 30 days (no email); no learning ever: 6 months unused; some learning: 12 months. Warning emails 2 months, 1 month and 2 days before, then an "account deleted" email; signing in or opening the app resets the clock. Details in AGENTS.md of sawasdee-family.
+- To switch on (only when Paul says so): set it to "on", and ask Lovable for a daily timer calling POST /api/public/inactive-accounts with the cron secret (like the weekly email). First warnings would be around Feb 2027; the 6 unconfirmed sign-ups would be deleted straight away.
+
 ## ElevenLabs
 - Paul upgraded to the **Creator** plan (5 Nov 2026): about 121,000 credits a month. Voices: Thai `brM9iIbwDREZaWL8luun` (Anna), Spanish `GB7fZx4ubHWxbBE05abF` (Marina), French `ICk609TItINMseDpChFt` (Léa). A word costs about 5 credits and a sentence about 10–20.
 - **Nong Chang's own voice:** `C98kHdjEdJfyY7tmFiT5` ("Nong Chang (baby elephant)", designed 6 Nov 2026, Paul picked it). Use it for the mascot speaking: Reels, greetings, "Talk to Nong Chang". Lesson words keep the native course voices.
