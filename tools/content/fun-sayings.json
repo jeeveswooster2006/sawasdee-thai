@@ -13,7 +13,7 @@
       {
        "id": "fun1-l1-0",
        "thai": "เรื่องกล้วยๆ",
-       "roman": "rûeang-glûai-glûai",
+       "roman": "rûeang-klûai-klûai",
        "en": "It's a piece of cake",
        "tone": "",
        "tones": [
@@ -31,7 +31,7 @@
       {
        "id": "fun1-l1-1",
        "thai": "หิวไส้กิ่ว",
-       "roman": "hǐu-sâi-gìu",
+       "roman": "hǐw-sâi-kìw",
        "en": "So hungry I'm starving",
        "tone": "",
        "tones": [
@@ -68,7 +68,7 @@
       {
        "id": "fun1-l1-3",
        "thai": "ร้อนตับแตก",
-       "roman": "ráwn-dtàp-dtàek",
+       "roman": "rɔ́ɔn-tàp-tɛ̀ɛk",
        "en": "Boiling hot",
        "tone": "",
        "tones": [
@@ -86,7 +86,7 @@
       {
        "id": "fun1-l1-4",
        "thai": "ขำกลิ้ง",
-       "roman": "khǎm-glîng",
+       "roman": "khǎm-klîng",
        "en": "So funny you roll about laughing",
        "tone": "",
        "tones": [
@@ -122,7 +122,7 @@
       {
        "id": "fun1-l1-6",
        "thai": "อิ่มแปล้",
-       "roman": "ìm-bplâe",
+       "roman": "ìm-plɛ̂ɛ",
        "en": "Stuffed full",
        "tone": "",
        "tones": [
@@ -154,7 +154,7 @@
       {
        "id": "fun2-l1-0",
        "thai": "ใจร้อน",
-       "roman": "jai-ráwn",
+       "roman": "jai-rɔ́ɔn",
        "en": "Impatient",
        "tone": "",
        "tones": [
@@ -188,7 +188,7 @@
       {
        "id": "fun2-l1-2",
        "thai": "ใจลอย",
-       "roman": "jai-lawy",
+       "roman": "jai-lɔɔi",
        "en": "Daydreaming",
        "tone": "",
        "tones": [
@@ -205,7 +205,7 @@
       {
        "id": "fun2-l1-3",
        "thai": "ปากแข็ง",
-       "roman": "bpàak-khǎeng",
+       "roman": "pàak-khɛ̌ng",
        "en": "Too stubborn to admit it",
        "tone": "",
        "tones": [
@@ -222,7 +222,7 @@
       {
        "id": "fun2-l1-4",
        "thai": "หูผึ่ง",
-       "roman": "hǔu-pùeng",
+       "roman": "hǔu-phùeng",
        "en": "All ears",
        "tone": "",
        "tones": [
@@ -287,7 +287,7 @@
       {
        "id": "fun3-l1-0",
        "thai": "หนีเสือปะจระเข้",
-       "roman": "nǐi-sǔea-bpà-jaw-rá-kâe",
+       "roman": "nǐi-sǔea-pà-jɔɔ-rá-khêe",
        "en": "Out of the frying pan, into the fire",
        "tone": "",
        "tones": [
@@ -308,7 +308,7 @@
       {
        "id": "fun3-l1-1",
        "thai": "ขี่ช้างจับตั๊กแตน",
-       "roman": "khìi-cháang-jàp-dták-gà-dtaen",
+       "roman": "khìi-cháang-jàp-ták-kà-tɛɛn",
        "en": "Using a sledgehammer to crack a nut",
        "tone": "",
        "tones": [
@@ -329,7 +329,7 @@
       {
        "id": "fun3-l1-2",
        "thai": "ผักชีโรยหน้า",
-       "roman": "pàk-chii-rooi-nâa",
+       "roman": "phàk-chii-rooi-nâa",
        "en": "Looks good only on the surface",
        "tone": "",
        "tones": [
@@ -348,7 +348,7 @@
       {
        "id": "fun3-l1-3",
        "thai": "ปลาหมอตายเพราะปาก",
-       "roman": "bplaa-mǎw-dtaai-práw-bpàak",
+       "roman": "plaa-mɔ̌ɔ-taai-phrɔ́-pàak",
        "en": "Talking too much gets you in trouble",
        "tone": "",
        "tones": [
@@ -368,7 +368,7 @@
       {
        "id": "fun3-l1-4",
        "thai": "ไก่ได้พลอย",
-       "roman": "gài-dâai-plawy",
+       "roman": "kài-dâai-phlɔɔi",
        "en": "Pearls before swine",
        "tone": "",
        "tones": [
@@ -386,7 +386,7 @@
       {
        "id": "fun3-l1-5",
        "thai": "ใกล้เกลือกินด่าง",
-       "roman": "glâi-gluea-gin-dàang",
+       "roman": "klâi-kluea-kin-dàang",
        "en": "Ignoring the good thing right beside you",
        "tone": "",
        "tones": [

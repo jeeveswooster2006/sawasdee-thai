@@ -527,9 +527,14 @@
                 "id": "fam-l1-0",
                 "thai": "แม่",
                 "roman": "mâe",
-                "en": "Mom",
+                "en": "Mum",
                 "tone": "falling",
-                "emoji": "👩"
+                "emoji": "👩",
+                "accept": [
+                  "mom",
+                  "mummy",
+                  "mother"
+                ]
               },
               {
                 "id": "fam-l1-1",
@@ -651,12 +656,12 @@
       },
       {
         "id": "colors",
-        "title": "Colors & Shapes",
+        "title": "Colours & Shapes",
         "tagline": "Every color word starts with สี, meaning \"color.\"",
         "lessons": [
           {
             "id": "col-l1",
-            "title": "Colors",
+            "title": "Colours",
             "words": [
               {
                 "id": "col-l1-0",
@@ -673,7 +678,7 @@
               {
                 "id": "col-l1-1",
                 "thai": "สีน้ำเงิน",
-                "roman": "sǐi náam-ngoen",
+                "roman": "sǐi náam-ngən",
                 "en": "Blue",
                 "tone": "",
                 "tones": [
@@ -1393,7 +1398,7 @@
               {
                 "id": "shop-l1-0",
                 "thai": "เงิน",
-                "roman": "ngoen",
+                "roman": "ngən",
                 "en": "Money",
                 "tone": "mid",
                 "emoji": "💵"
@@ -1480,7 +1485,7 @@
               {
                 "id": "shop-l2-3",
                 "thai": "จ่ายเงิน",
-                "roman": "jàai-ngoen",
+                "roman": "jàai-ngən",
                 "en": "Pay",
                 "tone": "",
                 "tones": [
@@ -1546,13 +1551,17 @@
                 "id": "trv-l1-2",
                 "thai": "เครื่องบิน",
                 "roman": "khrûeang-bin",
-                "en": "Airplane",
+                "en": "Aeroplane",
                 "tone": "",
                 "tones": [
                   "falling",
                   "mid"
                 ],
-                "emoji": "✈️"
+                "emoji": "✈️",
+                "accept": [
+                  "airplane",
+                  "plane"
+                ]
               },
               {
                 "id": "trv-l1-3",
@@ -1603,7 +1612,7 @@
               {
                 "id": "trv-l2-1",
                 "thai": "หนังสือเดินทาง",
-                "roman": "nǎng-sǔe-dooen-thaang",
+                "roman": "nǎng-sǔe-dəən-thaang",
                 "en": "Passport",
                 "tone": "",
                 "tones": [
@@ -2139,7 +2148,7 @@
               {
                 "id": "fun1-l1-0",
                 "thai": "เรื่องกล้วยๆ",
-                "roman": "rûeang-glûai-glûai",
+                "roman": "rûeang-klûai-klûai",
                 "en": "It's a piece of cake",
                 "tone": "",
                 "tones": [
@@ -2157,7 +2166,7 @@
               {
                 "id": "fun1-l1-1",
                 "thai": "หิวไส้กิ่ว",
-                "roman": "hǐu-sâi-gìu",
+                "roman": "hǐw-sâi-kìw",
                 "en": "So hungry I'm starving",
                 "tone": "",
                 "tones": [
@@ -2194,7 +2203,7 @@
               {
                 "id": "fun1-l1-3",
                 "thai": "ร้อนตับแตก",
-                "roman": "ráwn-dtàp-dtàek",
+                "roman": "rɔ́ɔn-tàp-tɛ̀ɛk",
                 "en": "Boiling hot",
                 "tone": "",
                 "tones": [
@@ -2212,7 +2221,7 @@
               {
                 "id": "fun1-l1-4",
                 "thai": "ขำกลิ้ง",
-                "roman": "khǎm-glîng",
+                "roman": "khǎm-klîng",
                 "en": "So funny you roll about laughing",
                 "tone": "",
                 "tones": [
@@ -2248,7 +2257,7 @@
               {
                 "id": "fun1-l1-6",
                 "thai": "อิ่มแปล้",
-                "roman": "ìm-bplâe",
+                "roman": "ìm-plɛ̂ɛ",
                 "en": "Stuffed full",
                 "tone": "",
                 "tones": [
@@ -2645,7 +2654,7 @@
               {
                 "id": "tns-l2-2",
                 "thai": "เคย",
-                "roman": "khooei",
+                "roman": "khəəi",
                 "en": "Have ever (done something)",
                 "tone": "mid",
                 "emoji": "🌍"
@@ -2653,7 +2662,7 @@
               {
                 "id": "tns-l2-3",
                 "thai": "ไม่เคย",
-                "roman": "mâi khooei",
+                "roman": "mâi khəəi",
                 "en": "Have never",
                 "tone": "",
                 "tones": [
@@ -2819,15 +2828,20 @@
               {
                 "id": "res-l1-4",
                 "thai": "เก็บเงินด้วย",
-                "roman": "kèp ngoen dûai",
-                "en": "Check, please",
+                "roman": "kèp ngən dûai",
+                "en": "The bill, please",
                 "tone": "",
                 "tones": [
                   "low",
                   "mid",
                   "falling"
                 ],
-                "emoji": "🧾"
+                "emoji": "🧾",
+                "accept": [
+                  "bill please",
+                  "check please",
+                  "check, please"
+                ]
               },
               {
                 "id": "res-l1-5",
@@ -2935,7 +2949,7 @@
               {
                 "id": "fun2-l1-0",
                 "thai": "ใจร้อน",
-                "roman": "jai-ráwn",
+                "roman": "jai-rɔ́ɔn",
                 "en": "Impatient",
                 "tone": "",
                 "tones": [
@@ -2969,7 +2983,7 @@
               {
                 "id": "fun2-l1-2",
                 "thai": "ใจลอย",
-                "roman": "jai-lawy",
+                "roman": "jai-lɔɔi",
                 "en": "Daydreaming",
                 "tone": "",
                 "tones": [
@@ -2986,7 +3000,7 @@
               {
                 "id": "fun2-l1-3",
                 "thai": "ปากแข็ง",
-                "roman": "bpàak-khǎeng",
+                "roman": "pàak-khɛ̌ng",
                 "en": "Too stubborn to admit it",
                 "tone": "",
                 "tones": [
@@ -3003,7 +3017,7 @@
               {
                 "id": "fun2-l1-4",
                 "thai": "หูผึ่ง",
-                "roman": "hǔu-pùeng",
+                "roman": "hǔu-phùeng",
                 "en": "All ears",
                 "tone": "",
                 "tones": [
@@ -3492,7 +3506,7 @@
               {
                 "id": "work-l2-4",
                 "thai": "เงินเดือน",
-                "roman": "ngoen-duean",
+                "roman": "ngən-duean",
                 "en": "Salary",
                 "tone": "mid",
                 "tones": [
@@ -3772,7 +3786,7 @@
               {
                 "id": "fun3-l1-0",
                 "thai": "หนีเสือปะจระเข้",
-                "roman": "nǐi-sǔea-bpà-jaw-rá-kâe",
+                "roman": "nǐi-sǔea-pà-jɔɔ-rá-khêe",
                 "en": "Out of the frying pan, into the fire",
                 "tone": "",
                 "tones": [
@@ -3793,7 +3807,7 @@
               {
                 "id": "fun3-l1-1",
                 "thai": "ขี่ช้างจับตั๊กแตน",
-                "roman": "khìi-cháang-jàp-dták-gà-dtaen",
+                "roman": "khìi-cháang-jàp-ták-kà-tɛɛn",
                 "en": "Using a sledgehammer to crack a nut",
                 "tone": "",
                 "tones": [
@@ -3814,7 +3828,7 @@
               {
                 "id": "fun3-l1-2",
                 "thai": "ผักชีโรยหน้า",
-                "roman": "pàk-chii-rooi-nâa",
+                "roman": "phàk-chii-rooi-nâa",
                 "en": "Looks good only on the surface",
                 "tone": "",
                 "tones": [
@@ -3833,7 +3847,7 @@
               {
                 "id": "fun3-l1-3",
                 "thai": "ปลาหมอตายเพราะปาก",
-                "roman": "bplaa-mǎw-dtaai-práw-bpàak",
+                "roman": "plaa-mɔ̌ɔ-taai-phrɔ́-pàak",
                 "en": "Talking too much gets you in trouble",
                 "tone": "",
                 "tones": [
@@ -3853,7 +3867,7 @@
               {
                 "id": "fun3-l1-4",
                 "thai": "ไก่ได้พลอย",
-                "roman": "gài-dâai-plawy",
+                "roman": "kài-dâai-phlɔɔi",
                 "en": "Pearls before swine",
                 "tone": "",
                 "tones": [
@@ -3871,7 +3885,7 @@
               {
                 "id": "fun3-l1-5",
                 "thai": "ใกล้เกลือกินด่าง",
-                "roman": "glâi-gluea-gin-dàang",
+                "roman": "klâi-kluea-kin-dàang",
                 "en": "Ignoring the good thing right beside you",
                 "tone": "",
                 "tones": [
@@ -4691,14 +4705,14 @@
               {
                 "id": "prv-l1-2",
                 "thai": "ตนเป็นที่พึ่งแห่งตน",
-                "roman": "ton pen thîi-phùeng hɛ̀ng ton",
+                "roman": "ton pen thîi-phûeng hɛ̀ng ton",
                 "en": "Self-reliance (\"oneself is one's own refuge\")",
                 "tone": "",
                 "tones": [
                   "mid",
                   "mid",
                   "falling",
-                  "low",
+                  "falling",
                   "low",
                   "mid"
                 ],
@@ -4899,7 +4913,7 @@
       },
       {
         "id": "reactions",
-        "title": "Humor & Reactions",
+        "title": "Humour & Reactions",
         "tagline": "The little exclamations real conversations run on.",
         "lessons": [
           {

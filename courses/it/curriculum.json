@@ -71,8 +71,7 @@
         "accept": [
          "no problem",
          "not at all",
-         "you are welcome",
-         "please"
+         "you are welcome"
         ],
         "emoji": "😌",
         "note": "Prego does lots of jobs: you're welcome, please go ahead, after you."
@@ -721,8 +720,7 @@
         "en": "Tasty",
         "accept": [
          "delicious",
-         "yummy",
-         "good"
+         "yummy"
         ],
         "emoji": "😋",
         "note": "Buono is 'good' and 'tasty'. With a she word it becomes buona: una pizza buona."
@@ -848,9 +846,7 @@
         "id": "it-phr-l2-5",
         "text": "Quanto?",
         "en": "How much?",
-        "accept": [
-         "how many"
-        ],
+        "accept": [],
         "emoji": "💰"
        }
       ]

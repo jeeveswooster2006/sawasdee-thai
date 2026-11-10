@@ -98,8 +98,7 @@
         "en": "Good",
         "accept": [
          "well",
-         "fine",
-         "ok"
+         "fine"
         ],
         "emoji": "👍"
        },
@@ -3309,8 +3308,7 @@
         "text": "Allô ?",
         "en": "Hello? (on the phone)",
         "accept": [
-         "hello on the phone",
-         "hello"
+         "hello on the phone"
         ],
         "emoji": "📞",
         "note": "The French only say allô on the phone."

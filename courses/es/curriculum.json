@@ -422,7 +422,7 @@
         "accept": [
          "the daughter"
         ],
-        "emoji": "👶"
+        "emoji": "👩‍👧"
        }
       ]
      },
@@ -457,7 +457,10 @@
         "id": "es-fam-l2-2",
         "text": "el tío",
         "en": "Uncle",
-        "emoji": "🧔"
+        "emoji": "🧔",
+        "accept": [
+         "the uncle"
+        ]
        },
        {
         "id": "es-fam-l2-3",
@@ -722,10 +725,7 @@
         "id": "es-phr-l1-1",
         "text": "quiero",
         "en": "I want",
-        "accept": [
-         "i would like",
-         "i'd like"
-        ],
+        "accept": [],
         "emoji": "🙋"
        },
        {
@@ -804,9 +804,7 @@
         "id": "es-phr-l2-5",
         "text": "¿Cuánto?",
         "en": "How much?",
-        "accept": [
-         "how many"
-        ],
+        "accept": [],
         "emoji": "💰"
        }
       ]
@@ -1049,7 +1047,10 @@
         "id": "es-shop-l1-2",
         "text": "barato",
         "en": "Cheap",
-        "emoji": "🪙"
+        "emoji": "🪙",
+        "accept": [
+         "inexpensive"
+        ]
        },
        {
         "id": "es-shop-l1-3",
