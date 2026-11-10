@@ -3213,11 +3213,11 @@
          "it": []
         },
         "note": {
-         "th": "ไม่พูดว่า \"I am called…\" แต่พูดว่า \"My name is…\" (ชื่อของฉันคือ…)",
+         "th": "ปกติพูดว่า \"My name is…\" (ชื่อของฉันคือ…) ส่วน \"I'm called…\" ก็ใช้ได้",
          "fr": "Pas de « je » ici : on dit « My name is… » (mon nom est…).",
          "es": "Aquí no se usa «yo»: se dice «My name is…» (mi nombre es…).",
          "it": "Qui non si usa «io»: si dice «My name is…» (il mio nome è…).",
-         "en": "We say \"My name is…\", not \"I am called…\"."
+         "en": "\"My name is…\" is the usual way to say it. \"I'm called…\" is fine too."
         },
         "id": "en-sen-l1-0"
        },
@@ -4144,7 +4144,7 @@
          "fr": "Je suis grand.",
          "es": "Soy alto.",
          "it": "Sono alto.",
-         "en": "A sentence about how big you are"
+         "en": "A sentence about how tall you are"
         },
         "accept": {
          "th": [],
@@ -6884,7 +6884,7 @@
          "fr": "Nous avons regardé un film.",
          "es": "Vimos una película.",
          "it": "Abbiamo guardato un film.",
-         "en": "We looked at a movie"
+         "en": "We saw a story on a screen"
         },
         "accept": {
          "th": [],
