@@ -1,7 +1,7 @@
 # Rules for this project (Nong Chang & Family)
 
-## Mix the languages (Paul, 5 Nov 2026)
-- The app started Thai-only, but French and Spanish likely bring more interest. Give French, Spanish and (since 6 Nov) Italian an equal share in marketing (social posts, emails, Reddit), and in new features and content (stories, festival specials, games). Don't default to Thai-only.
+## Lead with Thai families (Paul, 10 Nov 2026; replaces the 5 Nov "equal share" rule)
+- The growth audit (10 Nov) found 35 of 36 learners chose Thai. Paul agreed: lead marketing (posters, posts, front-page wording) with the Thai family story, then mention French, Spanish, Italian and English. Keep all five languages in features and content; don't drop the others.
 
 ## Pictures and videos
 - **Every animal must have the correct number of limbs for its species.** Elephants, bulls and other four-legged animals have exactly four legs and no hands or arms; birds have two legs and two wings; people have two arms and two legs. No extra, missing, merged or duplicated limbs.
@@ -134,3 +134,11 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **Cloudflare Web Analytics** (free, no cookies) runs on nongchang.co.uk through a script in the app. The domain isn't proxied through Cloudflare (Lovable hosts it), so don't turn on the orange cloud. See visits in Cloudflare → Analytics & Logs → Web Analytics.
 - **Short links:** nongchang.co.uk/fb, /ig, /rd (Reddit) and /em (email) remember the source. New accounts get `signup_source` in user metadata. Count them with `select raw_user_meta_data->>'signup_source', count(*) from auth.users group by 1`.
 - Use /fb in Facebook posts, /ig in the Instagram bio, /rd on Reddit and /em in emails.
+
+## Growth audit (10 Nov 2026)
+- Full read-only audit published as a Claude artifact ("Nong Chang Growth Audit"). Main finding: the app is good but few people find it (1 sign-up a week, 10 Google visits a month, social pages have 9 followers in total). Focus on acquisition, not new features.
+- Paul's decisions on the five opportunities: (1) Search Console is set up, sitemap read 9 Nov (19 URLs); SEO fixes done in the preview. (2) Build "Try a lesson" with no sign-up (mockups published, waiting for his OK). (3) Paul posts in community groups himself; don't schedule more page posts for January unless asked. (4) Lead with Thai families (see top). (5) Website line on printables plus an A4 poster (mockups published). 7-day family challenge: left for now (Family goal covers most of it).
+- Content fixes from the audit's proofreading are on content main (abe7057) and the english branch (ff8368b), not live until "publish" (move live.json; update the English `base` in courses.json). Native-speaker questions (vous/tú formality, Gentili Signori, "Spare the rod", etc.) are listed in the audit for Paul.
+- "Invite a friend" shares now use the short link /in (signup_source "invite").
+- Budget: Paul said about £10 a month; Lovable Pro + ElevenLabs Creator is roughly £35–40. Plan: downgrade ElevenLabs after the December recording batch.
+
