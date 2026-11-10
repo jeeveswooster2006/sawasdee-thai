@@ -54,9 +54,10 @@ Not started. Only pick these up when Paul asks.
 - Facebook posts that Paul publishes himself.
 - **Alphabet & Numbers sections (Paul, 9 Nov; parked until ElevenLabs credits reset ~5 Dec, reminder set):** home-page tabs Lessons · Alphabet · Numbers for every language, never gating main lessons. Numbers: reuse the 20 recorded per language + ~10 more each (0, 16–19, 60–90, 1000) ≈ 300 credits. Alphabet: Thai = Read Thai; record ~26 letters each for fr/es/it/en ≈ 550 credits. **Code built 9 Nov (preview only; `extraTracksEnabled()` keeps it off the live site even when other things are published — Paul's instruction). Still to do after the reset: record the clips (ids in AGENTS.md of sawasdee-family), then switch it on.**
 
-## Inactive accounts (Paul, 9 Nov 2026)
-- Built in the app, switched off (`INACTIVE_CLEANUP = "report"` in sawasdee-family `src/lib/features.ts`). Rules: unconfirmed sign-ups deleted after 30 days (no email); no learning ever: 6 months unused; some learning: 12 months. Warning emails 2 months, 1 month and 2 days before, then an "account deleted" email; signing in or opening the app resets the clock. Details in AGENTS.md of sawasdee-family.
-- To switch on (only when Paul says so): set it to "on", and ask Lovable for a daily timer calling POST /api/public/inactive-accounts with the cron secret (like the weekly email). First warnings would be around Feb 2027; the 6 unconfirmed sign-ups would be deleted straight away.
+## Inactive accounts (Paul, 9 Nov 2026; switched on 10 Nov)
+- Live and on (`INACTIVE_CLEANUP = "on"` in sawasdee-family `src/lib/features.ts`; set to "report" to pause). Rules: unconfirmed sign-ups deleted after 30 days (no email); no learning ever: 6 months unused; some learning: 12 months. Warning emails 2 months, 1 month and 2 days before, then an "account deleted" email; signing in or opening the app resets the clock. At most 10 deletions a day. Details in AGENTS.md of sawasdee-family.
+- Daily timer: pg_cron job `inactive-accounts-daily` (04:23 UTC) POSTs to /api/public/inactive-accounts. It was made for free by copying the weekly-email job's command with the address swapped (same cron secret, never read out). If Lovable ever rotates the cron secret and this job starts getting 401s (check `net._http_response`), recreate it the same way from a weekly job.
+- First test run 10 Nov: 33 accounts checked, nothing to do. The 6 unconfirmed sign-ups go when they reach 30 days old (late Nov/early Dec); first warnings about Feb 2027.
 
 ## Privacy and the ICO (9 Nov 2026)
 - Privacy page at nongchang.co.uk/privacy (text in sawasdee-family `src/data/privacy.ts`, five languages). Update it whenever the app starts keeping something new, uses a new service, or the inactive-account timings change.
@@ -90,6 +91,7 @@ Not started. Only pick these up when Paul asks.
 - December 2026 (scheduled 6 Nov, both networks): Tue 1 Dec 7pm Italian "Ciao" card (`fb-italian-hello.png`), Sat 5 Dec 10am Italian Reel with Lupo. All 20 December posts are now used: the other 18 (weekdays 7pm, 2–30 Dec, equal mix of the four languages, each card showing its own mascot) were scheduled 6 Nov from `social/facebook/dec-2026-posts.json`; cards are on the `originals` branch in `social/facebook/dec-2026/` (made with `tools/social/make_cards_dec.py`).
 
 ## Weekly family email (live 5 Nov 2026)
+- First Sunday run checked (8 Nov): the 17:00 UTC call was skipped as outside the window, the 18:00 UTC call sent 1 email to 1 opted-in family, no failures.
 - Goes out Sundays 18:00 London to opted-in adult account owners only (code: `src/lib/weekly-email*.ts` in sawasdee-family). Database timer: Lovable-managed pg_cron jobs `weekly-family-email-utc17` and `-utc18` POST to /api/public/weekly-email with the cron secret (set up by Lovable 5 Nov); the route ignores calls outside the window, and a family gets at most one per week.
 - Needs the `RESEND_API_KEY` secret in Lovable (Paul adds it himself).
 - When something important ships (e.g. a new language), add a line to `src/lib/whats-new.ts` so it appears in that week's email.
