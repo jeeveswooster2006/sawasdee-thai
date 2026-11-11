@@ -47,15 +47,11 @@ The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (br
 - The live database is Lovable Cloud project `e31b84f7-44c3-4a30-92e8-dc156d90824d`; check and change it with the Lovable `query_database` tool.
 - Start new Claude Code sessions from `jeeveswooster2006/sawasdee-family` (app) and add this repo; the old `which-pet-shines` repo is unrelated and may be deleted.
 
-## Nightly check and leftover Lovable credits (Paul, 11 Nov 2026)
-- A scheduled task runs every night at 22:47 UK ("Nightly check and leftover Lovable credits"), shortly before the daily Lovable credits reset, so it only uses credits that would otherwise lapse.
-- First the free checks: timer jobs (`net._http_response` errors in the last 24 h), new feedback rows, new sign-ups and their `signup_source`, and anything broken on the live site.
-- Then Lovable work, only from the "Approved Lovable jobs" list below, at most about 2 credits a night, and only if it's worth doing. Spending nothing is fine; never do busywork to use credits up.
-- Never with credits: database migrations, auth or other settings changes, secrets, deleting anything, or publishing. Those still need Paul ("publish" or an explicit OK). Code changes land in the preview only and are reviewed next time. Anything that can be done free on GitHub is done that way, not with credits.
-- Approved Lovable jobs (Paul adds or removes items):
-  1. Weekly (Sunday nights): Lovable security and database health check in plan mode, report only.
-  2. When there is new feedback or a reported error that needs Lovable-only tools (database logs, auth logs) to investigate: a plan-mode investigation, report only.
-- Each run ends with a short phone-friendly summary for Paul (what was checked, credits used, anything that needs him).
+## Morning suggestions for Lovable credits (Paul, 11 Nov 2026)
+- A scheduled task runs every night at 02:57 UK ("Morning suggestions for Lovable credits"), after Paul's 5 daily Lovable credits refresh. It spends NO credits itself: it does the free checks (timer job errors in `net._http_response`, new feedback, new sign-ups and `signup_source`, live site up) and prepares up to 3 suggestions for using that day's credits, each with a realistic cost and risk, plus at most 2 free ideas. Paul answers "yes"/"no" (or the numbers) in that session in the morning, and only then is anything done.
+- Suggestions only for things that genuinely need Lovable (database or auth investigation, security scans, Lovable-only features). Never busywork; "nothing worth spending credits on today" is a fine answer. Anything that can be done free on GitHub is done that way.
+- Even after a "yes": migrations and settings changes only for the exact approved item; code changes go to the preview; publishing still needs "publish".
+- The scheduled task was created without the Lovable connector (it couldn't be passed from the chat). If the morning message says the connector was missing, Paul needs to add Lovable to the scheduled task in the claude.ai scheduled tasks screen.
 
 ## Parked ideas (Paul, 1 Nov 2026)
 Not started. Only pick these up when Paul asks.
