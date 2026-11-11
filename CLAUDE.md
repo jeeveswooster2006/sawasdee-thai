@@ -3,6 +3,28 @@
 ## Lead with Thai families (Paul, 10 Nov 2026; replaces the 5 Nov "equal share" rule)
 - The growth audit (10 Nov) found 35 of 36 learners chose Thai. Paul agreed: lead marketing (posters, posts, front-page wording) with the Thai family story, then mention French, Spanish, Italian and English. Keep all five languages in features and content; don't drop the others.
 
+## To-do list (keep this up to date: the twice-weekly reminder reads it)
+Tick items off here (move to the right section's notes) as they're done; add new ones as Paul agrees them.
+**Waiting for Paul**
+- Loy Krathong (Tue 24 Nov): festival words in the app, just a social post, or skip.
+- Native-speaker questions from the audit (vous/tú formality, Gentili Signori, "Spare the rod", ผม/ฉัน labels, etc.).
+- Check the sign-in limits: Lovable → More → Users → Auth settings (sign-in attempts at most 30 per 5 minutes).
+- Put up the A4 poster (temples, Thai shops, schools) and post in community groups; a Reddit post with nongchang.co.uk/rd.
+- Confirm his real login still works (a "Dad" learner from 14 Oct is under another login).
+- GoGo España reply (info@).
+- Add the Lovable connector to the "Morning suggestions" scheduled task (claude.ai scheduled tasks screen).
+**Free, Claude can do when asked**
+- Christmas guide page: "Christmas words in French, Spanish and Italian for kids" (early December).
+- Weekly numbers summary each Monday (visitors, sign-ups, where from).
+- Tidy the Resend contacts: remove people who never opted in to news emails (privacy; needs Paul's OK).
+**Needs credits**
+- ElevenLabs (reset about 5 Dec): Alphabet & Numbers recordings (~850 credits, then switch on), Fun sayings pictures (~310 each × 12), colouring-sheet pictures (~310 each). Then downgrade ElevenLabs.
+- Lovable: optional index on feedback.learner_profile_id (small migration); phone push reminders (key + database change).
+**Scheduled (scheduled tasks)**
+- Every night 02:57: morning suggestions for Lovable credits.
+- Mon and Thu 07:47: this to-do reminder.
+- 16 Nov: Quick start results · 18 Nov: Search Console "Pages" screenshot · 21 Nov: Loy Krathong · 5 Dec: ElevenLabs reset, Alphabet & Numbers · 12 Dec: colouring sheets + Christmas · 5 Jan: back-burner ideas (holiday packs, invite a family, schools and clubs) · 6 Jan: "Say it" on iPhone/iPad · 15 Mar: Songkran.
+
 ## Pictures and videos
 - **Every animal must have the correct number of limbs for its species.** Elephants, bulls and other four-legged animals have exactly four legs and no hands or arms; birds have two legs and two wings; people have two arms and two legs. No extra, missing, merged or duplicated limbs.
 - **What counts as a failure (Paul, 31 Oct 2026):** extra or missing limbs, or limbs merging into other objects. An animal using its legs or wings like arms (holding a book, waving, standing upright) is fine as long as it still has the right number of limbs — don't flag or redo pictures for that.
