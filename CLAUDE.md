@@ -20,7 +20,7 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Tidy the Resend contacts: remove people who never opted in to news emails (privacy; needs Paul's OK).
 **Needs credits**
 - ElevenLabs (reset about 5 Dec): Alphabet & Numbers recordings (~850 credits, then switch on), Fun sayings pictures (~310 each × 12), colouring-sheet pictures (~310 each). Then downgrade ElevenLabs.
-- Lovable: optional index on feedback.learner_profile_id (small migration); phone push reminders (key + database change).
+- Lovable: phone push reminders (key + database change); later, XP totals in the database (item 16). Feedback index and a 12-learner-per-family limit DONE 12 Nov (migration 0019, 1.3 credits; the friendly app message waits for the next "publish").
 **Scheduled (scheduled tasks)**
 - Every night 02:57: morning suggestions for Lovable credits.
 - Mon and Thu 07:47: this to-do reminder.
