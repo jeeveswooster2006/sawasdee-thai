@@ -28,6 +28,11 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Mon and Thu 07:47: this to-do reminder.
 - 16 Nov: Quick start results · 18 Nov: Search Console "Pages" screenshot · 21 Nov: Loy Krathong · 5 Dec: ElevenLabs reset, Alphabet & Numbers · 12 Dec: colouring sheets + Christmas · 5 Jan: back-burner ideas (holiday packs, invite a family, schools and clubs) · 6 Jan: "Say it" on iPhone/iPad · 15 Mar: Songkran.
 
+## Brand kit (12 Nov 2026; design review at claude.ai/artifact/5imUmMWUfvryH4pQxZsRei)
+- Use the app's colours for every new card, poster, GIF and video: temple teal #007767 (buttons, links), deep ink #123B37 (headings), mint paper #EEF5F0 (background), marigold #F2A024 (stars, highlights), lotus pink #E0507A (trim), soft mint #D3EFE7, cream #F6EFE0 (picture frames, ring #F3E2B0), sage grey #4F6B66 (small print). The dotted temple trim is teal, pink, marigold. Older cards used #127D6A and the first poster #1C8A7C; use the app colours from now on (reprint the poster with them next time).
+- Fonts: Mitr (headings, buttons) and Sarabun (reading text, Thai words). Lines: "Learn a language together as a family" · "Free · no ads · works on any phone" · "made by a dad in the UK". Thai first, then French, Spanish, Italian, English.
+- Link preview picture (all five mascots): sawasdee-family `public/share/nongchang-share-5.png`.
+
 ## Pictures and videos
 - **Every animal must have the correct number of limbs for its species.** Elephants, bulls and other four-legged animals have exactly four legs and no hands or arms; birds have two legs and two wings; people have two arms and two legs. No extra, missing, merged or duplicated limbs.
 - **What counts as a failure (Paul, 31 Oct 2026):** extra or missing limbs, or limbs merging into other objects. An animal using its legs or wings like arms (holding a book, waving, standing upright) is fine as long as it still has the right number of limbs — don't flag or redo pictures for that.

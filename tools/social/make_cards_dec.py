@@ -10,8 +10,9 @@ def circ(img,r,ring=True):
     e=img.resize((2*r,2*r),Image.LANCZOS); m=Image.new("L",e.size,0); ImageDraw.Draw(m).ellipse((0,0,2*r-1,2*r-1),fill=255)
     out=Image.new("RGB",(2*r+12,2*r+12),(243,226,176)); om=Image.new("L",out.size,0); ImageDraw.Draw(om).ellipse((0,0,2*r+11,2*r+11),fill=255)
     out.paste(e,(6,6),m); return out,om
-BG=(238,244,239); DARK=(18,60,51); TEAL=(18,125,106); ORANGE=(232,150,46); GREY=(78,106,98)
-dots=[(18,125,106),(229,87,135),(232,150,46)]
+# The app's own colours (brand kit, 12 Nov 2026): mint paper, deep ink, temple teal, marigold, sage grey, lotus pink.
+BG=(238,245,240); DARK=(18,59,55); TEAL=(0,119,103); ORANGE=(242,160,36); GREY=(79,107,102)
+dots=[(0,119,103),(224,80,122),(242,160,36)]
 FALL="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 cmaps={}
 def cmap(path):
