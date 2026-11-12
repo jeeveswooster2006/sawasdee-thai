@@ -6,10 +6,10 @@
 ## To-do list (keep this up to date: the twice-weekly reminder reads it)
 Tick items off here (move to the right section's notes) as they're done; add new ones as Paul agrees them.
 **Waiting for Paul**
-- Health check (12 Nov, report: claude.ai/artifact/2CYvRYsxHLzoQEoUe8EggG): free fixes 1–12 and Lovable 13–15 DONE 12 Nov (Lovable migration 0018 for streak dates/12-hour sessions is already live in the shared database; timers got a 60 s timeout). The app changes are on the preview, waiting for "publish". Still for Paul: 17 keep or remove Lovable's "Connect an app"; 18 check "Secure email change" and "Secure password change" in Lovable auth settings; 19 turn on GitHub two-factor; 20 "teach new words before testing" (bigger change, his call). Not done: loading only the visitor's language text (needs a bigger rework) and 16 (XP totals in the database, later).
+- Health check (12 Nov, report: claude.ai/artifact/2CYvRYsxHLzoQEoUe8EggG): free fixes 1–12 and Lovable 13–15 DONE 12 Nov (Lovable migration 0018 for streak dates/12-hour sessions is already live in the shared database; timers got a 60 s timeout). The app changes are on the preview, waiting for "publish". 17 "Connect an app" REMOVED 12 Nov (Paul; nobody had used it; on the preview); 18 DONE 12 Nov (Paul's screenshot: secure email change, re-authentication and current password for password changes, HIBP all on; minimum length stays 6 because child logins allow 6). Still for Paul: 19 turn on GitHub two-factor; 20 "teach new words before testing" (bigger change, his call). Not done: loading only the visitor's language text (needs a bigger rework) and 16 (XP totals in the database, later).
 - Loy Krathong (Tue 24 Nov): festival words in the app, just a social post, or skip.
 - Native-speaker questions from the audit (vous/tú formality, Gentili Signori, "Spare the rod", ผม/ฉัน labels, etc.).
-- Check the sign-in limits: Lovable → More → Users → Auth settings (sign-in attempts at most 30 per 5 minutes).
+- Check the sign-in limits: Lovable → More → Users → Settings (sign-in attempts at most 30 per 5 minutes). Email settings live under More → Users → Settings → Email.
 - Put up the A4 poster (temples, Thai shops, schools) and post in community groups; a Reddit post with nongchang.co.uk/rd.
 - Confirm his real login still works (a "Dad" learner from 14 Oct is under another login).
 - GoGo España reply (info@).
