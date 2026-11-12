@@ -1149,14 +1149,17 @@
               {
                 "id": "time-l1-3",
                 "thai": "วันพฤหัสบดี",
-                "roman": "wan phá-rúe-hàt",
+                "roman": "wan phá-rúe-hàt-sà-bɔɔ-dii",
                 "en": "Thursday",
                 "tone": "",
                 "tones": [
                   "mid",
                   "high",
                   "high",
-                  "low"
+                  "low",
+                  "low",
+                  "mid",
+                  "mid"
                 ]
               },
               {
@@ -1891,7 +1894,7 @@
               {
                 "id": "feel-l2-1",
                 "thai": "ปวดท้อง",
-                "roman": "pùat-tháng",
+                "roman": "pùat-thɔ́ɔng",
                 "en": "Stomachache",
                 "tone": "",
                 "tones": [
@@ -3614,7 +3617,7 @@
               {
                 "id": "dlg-l2-0",
                 "thai": "ขอโทษครับ ห้องน้ำอยู่ที่ไหน",
-                "roman": "khɔ̌ɔ-thôot khráp hɔ̂ng-náam yùu thîi-nǎi",
+                "roman": "khɔ̌ɔ-thôot khráp hɔ̂ɔng-náam yùu thîi-nǎi",
                 "en": "Excuse me, where's the bathroom?",
                 "tone": "",
                 "tones": [
@@ -4870,7 +4873,7 @@
               {
                 "id": "slg-l1-1",
                 "thai": "เท่",
-                "roman": "thêh",
+                "roman": "thêe",
                 "en": "Cool (stylish)",
                 "tone": "falling",
                 "emoji": "😎"
@@ -5013,7 +5016,7 @@
               {
                 "id": "rdg-l1-1",
                 "thai": "ฉันกินข้าวเช้าแล้วก็ไปทำงาน",
-                "roman": "chǎn kin khâao cháao lɛ́ɛo kɔ̂ pai tham-ngaan",
+                "roman": "chǎn kin khâao cháao lɛ́ɛo kɔ̂ɔ pai tham-ngaan",
                 "en": "I eat breakfast and then go to work",
                 "tone": "",
                 "tones": [
