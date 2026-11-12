@@ -10,7 +10,7 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Loy Krathong (Tue 24 Nov): festival words in the app, just a social post, or skip.
 - Native-speaker questions from the audit (vous/tú formality, Gentili Signori, "Spare the rod", ผม/ฉัน labels, etc.).
 - Check the sign-in limits: Lovable → More → Users → Settings (sign-in attempts at most 30 per 5 minutes). Email settings live under More → Users → Settings → Email.
-- Put up the A4 poster (temples, Thai shops, schools) and post in community groups; a Reddit post with nongchang.co.uk/rd.
+- Put up the A4 poster (temples, Thai shops, schools) and post in community groups. Reddit: an app post on r/learnthai was removed (likely their "no promotion without mod approval" rule); Paul messaged the mods 12 Nov asking permission. If they agree, post the 12 Nov draft (title "I made a free Thai app for families...", link nongchang.co.uk/rd). Never repost without approval.
 - Confirm his real login still works (a "Dad" learner from 14 Oct is under another login).
 - GoGo España reply (info@).
 - Add the Lovable connector to the "Morning suggestions" scheduled task (claude.ai scheduled tasks screen).
