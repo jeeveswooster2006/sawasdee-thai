@@ -23,7 +23,7 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Tidy the Resend contacts: remove people who never opted in to news emails (privacy; needs Paul's OK).
 **Needs credits**
 - ElevenLabs (reset about 5 Dec): Alphabet & Numbers recordings (~850 credits, then switch on), Fun sayings pictures (~310 each × 12), colouring-sheet pictures (~310 each). Then downgrade ElevenLabs.
-- Lovable: phone push reminders (key + database change); later, XP totals in the database (item 16). Feedback index and a 12-learner-per-family limit DONE 12 Nov (migration 0019, 1.3 credits; friendly message published 12 Nov).
+- Lovable: later, XP totals in the database (item 16). Phone push reminders BUILT 13 Nov (Lovable 1 credit for the tables + 1 credit security re-check, nothing serious found; app side free, on the preview): waiting for "publish", then Paul tests on his phone (Me → Phone reminder; iPhone needs the app on the Home Screen first). Feedback index and a 12-learner-per-family limit DONE 12 Nov (migration 0019, 1.3 credits; friendly message published 12 Nov).
 **Scheduled (scheduled tasks)**
 - Every night 02:57: morning suggestions for Lovable credits.
 - Mon and Thu 07:47: this to-do reminder.
