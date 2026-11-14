@@ -18,7 +18,6 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Put up the A4 poster (temples, Thai shops, schools) and post in community groups. Reddit: an app post on r/learnthai was removed (likely their "no promotion without mod approval" rule); Paul messaged the mods 12 Nov; they asked to see the original post and APPROVED it 13 Nov (link nongchang.co.uk/rd, so sign-ups show signup_source "rd"). Don't post it again elsewhere in the same words.
 - Confirm his real login still works (a "Dad" learner from 14 Oct is under another login).
 - GoGo España reply (info@).
-- Add the Lovable connector to the "Morning suggestions" scheduled task (claude.ai scheduled tasks screen).
 **Free, Claude can do when asked**
 - Christmas guide page: "Christmas words in French, Spanish and Italian for kids" (early December).
 - Weekly numbers summary each Monday (visitors, sign-ups, where from).
@@ -27,7 +26,6 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - ElevenLabs (reset about 5 Dec; balance used up by the Loy Krathong voice lines on 13 Nov, so nothing more until the reset): Alphabet & Numbers recordings (~850 credits, then switch on), Fun sayings pictures (~310 each × 12), colouring-sheet pictures (~310 each). Then downgrade ElevenLabs.
 - Lovable: later, XP totals in the database (item 16). Phone push reminders BUILT 13 Nov (Lovable 1 credit for the tables + 1 credit security re-check, nothing serious found; app side free): PUBLISHED 13 Nov and WORKS on Paul's iPhone (11:08, "Reminders are on" arrived). Lesson: an iPhone Home Screen icon added before 10 Nov (no manifest then) silently refuses notifications; deleting and re-adding the icon fixed it (he then had to reset his password, as the new icon starts signed out). A safer switch (service worker ready before the tap, diagnostic code under errors, iPhone "delete and re-add the icon" hint) PUBLISHED 13 Nov (8be65ed). Feedback index and a 12-learner-per-family limit DONE 12 Nov (migration 0019, 1.3 credits; friendly message published 12 Nov).
 **Scheduled (scheduled tasks)**
-- Every night 02:57: morning suggestions for Lovable credits.
 - Mon and Thu 07:47: this to-do reminder.
 - 16 Nov: Quick start results · 18 Nov: Search Console "Pages" screenshot · 21 Nov: Loy Krathong · 5 Dec: ElevenLabs reset, Alphabet & Numbers · 12 Dec: colouring sheets + Christmas · 5 Jan: back-burner ideas (holiday packs, invite a family, schools and clubs) · 6 Jan: "Say it" on iPhone/iPad · 15 Mar: Songkran.
 
@@ -88,7 +86,7 @@ The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (br
 - The live database is Lovable Cloud project `e31b84f7-44c3-4a30-92e8-dc156d90824d`; check and change it with the Lovable `query_database` tool.
 - Start new Claude Code sessions from `jeeveswooster2006/sawasdee-family` (app) and add this repo; the old `which-pet-shines` repo is unrelated and may be deleted.
 
-## Morning suggestions for Lovable credits (Paul, 11 Nov 2026)
+## Morning suggestions for Lovable credits (Paul, 11 Nov 2026; STOPPED 14 Nov at Paul's request: the scheduled task is switched off, don't suggest turning it back on)
 - A scheduled task runs every night at 02:57 UK ("Morning suggestions for Lovable credits"), after Paul's 5 daily Lovable credits refresh. It spends NO credits itself: it does the free checks (timer job errors in `net._http_response`, new feedback, new sign-ups and `signup_source`, live site up) and prepares up to 3 suggestions for using that day's credits, each with a realistic cost and risk, plus at most 2 free ideas. Paul answers "yes"/"no" (or the numbers) in that session in the morning, and only then is anything done.
 - Suggestions only for things that genuinely need Lovable (database or auth investigation, security scans, Lovable-only features). Never busywork; "nothing worth spending credits on today" is a fine answer. Anything that can be done free on GitHub is done that way.
 - Even after a "yes": migrations and settings changes only for the exact approved item; code changes go to the preview; publishing still needs "publish".
