@@ -1,7 +1,8 @@
 # Rules for this project (Nong Chang & Family)
 
-## Lead with Thai families (Paul, 10 Nov 2026; replaces the 5 Nov "equal share" rule)
-- The growth audit (10 Nov) found 35 of 36 learners chose Thai. Paul agreed: lead marketing (posters, posts, front-page wording) with the Thai family story, then mention French, Spanish, Italian and English. Keep all five languages in features and content; don't drop the others.
+## All five languages are equal in posts (Paul, 14 Nov 2026; replaces the 10 Nov "lead with Thai families" rule for posts)
+- Facebook, Instagram and community posts mention all five languages (Thai, French, Spanish, Italian, English) equally. Thai is not the main focus; they are all equally important. Only a language-specific group or page gets its own language first (see "Social media and community messages").
+- Background: the 10 Nov growth audit found 35 of 36 learners chose Thai, so posters and the front page were made Thai-first (front page: Nong Chang biggest; A4 poster: Thai first). Those stay as they are unless Paul asks; new posts follow the equal rule.
 
 ## To-do list (keep this up to date: the twice-weekly reminder reads it)
 Tick items off here (move to the right section's notes) as they're done; add new ones as Paul agrees them.
@@ -34,11 +35,13 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - **Language-specific groups or pages** (e.g. a Thai, French or Spanish learning group): mention that language first, then say the app also teaches the other languages.
 - **General groups** (parenting, multilingual families, language learning in general): list all five languages (Thai, French, Spanish, Italian, English) without leaning on one.
 - **Always lead with what's good and different about the app**, not with one piece of content (e.g. don't make a message about a single video): built for the whole family to learn together (one free family account, up to 12 learners, kids' mode, family goal, Play together, Kids teach the grown-ups), real native-speaker voices, short 5-minute lessons, games and printables, try a lesson with no sign-up, completely free with no ads, works on any phone, made by a dad in the UK.
+- **Facebook and Instagram posts too:** all languages equally, no Thai focus.
+- **Feature spotlight posts:** every so often (about every 1–2 weeks), add an update post about ONE exciting feature, either an existing one (e.g. Play together, Kids teach the grown-ups, family goal, kids' mode, printables, try-a-lesson, phone reminders) or something brand new. Paul still approves with "post".
 - **Always include a link to the app** (use the tracked short link for the place: /rd Reddit, /fb Facebook, /ig Instagram, /em email, /in invites) **and a picture of all five mascots** (sawasdee-family `public/share/nongchang-share-5.png`, live at nongchang.co.uk/share/nongchang-share-5.png). Where a picture can't be attached (e.g. Reddit modmail), link to it.
 
 ## Brand kit (12 Nov 2026; Claude design system claude.ai/artifact/XMu91n1jb7zaQYrE8TJq6Z, read its project/README.md before making cards, posters or videos; design review at claude.ai/artifact/5imUmMWUfvryH4pQxZsRei)
 - Use the app's colours for every new card, poster, GIF and video: temple teal #007767 (buttons, links), deep ink #123B37 (headings), mint paper #EEF5F0 (background), marigold #F2A024 (stars, highlights), lotus pink #E0507A (trim), soft mint #D3EFE7, cream #F6EFE0 (picture frames, ring #F3E2B0), sage grey #4F6B66 (small print). The dotted temple trim is teal, pink, marigold. Older cards used #127D6A and the first poster #1C8A7C; use the app colours from now on (reprint the poster with them next time).
-- Fonts: Mitr (headings, buttons) and Sarabun (reading text, Thai words). Lines: "Learn a language together as a family" · "Free · no ads · works on any phone" · "made by a dad in the UK". Thai first, then French, Spanish, Italian, English.
+- Fonts: Mitr (headings, buttons) and Sarabun (reading text, Thai words). Lines: "Learn a language together as a family" · "Free · no ads · works on any phone" · "made by a dad in the UK". List the languages as Thai, French, Spanish, Italian, English, but give them equal weight in posts.
 - Link preview picture (all five mascots): sawasdee-family `public/share/nongchang-share-5.png`.
 
 ## Pictures and videos
