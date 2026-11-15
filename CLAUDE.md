@@ -18,6 +18,7 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Put up the A4 poster (temples, Thai shops, schools) and post in community groups. Reddit: an app post on r/learnthai was removed (likely their "no promotion without mod approval" rule); Paul messaged the mods 12 Nov; they asked to see the original post and APPROVED it 13 Nov (link nongchang.co.uk/rd, so sign-ups show signup_source "rd"). Don't post it again elsewhere in the same words.
 - Confirm his real login still works (a "Dad" learner from 14 Oct is under another login).
 - GoGo España reply (info@).
+- Family Group Lobby + Fill the gap (built 15 Nov, PREVIEW only; reviewed by Fable for code/security and all 238 sentences proofread; database rule applied 15 Nov): Paul to test in the preview with two phones signed in as two different learners (family online box on Lessons, invite, play). Before "publish": add a privacy-page line (family can see who's online, nothing stored), switch `familyLobby` and `gaps` to "live". Sentence recordings later (~3,500–4,800 ElevenLabs credits after the reset). Fill the gap replaces the Typing button when live.
 **Free, Claude can do when asked**
 - Christmas guide page: "Christmas words in French, Spanish and Italian for kids" (early December).
 - Weekly numbers summary each Monday (visitors, sign-ups, where from).
