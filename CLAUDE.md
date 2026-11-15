@@ -19,6 +19,7 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Confirm his real login still works (a "Dad" learner from 14 Oct is under another login).
 - GoGo España reply (info@).
 - Family Group Lobby + Fill the gap: PUBLISHED 15 Nov (Paul: "Publish", before a two-phone test). Reviewed by Fable (code/security; all 238 sentences proofread); database rule applied and checked. Paul to try a family game on two phones and report anything odd (hide either with `familyLobby`/`gaps` → "preview" in sawasdee-family features.ts and publish). Fill the gap replaced the Typing button. Sentence recordings later (~3,500–4,800 ElevenLabs credits after the reset). Next feature-spotlight post idea: "Play together on your own phones".
+- Hot Som Tam, Sentence Train and Night Market Dash (family games; the market also one-player in Games): PUBLISHED 15 Nov (Paul: "Do a check that everything is correct then publish"). Fable review fixes done first. Paul to try them on two phones (hide any with `somtam`/`train`/`market` → "preview" in sawasdee-family features.ts and publish). Open question: Thai lesson word มันส์ romanised "mán", maybe should be "man".
 **Free, Claude can do when asked**
 - Christmas guide page: "Christmas words in French, Spanish and Italian for kids" (early December).
 - Weekly numbers summary each Monday (visitors, sign-ups, where from).
