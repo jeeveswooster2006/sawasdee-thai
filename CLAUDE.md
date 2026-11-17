@@ -93,6 +93,7 @@ The Lovable app is two-way synced with **jeeveswooster2006/sawasdee-family** (br
 - Paul uses a phone and prefers short, simple messages with explicit tap-by-tap steps. Lead with the outcome.
 - Before spending Lovable credits, say the realistic cost first: actual cost runs 2–3× the gut estimate. Paul gets 5 credits a day. Prefer free GitHub changes.
 - Lovable also edits the app (security scans etc.). Before publishing, review any new Lovable commits and migrations on `sawasdee-family` main: on 1 Nov a Lovable security fix revoked direct writes while the app still used them, and rejected Thai word ids.
+- Don't push to sawasdee-family main while a Lovable message is still running (even a plan-mode one: it commits its report). On 17 Nov a notes push at the same second as Lovable's report commit made Lovable show "A push to your repository replaced your Lovable work"; fixed by merging Lovable's `lovable-sync` branch into main with a normal merge (no force push), then Paul tapping "Keep repository version". If it happens again: check `git log origin/main..origin/lovable-sync`, merge it, then the same tap.
 - Pictures: only extra/missing limbs or limbs merging into objects count as failures (see the top of this file).
 - The live database is Lovable Cloud project `e31b84f7-44c3-4a30-92e8-dc156d90824d`; check and change it with the Lovable `query_database` tool.
 - Start new Claude Code sessions from `jeeveswooster2006/sawasdee-family` (app) and add this repo; the old `which-pet-shines` repo is unrelated and may be deleted.
