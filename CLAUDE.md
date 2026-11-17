@@ -195,6 +195,7 @@ Build in this order. Each one is free on GitHub, shown in the preview, and only 
 - **Cloudflare Web Analytics** (free, no cookies) runs on nongchang.co.uk through a script in the app. The domain isn't proxied through Cloudflare (Lovable hosts it), so don't turn on the orange cloud. See visits in Cloudflare → Analytics & Logs → Web Analytics.
 - **Short links:** nongchang.co.uk/fb, /ig, /rd (Reddit) and /em (email) remember the source. New accounts get `signup_source` in user metadata. Count them with `select raw_user_meta_data->>'signup_source', count(*) from auth.users group by 1`.
 - Use /fb in Facebook posts, /ig in the Instagram bio, /rd on Reddit and /em in emails.
+- /pp (source "peerpush") is for the PeerPush listing (added 17 Nov, ON THE PREVIEW, live on "publish"). Paul added nongchang.co.uk to PeerPush on 14 Nov; on 17 Nov it wasn't searchable yet (waiting for its launch day). Once it's published and /pp is live, Paul changes the listing's website link to nongchang.co.uk/pp and asks friends to upvote on launch day.
 
 ## Growth audit (10 Nov 2026)
 - Full read-only audit published as a Claude artifact ("Nong Chang Growth Audit"). Main finding: the app is good but few people find it (1 sign-up a week, 10 Google visits a month, social pages have 9 followers in total). Focus on acquisition, not new features.
