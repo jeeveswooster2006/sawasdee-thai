@@ -2838,6 +2838,242 @@
     ]
    },
    {
+    "id": "en-beach",
+    "title": {
+     "en": "At the beach",
+     "th": "ที่ชายหาด",
+     "fr": "À la plage",
+     "es": "En la playa",
+     "it": "In spiaggia"
+    },
+    "tagline": {
+     "en": "Splash, dig and build by the sea!",
+     "th": "เล่นน้ำ ขุดทราย สร้างปราสาทริมทะเล!",
+     "fr": "Éclabousse, creuse et construis au bord de la mer !",
+     "es": "¡Chapotea, cava y construye junto al mar!",
+     "it": "Schizza, scava e costruisci in riva al mare!"
+    },
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "en-beach-l1",
+      "title": {
+       "en": "By the sea",
+       "th": "ริมทะเล",
+       "fr": "Au bord de la mer",
+       "es": "Junto al mar",
+       "it": "Vicino al mare"
+      },
+      "words": [
+       {
+        "text": "sea",
+        "emoji": "🌊",
+        "meanings": {
+         "th": "ทะเล",
+         "fr": "la mer",
+         "es": "el mar",
+         "it": "il mare",
+         "en": "The big salty water by the beach"
+        },
+        "id": "en-beach-l1-0"
+       },
+       {
+        "text": "sand",
+        "emoji": "🏖️",
+        "meanings": {
+         "th": "ทราย",
+         "fr": "le sable",
+         "es": "la arena",
+         "it": "la sabbia",
+         "en": "The soft yellow stuff you dig in"
+        },
+        "id": "en-beach-l1-1"
+       },
+       {
+        "text": "shell",
+        "emoji": "🐚",
+        "meanings": {
+         "th": "เปลือกหอย",
+         "fr": "le coquillage",
+         "es": "la concha",
+         "it": "la conchiglia",
+         "en": "A hard curly home you find on the sand"
+        },
+        "id": "en-beach-l1-2"
+       },
+       {
+        "text": "starfish",
+        "emoji": "⭐",
+        "meanings": {
+         "th": "ปลาดาว",
+         "fr": "l'étoile de mer",
+         "es": "la estrella de mar",
+         "it": "la stella marina",
+         "en": "A sea animal shaped like a star"
+        },
+        "id": "en-beach-l1-3"
+       },
+       {
+        "text": "crab",
+        "emoji": "🦀",
+        "meanings": {
+         "th": "ปู",
+         "fr": "le crabe",
+         "es": "el cangrejo",
+         "it": "il granchio",
+         "en": "A sea animal that walks sideways"
+        },
+        "id": "en-beach-l1-4"
+       }
+      ]
+     },
+     {
+      "id": "en-beach-l2",
+      "title": {
+       "en": "Fun on the sand",
+       "th": "สนุกบนหาดทราย",
+       "fr": "Jeux sur le sable",
+       "es": "Diversión en la arena",
+       "it": "Giochi sulla sabbia"
+      },
+      "words": [
+       {
+        "text": "fish",
+        "emoji": "🐟",
+        "meanings": {
+         "th": "ปลา",
+         "fr": "le poisson",
+         "es": "el pez",
+         "it": "il pesce",
+         "en": "An animal that swims in the water"
+        },
+        "id": "en-beach-l2-0"
+       },
+       {
+        "text": "seagull",
+        "emoji": "🐦",
+        "meanings": {
+         "th": "นกนางนวล",
+         "fr": "la mouette",
+         "es": "la gaviota",
+         "it": "il gabbiano",
+         "en": "A white bird that cries over the sea"
+        },
+        "id": "en-beach-l2-1"
+       },
+       {
+        "text": "kite",
+        "emoji": "🪁",
+        "meanings": {
+         "th": "ว่าว",
+         "fr": "le cerf-volant",
+         "es": "la cometa",
+         "it": "l'aquilone",
+         "en": "A toy that flies high on a string"
+        },
+        "id": "en-beach-l2-2"
+       },
+       {
+        "text": "sandcastle",
+        "emoji": "🏰",
+        "meanings": {
+         "th": "ปราสาททราย",
+         "fr": "le château de sable",
+         "es": "el castillo de arena",
+         "it": "il castello di sabbia",
+         "en": "A castle made of wet sand"
+        },
+        "id": "en-beach-l2-3"
+       },
+       {
+        "text": "bucket",
+        "emoji": "🪣",
+        "meanings": {
+         "th": "ถัง",
+         "fr": "le seau",
+         "es": "el cubo",
+         "it": "il secchiello",
+         "en": "A pot for carrying water and sand"
+        },
+        "id": "en-beach-l2-4"
+       }
+      ]
+     },
+     {
+      "id": "en-beach-l3",
+      "title": {
+       "en": "Beach bag",
+       "th": "ในกระเป๋าชายหาด",
+       "fr": "Dans le sac de plage",
+       "es": "En la bolsa de playa",
+       "it": "Nella borsa da spiaggia"
+      },
+      "words": [
+       {
+        "text": "spade",
+        "emoji": "⛏️",
+        "meanings": {
+         "th": "พลั่ว",
+         "fr": "la pelle",
+         "es": "la pala",
+         "it": "la paletta",
+         "en": "A tool for digging in the sand"
+        },
+        "id": "en-beach-l3-0"
+       },
+       {
+        "text": "sun hat",
+        "emoji": "👒",
+        "meanings": {
+         "th": "หมวกกันแดด",
+         "fr": "le chapeau",
+         "es": "el sombrero",
+         "it": "il cappello",
+         "en": "A hat that keeps the sun off your head"
+        },
+        "id": "en-beach-l3-1"
+       },
+       {
+        "text": "towel",
+        "emoji": "🛁",
+        "meanings": {
+         "th": "ผ้าเช็ดตัว",
+         "fr": "la serviette",
+         "es": "la toalla",
+         "it": "l'asciugamano",
+         "en": "A soft cloth to dry yourself"
+        },
+        "id": "en-beach-l3-2"
+       },
+       {
+        "text": "flip-flops",
+        "emoji": "🩴",
+        "meanings": {
+         "th": "รองเท้าแตะ",
+         "fr": "les tongs",
+         "es": "las chanclas",
+         "it": "le infradito",
+         "en": "Light shoes you wear at the beach"
+        },
+        "id": "en-beach-l3-3"
+       },
+       {
+        "text": "ice cream",
+        "emoji": "🍦",
+        "meanings": {
+         "th": "ไอติม",
+         "fr": "la glace",
+         "es": "el helado",
+         "it": "il gelato",
+         "en": "A cold sweet treat on a cone"
+        },
+        "id": "en-beach-l3-4"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "en-feelings",
     "title": {
      "en": "Feelings & Health",
