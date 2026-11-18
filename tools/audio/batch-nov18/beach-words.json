@@ -1,0 +1,377 @@
+[
+{
+"id": "beach-l1-0",
+"lang": "th",
+"text": "ทะเล"
+},
+{
+"id": "beach-l1-1",
+"lang": "th",
+"text": "ทราย"
+},
+{
+"id": "beach-l1-2",
+"lang": "th",
+"text": "เปลือกหอย"
+},
+{
+"id": "beach-l1-3",
+"lang": "th",
+"text": "ปลาดาว"
+},
+{
+"id": "beach-l1-4",
+"lang": "th",
+"text": "ปู"
+},
+{
+"id": "beach-l2-0",
+"lang": "th",
+"text": "ปลา"
+},
+{
+"id": "beach-l2-1",
+"lang": "th",
+"text": "นกนางนวล"
+},
+{
+"id": "beach-l2-2",
+"lang": "th",
+"text": "ว่าว"
+},
+{
+"id": "beach-l2-3",
+"lang": "th",
+"text": "ปราสาททราย"
+},
+{
+"id": "beach-l2-4",
+"lang": "th",
+"text": "ถัง"
+},
+{
+"id": "beach-l3-0",
+"lang": "th",
+"text": "พลั่ว"
+},
+{
+"id": "beach-l3-1",
+"lang": "th",
+"text": "หมวกกันแดด"
+},
+{
+"id": "beach-l3-2",
+"lang": "th",
+"text": "ผ้าเช็ดตัว"
+},
+{
+"id": "beach-l3-3",
+"lang": "th",
+"text": "รองเท้าแตะ"
+},
+{
+"id": "beach-l3-4",
+"lang": "th",
+"text": "ไอติม"
+},
+{
+"id": "fr-beach-l1-0",
+"lang": "fr",
+"text": "la mer"
+},
+{
+"id": "fr-beach-l1-1",
+"lang": "fr",
+"text": "le sable"
+},
+{
+"id": "fr-beach-l1-2",
+"lang": "fr",
+"text": "le coquillage"
+},
+{
+"id": "fr-beach-l1-3",
+"lang": "fr",
+"text": "l'étoile de mer"
+},
+{
+"id": "fr-beach-l1-4",
+"lang": "fr",
+"text": "le crabe"
+},
+{
+"id": "fr-beach-l2-0",
+"lang": "fr",
+"text": "le poisson"
+},
+{
+"id": "fr-beach-l2-1",
+"lang": "fr",
+"text": "la mouette"
+},
+{
+"id": "fr-beach-l2-2",
+"lang": "fr",
+"text": "le cerf-volant"
+},
+{
+"id": "fr-beach-l2-3",
+"lang": "fr",
+"text": "le château de sable"
+},
+{
+"id": "fr-beach-l2-4",
+"lang": "fr",
+"text": "le seau"
+},
+{
+"id": "fr-beach-l3-0",
+"lang": "fr",
+"text": "la pelle"
+},
+{
+"id": "fr-beach-l3-1",
+"lang": "fr",
+"text": "le chapeau"
+},
+{
+"id": "fr-beach-l3-2",
+"lang": "fr",
+"text": "la serviette"
+},
+{
+"id": "fr-beach-l3-3",
+"lang": "fr",
+"text": "les tongs"
+},
+{
+"id": "fr-beach-l3-4",
+"lang": "fr",
+"text": "la glace"
+},
+{
+"id": "es-beach-l1-0",
+"lang": "es",
+"text": "el mar"
+},
+{
+"id": "es-beach-l1-1",
+"lang": "es",
+"text": "la arena"
+},
+{
+"id": "es-beach-l1-2",
+"lang": "es",
+"text": "la concha"
+},
+{
+"id": "es-beach-l1-3",
+"lang": "es",
+"text": "la estrella de mar"
+},
+{
+"id": "es-beach-l1-4",
+"lang": "es",
+"text": "el cangrejo"
+},
+{
+"id": "es-beach-l2-0",
+"lang": "es",
+"text": "el pez"
+},
+{
+"id": "es-beach-l2-1",
+"lang": "es",
+"text": "la gaviota"
+},
+{
+"id": "es-beach-l2-2",
+"lang": "es",
+"text": "la cometa"
+},
+{
+"id": "es-beach-l2-3",
+"lang": "es",
+"text": "el castillo de arena"
+},
+{
+"id": "es-beach-l2-4",
+"lang": "es",
+"text": "el cubo"
+},
+{
+"id": "es-beach-l3-0",
+"lang": "es",
+"text": "la pala"
+},
+{
+"id": "es-beach-l3-1",
+"lang": "es",
+"text": "el sombrero"
+},
+{
+"id": "es-beach-l3-2",
+"lang": "es",
+"text": "la toalla"
+},
+{
+"id": "es-beach-l3-3",
+"lang": "es",
+"text": "las chanclas"
+},
+{
+"id": "es-beach-l3-4",
+"lang": "es",
+"text": "el helado"
+},
+{
+"id": "it-beach-l1-0",
+"lang": "it",
+"text": "il mare"
+},
+{
+"id": "it-beach-l1-1",
+"lang": "it",
+"text": "la sabbia"
+},
+{
+"id": "it-beach-l1-2",
+"lang": "it",
+"text": "la conchiglia"
+},
+{
+"id": "it-beach-l1-3",
+"lang": "it",
+"text": "la stella marina"
+},
+{
+"id": "it-beach-l1-4",
+"lang": "it",
+"text": "il granchio"
+},
+{
+"id": "it-beach-l2-0",
+"lang": "it",
+"text": "il pesce"
+},
+{
+"id": "it-beach-l2-1",
+"lang": "it",
+"text": "il gabbiano"
+},
+{
+"id": "it-beach-l2-2",
+"lang": "it",
+"text": "l'aquilone"
+},
+{
+"id": "it-beach-l2-3",
+"lang": "it",
+"text": "il castello di sabbia"
+},
+{
+"id": "it-beach-l2-4",
+"lang": "it",
+"text": "il secchiello"
+},
+{
+"id": "it-beach-l3-0",
+"lang": "it",
+"text": "la paletta"
+},
+{
+"id": "it-beach-l3-1",
+"lang": "it",
+"text": "il cappello"
+},
+{
+"id": "it-beach-l3-2",
+"lang": "it",
+"text": "l'asciugamano"
+},
+{
+"id": "it-beach-l3-3",
+"lang": "it",
+"text": "le infradito"
+},
+{
+"id": "it-beach-l3-4",
+"lang": "it",
+"text": "il gelato"
+},
+{
+"id": "en-beach-l1-0",
+"lang": "en",
+"text": "sea"
+},
+{
+"id": "en-beach-l1-1",
+"lang": "en",
+"text": "sand"
+},
+{
+"id": "en-beach-l1-2",
+"lang": "en",
+"text": "shell"
+},
+{
+"id": "en-beach-l1-3",
+"lang": "en",
+"text": "starfish"
+},
+{
+"id": "en-beach-l1-4",
+"lang": "en",
+"text": "crab"
+},
+{
+"id": "en-beach-l2-0",
+"lang": "en",
+"text": "fish"
+},
+{
+"id": "en-beach-l2-1",
+"lang": "en",
+"text": "seagull"
+},
+{
+"id": "en-beach-l2-2",
+"lang": "en",
+"text": "kite"
+},
+{
+"id": "en-beach-l2-3",
+"lang": "en",
+"text": "sandcastle"
+},
+{
+"id": "en-beach-l2-4",
+"lang": "en",
+"text": "bucket"
+},
+{
+"id": "en-beach-l3-0",
+"lang": "en",
+"text": "spade"
+},
+{
+"id": "en-beach-l3-1",
+"lang": "en",
+"text": "sun hat"
+},
+{
+"id": "en-beach-l3-2",
+"lang": "en",
+"text": "towel"
+},
+{
+"id": "en-beach-l3-3",
+"lang": "en",
+"text": "flip-flops"
+},
+{
+"id": "en-beach-l3-4",
+"lang": "en",
+"text": "ice cream"
+}
+]

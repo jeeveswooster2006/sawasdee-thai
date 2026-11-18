@@ -1,0 +1,782 @@
+[
+{
+"id": "nb-0",
+"lang": "th",
+"text": "ศูนย์"
+},
+{
+"id": "nb-16",
+"lang": "th",
+"text": "สิบหก"
+},
+{
+"id": "nb-17",
+"lang": "th",
+"text": "สิบเจ็ด"
+},
+{
+"id": "nb-18",
+"lang": "th",
+"text": "สิบแปด"
+},
+{
+"id": "nb-19",
+"lang": "th",
+"text": "สิบเก้า"
+},
+{
+"id": "nb-60",
+"lang": "th",
+"text": "หกสิบ"
+},
+{
+"id": "nb-70",
+"lang": "th",
+"text": "เจ็ดสิบ"
+},
+{
+"id": "nb-80",
+"lang": "th",
+"text": "แปดสิบ"
+},
+{
+"id": "nb-90",
+"lang": "th",
+"text": "เก้าสิบ"
+},
+{
+"id": "nb-100",
+"lang": "th",
+"text": "หนึ่งร้อย"
+},
+{
+"id": "nb-1000",
+"lang": "th",
+"text": "หนึ่งพัน"
+},
+{
+"id": "fr-nb-0",
+"lang": "fr",
+"text": "zéro"
+},
+{
+"id": "fr-nb-16",
+"lang": "fr",
+"text": "seize"
+},
+{
+"id": "fr-nb-17",
+"lang": "fr",
+"text": "dix-sept"
+},
+{
+"id": "fr-nb-18",
+"lang": "fr",
+"text": "dix-huit"
+},
+{
+"id": "fr-nb-19",
+"lang": "fr",
+"text": "dix-neuf"
+},
+{
+"id": "fr-nb-60",
+"lang": "fr",
+"text": "soixante"
+},
+{
+"id": "fr-nb-70",
+"lang": "fr",
+"text": "soixante-dix"
+},
+{
+"id": "fr-nb-80",
+"lang": "fr",
+"text": "quatre-vingts"
+},
+{
+"id": "fr-nb-90",
+"lang": "fr",
+"text": "quatre-vingt-dix"
+},
+{
+"id": "fr-nb-1000",
+"lang": "fr",
+"text": "mille"
+},
+{
+"id": "fr-ab-a",
+"lang": "fr",
+"text": "a"
+},
+{
+"id": "fr-ab-b",
+"lang": "fr",
+"text": "bé"
+},
+{
+"id": "fr-ab-c",
+"lang": "fr",
+"text": "cé"
+},
+{
+"id": "fr-ab-d",
+"lang": "fr",
+"text": "dé"
+},
+{
+"id": "fr-ab-e",
+"lang": "fr",
+"text": "e"
+},
+{
+"id": "fr-ab-f",
+"lang": "fr",
+"text": "effe"
+},
+{
+"id": "fr-ab-g",
+"lang": "fr",
+"text": "gé"
+},
+{
+"id": "fr-ab-h",
+"lang": "fr",
+"text": "ache"
+},
+{
+"id": "fr-ab-i",
+"lang": "fr",
+"text": "i"
+},
+{
+"id": "fr-ab-j",
+"lang": "fr",
+"text": "ji"
+},
+{
+"id": "fr-ab-k",
+"lang": "fr",
+"text": "ka"
+},
+{
+"id": "fr-ab-l",
+"lang": "fr",
+"text": "elle"
+},
+{
+"id": "fr-ab-m",
+"lang": "fr",
+"text": "emme"
+},
+{
+"id": "fr-ab-n",
+"lang": "fr",
+"text": "enne"
+},
+{
+"id": "fr-ab-o",
+"lang": "fr",
+"text": "o"
+},
+{
+"id": "fr-ab-p",
+"lang": "fr",
+"text": "pé"
+},
+{
+"id": "fr-ab-q",
+"lang": "fr",
+"text": "qu"
+},
+{
+"id": "fr-ab-r",
+"lang": "fr",
+"text": "erre"
+},
+{
+"id": "fr-ab-s",
+"lang": "fr",
+"text": "esse"
+},
+{
+"id": "fr-ab-t",
+"lang": "fr",
+"text": "té"
+},
+{
+"id": "fr-ab-u",
+"lang": "fr",
+"text": "u"
+},
+{
+"id": "fr-ab-v",
+"lang": "fr",
+"text": "vé"
+},
+{
+"id": "fr-ab-w",
+"lang": "fr",
+"text": "double vé"
+},
+{
+"id": "fr-ab-x",
+"lang": "fr",
+"text": "ixe"
+},
+{
+"id": "fr-ab-y",
+"lang": "fr",
+"text": "i grec"
+},
+{
+"id": "fr-ab-z",
+"lang": "fr",
+"text": "zède"
+},
+{
+"id": "es-nb-0",
+"lang": "es",
+"text": "cero"
+},
+{
+"id": "es-nb-16",
+"lang": "es",
+"text": "dieciséis"
+},
+{
+"id": "es-nb-17",
+"lang": "es",
+"text": "diecisiete"
+},
+{
+"id": "es-nb-18",
+"lang": "es",
+"text": "dieciocho"
+},
+{
+"id": "es-nb-19",
+"lang": "es",
+"text": "diecinueve"
+},
+{
+"id": "es-nb-60",
+"lang": "es",
+"text": "sesenta"
+},
+{
+"id": "es-nb-70",
+"lang": "es",
+"text": "setenta"
+},
+{
+"id": "es-nb-80",
+"lang": "es",
+"text": "ochenta"
+},
+{
+"id": "es-nb-90",
+"lang": "es",
+"text": "noventa"
+},
+{
+"id": "es-nb-1000",
+"lang": "es",
+"text": "mil"
+},
+{
+"id": "es-ab-a",
+"lang": "es",
+"text": "a"
+},
+{
+"id": "es-ab-b",
+"lang": "es",
+"text": "be"
+},
+{
+"id": "es-ab-c",
+"lang": "es",
+"text": "ce"
+},
+{
+"id": "es-ab-d",
+"lang": "es",
+"text": "de"
+},
+{
+"id": "es-ab-e",
+"lang": "es",
+"text": "e"
+},
+{
+"id": "es-ab-f",
+"lang": "es",
+"text": "efe"
+},
+{
+"id": "es-ab-g",
+"lang": "es",
+"text": "ge"
+},
+{
+"id": "es-ab-h",
+"lang": "es",
+"text": "hache"
+},
+{
+"id": "es-ab-i",
+"lang": "es",
+"text": "i"
+},
+{
+"id": "es-ab-j",
+"lang": "es",
+"text": "jota"
+},
+{
+"id": "es-ab-k",
+"lang": "es",
+"text": "ka"
+},
+{
+"id": "es-ab-l",
+"lang": "es",
+"text": "ele"
+},
+{
+"id": "es-ab-m",
+"lang": "es",
+"text": "eme"
+},
+{
+"id": "es-ab-n",
+"lang": "es",
+"text": "ene"
+},
+{
+"id": "es-ab-ny",
+"lang": "es",
+"text": "eñe"
+},
+{
+"id": "es-ab-o",
+"lang": "es",
+"text": "o"
+},
+{
+"id": "es-ab-p",
+"lang": "es",
+"text": "pe"
+},
+{
+"id": "es-ab-q",
+"lang": "es",
+"text": "cu"
+},
+{
+"id": "es-ab-r",
+"lang": "es",
+"text": "erre"
+},
+{
+"id": "es-ab-s",
+"lang": "es",
+"text": "ese"
+},
+{
+"id": "es-ab-t",
+"lang": "es",
+"text": "te"
+},
+{
+"id": "es-ab-u",
+"lang": "es",
+"text": "u"
+},
+{
+"id": "es-ab-v",
+"lang": "es",
+"text": "uve"
+},
+{
+"id": "es-ab-w",
+"lang": "es",
+"text": "uve doble"
+},
+{
+"id": "es-ab-x",
+"lang": "es",
+"text": "equis"
+},
+{
+"id": "es-ab-y",
+"lang": "es",
+"text": "ye"
+},
+{
+"id": "es-ab-z",
+"lang": "es",
+"text": "zeta"
+},
+{
+"id": "it-nb-0",
+"lang": "it",
+"text": "zero"
+},
+{
+"id": "it-nb-16",
+"lang": "it",
+"text": "sedici"
+},
+{
+"id": "it-nb-17",
+"lang": "it",
+"text": "diciassette"
+},
+{
+"id": "it-nb-18",
+"lang": "it",
+"text": "diciotto"
+},
+{
+"id": "it-nb-19",
+"lang": "it",
+"text": "diciannove"
+},
+{
+"id": "it-nb-60",
+"lang": "it",
+"text": "sessanta"
+},
+{
+"id": "it-nb-70",
+"lang": "it",
+"text": "settanta"
+},
+{
+"id": "it-nb-80",
+"lang": "it",
+"text": "ottanta"
+},
+{
+"id": "it-nb-90",
+"lang": "it",
+"text": "novanta"
+},
+{
+"id": "it-nb-1000",
+"lang": "it",
+"text": "mille"
+},
+{
+"id": "it-ab-a",
+"lang": "it",
+"text": "a"
+},
+{
+"id": "it-ab-b",
+"lang": "it",
+"text": "bi"
+},
+{
+"id": "it-ab-c",
+"lang": "it",
+"text": "ci"
+},
+{
+"id": "it-ab-d",
+"lang": "it",
+"text": "di"
+},
+{
+"id": "it-ab-e",
+"lang": "it",
+"text": "e"
+},
+{
+"id": "it-ab-f",
+"lang": "it",
+"text": "effe"
+},
+{
+"id": "it-ab-g",
+"lang": "it",
+"text": "gi"
+},
+{
+"id": "it-ab-h",
+"lang": "it",
+"text": "acca"
+},
+{
+"id": "it-ab-i",
+"lang": "it",
+"text": "i"
+},
+{
+"id": "it-ab-l",
+"lang": "it",
+"text": "elle"
+},
+{
+"id": "it-ab-m",
+"lang": "it",
+"text": "emme"
+},
+{
+"id": "it-ab-n",
+"lang": "it",
+"text": "enne"
+},
+{
+"id": "it-ab-o",
+"lang": "it",
+"text": "o"
+},
+{
+"id": "it-ab-p",
+"lang": "it",
+"text": "pi"
+},
+{
+"id": "it-ab-q",
+"lang": "it",
+"text": "cu"
+},
+{
+"id": "it-ab-r",
+"lang": "it",
+"text": "erre"
+},
+{
+"id": "it-ab-s",
+"lang": "it",
+"text": "esse"
+},
+{
+"id": "it-ab-t",
+"lang": "it",
+"text": "ti"
+},
+{
+"id": "it-ab-u",
+"lang": "it",
+"text": "u"
+},
+{
+"id": "it-ab-v",
+"lang": "it",
+"text": "vu"
+},
+{
+"id": "it-ab-z",
+"lang": "it",
+"text": "zeta"
+},
+{
+"id": "it-ab-j",
+"lang": "it",
+"text": "i lunga"
+},
+{
+"id": "it-ab-k",
+"lang": "it",
+"text": "kappa"
+},
+{
+"id": "it-ab-w",
+"lang": "it",
+"text": "doppia vu"
+},
+{
+"id": "it-ab-x",
+"lang": "it",
+"text": "ics"
+},
+{
+"id": "it-ab-y",
+"lang": "it",
+"text": "ipsilon"
+},
+{
+"id": "en-nb-0",
+"lang": "en",
+"text": "zero"
+},
+{
+"id": "en-nb-16",
+"lang": "en",
+"text": "sixteen"
+},
+{
+"id": "en-nb-17",
+"lang": "en",
+"text": "seventeen"
+},
+{
+"id": "en-nb-18",
+"lang": "en",
+"text": "eighteen"
+},
+{
+"id": "en-nb-19",
+"lang": "en",
+"text": "nineteen"
+},
+{
+"id": "en-nb-60",
+"lang": "en",
+"text": "sixty"
+},
+{
+"id": "en-nb-70",
+"lang": "en",
+"text": "seventy"
+},
+{
+"id": "en-nb-80",
+"lang": "en",
+"text": "eighty"
+},
+{
+"id": "en-nb-90",
+"lang": "en",
+"text": "ninety"
+},
+{
+"id": "en-nb-1000",
+"lang": "en",
+"text": "one thousand"
+},
+{
+"id": "en-ab-a",
+"lang": "en",
+"text": "ay"
+},
+{
+"id": "en-ab-b",
+"lang": "en",
+"text": "bee"
+},
+{
+"id": "en-ab-c",
+"lang": "en",
+"text": "cee"
+},
+{
+"id": "en-ab-d",
+"lang": "en",
+"text": "dee"
+},
+{
+"id": "en-ab-e",
+"lang": "en",
+"text": "ee"
+},
+{
+"id": "en-ab-f",
+"lang": "en",
+"text": "eff"
+},
+{
+"id": "en-ab-g",
+"lang": "en",
+"text": "gee"
+},
+{
+"id": "en-ab-h",
+"lang": "en",
+"text": "aitch"
+},
+{
+"id": "en-ab-i",
+"lang": "en",
+"text": "eye"
+},
+{
+"id": "en-ab-j",
+"lang": "en",
+"text": "jay"
+},
+{
+"id": "en-ab-k",
+"lang": "en",
+"text": "kay"
+},
+{
+"id": "en-ab-l",
+"lang": "en",
+"text": "el"
+},
+{
+"id": "en-ab-m",
+"lang": "en",
+"text": "em"
+},
+{
+"id": "en-ab-n",
+"lang": "en",
+"text": "en"
+},
+{
+"id": "en-ab-o",
+"lang": "en",
+"text": "oh"
+},
+{
+"id": "en-ab-p",
+"lang": "en",
+"text": "pee"
+},
+{
+"id": "en-ab-q",
+"lang": "en",
+"text": "cue"
+},
+{
+"id": "en-ab-r",
+"lang": "en",
+"text": "ar"
+},
+{
+"id": "en-ab-s",
+"lang": "en",
+"text": "ess"
+},
+{
+"id": "en-ab-t",
+"lang": "en",
+"text": "tee"
+},
+{
+"id": "en-ab-u",
+"lang": "en",
+"text": "you"
+},
+{
+"id": "en-ab-v",
+"lang": "en",
+"text": "vee"
+},
+{
+"id": "en-ab-w",
+"lang": "en",
+"text": "double-u"
+},
+{
+"id": "en-ab-x",
+"lang": "en",
+"text": "ex"
+},
+{
+"id": "en-ab-y",
+"lang": "en",
+"text": "why"
+},
+{
+"id": "en-ab-z",
+"lang": "en",
+"text": "zed"
+}
+]
