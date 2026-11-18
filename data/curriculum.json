@@ -1813,6 +1813,193 @@
         ]
       },
       {
+        "id": "beach",
+        "title": "At the beach",
+        "tagline": "Splash, dig and build by the sea!",
+        "bonus": true,
+        "lessons": [
+          {
+            "id": "beach-l1",
+            "title": "By the sea",
+            "words": [
+              {
+                "id": "beach-l1-0",
+                "thai": "ทะเล",
+                "roman": "tha-lee",
+                "en": "Sea",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid"
+                ],
+                "emoji": "🌊"
+              },
+              {
+                "id": "beach-l1-1",
+                "thai": "ทราย",
+                "roman": "saai",
+                "en": "Sand",
+                "tone": "mid",
+                "emoji": "🏖️"
+              },
+              {
+                "id": "beach-l1-2",
+                "thai": "เปลือกหอย",
+                "roman": "plùeak-hɔ̌ɔi",
+                "en": "Shell",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "rising"
+                ],
+                "emoji": "🐚"
+              },
+              {
+                "id": "beach-l1-3",
+                "thai": "ปลาดาว",
+                "roman": "plaa-daao",
+                "en": "Starfish",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
+                "emoji": "⭐"
+              },
+              {
+                "id": "beach-l1-4",
+                "thai": "ปู",
+                "roman": "puu",
+                "en": "Crab",
+                "tone": "mid",
+                "emoji": "🦀"
+              }
+            ]
+          },
+          {
+            "id": "beach-l2",
+            "title": "Fun on the sand",
+            "words": [
+              {
+                "id": "beach-l2-0",
+                "thai": "ปลา",
+                "roman": "plaa",
+                "en": "Fish",
+                "tone": "mid",
+                "emoji": "🐟"
+              },
+              {
+                "id": "beach-l2-1",
+                "thai": "นกนางนวล",
+                "roman": "nók-naang-nuan",
+                "en": "Seagull",
+                "tone": "",
+                "tones": [
+                  "high",
+                  "mid",
+                  "mid"
+                ],
+                "emoji": "🐦"
+              },
+              {
+                "id": "beach-l2-2",
+                "thai": "ว่าว",
+                "roman": "wâao",
+                "en": "Kite",
+                "tone": "falling",
+                "emoji": "🪁"
+              },
+              {
+                "id": "beach-l2-3",
+                "thai": "ปราสาททราย",
+                "roman": "praa-sàat-saai",
+                "en": "Sandcastle",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "low",
+                  "mid"
+                ],
+                "emoji": "🏰"
+              },
+              {
+                "id": "beach-l2-4",
+                "thai": "ถัง",
+                "roman": "thǎng",
+                "en": "Bucket",
+                "tone": "rising",
+                "emoji": "🪣"
+              }
+            ]
+          },
+          {
+            "id": "beach-l3",
+            "title": "Beach bag",
+            "words": [
+              {
+                "id": "beach-l3-0",
+                "thai": "พลั่ว",
+                "roman": "phlûa",
+                "en": "Spade",
+                "tone": "falling",
+                "emoji": "⛏️"
+              },
+              {
+                "id": "beach-l3-1",
+                "thai": "หมวกกันแดด",
+                "roman": "mùak-kan-dɛ̀ɛt",
+                "en": "Sun hat",
+                "tone": "",
+                "tones": [
+                  "low",
+                  "mid",
+                  "low"
+                ],
+                "emoji": "👒"
+              },
+              {
+                "id": "beach-l3-2",
+                "thai": "ผ้าเช็ดตัว",
+                "roman": "phâa-chét-tua",
+                "en": "Towel",
+                "tone": "",
+                "tones": [
+                  "falling",
+                  "high",
+                  "mid"
+                ],
+                "emoji": "🛁"
+              },
+              {
+                "id": "beach-l3-3",
+                "thai": "รองเท้าแตะ",
+                "roman": "rɔɔng-tháao-tɛ̀",
+                "en": "Flip-flops",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "high",
+                  "low"
+                ],
+                "emoji": "🩴"
+              },
+              {
+                "id": "beach-l3-4",
+                "thai": "ไอติม",
+                "roman": "ai-tim",
+                "en": "Ice cream",
+                "tone": "",
+                "tones": [
+                  "mid",
+                  "mid"
+                ],
+                "emoji": "🍦"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "feelings",
         "title": "Feelings & Health",
         "tagline": "Saying how you actually feel.",

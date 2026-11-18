@@ -1452,6 +1452,178 @@
     ]
    },
    {
+    "id": "it-beach",
+    "title": "At the beach",
+    "tagline": "Splash, dig and build by the sea!",
+    "bonus": true,
+    "lessons": [
+     {
+      "id": "it-beach-l1",
+      "title": "By the sea",
+      "words": [
+       {
+        "id": "it-beach-l1-0",
+        "text": "il mare",
+        "en": "The sea",
+        "accept": [
+         "sea"
+        ],
+        "emoji": "🌊"
+       },
+       {
+        "id": "it-beach-l1-1",
+        "text": "la sabbia",
+        "en": "The sand",
+        "accept": [
+         "sand"
+        ],
+        "emoji": "🏖️"
+       },
+       {
+        "id": "it-beach-l1-2",
+        "text": "la conchiglia",
+        "en": "The shell",
+        "accept": [
+         "shell",
+         "seashell"
+        ],
+        "emoji": "🐚"
+       },
+       {
+        "id": "it-beach-l1-3",
+        "text": "la stella marina",
+        "en": "The starfish",
+        "accept": [
+         "starfish"
+        ],
+        "emoji": "⭐"
+       },
+       {
+        "id": "it-beach-l1-4",
+        "text": "il granchio",
+        "en": "The crab",
+        "accept": [
+         "crab"
+        ],
+        "emoji": "🦀"
+       }
+      ]
+     },
+     {
+      "id": "it-beach-l2",
+      "title": "Fun on the sand",
+      "words": [
+       {
+        "id": "it-beach-l2-0",
+        "text": "il pesce",
+        "en": "The fish",
+        "accept": [
+         "fish"
+        ],
+        "emoji": "🐟"
+       },
+       {
+        "id": "it-beach-l2-1",
+        "text": "il gabbiano",
+        "en": "The seagull",
+        "accept": [
+         "seagull",
+         "gull"
+        ],
+        "emoji": "🐦"
+       },
+       {
+        "id": "it-beach-l2-2",
+        "text": "l'aquilone",
+        "en": "The kite",
+        "accept": [
+         "kite"
+        ],
+        "emoji": "🪁"
+       },
+       {
+        "id": "it-beach-l2-3",
+        "text": "il castello di sabbia",
+        "en": "The sandcastle",
+        "accept": [
+         "sandcastle",
+         "sand castle"
+        ],
+        "emoji": "🏰"
+       },
+       {
+        "id": "it-beach-l2-4",
+        "text": "il secchiello",
+        "en": "The bucket",
+        "accept": [
+         "bucket",
+         "pail"
+        ],
+        "emoji": "🪣"
+       }
+      ]
+     },
+     {
+      "id": "it-beach-l3",
+      "title": "Beach bag",
+      "words": [
+       {
+        "id": "it-beach-l3-0",
+        "text": "la paletta",
+        "en": "The spade",
+        "accept": [
+         "spade",
+         "shovel"
+        ],
+        "emoji": "⛏️"
+       },
+       {
+        "id": "it-beach-l3-1",
+        "text": "il cappello",
+        "en": "The hat",
+        "accept": [
+         "hat",
+         "sun hat"
+        ],
+        "emoji": "👒"
+       },
+       {
+        "id": "it-beach-l3-2",
+        "text": "l'asciugamano",
+        "en": "The towel",
+        "accept": [
+         "towel",
+         "beach towel"
+        ],
+        "emoji": "🛁"
+       },
+       {
+        "id": "it-beach-l3-3",
+        "text": "le infradito",
+        "en": "The flip-flops",
+        "accept": [
+         "flip-flops",
+         "flip flops",
+         "sandals",
+         "thongs"
+        ],
+        "emoji": "🩴"
+       },
+       {
+        "id": "it-beach-l3-4",
+        "text": "il gelato",
+        "en": "The ice cream",
+        "accept": [
+         "ice cream",
+         "ice-cream"
+        ],
+        "emoji": "🍦"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "it-feelings",
     "title": "Feelings & Health",
     "tagline": "Saying how you actually feel.",
