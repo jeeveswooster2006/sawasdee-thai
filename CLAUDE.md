@@ -57,6 +57,11 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - **Feature spotlight posts:** every so often (about every 1–2 weeks), add an update post about ONE exciting feature, either an existing one (e.g. Play together, Kids teach the grown-ups, family goal, kids' mode, printables, try-a-lesson, phone reminders) or something brand new. Paul still approves with "post".
 - **Always include a link to the app** (use the tracked short link for the place: /rd Reddit, /fb Facebook, /ig Instagram, /em email, /in invites) **and a picture of all five mascots** (sawasdee-family `public/share/nongchang-share-5.png`, live at nongchang.co.uk/share/nongchang-share-5.png). Where a picture can't be attached (e.g. Reddit modmail), link to it.
 
+## YouTube Shorts style (Paul, 20 Nov 2026: "these need to be fun, bright, happy")
+- Every Short is fun, bright and happy: lively music, bouncy mascot movement, cheerful voices, big colourful text, quick pace, a smile or a little joke in each one. Never flat, slow, quiet or "lesson-like".
+- Use the brightest end of the brand kit (marigold, lotus pink, temple teal on mint) with confetti, stars and pops on right answers; no dark or muted screens.
+- The grown-up framing for "general audience" Shorts stays playful too (curious, jokey), just not addressed to small children.
+
 ## Brand kit (12 Nov 2026; Claude design system claude.ai/artifact/XMu91n1jb7zaQYrE8TJq6Z, read its project/README.md before making cards, posters or videos; design review at claude.ai/artifact/5imUmMWUfvryH4pQxZsRei)
 - Use the app's colours for every new card, poster, GIF and video: temple teal #007767 (buttons, links), deep ink #123B37 (headings), mint paper #EEF5F0 (background), marigold #F2A024 (stars, highlights), lotus pink #E0507A (trim), soft mint #D3EFE7, cream #F6EFE0 (picture frames, ring #F3E2B0), sage grey #4F6B66 (small print). The dotted temple trim is teal, pink, marigold. Older cards used #127D6A and the first poster #1C8A7C; use the app colours from now on (reprint the poster with them next time).
 - Fonts: Mitr (headings, buttons) and Sarabun (reading text, Thai words). Lines: "Learn a language together as a family" · "Free · no ads · works on any phone" · "made by a dad in the UK". List the languages as Thai, French, Spanish, Italian, English, but give them equal weight in posts.
