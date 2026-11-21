@@ -1,0 +1,215 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Mitr;font-weight:600;src:url(mitr-latin-600-normal.woff2)}
+@font-face{font-family:Mitr;font-weight:600;src:url(mitr-thai-600-normal.woff2);unicode-range:U+0E01-0E5B}
+@font-face{font-family:Mitr;font-weight:500;src:url(mitr-latin-500-normal.woff2)}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-latin-600-normal.woff2)}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-latin-ext-600-normal.woff2);unicode-range:U+0100-02FF,U+0300-036F}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-thai-600-normal.woff2);unicode-range:U+0E01-0E5B}
+*{margin:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#EEF5F0;font-family:Mitr,"Noto Color Emoji";color:#123B37}
+#bg{position:absolute;inset:0}
+.blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:.55}
+.conf{position:absolute;width:22px;height:22px;border-radius:6px}
+.trim{position:absolute;left:0;right:0;height:22px;background:
+ radial-gradient(circle at 16px 11px,#007767 8px,transparent 9px) 0 0/96px 22px repeat-x,
+ radial-gradient(circle at 48px 11px,#E0507A 8px,transparent 9px) 0 0/96px 22px repeat-x,
+ radial-gradient(circle at 80px 11px,#F2A024 8px,transparent 9px) 0 0/96px 22px repeat-x}
+#title{position:absolute;top:120px;left:50%;transform-origin:50% 50%;background:#F2A024;color:#fff;font-weight:600;font-size:76px;padding:18px 54px;border-radius:999px;white-space:nowrap;box-shadow:0 10px 0 #d98a12;text-shadow:0 4px 0 rgba(0,0,0,.12)}
+.m{position:absolute;border-radius:50%;background:#F6EFE0;border:14px solid #F3E2B0;overflow:hidden;box-shadow:0 14px 30px rgba(18,59,55,.18)}
+.m img{width:100%;height:100%;display:block}
+#cap{position:absolute;left:60px;right:60px;bottom:170px;background:#fff;border-radius:44px;padding:30px 40px;font-family:Sarabun;font-weight:600;font-size:54px;line-height:1.25;text-align:center;box-shadow:0 10px 0 #D3EFE7;transform-origin:50% 100%}
+.card{position:absolute;background:#fff;border-radius:48px;box-shadow:0 12px 0 #D3EFE7;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.big{font-weight:600;color:#123B37}
+.chip{display:inline-block;border-radius:30px;padding:10px 26px;margin:8px;color:#fff;font-weight:600}
+#end{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center}
+</style></head><body>
+<div id="bg"></div>
+<div class="trim" style="top:28px"></div><div class="trim" style="bottom:28px"></div>
+<div id="stage"></div>
+<div id="title"></div>
+<div id="cap"></div>
+<div id="end"></div>
+<script>
+const ID = new URLSearchParams(location.search).get('s') || 'hello'; const N = ID.length*7+ID.charCodeAt(0);
+const COL = {teal:'#007767',ink:'#123B37',mint:'#EEF5F0',gold:'#F2A024',pink:'#E0507A',soft:'#D3EFE7',cream:'#F6EFE0',sky:'#5BB8F0',purple:'#9B6BEA',green:'#3CB371'};
+const PALETTE = [COL.gold,COL.pink,COL.teal,COL.sky,COL.purple,COL.green];
+let TL;
+const $ = (id) => document.getElementById(id);
+const clamp = (x,a=0,b=1) => Math.max(a,Math.min(b,x));
+const easeBack = (x) => { x = clamp(x); const c=1.9; return 1 + (c+1)*Math.pow(x-1,3) + c*Math.pow(x-1,2); };
+const ease = (x) => { x = clamp(x); return 1 - Math.pow(1-x,3); };
+function rand(i){ const x = Math.sin(i*127.1+N*31.7)*43758.5453; return x - Math.floor(x); }
+
+// ---------- background: soft colour blobs + drifting confetti ----------
+const bg = $('bg');
+const blobs = [], confs = [];
+for (let i=0;i<6;i++){ const b=document.createElement('div'); b.className='blob'; const s=380+rand(i)*320; Object.assign(b.style,{width:s+'px',height:s+'px',background:PALETTE[i%6]+'33'}); bg.appendChild(b); blobs.push({el:b,x:rand(i+10)*1080,y:rand(i+20)*1920,s}); }
+for (let i=0;i<34;i++){ const c=document.createElement('div'); c.className='conf'; c.style.background=PALETTE[i%6]; c.style.opacity=.55; bg.appendChild(c); confs.push({el:c,x:rand(i+40)*1080,y:rand(i+80)*1920,v:30+rand(i+120)*60,r:rand(i+160)*360,sp:rand(i+200)*2-1}); }
+function drawBg(t){
+  blobs.forEach((b,i)=>{ b.el.style.transform=`translate(${b.x-b.s/2+Math.sin(t*.4+i)*60}px,${b.y-b.s/2+Math.cos(t*.3+i*2)*80}px)`; });
+  confs.forEach((c)=>{ const y=((c.y+c.v*t)%2000)-40; c.el.style.transform=`translate(${c.x+Math.sin(t+c.r)*30}px,${y}px) rotate(${c.r+c.sp*t*120}deg)`; });
+}
+
+// ---------- mascots ----------
+function mascot(key,size){ const d=document.createElement('div'); d.className='m'; d.innerHTML=`<img src="m-${key}.png">`; d.style.width=d.style.height=size+'px'; $('stage').appendChild(d); return d; }
+function place(el,x,y,scale=1,rot=0,op=1){ el.style.left=x+'px'; el.style.top=y+'px'; el.style.transform=`translate(-50%,-50%) scale(${scale}) rotate(${rot}deg)`; el.style.opacity=op; }
+// how loud the speaker is right now (0..1), for talking bounce
+function talk(t, who){
+  for (const c of TL.clips){ if (c.who!==who || c.name.startsWith('w-')) continue; const k=Math.floor((t-c.start)*30); if (k>=0 && k<c.env.length) return c.env[k]; }
+  return 0;
+}
+function activeClip(t){ return TL.clips.find(c=>t>=c.start && t<c.start+c.dur+0.25); }
+
+// ---------- caption ----------
+function caption(t){
+  const c = TL.clips.filter(c=>c.text && t>=c.start-0.1 && t<c.start+c.dur+0.35).pop();
+  const cap=$('cap');
+  if (!c || t>=TL.end){ cap.style.opacity=0; return; }
+  if (cap.dataset.k!==c.name+c.start){ cap.dataset.k=c.name+c.start; cap.textContent=c.text; }
+  const p=easeBack((t-c.start+0.1)/0.35); cap.style.opacity=1; cap.style.transform=`scale(${0.6+0.4*p})`;
+}
+
+// ---------- title pill ----------
+function title(t){ const el=$('title'); el.textContent=TL.title; const p=easeBack(t/0.6); el.style.transform=`translateX(-50%) scale(${p}) rotate(${Math.sin(t*2.2)*2.5}deg)`; el.style.display=t<TL.end?'block':'none'; }
+
+// ---------- end card ----------
+let endBuilt=false; const endM=[];
+function endCard(t){
+  const e=$('end');
+  if (t<TL.end){ e.style.display='none'; return; }
+  e.style.display='flex';
+  if(!endBuilt){ endBuilt=true;
+    e.innerHTML=`<div id="eh" class="big" style="font-size:96px;text-align:center;line-height:1.1">Learn with us!</div>
+      <div id="erow" style="position:relative;width:1000px;height:260px;margin:50px 0"></div>
+      <div id="eu" style="background:${COL.teal};color:#fff;font-weight:600;font-size:74px;padding:20px 50px;border-radius:999px;box-shadow:0 10px 0 #005a4e">nongchang.co.uk</div>
+      <div id="ef" style="margin-top:36px;font-size:50px;color:${COL.gold};font-weight:600">Free · no ads · for the whole family</div>
+      <div style="margin-top:22px;font-size:44px;font-weight:600">Thai · French · Spanish · Italian · English</div>`;
+    ['th','fr','es','it','en'].forEach((k)=>{ const d=document.createElement('div'); d.className='m'; d.innerHTML=`<img src="m-${k}.png">`; d.style.width=d.style.height='190px'; d.style.borderWidth='10px'; $('erow').appendChild(d); endM.push(d); });
+  }
+  const u=t-TL.end;
+  $('eh').style.transform=`scale(${easeBack(u/0.5)}) rotate(${Math.sin(t*3)*2}deg)`;
+  endM.forEach((d,i)=>{ const p=easeBack((u-0.15*i)/0.5); d.style.left=(100+i*200)+'px'; d.style.top='130px'; d.style.transform=`translate(-50%,-50%) scale(${p}) translateY(${Math.sin(t*6+i)*14}px)`; });
+  $('eu').style.transform=`scale(${easeBack((u-0.6)/0.5)*(1+0.04*Math.sin(t*5))})`;
+}
+
+// ---------- confetti burst ----------
+const burst=[]; function makeBurst(n){ for(let i=0;i<n;i++){ const c=document.createElement('div'); c.className='conf'; c.style.width=c.style.height=(18+rand(i+300)*18)+'px'; c.style.background=PALETTE[i%6]; c.style.display='none'; $('stage').appendChild(c); burst.push({el:c,a:rand(i+400)*Math.PI*2,v:500+rand(i+500)*900,r:rand(i+600)*720}); } }
+function drawBurst(t,t0,cx,cy){ burst.forEach(b=>{ const u=t-t0; if(u<0||u>2.2){b.el.style.display='none';return;} b.el.style.display='block'; const x=cx+Math.cos(b.a)*b.v*u, y=cy+Math.sin(b.a)*b.v*u+900*u*u; b.el.style.transform=`translate(${x}px,${y}px) rotate(${b.r*u}deg)`; b.el.style.opacity=clamp(2.2-u); }); }
+
+
+// ================= say it in 5 =================
+let s1;
+function init1(){ const C=TL.cfg; const W=C.words;
+  s1={host:mascot(C.host,520), cards:W.map(w=>{ const c=document.createElement('div'); c.className='card'; c.style.width='860px'; c.style.height='560px';
+    c.innerHTML=`<div class="m" style="position:relative;width:250px;height:250px;border-width:12px"><img src="m-${w.k}.png"></div>
+      <div style="font-size:46px;font-weight:600;margin-top:14px">${w.flag} ${w.lang}</div>
+      <div class="big" style="font-size:${w.word.length>8?110:130}px;line-height:1.25;font-family:${w.font||'Mitr'};color:${COL.teal}">${w.word}</div>
+      ${w.rom?`<div style="font-family:Sarabun;font-size:52px;color:#4F6B66;margin-top:18px">${w.rom}</div>`:''}`;
+    $('stage').appendChild(c); return c; }), mini:W.map(w=>{ const c=document.createElement('div'); c.className='card'; c.style.width='300px'; c.style.height='170px'; c.style.borderRadius='34px';
+    c.innerHTML=`<div style="font-size:40px">${w.flag}</div><div style="font-family:${w.font||'Mitr'};font-weight:600;font-size:${w.word.length>8?40:48}px;color:${COL.teal}">${w.word}</div>`; $('stage').appendChild(c); return c; })};
+  makeBurst(40);
+}
+function draw1(t){ const C=TL.cfg; const host=s1.host;
+  const words = TL.clips.filter(c=>c.word);
+  const firstWord = words[0].start, lastWordEnd = words[4].start+words[4].dur+0.5;
+  let hx=540,hy=880,hs=1;
+  if (t>firstWord-0.5 && t<lastWordEnd){ const p=ease((t-firstWord+0.5)/0.5); hx=540-370*p; hy=880-520*p; hs=1-0.6*p; }
+  else if (t>=lastWordEnd){ const p=ease((t-lastWordEnd)/0.5); hx=170+370*p; hy=360+180*p; hs=0.4+0.25*p; }
+  const a=talk(t,C.host); const intro=easeBack((t-0.15)/0.6);
+  place(host,hx,hy - a*30,hs*intro*(1+a*0.06),Math.sin(t*4)*a*6, t<TL.end?1:0);
+  words.forEach((w,i)=>{ const card=s1.cards[i], mini=s1.mini[i]; const u=t-(w.start-0.25);
+    if (u<0 || t>=lastWordEnd){ card.style.opacity=0; }
+    else { const inP=easeBack(u/0.45); const outP=ease((t-(w.start+1.55))/0.35); place(card,540,960,(0.3+0.7*inP)*(1-outP*0.8),Math.sin(t*3+i)*2*(1-outP),1-outP); }
+    const shownAt=w.start+1.6;
+    if (t<shownAt || t>=TL.end){ mini.style.opacity=0; }
+    else { const p=easeBack((t-shownAt)/0.4); let x,y,s=1;
+      if (t<lastWordEnd){ x=120+i*210; y=1450; s=0.68; }
+      else { const q=ease((t-lastWordEnd)/0.5); const gx=[290,790,290,790,540][i], gy=[1060,1060,1260,1260,1460][i]; x=(120+i*210)*(1-q)+gx*q; y=1450*(1-q)+gy*q; s=0.68+0.52*q; }
+      place(mini,x,y+Math.sin(t*5+i)*8,s*p,Math.sin(t*2+i)*3,1); }
+  });
+  drawBurst(t,words[4].start+1.4,540,1300);
+}
+
+// ================= guess the word =================
+let s2;
+function init2(){ const C=TL.cfg;
+  s2={host:mascot(C.host,380)};
+  const w=document.createElement('div'); w.className='card'; w.style.width='880px'; w.style.height='380px';
+  w.innerHTML=`<div style="font-size:46px;font-weight:600;color:#4F6B66">${C.lang}</div><div style="font-size:80px;line-height:1.1">🔊</div><div class="big" style="font-size:130px;line-height:1.15;color:${COL.pink}">${C.word}</div>`; $('stage').appendChild(w); s2.word=w;
+  s2.choices=C.choices.map(([e,n],i)=>{ const c=document.createElement('div'); c.className='card'; c.style.width='300px'; c.style.height='330px';
+    c.innerHTML=`<div style="font-size:170px;line-height:1">${e}</div><div style="font-size:${n.length>6?44:52}px;font-weight:600;margin-top:10px">${n}</div>`; $('stage').appendChild(c); return c; });
+  const n=document.createElement('div'); n.className='big'; n.style.cssText='position:absolute;font-size:300px;color:#E0507A;text-shadow:0 12px 0 #fff'; $('stage').appendChild(n); s2.num=n;
+  const eq=document.createElement('div'); eq.className='card'; eq.style.width='900px'; eq.style.height='230px'; eq.innerHTML=`<div class="big" style="font-size:96px"><span style="color:${COL.pink}">${C.word}</span> = ${C.choices[C.answer][0]}</div>`; $('stage').appendChild(eq); s2.eq=eq;
+  makeBurst(60);
+}
+function draw2(t){ const C=TL.cfg, M=TL.marks; const a=talk(t,C.host);
+  const reveal=M.reveal, w1=M.w1;
+  let hs=1.25, hy=820;
+  if (t>=w1-0.6){ const p=ease((t-w1+0.6)/0.5); hs=1.25-0.4*p; hy=820-350*p; }
+  place(s2.host,540,hy-a*30,hs*easeBack(t/0.6)*(1+a*0.06),Math.sin(t*4)*a*7, t<TL.end?1:0);
+  const words=TL.clips.filter(c=>c.word);
+  const wIn=easeBack((t-w1+0.25)/0.45); const wOut=ease((t-M.q+0.3)/0.3);
+  const saying=words.slice(0,2).some(c=>t>c.start&&t<c.start+c.dur+0.1); const wPulse=saying?1+0.05*Math.sin(t*18):1;
+  place(s2.word,540,860,(t<w1-0.25?0:wIn)*(1-wOut)*wPulse,0,t<M.q?1:0);
+  const xs=[200,540,880];
+  C.choices.forEach((ch,i)=>{ const c=s2.choices[i]; const m=M.choice[i]; const p=easeBack((t-m+0.15)/0.4);
+    let s=t<m-0.15?0:p, op=1, y=1180+Math.sin(t*4+i)*10, x=xs[i];
+    if (t>=reveal){ const q=ease((t-reveal)/0.5); if(i===C.answer){ s=1+0.55*q; y=1180-260*q; x=xs[i]*(1-q)+540*q; c.style.boxShadow=`0 0 0 ${14*q}px #3CB371, 0 12px 0 #D3EFE7`; } else { op=1-q; } }
+    if (t>=M.eq){ const q=ease((t-M.eq)/0.3); s*=1-q; }
+    place(c,x,y,s,Math.sin(t*3+i)*3,op); });
+  let shown=null; M.count.forEach((m,i)=>{ if(t>=m&&t<m+0.8) shown=[m,String(3-i)]; });
+  if (shown && t<reveal){ s2.num.textContent=shown[1]; const u=t-shown[0]; s2.num.style.display='block'; s2.num.style.left='860px'; s2.num.style.top='470px'; s2.num.style.transform=`translate(-50%,-50%) scale(${easeBack(u/0.3)*(1-0.3*clamp(u-0.5))})`; } else s2.num.style.display='none';
+  drawBurst(t,reveal,540,920);
+  const eIn=easeBack((t-M.eq)/0.45);
+  place(s2.eq,540,1050,t<M.eq?0:eIn*(1+0.03*Math.sin(t*6)),0,t<TL.end?1:0);
+}
+
+// ================= funny sayings =================
+let s3;
+function init3(){ const C=TL.cfg;
+  s3={host:mascot(C.host,560)};
+  const row=document.createElement('div'); row.style.cssText='position:absolute;left:20px;right:20px;top:1000px;text-align:center'; $('stage').appendChild(row);
+  s3.chips=C.phrase.map(([w,r],i)=>{ const c=document.createElement('span'); c.className='chip'; c.style.background=PALETTE[i%6]; c.style.boxShadow='0 8px 0 rgba(0,0,0,.12)'; c.style.transformOrigin='50% 80%'; c.style.verticalAlign='top';
+    c.innerHTML=C.thai?`<div style="font-family:Sarabun;font-size:110px;line-height:1.2">${w}</div><div style="font-family:Sarabun;font-size:50px;opacity:.95">${r}</div>`:`<span style="font-size:${C.phrase.length>3?72:92}px">${w}</span>`;
+    row.appendChild(c); return c; });
+  const lit=document.createElement('div'); lit.className='card'; lit.style.width='960px'; lit.style.height='380px';
+  lit.innerHTML=`<div style="font-size:48px;font-weight:600;color:#4F6B66">word for word:</div><div class="big" style="font-size:${C.literal.length>22?70:82}px;line-height:1.1">${C.literal}</div><div style="font-size:110px;margin-top:6px">${C.emo}${C.emo}${C.emo}</div>`; $('stage').appendChild(lit); s3.lit=lit;
+  s3.fall=Array.from({length:12},(_,i)=>{ const f=document.createElement('div'); f.textContent=C.fall[i%C.fall.length]; f.style.cssText='position:absolute;font-size:110px'; $('stage').appendChild(f); return f; });
+  const yt=document.createElement('div'); yt.className='card'; yt.style.width='860px'; yt.style.height='220px'; yt.innerHTML=`<div class="big" style="white-space:nowrap;font-size:104px;color:${COL.pink}">Your turn! 🎤</div>`; $('stage').appendChild(yt); s3.yt=yt;
+  const fl=document.createElement('div'); fl.style.cssText=`position:absolute;background:${COL.teal};color:#fff;font-weight:600;font-size:46px;padding:10px 34px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 0 #005a4e`; fl.textContent=C.lang; $('stage').appendChild(fl); s3.flag=fl;
+  makeBurst(40);
+}
+function draw3(t){ const C=TL.cfg, M=TL.marks; const a=talk(t,C.host); const W=M.words;
+  const phrases=TL.clips.filter(c=>c.word);
+  const L0=M.lit, L1=M.litEnd;
+  const shake=(t>L0&&t<L1)?Math.sin(t*30)*6:0;
+  place(s3.host,540+shake,690-a*36,easeBack(t/0.6)*(1+a*0.07),Math.sin(t*4)*a*7+shake*0.6, t<TL.end?1:0);
+  place(s3.flag,540,312,t<TL.end?easeBack((t-0.3)/0.5):0,0);
+  s3.chips.forEach((c,i)=>{ const p0=phrases[0].start+W[i];
+    let s=t<p0-0.05?0:easeBack((t-p0+0.05)/0.35), lift=0;
+    phrases.forEach(ph=>{ const u=t-(ph.start+W[i]); if(u>0&&u<0.45) lift=Math.sin(u/0.45*Math.PI); });
+    const gone=(t>L0&&t<L1+0.2)?ease((t-L0)/0.3)*(1-ease((t-L1+0.1)/0.3)):0;
+    c.style.display='inline-block';
+    c.style.transform=`scale(${s*(1+0.22*lift)*(1-0.35*gone)}) translateY(${-40*lift+380*gone}px) rotate(${Math.sin(t*3+i)*3}deg)`;
+    c.style.opacity=t<TL.end?(1-gone):0; });
+  const litIn=easeBack((t-L0-1.8)/0.45), litOut=ease((t-L1+0.2)/0.3);
+  place(s3.lit,540,1170,t<L0+1.8?0:litIn*(1-litOut)*(1+0.03*Math.sin(t*7)),Math.sin(t*2)*2,1);
+  s3.fall.forEach((f,i)=>{ const u=t-(L0+3.0+i*0.18); if(u<0||u>3.6||t>=TL.end){f.style.display='none';return;} f.style.display='block'; const x=60+((i*173)%960); const y=-140+u*620; f.style.transform=`translate(${x}px,${y}px) rotate(${u*200*(i%2?1:-1)}deg)`; });
+  drawBurst(t,L0+2.8,540,700);
+  const tu=M.turn; const yIn=easeBack((t-tu)/0.4);
+  place(s3.yt,540,1560,(t<tu||t>=TL.end)?0:yIn*(1+0.06*Math.sin(t*8)),Math.sin(t*5)*3,1);
+}
+
+window.renderAt = function(t){
+  drawBg(t); title(t); caption(t); endCard(t);
+  const k=TL.cfg.kind; if (k==='say5') draw1(t); else if (k==='guess') draw2(t); else draw3(t);
+  $('stage').style.opacity = t>=TL.end?0:1;
+};
+fetch(`tl-${ID}.json`).then(r=>r.json()).then(async j=>{ TL=j; const k=TL.cfg.kind; if(k==='say5')init1(); else if(k==='guess')init2(); else init3();
+  await Promise.all(['600 40px Mitr','500 40px Mitr','600 40px Sarabun','600 40px "Noto Color Emoji"'].map(f=>document.fonts.load(f,'Aa สวัสดี ช้าเป็นเต่า à ¡ 🍎')));
+  await Promise.all(['th','fr','es','it','en'].map(k=>{ const i=new Image(); i.src=`m-${k}.png`; return i.decode().catch(()=>{}); }));
+  await document.fonts.ready; await Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))); renderAt(0); window.READY=true; });
+</script>
+</body></html>
