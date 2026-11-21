@@ -8,13 +8,15 @@ CFG = {
     "co": dict(gem="gem-co", intro="co1", try_="co2", end="co3", word="w-delicieux"),
     "ny": dict(gem="gem-ny", intro="ny1", try_="ny2", end="nc3", word="w-aroi"),
     "lu": dict(gem="gem-lu", intro="lw1", try_="lw2", end="lw3", word="w-buonissimo"),
+    "to": dict(gem="gem-to", intro="ty1", try_="ty2", end="ty3", word="w-delicioso"),
+    "le": dict(gem="gem-le", intro="le1", try_="le2", end="le3", word="w-delicious"),
 }
 TOTAL, CLIP_END, END = 20.6, 10.0, 16.2
 
 def build(k):
     c = CFG[k]; N = int(SR * TOTAL)
     voice = np.zeros((N, 2)); sfx = np.zeros((N, 2)); amb = np.zeros((N, 2))
-    gem = B.load(c["gem"])[: int(SR * CLIP_END)]
+    gem = B.load(c["gem"])[: int(SR * (6.4 if k in ("to", "le") else CLIP_END))]
     fade = int(0.4 * SR); gem[-fade:] *= np.linspace(1, 0, fade)
     B.add(amb, gem, 0.0, gain=0.35)
     clips = []
@@ -23,7 +25,9 @@ def build(k):
         clips.append(dict(name=name, start=at, dur=round(len(sig) / SR, 3), text=text, env=B.envelope(sig)))
     intro = {"co": "Ooh la la! A warm croissant! In France, when food is yummy, we say...",
              "ny": "Mmm, mango sticky rice! In Thailand, when food is yummy, we say...",
-             "lu": "Mmm, a cheesy pizza! In Italy, when food is yummy, we say..."}[k]
+             "lu": "Mmm, a cheesy pizza! In Italy, when food is yummy, we say...",
+             "to": "Mmm, churros with hot chocolate! In Spain, when food is yummy, we say...",
+             "le": "Mmm, a scone with jam and cream! In England, when food is yummy, we say..."}[k]
     put(c["intro"], 0.4, intro)
     word_at = 0.4 + len(B.load(c["intro"])) / SR + 0.35
     put(c["word"], word_at, None, 1.3)
