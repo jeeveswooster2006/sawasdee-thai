@@ -61,6 +61,9 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - **Feature spotlight posts:** every so often (about every 1–2 weeks), add an update post about ONE exciting feature, either an existing one (e.g. Play together, Kids teach the grown-ups, family goal, kids' mode, printables, try-a-lesson, phone reminders) or something brand new. Paul still approves with "post".
 - **Always include a link to the app** (use the tracked short link for the place: /rd Reddit, /fb Facebook, /ig Instagram, /em email, /in invites) **and a picture of all five mascots** (sawasdee-family `public/share/nongchang-share-5.png`, live at nongchang.co.uk/share/nongchang-share-5.png). Where a picture can't be attached (e.g. Reddit modmail), link to it.
 
+## What works on social (Paul, 24 Nov 2026)
+- The Loy Krathong Reel (animated mascot clips + a real festival story) passed 1,300 Instagram views, far above any picture card. Paul: "I think the animation really helped". Lean on animated mascot Reels (real moments, festivals, natural animal actions) over static cards; plan January as mostly Reels. Keep the end-card "Link in bio" line on every Reel.
+
 ## YouTube Shorts style (Paul, 20 Nov 2026: "these need to be fun, bright, happy")
 - Every Short is fun, bright and happy: lively music, bouncy mascot movement, cheerful voices, big colourful text, quick pace, a smile or a little joke in each one. Never flat, slow, quiet or "lesson-like".
 - Use the brightest end of the brand kit (marigold, lotus pink, temple teal on mint) with confetti, stars and pops on right answers; no dark or muted screens.
