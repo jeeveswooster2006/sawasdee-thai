@@ -64,6 +64,27 @@ Tick items off here (move to the right section's notes) as they're done; add new
 ## What works on social (Paul, 24 Nov 2026)
 - The Loy Krathong Reel (animated mascot clips + a real festival story) passed 1,300 Instagram views, far above any picture card. Paul: "I think the animation really helped". Lean on animated mascot Reels (real moments, festivals, natural animal actions) over static cards; plan January as mostly Reels. Keep the end-card "Link in bio" line on every Reel.
 
+## Special occasions plan (Paul, 24 Nov 2026: "get something in place for each of them"; be clever with credits)
+- One animated mascot Reel per big occasion (natural actions, nothing held, limb rule), cheap code Shorts for small ones. Every Reel gets the "Link in bio" end-card line; YouTube copies without it.
+- **Cheaper clips (checked 24 Nov with free estimates):** Omni 1.2 at 720p, 5 s, no draft ≈ 2,140 credits (was ~5,300 with an 8 s draft + remake); Veo 3.1 Lite 8 s, no audio ≈ 1,450, but it has no reference-picture input, so it needs a start picture of the mascot first (~300, limb-check the still before animating) ≈ 1,750 total, quality not yet tested. Veo 3.1 Fast (≈ 4,850 no audio) only for tricky-limb scenes. Pad short clips with a freeze frame in the edit.
+- **Budget:** animated occasions about 10-15k a month, leaving most of the ~121k for everyday work. Make each month's batch on the 18th, right after the credit reset (scheduled task); ask Paul's balance and say the cost first.
+- **Calendar** (make-on date → occasion · mascot · scene · method):
+  - 18 Dec → 28 Dec Día de los Inocentes · Torito hides behind a tree and jumps out "¡Inocente!" · Omni 5 s
+  - 18 Dec → 31 Dec New Year · all five, fireworks, "Happy New Year" in 5 · code Short with mascot pictures + fireworks (cheap)
+  - 18 Dec → 6 Jan Epiphany · Coco pecks a galette des rois, paper crown worn (FR); Torito sniffs shoes left out, camels pass (ES); Lupo watches la Befana fly across the moon (IT) · 3 × Omni 5 s + combined Short
+  - 18 Dec → 9 Jan Thai Children's Day · Nong Chang at a children's fair · Omni 5 s
+  - 18 Jan → 2 Feb La Chandeleur (Coco watches crêpes flip) · 6 Feb Chinese New Year in Thailand (Nong Chang, Yaowarat lanterns, lion dance) · 9 Feb Pancake Day/Carnival (Leo pancakes on a plate, Lupo masked by a gondola; "Carnival in 4") · 14 Feb Valentine's ("I love you in 5", code)
+  - 18 Feb → 15-19 Mar Las Fallas (Torito watches giant figures + fireworks) · 28 Mar Easter (Coco by eggs hatching chicks, Leo sniffs eggs, Lupo by a colomba) · 1 Apr poisson d'avril (Coco with a paper fish on her back)
+  - 18 Mar → 13-15 Apr Songkran ★★ (Nong Chang sprays everyone with his trunk) · 12/13-18 Apr Feria de Abril (Torito dancing by the casetas, Veo Fast: legs)
+  - 18 May → 2 Jun Festa della Repubblica (Lupo, tricolour smoke in the sky) · 21 Jun Fête de la Musique (Coco dancing, Veo Fast)
+  - 18 Jun → 14 Jul Bastille Day (Coco, fireworks over Paris)
+  - 18 Jul → 12 Aug Thai Mother's Day ("I love you, Mum", code; reuse on European Mother's Days: ES 2 May, IT 9 May, FR 30 May, UK 7 Mar) · 15 Aug Ferragosto (Lupo splashing at the seaside) · 25 Aug La Tomatina (Torito splashing in squashed tomatoes)
+  - 18 Sep → 31 Oct Halloween ★ (all five in costumes, worn)
+  - 18 Oct → 5 Nov Bonfire Night (Leo, fireworks) · 13/14 Nov Loy Krathong 2027 ★★ (new Nong Chang Reel)
+  - 18 Nov → Christmas 2027 ★ (new snowy set)
+- Left out on purpose: Makha Bucha / Visakha Bucha (religious), San Fermín (bull run, not for kids). Check provisional 2027 dates (Loy Krathong 13 or 14 Nov, Feria 12 or 13 Apr, Venice Carnival 23 Jan-9 Feb) a month before.
+- Metricool: December is full (swap card posts, as on 24 Nov); January onwards has free slots.
+
 ## YouTube Shorts style (Paul, 20 Nov 2026: "these need to be fun, bright, happy")
 - Every Short is fun, bright and happy: lively music, bouncy mascot movement, cheerful voices, big colourful text, quick pace, a smile or a little joke in each one. Never flat, slow, quiet or "lesson-like".
 - Use the brightest end of the brand kit (marigold, lotus pink, temple teal on mint) with confetti, stars and pops on right answers; no dark or muted screens.
