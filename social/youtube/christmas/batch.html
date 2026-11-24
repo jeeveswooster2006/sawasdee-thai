@@ -85,7 +85,7 @@ function endCard(t){
       <div id="erow" style="position:relative;width:1000px;height:260px;margin:50px 0"></div>
       <div id="eu" style="background:${COL.teal};color:#fff;font-weight:600;font-size:74px;padding:20px 50px;border-radius:999px;box-shadow:0 10px 0 #005a4e">nongchang.co.uk</div>
       <div id="ef" style="margin-top:36px;font-size:50px;color:${COL.gold};font-weight:600">Free · no ads · for the whole family</div>
-      <div style="margin-top:22px;font-size:44px;font-weight:600">Thai · French · Spanish · Italian · English</div>`;
+      <div style="margin-top:22px;font-size:44px;font-weight:600">Thai · French · Spanish · Italian · English</div>${new URLSearchParams(location.search).get('cta')==='1'?'<div id="cta" style="margin-top:44px;background:#E0507A;color:#fff;font-weight:600;font-size:56px;padding:16px 44px;border-radius:999px;box-shadow:0 10px 0 #b83a5f">👆 Link in bio: try a free lesson!</div>':''}`;
     ['th','fr','es','it','en'].forEach((k)=>{ const d=document.createElement('div'); d.className='m'; d.innerHTML=`<img src="m-${k}.png">`; d.style.width=d.style.height='190px'; d.style.borderWidth='10px'; $('erow').appendChild(d); endM.push(d); });
   }
   const u=t-TL.end;

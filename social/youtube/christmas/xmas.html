@@ -35,8 +35,10 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font
   <div id="eu" style="background:#007767;color:#fff;font-weight:600;font-size:74px;padding:20px 50px;border-radius:999px;box-shadow:0 10px 0 #005a4e">nongchang.co.uk</div>
   <div style="margin-top:36px;font-size:50px;color:#F2A024;font-weight:600">Free · no ads · for the whole family</div>
   <div style="margin-top:22px;font-size:44px;font-weight:600">Thai · French · Spanish · Italian · English</div>
+  <div id="cta" style="display:none;margin-top:44px;background:#E0507A;color:#fff;font-weight:600;font-size:56px;padding:16px 44px;border-radius:999px;box-shadow:0 10px 0 #b83a5f">👆 Link in bio: try a free lesson!</div>
 </div>
 <script>
+if(new URLSearchParams(location.search).get('cta')==='1') document.addEventListener('DOMContentLoaded',()=>{const c=document.getElementById('cta'); if(c) c.style.display='block';});
 const K = new URLSearchParams(location.search).get('m') || 'co';
 const CFG = {
   co: {flag:'🇫🇷 French', word:"Joyeux Noël&nbsp;!", rom:'', mean:"Merry Christmas!", wordY:1390, turnY:1110},
