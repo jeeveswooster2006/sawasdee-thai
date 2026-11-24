@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Mitr;font-weight:600;src:url(mitr-latin-600-normal.woff2)}
+@font-face{font-family:Mitr;font-weight:600;src:url(mitr-thai-600-normal.woff2);unicode-range:U+0E01-0E5B}
+@font-face{font-family:Mitr;font-weight:500;src:url(mitr-latin-500-normal.woff2)}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-latin-600-normal.woff2)}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-latin-ext-600-normal.woff2);unicode-range:U+0100-02FF,U+0300-036F}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-thai-600-normal.woff2);unicode-range:U+0E01-0E5B}
+*{margin:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:Mitr,"Noto Color Emoji";color:#123B37}
+.abs{position:absolute}
+.pill{background:#F2A024;color:#fff;font-weight:600;border-radius:999px;white-space:nowrap;box-shadow:0 10px 0 #d98a12;text-shadow:0 4px 0 rgba(0,0,0,.12)}
+.card{background:#fff;border-radius:48px;box-shadow:0 12px 0 #D3EFE7, 0 20px 50px rgba(0,0,0,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#cap{left:60px;right:60px;bottom:150px;background:#fff;border-radius:44px;padding:28px 40px;font-family:Sarabun;font-weight:600;font-size:52px;line-height:1.25;text-align:center;box-shadow:0 10px 0 #D3EFE7, 0 16px 40px rgba(0,0,0,.18);transform-origin:50% 100%}
+.conf{position:absolute;width:24px;height:24px;border-radius:6px;left:0;top:0}
+.m{position:absolute;border-radius:50%;background:#F6EFE0;border:10px solid #F3E2B0;overflow:hidden;left:0;top:0}
+.m img{width:100%;height:100%;display:block}
+.screen{position:absolute;inset:0;background:#EEF5F0;display:none}
+.trim{position:absolute;left:0;right:0;height:22px;background:
+ radial-gradient(circle at 16px 11px,#007767 8px,transparent 9px) 0 0/96px 22px repeat-x,
+ radial-gradient(circle at 48px 11px,#E0507A 8px,transparent 9px) 0 0/96px 22px repeat-x,
+ radial-gradient(circle at 80px 11px,#F2A024 8px,transparent 9px) 0 0/96px 22px repeat-x}
+.dot{position:absolute;width:26px;height:26px;border-radius:50%;background:#fff;border:5px solid #F2A024;left:0;top:0}
+</style></head><body>
+<div id="bg" class="screen"><div class="trim" style="top:28px"></div><div class="trim" style="bottom:28px"></div><div id="bgconf"></div></div>
+<div id="intro"></div>
+<div id="title" class="abs pill" style="left:0;top:0;font-size:68px;padding:18px 48px">Merry Christmas in 5! 🎄</div>
+<div id="flag" class="abs pill" style="left:0;top:0;font-size:50px;padding:12px 38px;background:#007767;box-shadow:0 8px 0 #005a4e"></div>
+<div id="count" class="abs" style="left:0;top:0"></div>
+<div id="word" class="abs card" style="left:0;top:0;width:920px;padding:34px 30px"></div>
+<div id="turn" class="abs pill" style="left:0;top:0;font-size:90px;padding:16px 58px;background:#E0507A;box-shadow:0 10px 0 #b83a5f">Your turn! 🎤</div>
+<div id="big"></div>
+<div id="row"></div>
+<div id="cap" class="abs"></div>
+<div id="burst"></div>
+<div id="end" class="screen" style="flex-direction:column;align-items:center;justify-content:center"><div class="trim" style="top:28px"></div><div class="trim" style="bottom:28px"></div>
+  <div id="eh" style="font-weight:600;font-size:96px">Learn with us!</div>
+  <div id="erow" style="position:relative;width:1000px;height:260px;margin:50px 0"></div>
+  <div id="eu" style="background:#007767;color:#fff;font-weight:600;font-size:74px;padding:20px 50px;border-radius:999px;box-shadow:0 10px 0 #005a4e">nongchang.co.uk</div>
+  <div style="margin-top:36px;font-size:50px;color:#F2A024;font-weight:600">Free · no ads · for the whole family</div>
+  <div style="margin-top:22px;font-size:44px;font-weight:600">Thai · French · Spanish · Italian · English</div>
+</div>
+<script>
+const W = {
+  ny:{img:'th',name:'Nong Chang',flag:'🇹🇭 Thai',word:'สุขสันต์วันคริสต์มาส',rom:'sùk-sǎn wan khrít-sà-mâat',mean:'Merry Christmas!',thai:true},
+  co:{img:'fr',name:'Coco',flag:'🇫🇷 French',word:"Joyeux Noël&nbsp;!",mean:"Merry Christmas!"},
+  to:{img:'es',name:'Torito',flag:'🇪🇸 Spanish',word:'¡Feliz Navidad!',mean:"Merry Christmas!"},
+  lu:{img:'it',name:'Lupo',flag:'🇮🇹 Italian',word:'Buon Natale!',mean:"Merry Christmas!"},
+  le:{img:'en',name:'Leo',flag:'🇬🇧 English',word:"Merry Christmas!",mean:'Happy Christmas!'},
+};
+let TL; const $=(id)=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const easeBack=(x)=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const PAL=['#F2A024','#E0507A','#007767','#5BB8F0','#9B6BEA','#3CB371'];
+const rand=(i)=>{const x=Math.sin(i*127.1+5*31.7)*43758.5453;return x-Math.floor(x);};
+function place(el,x,y,s,r=0,op=1){el.style.left=x+'px';el.style.top=y+'px';el.style.transform=`translate(-50%,-50%) scale(${s}) rotate(${r}deg)`;el.style.opacity=op;}
+function mk(k,size){const d=document.createElement('div');d.className='m';d.style.width=d.style.height=size+'px';d.innerHTML=`<img src="m-${W[k].img}.png">`;return d;}
+function wordHTML(k,big){const w=W[k];const fs=w.thai?(big?96:90):(big?104:96);
+  return `<div style="font-family:${w.thai?'Sarabun':'Mitr'};font-weight:600;font-size:${fs}px;line-height:1.2;color:#007767">${w.word}</div>`
+   +(w.rom?`<div style="font-family:Sarabun;font-weight:600;font-size:60px;color:#4F6B66;margin-top:4px">${w.rom}</div>`:'')
+   +`<div style="font-weight:600;font-size:52px;color:#E0507A;margin-top:6px">= ${w.mean}</div>`;}
+const KEYS=['ny','co','to','lu','le'];
+const introM=KEYS.map(k=>{const d=mk(k,300);$('intro').appendChild(d);return d;});
+const rowM=KEYS.map(k=>{const d=mk(k,150);$('row').appendChild(d);return d;});
+const bigM=KEYS.map(k=>{const d=mk(k,470);d.style.display='none';$('big').appendChild(d);return d;});
+const endM=KEYS.map(k=>{const d=mk(k,190);$('erow').appendChild(d);return d;});
+const dots=KEYS.map(()=>{const d=document.createElement('div');d.className='dot';$('count').appendChild(d);return d;});
+const burst=[];for(let i=0;i<70;i++){const c=document.createElement('div');c.className='conf';c.style.background=PAL[i%6];c.style.display='none';$('burst').appendChild(c);burst.push({el:c,a:rand(i)*Math.PI*2,v:500+rand(i+50)*1000,r:rand(i+90)*720});}
+const fall=[];for(let i=0;i<34;i++){const c=document.createElement('div');c.className='conf';c.style.background=PAL[i%6];c.style.opacity=.75;$('bgconf').appendChild(c);fall.push({el:c,x:rand(i+200)*1080,y:rand(i+300)*1920,v:120+rand(i+400)*160,r:rand(i+500)*360});}
+let lastWord='';
+function setWord(k,big){const key=k+(big?'b':'s');if(lastWord!==key){$('word').innerHTML=wordHTML(k,big);lastWord=key;}}
+window.renderAt=function(t){
+  const seg=(t>=TL.iEnd&&t<TL.fin)?Math.min(4,Math.floor((t-TL.iEnd)/TL.seg)):-1;
+  const intro=t<TL.iEnd, fin=t>=TL.fin&&t<TL.end, end=t>=TL.end;
+  $('bg').style.display=(intro||fin)?'block':'none';
+  $('end').style.display=end?'flex':'none';
+  // falling confetti on mint screens
+  fall.forEach(f=>{if(!(intro||fin)){f.el.style.display='none';return;}f.el.style.display='block';const u=t;const y=((f.y+f.v*u)%2000)-40;f.el.style.transform=`translate(${f.x+Math.sin(u+f.r)*30}px,${y}px) rotate(${f.r+u*120}deg)`;});
+  // title: big in the intro, small badge on clips, hidden in finale/end
+  if(intro) place($('title'),540,330,easeBack(t/0.6),Math.sin(t*2.2)*2.5);
+  else if(seg>=0) place($('title'),540,110,0.62,Math.sin(t*2.2)*2);
+  else place($('title'),540,0,0);
+  // intro mascots pop in one by one, then bounce
+  introM.forEach((d,i)=>{if(!intro){d.style.display='none';return;}d.style.display='block';
+    const pos=[[540,760],[250,1080],[830,1080],[330,1400],[750,1400]][i];
+    const u=t-(0.9+0.55*i); const out=clamp((TL.iEnd-0.35-t)/0.35);
+    place(d,pos[0],pos[1]+Math.sin(t*5+i)*16,easeBack(u/0.5)*out,Math.sin(t*3+i)*4);});
+  // clip sections
+  if(seg>=0){const k=KEYS[seg], s=TL.seg0[seg], u=t-s;
+    $('flag').textContent=W[k].flag+' · '+W[k].name; place($('flag'),540,230,easeBack(u/0.5),0);
+    dots.forEach((d,i)=>{d.style.background=i<seg?'#F2A024':(i===seg?'#E0507A':'#fff');d.style.borderColor=i===seg?'#E0507A':'#F2A024';place(d,540+(i-2)*46,320,i===seg?1.3+0.1*Math.sin(t*8):1);});
+    $('count').style.display='block';
+    setWord(k,false); const wIn=easeBack((u-TL.w1+0.15)/0.45); const saying=(u>TL.w1&&u<TL.w1+1.5)||(u>TL.w2&&u<TL.w2+1.5);
+    const wy=W[k].thai?1610:1600;
+    place($('word'),540,wy,u<TL.w1-0.15?0:wIn*(saying?1+0.05*Math.sin(t*16):1)*clamp((TL.seg-u)/0.25),Math.sin(t*2)*1.5);
+  } else { place($('flag'),540,0,0); $('count').style.display='none'; }
+  // finale: your turn, one big mascot at a time with its word
+  const r=TL.rapid; let cur=-1; if(fin){for(let i=0;i<5;i++) if(t>=r[i]) cur=i;}
+  place($('turn'),540,fin?250:0,fin?easeBack((t-TL.fin)/0.45)*(1+0.04*Math.sin(t*7)):0,Math.sin(t*5)*3);
+  bigM.forEach((d,i)=>{if(i!==cur||!fin){d.style.display='none';return;}d.style.display='block';const u=t-r[i];place(d,540,700+Math.sin(t*6)*12,easeBack(u/0.35),Math.sin(t*4)*4);});
+  if(fin&&cur>=0){setWord(KEYS[cur],true);const u=t-r[cur];place($('word'),540,1250,easeBack((u-0.05)/0.35)*(u>0.15&&u<1.9?1+0.05*Math.sin(t*16):1),Math.sin(t*2)*1.5);}
+  else if(seg<0) place($('word'),540,0,0);
+  rowM.forEach((d,i)=>{if(!fin){d.style.display='none';return;}d.style.display='block';const on=i===cur;
+    const mv=clamp((t-r[0]+0.45)/0.45), y=900+(1620-900)*mv+(cur<0?Math.sin(t*6+i)*18:0), sc=(cur<0?1.22:(on?1.2:0.9));
+    place(d,140+i*200,y,sc*easeBack((t-TL.fin-0.3-0.12*i)/0.4),cur<0?Math.sin(t*4+i)*5:0,cur<0||cur>i||on?1:0.55);d.style.borderColor=on?'#E0507A':'#F3E2B0';});
+  // captions
+  const c=TL.clips.filter(c=>c.text&&t>=c.start-0.1&&t<c.start+c.dur+0.35).pop();const cap=$('cap');
+  if(!c||end||(fin&&cur>=0)){cap.style.opacity=0;}else{if(cap.dataset.k!==c.name+c.start){cap.dataset.k=c.name+c.start;cap.textContent=c.text;}cap.style.opacity=1;cap.style.transform=`scale(${0.6+0.4*easeBack((t-c.start+0.1)/0.35)})`;}
+  // confetti burst at each first saying on the clips, and at each rapid word
+  let b0=null; if(seg>=0) b0={t:TL.seg0[seg]+TL.w1,y:1400}; if(fin&&cur>=0) b0={t:r[cur],y:1150};
+  burst.forEach(b=>{const u=b0?t-b0.t:-1;if(u<0||u>2.0){b.el.style.display='none';return;}b.el.style.display='block';const x=540+Math.cos(b.a)*b.v*u,y=b0.y+Math.sin(b.a)*b.v*u+900*u*u;b.el.style.transform=`translate(${x}px,${y}px) rotate(${b.r*u}deg)`;b.el.style.opacity=clamp(2.0-u);});
+  // end card
+  if(end){const u=t-TL.end;$('eh').style.transform=`scale(${easeBack(u/0.5)}) rotate(${Math.sin(t*3)*2}deg)`;
+    endM.forEach((d,i)=>{d.style.left=(100+i*200)+'px';d.style.top='130px';d.style.transform=`translate(-50%,-50%) scale(${easeBack((u-0.15*i)/0.5)}) translateY(${Math.sin(t*6+i)*14}px)`;});
+    $('eu').style.transform=`scale(${easeBack((u-0.6)/0.5)*(1+0.04*Math.sin(t*5))})`;}
+};
+fetch('tl-x5.json').then(r=>r.json()).then(async j=>{TL=j;
+  await Promise.all(['600 40px Mitr','500 40px Mitr','600 40px Sarabun','600 40px "Noto Color Emoji"'].map(f=>document.fonts.load(f,'Aa สุขสันต์ à ǎ 🎤🎄')));
+  await Promise.all(['th','fr','es','it','en'].map(k=>{const i=new Image();i.src=`m-${k}.png`;return i.decode().catch(()=>{});}));
+  await document.fonts.ready; await Promise.all([...document.images].map(i=>i.decode().catch(()=>{}))); renderAt(0); window.READY=true;});
+</script></body></html>
