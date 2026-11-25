@@ -194,6 +194,7 @@ Not started. Only pick these up when Paul asks.
 - 7 Nov: asked the GoGo España Spanish Facebook group (info@gogoespana.com) for permission to post about the app; replies go to info@. If they agree, write a Spanish-focused post with Torito.
 - 7 Nov: one-off welcome (service) email to a new Spanish sign-up. UK rule (PECR/ICO): "what's new" emails are marketing, so they go only to opted-in accounts; service emails (account help, one-off welcome, security, terms changes) are fine. Use the in-app news and social posts for everyone else.
 - 7 Nov (evening): one-off service emails about the fixed sign-in emails: "one step left" to the 6 unconfirmed sign-ups and "Sign-in emails are fixed" to 26 confirmed account owners (not Paul's own accounts, member logins or the new Spanish sign-up). No more account emails to these people unless they ask.
+- 25 Nov: one-off welcome (service) email to the new Google sign-up of 25 Nov (Thai, lesson 1 done), greeting "Hello, happy learner!" (Paul chose no name; names Google/Apple/Microsoft send stay in the database, Paul's choice). Test to info@ first, then sent (Paul: "send").
 - Paul approves every email ("send") before it goes out; send a test to info@ first. Hotmail/Outlook currently files our mail in Junk (new sender); Gmail delivers to Important. Keep subjects plain, no emoji.
 
 ## Facebook page (set up 4 Nov 2026)
