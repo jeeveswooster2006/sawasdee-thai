@@ -14,6 +14,6 @@ Claude's notes (agreed to keep, Paul: "Keep it stored ... remind me when credits
 - One continuous 8 s clip per story (Veo 3.1 Lite from a limb-checked still, ~1,750) + freeze frames/SFX, not 4 separate shots (~42k for all six, and the mascot drifts between shots). Whole series ≈ 12–20k credits.
 - Tricky-limb moves (head-over-heels tumble, calf leap, 5-way chain) need Veo 3.1 Fast (~4,850) or a simpler action (e.g. Nong Chang slides down the bank on his bottom).
 - Use names Coco/Torito/Lupo/Leo; series title "Nong Chang & Family" (channel name).
-- ElevenLabs Sound Effects for splashes/boings/giggles (cheap). Every Reel copy gets the "Link in bio" end-card line; YouTube copy without it. Made for kids.
+- Voices (Paul, 25 Nov: "use v4 for the voices"): eleven_v4 for the native words and mascot lines; giggles/gasps/sneezes and splashes/boings from ElevenLabs Sound Effects (cheap). Every Reel copy gets the "Link in bio" end-card line; YouTube copy without it. Made for kids.
 - MODEL (Paul, 25 Nov: "We will do it using the expensive one"): Veo 3.1 Fast for ALL six (mascot picture as reference image, 9:16, 8 s, 720p; ~4,850 a clip without audio, ~7,300 with; sound added in the edit), so the tumble, leap and chain-reaction can stay as written. All six ≈ 29,000-30,000 credits (+ ~1,000 SFX/voices). Limb-check every frame.
 - Pilot first: Coco "Dawn Patrol" with rooster sounds in 5 languages (~5,000 credits with Veo Fast). Ask Paul's balance and say the cost before generating.
