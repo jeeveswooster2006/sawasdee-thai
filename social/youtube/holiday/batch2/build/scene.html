@@ -1,0 +1,145 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: Mitr; font-weight: 500; src: url(fonts/mitr-latin-500-normal.woff2); }
+@font-face { font-family: Mitr; font-weight: 500; src: url(fonts/mitr-latin-ext-500-normal.woff2); unicode-range: U+0100-024F, U+1E00-1EFF; }
+@font-face { font-family: Mitr; font-weight: 500; src: url(fonts/mitr-thai-500-normal.woff2); unicode-range: U+0E00-0E7F; }
+@font-face { font-family: Mitr; font-weight: 600; src: url(fonts/mitr-latin-600-normal.woff2); }
+@font-face { font-family: Mitr; font-weight: 600; src: url(fonts/mitr-latin-ext-600-normal.woff2); unicode-range: U+0100-024F, U+1E00-1EFF; }
+@font-face { font-family: Mitr; font-weight: 600; src: url(fonts/mitr-thai-600-normal.woff2); unicode-range: U+0E00-0E7F; }
+@font-face { font-family: Sarabun; font-weight: 500; src: url(fonts/sarabun-latin-500-normal.woff2); }
+@font-face { font-family: Sarabun; font-weight: 500; src: url(fonts/sarabun-latin-ext-500-normal.woff2); unicode-range: U+0100-024F, U+1E00-1EFF, U+0250-02AF; }
+@font-face { font-family: Sarabun; font-weight: 500; src: url(fonts/sarabun-thai-500-normal.woff2); unicode-range: U+0E00-0E7F; }
+@font-face { font-family: Sarabun; font-weight: 700; src: url(fonts/sarabun-latin-700-normal.woff2); }
+:root { --teal:#007767; --ink:#123B37; --mint:#EEF5F0; --gold:#F2A024; --pink:#E0507A; --soft:#D3EFE7; --cream:#F6EFE0; --sage:#4F6B66; }
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--mint); }
+body { font-family: Sarabun, sans-serif; color: var(--ink); position: relative; }
+.bg { position: absolute; inset: 0; background:
+  radial-gradient(900px 700px at 15% 8%, rgba(242,160,36,0.18), transparent 70%),
+  radial-gradient(1000px 900px at 95% 100%, rgba(0,119,103,0.16), transparent 70%),
+  linear-gradient(180deg, #f4faf6, #e6f1ec); }
+.trim { position: absolute; left: 0; right: 0; top: 0; height: 22px;
+  background: radial-gradient(circle, var(--teal) 6px, transparent 7px) 0 0/66px 22px,
+              radial-gradient(circle, var(--pink) 6px, transparent 7px) 22px 0/66px 22px,
+              radial-gradient(circle, var(--gold) 6px, transparent 7px) 44px 0/66px 22px; opacity: .9; }
+.trim.b { top: auto; bottom: 0; }
+.top { position: absolute; top: 96px; left: 0; right: 0; display: flex; justify-content: center; }
+.pill { font-family: Mitr; font-weight: 500; font-size: 40px; padding: 16px 34px; border-radius: 999px; background: #fff; box-shadow: 0 6px 20px rgba(18,59,55,.08); color: var(--teal); }
+.dots { position: absolute; top: 210px; left: 0; right: 0; display: flex; justify-content: center; gap: 22px; }
+.dot { width: 22px; height: 22px; border-radius: 50%; background: rgba(18,59,55,.15); transition: none; }
+.dot.on { background: var(--gold); }
+.dot.done { background: var(--teal); }
+.layer { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 80px; }
+.hook .big { font-size: 230px; line-height: 1; }
+.hook h1 { font-family: Mitr; font-weight: 600; font-size: 104px; line-height: 1.08; margin-top: 50px; letter-spacing: -1px; }
+.hook p { font-size: 54px; color: var(--sage); margin-top: 34px; line-height: 1.25; }
+.card { width: 920px; background: #fff; border-radius: 64px; padding: 80px 64px 74px; box-shadow: 0 30px 80px rgba(18,59,55,.14); display: flex; flex-direction: column; align-items: center; }
+.card .emo { font-size: 170px; line-height: 1; }
+.card .en { font-family: Mitr; font-weight: 500; font-size: 62px; color: var(--sage); margin-top: 36px; }
+.card .native { font-family: Mitr; font-weight: 600; font-size: 128px; line-height: 1.12; color: var(--ink); margin-top: 26px; letter-spacing: -1px; }
+.card .native.long { font-size: 96px; }
+.card .native.xlong { font-size: 76px; }
+.lit { font-size: 50px; color: var(--sage); margin-top: 34px; line-height: 1.3; }
+.lit b { font-family: Mitr; font-weight: 500; color: var(--ink); }
+.means { margin-top: 30px; background: #FDF1DA; border: 4px solid var(--gold); border-radius: 36px; padding: 22px 36px; font-family: Mitr; font-weight: 600; font-size: 60px; color: var(--ink); line-height: 1.2; }
+.means small { display: block; font-family: Sarabun; font-weight: 500; font-size: 40px; color: #9a6410; margin-bottom: 6px; }
+.card .roman { font-size: 60px; color: var(--teal); margin-top: 18px; font-style: italic; }
+.wave { display: flex; gap: 12px; align-items: center; height: 120px; margin-top: 40px; }
+.wave i { display: block; width: 18px; border-radius: 9px; background: var(--teal); height: 18px; }
+.turn { margin-top: 30px; height: 130px; display: flex; flex-direction: column; align-items: center; }
+.turn .say { font-family: Mitr; font-weight: 600; font-size: 64px; color: var(--pink); }
+.turn .bar { width: 520px; height: 16px; border-radius: 8px; background: rgba(224,80,122,.18); margin-top: 18px; overflow: hidden; }
+.turn .bar b { display: block; height: 100%; background: var(--pink); border-radius: 8px; width: 0; }
+.outro h2 { font-family: Mitr; font-weight: 600; font-size: 92px; line-height: 1.1; letter-spacing: -1px; }
+.outro .langs { font-size: 50px; margin-top: 44px; color: var(--sage); line-height: 1.5; }
+.outro .free { font-family: Mitr; font-weight: 500; font-size: 52px; color: var(--teal); margin-top: 44px; }
+.outro .link { margin-top: 64px; font-family: Mitr; font-weight: 600; font-size: 74px; color: #fff; background: var(--teal); padding: 30px 64px; border-radius: 999px; box-shadow: 0 12px 0 #005a4e; }
+</style></head>
+<body>
+<div class="bg"></div><div class="trim"></div><div class="trim b"></div>
+<div class="top"><div class="pill" id="pill"></div></div>
+<div class="dots" id="dots"></div>
+<div class="layer hook" id="hook"><div class="big" id="hookEmoji"></div><h1 id="hookH"></h1><p id="hookP"></p></div>
+<div class="layer" id="cardL"><div class="card" id="card">
+  <div class="emo" id="emo"></div><div class="en" id="en"></div><div class="native" id="native"></div><div class="roman" id="roman"></div>
+  <div class="lit" id="lit"></div><div class="means" id="means"><small>It really means</small><span id="meansT"></span></div>
+  <div class="wave" id="wave"></div>
+  <div class="turn" id="turn"><div class="say" id="say">Your turn! 🗣️</div><div class="bar"><b id="barB"></b></div></div>
+</div></div>
+<div class="layer outro" id="outro">
+  <h2>Learn a language<br>together as a family</h2>
+  <div class="langs">🇹🇭 Thai · 🇫🇷 French · 🇪🇸 Spanish<br>🇮🇹 Italian · 🇬🇧 English</div>
+  <div class="free">Free · no ads · 5-minute lessons</div>
+  <div class="link">nongchang.co.uk/yt</div>
+</div>
+<script>
+const q = new URLSearchParams(location.search);
+const LANG = { th: "Thai", fr: "French", es: "Spanish", it: "Italian" };
+const $ = (id) => document.getElementById(id);
+const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+const pop = (x) => { x = Math.min(1, Math.max(0, x)); return x < 1 ? 1 + Math.sin(x * Math.PI) * 0.08 * (1 - x) - (1 - ease(x)) * 0.4 : 1; };
+let TL;
+for (let i = 0; i < 24; i++) $("wave").appendChild(document.createElement("i"));
+fetch("tl-" + (q.get("s") || "th-restaurant") + ".json").then((r) => r.json()).then(async (tl) => {
+  TL = tl;
+  $("pill").textContent = (tl.kind === "sayings" ? LANG[tl.lang] + " sayings " : "Holiday " + LANG[tl.lang] + " ") + tl.flag;
+  $("hookEmoji").textContent = tl.emoji; $("hookH").textContent = tl.hook; $("hookP").textContent = tl.sub;
+  tl.clips.forEach(() => { const d = document.createElement("div"); d.className = "dot"; $("dots").appendChild(d); });
+  // Load every font the phrases need before the first frame (fonts with a unicode-range load only when used).
+  const pre = document.createElement("div");
+  pre.style.cssText = "position:absolute;left:-9999px;top:0";
+  pre.innerHTML = tl.clips.map((c) => `<span style="font-family:Mitr;font-weight:600">${c.native}</span><span style="font-family:Mitr;font-weight:500">${c.en}</span><i style="font-family:Sarabun;font-weight:500">${c.roman}${c.literal || ""}</i><b style="font-family:Mitr;font-weight:600">${c.en}</b>`).join("");
+  document.body.appendChild(pre);
+  await Promise.all(["600 40px Mitr", "500 40px Mitr", "italic 500 40px Sarabun"].flatMap((f) => tl.clips.map((c) => document.fonts.load(f, c.native + c.en + c.roman))));
+  await document.fonts.ready;
+  window.renderAt(0);
+  window.READY = true;
+});
+window.renderAt = (t) => {
+  const tl = TL; if (!tl) return;
+  // hook
+  const hookOut = ease((t - 2.5) / 0.4);
+  $("hook").style.opacity = t < 2.9 ? String(1 - hookOut) : "0";
+  $("hookEmoji").style.transform = `scale(${pop(t / 0.6)}) rotate(${Math.sin(t * 3) * 6}deg)`;
+  $("hookH").style.transform = `translateY(${(1 - ease((t - 0.15) / 0.5)) * 60}px)`; $("hookH").style.opacity = String(ease((t - 0.15) / 0.5));
+  $("hookP").style.opacity = String(ease((t - 0.5) / 0.5));
+  // dots
+  [...$("dots").children].forEach((d, i) => { const c = tl.clips[i]; d.className = "dot" + (t >= c.end ? " done" : t >= c.start ? " on" : ""); });
+  $("dots").style.opacity = t >= 2.6 && t < tl.outro ? "1" : "0";
+  // phrase card
+  const c = tl.clips.find((x) => t >= x.start && t < x.end);
+  if (c) {
+    $("cardL").style.opacity = "1";
+    const inn = ease((t - c.start) / 0.45), out = ease((t - (c.end - 0.3)) / 0.3);
+    $("card").style.transform = `translateY(${(1 - inn) * 120 - out * 60}px) scale(${0.94 + 0.06 * inn})`;
+    $("card").style.opacity = String(inn * (1 - out));
+    $("emo").textContent = c.emoji; $("en").textContent = c.en; $("native").textContent = c.native; $("roman").textContent = c.roman;
+    $("native").className = "native" + (c.native.length > 26 ? " xlong" : c.native.length > 16 ? " long" : "");
+    const say = c.kind === "saying";
+    $("en").style.display = say ? "none" : "block";
+    $("lit").style.display = say ? "block" : "none";
+    $("lit").innerHTML = say ? "Word for word: <b>“" + c.literal.replace(/&/g, "&amp;").replace(/</g, "&lt;") + "”</b>" : "";
+    $("meansT").textContent = c.en;
+    const rv = say ? ease((t - c.reveal) / 0.35) : 0;
+    $("means").style.display = say ? "block" : "none";
+    $("means").style.opacity = String(rv);
+    $("means").style.transform = `scale(${say && t >= c.reveal ? pop((t - c.reveal) / 0.5) : 0.9})`;
+    $("roman").style.display = c.roman ? "block" : "none";
+    $("emo").style.transform = `scale(${pop((t - c.start - 0.1) / 0.5)})`;
+    // sound bars while the word plays
+    let lvl = 0;
+    for (const p of [c.p1, c.p2]) if (t >= p && t < p + c.dur) lvl = c.env[Math.min(c.env.length - 1, Math.floor((t - p) * 30))] || 0;
+    [...$("wave").children].forEach((b, i) => { const w = Math.abs(Math.sin(i * 1.7 + t * 9)) * 0.6 + 0.4; b.style.height = (18 + lvl * 100 * w) + "px"; b.style.opacity = lvl > 0.02 ? "1" : "0.25"; });
+    const inTurn = t >= c.turn - 0.05 && t < c.p2;
+    $("turn").style.opacity = inTurn ? String(ease((t - c.turn + 0.05) / 0.25)) : "0";
+    $("barB").style.width = (inTurn ? Math.min(1, (t - c.turn) / (c.p2 - c.turn)) * 100 : 0) + "%";
+    $("say").style.transform = `scale(${inTurn ? 1 + Math.sin((t - c.turn) * 8) * 0.03 : 1})`;
+  } else $("cardL").style.opacity = "0";
+  // outro
+  const o = ease((t - tl.outro) / 0.5);
+  $("outro").style.opacity = String(t >= tl.outro ? o : 0);
+  $("outro").style.transform = `translateY(${(1 - o) * 80}px)`;
+};
+</script>
+</body></html>
