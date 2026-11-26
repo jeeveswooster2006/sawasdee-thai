@@ -6,7 +6,7 @@ SR = B.SR
 dur = lambda n: len(B.load(n)) / SR
 CFG = {
   "ep":  dict(intro=("xco-ep1", "Ooh la la! On the sixth of January, French families share a special cake. Whoever finds the little lucky charm inside wears the crown! It's called..."), word="w-fr-galette", try_="co2", end="co3", clip=8.0),
-  "rey": dict(intro=("xto-rey1", "Shh! Tonight the Three Kings ride their camels through Spain, and children leave their shoes out for presents! In Spanish we call them..."), word="w-es-reyes", try_="ty2", end="ty3", clip=6.0),
+  "rey": dict(intro=("xto-rey1", "Shh! Tonight the Three Kings ride their camels through Spain, and children leave their shoes out for presents! In Spanish we call them..."), word="w-es-reyes", try_="ty2", end="ty3", clip=5.2),
   "bef": dict(intro=("xlu-bef1", "Awooo! Look! On the night before the sixth of January, a kind old lady flies over Italy and leaves sweets for good children. Here she comes..."), word="w-it-befana", try_="lw2", end="lw3", clip=8.0),
   "kid": dict(intro=("xny-kid1", "Hooray! In Thailand, the second Saturday of January is a special day just for children, with games, treats and bubbles! We call it..."), word="w-th-wandek", try_="ny2", end="nc3", clip=8.0),
 }
