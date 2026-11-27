@@ -91,6 +91,11 @@ Tick items off here (move to the right section's notes) as they're done; add new
 - Left out on purpose: Makha Bucha / Visakha Bucha (religious), San Fermín (bull run, not for kids). Check provisional 2027 dates (Loy Krathong 13 or 14 Nov, Feria 12 or 13 Apr, Venice Carnival 23 Jan-9 Feb) a month before.
 - Metricool: December is full (swap card posts, as on 24 Nov); January onwards has free slots.
 
+## YouTube audience (Paul, 27 Nov 2026: "I don't want any marked it's for kids as I'm not getting views on them")
+- NOTHING goes up marked "made for kids" any more: every TrackMedia upload uses madeForKids false (Shorts and long videos). Frame titles and descriptions for families and parents ("for the whole family", "learn together"), not "for kids"; no #kids tag. Claude flagged once (26-27 Nov) that YouTube's own rules expect cartoon content aimed mainly at children to be made for kids and YouTube can change it back; Paul's choice stands, don't keep raising it.
+- Older uploads still marked made for kids (Christmas Shorts, batch 2/3, Yummy singles, January occasions incl. the two fixed 5/9 Jan copies queued 26 Nov) can only be switched by Paul in YouTube Studio (video → Edit → Audience → No, it's not made for kids).
+- Christmas long video (27 Nov, Paul: "Post"): ten Christmas Shorts joined into a 16:9 3:45 video (blurred-copy background, side panels, chapters), originals social/youtube/christmas/long/ (+ thumbnail.png, build/). SCHEDULED via TrackMedia: private, publishAt Sat 12 Dec 10:00 UK, NOT made for kids, title "Merry Christmas in 5 languages 🎄 Thai, French, Spanish, Italian & English for the whole family". Paul to set the thumbnail in Studio once it is up (TrackMedia can't).
+
 ## YouTube Shorts style (Paul, 20 Nov 2026: "these need to be fun, bright, happy")
 - Every Short is fun, bright and happy: lively music, bouncy mascot movement, cheerful voices, big colourful text, quick pace, a smile or a little joke in each one. Never flat, slow, quiet or "lesson-like".
 - Use the brightest end of the brand kit (marigold, lotus pink, temple teal on mint) with confetti, stars and pops on right answers; no dark or muted screens.
