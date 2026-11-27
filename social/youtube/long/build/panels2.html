@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mitr;font-weight:600;src:url(fonts/mitr-latin-600-normal.woff2)}
+@font-face{font-family:Mitr;font-weight:600;src:url(fonts/mitr-latin-ext-600-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:Mitr;font-weight:500;src:url(fonts/mitr-latin-500-normal.woff2)}
+@font-face{font-family:Mitr;font-weight:500;src:url(fonts/mitr-latin-ext-500-normal.woff2);unicode-range:U+0100-024F,U+1E00-1EFF}
+@font-face{font-family:Sarabun;font-weight:600;src:url(fonts/sarabun-latin-600-normal.woff2)}
+*{margin:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;background:transparent;overflow:hidden;font-family:Sarabun}
+.side{position:absolute;top:0;bottom:0;width:656px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px}
+.l{left:0}.r{right:0}
+.card{background:rgba(255,255,255,.94);border-radius:44px;padding:40px 44px;text-align:center;box-shadow:0 18px 50px rgba(18,59,55,.25);width:540px}
+.flag{font-size:110px;line-height:1;margin-bottom:10px}
+h1{font-family:Mitr;font-weight:600;font-size:62px;line-height:1.06;color:#007767}
+h1 span{color:#E0507A}
+.sub{font-family:Mitr;font-weight:500;font-size:32px;color:#123B37;margin-top:18px;line-height:1.25}
+.langs{font-size:28px;color:#4F6B66;margin-top:16px;font-weight:600;line-height:1.35}
+.trim{height:16px;margin:22px auto 0;width:300px;background:radial-gradient(circle,#007767 6px,transparent 7px) 0 0/48px 16px,radial-gradient(circle,#E0507A 6px,transparent 7px) 16px 0/48px 16px,radial-gradient(circle,#F2A024 6px,transparent 7px) 32px 0/48px 16px}
+.friends{display:flex;justify-content:center;gap:4px;margin-top:6px}
+.friends img{width:96px;height:96px;object-fit:contain}
+.link{font-family:Mitr;font-weight:600;font-size:46px;color:#fff;background:#007767;border-radius:999px;padding:18px 40px;box-shadow:0 10px 0 #005a4e;margin-top:22px;display:inline-block}
+.free{font-family:Mitr;font-weight:500;font-size:30px;color:#123B37;margin-top:24px;line-height:1.25}
+.small{font-family:Mitr;font-weight:500;font-size:27px;color:#4F6B66;margin-top:24px}
+</style></head><body>
+<div class="side l"><div class="card"><div class="flag" id="flag"></div><h1 id="h1"></h1><div class="sub" id="sub"></div><div class="trim"></div><div class="langs" id="langs"></div></div></div>
+<div class="side r"><div class="card"><div class="friends" id="friends"><img src="cut-th.webp"><img src="cut-fr.webp"><img src="cut-es.webp"><img src="cut-it.webp"><img src="cut-en.webp"></div><div class="free" id="rt"></div><div class="link">nongchang.co.uk</div><div class="small">Free · no ads · works on any phone</div></div></div>
+<script>
+const P = JSON.parse(decodeURIComponent(location.hash.slice(1)));
+flag.textContent = P.flag || ""; flag.style.display = P.flag ? "block" : "none";
+h1.innerHTML = P.h1; sub.textContent = P.sub; langs.innerHTML = P.langs; rt.textContent = P.rt;
+friends.style.display = P.friends ? "flex" : "none";
+document.fonts.ready.then(()=>{window.READY=true})
+</script></body></html>
