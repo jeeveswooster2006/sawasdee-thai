@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Mitr;font-weight:600;src:url(fonts/mitr-latin-600-normal.woff2)}
+*{margin:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#EEF5F0;font-family:Mitr}
+.row{position:absolute;left:0;right:0;bottom:0;height:470px;display:flex}
+.row div{flex:1;background-size:cover;background-position:center 40%;border-left:6px solid #fff}
+.row div:first-child{border-left:0}
+.top{position:absolute;left:0;right:0;top:0;height:250px;background:linear-gradient(180deg,#fff,#EEF5F0);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+h1{font-weight:600;font-size:96px;line-height:1;color:#E0507A;letter-spacing:-1px}
+h2{font-weight:600;font-size:56px;color:#007767;margin-top:12px}
+.trim{position:absolute;left:0;right:0;top:244px;height:16px;background:radial-gradient(circle,#007767 6px,transparent 7px) 0 0/48px 16px,radial-gradient(circle,#E0507A 6px,transparent 7px) 16px 0/48px 16px,radial-gradient(circle,#F2A024 6px,transparent 7px) 32px 0/48px 16px;z-index:2}
+</style></head><body>
+<div class="top"><h1>Merry Christmas!</h1><h2>in 5 languages 🎄</h2></div><div class="trim"></div>
+<div class="row"><div style="background-image:url(t-ny.jpg)"></div><div style="background-image:url(t-co.jpg)"></div><div style="background-image:url(t-to.jpg)"></div><div style="background-image:url(t-lu.jpg)"></div><div style="background-image:url(t-le.jpg)"></div></div>
+<script>document.fonts.ready.then(()=>{window.READY=true})</script></body></html>
