@@ -210,17 +210,19 @@ function init4(){ const C=TL.cfg; const col=(k)=>COL[C[k].col];
   s4={host:mascot(C.host,340)};
   const fl=document.createElement('div'); fl.style.cssText=`position:absolute;background:${COL.teal};color:#fff;font-weight:600;font-size:46px;padding:10px 34px;border-radius:999px;white-space:nowrap;box-shadow:0 8px 0 #005a4e`; fl.textContent=C.lang; $('stage').appendChild(fl); s4.flag=fl;
   s4.hook=mk(`<div id="h1" class="big" style="font-size:84px;line-height:1.15">${C.hook[0]}</div><div id="h2" class="big" style="font-size:84px;line-height:1.15;color:${COL.pink};margin-top:20px">${C.hook[1]}</div>`,940,420);
-  const big=(k)=>mk(`<div class="big" style="font-size:190px;line-height:1.05;color:${col(k)}">${C[k].word}</div>
+  const TH=(w)=>/[\u0E00-\u0E7F]/.test(w)?'font-family:Sarabun;':'';
+  const fs=(w,max,room)=>Math.min(max,Math.floor(room/(w.length*0.56)));
+  const big=(k)=>mk(`<div class="big" style="${TH(C[k].word)}font-size:${fs(C[k].word,190,800)}px;line-height:1.15;color:${col(k)}">${C[k].word}</div>${C[k].rom?`<div style="font-family:Sarabun;font-size:64px;color:#4F6B66">${C[k].rom}</div>`:''}
      <div class="big" style="font-size:84px;margin-top:6px">= ${C[k].mean} <span style="font-size:96px">${C[k].emo}</span></div>
      <div class="chip" style="background:${col(k)};font-size:48px;margin-top:22px">${C[k].tip}</div>`,880,600);
   s4.A=big('a'); s4.B=big('b');
-  const mini=(k)=>mk(`<div class="big" style="font-size:78px;color:${col(k)};line-height:1.1">${C[k].word}</div><div style="font-size:46px;font-weight:600">${C[k].emo} ${C[k].mean}</div>`,360,210,'border-radius:38px');
+  const mini=(k)=>mk(`<div class="big" style="${TH(C[k].word)}font-size:${fs(C[k].word,78,330)}px;color:${col(k)};line-height:1.15;white-space:nowrap">${C[k].word}${C[k].rom?` <span style="font-family:Sarabun;font-size:44px;color:#4F6B66">${C[k].rom}</span>`:''}</div><div style="font-size:46px;font-weight:600">${C[k].emo} ${C[k].mean}</div>`,360,210,'border-radius:38px');
   s4.mA=mini('a'); s4.mB=mini('b');
   const vs=document.createElement('div'); vs.className='big'; vs.style.cssText=`position:absolute;font-size:80px;color:${COL.gold};text-shadow:0 6px 0 #fff`; vs.textContent='vs'; $('stage').appendChild(vs); s4.vs=vs;
   const J=C.joke;
   s4.joke=mk(`<div class="big" style="font-size:66px;color:#4F6B66">${J.head}</div>
-    <div id="jg" style="margin-top:26px"><div class="big" style="font-size:76px;color:${COL.teal}">“${J.good}”</div><div style="font-size:54px;font-weight:600">= ${J.goodm}</div></div>
-    <div id="jb" style="margin-top:30px"><div class="big" style="font-size:76px;color:${COL.pink}">“${J.bad}”</div><div style="font-size:54px;font-weight:600">= ${J.badm}</div></div>`,960,640);
+    <div id="jg" style="margin-top:26px"><div class="big" style="${TH(J.good)}font-size:${Math.min(76,Math.floor(880/(J.good.length*0.5)))}px;color:${COL.teal}">“${J.good}”</div><div style="font-size:54px;font-weight:600">= ${J.goodm}</div></div>
+    <div id="jb" style="margin-top:30px"><div class="big" style="${TH(J.bad)}font-size:${Math.min(76,Math.floor(880/(J.bad.length*0.5)))}px;color:${COL.pink}">“${J.bad}”</div><div style="font-size:54px;font-weight:600">= ${J.badm}</div></div>`,960,640);
   s4.q=mk(`<div style="font-size:90px;line-height:1">🔊</div><div id="qw" class="big" style="font-size:150px;line-height:1.1;color:${COL.pink}">???</div>`,760,360);
   s4.ch=['a','b'].map(k=>mk(`<div style="font-size:160px;line-height:1">${C[k].emo}</div><div class="big" style="font-size:60px;margin-top:8px">${C[k].mean}</div>`,380,330));
   const n=document.createElement('div'); n.className='big'; n.style.cssText='position:absolute;font-size:260px;color:#E0507A;text-shadow:0 12px 0 #fff'; $('stage').appendChild(n); s4.num=n;
@@ -249,7 +251,7 @@ function draw4(t){ const C=TL.cfg, M=TL.marks; const a=talk(t,C.host);
     if(t>=M.say){ y=1150; s*= (wordNow&&wordNow.key===k&&t>M.sayA-0.2)?1.18:1; }
     const glow=(t>=M.say&&((k==='a'&&t>=M.sayA&&t<M.sayB)||(k==='b'&&t>=M.sayB)))?`0 0 0 14px ${COL.gold}, 0 12px 0 #D3EFE7`:'0 12px 0 #D3EFE7';
     el.style.boxShadow=glow; show(el,on,x,y+Math.sin(t*4+i)*8,s*(1-(t<M.say?ease((t-M.guess+0.4)/0.3):0)),Math.sin(t*2+i)*3); };
-  miniAt(s4.mA,M.joke-0.3,280,'a',0); miniAt(s4.mB,M.joke-0.3,800,'b',1);
+  miniAt(s4.mA,M.joke-0.3,265,'a',0); miniAt(s4.mB,M.joke-0.3,815,'b',1);
   show(s4.vs,(t>=M.joke-0.3&&t<M.guess-0.1)||(t>=M.say&&live),540,t>=M.say?1150:920,easeBack((t-(t>=M.say?M.say:M.joke-0.3))/0.4)*(1+0.08*Math.sin(t*6)));
   // joke
   const jOut=ease((t-(M.guess-0.4))/0.3);
@@ -260,7 +262,7 @@ function draw4(t){ const C=TL.cfg, M=TL.marks; const a=talk(t,C.host);
   const g0=M.gw-0.3, gEnd=M.say-0.3;
   const asking=wordNow&&t<M.say;
   show(s4.q,t>=g0&&t<gEnd,540,1000,easeBack((t-g0)/0.4)*(1-ease((t-gEnd+0.3)/0.3))*(asking?1+0.05*Math.sin(t*18):1));
-  $('qw').textContent=t>=M.reveal?C[C.ask].word:'???';
+  $('qw').textContent=t>=M.reveal?C[C.ask].word:'???'; $('qw').style.fontFamily=(t>=M.reveal&&/[\u0E00-\u0E7F]/.test(C[C.ask].word))?'Sarabun':''; $('qw').style.fontSize=(t>=M.reveal?Math.min(150,Math.floor(700/(C[C.ask].word.length*0.56))):150)+'px';
   $('qw').style.color=t>=M.reveal?COL[C[C.ask].col]:COL.pink;
   const xs=[300,780];
   s4.ch.forEach((c,i)=>{ const k=['a','b'][i]; const t0=M.choices+i*0.25; let s=t<t0?0:easeBack((t-t0)/0.4), y=1380+Math.sin(t*4+i)*10, x=xs[i], op=1;
