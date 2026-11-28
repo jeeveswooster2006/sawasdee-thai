@@ -102,6 +102,7 @@ Tick items off here (move to the right section's notes) as they're done; add new
 
 ## YouTube Shorts style (Paul, 20 Nov 2026: "these need to be fun, bright, happy")
 - Every Short is fun, bright and happy: lively music, bouncy mascot movement, cheerful voices, big colourful text, quick pace, a smile or a little joke in each one. Never flat, slow, quiet or "lesson-like".
+- **Preferred look (Paul, 28 Nov 2026: "I prefer these styles when credits allow", sending the owl classroom picture and the snowy Lupo Christmas clip):** (1) soft 3D animated mascot clips like the Snowy Christmas set (warm light, real setting, Veo/Omni) and (2) painted storybook illustrations like the owl classroom (warm wood, cushions, chalkboard). Use these whenever credits allow; code-only cards (Sounds alike, Guess the word) are the low-credit fallback. Middle option: one storybook still (~300 credits, limb-checked) with a slow zoom behind the code captions.
 - Use the brightest end of the brand kit (marigold, lotus pink, temple teal on mint) with confetti, stars and pops on right answers; no dark or muted screens.
 - The grown-up framing for "general audience" Shorts stays playful too (curious, jokey), just not addressed to small children.
 
