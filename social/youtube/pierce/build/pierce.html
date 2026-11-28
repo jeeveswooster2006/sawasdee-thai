@@ -1,0 +1,83 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Mitr;font-weight:600;src:url(mitr-latin-600-normal.woff2)}
+@font-face{font-family:Mitr;font-weight:600;src:url(mitr-thai-600-normal.woff2);unicode-range:U+0E01-0E5B}
+@font-face{font-family:Mitr;font-weight:500;src:url(mitr-latin-500-normal.woff2)}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-latin-600-normal.woff2)}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-latin-ext-600-normal.woff2);unicode-range:U+0100-02FF,U+0300-036F}
+@font-face{font-family:Sarabun;font-weight:600;src:url(sarabun-thai-600-normal.woff2);unicode-range:U+0E01-0E5B}
+*{margin:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent;font-family:Mitr,"Noto Color Emoji";color:#123B37}
+.abs{position:absolute}
+.pill{background:#F2A024;color:#fff;font-weight:600;border-radius:999px;white-space:nowrap;box-shadow:0 10px 0 #d98a12;text-shadow:0 4px 0 rgba(0,0,0,.12)}
+.card{background:#fff;border-radius:48px;box-shadow:0 12px 0 #D3EFE7, 0 20px 50px rgba(0,0,0,.18);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#cap{left:60px;right:60px;bottom:150px;background:#fff;border-radius:44px;padding:28px 40px;font-family:Sarabun;font-weight:600;font-size:52px;line-height:1.25;text-align:center;box-shadow:0 10px 0 #D3EFE7, 0 16px 40px rgba(0,0,0,.18);transform-origin:50% 100%}
+.conf{position:absolute;width:24px;height:24px;border-radius:6px}
+.m{position:absolute;border-radius:50%;background:#F6EFE0;border:10px solid #F3E2B0;overflow:hidden;width:190px;height:190px}
+.m img{width:100%;height:100%;display:block}
+#end{position:absolute;inset:0;background:#EEF5F0;display:none;flex-direction:column;align-items:center;justify-content:center}
+.trim{position:absolute;left:0;right:0;height:22px;background:
+ radial-gradient(circle at 16px 11px,#007767 8px,transparent 9px) 0 0/96px 22px repeat-x,
+ radial-gradient(circle at 48px 11px,#E0507A 8px,transparent 9px) 0 0/96px 22px repeat-x,
+ radial-gradient(circle at 80px 11px,#F2A024 8px,transparent 9px) 0 0/96px 22px repeat-x}
+</style></head><body>
+<div id="title" class="abs pill" style="top:100px;left:50%;font-size:72px;padding:16px 52px">Pierce says hello! 👋</div>
+<div id="flag" class="abs pill" style="left:50%;font-size:46px;padding:10px 34px;background:#007767;box-shadow:0 8px 0 #005a4e"></div>
+<div id="word" class="abs card" style="left:50%;width:760px;padding:26px 30px"></div>
+<div id="chips" class="abs" style="left:50%;top:0;width:1000px;display:flex;flex-wrap:wrap;justify-content:center;gap:16px"></div>
+<div id="cap" class="abs"></div>
+<div id="burst"></div>
+<div id="end"><div class="trim" style="top:28px"></div><div class="trim" style="bottom:28px"></div>
+  <div id="eh" style="font-weight:600;font-size:96px">Learn with us!</div>
+  <div id="erow" style="position:relative;width:1000px;height:260px;margin:50px 0"></div>
+  <div id="eu" style="background:#007767;color:#fff;font-weight:600;font-size:74px;padding:20px 50px;border-radius:999px;box-shadow:0 10px 0 #005a4e">nongchang.co.uk</div>
+  <div style="margin-top:36px;font-size:50px;color:#F2A024;font-weight:600">Free · no ads · for the whole family</div>
+  <div style="margin-top:22px;font-size:44px;font-weight:600">Thai · French · Spanish · Italian · English</div>
+  <div id="cta" style="display:none;margin-top:44px;background:#E0507A;color:#fff;font-weight:600;font-size:56px;padding:16px 44px;border-radius:999px;box-shadow:0 10px 0 #b83a5f">👆 Link in bio: try a free lesson!</div>
+</div>
+<script>
+if(new URLSearchParams(location.search).get('cta')==='1') document.getElementById('cta').style.display='block';
+let TL;
+const $=(id)=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const easeBack=(x)=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2);};
+const PAL=['#F2A024','#E0507A','#007767','#5BB8F0','#9B6BEA','#3CB371'];
+function rand(i){const x=Math.sin(i*127.1+11*31.7)*43758.5453;return x-Math.floor(x);}
+function place(el,x,y,s,r=0,op=1){el.style.left=x+'px';el.style.top=y+'px';el.style.transform=`translate(-50%,-50%) scale(${s}) rotate(${r}deg)`;el.style.opacity=op;}
+const burst=[];for(let i=0;i<60;i++){const c=document.createElement('div');c.className='conf';c.style.background=PAL[i%6];c.style.display='none';$('burst').appendChild(c);burst.push({el:c,a:rand(i)*Math.PI*2,v:500+rand(i+50)*1000,r:rand(i+90)*720});}
+const endM=[];['th','fr','es','it','en'].forEach((k)=>{const d=document.createElement('div');d.className='m';d.innerHTML=`<img src="m-${k}.png">`;$('erow').appendChild(d);endM.push(d);});
+const CHIPS=[['สวัสดี','th'],['Bonjour','fr'],['¡Hola!','es'],['Buongiorno','it'],['Hello!','en']];
+const chipEls=CHIPS.map(([w,k],i)=>{const c=document.createElement('div');c.style.cssText=`background:#fff;border-radius:30px;padding:10px 26px;font-weight:600;font-size:${k==='th'?56:50}px;color:${PAL[i%6]};box-shadow:0 8px 0 #D3EFE7,0 12px 30px rgba(0,0,0,.18);font-family:${k==='th'?'Sarabun':'Mitr'}`;c.textContent=w;$('chips').appendChild(c);return c;});
+let shownSeg=-1;
+window.renderAt=function(t){
+  const end=t>=TL.end; $('end').style.display=end?'flex':'none';
+  place($('title'),540,130,end?0:easeBack(t/0.6),Math.sin(t*2.2)*2.5);
+  const si=TL.segs.findIndex(s=>t>=s.start&&t<s.end); const sg=TL.segs[si];
+  // word card
+  if(sg&&sg.kind==='lang'&&t>=sg.w1-0.15&&!end){
+    if(shownSeg!==si){shownSeg=si; $('flag').textContent=sg.flag;
+      $('word').innerHTML=`<div style="font-family:${sg.k==='th'?'Sarabun':'Mitr'};font-weight:600;font-size:${sg.k==='th'?120:110}px;line-height:1.15;color:#007767">${sg.word}</div>`+(sg.rom?`<div style="font-family:Sarabun;font-weight:600;font-size:56px;color:#4F6B66">${sg.rom}</div>`:'')+`<div style="font-weight:600;font-size:48px;color:#E0507A;margin-top:4px">= hello</div>`;}
+    const p=easeBack((t-sg.w1+0.15)/0.45); const saying=TL.clips.some(c=>c.word&&t>c.start&&t<c.start+c.dur+0.05);
+    place($('word'),540,335+$('word').offsetHeight/2,p*(saying?1+0.05*Math.sin(t*16):1),Math.sin(t*2)*1.5);
+    place($('flag'),540,262-12,easeBack((t-sg.w1+0.05)/0.45),0);
+  } else { $('word').style.opacity=0; $('flag').style.opacity=0; }
+  // chips in the finale
+  if(sg&&sg.kind==='group'&&!end){ $('chips').style.opacity=1; $('chips').style.top='205px'; $('chips').style.transform='translateX(-50%)';
+    chipEls.forEach((c,i)=>{const p=easeBack((t-(sg.start+0.4+i*0.35))/0.4); c.style.transform=`scale(${p}) translateY(${Math.sin(t*5+i)*8}px) rotate(${Math.sin(t*3+i)*3}deg)`;});
+  } else $('chips').style.opacity=0;
+  // caption
+  const c=TL.clips.filter(c=>c.text&&t>=c.start-0.1&&t<c.start+c.dur+0.35).pop(); const cap=$('cap');
+  if(!c||end){cap.style.opacity=0;} else { if(cap.dataset.k!==c.name+c.start){cap.dataset.k=c.name+c.start;cap.textContent=c.text;} cap.style.opacity=1; cap.style.transform=`scale(${0.6+0.4*easeBack((t-c.start+0.1)/0.35)})`; }
+  // confetti on each first hello and the finale wave
+  const bt=TL.segs.map(s=>s.kind==='lang'?s.w1:(s.kind==='group'?s.wave:null)).filter(x=>x!=null).filter(x=>t>=x).pop();
+  burst.forEach(b=>{const u=bt==null?-1:t-bt; if(u<0||u>2.2||end){b.el.style.display='none';return;} b.el.style.display='block'; const x=540+Math.cos(b.a)*b.v*u, y=420+Math.sin(b.a)*b.v*u+900*u*u; b.el.style.transform=`translate(${x}px,${y}px) rotate(${b.r*u}deg)`; b.el.style.opacity=clamp(2.2-u);});
+  if(end){const u=t-TL.end; $('eh').style.transform=`scale(${easeBack(u/0.5)}) rotate(${Math.sin(t*3)*2}deg)`;
+    endM.forEach((d,i)=>{d.style.left=(100+i*200)+'px';d.style.top='130px';d.style.transform=`translate(-50%,-50%) scale(${easeBack((u-0.15*i)/0.5)}) translateY(${Math.sin(t*6+i)*14}px)`;});
+    $('eu').style.transform=`scale(${easeBack((u-0.6)/0.5)*(1+0.04*Math.sin(t*5))})`;}
+};
+fetch('tl-pierce.json').then(r=>r.json()).then(async j=>{TL=j;
+  await Promise.all(['600 40px Mitr','500 40px Mitr','600 40px Sarabun','600 40px "Noto Color Emoji"'].map(f=>document.fonts.load(f,'Aa สวัสดี à ¡ 👋🎤')));
+  await Promise.all(['th','fr','es','it','en'].map(k=>{const i=new Image();i.src=`m-${k}.png`;return i.decode().catch(()=>{});}));
+  await document.fonts.ready; renderAt(0); window.READY=true;});
+</script></body></html>
